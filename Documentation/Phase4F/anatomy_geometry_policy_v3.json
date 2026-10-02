@@ -1,0 +1,16 @@
+{
+  "version": "phase4f.geometry-support/3.0.0",
+  "supersedes": "phase4f.geometry-support/2.0.0 body fragment/path representation only",
+  "authority": "JohnBodySupportDiagnosis/README.md and explicit local-region implementation authorisation",
+  "placement_allowance_cm": 0.8,
+  "maximum_reconstructed_seam_gap_cm": 0.8,
+  "numerical_epsilon_cm": 0.00000001,
+  "body_support": "Source-owned oriented closed cycles in a planar arrangement; selected local region and explicit owned holes; unused dangling source traces retained in evidence.",
+  "seams": "True source-boundary terminals, reciprocal unique bounded matching, compatible anchored garment provenance, directionally compatible source endpoints. No endpoint-to-edge guesses or unanchored reconstruction.",
+  "ownership": "Components stay separate unless linked by independently eligible garment seams. All split edges retain original triangle IDs, raw vertex IDs, orientation, source component and provenance. Opposed coincident source directions are ambiguous and cannot certify a boundary.",
+  "role_binding": "Principal shirt/trouser regions bind by existing named garment classification and anatomy family. Unclassified skin retains the v2 independently closed source-loop association, with v3 orientation/holes still required. Footwear requires a separate source-bound semantic ownership record backed by classification evidence, plus same-side source components whose actual triangle footprint covers both accepted foot and ball landmarks. Footprint is association only, never an enclosure or 3D proof. Unbound accessories and wrong garment/side cannot certify support.",
+  "right_thigh_3d_fallback": "none",
+  "finger_policy": "phase4f.geometry-support/2.0.0 unchanged",
+  "unchanged": "Human input, evidence/signatures, identity, side, lengths, uniqueness, collision and all other retained checks; source geometry read-only.",
+  "migration": "Exact legacy results and exact v2 body results retained; explicitly changed-rule evaluation."
+}

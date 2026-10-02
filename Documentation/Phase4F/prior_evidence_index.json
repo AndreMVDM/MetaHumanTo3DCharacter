@@ -1,0 +1,66 @@
+[
+  {
+    "path": "Documentation/Phase4D/Phase4DGuidedLandmarkCorrection.md",
+    "sha256": "a0cec5e73150e8c0d98ab7c3a395bbf7a067a3cc0cbb144b293e0ebb28f87532"
+  },
+  {
+    "path": "Documentation/Phase4E/Phase4ECharacterQualityRefinement.md",
+    "sha256": "2aa033efca2a73cdf0874c287e378d97ccf7db9de91a08becd773aa0c5bead4d"
+  },
+  {
+    "path": "Documentation/Phase3B/Phase3BHeightNormalisationRetargeting.md",
+    "sha256": "53aa05b60381aafacf2c30a4c8c9d7245297d9dcc0e1db63027b1e1b1ca58d5d"
+  },
+  {
+    "path": "Documentation/Phase4A/Phase4AAutoRigInvestigation.md",
+    "sha256": "088bcd9a23bd6100f0059498df1356beff014158e7954409e05438832414bd32"
+  },
+  {
+    "path": "Documentation/Phase4B/Phase4BSemanticJointFitting.md",
+    "sha256": "07f2d898423703e3d083557a321a5f8f7e74105680e1619c95effaebcca05bab"
+  },
+  {
+    "path": "Documentation/Phase4C/Phase4CMetaHumanSemanticDonor.md",
+    "sha256": "ae09fe24b6d8a16f6ebbb7fedec47eab02354d36dcaf04231c0d0edec18dfd36"
+  },
+  {
+    "path": "Documentation/Phase4D/anatomical_validation.json",
+    "sha256": "821040af95e9dd080fbbb4340a182f32fd8224f766d8d5439fde457da519f453"
+  },
+  {
+    "path": "Documentation/Phase4D/current_proposal.json",
+    "sha256": "083ec2ea0c8ec4b7666dfb43a53a066d14d2d008186f6f2f062bb63e132fb49e"
+  },
+  {
+    "path": "Documentation/Phase4D/correction_metrics.json",
+    "sha256": "bccf85550d97fea6e437ca3e518be6bfef551f1009eebb61ca042a23d7d87f54"
+  },
+  {
+    "path": "Documentation/Phase4D/human_ledger_preservation.json",
+    "sha256": "81b67763bfa7cc02ee6fa8a0435a77b120468e805edc5840a61c785d4cd65aad"
+  },
+  {
+    "path": "Documentation/Phase4D/skeleton_construction.json",
+    "sha256": "4ed529a75872f735c2e9288da190598279cee18ea164b5a228c85387dfa6adf4"
+  },
+  {
+    "path": "Documentation/Phase4D/skinning_results.json",
+    "sha256": "76aa600c6ed66118b3040323b001248509b4d10168ab6d61a51993b115c76108"
+  },
+  {
+    "path": "Documentation/Phase4E/final_deformation_summary.json",
+    "sha256": "116ae88962ea6580101c77384af757c6a0f48d745f408e4b1df6f055ab1c1d8b"
+  },
+  {
+    "path": "Documentation/Phase4E/final_finger_validation.json",
+    "sha256": "546abe0fe70e1c920f0a2e66236899ca04fb697de5c37f102ebd2788d2049710"
+  },
+  {
+    "path": "Documentation/Phase4E/surface_contact_dense_validation.json",
+    "sha256": "38a86c6bf16fca54e9d1b761c5103098a07f58cc006a83305ae24db2520a7a1f"
+  },
+  {
+    "path": "Documentation/Phase4E/final_dependency_closure.json",
+    "sha256": "c263766b76b911f9e52f357589984df8a967c077376513456eb3d266059508f9"
+  }
+]

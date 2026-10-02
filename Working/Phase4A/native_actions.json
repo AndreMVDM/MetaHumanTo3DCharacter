@@ -1,0 +1,365 @@
+{
+	"Environment": 
+	{
+		"PATH": "C:\\Users\\Andre\\.codex\\tmp\\arg0\\codex-arg0VFlEzp;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Users\\Andre\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin;C:\\Users\\Andre\\.local\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Andre\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Andre\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Andre\\.dotnet\\tools;C:\\Users\\Andre\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Andre\\AppData\\Local\\Python\\bin;C:\\Users\\Andre\\AppData\\Roaming\\npm;C:\\Users\\Andre\\.diversion\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\Andre\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\Andre\\AppData\\Local\\OpenAI\\Codex\\bin\\56d1c54034a4a372;C:\\Users\\Andre\\AppData\\Local\\OpenAI\\Codex\\bin\\c6fe824d725f02d7",
+		"PGO_PATH_TRANSLATION": "D:\\Epic Games\\UE_5.8=ROOT;E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost=NATIVEHOST;Z:\\UEVFS\\NativeHost=NATIVEHOST;Z:\\UEVFS\\Root=ROOT",
+		"VC_COMPILER_PATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+		"VC_TOOLCHAIN_DIR": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64",
+		"VC_COMPILER_DIR": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64"
+	},
+	"Actions": [
+		{
+			"Id": 0,
+			"Type": "Compile",
+			"ArtifactMode": "Enabled, AbsolutePath",
+			"WorkingDirectory": "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+			"CommandPath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"CommandArguments": "@\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.obj.rsp\" ",
+			"ResponseFileContents": [
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Source/Phase4ATools/Private/Phase4ALibrary.cpp\"",
+				"@\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ATools.Shared.rsp\"",
+				"/FI\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h\"",
+				"/FI\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Definitions.Phase4ATools.h\"",
+				"/Yu\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h\"",
+				"/Fp\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch\"",
+				"/Fo\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.obj\"",
+				"/experimental:log \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.sarif\"",
+				"/sourceDependencies \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.dep.json\""
+			],
+			"CommandVersion": "14.51.36256",
+			"CommandDescription": "Compile [x64]",
+			"StatusDescription": "Phase4ALibrary.cpp",
+			"bCanExecuteRemotely": true,
+			"bCanExecuteRemotelyWithSNDBS": true,
+			"bCanExecuteRemotelyWithXGE": true,
+			"bCanExecuteInUBA": true,
+			"bCanExecuteInUBACrossArchitecture": false,
+			"bIsClangCompiler": false,
+			"bDeleteProducedItemsOnError": false,
+			"bForceWarningsAsError": false,
+			"bShouldOutputStatusDescription": false,
+			"bShouldOutputLog": true,
+			"bProducesImportLibrary": false,
+			"Weight": 1,
+			"CacheBucket": 1016966608,
+			"PrerequisiteActions": [
+			],
+			"ProducedItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\Phase4ALibrary.cpp.obj",
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\Phase4ALibrary.cpp.sarif",
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\Phase4ALibrary.cpp.dep.json"
+			],
+			"DeleteItems": [
+			],
+			"RootPaths": 
+			{
+				"Lookup": [
+					{
+						"Root": "Project",
+						"Path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost"
+					},
+					{
+						"Root": "Root",
+						"Path": "D:\\Epic Games\\UE_5.8",
+						"Name": ""
+					},
+					{
+						"Root": "Compiler",
+						"Path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231"
+					},
+					{
+						"Root": "WinSDK",
+						"Path": "C:\\Program Files (x86)\\Windows Kits\\10",
+						"Name": ""
+					}
+				],
+				"Names": [
+					{
+						"Root": "Compiler",
+						"Name": "MSVC"
+					},
+					{
+						"Root": "Project",
+						"Name": "NativeHost"
+					}
+				],
+				"bUseVfs": false
+			},
+			"DependencyListFile": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\Phase4ALibrary.cpp.dep.json"
+		},
+		{
+			"Id": 1,
+			"Type": "Link",
+			"ArtifactMode": "Enabled",
+			"WorkingDirectory": "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+			"CommandPath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe",
+			"CommandArguments": "@\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/UnrealEditor-Phase4ATools.dll.rsp\"",
+			"ResponseFileContents": [
+				"/MANIFEST:NO",
+				"/NOLOGO",
+				"/DEBUG:FULL",
+				"/errorReport:prompt",
+				"/MACHINE:x64",
+				"/SUBSYSTEM:WINDOWS",
+				"/FIXED:No",
+				"/NXCOMPAT",
+				"/STACK:12000000",
+				"/DELAY:UNLOAD",
+				"/DLL",
+				"/PDBALTPATH:%_PDB%",
+				"/d2:-ExtendedWarningInfo",
+				"/OPT:NOREF",
+				"/OPT:NOICF",
+				"/INCREMENTAL:NO",
+				"/ignore:4199",
+				"/ignore:4099",
+				"/ALTERNATENAME:__imp___std_init_once_begin_initialize=__imp_InitOnceBeginInitialize",
+				"/ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete",
+				"/DELAYLOAD:\"d3d12.dll\"",
+				"/DELAYLOAD:\"DBGHELP.DLL\"",
+				"/LIBPATH:\"C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/lib/x64\"",
+				"/LIBPATH:\"C:/Program Files (x86)/Windows Kits/10/lib/10.0.26100.0/ucrt/x64\"",
+				"/LIBPATH:\"C:/Program Files (x86)/Windows Kits/10/lib/10.0.26100.0/um/x64\"",
+				"/NODEFAULTLIB:\"LIBCMT\"",
+				"/NODEFAULTLIB:\"LIBCPMT\"",
+				"/NODEFAULTLIB:\"LIBCMTD\"",
+				"/NODEFAULTLIB:\"LIBCPMTD\"",
+				"/NODEFAULTLIB:\"MSVCRTD\"",
+				"/NODEFAULTLIB:\"MSVCPRTD\"",
+				"/NODEFAULTLIB:\"LIBC\"",
+				"/NODEFAULTLIB:\"LIBCP\"",
+				"/NODEFAULTLIB:\"LIBCD\"",
+				"/NODEFAULTLIB:\"LIBCPD\"",
+				"/FUNCTIONPADMIN:6",
+				"/NOIMPLIB",
+				"/NOEXP",
+				"/NATVIS:\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/GeometryCore/GeometryCore.natvis\"",
+				"/NATVIS:\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AssetRegistry/AssetRegistry.natvis\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Module.Phase4ATools.cpp.obj\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.obj\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Default.rc2.res\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/GeometryFramework/UnrealEditor-GeometryFramework.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/GeometryCore/UnrealEditor-GeometryCore.lib\"",
+				"\"../Plugins/Runtime/GeometryProcessing/Intermediate/Build/Win64/x64/UnrealEditor/Development/GeometryAlgorithms/UnrealEditor-GeometryAlgorithms.lib\"",
+				"\"../Plugins/Runtime/GeometryProcessing/Intermediate/Build/Win64/x64/UnrealEditor/Development/DynamicMesh/UnrealEditor-DynamicMesh.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/MeshDescription/UnrealEditor-MeshDescription.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/SkeletalMeshDescription/UnrealEditor-SkeletalMeshDescription.lib\"",
+				"\"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AssetRegistry/UnrealEditor-AssetRegistry.lib\"",
+				"\"delayimp.lib\"",
+				"\"wininet.lib\"",
+				"\"rpcrt4.lib\"",
+				"\"ws2_32.lib\"",
+				"\"dbghelp.lib\"",
+				"\"comctl32.lib\"",
+				"\"Winmm.lib\"",
+				"\"kernel32.lib\"",
+				"\"user32.lib\"",
+				"\"gdi32.lib\"",
+				"\"winspool.lib\"",
+				"\"comdlg32.lib\"",
+				"\"advapi32.lib\"",
+				"\"shell32.lib\"",
+				"\"ole32.lib\"",
+				"\"oleaut32.lib\"",
+				"\"uuid.lib\"",
+				"\"odbc32.lib\"",
+				"\"odbccp32.lib\"",
+				"\"netapi32.lib\"",
+				"\"iphlpapi.lib\"",
+				"\"setupapi.lib\"",
+				"\"synchronization.lib\"",
+				"\"dwmapi.lib\"",
+				"\"imm32.lib\"",
+				"/OUT:\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Binaries/Win64/UnrealEditor-Phase4ATools.dll\"",
+				"/PDB:\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Binaries/Win64/UnrealEditor-Phase4ATools.pdb\"",
+				"/ignore:4078"
+			],
+			"CommandVersion": "14.51.36256",
+			"CommandDescription": "Link [x64]",
+			"StatusDescription": "UnrealEditor-Phase4ATools.dll",
+			"bCanExecuteRemotely": true,
+			"bCanExecuteRemotelyWithSNDBS": false,
+			"bCanExecuteRemotelyWithXGE": true,
+			"bCanExecuteInUBA": true,
+			"bCanExecuteInUBACrossArchitecture": true,
+			"bIsClangCompiler": false,
+			"bDeleteProducedItemsOnError": false,
+			"bForceWarningsAsError": false,
+			"bShouldOutputStatusDescription": true,
+			"bShouldOutputLog": true,
+			"bProducesImportLibrary": true,
+			"Weight": 1,
+			"CacheBucket": 416513229,
+			"PrerequisiteActions": [
+				0
+			],
+			"ProducedItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Binaries\\Win64\\UnrealEditor-Phase4ATools.dll",
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Binaries\\Win64\\UnrealEditor-Phase4ATools.pdb"
+			],
+			"DeleteItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Binaries\\Win64\\UnrealEditor-Phase4ATools.pdb"
+			],
+			"RootPaths": 
+			{
+				"Lookup": [
+					{
+						"Root": "Project",
+						"Path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost"
+					},
+					{
+						"Root": "Root",
+						"Path": "D:\\Epic Games\\UE_5.8",
+						"Name": ""
+					},
+					{
+						"Root": "Compiler",
+						"Path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231"
+					},
+					{
+						"Root": "WinSDK",
+						"Path": "C:\\Program Files (x86)\\Windows Kits\\10",
+						"Name": ""
+					}
+				],
+				"Names": [
+					{
+						"Root": "Compiler",
+						"Name": "MSVC"
+					},
+					{
+						"Root": "Project",
+						"Name": "NativeHost"
+					}
+				],
+				"bUseVfs": false
+			}
+		},
+		{
+			"Id": 2,
+			"Type": "Link",
+			"ArtifactMode": "Enabled",
+			"WorkingDirectory": "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+			"CommandPath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe",
+			"CommandArguments": "/LIB @\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/UnrealEditor-Phase4ATools.lib.rsp\"",
+			"ResponseFileContents": [
+				"/NOLOGO",
+				"/errorReport:prompt",
+				"/MACHINE:x64",
+				"/SUBSYSTEM:WINDOWS",
+				"/experimental:deterministic",
+				"/DEF",
+				"/NAME:\"UnrealEditor-Phase4ATools.dll\"",
+				"/IGNORE:4221",
+				"/NODEFAULTLIB",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Module.Phase4ATools.cpp.obj\"",
+				"\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/Phase4ALibrary.cpp.obj\"",
+				"/OUT:\"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/UnrealEditor-Phase4ATools.lib\""
+			],
+			"CommandVersion": "14.51.36256",
+			"CommandDescription": "Link [x64]",
+			"StatusDescription": "UnrealEditor-Phase4ATools.lib",
+			"bCanExecuteRemotely": true,
+			"bCanExecuteRemotelyWithSNDBS": false,
+			"bCanExecuteRemotelyWithXGE": true,
+			"bCanExecuteInUBA": true,
+			"bCanExecuteInUBACrossArchitecture": true,
+			"bIsClangCompiler": false,
+			"bDeleteProducedItemsOnError": false,
+			"bForceWarningsAsError": false,
+			"bShouldOutputStatusDescription": true,
+			"bShouldOutputLog": true,
+			"bProducesImportLibrary": true,
+			"Weight": 1,
+			"CacheBucket": 416513229,
+			"PrerequisiteActions": [
+				0
+			],
+			"ProducedItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\UnrealEditor-Phase4ATools.lib"
+			],
+			"DeleteItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\Phase4ATools\\UnrealEditor-Phase4ATools.lib"
+			],
+			"RootPaths": 
+			{
+				"Lookup": [
+					{
+						"Root": "Project",
+						"Path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost"
+					},
+					{
+						"Root": "Root",
+						"Path": "D:\\Epic Games\\UE_5.8",
+						"Name": ""
+					},
+					{
+						"Root": "Compiler",
+						"Path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231"
+					},
+					{
+						"Root": "WinSDK",
+						"Path": "C:\\Program Files (x86)\\Windows Kits\\10",
+						"Name": ""
+					}
+				],
+				"Names": [
+					{
+						"Root": "Compiler",
+						"Name": "MSVC"
+					},
+					{
+						"Root": "Project",
+						"Name": "NativeHost"
+					}
+				],
+				"bUseVfs": false
+			}
+		},
+		{
+			"Id": 3,
+			"Type": "WriteMetadata",
+			"ArtifactMode": "None",
+			"WorkingDirectory": "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+			"CommandPath": "D:\\Epic Games\\UE_5.8\\Engine\\Binaries\\ThirdParty\\DotNet\\10.0\\win-x64\\dotnet.exe",
+			"CommandArguments": "\"D:\\Epic Games\\UE_5.8\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool.dll\" -Session=\"Phase4A\" -Mode=WriteMetadata -Input=\"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Intermediate\\Build\\Win64\\x64\\UnrealEditor\\Development\\TargetMetadata.json\" -Version=2",
+			"ResponseFileContents": [
+			],
+			"CommandVersion": "0",
+			"CommandDescription": "WriteMetadata",
+			"StatusDescription": "UnrealEditor.target",
+			"bCanExecuteRemotely": false,
+			"bCanExecuteRemotelyWithSNDBS": false,
+			"bCanExecuteRemotelyWithXGE": true,
+			"bCanExecuteInUBA": false,
+			"bCanExecuteInUBACrossArchitecture": true,
+			"bIsClangCompiler": false,
+			"bDeleteProducedItemsOnError": false,
+			"bForceWarningsAsError": false,
+			"bShouldOutputStatusDescription": true,
+			"bShouldOutputLog": true,
+			"bProducesImportLibrary": false,
+			"Weight": 1,
+			"CacheBucket": 0,
+			"PrerequisiteActions": [
+				1,
+				2
+			],
+			"ProducedItems": [
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Binaries\\Win64\\UnrealEditor.target",
+				"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Binaries\\Win64\\UnrealEditor.modules"
+			],
+			"DeleteItems": [
+			],
+			"RootPaths": 
+			{
+				"bUseVfs": false
+			}
+		}
+	]
+}

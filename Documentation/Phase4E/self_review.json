@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "workflow": "Level1 single-agent self-review",
+  "report_sections": 23,
+  "missing_evidence_links": [],
+  "required_verified_artifacts": [
+    "baseline_asset_readback.json",
+    "candidate_asset_publication.json",
+    "surface_contact_native_bake.json",
+    "native_visual_capture.json",
+    "native_stress_visual_capture.json",
+    "native_contact_visual_capture.json",
+    "source_independent_playback.json",
+    "contact_native_playback.json",
+    "final_dependency_closure.json",
+    "protected_file_audit.json"
+  ],
+  "skeleton_geometry_uv_and_weights": "fresh UE reload verified",
+  "metric_claims": "final saved-weight 34-pose and 244-native-pose data; averages and reach area-collapse regression both reported",
+  "contact_claims": "60 Hz final bake,120 Hz dense evaluation,static sole probes,no actor/root offset; interpolation and planting limits disclosed",
+  "finger_claims": "9/10 final support; rejected alternatives; natural thumb unproven; no relaxed threshold",
+  "product_decision": "no polished plugin/UI go; no evidence full conventional painting is fundamentally required",
+  "failed_experiments": "Raw-track API and intermediate save/capture failures retained, not asserted as successful; final acceptance uses passed manifests",
+  "limits": "Self-review is not independent artistic approval or cooked/clean-project testing"
+}

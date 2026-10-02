@@ -1,0 +1,46 @@
+[
+  {
+    "group": "resize",
+    "pattern": "auto.?resiz|character.?resiz|body.?resiz|mesh.?resiz|metahuman.?resiz|resiz",
+    "roots": [
+      "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+      "D:\\Epic Games\\UE_5.8\\Engine\\Plugins"
+    ],
+    "exit_code": 0,
+    "matching_lines": 18768,
+    "stderr": ""
+  },
+  {
+    "group": "fit",
+    "pattern": "conform|fit.?body|body.?fit|mesh.?fit|fit.?mesh|template.?fit|wrap|morph.?fit",
+    "roots": [
+      "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+      "D:\\Epic Games\\UE_5.8\\Engine\\Plugins"
+    ],
+    "exit_code": 0,
+    "matching_lines": 42765,
+    "stderr": ""
+  },
+  {
+    "group": "proportions_scale",
+    "pattern": "body.?proportion|character.?proportion|skeleton.?proportion|skeletal.?mesh.?scale|mesh.?scale|importuniformscale",
+    "roots": [
+      "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+      "D:\\Epic Games\\UE_5.8\\Engine\\Plugins"
+    ],
+    "exit_code": 0,
+    "matching_lines": 627,
+    "stderr": ""
+  },
+  {
+    "group": "identity",
+    "pattern": "auto.?rig|characterization|metahuman.?identity|metahuman.?creator|mesh.?to.?metahuman|metahuman.?animator|body.?dna|template.?mesh|body.?template|mesh.?correspondence|landmark|neutral.?pose|identity.?solve|\\bDNA\\b",
+    "roots": [
+      "D:\\Epic Games\\UE_5.8\\Engine\\Source",
+      "D:\\Epic Games\\UE_5.8\\Engine\\Plugins"
+    ],
+    "exit_code": 0,
+    "matching_lines": 14702,
+    "stderr": ""
+  }
+]

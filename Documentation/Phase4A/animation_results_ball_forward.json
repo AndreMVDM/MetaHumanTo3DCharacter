@@ -1,0 +1,116 @@
+[
+  {
+    "case": "Unrigged",
+    "classification": "Assisted geometry-landmark control; diagnostic animations pending deformation acceptance",
+    "auto_characterisation": true,
+    "ik_rig": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/IK_Lara.IK_Lara",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/RTG_Manny_Lara.RTG_Manny_Lara",
+    "clips": {
+      "FK_idle": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_walk": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_run": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_reach": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_idle": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_walk": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_run": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_reach": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      }
+    }
+  },
+  {
+    "case": "MixamoRecovered",
+    "classification": "Assisted geometry-landmark control; diagnostic animations pending deformation acceptance",
+    "auto_characterisation": true,
+    "ik_rig": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/IK_Lara.IK_Lara",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/RTG_Manny_Lara.RTG_Manny_Lara",
+    "clips": {
+      "FK_idle": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_walk": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_run": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "FK_reach": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_idle": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_walk": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_run": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      },
+      "Full_reach": {
+        "path": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks",
+        "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara.SKEL_Lara",
+        "samples": 25,
+        "finite": true
+      }
+    }
+  }
+]

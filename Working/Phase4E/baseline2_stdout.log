@@ -1,0 +1,168 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.10.01-11.11.17:741][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.01-11.11.17:741][  0]LogCore: Warning: UTS: Timed out waiting for the Unreal Trace Server process to start
+[2026.10.01-11.11.17:741][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.01-11.11.17:741][  0]LogTrace: Display: Control listening on port 1985
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -EnablePlugins=GeometryScripting,SkeletalMeshModelingTools -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_baseline.py -unattended -nosplash -nullrhi -DDC=InstalledNoZenLocalFallback -LocalDataCachePath=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/DDC -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/baseline2.log""
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.01-11.11.17:741][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.01-11.11.17:741][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading IOS ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading Mac ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading Android ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading Windows ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading Unix ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading Linux ini files took 0.04 seconds
+[2026.10.01-11.11.17:741][  0]LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2026.10.01-11.11.17:741][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.01-11.11.17:741][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-11.11.17:741][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-11.11.17:741][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-11.11.17:741][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-11.11.17:742][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-11.11.17:742][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-11.11.17:742][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-11.11.17:742][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=366MiB, MaxMemoryAvailable=102094MiB
+[2026.10.01-11.11.17:742][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.01-11.11.17:742][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.01-11.11.17:742][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.01-11.11.17:742][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-11.11.17:992][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.01-11.11.18:067][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.01-11.11.18:074][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.01-11.11.18:074][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.01-11.11.18:074][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.01-11.11.18:074][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.01-11.11.18:093][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.01-11.11.18:101][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.01-11.11.18:111][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.01-11.11.18:120][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.01-11.11.18:121][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.01-11.11.18:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.01-11.11.18:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.01-11.11.18:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.01-11.11.18:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.01-11.11.18:131][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.01-11.11.18:133][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.01-11.11.18:361][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.01-11.11.18:365][  0]LogDerivedDataCache: Display: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/DDC: Performance: Latency=0.01ms. RandomReadSpeed=1897.72MBs, RandomWriteSpeed=469.85MBs. Assigned SpeedClass 'Local'
+[2026.10.01-11.11.18:367][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.01-11.11.18:367][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.01-11.11.18:367][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.01-11.11.18:374][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.01-11.11.18:374][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-11.11.18:670][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.01-11.11.18:848][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.01-11.11.18:848][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.01-11.11.18:880][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.01-11.11.18:882][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.01-11.11.18:894][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.01-11.11.18:894][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.01-11.11.18:894][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.01-11.11.18:909][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.01-11.11.18:909][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.01-11.11.18:909][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.01-11.11.18:909][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.01-11.11.18:998][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.01-11.11.18:998][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-11.11.18:998][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.01-11.11.18:998][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.01-11.11.19:050][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.01-11.11.19:052][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.769 ms
+[2026.10.01-11.11.19:389][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.01-11.11.19:391][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.01-11.11.19:759][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-11.11.19:759][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-11.11.19:892][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.01-11.11.19:894][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.01-11.11.19:894][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-11.11.19:895][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.01-11.11.19:895][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.01-11.11.19:965][  0]LogAssetRegistry: Display: Asset registry cache read as 119.5 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_7610412B4ADDD958D0CE2E9E2AC8D0C4.bin (memory-mapped=yes)
+[2026.10.01-11.11.19:965][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.071s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.01-11.11.19:984][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.01-11.11.20:014][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.01-11.11.20:220][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.01-11.11.20:322][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.01-11.11.20:328][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 6.267 ms
+[2026.10.01-11.11.20:328][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.01-11.11.20:342][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 13.245 ms (total: 19.513 ms)
+[2026.10.01-11.11.20:342][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_baseline.py
+[2026.10.01-11.11.20:406][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara) ...
+[2026.10.01-11.11.22:013][  0]LogStaticMesh: Display: Building static mesh SM_Lara180 (Required Memory Estimate: 77.651196 MB)...
+[2026.10.01-11.11.22:029][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MetaHumanTo3DCharacter/Phase4D/Geometry/SM_Lara180) ...
+[2026.10.01-11.11.22:803][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.10.01-11.11.22:807][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.10.01-11.11.22:808][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.10.01-11.11.22:813][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MannyFingerIdentity.MannyFingerIdentity (Required Memory Estimate: 52.77 MB)
+[2026.10.01-11.11.22:818][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MannyFingerIdentity.MannyFingerIdentity:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.22:820][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MannyFingerIdentity.MannyFingerIdentity (Required Memory Estimate: 52.77 MB)
+[2026.10.01-11.11.22:826][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.10.01-11.11.22:829][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.22:831][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.10.01-11.11.22:844][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.22:855][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.22:888][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/0cebeb3ebb690ddc2b46ea533be6331452fe28ef
+[2026.10.01-11.11.22:889][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.10.01-11.11.22:890][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.10.01-11.11.22:890][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.10.01-11.11.22:890][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.10.01-11.11.22:920][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/0cebeb3ebb690ddc2b46ea533be6331452fe28ef
+[2026.10.01-11.11.23:014][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/ef44b76e7982977074c1cb48f1042ebc7072e269
+[2026.10.01-11.11.23:039][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/ef44b76e7982977074c1cb48f1042ebc7072e269
+[2026.10.01-11.11.23:040][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MannyFingerIdentity.MannyFingerIdentity, at AnimationSequence/d99569fb7e6b13ef1e99d0157f95219c17803bc9
+[2026.10.01-11.11.23:058][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/JumpingJacks.JumpingJacks, at AnimationSequence/565affbe4326a03a8708808756d8881888446416
+[2026.10.01-11.11.23:078][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/JumpingJacks.JumpingJacks, at AnimationSequence/565affbe4326a03a8708808756d8881888446416
+[2026.10.01-11.11.23:082][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MannyFingerIdentity.MannyFingerIdentity, at AnimationSequence/d99569fb7e6b13ef1e99d0157f95219c17803bc9
+[2026.10.01-11.11.23:102][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Authoring) ...
+[2026.10.01-11.11.23:141][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Idle.MM_Idle, at AnimationSequence/235b5af342c73ac540a1c289c250341124116691
+[2026.10.01-11.11.23:160][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Idle.MM_Idle, at AnimationSequence/235b5af342c73ac540a1c289c250341124116691
+[2026.10.01-11.11.23:870][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.01-11.11.23:870][  0]LogInit: Display: 
+[2026.10.01-11.11.23:870][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.01-11.11.23:870][  0]LogInit: Display: -----------------------------------
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MannyFingerIdentity.MannyFingerIdentity:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.23:870][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4E/Character/Animations/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.10.01-11.11.23:870][  0]LogInit: Display: 
+[2026.10.01-11.11.23:870][  0]LogInit: Display: Success - 0 error(s), 6 warning(s)
+[2026.10.01-11.11.23:871][  0]LogInit: Display: 
+
+Execution of commandlet took:  3.55 seconds, PeakPhysMemoryMB=2236 MB, PeakVirtMemoryMB=2195 MB
+[2026.10.01-11.11.23:953][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.01-11.11.23:955][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.01-11.11.23:955][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-11.11.24:125][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

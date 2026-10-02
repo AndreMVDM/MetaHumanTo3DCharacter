@@ -1,0 +1,12 @@
+{
+  "id": 90,
+  "utc_epoch": 1790866564.588934,
+  "kind": "assign",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "assign",
+    "side": "l",
+    "digit": "thumb",
+    "track_id": "digit_branch_5_l"
+  }
+}

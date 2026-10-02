@@ -1,0 +1,6 @@
+ACTION 0 Compile
+Phase4ALibrary.cpp
+ACTION 1 Link
+ACTION 2 Link
+   Creating library E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/UnrealEditor-Phase4ATools.lib and object E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/NativeHost/Plugins/Phase4ATools/Intermediate/Build/Win64/x64/UnrealEditor/Development/Phase4ATools/UnrealEditor-Phase4ATools.exp
+ACTION 3 WriteMetadata

@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "measured_results": {},
+  "corrections": [
+    {
+      "chain": "LeftLeg",
+      "from_end": "foot_l",
+      "to_end": "ball_l",
+      "goal_end_matched": true,
+      "kind": "established ball endpoint policy; no anatomical edit"
+    },
+    {
+      "chain": "RightLeg",
+      "from_end": "foot_r",
+      "to_end": "ball_r",
+      "goal_end_matched": true,
+      "kind": "established ball endpoint policy; no anatomical edit"
+    }
+  ],
+  "auto_characterisation": true,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/retarget_accepted.py\", line 16, in <module>\n    rig=rig_snapshot(ik);row['rig']=rig\n        ^^^^^^^^^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\ue_common_d.py\", line 57, in rig_snapshot\n    row={'index':i,'enabled':ctl.get_solver_enabled(i),'start':str(ctl.get_start_bone(i)),'controller':props(s),'settings':props(s.get_solver_settings()) if hasattr(s,'get_solver_settings') else None}\n                                                                                                       ^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\ue_common_d.py\", line 35, in props\n    for name in re.findall(r'- ``([^`]+)``',type(obj).__doc__ or ''):\n                ^^\nNameError: name 're' is not defined\n"
+}

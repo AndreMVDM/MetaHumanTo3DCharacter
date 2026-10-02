@@ -1,0 +1,6 @@
+{
+  "errors": [],
+  "camera_rotation": "<Struct 'Rotator' (0x0000027E7FF81A00) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+  "player_start_location": "<Struct 'Vector' (0x0000027E7FF81A00) {x: 900.000000, y: 0.000000, z: 115.000000}>",
+  "saved": true
+}

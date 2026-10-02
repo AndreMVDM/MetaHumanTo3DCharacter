@@ -1,0 +1,318 @@
+{
+  "status": "passed",
+  "live_animation_motion_observed": [
+    {
+      "role": "idle",
+      "samples": 25,
+      "component_position_range_diagonal_cm": {
+        "pelvis": 1.0267360393606897,
+        "hand_l": 6.767907815572486,
+        "hand_r": 3.9503820292480767,
+        "foot_l": 0.18085040968387717,
+        "foot_r": 0.17862825301831667,
+        "thumb_03_l": 6.883111742147429,
+        "index_03_l": 7.381040995591338,
+        "middle_03_l": 7.304154079931911,
+        "ring_03_l": 7.158337797808629,
+        "pinky_03_l": 6.964897797376368,
+        "thumb_03_r": 3.9568054224050373,
+        "index_03_r": 4.150314976841283,
+        "middle_03_r": 4.102804843472679,
+        "ring_03_r": 4.187928949260883,
+        "pinky_03_r": 4.279551805222024
+      },
+      "motion_observed": true
+    },
+    {
+      "role": "walk",
+      "samples": 25,
+      "component_position_range_diagonal_cm": {
+        "pelvis": 11.03120211068987,
+        "hand_l": 61.48159261761839,
+        "hand_r": 57.553785784580036,
+        "foot_l": 99.72068509108936,
+        "foot_r": 106.9113624121408,
+        "thumb_03_l": 66.55743312040798,
+        "index_03_l": 76.27470138410163,
+        "middle_03_l": 74.19701747707916,
+        "ring_03_l": 72.62965842726896,
+        "pinky_03_l": 69.64075486416765,
+        "thumb_03_r": 63.774753616598524,
+        "index_03_r": 72.66066464027374,
+        "middle_03_r": 71.70851479271862,
+        "ring_03_r": 70.61129588229917,
+        "pinky_03_r": 67.1671699162078
+      },
+      "motion_observed": true
+    },
+    {
+      "role": "run",
+      "samples": 25,
+      "component_position_range_diagonal_cm": {
+        "pelvis": 9.862270685694938,
+        "hand_l": 60.60517318163677,
+        "hand_r": 50.93422861824984,
+        "foot_l": 117.37368394816592,
+        "foot_r": 125.50486583546633,
+        "thumb_03_l": 60.149464188713615,
+        "index_03_l": 65.80553980812624,
+        "middle_03_l": 67.16387164883591,
+        "ring_03_l": 67.83450314164278,
+        "pinky_03_l": 70.41027813305979,
+        "thumb_03_r": 51.30644762915262,
+        "index_03_r": 61.85695893119414,
+        "middle_03_r": 60.28738610052365,
+        "ring_03_r": 58.10399097156925,
+        "pinky_03_r": 59.033534331582004
+      },
+      "motion_observed": true
+    },
+    {
+      "role": "reach",
+      "samples": 25,
+      "component_position_range_diagonal_cm": {
+        "pelvis": 39.056853189887434,
+        "hand_l": 119.72577800277277,
+        "hand_r": 122.8058190275182,
+        "foot_l": 58.57687716296485,
+        "foot_r": 65.1478456078952,
+        "thumb_03_l": 132.16099494642512,
+        "index_03_l": 142.84350987601312,
+        "middle_03_l": 141.16434296229934,
+        "ring_03_l": 138.2683282354445,
+        "pinky_03_l": 133.13460613194312,
+        "thumb_03_r": 137.34710207827789,
+        "index_03_r": 148.35988727175888,
+        "middle_03_r": 147.39458205550665,
+        "ring_03_r": 144.92590841987172,
+        "pinky_03_r": 139.84041643266684
+      },
+      "motion_observed": true
+    },
+    {
+      "role": "independent_fingers",
+      "samples": 25,
+      "component_position_range_diagonal_cm": {
+        "pelvis": 0.0,
+        "hand_l": 0.0,
+        "hand_r": 0.0,
+        "foot_l": 0.0,
+        "foot_r": 0.0,
+        "thumb_03_l": 2.631878564239852,
+        "index_03_l": 4.840455757414382,
+        "middle_03_l": 4.76447904030744,
+        "ring_03_l": 4.597790017655124,
+        "pinky_03_l": 2.4977865000522517,
+        "thumb_03_r": 2.4594043000173214,
+        "index_03_r": 4.913482292929736,
+        "middle_03_r": 4.658014865948443,
+        "ring_03_r": 4.645271352996093,
+        "pinky_03_r": 3.0809274411605755e-07
+      },
+      "motion_observed": true
+    }
+  ],
+  "baked_pose_summaries": [
+    {
+      "role": "idle",
+      "pelvis_component_min_cm": [
+        0.8967548993471297,
+        -1.1238200538077479,
+        99.0153288662192
+      ],
+      "pelvis_component_max_cm": [
+        1.7540017052030805,
+        -0.309187937545218,
+        99.3967815462756
+      ],
+      "limb_segments": {
+        "arm_l": {
+          "minimum_segment_cm": 25.57356452941894,
+          "maximum_segment_length_variation_cm": 6.039613253960852e-14
+        },
+        "leg_l": {
+          "minimum_segment_cm": 42.5512351989746,
+          "maximum_segment_length_variation_cm": 5.684341886080802e-14
+        },
+        "arm_r": {
+          "minimum_segment_cm": 24.650226593017575,
+          "maximum_segment_length_variation_cm": 6.750155989720952e-14
+        },
+        "leg_r": {
+          "minimum_segment_cm": 42.60625839233397,
+          "maximum_segment_length_variation_cm": 6.394884621840902e-14
+        }
+      },
+      "bend_angle_range_degrees": {
+        "arm_l": [
+          22.120771118713673,
+          26.131704454052837
+        ],
+        "leg_l": [
+          18.552017029497073,
+          20.730182341534395
+        ],
+        "arm_r": [
+          28.09928782359877,
+          29.731189884091606
+        ],
+        "leg_r": [
+          14.889961025010022,
+          16.42863154221718
+        ]
+      },
+      "no_zero_length_limb": true
+    },
+    {
+      "role": "walk",
+      "pelvis_component_min_cm": [
+        -2.1714687364901977,
+        -4.73014161281219,
+        88.59097488079426
+      ],
+      "pelvis_component_max_cm": [
+        1.8354981667667545,
+        2.5962545238321226,
+        97.78097959124887
+      ],
+      "limb_segments": {
+        "arm_l": {
+          "minimum_segment_cm": 25.57356452941895,
+          "maximum_segment_length_variation_cm": 5.684341886080802e-14
+        },
+        "leg_l": {
+          "minimum_segment_cm": 42.551235198974595,
+          "maximum_segment_length_variation_cm": 7.105427357601002e-14
+        },
+        "arm_r": {
+          "minimum_segment_cm": 24.650226593017567,
+          "maximum_segment_length_variation_cm": 7.815970093361102e-14
+        },
+        "leg_r": {
+          "minimum_segment_cm": 42.60625839233398,
+          "maximum_segment_length_variation_cm": 7.105427357601002e-14
+        }
+      },
+      "bend_angle_range_degrees": {
+        "arm_l": [
+          12.186956386311767,
+          61.60597969597004
+        ],
+        "leg_l": [
+          2.714795455068531,
+          64.92691319011858
+        ],
+        "arm_r": [
+          18.232849268462108,
+          54.65895833059758
+        ],
+        "leg_r": [
+          7.692004039426393,
+          72.55471107572752
+        ]
+      },
+      "no_zero_length_limb": true
+    },
+    {
+      "role": "run",
+      "pelvis_component_min_cm": [
+        -3.0931875212240243,
+        -17.300517816868343,
+        86.34183257583332
+      ],
+      "pelvis_component_max_cm": [
+        2.0621725266522333,
+        -16.063640088259433,
+        95.44656340532366
+      ],
+      "limb_segments": {
+        "arm_l": {
+          "minimum_segment_cm": 25.573564529418952,
+          "maximum_segment_length_variation_cm": 9.237055564881302e-14
+        },
+        "leg_l": {
+          "minimum_segment_cm": 42.5512351989746,
+          "maximum_segment_length_variation_cm": 6.394884621840902e-14
+        },
+        "arm_r": {
+          "minimum_segment_cm": 24.65022659301758,
+          "maximum_segment_length_variation_cm": 7.460698725481052e-14
+        },
+        "leg_r": {
+          "minimum_segment_cm": 42.60625839233397,
+          "maximum_segment_length_variation_cm": 7.815970093361102e-14
+        }
+      },
+      "bend_angle_range_degrees": {
+        "arm_l": [
+          57.88212471885327,
+          126.19272361217229
+        ],
+        "leg_l": [
+          18.582703147240238,
+          128.61703681463752
+        ],
+        "arm_r": [
+          71.40701171690317,
+          134.21868947699434
+        ],
+        "leg_r": [
+          18.73806844923856,
+          126.10550395482991
+        ]
+      },
+      "no_zero_length_limb": true
+    },
+    {
+      "role": "reach",
+      "pelvis_component_min_cm": [
+        -10.044008917575667,
+        -30.794637489175976,
+        81.73429000535387
+      ],
+      "pelvis_component_max_cm": [
+        2.2105660485742646,
+        -6.694344755823536,
+        112.53718400480189
+      ],
+      "limb_segments": {
+        "arm_l": {
+          "minimum_segment_cm": 25.57356452941895,
+          "maximum_segment_length_variation_cm": 6.750155989720952e-14
+        },
+        "leg_l": {
+          "minimum_segment_cm": 42.5512351989746,
+          "maximum_segment_length_variation_cm": 7.105427357601002e-14
+        },
+        "arm_r": {
+          "minimum_segment_cm": 24.65022659301758,
+          "maximum_segment_length_variation_cm": 1.1723955140041653e-13
+        },
+        "leg_r": {
+          "minimum_segment_cm": 42.606258392333984,
+          "maximum_segment_length_variation_cm": 9.237055564881302e-14
+        }
+      },
+      "bend_angle_range_degrees": {
+        "arm_l": [
+          42.6279545877033,
+          91.54967272783063
+        ],
+        "leg_l": [
+          28.34169650883035,
+          77.56853562685541
+        ],
+        "arm_r": [
+          40.932833897242276,
+          80.42098642848659
+        ],
+        "leg_r": [
+          23.485275917176665,
+          76.77843418025341
+        ]
+      },
+      "no_zero_length_limb": true
+    }
+  ],
+  "limits": "Nonzero motion, finite/unit transforms and positive limb lengths are structural checks; bend sign, clothing shape, planted contact and full collision quality require separate review"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 12,
+  "utc_epoch": 1790865413.0843914,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "neck_01"
+    ],
+    "judgement": "accept",
+    "category": "anatomical_front_side_review",
+    "reviewed_positions": {
+      "neck_01": [
+        -0.11290943622589111,
+        -6.310903549194336,
+        148.3011932373047
+      ]
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "workflow": "Level 1 single agent self-review; no independent reviewer claimed",
+  "checks": [
+    {
+      "check": "actual_combined_solve",
+      "passed": true,
+      "evidence": "real Boolean result and completion marker"
+    },
+    {
+      "check": "public_extract_name_position_correspondence",
+      "passed": true,
+      "evidence": "Both public APIs; 342 names/parents and identical positions"
+    },
+    {
+      "check": "saved_donor_reload",
+      "passed": true,
+      "evidence": "Separate commandlet; DDC exit limitation disclosed"
+    },
+    {
+      "check": "mapping_sha_matches_independent_proposal",
+      "passed": true,
+      "evidence": "Donor proposal saved before control evaluation"
+    },
+    {
+      "check": "no_missing_body_substitution",
+      "passed": true,
+      "evidence": "Every canonical body point has direct donor provenance"
+    },
+    {
+      "check": "numeric_roundtrip",
+      "passed": true,
+      "evidence": "Mesh/joint inverse and actual target readback"
+    },
+    {
+      "check": "ue_triangulation_limit_disclosed",
+      "passed": true,
+      "evidence": "Temporary UE triangulation differs; original polygon preservation separately verified"
+    },
+    {
+      "check": "inherited_gate_algorithm_unchanged",
+      "passed": true,
+      "evidence": "Only output/input namespace and read-only helper import adapted"
+    },
+    {
+      "check": "body_gate_rejected_with_19_review_roles",
+      "passed": true,
+      "evidence": "20 inherited failures plus two finger extension failures"
+    },
+    {
+      "check": "finger_semantics_and_collapse",
+      "passed": true,
+      "evidence": "All five target tracks considered; no forced finger acceptance"
+    },
+    {
+      "check": "real_corrections_not_fabricated",
+      "passed": true,
+      "evidence": "Empty hash-bound patch; effort explicitly unmeasured"
+    },
+    {
+      "check": "skinning_results.json",
+      "passed": true,
+      "evidence": "Stopped at rejected anatomy"
+    },
+    {
+      "check": "ik_retarget_configuration.json",
+      "passed": true,
+      "evidence": "Stopped at rejected anatomy"
+    },
+    {
+      "check": "animation_bake_results.json",
+      "passed": true,
+      "evidence": "Stopped at rejected anatomy"
+    },
+    {
+      "check": "source_independent_playback.json",
+      "passed": true,
+      "evidence": "Stopped at rejected anatomy"
+    },
+    {
+      "check": "no_downstream_assets",
+      "passed": true,
+      "evidence": [
+        "/Game/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.MHC_LaraDonor_combined",
+        "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180.SM_Lara180"
+      ]
+    },
+    {
+      "check": "protected_authored_files",
+      "passed": true,
+      "evidence": "Fresh hashes against immutable preflight baseline"
+    },
+    {
+      "check": "source_polygon_uv_preservation",
+      "passed": true,
+      "evidence": "Independent final Blender source reload"
+    },
+    {
+      "check": "24_requested_sections",
+      "passed": true,
+      "evidence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ]
+    },
+    {
+      "check": "local_report_links_resolve",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "check": "14_visuals_decode",
+      "passed": true,
+      "evidence": "Contact sheet plus selected full-size views inspected"
+    },
+    {
+      "check": "python_sources_parse",
+      "passed": true,
+      "evidence": "All Phase4C top-level Python scripts parsed; Engine Python scripts also executed where required"
+    }
+  ],
+  "visual_inspection": "14-view contact sheet and full-size donor side/hand views inspected; labels and both hands made readable",
+  "anatomical_quality": "rejected; this review verifies faithful evidence and safe stopping, not acceptable anatomy"
+}

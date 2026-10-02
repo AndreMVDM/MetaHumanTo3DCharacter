@@ -1,0 +1,190 @@
+{
+  "status": "interim_apose_human_review_boundary",
+  "columns": [
+    "Metric",
+    "Lara",
+    "John",
+    "Jane",
+    "Bill T-control",
+    "Jill T-control"
+  ],
+  "rows": [
+    [
+      "Source pose",
+      "A (benchmark)",
+      "A",
+      "A",
+      "T",
+      "T"
+    ],
+    [
+      "Input topology type",
+      "1 mesh / 27,725 source vertices",
+      "1 mesh / 26,166 source vertices",
+      "1 mesh / 28,328 source vertices",
+      "1 mesh / 25,728 source vertices",
+      "1 mesh / 27,014 source vertices"
+    ],
+    [
+      "Clothing classification",
+      "partially separable",
+      "separable principal garment shells; mixed skin/accessory components",
+      "mixed: integrated central top/pelvis/upper-leg surface plus separable sleeve/boot/hand pieces",
+      "separable garment shells",
+      "merged/integrated surface"
+    ],
+    [
+      "Body roles requiring human review",
+      "19 initially; 22 body roles actually reviewed",
+      "19 initially; 0 performed",
+      "19 initially; 0 performed",
+      "19",
+      "19"
+    ],
+    [
+      "Actual moved landmarks",
+      "1 neck; 8.4106 cm",
+      "0 performed; required unknown",
+      "0 performed; required unknown",
+      "0 performed; required unknown",
+      "0 performed; required unknown"
+    ],
+    [
+      "Actual human reviews",
+      "32 distinct roles/chains; 34 review commands",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Accepted without movement",
+      "31 current roles/chains",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Finger mapping interactions",
+      "13 identification commands; ten final identities",
+      "0; ten identities pending",
+      "0; ten identities pending",
+      "0; ten identities pending",
+      "0; ten identities pending"
+    ],
+    [
+      "Manual phalange placements",
+      "0",
+      "0 performed",
+      "0 performed",
+      "0 performed",
+      "0 performed"
+    ],
+    [
+      "Measured review session time",
+      "12,179.219 s incl. pauses",
+      "not started",
+      "not started",
+      "not started",
+      "not started"
+    ],
+    [
+      "Anatomy gate",
+      "186/186 passed in Phase4D",
+      "66/106; blocked",
+      "65/106; blocked",
+      "65/106; blocked",
+      "62/106; blocked"
+    ],
+    [
+      "Skeleton built",
+      "53-bone native skeleton (prior)",
+      "no; anatomy blocked",
+      "no; anatomy blocked",
+      "no; anatomy blocked",
+      "no; anatomy blocked"
+    ],
+    [
+      "Shoulder accepted",
+      "no; partial improvement / worst reach regression",
+      "not tested",
+      "not tested",
+      "not tested",
+      "not tested"
+    ],
+    [
+      "Pelvis/pants accepted",
+      "material pants repair on reviewed poses; limited acceptance",
+      "not tested",
+      "not tested",
+      "not tested",
+      "not tested"
+    ],
+    [
+      "Fingers accepted",
+      "identity/motion 10/10; support 9/10; quality incomplete",
+      "identity/review pending",
+      "identity/review pending",
+      "identity/review pending",
+      "identity/review pending"
+    ],
+    [
+      "Thumb accepted",
+      "natural opposition unproven",
+      "not tested",
+      "not tested",
+      "not tested",
+      "not tested"
+    ],
+    [
+      "Foot/contact accepted",
+      "0/0.158/0.338 cm idle/walk/run flat-floor penetration; planting untested",
+      "not tested",
+      "not tested",
+      "not tested",
+      "not tested"
+    ],
+    [
+      "Conventional manual painting required",
+      "none used; full acceptable quality not established",
+      "unknown; none used",
+      "unknown; none used",
+      "unknown; none used",
+      "unknown; none used"
+    ],
+    [
+      "Source-free playback",
+      "passed in prior native scene/closure",
+      "not built/tested",
+      "not built/tested",
+      "not built/tested",
+      "not built/tested"
+    ],
+    [
+      "Clean-project playback",
+      "not performed",
+      "not performed",
+      "not performed",
+      "not performed",
+      "not performed"
+    ],
+    [
+      "Clean/cooked playback",
+      "not performed",
+      "not performed",
+      "not performed",
+      "not performed",
+      "not performed"
+    ],
+    [
+      "Overall result",
+      "experimental assisted",
+      "awaiting real anatomy review; generalisation pending",
+      "awaiting real anatomy review; generalisation pending",
+      "awaiting human anatomy review",
+      "awaiting human anatomy review"
+    ]
+  ],
+  "original_control_cells_preserved": true
+}

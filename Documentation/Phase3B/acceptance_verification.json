@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "required_json_files": 10,
+  "report_sections": 20,
+  "height_matrix_rows": 10,
+  "fresh_process_saved_asset_passes": 10,
+  "main_pose_passes": 2750,
+  "live_clean_component_clip_passes": 48,
+  "expected_raw_component_clip_failures": 16,
+  "baked_full_clips_without_foreign_game_dependencies": 50,
+  "no_manny_native_playback_passes": 2,
+  "protected_files_unchanged": 110,
+  "root_motion_limits": "UE5 corrected selector passes25samples;Mixamo corrected selector rejected25samples for collapsed Hips height.",
+  "self_review": "Checked required outputs, real disk assets, runtime space claims, weight repair exception, historical failed controls, bind-pose warnings, contact-quality limits and authoring/runtime dependency distinction."
+}

@@ -1,0 +1,286 @@
+{
+  "validated_at_utc_epoch": 1790868986.284964,
+  "command": "python -B Working\\Phase4F\\John\\validate.py",
+  "process_exit_code": 0,
+  "total_checks": 186,
+  "passed_checks": 173,
+  "failed_checks": [
+    {
+      "name": "surface_envelope_spine_03",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          0.23274096846580505,
+          -3.6841256618499756,
+          129.21142578125
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard",
+      "classification": "Hard body section-envelope geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "surface_envelope_clavicle_l",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          1.555513858795166,
+          -7.228282928466797,
+          141.70518493652344
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard",
+      "classification": "Hard body section-envelope geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "surface_envelope_clavicle_r",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          -1.5769591331481934,
+          -7.197674751281738,
+          141.65269470214844
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard",
+      "classification": "Hard body section-envelope geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_thumb_l",
+      "pass": false,
+      "measured": [
+        1.6067345097024843,
+        1.5686263927097517,
+        1.2222072343439123
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_index_l",
+      "pass": false,
+      "measured": [
+        1.766498180240302,
+        1.3318044900163954,
+        1.2931906939711078
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_middle_l",
+      "pass": false,
+      "measured": [
+        1.6926590007730005,
+        1.371394568292956,
+        1.3749265986654917
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_ring_l",
+      "pass": false,
+      "measured": [
+        1.677371415482353,
+        1.474419212945623,
+        1.2510593437012343
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_pinky_l",
+      "pass": false,
+      "measured": [
+        1.4703717133693652,
+        1.1531680405173148,
+        1.0559419258332203
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_thumb_r",
+      "pass": false,
+      "measured": [
+        1.6067345097024843,
+        1.5626715727642546,
+        1.2234120042094807
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_index_r",
+      "pass": false,
+      "measured": [
+        1.7664983219303074,
+        1.3716176449551036,
+        1.2903601295544782
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_middle_r",
+      "pass": false,
+      "measured": [
+        1.6907683019465545,
+        1.4396232778713258,
+        1.3776711606345984
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_ring_r",
+      "pass": false,
+      "measured": [
+        1.6773712807314096,
+        1.4735088776305783,
+        1.2527114725034276
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    },
+    {
+      "name": "finger_surface_pinky_r",
+      "pass": false,
+      "measured": [
+        1.4703717133693643,
+        1.1963718360430275,
+        1.0660979559317019
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard",
+      "classification": "Hard procedural finger-to-target surface-support geometry screen",
+      "root_cause_status": "Not established by this validation run; a failed screen does not alone prove incorrect human judgement"
+    }
+  ],
+  "anatomical_checks_passed": 39,
+  "anatomical_checks_total": 39,
+  "downstream_authorised": false,
+  "protected_files_checked": 334,
+  "protected_files_changed": [],
+  "genuine_event_count": 218,
+  "approval_signatures_and_event_provenance_verified": true,
+  "proposal_sha256": "57d4c45a3f0ddda765d66e76c7453f99f754affba4fc067c75775095b677fad2",
+  "metrics": {
+    "trial_status": "finished",
+    "recorded_user_commands": 218,
+    "placement_commands": 0,
+    "digit_identification_commands": 12,
+    "review_commands": 30,
+    "landmarks_reviewed": 29,
+    "navigation_commands": 174,
+    "automatically_accepted_roles": [
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03"
+    ],
+    "currently_accepted_human_roles": [
+      "ball_l",
+      "ball_r",
+      "calf_l",
+      "calf_r",
+      "clavicle_l",
+      "clavicle_r",
+      "foot_l",
+      "foot_r",
+      "hand_l",
+      "hand_r",
+      "head",
+      "index_l",
+      "index_r",
+      "lowerarm_l",
+      "lowerarm_r",
+      "middle_l",
+      "middle_r",
+      "neck_01",
+      "pelvis",
+      "pinky_l",
+      "pinky_r",
+      "ring_l",
+      "ring_r",
+      "thigh_l",
+      "thigh_r",
+      "thumb_l",
+      "thumb_r",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "reviewed_without_movement": [
+      "ball_l",
+      "ball_r",
+      "calf_l",
+      "calf_r",
+      "clavicle_l",
+      "clavicle_r",
+      "foot_l",
+      "foot_r",
+      "hand_l",
+      "hand_r",
+      "head",
+      "index_l",
+      "index_r",
+      "lowerarm_l",
+      "lowerarm_r",
+      "middle_l",
+      "middle_r",
+      "neck_01",
+      "pelvis",
+      "pinky_l",
+      "pinky_r",
+      "ring_l",
+      "ring_r",
+      "thigh_l",
+      "thigh_r",
+      "thumb_l",
+      "thumb_r",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "landmarks_actually_moved": 0,
+    "body_landmarks_moved": [],
+    "finger_landmarks_moved": [],
+    "total_moved_distance_cm": 0,
+    "maximum_individual_move_cm": 0,
+    "grouped_correction_commands": 0,
+    "unresolved_body_roles": [],
+    "unresolved_finger_chains": [],
+    "elapsed_trial_seconds": 5843.822067260742,
+    "raw_mouse_clicks_or_drag_gestures": null,
+    "metric_definition": "Explicit panel commands and recorded placements; navigation clicks and unrecorded exploratory drags are not measured. Zero performed is not zero required; time is measured only Start to Finish and includes pauses."
+  },
+  "jane_started_or_validated": false,
+  "downstream_work_performed": false,
+  "next_action": "Technical diagnosis of retained geometry screens; no repeated human acceptance or forced coordinate changes requested"
+}

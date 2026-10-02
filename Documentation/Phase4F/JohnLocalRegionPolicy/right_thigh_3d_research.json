@@ -1,0 +1,58 @@
+{
+  "mode": "research only; no acceptance rule",
+  "proposal_sha256": "57d4c45a3f0ddda765d66e76c7453f99f754affba4fc067c75775095b677fad2",
+  "normalised_geometry_sha256": "ad6d03cf03993f3d2065e834a9121f60f766393ae83ff4e7d3bb413d041bb00a",
+  "pivot_cm": [
+    -8.898444175720215,
+    -1.8754589557647705,
+    90.40269470214844
+  ],
+  "scoped_component": 25,
+  "scope_authority": "existing trouser_region classification",
+  "whole_triangle_closed_chain_necessary_condition": {
+    "input_faces": 6729,
+    "forced_zero_faces": 6729,
+    "remaining_faces": 0,
+    "remaining_original_triangle_ids": [],
+    "limitation": "Necessary condition only; does not exhaust arrangements that split intersecting source triangles."
+  },
+  "escape_path": {
+    "found": true,
+    "path_cm": [
+      [
+        -8.898444175720215,
+        -1.8754589557647705,
+        90.40269470214844
+      ],
+      [
+        -15.427322952204724,
+        5.45703329108716,
+        90.40269470214844
+      ],
+      [
+        -25.0,
+        20.0,
+        90.40269470214844
+      ]
+    ],
+    "segment_readbacks": [
+      {
+        "length_cm": 9.817927511861836,
+        "source_triangle_intersections": 0,
+        "minimum_plane_source_clearance_cm": 5.787784984345598e-06
+      },
+      {
+        "length_cm": 17.410744572186843,
+        "source_triangle_intersections": 0,
+        "minimum_plane_source_clearance_cm": 9.88836773755047e-05
+      }
+    ],
+    "terminal_unbounded_direction": [
+      -1,
+      0,
+      0
+    ],
+    "interpretation": "A complete collision-free polygonal escape path contradicts a bounded cell in this component-scoped source surface complement. It is a rejection witness, not a finite-ray acceptance test."
+  },
+  "proposed_3d_acceptance_implemented": false
+}

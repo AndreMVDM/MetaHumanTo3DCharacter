@@ -1,0 +1,20 @@
+Begin Object Class=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C Name="Default__ABP_CurveRemap_Retargeting_C" ExportPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.Default__ABP_CurveRemap_Retargeting_C'"
+   AnimBlueprintExtension_PropertyAccess=()
+   AnimBlueprintExtension_Base=()
+   AnimGraphNode_Root=(Result=(LinkID=1,SourceLinkID=0),Name="AnimGraph",LayerGroup="DefaultSharedGroup",InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_RetargetPoseFromMesh=(Source=(LinkID=-1,SourceLinkID=-1),RetargetFrom=ParentSkeletalMeshComponent,IKRetargeterAsset="/Script/IKRig.IKRetargeter'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap.RTG_CurveRemap'",CustomRetargetProfile=(RetargetOpProfiles=,bApplyTargetRetargetPose=False,TargetRetargetPoseName="",bApplySourceRetargetPose=False,SourceRetargetPoseName="",bForceAllIKOff=False,bApplyChainSettings=False,ChainSettings=(),bApplyRootSettings=False,RootSettings=(RotationAlpha=1.000000,TranslationAlpha=1.000000,BlendToSource=0.000000,BlendToSourceWeights=(X=1.000000,Y=1.000000,Z=1.000000),ScaleHorizontal=1.000000,ScaleVertical=1.000000,TranslationOffset=(X=0.000000,Y=0.000000,Z=0.000000),RotationOffset=(Pitch=0.000000,Yaw=0.000000,Roll=0.000000),AffectIKHorizontal=1.000000,AffectIKVertical=0.000000),bApplyGlobalSettings=False,GlobalSettings=(bEnableRoot=True,bEnableFK=True,bEnableIK=True,bEnablePost=True,bCopyBasePose=False,CopyBasePoseRoot="",SourceScaleFactor=1.000000,bWarping=False,DirectionSource=Goals,ForwardDirection=Y,DirectionChain="",WarpForwards=1.000000,SidewaysOffset=0.000000,WarpSplay=1.000000)),bUseCustomOverrideSets=False,OverrideSetsToApply=,LODThreshold=-1,LODThresholdForIK=-1,bSuppressWarnings=False,SourcePropertyNames=,DestPropertyNames=,InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   Source Mesh Component=None
+   RootMotionMode=RootMotionFromMontagesOnly
+   bUseMultiThreadedAnimationUpdate=True
+   bUsingCopyPoseFromMesh=True
+   bReceiveNotifiesFromLinkedInstances=False
+   bPropagateNotifiesToLinkedInstances=False
+   bUseMainInstanceMontageEvaluationData=False
+   OnMontageBlendingOut=()
+   OnMontageBlendedIn=()
+   OnMontageStarted=()
+   OnMontageEnded=()
+   OnAllMontageInstancesEnded=()
+   OnMontageSectionChanged=()
+   PostCompileValidationClassName=None
+End Object

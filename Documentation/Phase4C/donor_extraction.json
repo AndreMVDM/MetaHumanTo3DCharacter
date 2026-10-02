@@ -1,0 +1,15 @@
+{
+  "posed_dna_exists": true,
+  "posed_dna_sha256": "a88062db0b7d6c8dbb8d470e0b241d80b235b20b37e8545d68dd833f486cacb4",
+  "source": "actual solved Phase4C export",
+  "joint_count": 342,
+  "mesh_count": 1,
+  "extraction_success": true,
+  "python_joint_api_code": "<ImportErrorCode.SUCCESS: 13>",
+  "python_joint_count": 342,
+  "python_native_joint_max_cm": 0.0,
+  "assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.MHC_LaraDonor_combined",
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180.SM_Lara180"
+  ]
+}

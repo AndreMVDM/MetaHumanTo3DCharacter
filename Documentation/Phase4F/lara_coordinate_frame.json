@@ -1,0 +1,46 @@
+{
+  "rotation_columns_world": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "origin_body_coordinates_cm": [
+    0.0,
+    1.586911641061306,
+    3.373074708434842e-07
+  ],
+  "source_height_cm": 99.95117153769253,
+  "target_height_cm": 180,
+  "factor": 1.8008793416905604,
+  "ground_plane_points": 66,
+  "paired_shoe_facing_evidence": [
+    {
+      "side_source_x_sign": 1,
+      "shank_y_cm": -1.5869103372097015,
+      "negative_extension_cm": 8.496097475290298,
+      "positive_extension_cm": 6.7871058806777
+    },
+    {
+      "side_source_x_sign": -1,
+      "shank_y_cm": -1.5380856581032276,
+      "negative_extension_cm": 8.544925134629011,
+      "positive_extension_cm": 6.738278362900019
+    }
+  ],
+  "facing_source_y_sign": -1,
+  "up_policy": "FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.",
+  "handedness_determinant": -1.0,
+  "round_trip_max_cm": 1.4323167916492475e-14
+}

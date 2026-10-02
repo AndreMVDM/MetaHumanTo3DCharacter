@@ -1,0 +1,5067 @@
+{
+  "method": "100 live SIE snapshots,17 mesh components,25 per clip. Source original clips obey engine ForceRootLock. Components have identity scales and different known Y translations. Matched raw FK/solver0/solver1/full run simultaneously; each pass is a separate retarget configuration. No engine solver instrumentation.",
+  "summary": [
+    {
+      "component": "UE5_OriginalHeight",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        52.25318152791108,
+        54.299045942704595
+      ],
+      "pelvis_world_z_range_cm": [
+        52.25318152791108,
+        54.299045942704595
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "UE5_Height160",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        80.23479946558682,
+        86.59864889115214
+      ],
+      "pelvis_world_z_range_cm": [
+        80.23479946558682,
+        86.59864889115214
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "UE5_Height175",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        87.19542216596582,
+        94.67668033668727
+      ],
+      "pelvis_world_z_range_cm": [
+        87.19542216596582,
+        94.67668033668727
+      ],
+      "max_bounds_sphere_radius_cm": 95.99476623535156
+    },
+    {
+      "component": "UE5_Height180",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        89.51714567104969,
+        97.36816789778416
+      ],
+      "pelvis_world_z_range_cm": [
+        89.51714567104969,
+        97.36816789778416
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "UE5_Height200",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        98.81622112825448,
+        108.12979304305279
+      ],
+      "pelvis_world_z_range_cm": [
+        98.81622112825448,
+        108.12979304305279
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "Mixamo_OriginalHeight",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        49.13036095979163,
+        53.53403819764285
+      ],
+      "pelvis_world_z_range_cm": [
+        49.13036095979163,
+        53.53403819764285
+      ],
+      "max_bounds_sphere_radius_cm": 54.827369689941406
+    },
+    {
+      "component": "Mixamo_Height160",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        78.84315466453975,
+        85.79916150288311
+      ],
+      "pelvis_world_z_range_cm": [
+        78.84315466453975,
+        85.79916150288311
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "Mixamo_Height175",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        86.26937215987391,
+        93.85801068896085
+      ],
+      "pelvis_world_z_range_cm": [
+        86.26937215987391,
+        93.85801068896085
+      ],
+      "max_bounds_sphere_radius_cm": 95.9947738647461
+    },
+    {
+      "component": "Mixamo_Height180",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        88.74493908717206,
+        96.5440547822351
+      ],
+      "pelvis_world_z_range_cm": [
+        88.74493908717206,
+        96.5440547822351
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "Mixamo_Height200",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        98.64767799554762,
+        107.28679349823997
+      ],
+      "pelvis_world_z_range_cm": [
+        98.64767799554762,
+        107.28679349823997
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "RawUE5_FK",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        48.400802215128785,
+        53.72206429981929
+      ],
+      "pelvis_world_z_range_cm": [
+        48.400802215128785,
+        53.72206429981929
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "pelvis_world_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "pelvis_world_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Full",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "pelvis_world_z_range_cm": [
+        4768.574812567541,
+        5287.89500731644
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "Baked_UE5",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        89.47901732148785,
+        97.3250027340855
+      ],
+      "pelvis_world_z_range_cm": [
+        89.47901732148785,
+        97.3250027340855
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "Baked_Mixamo",
+      "animation_role": "run",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        88.62117004394531,
+        96.5376205444336
+      ],
+      "pelvis_world_z_range_cm": [
+        88.62117004394531,
+        96.5376205444336
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "UE5_OriginalHeight",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        55.54462783798701,
+        55.67381816182419
+      ],
+      "pelvis_world_z_range_cm": [
+        55.54462783798701,
+        55.67381816182419
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "UE5_Height160",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        88.85850528749859,
+        89.08544996731246
+      ],
+      "pelvis_world_z_range_cm": [
+        88.85850528749859,
+        89.08544996731246
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "UE5_Height175",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        97.17120494413999,
+        97.42397028838832
+      ],
+      "pelvis_world_z_range_cm": [
+        97.17120494413999,
+        97.42397028838832
+      ],
+      "max_bounds_sphere_radius_cm": 95.99476623535156
+    },
+    {
+      "component": "UE5_Height180",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        99.94151248662556,
+        100.20295506873056
+      ],
+      "pelvis_world_z_range_cm": [
+        99.94151248662556,
+        100.20295506873056
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "UE5_Height200",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        111.0203736766415,
+        111.31682464954406
+      ],
+      "pelvis_world_z_range_cm": [
+        111.0203736766415,
+        111.31682464954406
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "Mixamo_OriginalHeight",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        54.988268472653125,
+        55.17826261756207
+      ],
+      "pelvis_world_z_range_cm": [
+        54.988268472653125,
+        55.17826261756207
+      ],
+      "max_bounds_sphere_radius_cm": 54.827369689941406
+    },
+    {
+      "component": "Mixamo_Height160",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        88.1456054196115,
+        88.43506031158428
+      ],
+      "pelvis_world_z_range_cm": [
+        88.1456054196115,
+        88.43506031158428
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "Mixamo_Height175",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        96.42678549489932,
+        96.7418825798203
+      ],
+      "pelvis_world_z_range_cm": [
+        96.42678549489932,
+        96.7418825798203
+      ],
+      "max_bounds_sphere_radius_cm": 95.9947738647461
+    },
+    {
+      "component": "Mixamo_Height180",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        99.18698933627925,
+        99.51087547040589
+      ],
+      "pelvis_world_z_range_cm": [
+        99.18698933627925,
+        99.51087547040589
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "Mixamo_Height200",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        110.22683553437571,
+        110.58607282481586
+      ],
+      "pelvis_world_z_range_cm": [
+        110.22683553437571,
+        110.58607282481586
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "RawUE5_FK",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        55.13669302521393,
+        55.32242288280699
+      ],
+      "pelvis_world_z_range_cm": [
+        55.13669302521393,
+        55.32242288280699
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "pelvis_world_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "pelvis_world_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Full",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "pelvis_world_z_range_cm": [
+        5443.772116525407,
+        5478.235263732539
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "Baked_UE5",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        99.94152647676128,
+        100.20334440889019
+      ],
+      "pelvis_world_z_range_cm": [
+        99.94152647676128,
+        100.20334440889019
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "Baked_Mixamo",
+      "animation_role": "idle",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        99.18679809570312,
+        99.51075744628906
+      ],
+      "pelvis_world_z_range_cm": [
+        99.18679809570312,
+        99.51075744628906
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "UE5_OriginalHeight",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        50.44124753427999,
+        56.32462098225372
+      ],
+      "pelvis_world_z_range_cm": [
+        50.44124753427999,
+        56.32462098225372
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "UE5_Height160",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        80.50899347360007,
+        89.1999740695116
+      ],
+      "pelvis_world_z_range_cm": [
+        80.50899347360007,
+        89.1999740695116
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "UE5_Height175",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        87.96173394003623,
+        97.38111778870456
+      ],
+      "pelvis_world_z_range_cm": [
+        87.96173394003623,
+        97.38111778870456
+      ],
+      "max_bounds_sphere_radius_cm": 95.99476623535156
+    },
+    {
+      "component": "UE5_Height180",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        90.44507331350479,
+        100.10705694268573
+      ],
+      "pelvis_world_z_range_cm": [
+        90.44507331350479,
+        100.10705694268573
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "UE5_Height200",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        100.38071903201521,
+        111.00716759255803
+      ],
+      "pelvis_world_z_range_cm": [
+        100.38071903201521,
+        111.00716759255803
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "Mixamo_OriginalHeight",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        49.90106117143022,
+        54.8168027090567
+      ],
+      "pelvis_world_z_range_cm": [
+        49.90106117143022,
+        54.8168027090567
+      ],
+      "max_bounds_sphere_radius_cm": 54.827369689941406
+    },
+    {
+      "component": "Mixamo_Height160",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        79.88484773116123,
+        87.83781131026984
+      ],
+      "pelvis_world_z_range_cm": [
+        79.88484773116123,
+        87.83781131026984
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "Mixamo_Height175",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        87.37469188072812,
+        96.09388267377241
+      ],
+      "pelvis_world_z_range_cm": [
+        87.37469188072812,
+        96.09388267377241
+      ],
+      "max_bounds_sphere_radius_cm": 95.9947738647461
+    },
+    {
+      "component": "Mixamo_Height180",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        89.8713052956706,
+        98.84541274319238
+      ],
+      "pelvis_world_z_range_cm": [
+        89.8713052956706,
+        98.84541274319238
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "Mixamo_Height200",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        99.85777461558395,
+        109.84893651577637
+      ],
+      "pelvis_world_z_range_cm": [
+        99.85777461558395,
+        109.84893651577637
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "RawUE5_FK",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        49.847029515940534,
+        54.52164020072145
+      ],
+      "pelvis_world_z_range_cm": [
+        49.847029515940534,
+        54.52164020072145
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "pelvis_world_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "pelvis_world_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Full",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "pelvis_world_z_range_cm": [
+        4896.650818496539,
+        5359.335348401896
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "Baked_UE5",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        90.44509703340191,
+        100.10709959687847
+      ],
+      "pelvis_world_z_range_cm": [
+        90.44509703340191,
+        100.10709959687847
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "Baked_Mixamo",
+      "animation_role": "walk",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        89.87140655517578,
+        98.84547424316406
+      ],
+      "pelvis_world_z_range_cm": [
+        89.87140655517578,
+        98.84547424316406
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "UE5_OriginalHeight",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        47.18930275841602,
+        64.76434556582798
+      ],
+      "pelvis_world_z_range_cm": [
+        47.18930275841602,
+        64.76434556582798
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "UE5_Height160",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        74.52717341242797,
+        103.1942195641195
+      ],
+      "pelvis_world_z_range_cm": [
+        74.52717341242797,
+        103.1942195641195
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "UE5_Height175",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        81.30508555671233,
+        112.7778247758999
+      ],
+      "pelvis_world_z_range_cm": [
+        81.30508555671233,
+        112.7778247758999
+      ],
+      "max_bounds_sphere_radius_cm": 95.99476623535156
+    },
+    {
+      "component": "UE5_Height180",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        83.56189976331513,
+        115.97171285679434
+      ],
+      "pelvis_world_z_range_cm": [
+        83.56189976331513,
+        115.97171285679434
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "UE5_Height200",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        92.57963356121795,
+        128.74540050768894
+      ],
+      "pelvis_world_z_range_cm": [
+        92.57963356121795,
+        128.74540050768894
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "Mixamo_OriginalHeight",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        44.9162583924634,
+        63.63487209836254
+      ],
+      "pelvis_world_z_range_cm": [
+        44.9162583924634,
+        63.63487209836254
+      ],
+      "max_bounds_sphere_radius_cm": 54.827369689941406
+    },
+    {
+      "component": "Mixamo_Height160",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        72.48260475980094,
+        102.089897420413
+      ],
+      "pelvis_world_z_range_cm": [
+        72.48260475980094,
+        102.089897420413
+      ],
+      "max_bounds_sphere_radius_cm": 87.76663970947266
+    },
+    {
+      "component": "Mixamo_Height175",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        79.35621546621523,
+        111.68924714564744
+      ],
+      "pelvis_world_z_range_cm": [
+        79.35621546621523,
+        111.68924714564744
+      ],
+      "max_bounds_sphere_radius_cm": 95.9947738647461
+    },
+    {
+      "component": "Mixamo_Height180",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        81.64587140867054,
+        114.88833932885932
+      ],
+      "pelvis_world_z_range_cm": [
+        81.64587140867054,
+        114.88833932885932
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    },
+    {
+      "component": "Mixamo_Height200",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        90.79663336506252,
+        127.68134038430972
+      ],
+      "pelvis_world_z_range_cm": [
+        90.79663336506252,
+        127.68134038430972
+      ],
+      "max_bounds_sphere_radius_cm": 109.70831298828125
+    },
+    {
+      "component": "RawUE5_FK",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        45.20310132466233,
+        63.62539449816179
+      ],
+      "pelvis_world_z_range_cm": [
+        45.20310132466233,
+        63.62539449816179
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "pelvis_world_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "pelvis_world_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "RawUE5_Full",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": false,
+      "pelvis_component_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "pelvis_world_z_range_cm": [
+        4459.826599249268,
+        6278.359938323091
+      ],
+      "max_bounds_sphere_radius_cm": 54.82737350463867
+    },
+    {
+      "component": "Baked_UE5",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        83.55983549775738,
+        115.96944243135113
+      ],
+      "pelvis_world_z_range_cm": [
+        83.55983549775738,
+        115.96944243135113
+      ],
+      "max_bounds_sphere_radius_cm": 98.73747253417969
+    },
+    {
+      "component": "Baked_Mixamo",
+      "animation_role": "reach",
+      "samples": 25,
+      "pass": true,
+      "pelvis_component_z_range_cm": [
+        81.64530944824219,
+        114.89161682128906
+      ],
+      "pelvis_world_z_range_cm": [
+        81.64530944824219,
+        114.89161682128906
+      ],
+      "max_bounds_sphere_radius_cm": 98.73748016357422
+    }
+  ],
+  "failed_samples": [
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 0,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 1,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 2,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 3,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 4,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 5,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 6,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 7,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 8,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 9,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 10,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 11,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 12,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 13,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 14,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 15,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 16,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 17,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 18,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 19,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 20,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 21,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 22,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 23,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "run",
+      "frame": 24,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "run",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "run",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "run",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 0,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 1,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 2,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 3,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 4,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 5,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 6,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 7,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 8,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 9,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 10,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 11,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 12,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 13,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 14,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 15,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 16,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 17,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 18,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 19,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 20,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 21,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 22,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 23,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "idle",
+      "frame": 24,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "idle",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "idle",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "idle",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 0,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 1,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 2,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 3,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 4,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 5,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 6,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 7,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 8,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 9,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 10,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 11,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 12,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 13,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 14,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 15,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 16,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 17,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 18,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 19,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 20,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 21,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 22,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 23,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "walk",
+      "frame": 24,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "walk",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "walk",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "walk",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 0,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 0,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 1,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 1,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 2,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 2,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 3,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 3,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 4,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 4,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 5,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 5,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 6,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 6,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 7,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 7,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 8,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 8,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 9,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 9,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 10,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 10,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 11,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 11,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 12,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 12,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 13,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 13,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 14,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 14,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 15,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 15,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 16,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 16,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 17,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 17,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 18,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 18,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 19,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 19,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 20,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 20,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 21,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 21,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 22,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 22,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 23,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 23,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_FK",
+      "role": "reach",
+      "frame": 24,
+      "failures": [
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver0",
+      "role": "reach",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Solver1",
+      "role": "reach",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    },
+    {
+      "component": "RawUE5_Full",
+      "role": "reach",
+      "frame": 24,
+      "failures": [
+        "pelvis_displacement",
+        "pelvis_height",
+        "bone_envelope",
+        "non_unit_bone_scale"
+      ]
+    }
+  ]
+}

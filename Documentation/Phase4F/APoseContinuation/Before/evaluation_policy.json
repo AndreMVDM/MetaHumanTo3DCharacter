@@ -1,0 +1,55 @@
+{
+  "frozen_utc": "2026-10-01T12:13:11.455848+00:00",
+  "semantic_pass_limit_per_new_character": 3,
+  "skin_variants_per_region_including_baseline": 4,
+  "regions": [
+    "shoulders",
+    "pelvis_pants",
+    "fingers_thumb",
+    "feet_contact"
+  ],
+  "full_manual_weight_painting_allowed": false,
+  "prior_character_coordinates_allowed": false,
+  "final_vertex_id_masks_allowed": false,
+  "human_approval_required_for_ambiguous_anatomy": true,
+  "anatomy_gate": "Retain Phase4D numerical and explicit position-bound human-review requirements; adapt paths only.",
+  "height_profiles_cm": {
+    "Lara": 180,
+    "Bill": 180,
+    "Jill": 180
+  },
+  "height_rationale": "Controlled common 180 cm physical profile; preserve individual dimensionless proportions. Not a claim about generated intended stature.",
+  "stress_suite": [
+    "neutral",
+    "arms45",
+    "horizontal",
+    "overhead",
+    "elbows_bent",
+    "wide_stance",
+    "strong_knee_bend",
+    "idle",
+    "walk",
+    "run",
+    "reach_JumpingJacks",
+    "independent_fingers",
+    "thumb_opposition_flex"
+  ],
+  "measurement": "Per-frame area ratios <0.5/<0.1/>2, edge log RMS strain and worst cases; finite LBS, local volume/thickness diagnostics where feasible, native visual review; same region definitions relative to anatomy.",
+  "contact": "Sole-aware authoring-only two-bone IK, max5 iterations, max0.033333*height shift/iteration, 60Hz bake/120Hz key-half-key evaluation; unchanged root policy.",
+  "rejection": "Reject geometry/UV/reference changes, unresolved anatomy, worst-case gross collapse or cross-region regressions. Means never override worst-case review.",
+  "product_gate": "User GO/HOLD/NO-GO criteria; incomplete human review = pending gate and no Phase5 authorisation, not inferred architecture failure.",
+  "budget_consumption": {
+    "Bill": {
+      "semantic": 0,
+      "skin": 0
+    },
+    "Jill": {
+      "semantic": 0,
+      "skin": 0
+    },
+    "Lara": {
+      "semantic": 0,
+      "skin": 0
+    }
+  }
+}

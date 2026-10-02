@@ -1,0 +1,97 @@
+{
+  "meshes": {
+    "Manny": {
+      "path": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+      "bounds_members": [
+        "get_bounds",
+        "get_imported_bounds",
+        "negative_bounds_extension",
+        "positive_bounds_extension"
+      ],
+      "get_bounds": "<Struct 'BoxSphereBounds' (0x0000021E1B6FBE00) {origin: {x: 0.000000, y: 6.853571, z: 90.251670}, box_extent: {x: 55.437031, y: 21.245905, z: 90.271951}, sphere_radius: 108.044796}>"
+    },
+    "UE5": {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5",
+      "bounds_members": [
+        "get_bounds",
+        "get_imported_bounds",
+        "negative_bounds_extension",
+        "positive_bounds_extension"
+      ],
+      "get_bounds": "<Struct 'BoxSphereBounds' (0x0000021E1B6FA7C0) {origin: {x: 0.000000, y: -0.000004, z: 49.975587}, box_extent: {x: 19.995125, y: 10.424803, z: 49.975569}, sphere_radius: 54.827357}>"
+    },
+    "Mixamo": {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "bounds_members": [
+        "get_bounds",
+        "get_imported_bounds",
+        "negative_bounds_extension",
+        "positive_bounds_extension"
+      ],
+      "get_bounds": "<Struct 'BoxSphereBounds' (0x0000021E1B6FBE00) {origin: {x: 0.000005, y: -0.000001, z: 49.975586}, box_extent: {x: 19.995118, y: 10.424808, z: 49.975586}, sphere_radius: 54.827370}>"
+    }
+  },
+  "components": {
+    "Manny_Source": {
+      "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x0000021E1B70BE00) Class 'SkeletalMesh'>",
+      "relative_location": "<Struct 'Vector' (0x0000021E1D893A70) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+      "world_location": "<Struct 'Vector' (0x0000021E1D922AE0) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+      "bounds_members": [
+        "b_use_bounds_from_master_pose_component",
+        "component_use_fixed_skel_bounds",
+        "consider_all_bodies_for_bounds",
+        "get_ignore_bounds_for_editor_focus",
+        "include_component_location_into_bounds",
+        "set_bounds_scale",
+        "set_ignore_bounds_for_editor_focus",
+        "skip_bounds_update_when_interpolating",
+        "use_attach_parent_bound",
+        "use_bounds_from_leader_pose_component"
+      ],
+      "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+      "anim_class": "None",
+      "attach_parent": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.DefaultSceneRoot' (0x0000021DFA6A7E00) Class 'SceneComponent'>"
+    },
+    "Lara_UE5_Target": {
+      "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5' (0x0000021E1F082800) Class 'SkeletalMesh'>",
+      "relative_location": "<Struct 'Vector' (0x0000021E1D892000) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+      "world_location": "<Struct 'Vector' (0x0000021E1D922AE0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "bounds_members": [
+        "b_use_bounds_from_master_pose_component",
+        "component_use_fixed_skel_bounds",
+        "consider_all_bodies_for_bounds",
+        "get_ignore_bounds_for_editor_focus",
+        "include_component_location_into_bounds",
+        "set_bounds_scale",
+        "set_ignore_bounds_for_editor_focus",
+        "skip_bounds_update_when_interpolating",
+        "use_attach_parent_bound",
+        "use_bounds_from_leader_pose_component"
+      ],
+      "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+      "anim_class": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/ABP_Lara_UE5_Retarget.ABP_Lara_UE5_Retarget_C' (0x0000021E1F0A4600) Class 'AnimBlueprintGeneratedClass'>",
+      "attach_parent": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source' (0x0000021E1E486400) Class 'SkeletalMeshComponent'>"
+    },
+    "Lara_Mixamo_Target": {
+      "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo' (0x0000021E1F080000) Class 'SkeletalMesh'>",
+      "relative_location": "<Struct 'Vector' (0x0000021E1D892000) {x: 0.000000, y: 500.000000, z: 0.000000}>",
+      "world_location": "<Struct 'Vector' (0x0000021E1D922AE0) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+      "bounds_members": [
+        "b_use_bounds_from_master_pose_component",
+        "component_use_fixed_skel_bounds",
+        "consider_all_bodies_for_bounds",
+        "get_ignore_bounds_for_editor_focus",
+        "include_component_location_into_bounds",
+        "set_bounds_scale",
+        "set_ignore_bounds_for_editor_focus",
+        "skip_bounds_update_when_interpolating",
+        "use_attach_parent_bound",
+        "use_bounds_from_leader_pose_component"
+      ],
+      "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+      "anim_class": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/ABP_Lara_Mixamo_Retarget.ABP_Lara_Mixamo_Retarget_C' (0x0000021E1F0A1C00) Class 'AnimBlueprintGeneratedClass'>",
+      "attach_parent": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source' (0x0000021E1E486400) Class 'SkeletalMeshComponent'>"
+    }
+  },
+  "errors": []
+}

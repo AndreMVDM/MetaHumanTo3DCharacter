@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "intent": "Replace accidental Skeleton authoring-mesh preview with final Lara mesh; keep all reference transforms unchanged",
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/safe_preview_cleanup.py\", line 8, in <module>\n    assert unreal.EditorAssetLibrary.save_loaded_asset(sk,only_if_is_dirty=False)\nAssertionError\n"
+}

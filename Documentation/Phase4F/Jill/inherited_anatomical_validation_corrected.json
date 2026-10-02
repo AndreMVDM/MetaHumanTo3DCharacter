@@ -1,0 +1,789 @@
+{
+  "checks": [
+    {
+      "name": "single_connected_hierarchy",
+      "pass": true,
+      "measured": {
+        "joints": 23,
+        "reachable": 23
+      },
+      "threshold": "one grounded root; unique roles; every role reachable; no cycle",
+      "kind": "hard"
+    },
+    {
+      "name": "finite_nonzero_segments",
+      "pass": true,
+      "measured": {
+        "pelvis": 102.33925487588677,
+        "spine_01": 9.234683553884638,
+        "spine_02": 14.868339966334972,
+        "spine_03": 13.36534072325076,
+        "neck_01": 15.411258182396772,
+        "head": 10.596496336683122,
+        "clavicle_l": 9.576913641419653,
+        "upperarm_l": 14.624141732943718,
+        "lowerarm_l": 29.355861015939297,
+        "hand_l": 27.671484903943742,
+        "thigh_l": 8.970584604964197,
+        "calf_l": 46.57349008090459,
+        "foot_l": 45.743977372171926,
+        "ball_l": 14.159368761400533,
+        "clavicle_r": 9.57692270713462,
+        "upperarm_r": 14.624142756867503,
+        "lowerarm_r": 29.290500256543833,
+        "hand_r": 27.67149432472814,
+        "thigh_r": 8.970582465027091,
+        "calf_r": 46.43450048189962,
+        "foot_r": 44.145768800874144,
+        "ball_r": 14.284766237699612
+      },
+      "threshold": "finite XYZ and all parent segments >.001cm",
+      "kind": "hard"
+    },
+    {
+      "name": "root_grounded_distinct_pelvis",
+      "pass": true,
+      "measured": 102.33925487588677,
+      "threshold": "root=(0,0,0), pelvis >50cm away",
+      "kind": "hard"
+    },
+    {
+      "name": "height",
+      "pass": true,
+      "measured": 180.0,
+      "threshold": "180 +/- .01cm",
+      "kind": "hard"
+    },
+    {
+      "name": "left_right_not_crossed",
+      "pass": true,
+      "measured": {
+        "signed_values_cm": {
+          "clavicle_l": 0.3785249590873718,
+          "upperarm_l": 15.118847846984863,
+          "lowerarm_l": 25.775009155273438,
+          "hand_l": 39.57374572753906,
+          "thigh_l": 9.20170783996582,
+          "calf_l": 14.763835906982422,
+          "foot_l": 19.80282974243164,
+          "ball_l": 22.672853469848633,
+          "clavicle_r": -1.543744444847107,
+          "upperarm_r": -15.615513801574707,
+          "lowerarm_r": -28.48201560974121,
+          "hand_r": -43.10472106933594,
+          "thigh_r": -8.460065841674805,
+          "calf_r": -13.791065216064453,
+          "foot_r": -19.21147918701172,
+          "ball_r": -23.41436195373535
+        },
+        "global_x_cm": {
+          "clavicle_l": 0.6984151005744934,
+          "upperarm_l": 15.118847846984863,
+          "lowerarm_l": 25.775009155273438,
+          "hand_l": 39.57374572753906,
+          "thigh_l": 9.20170783996582,
+          "calf_l": 14.763835906982422,
+          "foot_l": 19.80282974243164,
+          "ball_l": 22.672853469848633,
+          "clavicle_r": -1.2238543033599854,
+          "upperarm_r": -15.615513801574707,
+          "lowerarm_r": -28.48201560974121,
+          "hand_r": -43.10472106933594,
+          "thigh_r": -8.460065841674805,
+          "calf_r": -13.791065216064453,
+          "foot_r": -19.21147918701172,
+          "ball_r": -23.41436195373535
+        }
+      },
+      "threshold": "positive left, negative right; clavicle roots relative to thoracic parent X, all limb articulations relative to grounded canonical origin",
+      "kind": "hard"
+    },
+    {
+      "name": "bilateral_body_consistency",
+      "pass": false,
+      "measured": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 0.5504765949856625
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 0.589761936655872
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 11.212276186257903
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 20.622065473039516
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 0.8052503233027413
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 1.0237151395240391
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 1.8439026861139793
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 1.572369847134839
+        }
+      ],
+      "threshold": "maximum mirrored role difference <6cm; prototype tolerance",
+      "kind": "hard"
+    },
+    {
+      "name": "ball_forward_l",
+      "pass": true,
+      "measured": 12.930021524429321,
+      "threshold": ">1cm along inferred forward",
+      "kind": "hard"
+    },
+    {
+      "name": "knee_monotonic_l",
+      "pass": true,
+      "measured": [
+        100.68609619140625,
+        54.59458541870117,
+        9.388412475585938
+      ],
+      "threshold": "descending hip/knee/ankle height",
+      "kind": "hard"
+    },
+    {
+      "name": "elbow_between_shoulder_wrist_l",
+      "pass": true,
+      "measured": [
+        145.8328857421875,
+        118.51973724365234,
+        99.26380920410156
+      ],
+      "threshold": "descending shoulder/elbow/wrist height",
+      "kind": "hard"
+    },
+    {
+      "name": "ball_forward_r",
+      "pass": true,
+      "measured": 11.916574478149414,
+      "threshold": ">1cm along inferred forward",
+      "kind": "hard"
+    },
+    {
+      "name": "knee_monotonic_r",
+      "pass": true,
+      "measured": [
+        100.60847473144531,
+        54.631065368652344,
+        11.094802856445312
+      ],
+      "threshold": "descending hip/knee/ankle height",
+      "kind": "hard"
+    },
+    {
+      "name": "elbow_between_shoulder_wrist_r",
+      "pass": true,
+      "measured": [
+        145.67994689941406,
+        121.09024810791016,
+        110.23078918457031
+      ],
+      "threshold": "descending shoulder/elbow/wrist height",
+      "kind": "hard"
+    },
+    {
+      "name": "surface_envelope_pelvis",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.3620162606239319,
+          5.080873966217041,
+          102.21240997314453
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_pelvis",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_01",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.3507831394672394,
+          7.72031307220459,
+          111.06185150146484
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_01",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_02",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.18377529084682465,
+          7.076122283935547,
+          125.91529083251953
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_02",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_03",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.3198901414871216,
+          1.7391338348388672,
+          138.16806030273438
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_03",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_neck_01",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -0.7195242643356323,
+          -0.8970544338226318,
+          153.31655883789062
+        ],
+        "enclosing_contour_count": 2
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_neck_01",
+      "pass": false,
+      "measured": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_head",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.6823169589042664,
+          3.7754318714141846,
+          162.723388671875
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_head",
+      "pass": false,
+      "measured": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_clavicle_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.6984151005744934,
+          -0.9031705856323242,
+          147.36546325683594
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_clavicle_l",
+      "pass": false,
+      "measured": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_upperarm_l",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          15.118847846984863,
+          -2.7920451164245605,
+          145.8328857421875
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_upperarm_l",
+      "pass": false,
+      "measured": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_lowerarm_l",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          25.775009155273438,
+          -4.2768754959106445,
+          118.51973724365234
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_lowerarm_l",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_hand_l",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          39.57374572753906,
+          10.024004936218262,
+          99.26380920410156
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_hand_l",
+      "pass": false,
+      "measured": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_thigh_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          9.20170783996582,
+          5.1209635734558105,
+          100.68609619140625
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_thigh_l",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_calf_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          14.763835906982422,
+          1.4161903858184814,
+          54.59458541870117
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_calf_l",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_foot_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          19.80282974243164,
+          -3.433751344680786,
+          9.388412475585938
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_foot_l",
+      "pass": false,
+      "measured": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_ball_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          22.672853469848633,
+          9.496270179748535,
+          4.381893634796143
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_ball_l",
+      "pass": false,
+      "measured": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_clavicle_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -1.2238543033599854,
+          -0.9796841144561768,
+          147.2202606201172
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_clavicle_r",
+      "pass": false,
+      "measured": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_upperarm_r",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          -15.615513801574707,
+          -3.070885181427002,
+          145.67994689941406
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_upperarm_r",
+      "pass": false,
+      "measured": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_lowerarm_r",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          -28.48201560974121,
+          6.295717716217041,
+          121.09024810791016
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_lowerarm_r",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_hand_r",
+      "pass": false,
+      "measured": {
+        "position_cm": [
+          -43.10472106933594,
+          27.127429962158203,
+          110.23078918457031
+        ],
+        "enclosing_contour_count": 0
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_hand_r",
+      "pass": false,
+      "measured": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_thigh_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -8.460065841674805,
+          4.8170390129089355,
+          100.60847473144531
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_thigh_r",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_calf_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -13.791065216064453,
+          1.0993638038635254,
+          54.631065368652344
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_calf_r",
+      "pass": false,
+      "measured": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_foot_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -19.21147918701172,
+          -3.8059253692626953,
+          11.094802856445312
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_foot_r",
+      "pass": false,
+      "measured": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_ball_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -23.41436195373535,
+          8.110649108886719,
+          4.432552814483643
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_ball_r",
+      "pass": false,
+      "measured": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "neck_exits_torso",
+      "pass": true,
+      "measured": [
+        138.16806030273438,
+        153.31655883789062,
+        162.723388671875
+      ],
+      "threshold": "spine < neck < head",
+      "kind": "hard"
+    },
+    {
+      "name": "frame_orthonormal",
+      "pass": true,
+      "measured": {
+        "orthogonality_error": 0.0,
+        "determinant": -1.0
+      },
+      "threshold": "orthonormal determinant -1; explicit left/forward/up LH canonical frame",
+      "kind": "hard"
+    },
+    {
+      "name": "paired_sole_up_evidence",
+      "pass": true,
+      "measured": 340,
+      "threshold": ">=40 near-ground supporting vertices; geometric up evidence, no medical upright certification",
+      "kind": "hard"
+    },
+    {
+      "name": "geometry_shoe_facing_l",
+      "pass": true,
+      "measured": {
+        "forward_extent_cm": 19.661068220571906,
+        "rear_extent_cm": 5.27601029545267
+      },
+      "threshold": "paired shoe anterior extension greater than heel extension from lower shank",
+      "kind": "hard"
+    },
+    {
+      "name": "geometry_shoe_facing_r",
+      "pass": true,
+      "measured": {
+        "forward_extent_cm": 18.905721616554107,
+        "rear_extent_cm": 5.363941843644049
+      },
+      "threshold": "paired shoe anterior extension greater than heel extension from lower shank",
+      "kind": "hard"
+    }
+  ],
+  "passed": false,
+  "failed": [
+    "bilateral_body_consistency",
+    "anatomical_role_resolved_pelvis",
+    "anatomical_role_resolved_neck_01",
+    "anatomical_role_resolved_head",
+    "anatomical_role_resolved_clavicle_l",
+    "surface_envelope_upperarm_l",
+    "anatomical_role_resolved_upperarm_l",
+    "surface_envelope_lowerarm_l",
+    "anatomical_role_resolved_lowerarm_l",
+    "surface_envelope_hand_l",
+    "anatomical_role_resolved_hand_l",
+    "anatomical_role_resolved_thigh_l",
+    "anatomical_role_resolved_calf_l",
+    "anatomical_role_resolved_foot_l",
+    "anatomical_role_resolved_ball_l",
+    "anatomical_role_resolved_clavicle_r",
+    "surface_envelope_upperarm_r",
+    "anatomical_role_resolved_upperarm_r",
+    "surface_envelope_lowerarm_r",
+    "anatomical_role_resolved_lowerarm_r",
+    "surface_envelope_hand_r",
+    "anatomical_role_resolved_hand_r",
+    "anatomical_role_resolved_thigh_r",
+    "anatomical_role_resolved_calf_r",
+    "anatomical_role_resolved_foot_r",
+    "anatomical_role_resolved_ball_r"
+  ],
+  "structural_geometric_passed": false,
+  "automatic_anatomical_passed": false,
+  "manual_anatomical_review_roles": [],
+  "proposal_sha256": "c153d6ebbe74b87f0b46ac80a0b624a023a55521210d0dff6fa3db7f4e368534",
+  "downstream_authorised": false,
+  "numeric_screen_limit": "Section bounding envelopes are conservative; no claim of exact internal anatomical ground truth. Unresolved anatomical roles block downstream even when geometric screens pass.",
+  "skin": {
+    "status": "not_run_if_rejected"
+  },
+  "retarget_bake": {
+    "status": "not_run_if_rejected"
+  }
+}

@@ -1,0 +1,147 @@
+Begin Object Class=/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C Name="BP_IKRetargeting_C_1" ExportPath="/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1'"
+   Begin Object Class=/Script/HairStrandsCore.GroomComponent Name="HairGroom" Archetype="/Script/HairStrandsCore.GroomComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:HairGroom_GEN_VARIABLE'" ExportPath="/Script/HairStrandsCore.GroomComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.HairGroom'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="HairMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:HairMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.HairMesh'"
+   End Object
+   Begin Object Class=/Script/HairStrandsCore.GroomComponent Name="EyebrowsGroom" Archetype="/Script/HairStrandsCore.GroomComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:EyebrowsGroom_GEN_VARIABLE'" ExportPath="/Script/HairStrandsCore.GroomComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.EyebrowsGroom'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="Target_SkeletalMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:Target_SkeletalMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh'"
+      Begin Object Class=/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Echo_Twist_CtrlRig_C Name="Echo_Twist_CtrlRig_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Echo_Twist_CtrlRig_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1'"
+         Begin Object Class=/Script/AnimationCore.AnimationDataSourceRegistry Name="AnimationDataSourceRegistry_0" Archetype="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Default__Echo_Twist_CtrlRig_C:AnimationDataSourceRegistry_0'" ExportPath="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.AnimationDataSourceRegistry_0'"
+         End Object
+         Begin Object Class=/Script/ControlRig.RigHierarchy Name="DynamicHierarchy" Archetype="/Script/ControlRig.RigHierarchy'/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Default__Echo_Twist_CtrlRig_C:DynamicHierarchy'" ExportPath="/Script/ControlRig.RigHierarchy'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.DynamicHierarchy'"
+            Begin Object Class=/Script/ControlRig.RigHierarchyController Name="HierarchyController" Archetype="/Script/ControlRig.RigHierarchyController'/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Default__Echo_Twist_CtrlRig_C:DynamicHierarchy.HierarchyController'" ExportPath="/Script/ControlRig.RigHierarchyController'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.DynamicHierarchy.HierarchyController'"
+            End Object
+         End Object
+      End Object
+      Begin Object Class=/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Echo_Helpers_CtrlRig_C Name="Echo_Helpers_CtrlRig_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Echo_Helpers_CtrlRig_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1'"
+         Begin Object Class=/Script/AnimationCore.AnimationDataSourceRegistry Name="AnimationDataSourceRegistry_0" Archetype="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Default__Echo_Helpers_CtrlRig_C:AnimationDataSourceRegistry_0'" ExportPath="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.AnimationDataSourceRegistry_0'"
+         End Object
+         Begin Object Class=/Script/ControlRig.RigHierarchy Name="DynamicHierarchy" Archetype="/Script/ControlRig.RigHierarchy'/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Default__Echo_Helpers_CtrlRig_C:DynamicHierarchy'" ExportPath="/Script/ControlRig.RigHierarchy'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.DynamicHierarchy'"
+            Begin Object Class=/Script/ControlRig.RigHierarchyController Name="HierarchyController" Archetype="/Script/ControlRig.RigHierarchyController'/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Default__Echo_Helpers_CtrlRig_C:DynamicHierarchy.HierarchyController'" ExportPath="/Script/ControlRig.RigHierarchyController'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.DynamicHierarchy.HierarchyController'"
+            End Object
+         End Object
+      End Object
+      Begin Object Class=/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C Name="Echo_PostProcess_AnimBP_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_PostProcess_AnimBP_C_1'"
+      End Object
+      Begin Object Class=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C Name="ABP_CopyPoseFromMesh_C_0" ExportPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.ABP_CopyPoseFromMesh_C_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="Source_SkeletalMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:Source_SkeletalMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh'"
+      Begin Object Class=/Script/Engine.AnimSingleNodeInstance Name="AnimSingleNodeInstance_1" ExportPath="/Script/Engine.AnimSingleNodeInstance'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh.AnimSingleNodeInstance_1'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C:DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot'"
+   End Object
+   Begin Object Name="HairGroom" ExportPath="/Script/HairStrandsCore.GroomComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.HairGroom'"
+      GroomAsset="/Script/HairStrandsCore.GroomAsset'/Game/Characters/Echo/Hair/Hair_S_UpdoBuns.Hair_S_UpdoBuns'"
+      BindingAsset="/Script/HairStrandsCore.GroomBindingAsset'/Game/Characters/Echo/Hair/Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding.Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding'"
+      GroomGroupsDesc(0)=()
+      AttachParent="Target_SkeletalMesh"
+      AttachSocketName="head"
+      RelativeLocation=(X=-152.369539,Y=-0.007318,Z=0.009168)
+      RelativeRotation=(Pitch=-90.000000,Yaw=-0.017319,Roll=0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="HairMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.HairMesh'"
+      AttachParent="Target_SkeletalMesh"
+      PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="EyebrowsGroom" ExportPath="/Script/HairStrandsCore.GroomComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.EyebrowsGroom'"
+      GroomAsset="/Script/HairStrandsCore.GroomAsset'/Game/Characters/Echo/Hair/Eyebrows_L_Echo.Eyebrows_L_Echo'"
+      BindingAsset="/Script/HairStrandsCore.GroomBindingAsset'/Game/Characters/Echo/Hair/Eyebrows_L_Echo_Echo_M3D_LOD0_Binding.Eyebrows_L_Echo_Echo_M3D_LOD0_Binding'"
+      GroomGroupsDesc(0)=()
+      AttachParent="Target_SkeletalMesh"
+      AttachSocketName="head"
+      RelativeLocation=(X=-152.369539,Y=-0.007318,Z=0.009168)
+      RelativeRotation=(Pitch=-90.000000,Yaw=-0.017319,Roll=0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Target_SkeletalMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh'"
+      Begin Object Name="Echo_Twist_CtrlRig_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig.Echo_Twist_CtrlRig_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1'"
+         Begin Object Name="AnimationDataSourceRegistry_0" ExportPath="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.AnimationDataSourceRegistry_0'"
+         End Object
+         Begin Object Name="DynamicHierarchy" ExportPath="/Script/ControlRig.RigHierarchy'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.DynamicHierarchy'"
+            Begin Object Name="HierarchyController" ExportPath="/Script/ControlRig.RigHierarchyController'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Twist_CtrlRig_C_1.DynamicHierarchy.HierarchyController'"
+            End Object
+         End Object
+         HierarchySettings=(ProceduralElementLimit=2399)
+         DynamicHierarchy="DynamicHierarchy"
+      End Object
+      Begin Object Name="Echo_Helpers_CtrlRig_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig.Echo_Helpers_CtrlRig_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1'"
+         Begin Object Name="AnimationDataSourceRegistry_0" ExportPath="/Script/AnimationCore.AnimationDataSourceRegistry'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.AnimationDataSourceRegistry_0'"
+         End Object
+         Begin Object Name="DynamicHierarchy" ExportPath="/Script/ControlRig.RigHierarchy'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.DynamicHierarchy'"
+            Begin Object Name="HierarchyController" ExportPath="/Script/ControlRig.RigHierarchyController'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_Helpers_CtrlRig_C_1.DynamicHierarchy.HierarchyController'"
+            End Object
+         End Object
+         HierarchySettings=(ProceduralElementLimit=2456)
+         DynamicHierarchy="DynamicHierarchy"
+      End Object
+      Begin Object Name="Echo_PostProcess_AnimBP_C_1" ExportPath="/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_PostProcess_AnimBP_C_1'"
+         AnimGraphNode_PoseDriver_8=()
+         AnimGraphNode_PoseDriver_7=()
+         AnimGraphNode_PoseDriver_6=()
+         AnimGraphNode_PoseDriver_5=()
+         AnimGraphNode_PoseDriver_4=()
+         AnimGraphNode_PoseDriver_3=()
+         AnimGraphNode_Constraint_2=()
+         AnimGraphNode_ControlRig_1=()
+         AnimGraphNode_Constraint_1=()
+         AnimGraphNode_PoseDriver_2=()
+         AnimGraphNode_PoseDriver_1=()
+         AnimGraphNode_PoseDriver=()
+         AnimGraphNode_ControlRig=()
+         AnimGraphNode_Constraint=()
+         AnimGraphNode_RigidBody_3=()
+         AnimGraphNode_RigidBody_2=()
+         AnimGraphNode_RigidBody_1=()
+         AnimGraphNode_RigidBody=()
+      End Object
+      Begin Object Name="ABP_CopyPoseFromMesh_C_0" ExportPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.ABP_CopyPoseFromMesh_C_0'"
+      End Object
+      AnimClass="/Script/Engine.AnimBlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C'"
+      AttachParent="Source_SkeletalMesh"
+      PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Source_SkeletalMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh'"
+      Begin Object Name="AnimSingleNodeInstance_1" ExportPath="/Script/Engine.AnimSingleNodeInstance'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh.AnimSingleNodeInstance_1'"
+      End Object
+      AttachParent="DefaultSceneRoot"
+      PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot'"
+      RelativeLocation=(X=2529.840079,Y=-659.257392,Z=11.120858)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   HairGroom="HairGroom"
+   HairMesh="HairMesh"
+   EyebrowsGroom="EyebrowsGroom"
+   Target_SkeletalMesh="Target_SkeletalMesh"
+   Source_SkeletalMesh="Source_SkeletalMesh"
+   DefaultSceneRoot="DefaultSceneRoot"
+   RootComponent="DefaultSceneRoot"
+   ActorLabel="BP_CopyPoseFromMesh"
+   FolderPath="Example 1.2"
+   BlueprintCreatedComponents(0)="DefaultSceneRoot"
+   BlueprintCreatedComponents(1)="Source_SkeletalMesh"
+   BlueprintCreatedComponents(2)="Target_SkeletalMesh"
+   BlueprintCreatedComponents(3)="EyebrowsGroom"
+   BlueprintCreatedComponents(4)="HairMesh"
+   BlueprintCreatedComponents(5)="HairGroom"
+End Object

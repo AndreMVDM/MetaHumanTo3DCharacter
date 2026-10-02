@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "measured_results": {
+    "native_lara_components": 4,
+    "manny_components": 0,
+    "donor_components": 0,
+    "component_scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "components": [
+    {
+      "name": "idle",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Idle.MM_Idle"
+    },
+    {
+      "name": "walk",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd"
+    },
+    {
+      "name": "run",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Run_Fwd.MM_Run_Fwd"
+    },
+    {
+      "name": "reach",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/JumpingJacks.JumpingJacks"
+    }
+  ],
+  "assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/BP_LaraNativePlayback.BP_LaraNativePlayback",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Maps/L_LaraNativePlayback"
+  ]
+}

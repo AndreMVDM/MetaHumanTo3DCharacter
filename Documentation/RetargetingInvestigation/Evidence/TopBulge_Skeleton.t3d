@@ -1,0 +1,10 @@
+Begin Object Class=/Script/Engine.Skeleton Name="TopBulge_Skeleton" ExportPath="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton.TopBulge_Skeleton'"
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton.TopBulge_Skeleton:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton.TopBulge_Skeleton:AnimCurveMetaData_0'"
+      CurveMetaData=(("TopBulge", (Type=(bMorphtarget=True))))
+   End Object
+   BoneTree(3)=()
+   PreviewSkeletalMesh="/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge.TopBulge"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "character": "Bill",
+      "status": "passed",
+      "fresh_process_map_loaded": true,
+      "controls": 22,
+      "control_max_error_cm": 0.0,
+      "source_height_cm": 180.0,
+      "source_actor_scales_unit": true,
+      "source_materials": [
+        {
+          "material": "/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Geometry/tripo_3461b97c_284e_4ba6_b611_03960a23ee7c.tripo_3461b97c_284e_4ba6_b611_03960a23ee7c",
+          "textures": [
+            "/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Geometry/Bill_Textured_Unrigged_basecolor.Bill_Textured_Unrigged_basecolor"
+          ]
+        }
+      ],
+      "human_review_created": false,
+      "runtime_playback_test": false
+    },
+    {
+      "character": "Jill",
+      "status": "passed",
+      "fresh_process_map_loaded": true,
+      "controls": 22,
+      "control_max_error_cm": 0.0,
+      "source_height_cm": 180.0,
+      "source_actor_scales_unit": true,
+      "source_materials": [
+        {
+          "material": "/Game/MetaHumanTo3DCharacter/Phase4F/Jill/Geometry/tripo_941820f7_43fd_4df6_b675_72fc70214f51.tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+          "textures": [
+            "/Game/MetaHumanTo3DCharacter/Phase4F/Jill/Geometry/Jill_Textured_Unrigged_basecolor.Jill_Textured_Unrigged_basecolor"
+          ]
+        }
+      ],
+      "human_review_created": false,
+      "runtime_playback_test": false
+    }
+  ],
+  "scope": "Saved static anatomical authoring maps only. Not skeletal/native-runtime or clean-project playback."
+}

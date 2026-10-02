@@ -1,0 +1,1642 @@
+[
+  {
+    "rig": "UE5",
+    "label": "OriginalHeight",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "source_sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2",
+    "requested_height_cm": 99.95117523636416,
+    "measured_original_height_cm": 99.95117523636416,
+    "factor": 1.0,
+    "raw_original_bounds_height_cm": 99.95117523636416,
+    "ground_cm": -3.361364164788938e-06,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30990481376648,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 61,
+    "hierarchy": {
+      "root": null,
+      "pelvis": "root",
+      "spine_01": "pelvis",
+      "spine_02": "spine_01",
+      "spine_03": "spine_02",
+      "clavicle_l": "spine_03",
+      "upperarm_l": "clavicle_l",
+      "lowerarm_l": "upperarm_l",
+      "hand_l": "lowerarm_l",
+      "index_01_l": "hand_l",
+      "index_02_l": "index_01_l",
+      "index_03_l": "index_02_l",
+      "middle_01_l": "hand_l",
+      "middle_02_l": "middle_01_l",
+      "middle_03_l": "middle_02_l",
+      "pinky_01_l": "hand_l",
+      "pinky_02_l": "pinky_01_l",
+      "pinky_03_l": "pinky_02_l",
+      "ring_01_l": "hand_l",
+      "ring_02_l": "ring_01_l",
+      "ring_03_l": "ring_02_l",
+      "thumb_01_l": "hand_l",
+      "thumb_02_l": "thumb_01_l",
+      "thumb_03_l": "thumb_02_l",
+      "lowerarm_twist_01_l": "lowerarm_l",
+      "upperarm_twist_01_l": "upperarm_l",
+      "clavicle_r": "spine_03",
+      "upperarm_r": "clavicle_r",
+      "lowerarm_r": "upperarm_r",
+      "hand_r": "lowerarm_r",
+      "index_01_r": "hand_r",
+      "index_02_r": "index_01_r",
+      "index_03_r": "index_02_r",
+      "middle_01_r": "hand_r",
+      "middle_02_r": "middle_01_r",
+      "middle_03_r": "middle_02_r",
+      "pinky_01_r": "hand_r",
+      "pinky_02_r": "pinky_01_r",
+      "pinky_03_r": "pinky_02_r",
+      "ring_01_r": "hand_r",
+      "ring_02_r": "ring_01_r",
+      "ring_03_r": "ring_02_r",
+      "thumb_01_r": "hand_r",
+      "thumb_02_r": "thumb_01_r",
+      "thumb_03_r": "thumb_02_r",
+      "lowerarm_twist_01_r": "lowerarm_r",
+      "upperarm_twist_01_r": "upperarm_r",
+      "neck_01": "spine_03",
+      "head": "neck_01",
+      "thigh_l": "pelvis",
+      "calf_l": "thigh_l",
+      "calf_twist_01_l": "calf_l",
+      "foot_l": "calf_l",
+      "ball_l": "foot_l",
+      "thigh_twist_01_l": "thigh_l",
+      "thigh_r": "pelvis",
+      "calf_r": "thigh_r",
+      "calf_twist_01_r": "calf_r",
+      "foot_r": "calf_r",
+      "ball_r": "foot_r",
+      "thigh_twist_01_r": "thigh_r"
+    },
+    "source_weight_sha256": "8fd20f8aebf65085832298b5033fbf99ca0dc57ee48b712682dfe9bf0eb7695a",
+    "output_weight_sha256": "0b7495088c9d022a937a022785a9de24df6700afc839bbc1b7b354da17035f89",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "spine_03",
+            6.415505049517378e-05
+          ],
+          [
+            "clavicle_r",
+            0.0005950502236373723
+          ],
+          [
+            "neck_01",
+            0.06450341641902924
+          ],
+          [
+            "head",
+            0.9348374009132385
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "spine_03",
+            0.0008392493473365903
+          ],
+          [
+            "clavicle_l",
+            0.00035635236417874694
+          ],
+          [
+            "neck_01",
+            0.14887095987796783
+          ],
+          [
+            "head",
+            0.8499334454536438
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.000000150030246,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 3.939321432556702e-06,
+    "max_bone_uniform_error_cm": 4.76837158203125e-07,
+    "max_reference_deformation_error_cm": 2.133013653406624e-05,
+    "output_bounds_cm": {
+      "min": [
+        -19.99510955810547,
+        -10.424808502197266,
+        -3.3611527214816306e-06
+      ],
+      "max": [
+        19.995128631591797,
+        10.424806594848633,
+        99.951171875
+      ]
+    },
+    "expected_anatomical_height_cm": 99.95117523636416,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\OriginalHeight\\Lara_UE5_OriginalHeight.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\OriginalHeight\\Lara_UE5_OriginalHeight.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "2511451da18582559d31239c3584f758b137281436ddae1ff198979150cb17bc"
+  },
+  {
+    "rig": "UE5",
+    "label": "Height160",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "source_sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2",
+    "requested_height_cm": 160,
+    "measured_original_height_cm": 99.95117523636416,
+    "factor": 1.6007815778216974,
+    "raw_original_bounds_height_cm": 99.95117523636416,
+    "ground_cm": -3.361364164788938e-06,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30990481376648,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 61,
+    "hierarchy": {
+      "root": null,
+      "pelvis": "root",
+      "spine_01": "pelvis",
+      "spine_02": "spine_01",
+      "spine_03": "spine_02",
+      "clavicle_l": "spine_03",
+      "upperarm_l": "clavicle_l",
+      "lowerarm_l": "upperarm_l",
+      "hand_l": "lowerarm_l",
+      "index_01_l": "hand_l",
+      "index_02_l": "index_01_l",
+      "index_03_l": "index_02_l",
+      "middle_01_l": "hand_l",
+      "middle_02_l": "middle_01_l",
+      "middle_03_l": "middle_02_l",
+      "pinky_01_l": "hand_l",
+      "pinky_02_l": "pinky_01_l",
+      "pinky_03_l": "pinky_02_l",
+      "ring_01_l": "hand_l",
+      "ring_02_l": "ring_01_l",
+      "ring_03_l": "ring_02_l",
+      "thumb_01_l": "hand_l",
+      "thumb_02_l": "thumb_01_l",
+      "thumb_03_l": "thumb_02_l",
+      "lowerarm_twist_01_l": "lowerarm_l",
+      "upperarm_twist_01_l": "upperarm_l",
+      "clavicle_r": "spine_03",
+      "upperarm_r": "clavicle_r",
+      "lowerarm_r": "upperarm_r",
+      "hand_r": "lowerarm_r",
+      "index_01_r": "hand_r",
+      "index_02_r": "index_01_r",
+      "index_03_r": "index_02_r",
+      "middle_01_r": "hand_r",
+      "middle_02_r": "middle_01_r",
+      "middle_03_r": "middle_02_r",
+      "pinky_01_r": "hand_r",
+      "pinky_02_r": "pinky_01_r",
+      "pinky_03_r": "pinky_02_r",
+      "ring_01_r": "hand_r",
+      "ring_02_r": "ring_01_r",
+      "ring_03_r": "ring_02_r",
+      "thumb_01_r": "hand_r",
+      "thumb_02_r": "thumb_01_r",
+      "thumb_03_r": "thumb_02_r",
+      "lowerarm_twist_01_r": "lowerarm_r",
+      "upperarm_twist_01_r": "upperarm_r",
+      "neck_01": "spine_03",
+      "head": "neck_01",
+      "thigh_l": "pelvis",
+      "calf_l": "thigh_l",
+      "calf_twist_01_l": "calf_l",
+      "foot_l": "calf_l",
+      "ball_l": "foot_l",
+      "thigh_twist_01_l": "thigh_l",
+      "thigh_r": "pelvis",
+      "calf_r": "thigh_r",
+      "calf_twist_01_r": "calf_r",
+      "foot_r": "calf_r",
+      "ball_r": "foot_r",
+      "thigh_twist_01_r": "thigh_r"
+    },
+    "source_weight_sha256": "8fd20f8aebf65085832298b5033fbf99ca0dc57ee48b712682dfe9bf0eb7695a",
+    "output_weight_sha256": "0b7495088c9d022a937a022785a9de24df6700afc839bbc1b7b354da17035f89",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "spine_03",
+            6.415505049517378e-05
+          ],
+          [
+            "clavicle_r",
+            0.0005950502236373723
+          ],
+          [
+            "neck_01",
+            0.06450341641902924
+          ],
+          [
+            "head",
+            0.9348374009132385
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "spine_03",
+            0.0008392493473365903
+          ],
+          [
+            "clavicle_l",
+            0.00035635236417874694
+          ],
+          [
+            "neck_01",
+            0.14887095987796783
+          ],
+          [
+            "head",
+            0.8499334454536438
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.000000150030246,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5295996601434175e-05,
+    "max_bone_uniform_error_cm": 1.52587890625e-05,
+    "max_reference_deformation_error_cm": 3.07439810177133e-05,
+    "output_bounds_cm": {
+      "min": [
+        -32.0078010559082,
+        -16.687841415405273,
+        -5.380471066018799e-06
+      ],
+      "max": [
+        32.00783157348633,
+        16.687837600708008,
+        159.99998474121094
+      ]
+    },
+    "expected_anatomical_height_cm": 160.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height160\\Lara_UE5_Height160.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height160\\Lara_UE5_Height160.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "ff05d3735de92f98723b0467941147d6d60f3672e09fbfb5cf6906608688cf86"
+  },
+  {
+    "rig": "UE5",
+    "label": "Height175",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "source_sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2",
+    "requested_height_cm": 175,
+    "measured_original_height_cm": 99.95117523636416,
+    "factor": 1.7508548507424815,
+    "raw_original_bounds_height_cm": 99.95117523636416,
+    "ground_cm": -3.361364164788938e-06,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30990481376648,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 61,
+    "hierarchy": {
+      "root": null,
+      "pelvis": "root",
+      "spine_01": "pelvis",
+      "spine_02": "spine_01",
+      "spine_03": "spine_02",
+      "clavicle_l": "spine_03",
+      "upperarm_l": "clavicle_l",
+      "lowerarm_l": "upperarm_l",
+      "hand_l": "lowerarm_l",
+      "index_01_l": "hand_l",
+      "index_02_l": "index_01_l",
+      "index_03_l": "index_02_l",
+      "middle_01_l": "hand_l",
+      "middle_02_l": "middle_01_l",
+      "middle_03_l": "middle_02_l",
+      "pinky_01_l": "hand_l",
+      "pinky_02_l": "pinky_01_l",
+      "pinky_03_l": "pinky_02_l",
+      "ring_01_l": "hand_l",
+      "ring_02_l": "ring_01_l",
+      "ring_03_l": "ring_02_l",
+      "thumb_01_l": "hand_l",
+      "thumb_02_l": "thumb_01_l",
+      "thumb_03_l": "thumb_02_l",
+      "lowerarm_twist_01_l": "lowerarm_l",
+      "upperarm_twist_01_l": "upperarm_l",
+      "clavicle_r": "spine_03",
+      "upperarm_r": "clavicle_r",
+      "lowerarm_r": "upperarm_r",
+      "hand_r": "lowerarm_r",
+      "index_01_r": "hand_r",
+      "index_02_r": "index_01_r",
+      "index_03_r": "index_02_r",
+      "middle_01_r": "hand_r",
+      "middle_02_r": "middle_01_r",
+      "middle_03_r": "middle_02_r",
+      "pinky_01_r": "hand_r",
+      "pinky_02_r": "pinky_01_r",
+      "pinky_03_r": "pinky_02_r",
+      "ring_01_r": "hand_r",
+      "ring_02_r": "ring_01_r",
+      "ring_03_r": "ring_02_r",
+      "thumb_01_r": "hand_r",
+      "thumb_02_r": "thumb_01_r",
+      "thumb_03_r": "thumb_02_r",
+      "lowerarm_twist_01_r": "lowerarm_r",
+      "upperarm_twist_01_r": "upperarm_r",
+      "neck_01": "spine_03",
+      "head": "neck_01",
+      "thigh_l": "pelvis",
+      "calf_l": "thigh_l",
+      "calf_twist_01_l": "calf_l",
+      "foot_l": "calf_l",
+      "ball_l": "foot_l",
+      "thigh_twist_01_l": "thigh_l",
+      "thigh_r": "pelvis",
+      "calf_r": "thigh_r",
+      "calf_twist_01_r": "calf_r",
+      "foot_r": "calf_r",
+      "ball_r": "foot_r",
+      "thigh_twist_01_r": "thigh_r"
+    },
+    "source_weight_sha256": "8fd20f8aebf65085832298b5033fbf99ca0dc57ee48b712682dfe9bf0eb7695a",
+    "output_weight_sha256": "0b7495088c9d022a937a022785a9de24df6700afc839bbc1b7b354da17035f89",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "spine_03",
+            6.415505049517378e-05
+          ],
+          [
+            "clavicle_r",
+            0.0005950502236373723
+          ],
+          [
+            "neck_01",
+            0.06450341641902924
+          ],
+          [
+            "head",
+            0.9348374009132385
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "spine_03",
+            0.0008392493473365903
+          ],
+          [
+            "clavicle_l",
+            0.00035635236417874694
+          ],
+          [
+            "neck_01",
+            0.14887095987796783
+          ],
+          [
+            "head",
+            0.8499334454536438
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.000000150030246,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5407080098536978e-05,
+    "max_bone_uniform_error_cm": 1.5259254716682097e-05,
+    "max_reference_deformation_error_cm": 4.6417593092490985e-05,
+    "output_bounds_cm": {
+      "min": [
+        -35.0085334777832,
+        -18.25232696533203,
+        -5.884890015295241e-06
+      ],
+      "max": [
+        35.008567810058594,
+        18.252323150634766,
+        174.99998474121094
+      ]
+    },
+    "expected_anatomical_height_cm": 175.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height175\\Lara_UE5_Height175.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height175\\Lara_UE5_Height175.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "72b832b3e683f3ed36d0ee7f97ea525588b044e81553a068383083092dbb84c6"
+  },
+  {
+    "rig": "UE5",
+    "label": "Height180",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "source_sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2",
+    "requested_height_cm": 180,
+    "measured_original_height_cm": 99.95117523636416,
+    "factor": 1.8008792750494096,
+    "raw_original_bounds_height_cm": 99.95117523636416,
+    "ground_cm": -3.361364164788938e-06,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30990481376648,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 61,
+    "hierarchy": {
+      "root": null,
+      "pelvis": "root",
+      "spine_01": "pelvis",
+      "spine_02": "spine_01",
+      "spine_03": "spine_02",
+      "clavicle_l": "spine_03",
+      "upperarm_l": "clavicle_l",
+      "lowerarm_l": "upperarm_l",
+      "hand_l": "lowerarm_l",
+      "index_01_l": "hand_l",
+      "index_02_l": "index_01_l",
+      "index_03_l": "index_02_l",
+      "middle_01_l": "hand_l",
+      "middle_02_l": "middle_01_l",
+      "middle_03_l": "middle_02_l",
+      "pinky_01_l": "hand_l",
+      "pinky_02_l": "pinky_01_l",
+      "pinky_03_l": "pinky_02_l",
+      "ring_01_l": "hand_l",
+      "ring_02_l": "ring_01_l",
+      "ring_03_l": "ring_02_l",
+      "thumb_01_l": "hand_l",
+      "thumb_02_l": "thumb_01_l",
+      "thumb_03_l": "thumb_02_l",
+      "lowerarm_twist_01_l": "lowerarm_l",
+      "upperarm_twist_01_l": "upperarm_l",
+      "clavicle_r": "spine_03",
+      "upperarm_r": "clavicle_r",
+      "lowerarm_r": "upperarm_r",
+      "hand_r": "lowerarm_r",
+      "index_01_r": "hand_r",
+      "index_02_r": "index_01_r",
+      "index_03_r": "index_02_r",
+      "middle_01_r": "hand_r",
+      "middle_02_r": "middle_01_r",
+      "middle_03_r": "middle_02_r",
+      "pinky_01_r": "hand_r",
+      "pinky_02_r": "pinky_01_r",
+      "pinky_03_r": "pinky_02_r",
+      "ring_01_r": "hand_r",
+      "ring_02_r": "ring_01_r",
+      "ring_03_r": "ring_02_r",
+      "thumb_01_r": "hand_r",
+      "thumb_02_r": "thumb_01_r",
+      "thumb_03_r": "thumb_02_r",
+      "lowerarm_twist_01_r": "lowerarm_r",
+      "upperarm_twist_01_r": "upperarm_r",
+      "neck_01": "spine_03",
+      "head": "neck_01",
+      "thigh_l": "pelvis",
+      "calf_l": "thigh_l",
+      "calf_twist_01_l": "calf_l",
+      "foot_l": "calf_l",
+      "ball_l": "foot_l",
+      "thigh_twist_01_l": "thigh_l",
+      "thigh_r": "pelvis",
+      "calf_r": "thigh_r",
+      "calf_twist_01_r": "calf_r",
+      "foot_r": "calf_r",
+      "ball_r": "foot_r",
+      "thigh_twist_01_r": "thigh_r"
+    },
+    "source_weight_sha256": "8fd20f8aebf65085832298b5033fbf99ca0dc57ee48b712682dfe9bf0eb7695a",
+    "output_weight_sha256": "0b7495088c9d022a937a022785a9de24df6700afc839bbc1b7b354da17035f89",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "spine_03",
+            6.415505049517378e-05
+          ],
+          [
+            "clavicle_r",
+            0.0005950502236373723
+          ],
+          [
+            "neck_01",
+            0.06450341641902924
+          ],
+          [
+            "head",
+            0.9348374009132385
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "spine_03",
+            0.0008392493473365903
+          ],
+          [
+            "clavicle_l",
+            0.00035635236417874694
+          ],
+          [
+            "neck_01",
+            0.14887095987796783
+          ],
+          [
+            "head",
+            0.8499334454536438
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.000000150030246,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5407080098536978e-05,
+    "max_bone_uniform_error_cm": 1.5259254716682097e-05,
+    "max_reference_deformation_error_cm": 4.734875330851139e-05,
+    "output_bounds_cm": {
+      "min": [
+        -36.0087776184082,
+        -18.773820877075195,
+        -6.053029665054055e-06
+      ],
+      "max": [
+        36.008811950683594,
+        18.773818969726562,
+        179.99998474121094
+      ]
+    },
+    "expected_anatomical_height_cm": 180.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height180\\Lara_UE5_Height180.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height180\\Lara_UE5_Height180.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "faa97ba9e4b8d8f0307477abd057591bba7f997a511213a028fecf4881bb8428"
+  },
+  {
+    "rig": "UE5",
+    "label": "Height200",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "source_sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2",
+    "requested_height_cm": 200,
+    "measured_original_height_cm": 99.95117523636416,
+    "factor": 2.000976972277122,
+    "raw_original_bounds_height_cm": 99.95117523636416,
+    "ground_cm": -3.361364164788938e-06,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30990481376648,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 61,
+    "hierarchy": {
+      "root": null,
+      "pelvis": "root",
+      "spine_01": "pelvis",
+      "spine_02": "spine_01",
+      "spine_03": "spine_02",
+      "clavicle_l": "spine_03",
+      "upperarm_l": "clavicle_l",
+      "lowerarm_l": "upperarm_l",
+      "hand_l": "lowerarm_l",
+      "index_01_l": "hand_l",
+      "index_02_l": "index_01_l",
+      "index_03_l": "index_02_l",
+      "middle_01_l": "hand_l",
+      "middle_02_l": "middle_01_l",
+      "middle_03_l": "middle_02_l",
+      "pinky_01_l": "hand_l",
+      "pinky_02_l": "pinky_01_l",
+      "pinky_03_l": "pinky_02_l",
+      "ring_01_l": "hand_l",
+      "ring_02_l": "ring_01_l",
+      "ring_03_l": "ring_02_l",
+      "thumb_01_l": "hand_l",
+      "thumb_02_l": "thumb_01_l",
+      "thumb_03_l": "thumb_02_l",
+      "lowerarm_twist_01_l": "lowerarm_l",
+      "upperarm_twist_01_l": "upperarm_l",
+      "clavicle_r": "spine_03",
+      "upperarm_r": "clavicle_r",
+      "lowerarm_r": "upperarm_r",
+      "hand_r": "lowerarm_r",
+      "index_01_r": "hand_r",
+      "index_02_r": "index_01_r",
+      "index_03_r": "index_02_r",
+      "middle_01_r": "hand_r",
+      "middle_02_r": "middle_01_r",
+      "middle_03_r": "middle_02_r",
+      "pinky_01_r": "hand_r",
+      "pinky_02_r": "pinky_01_r",
+      "pinky_03_r": "pinky_02_r",
+      "ring_01_r": "hand_r",
+      "ring_02_r": "ring_01_r",
+      "ring_03_r": "ring_02_r",
+      "thumb_01_r": "hand_r",
+      "thumb_02_r": "thumb_01_r",
+      "thumb_03_r": "thumb_02_r",
+      "lowerarm_twist_01_r": "lowerarm_r",
+      "upperarm_twist_01_r": "upperarm_r",
+      "neck_01": "spine_03",
+      "head": "neck_01",
+      "thigh_l": "pelvis",
+      "calf_l": "thigh_l",
+      "calf_twist_01_l": "calf_l",
+      "foot_l": "calf_l",
+      "ball_l": "foot_l",
+      "thigh_twist_01_l": "thigh_l",
+      "thigh_r": "pelvis",
+      "calf_r": "thigh_r",
+      "calf_twist_01_r": "calf_r",
+      "foot_r": "calf_r",
+      "ball_r": "foot_r",
+      "thigh_twist_01_r": "thigh_r"
+    },
+    "source_weight_sha256": "8fd20f8aebf65085832298b5033fbf99ca0dc57ee48b712682dfe9bf0eb7695a",
+    "output_weight_sha256": "0b7495088c9d022a937a022785a9de24df6700afc839bbc1b7b354da17035f89",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "spine_03",
+            6.415505049517378e-05
+          ],
+          [
+            "clavicle_r",
+            0.0005950502236373723
+          ],
+          [
+            "neck_01",
+            0.06450341641902924
+          ],
+          [
+            "head",
+            0.9348374009132385
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "spine_03",
+            0.0008392493473365903
+          ],
+          [
+            "clavicle_l",
+            0.00035635236417874694
+          ],
+          [
+            "neck_01",
+            0.14887095987796783
+          ],
+          [
+            "head",
+            0.8499334454536438
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.000000150030246,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.538492756357353e-05,
+    "max_bone_uniform_error_cm": 1.5377565172659197e-05,
+    "max_reference_deformation_error_cm": 5.276327588509771e-05,
+    "output_bounds_cm": {
+      "min": [
+        -40.0097541809082,
+        -20.85980224609375,
+        -6.7255887188366614e-06
+      ],
+      "max": [
+        40.00979232788086,
+        20.859798431396484,
+        200.0
+      ]
+    },
+    "expected_anatomical_height_cm": 200.00000000000003,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height200\\Lara_UE5_Height200.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height200\\Lara_UE5_Height200.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "9e5f20cd7683f5b9156b34e9b79a082bfdd7273d4fb09871c9b49002c51c129a"
+  },
+  {
+    "rig": "Mixamo",
+    "label": "OriginalHeight",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "source_sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+    "requested_height_cm": 99.95117250226775,
+    "measured_original_height_cm": 99.95117250226775,
+    "factor": 1.0,
+    "raw_original_bounds_height_cm": 99.95117250226775,
+    "ground_cm": -6.272677488539102e-07,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30986905097961,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 65,
+    "hierarchy": {
+      "mixamorig:Hips": null,
+      "mixamorig:LeftUpLeg": "mixamorig:Hips",
+      "mixamorig:LeftLeg": "mixamorig:LeftUpLeg",
+      "mixamorig:LeftFoot": "mixamorig:LeftLeg",
+      "mixamorig:LeftToeBase": "mixamorig:LeftFoot",
+      "mixamorig:LeftToe_End": "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg": "mixamorig:Hips",
+      "mixamorig:RightLeg": "mixamorig:RightUpLeg",
+      "mixamorig:RightFoot": "mixamorig:RightLeg",
+      "mixamorig:RightToeBase": "mixamorig:RightFoot",
+      "mixamorig:RightToe_End": "mixamorig:RightToeBase",
+      "mixamorig:Spine": "mixamorig:Hips",
+      "mixamorig:Spine1": "mixamorig:Spine",
+      "mixamorig:Spine2": "mixamorig:Spine1",
+      "mixamorig:LeftShoulder": "mixamorig:Spine2",
+      "mixamorig:LeftArm": "mixamorig:LeftShoulder",
+      "mixamorig:LeftForeArm": "mixamorig:LeftArm",
+      "mixamorig:LeftHand": "mixamorig:LeftForeArm",
+      "mixamorig:LeftHandIndex1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex2": "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex3": "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex4": "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandMiddle1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandMiddle2": "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle3": "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle4": "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandPinky1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandPinky2": "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky3": "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky4": "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandRing1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandRing2": "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing3": "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing4": "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandThumb1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandThumb2": "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb3": "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb4": "mixamorig:LeftHandThumb3",
+      "mixamorig:Neck": "mixamorig:Spine2",
+      "mixamorig:Head": "mixamorig:Neck",
+      "mixamorig:HeadTop_End": "mixamorig:Head",
+      "mixamorig:RightShoulder": "mixamorig:Spine2",
+      "mixamorig:RightArm": "mixamorig:RightShoulder",
+      "mixamorig:RightForeArm": "mixamorig:RightArm",
+      "mixamorig:RightHand": "mixamorig:RightForeArm",
+      "mixamorig:RightHandIndex1": "mixamorig:RightHand",
+      "mixamorig:RightHandIndex2": "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex3": "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex4": "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandMiddle1": "mixamorig:RightHand",
+      "mixamorig:RightHandMiddle2": "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle3": "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle4": "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandPinky1": "mixamorig:RightHand",
+      "mixamorig:RightHandPinky2": "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky3": "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky4": "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandRing1": "mixamorig:RightHand",
+      "mixamorig:RightHandRing2": "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing3": "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing4": "mixamorig:RightHandRing3",
+      "mixamorig:RightHandThumb1": "mixamorig:RightHand",
+      "mixamorig:RightHandThumb2": "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb3": "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb4": "mixamorig:RightHandThumb3"
+    },
+    "source_weight_sha256": "b3ff1bbfb8e291448a2c18b4ee084dd01b1b6f69e39cb026e6b558111094bd01",
+    "output_weight_sha256": "745caa5a07f87d86b85acf1e25d12f1a2b1f04636bfcf902ad5feda7e63ce716",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            5.983235684681176e-09
+          ],
+          [
+            "mixamorig:Neck",
+            0.07997541129589081
+          ],
+          [
+            "mixamorig:Head",
+            0.9200245141983032
+          ],
+          [
+            "mixamorig:RightShoulder",
+            6.292668075502661e-08
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            0.0008000502130016685
+          ],
+          [
+            "mixamorig:LeftShoulder",
+            0.00034884526394307613
+          ],
+          [
+            "mixamorig:Neck",
+            0.15255384147167206
+          ],
+          [
+            "mixamorig:Head",
+            0.8462972640991211
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.0000001527369022,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 4.291534423828125e-06,
+    "max_bone_uniform_error_cm": 4.76837158203125e-07,
+    "max_reference_deformation_error_cm": 2.5321804136947162e-05,
+    "output_bounds_cm": {
+      "min": [
+        -19.9951114654541,
+        -10.424806594848633,
+        -7.293128874152899e-07
+      ],
+      "max": [
+        19.99512481689453,
+        10.424809455871582,
+        99.951171875
+      ]
+    },
+    "expected_anatomical_height_cm": 99.95117250226775,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\OriginalHeight\\Lara_Mixamo_OriginalHeight.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\OriginalHeight\\Lara_Mixamo_OriginalHeight.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "24134ac5e4797c9e1c86449ff1d9362143fedef88531e52862eb176d4b7008fc"
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height160",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "source_sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+    "requested_height_cm": 160,
+    "measured_original_height_cm": 99.95117250226775,
+    "factor": 1.60078162160999,
+    "raw_original_bounds_height_cm": 99.95117250226775,
+    "ground_cm": -6.272677488539102e-07,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30986905097961,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 65,
+    "hierarchy": {
+      "mixamorig:Hips": null,
+      "mixamorig:LeftUpLeg": "mixamorig:Hips",
+      "mixamorig:LeftLeg": "mixamorig:LeftUpLeg",
+      "mixamorig:LeftFoot": "mixamorig:LeftLeg",
+      "mixamorig:LeftToeBase": "mixamorig:LeftFoot",
+      "mixamorig:LeftToe_End": "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg": "mixamorig:Hips",
+      "mixamorig:RightLeg": "mixamorig:RightUpLeg",
+      "mixamorig:RightFoot": "mixamorig:RightLeg",
+      "mixamorig:RightToeBase": "mixamorig:RightFoot",
+      "mixamorig:RightToe_End": "mixamorig:RightToeBase",
+      "mixamorig:Spine": "mixamorig:Hips",
+      "mixamorig:Spine1": "mixamorig:Spine",
+      "mixamorig:Spine2": "mixamorig:Spine1",
+      "mixamorig:LeftShoulder": "mixamorig:Spine2",
+      "mixamorig:LeftArm": "mixamorig:LeftShoulder",
+      "mixamorig:LeftForeArm": "mixamorig:LeftArm",
+      "mixamorig:LeftHand": "mixamorig:LeftForeArm",
+      "mixamorig:LeftHandIndex1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex2": "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex3": "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex4": "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandMiddle1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandMiddle2": "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle3": "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle4": "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandPinky1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandPinky2": "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky3": "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky4": "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandRing1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandRing2": "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing3": "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing4": "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandThumb1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandThumb2": "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb3": "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb4": "mixamorig:LeftHandThumb3",
+      "mixamorig:Neck": "mixamorig:Spine2",
+      "mixamorig:Head": "mixamorig:Neck",
+      "mixamorig:HeadTop_End": "mixamorig:Head",
+      "mixamorig:RightShoulder": "mixamorig:Spine2",
+      "mixamorig:RightArm": "mixamorig:RightShoulder",
+      "mixamorig:RightForeArm": "mixamorig:RightArm",
+      "mixamorig:RightHand": "mixamorig:RightForeArm",
+      "mixamorig:RightHandIndex1": "mixamorig:RightHand",
+      "mixamorig:RightHandIndex2": "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex3": "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex4": "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandMiddle1": "mixamorig:RightHand",
+      "mixamorig:RightHandMiddle2": "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle3": "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle4": "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandPinky1": "mixamorig:RightHand",
+      "mixamorig:RightHandPinky2": "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky3": "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky4": "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandRing1": "mixamorig:RightHand",
+      "mixamorig:RightHandRing2": "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing3": "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing4": "mixamorig:RightHandRing3",
+      "mixamorig:RightHandThumb1": "mixamorig:RightHand",
+      "mixamorig:RightHandThumb2": "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb3": "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb4": "mixamorig:RightHandThumb3"
+    },
+    "source_weight_sha256": "b3ff1bbfb8e291448a2c18b4ee084dd01b1b6f69e39cb026e6b558111094bd01",
+    "output_weight_sha256": "745caa5a07f87d86b85acf1e25d12f1a2b1f04636bfcf902ad5feda7e63ce716",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            5.983235684681176e-09
+          ],
+          [
+            "mixamorig:Neck",
+            0.07997541129589081
+          ],
+          [
+            "mixamorig:Head",
+            0.9200245141983032
+          ],
+          [
+            "mixamorig:RightShoulder",
+            6.292668075502661e-08
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            0.0008000502130016685
+          ],
+          [
+            "mixamorig:LeftShoulder",
+            0.00034884526394307613
+          ],
+          [
+            "mixamorig:Neck",
+            0.15255384147167206
+          ],
+          [
+            "mixamorig:Head",
+            0.8462972640991211
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.0000001527369022,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.6324274796127024e-05,
+    "max_bone_uniform_error_cm": 1.5407080098536978e-05,
+    "max_reference_deformation_error_cm": 5.15827838862499e-05,
+    "output_bounds_cm": {
+      "min": [
+        -32.007808685302734,
+        -16.687837600708008,
+        -1.1674703728203895e-06
+      ],
+      "max": [
+        32.0078239440918,
+        16.687843322753906,
+        159.99998474121094
+      ]
+    },
+    "expected_anatomical_height_cm": 160.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height160\\Lara_Mixamo_Height160.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height160\\Lara_Mixamo_Height160.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "72c9233cf089d55025eb540675068610c32eca06d04bd1d2a726521e56d306c7"
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height175",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "source_sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+    "requested_height_cm": 175,
+    "measured_original_height_cm": 99.95117250226775,
+    "factor": 1.7508548986359265,
+    "raw_original_bounds_height_cm": 99.95117250226775,
+    "ground_cm": -6.272677488539102e-07,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30986905097961,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 65,
+    "hierarchy": {
+      "mixamorig:Hips": null,
+      "mixamorig:LeftUpLeg": "mixamorig:Hips",
+      "mixamorig:LeftLeg": "mixamorig:LeftUpLeg",
+      "mixamorig:LeftFoot": "mixamorig:LeftLeg",
+      "mixamorig:LeftToeBase": "mixamorig:LeftFoot",
+      "mixamorig:LeftToe_End": "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg": "mixamorig:Hips",
+      "mixamorig:RightLeg": "mixamorig:RightUpLeg",
+      "mixamorig:RightFoot": "mixamorig:RightLeg",
+      "mixamorig:RightToeBase": "mixamorig:RightFoot",
+      "mixamorig:RightToe_End": "mixamorig:RightToeBase",
+      "mixamorig:Spine": "mixamorig:Hips",
+      "mixamorig:Spine1": "mixamorig:Spine",
+      "mixamorig:Spine2": "mixamorig:Spine1",
+      "mixamorig:LeftShoulder": "mixamorig:Spine2",
+      "mixamorig:LeftArm": "mixamorig:LeftShoulder",
+      "mixamorig:LeftForeArm": "mixamorig:LeftArm",
+      "mixamorig:LeftHand": "mixamorig:LeftForeArm",
+      "mixamorig:LeftHandIndex1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex2": "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex3": "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex4": "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandMiddle1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandMiddle2": "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle3": "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle4": "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandPinky1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandPinky2": "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky3": "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky4": "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandRing1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandRing2": "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing3": "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing4": "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandThumb1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandThumb2": "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb3": "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb4": "mixamorig:LeftHandThumb3",
+      "mixamorig:Neck": "mixamorig:Spine2",
+      "mixamorig:Head": "mixamorig:Neck",
+      "mixamorig:HeadTop_End": "mixamorig:Head",
+      "mixamorig:RightShoulder": "mixamorig:Spine2",
+      "mixamorig:RightArm": "mixamorig:RightShoulder",
+      "mixamorig:RightForeArm": "mixamorig:RightArm",
+      "mixamorig:RightHand": "mixamorig:RightForeArm",
+      "mixamorig:RightHandIndex1": "mixamorig:RightHand",
+      "mixamorig:RightHandIndex2": "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex3": "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex4": "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandMiddle1": "mixamorig:RightHand",
+      "mixamorig:RightHandMiddle2": "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle3": "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle4": "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandPinky1": "mixamorig:RightHand",
+      "mixamorig:RightHandPinky2": "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky3": "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky4": "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandRing1": "mixamorig:RightHand",
+      "mixamorig:RightHandRing2": "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing3": "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing4": "mixamorig:RightHandRing3",
+      "mixamorig:RightHandThumb1": "mixamorig:RightHand",
+      "mixamorig:RightHandThumb2": "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb3": "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb4": "mixamorig:RightHandThumb3"
+    },
+    "source_weight_sha256": "b3ff1bbfb8e291448a2c18b4ee084dd01b1b6f69e39cb026e6b558111094bd01",
+    "output_weight_sha256": "745caa5a07f87d86b85acf1e25d12f1a2b1f04636bfcf902ad5feda7e63ce716",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            5.983235684681176e-09
+          ],
+          [
+            "mixamorig:Neck",
+            0.07997541129589081
+          ],
+          [
+            "mixamorig:Head",
+            0.9200245141983032
+          ],
+          [
+            "mixamorig:RightShoulder",
+            6.292668075502661e-08
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            0.0008000502130016685
+          ],
+          [
+            "mixamorig:LeftShoulder",
+            0.00034884526394307613
+          ],
+          [
+            "mixamorig:Neck",
+            0.15255384147167206
+          ],
+          [
+            "mixamorig:Head",
+            0.8462972640991211
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.0000001527369022,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5782967791349507e-05,
+    "max_bone_uniform_error_cm": 1.5260651593976268e-05,
+    "max_reference_deformation_error_cm": 5.568184119031906e-05,
+    "output_bounds_cm": {
+      "min": [
+        -35.008541107177734,
+        -18.252323150634766,
+        -1.2769205568474717e-06
+      ],
+      "max": [
+        35.00856399536133,
+        18.252330780029297,
+        175.0
+      ]
+    },
+    "expected_anatomical_height_cm": 175.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height175\\Lara_Mixamo_Height175.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height175\\Lara_Mixamo_Height175.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "77d883e2053c570d739fab487cd6ed1a532e11c263b95f10ed4d8f8344c74baf"
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height180",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "source_sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+    "requested_height_cm": 180,
+    "measured_original_height_cm": 99.95117250226775,
+    "factor": 1.8008793243112386,
+    "raw_original_bounds_height_cm": 99.95117250226775,
+    "ground_cm": -6.272677488539102e-07,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30986905097961,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 65,
+    "hierarchy": {
+      "mixamorig:Hips": null,
+      "mixamorig:LeftUpLeg": "mixamorig:Hips",
+      "mixamorig:LeftLeg": "mixamorig:LeftUpLeg",
+      "mixamorig:LeftFoot": "mixamorig:LeftLeg",
+      "mixamorig:LeftToeBase": "mixamorig:LeftFoot",
+      "mixamorig:LeftToe_End": "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg": "mixamorig:Hips",
+      "mixamorig:RightLeg": "mixamorig:RightUpLeg",
+      "mixamorig:RightFoot": "mixamorig:RightLeg",
+      "mixamorig:RightToeBase": "mixamorig:RightFoot",
+      "mixamorig:RightToe_End": "mixamorig:RightToeBase",
+      "mixamorig:Spine": "mixamorig:Hips",
+      "mixamorig:Spine1": "mixamorig:Spine",
+      "mixamorig:Spine2": "mixamorig:Spine1",
+      "mixamorig:LeftShoulder": "mixamorig:Spine2",
+      "mixamorig:LeftArm": "mixamorig:LeftShoulder",
+      "mixamorig:LeftForeArm": "mixamorig:LeftArm",
+      "mixamorig:LeftHand": "mixamorig:LeftForeArm",
+      "mixamorig:LeftHandIndex1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex2": "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex3": "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex4": "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandMiddle1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandMiddle2": "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle3": "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle4": "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandPinky1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandPinky2": "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky3": "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky4": "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandRing1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandRing2": "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing3": "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing4": "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandThumb1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandThumb2": "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb3": "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb4": "mixamorig:LeftHandThumb3",
+      "mixamorig:Neck": "mixamorig:Spine2",
+      "mixamorig:Head": "mixamorig:Neck",
+      "mixamorig:HeadTop_End": "mixamorig:Head",
+      "mixamorig:RightShoulder": "mixamorig:Spine2",
+      "mixamorig:RightArm": "mixamorig:RightShoulder",
+      "mixamorig:RightForeArm": "mixamorig:RightArm",
+      "mixamorig:RightHand": "mixamorig:RightForeArm",
+      "mixamorig:RightHandIndex1": "mixamorig:RightHand",
+      "mixamorig:RightHandIndex2": "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex3": "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex4": "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandMiddle1": "mixamorig:RightHand",
+      "mixamorig:RightHandMiddle2": "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle3": "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle4": "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandPinky1": "mixamorig:RightHand",
+      "mixamorig:RightHandPinky2": "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky3": "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky4": "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandRing1": "mixamorig:RightHand",
+      "mixamorig:RightHandRing2": "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing3": "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing4": "mixamorig:RightHandRing3",
+      "mixamorig:RightHandThumb1": "mixamorig:RightHand",
+      "mixamorig:RightHandThumb2": "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb3": "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb4": "mixamorig:RightHandThumb3"
+    },
+    "source_weight_sha256": "b3ff1bbfb8e291448a2c18b4ee084dd01b1b6f69e39cb026e6b558111094bd01",
+    "output_weight_sha256": "745caa5a07f87d86b85acf1e25d12f1a2b1f04636bfcf902ad5feda7e63ce716",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            5.983235684681176e-09
+          ],
+          [
+            "mixamorig:Neck",
+            0.07997541129589081
+          ],
+          [
+            "mixamorig:Head",
+            0.9200245141983032
+          ],
+          [
+            "mixamorig:RightShoulder",
+            6.292668075502661e-08
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            0.0008000502130016685
+          ],
+          [
+            "mixamorig:LeftShoulder",
+            0.00034884526394307613
+          ],
+          [
+            "mixamorig:Neck",
+            0.15255384147167206
+          ],
+          [
+            "mixamorig:Head",
+            0.8462972640991211
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.0000001527369022,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5443930378629347e-05,
+    "max_bone_uniform_error_cm": 8.58306884765625e-06,
+    "max_reference_deformation_error_cm": 4.753088300467343e-05,
+    "output_bounds_cm": {
+      "min": [
+        -36.008785247802734,
+        -18.773818969726562,
+        -1.313404027314391e-06
+      ],
+      "max": [
+        36.00880813598633,
+        18.77382469177246,
+        180.0
+      ]
+    },
+    "expected_anatomical_height_cm": 180.0,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height180\\Lara_Mixamo_Height180.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height180\\Lara_Mixamo_Height180.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "4a3d154e079dbdf5bd769e8a96fb5bae824aa06a51507bf49fffef65cfb8dca2"
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height200",
+    "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "source_sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+    "requested_height_cm": 200,
+    "measured_original_height_cm": 99.95117250226775,
+    "factor": 2.000977027012487,
+    "raw_original_bounds_height_cm": 99.95117250226775,
+    "ground_cm": -6.272677488539102e-07,
+    "crown_cm": 99.951171875,
+    "head_joint_cm": 85.30986905097961,
+    "measurement": "Head-weight >= 0.5, central 12x16 cm crown ROI; feet/toes-weight >= 0.5 sole below 12 cm, neutral imported pose. ROI determined before scaling. Hair cannot be segmented in unlabelled head surface.",
+    "vertex_count": 27725,
+    "bone_count": 65,
+    "hierarchy": {
+      "mixamorig:Hips": null,
+      "mixamorig:LeftUpLeg": "mixamorig:Hips",
+      "mixamorig:LeftLeg": "mixamorig:LeftUpLeg",
+      "mixamorig:LeftFoot": "mixamorig:LeftLeg",
+      "mixamorig:LeftToeBase": "mixamorig:LeftFoot",
+      "mixamorig:LeftToe_End": "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg": "mixamorig:Hips",
+      "mixamorig:RightLeg": "mixamorig:RightUpLeg",
+      "mixamorig:RightFoot": "mixamorig:RightLeg",
+      "mixamorig:RightToeBase": "mixamorig:RightFoot",
+      "mixamorig:RightToe_End": "mixamorig:RightToeBase",
+      "mixamorig:Spine": "mixamorig:Hips",
+      "mixamorig:Spine1": "mixamorig:Spine",
+      "mixamorig:Spine2": "mixamorig:Spine1",
+      "mixamorig:LeftShoulder": "mixamorig:Spine2",
+      "mixamorig:LeftArm": "mixamorig:LeftShoulder",
+      "mixamorig:LeftForeArm": "mixamorig:LeftArm",
+      "mixamorig:LeftHand": "mixamorig:LeftForeArm",
+      "mixamorig:LeftHandIndex1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex2": "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex3": "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex4": "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandMiddle1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandMiddle2": "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle3": "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle4": "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandPinky1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandPinky2": "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky3": "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky4": "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandRing1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandRing2": "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing3": "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing4": "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandThumb1": "mixamorig:LeftHand",
+      "mixamorig:LeftHandThumb2": "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb3": "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb4": "mixamorig:LeftHandThumb3",
+      "mixamorig:Neck": "mixamorig:Spine2",
+      "mixamorig:Head": "mixamorig:Neck",
+      "mixamorig:HeadTop_End": "mixamorig:Head",
+      "mixamorig:RightShoulder": "mixamorig:Spine2",
+      "mixamorig:RightArm": "mixamorig:RightShoulder",
+      "mixamorig:RightForeArm": "mixamorig:RightArm",
+      "mixamorig:RightHand": "mixamorig:RightForeArm",
+      "mixamorig:RightHandIndex1": "mixamorig:RightHand",
+      "mixamorig:RightHandIndex2": "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex3": "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex4": "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandMiddle1": "mixamorig:RightHand",
+      "mixamorig:RightHandMiddle2": "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle3": "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle4": "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandPinky1": "mixamorig:RightHand",
+      "mixamorig:RightHandPinky2": "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky3": "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky4": "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandRing1": "mixamorig:RightHand",
+      "mixamorig:RightHandRing2": "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing3": "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing4": "mixamorig:RightHandRing3",
+      "mixamorig:RightHandThumb1": "mixamorig:RightHand",
+      "mixamorig:RightHandThumb2": "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb3": "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb4": "mixamorig:RightHandThumb3"
+    },
+    "source_weight_sha256": "b3ff1bbfb8e291448a2c18b4ee084dd01b1b6f69e39cb026e6b558111094bd01",
+    "output_weight_sha256": "745caa5a07f87d86b85acf1e25d12f1a2b1f04636bfcf902ad5feda7e63ce716",
+    "existing_weights_unchanged": true,
+    "weights_unchanged_by_scaling": true,
+    "missing_weight_repairs": [
+      {
+        "vertex": 6502,
+        "nearest_weighted_vertex": 6494,
+        "distance_cm": 0.26294750034836445,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            5.983235684681176e-09
+          ],
+          [
+            "mixamorig:Neck",
+            0.07997541129589081
+          ],
+          [
+            "mixamorig:Head",
+            0.9200245141983032
+          ],
+          [
+            "mixamorig:RightShoulder",
+            6.292668075502661e-08
+          ]
+        ]
+      },
+      {
+        "vertex": 19938,
+        "nearest_weighted_vertex": 19937,
+        "distance_cm": 0.146484375,
+        "assigned_influences": [
+          [
+            "mixamorig:Spine2",
+            0.0008000502130016685
+          ],
+          [
+            "mixamorig:LeftShoulder",
+            0.00034884526394307613
+          ],
+          [
+            "mixamorig:Neck",
+            0.15255384147167206
+          ],
+          [
+            "mixamorig:Head",
+            0.8462972640991211
+          ]
+        ]
+      }
+    ],
+    "source_min_weight_sum": 0,
+    "max_weight_sum": 1.0000001527369022,
+    "source_unweighted_vertices": 2,
+    "output_unweighted_vertices": 0,
+    "max_influences": 6,
+    "max_geometry_uniform_error_cm": 1.5843627668224478e-05,
+    "max_bone_uniform_error_cm": 1.5260651593976268e-05,
+    "max_reference_deformation_error_cm": 6.420147964365706e-05,
+    "output_bounds_cm": {
+      "min": [
+        -40.00975799560547,
+        -20.859798431396484,
+        -1.459337909182068e-06
+      ],
+      "max": [
+        40.00978469848633,
+        20.859804153442383,
+        200.0
+      ]
+    },
+    "expected_anatomical_height_cm": 199.99999999999997,
+    "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height200\\Lara_Mixamo_Height200.fbx",
+    "blend": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height200\\Lara_Mixamo_Height200.blend",
+    "export_options": {
+      "unit_scale": 0.01,
+      "apply_scale_options": "FBX_SCALE_ALL",
+      "global_scale": 1,
+      "add_leaf_bones": false,
+      "bake_anim": false
+    },
+    "fbx_sha256": "1af2a4e363797503e8d0b7314fdb0c918f1babc31b19d1ad8aa9c634a2d32884"
+  }
+]

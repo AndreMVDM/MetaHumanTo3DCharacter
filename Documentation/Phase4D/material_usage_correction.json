@@ -1,0 +1,6 @@
+{
+  "asset": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_LaraOriginal.M_LaraOriginal",
+  "before_in_memory": false,
+  "after": true,
+  "reason": "UE automatically enabled SkeletalMesh usage on load and emitted a save-required map warning. Persist the Phase4D-only usage flag. Original texture/shader graph unchanged."
+}

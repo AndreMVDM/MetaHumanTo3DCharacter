@@ -1,0 +1,2239 @@
+{
+  "character": "Jane",
+  "height_cm": 180,
+  "method": "Established MetaHuman donor initial proposal plus guided review; character-local solved positions",
+  "joints": [
+    {
+      "role": "root",
+      "parent_role": null,
+      "position_cm": [
+        0,
+        0,
+        0
+      ],
+      "side": "centre",
+      "source_joint_name": "root",
+      "source_joint_index": 0,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "pelvis",
+      "parent_role": "root",
+      "position_cm": [
+        3.944969415664673,
+        2.163799285888672,
+        104.49034118652344
+      ],
+      "side": "centre",
+      "source_joint_name": "pelvis",
+      "source_joint_index": 1,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_01",
+      "parent_role": "pelvis",
+      "position_cm": [
+        4.0942816734313965,
+        2.4864144325256348,
+        107.0653305053711
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_02",
+      "source_joint_index": 3,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_02",
+      "parent_role": "spine_01",
+      "position_cm": [
+        4.26886510848999,
+        3.4361939430236816,
+        119.01411437988281
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_04",
+      "source_joint_index": 5,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_03",
+      "parent_role": "spine_02",
+      "position_cm": [
+        3.54380464553833,
+        -2.6028552055358887,
+        133.2330780029297
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_05",
+      "source_joint_index": 6,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "neck_01",
+      "parent_role": "spine_03",
+      "position_cm": [
+        0.029995203018188477,
+        -8.407773971557617,
+        148.22872924804688
+      ],
+      "side": "centre",
+      "source_joint_name": "neck_01",
+      "source_joint_index": 7,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "head",
+      "parent_role": "neck_01",
+      "position_cm": [
+        0.8960329294204712,
+        -7.340635299682617,
+        160.3683319091797
+      ],
+      "side": "centre",
+      "source_joint_name": "head",
+      "source_joint_index": 9,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_l",
+      "parent_role": "spine_03",
+      "position_cm": [
+        2.0675628185272217,
+        -6.9048261642456055,
+        141.941162109375
+      ],
+      "side": "left",
+      "source_joint_name": "clavicle_l",
+      "source_joint_index": 10,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_l",
+      "parent_role": "clavicle_l",
+      "position_cm": [
+        15.634757041931152,
+        -7.618954181671143,
+        139.66326904296875
+      ],
+      "side": "left",
+      "source_joint_name": "upperarm_l",
+      "source_joint_index": 11,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_l",
+      "parent_role": "upperarm_l",
+      "position_cm": [
+        32.054290771484375,
+        -14.273361206054688,
+        114.91921997070312
+      ],
+      "side": "left",
+      "source_joint_name": "lowerarm_l",
+      "source_joint_index": 17,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_l",
+      "parent_role": "lowerarm_l",
+      "position_cm": [
+        47.22541809082031,
+        -7.9305338859558105,
+        95.26244354248047
+      ],
+      "side": "left",
+      "source_joint_name": "hand_l",
+      "source_joint_index": 18,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_l",
+      "parent_role": "pelvis",
+      "position_cm": [
+        14.29560661315918,
+        -2.2203378677368164,
+        98.7711181640625
+      ],
+      "side": "left",
+      "source_joint_name": "thigh_l",
+      "source_joint_index": 309,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_l",
+      "parent_role": "thigh_l",
+      "position_cm": [
+        22.711734771728516,
+        -2.107518434524536,
+        54.17220687866211
+      ],
+      "side": "left",
+      "source_joint_name": "calf_l",
+      "source_joint_index": 310,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_l",
+      "parent_role": "calf_l",
+      "position_cm": [
+        31.40738296508789,
+        -5.138586044311523,
+        11.745391845703125
+      ],
+      "side": "left",
+      "source_joint_name": "foot_l",
+      "source_joint_index": 311,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_l",
+      "parent_role": "foot_l",
+      "position_cm": [
+        38.679508209228516,
+        6.938377380371094,
+        4.892977714538574
+      ],
+      "side": "left",
+      "source_joint_name": "ball_l",
+      "source_joint_index": 312,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_r",
+      "parent_role": "spine_03",
+      "position_cm": [
+        0.6697022914886475,
+        -6.637232780456543,
+        141.71722412109375
+      ],
+      "side": "right",
+      "source_joint_name": "clavicle_r",
+      "source_joint_index": 141,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_r",
+      "parent_role": "clavicle_r",
+      "position_cm": [
+        -10.558460235595703,
+        -0.04858207702636719,
+        137.21328735351562
+      ],
+      "side": "right",
+      "source_joint_name": "upperarm_r",
+      "source_joint_index": 142,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_r",
+      "parent_role": "upperarm_r",
+      "position_cm": [
+        -29.752357482910156,
+        1.4607744216918945,
+        114.87818908691406
+      ],
+      "side": "right",
+      "source_joint_name": "lowerarm_r",
+      "source_joint_index": 148,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_r",
+      "parent_role": "lowerarm_r",
+      "position_cm": [
+        -44.67045593261719,
+        9.584620475769043,
+        96.91307067871094
+      ],
+      "side": "right",
+      "source_joint_name": "hand_r",
+      "source_joint_index": 149,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_r",
+      "parent_role": "pelvis",
+      "position_cm": [
+        -7.392941474914551,
+        3.1704769134521484,
+        99.05855560302734
+      ],
+      "side": "right",
+      "source_joint_name": "thigh_r",
+      "source_joint_index": 276,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_r",
+      "parent_role": "thigh_r",
+      "position_cm": [
+        -17.44668960571289,
+        -0.6984422206878662,
+        53.94121170043945
+      ],
+      "side": "right",
+      "source_joint_name": "calf_r",
+      "source_joint_index": 277,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_r",
+      "parent_role": "calf_r",
+      "position_cm": [
+        -28.354162216186523,
+        -8.045858383178711,
+        11.669204711914062
+      ],
+      "side": "right",
+      "source_joint_name": "foot_r",
+      "source_joint_index": 278,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_r",
+      "parent_role": "foot_r",
+      "position_cm": [
+        -33.46601486206055,
+        5.431136131286621,
+        4.314189910888672
+      ],
+      "side": "right",
+      "source_joint_name": "ball_r",
+      "source_joint_index": 279,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    }
+  ],
+  "input_geometry_sha256": "fe7d51dac97838ab9d5b96d2e955fe21e026b62b333be53d9684b1e15fc141f3",
+  "donor_sha256": "f7398d92ab501552417e41dabe89bf0864f4d0aa451aeb3a29b0edb9525c9de3",
+  "prior_character_coordinates_used": false,
+  "downstream_authorised": false,
+  "human_review_count": 0,
+  "phase": "Phase4F",
+  "baseline_sha256": "613041e798e7415445a5977c8546ebc3b91ce47177a9c5a452f16e535251a996",
+  "recomputed_axes": {
+    "root": {
+      "aim_x": [
+        0.03771943920626326,
+        0.02068895522853685,
+        0.9990741769445933
+      ],
+      "y": [
+        0.9992880639029044,
+        0.0,
+        -0.037727514378564975
+      ],
+      "z": [
+        -0.0007805428558621111,
+        0.9997859606593561,
+        -0.020674226014498462
+      ],
+      "primary_child": "pelvis"
+    },
+    "pelvis": {
+      "aim_x": [
+        0.05744077370075185,
+        0.12411079912381191,
+        0.9906043948305033
+      ],
+      "y": [
+        -0.9075168838355882,
+        0.4200156015594468,
+        0.0
+      ],
+      "z": [
+        -0.4160693008021656,
+        -0.898990213510417,
+        0.13675866679114776
+      ],
+      "primary_child": "spine_01"
+    },
+    "spine_01": {
+      "aim_x": [
+        0.014563494258089086,
+        0.07922921463280083,
+        0.9967500369619579
+      ],
+      "y": [
+        -0.9835224769155785,
+        0.18078588828181638,
+        0.0
+      ],
+      "z": [
+        -0.18019834082710087,
+        -0.9803260652185192,
+        0.08055658766566404
+      ],
+      "primary_child": "spine_02"
+    },
+    "spine_02": {
+      "aim_x": [
+        -0.04688312546121912,
+        -0.39049088092017936,
+        0.9194122277113622
+      ],
+      "y": [
+        0.9928695517414519,
+        -0.1192059278086803,
+        0.0
+      ],
+      "z": [
+        0.10959938764297858,
+        0.9128564063933898,
+        0.39329525236751856
+      ],
+      "primary_child": "spine_03"
+    },
+    "spine_03": {
+      "aim_x": [
+        -0.2134827979283803,
+        -0.35267999593867444,
+        0.9110663617176122
+      ],
+      "y": [
+        0.8554801032542637,
+        -0.5178356814048973,
+        0.0
+      ],
+      "z": [
+        0.4717826702251204,
+        0.7793991451936693,
+        0.41225972947479733
+      ],
+      "primary_child": "neck_01"
+    },
+    "neck_01": {
+      "aim_x": [
+        0.07088704911387662,
+        0.08734759368829363,
+        0.9936525671203148
+      ],
+      "y": [
+        -0.7764744119881343,
+        0.6301487820568101,
+        0.0
+      ],
+      "z": [
+        -0.6261489549584891,
+        -0.7715457927752466,
+        0.1124925591104069
+      ],
+      "primary_child": "head"
+    },
+    "head": {
+      "aim_x": [
+        0.07088704911387662,
+        0.08734759368829363,
+        0.9936525671203148
+      ],
+      "y": [
+        -0.7764744119881343,
+        0.6301487820568101,
+        0.0
+      ],
+      "z": [
+        -0.6261489549584891,
+        -0.7715457927752466,
+        0.1124925591104069
+      ]
+    },
+    "clavicle_l": {
+      "aim_x": [
+        0.9848703985049956,
+        -0.051840014488199124,
+        -0.16535692016506168
+      ],
+      "y": [
+        0.052563616256871136,
+        0.9986175775771224,
+        -0.0
+      ],
+      "z": [
+        0.1651283270508475,
+        -0.008691757696974379,
+        0.9862337902107823
+      ],
+      "primary_child": "upperarm_l"
+    },
+    "upperarm_l": {
+      "aim_x": [
+        0.5395356066234861,
+        -0.21865965195822007,
+        -0.8130739731358623
+      ],
+      "y": [
+        0.3756003628565267,
+        0.926781725878346,
+        -0.0
+      ],
+      "z": [
+        0.7535421000896183,
+        -0.3053908793390277,
+        0.582160385296924
+      ],
+      "primary_child": "lowerarm_l"
+    },
+    "lowerarm_l": {
+      "aim_x": [
+        0.5919796286867509,
+        0.24749805882854242,
+        -0.7670103194194978
+      ],
+      "y": [
+        -0.3857304386481423,
+        0.9226115264293591,
+        0.0
+      ],
+      "z": [
+        0.7076525615866931,
+        0.29585922695733463,
+        0.6416347636342659
+      ],
+      "primary_child": "hand_l"
+    },
+    "hand_l": {
+      "aim_x": [
+        0.5919796286867509,
+        0.24749805882854242,
+        -0.7670103194194978
+      ],
+      "y": [
+        -0.3857304386481423,
+        0.9226115264293591,
+        0.0
+      ],
+      "z": [
+        0.7076525615866931,
+        0.29585922695733463,
+        0.6416347636342659
+      ]
+    },
+    "thigh_l": {
+      "aim_x": [
+        0.18543365196275038,
+        0.0024857653209117763,
+        -0.9826536427910532
+      ],
+      "y": [
+        -0.013403942494907995,
+        0.9999101631274648,
+        0.0
+      ],
+      "z": [
+        0.9825653642609995,
+        0.01317143292038314,
+        0.18545031223881261
+      ],
+      "primary_child": "calf_l"
+    },
+    "calf_l": {
+      "aim_x": [
+        0.20029270966883633,
+        -0.0698166176061843,
+        -0.9772453480879545
+      ],
+      "y": [
+        0.32914967107303295,
+        0.9442777631780357,
+        -0.0
+      ],
+      "z": [
+        0.9227910513686346,
+        -0.32165998488080183,
+        0.2121120685874638
+      ],
+      "primary_child": "foot_l"
+    },
+    "foot_l": {
+      "aim_x": [
+        0.4639438921459088,
+        0.7704808743586442,
+        -0.43716734460392237
+      ],
+      "y": [
+        -0.8566798438354675,
+        0.5158484711289149,
+        0.0
+      ],
+      "z": [
+        0.22551210634142083,
+        0.3745124525052542,
+        0.8993801825768429
+      ],
+      "primary_child": "ball_l"
+    },
+    "ball_l": {
+      "aim_x": [
+        0.4639438921459088,
+        0.7704808743586442,
+        -0.43716734460392237
+      ],
+      "y": [
+        -0.8566798438354675,
+        0.5158484711289149,
+        0.0
+      ],
+      "z": [
+        0.22551210634142083,
+        0.3745124525052542,
+        0.8993801825768429
+      ]
+    },
+    "clavicle_r": {
+      "aim_x": [
+        -0.8150755932177639,
+        0.47828381248035745,
+        -0.3269501063770503
+      ],
+      "y": [
+        -0.5060981568311249,
+        -0.862475886997508,
+        0.0
+      ],
+      "z": [
+        -0.28198658300147605,
+        0.16546884621316538,
+        0.9450416011689832
+      ],
+      "primary_child": "upperarm_r"
+    },
+    "upperarm_r": {
+      "aim_x": [
+        -0.6509059888230874,
+        0.051185497745760006,
+        -0.7574308143551842
+      ],
+      "y": [
+        -0.07839529475000376,
+        -0.9969223529247702,
+        0.0
+      ],
+      "z": [
+        -0.7550997096246951,
+        0.05937901194411004,
+        0.6529154320930409
+      ],
+      "primary_child": "lowerarm_r"
+    },
+    "lowerarm_r": {
+      "aim_x": [
+        -0.6033774944743585,
+        0.3285771235609949,
+        -0.7266172809906382
+      ],
+      "y": [
+        -0.4782486496379644,
+        -0.8782244753589276,
+        0.0
+      ],
+      "z": [
+        -0.6381330803847336,
+        0.347503733437382,
+        0.6870424491731001
+      ],
+      "primary_child": "hand_r"
+    },
+    "hand_r": {
+      "aim_x": [
+        -0.6033774944743585,
+        0.3285771235609949,
+        -0.7266172809906382
+      ],
+      "y": [
+        -0.4782486496379644,
+        -0.8782244753589276,
+        0.0
+      ],
+      "z": [
+        -0.6381330803847336,
+        0.347503733437382,
+        0.6870424491731001
+      ]
+    },
+    "thigh_r": {
+      "aim_x": [
+        -0.2167430113068953,
+        -0.08340781693819746,
+        -0.9726590374448916
+      ],
+      "y": [
+        0.3591483215309411,
+        -0.933280495425415,
+        0.0
+      ],
+      "z": [
+        -0.9077637083465757,
+        -0.3493288607202336,
+        0.23223780242840922
+      ],
+      "primary_child": "calf_r"
+    },
+    "calf_r": {
+      "aim_x": [
+        -0.2463822313995928,
+        -0.16596629244777178,
+        -0.9548565263020923
+      ],
+      "y": [
+        0.5586823625309086,
+        -0.829381708139794,
+        0.0
+      ],
+      "z": [
+        -0.7919405368128594,
+        -0.5334614999925096,
+        0.29706735629870507
+      ],
+      "primary_child": "foot_r"
+    },
+    "foot_r": {
+      "aim_x": [
+        -0.31589773586717457,
+        0.8328393536246014,
+        -0.4545186811651959
+      ],
+      "y": [
+        -0.9350000751027138,
+        -0.35464751452381493,
+        0.0
+      ],
+      "z": [
+        -0.16119392057987902,
+        0.4249750010250446,
+        0.8907372050564919
+      ],
+      "primary_child": "ball_r"
+    },
+    "ball_r": {
+      "aim_x": [
+        -0.31589773586717457,
+        0.8328393536246014,
+        -0.4545186811651959
+      ],
+      "y": [
+        -0.9350000751027138,
+        -0.35464751452381493,
+        0.0
+      ],
+      "z": [
+        -0.16119392057987902,
+        0.4249750010250446,
+        0.8907372050564919
+      ]
+    }
+  },
+  "generated_joint_schema": [
+    {
+      "role": "root",
+      "parent_role": null,
+      "position_cm": [
+        0,
+        0,
+        0
+      ],
+      "side": "centre",
+      "source_joint_name": "root",
+      "source_joint_index": 0,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "pelvis",
+      "parent_role": "root",
+      "position_cm": [
+        3.944969415664673,
+        2.163799285888672,
+        104.49034118652344
+      ],
+      "side": "centre",
+      "source_joint_name": "pelvis",
+      "source_joint_index": 1,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_01",
+      "parent_role": "pelvis",
+      "position_cm": [
+        4.0942816734313965,
+        2.4864144325256348,
+        107.0653305053711
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_02",
+      "source_joint_index": 3,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_02",
+      "parent_role": "spine_01",
+      "position_cm": [
+        4.26886510848999,
+        3.4361939430236816,
+        119.01411437988281
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_04",
+      "source_joint_index": 5,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_03",
+      "parent_role": "spine_02",
+      "position_cm": [
+        3.54380464553833,
+        -2.6028552055358887,
+        133.2330780029297
+      ],
+      "side": "centre",
+      "source_joint_name": "spine_05",
+      "source_joint_index": 6,
+      "confidence_score": 0.85,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "neck_01",
+      "parent_role": "spine_03",
+      "position_cm": [
+        0.029995203018188477,
+        -8.407773971557617,
+        148.22872924804688
+      ],
+      "side": "centre",
+      "source_joint_name": "neck_01",
+      "source_joint_index": 7,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "head",
+      "parent_role": "neck_01",
+      "position_cm": [
+        0.8960329294204712,
+        -7.340635299682617,
+        160.3683319091797
+      ],
+      "side": "centre",
+      "source_joint_name": "head",
+      "source_joint_index": 9,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_l",
+      "parent_role": "spine_03",
+      "position_cm": [
+        2.0675628185272217,
+        -6.9048261642456055,
+        141.941162109375
+      ],
+      "side": "left",
+      "source_joint_name": "clavicle_l",
+      "source_joint_index": 10,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_l",
+      "parent_role": "clavicle_l",
+      "position_cm": [
+        15.634757041931152,
+        -7.618954181671143,
+        139.66326904296875
+      ],
+      "side": "left",
+      "source_joint_name": "upperarm_l",
+      "source_joint_index": 11,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_l",
+      "parent_role": "upperarm_l",
+      "position_cm": [
+        32.054290771484375,
+        -14.273361206054688,
+        114.91921997070312
+      ],
+      "side": "left",
+      "source_joint_name": "lowerarm_l",
+      "source_joint_index": 17,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_l",
+      "parent_role": "lowerarm_l",
+      "position_cm": [
+        47.22541809082031,
+        -7.9305338859558105,
+        95.26244354248047
+      ],
+      "side": "left",
+      "source_joint_name": "hand_l",
+      "source_joint_index": 18,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_l",
+      "parent_role": "pelvis",
+      "position_cm": [
+        14.29560661315918,
+        -2.2203378677368164,
+        98.7711181640625
+      ],
+      "side": "left",
+      "source_joint_name": "thigh_l",
+      "source_joint_index": 309,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_l",
+      "parent_role": "thigh_l",
+      "position_cm": [
+        22.711734771728516,
+        -2.107518434524536,
+        54.17220687866211
+      ],
+      "side": "left",
+      "source_joint_name": "calf_l",
+      "source_joint_index": 310,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_l",
+      "parent_role": "calf_l",
+      "position_cm": [
+        31.40738296508789,
+        -5.138586044311523,
+        11.745391845703125
+      ],
+      "side": "left",
+      "source_joint_name": "foot_l",
+      "source_joint_index": 311,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_l",
+      "parent_role": "foot_l",
+      "position_cm": [
+        38.679508209228516,
+        6.938377380371094,
+        4.892977714538574
+      ],
+      "side": "left",
+      "source_joint_name": "ball_l",
+      "source_joint_index": 312,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_r",
+      "parent_role": "spine_03",
+      "position_cm": [
+        0.6697022914886475,
+        -6.637232780456543,
+        141.71722412109375
+      ],
+      "side": "right",
+      "source_joint_name": "clavicle_r",
+      "source_joint_index": 141,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_r",
+      "parent_role": "clavicle_r",
+      "position_cm": [
+        -10.558460235595703,
+        -0.04858207702636719,
+        137.21328735351562
+      ],
+      "side": "right",
+      "source_joint_name": "upperarm_r",
+      "source_joint_index": 142,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_r",
+      "parent_role": "upperarm_r",
+      "position_cm": [
+        -29.752357482910156,
+        1.4607744216918945,
+        114.87818908691406
+      ],
+      "side": "right",
+      "source_joint_name": "lowerarm_r",
+      "source_joint_index": 148,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_r",
+      "parent_role": "lowerarm_r",
+      "position_cm": [
+        -44.67045593261719,
+        9.584620475769043,
+        96.91307067871094
+      ],
+      "side": "right",
+      "source_joint_name": "hand_r",
+      "source_joint_index": 149,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_r",
+      "parent_role": "pelvis",
+      "position_cm": [
+        -7.392941474914551,
+        3.1704769134521484,
+        99.05855560302734
+      ],
+      "side": "right",
+      "source_joint_name": "thigh_r",
+      "source_joint_index": 276,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_r",
+      "parent_role": "thigh_r",
+      "position_cm": [
+        -17.44668960571289,
+        -0.6984422206878662,
+        53.94121170043945
+      ],
+      "side": "right",
+      "source_joint_name": "calf_r",
+      "source_joint_index": 277,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_r",
+      "parent_role": "calf_r",
+      "position_cm": [
+        -28.354162216186523,
+        -8.045858383178711,
+        11.669204711914062
+      ],
+      "side": "right",
+      "source_joint_name": "foot_r",
+      "source_joint_index": 278,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_r",
+      "parent_role": "foot_r",
+      "position_cm": [
+        -33.46601486206055,
+        5.431136131286621,
+        4.314189910888672
+      ],
+      "side": "right",
+      "source_joint_name": "ball_r",
+      "source_joint_index": 279,
+      "confidence_score": 0.65,
+      "confidence_score_kind": "Retained provisional evidence screen, not probability or human anatomical judgement",
+      "ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ],
+      "status": "ambiguous",
+      "evidence_sources": [
+        "Character-local actual solved DNA; two public extraction APIs agree",
+        "Retained 4D hierarchy contraction and review policy"
+      ],
+      "competing_candidates": [],
+      "manual_correction": null
+    }
+  ],
+  "recomputed_local_transforms": {
+    "root": {
+      "translation_cm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.03771943920626326,
+          0.02068895522853685,
+          0.9990741769445933
+        ],
+        [
+          0.9992880639029044,
+          0.0,
+          -0.037727514378564975
+        ],
+        [
+          -0.0007805428558621111,
+          0.9997859606593561,
+          -0.020674226014498462
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "pelvis": {
+      "translation_cm": [
+        104.58717040017966,
+        0.0,
+        1.8865117801247777e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9944216269809988,
+          0.020026837991071716,
+          0.10355942039497205
+        ],
+        [
+          -0.025541343952543573,
+          -0.9068707898072619,
+          0.420634057517281
+        ],
+        [
+          0.10233898348899628,
+          -0.4209326506157876,
+          -0.9013004139042688
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "spine_01": {
+      "translation_cm": [
+        2.5994123711597785,
+        -2.7755575615628914e-17,
+        3.469446951953614e-17
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9980547066819822,
+          0.02006088931821988,
+          0.05902849472674085
+        ],
+        [
+          -0.03405681096114627,
+          0.968496147052831,
+          0.24668876498733827
+        ],
+        [
+          -0.052220073698717506,
+          -0.24821920526740798,
+          0.9672953478846661
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "spine_02": {
+      "translation_cm": [
+        11.98774359811512,
+        -2.7755575615628914e-17,
+        -4.163336342344337e-17
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.8848031040095442,
+          -0.024484633093941555,
+          0.4653213619396071
+        ],
+        [
+          0.005015057975962025,
+          -0.9980602703301632,
+          -0.062052767722150584
+        ],
+        [
+          0.46593810353798437,
+          0.0572380951005228,
+          -0.8829640333222468
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "spine_03": {
+      "translation_cm": [
+        15.465275743005167,
+        0.0,
+        -2.498001805406602e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9853726163157822,
+          -0.1699190237482306,
+          0.012974297030611356
+        ],
+        [
+          0.16210253039325337,
+          0.9111092294961027,
+          -0.37894952377212754
+        ],
+        [
+          0.05256973135840296,
+          0.37550965006969683,
+          0.9253263889295706
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "neck_01": {
+      "translation_cm": [
+        16.45945001947634,
+        0.0,
+        6.661338147750939e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.8593445145687134,
+          0.015410759398673597,
+          0.5111648596836629
+        ],
+        [
+          -0.05647693990553568,
+          -0.9905719340847572,
+          0.12481025063066742
+        ],
+        [
+          0.5082689844359668,
+          -0.13612403130358602,
+          -0.8503722053089997
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "head": {
+      "translation_cm": [
+        12.217150202021175,
+        0.0,
+        0.0
+      ],
+      "rotation_matrix_columns": [
+        [
+          1.0000000000000002,
+          0.0,
+          -1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          1.0,
+          -5.551115123125783e-17
+        ],
+        [
+          -1.3877787807814457e-17,
+          -5.551115123125783e-17,
+          1.0000000000000002
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "clavicle_l": {
+      "translation_cm": [
+        9.76601384028537,
+        0.9648185521877997,
+        -0.4594254009447274
+      ],
+      "rotation_matrix_columns": [
+        [
+          -0.3426210798101389,
+          0.8693816394316578,
+          0.3560707242794014
+        ],
+        [
+          -0.363413871071939,
+          -0.4721526858847115,
+          0.8031202895733371
+        ],
+        [
+          0.8663377828435296,
+          0.14576490054528185,
+          0.47771481009780464
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "upperarm_l": {
+      "translation_cm": [
+        13.775613770094559,
+        0.0,
+        -1.231653667943533e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.6771553754925222,
+          -0.18999742936889932,
+          -0.7108878774284952
+        ],
+        [
+          0.32187330094819677,
+          0.9452434353785106,
+          0.053966897358871224
+        ],
+        [
+          0.6617085276602478,
+          -0.26535980235717965,
+          0.7012317731782165
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "lowerarm_l": {
+      "translation_cm": [
+        30.43271570584509,
+        -8.881784197001252e-16,
+        -4.440892098500626e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.888912376515086,
+          0.4517244414510725,
+          -0.07602510028943593
+        ],
+        [
+          -0.4098532214708547,
+          0.7101790100584071,
+          -0.5724212701519954
+        ],
+        [
+          -0.20458524807098089,
+          0.5399914838848644,
+          0.8164276291279943
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "hand_l": {
+      "translation_cm": [
+        25.627786133437745,
+        -1.7763568394002505e-15,
+        8.881784197001252e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          1.0000000000000002,
+          0.0,
+          -4.163336342344337e-17
+        ],
+        [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          -4.163336342344337e-17,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thigh_l": {
+      "translation_cm": [
+        -5.615057617750586,
+        -11.23478401908207,
+        -1.147439301454693
+      ],
+      "rotation_matrix_columns": [
+        [
+          -0.9624610543857118,
+          -0.16724010977088985,
+          -0.21377433071948612
+        ],
+        [
+          0.12332971657022289,
+          0.432142172795477,
+          -0.8933324820593467
+        ],
+        [
+          0.24178192612652416,
+          -0.8861624502174672,
+          -0.3952943359360505
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "calf_l": {
+      "translation_cm": [
+        45.38619646157836,
+        0.0,
+        -1.0349793938546625e-15
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9972611620877777,
+          -0.07249505746215795,
+          0.014650639402216592
+        ],
+        [
+          0.06338267846642666,
+          0.9397810289537065,
+          0.3358485576701717
+        ],
+        [
+          -0.0381157534591268,
+          -0.3340001261411013,
+          0.9418020519599498
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "foot_l": {
+      "translation_cm": [
+        43.414701452373116,
+        0.0,
+        4.440892098500626e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.4663519645643813,
+          0.8802549361070062,
+          0.08756193582940454
+        ],
+        [
+          -0.2076015226920236,
+          0.2051283516430799,
+          -0.9564643052033602
+        ],
+        [
+          -0.8598938614287785,
+          0.4278710165592473,
+          0.27840427486958796
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ball_l": {
+      "translation_cm": [
+        15.674579118833549,
+        8.881784197001252e-16,
+        0.0
+      ],
+      "rotation_matrix_columns": [
+        [
+          1.0000000000000002,
+          0.0,
+          5.551115123125783e-17
+        ],
+        [
+          0.0,
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          5.551115123125783e-17,
+          0.0,
+          0.9999999999999999
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "clavicle_r": {
+      "translation_cm": [
+        9.766035814969502,
+        -0.3695927180520706,
+        -1.0026703328765614
+      ],
+      "rotation_matrix_columns": [
+        [
+          -0.2925497587599691,
+          -0.9449533765866609,
+          -0.14655290760319983
+        ],
+        [
+          0.4122212428701905,
+          0.013663885175964507,
+          -0.9109813089018093
+        ],
+        [
+          0.8628373459557945,
+          -0.3269195838724964,
+          0.3855324890389842
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "upperarm_r": {
+      "translation_cm": [
+        13.775608815321894,
+        0.0,
+        4.440892098500626e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.8026608653012034,
+          0.28527606364402197,
+          -0.5237872686746933
+        ],
+        [
+          -0.41291373232990675,
+          0.8994972047836436,
+          -0.14285317021262867
+        ],
+        [
+          0.43039259399681773,
+          0.3309416052692439,
+          0.8397856089112902
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "lowerarm_r": {
+      "translation_cm": [
+        29.487971499569728,
+        0.0,
+        6.938893903907228e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9599227271570576,
+          -0.2802639226128439,
+          0.0007011198318807449
+        ],
+        [
+          0.2663425532921498,
+          0.9130140542231033,
+          0.3089773148580819
+        ],
+        [
+          -0.08723532652071145,
+          -0.29640760866204796,
+          0.9510691496069414
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "hand_r": {
+      "translation_cm": [
+        24.724320324050463,
+        0.0,
+        -1.3322676295501878e-15
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.9999999999999999,
+          5.551115123125783e-17,
+          -4.163336342344337e-17
+        ],
+        [
+          5.551115123125783e-17,
+          1.0,
+          0.0
+        ],
+        [
+          -4.163336342344337e-17,
+          0.0,
+          0.9999999999999998
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thigh_r": {
+      "translation_cm": [
+        -5.907069479676285,
+        10.712165869941545,
+        3.069519566766804
+      ],
+      "rotation_matrix_columns": [
+        [
+          -0.9863220142415878,
+          0.16166535780831806,
+          0.03214337112259928
+        ],
+        [
+          -0.0952004306318517,
+          -0.7179255343003457,
+          0.6895794408239515
+        ],
+        [
+          0.13455765392547037,
+          0.677087320280237,
+          0.7234963707481895
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "calf_r": {
+      "translation_cm": [
+        46.385570036040626,
+        0.0,
+        -1.3322676295501878e-15
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.995994342675421,
+          0.06640533877736406,
+          0.05987988260191728
+        ],
+        [
+          -0.05191357993458626,
+          0.9746956042414004,
+          -0.2174246059922081
+        ],
+        [
+          -0.07280281297402735,
+          0.21344509845474346,
+          0.974238646517738
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "foot_r": {
+      "translation_cm": [
+        44.270532613139,
+        0.0,
+        1.3322676295501878e-15
+      ],
+      "rotation_matrix_columns": [
+        [
+          0.37360845836816703,
+          -0.8672282191076518,
+          -0.3291381713188737
+        ],
+        [
+          0.28922693797392834,
+          -0.22822988954166717,
+          0.9296552564633965
+        ],
+        [
+          -0.8813424409308716,
+          -0.44252269264204863,
+          0.16555714515188982
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ball_r": {
+      "translation_cm": [
+        16.18198570446039,
+        0.0,
+        3.3306690738754696e-16
+      ],
+      "rotation_matrix_columns": [
+        [
+          1.0,
+          0.0,
+          1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.3877787807814457e-17,
+          0.0,
+          0.9999999999999999
+        ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "limb_poles": {
+    "arm_l": {
+      "bend_vector_cm": [
+        -0.8086092865958463,
+        -6.484485296628676,
+        -0.5298114982662412
+      ],
+      "bend_distance_cm": 6.5561496905010985,
+      "plane_normal": [
+        0.8054283901316484,
+        -0.14734162749882995,
+        0.5740867122447072
+      ]
+    },
+    "leg_l": {
+      "bend_vector_cm": [
+        -0.3299721740688497,
+        1.6043823675878235,
+        -0.11868210011811442
+      ],
+      "bend_distance_cm": 1.6422575492214608,
+      "plane_normal": [
+        -0.960440135572923,
+        -0.21097964287708973,
+        -0.18177551065014452
+      ]
+    },
+    "arm_r": {
+      "bend_vector_cm": [
+        -0.608778582959264,
+        -3.7390673739754297,
+        -0.3784729271503977
+      ],
+      "bend_distance_cm": 3.807161402775458,
+      "plane_normal": [
+        0.7552934631509078,
+        -0.05688489171441655,
+        -0.6529133890617861
+      ]
+    },
+    "leg_r": {
+      "bend_vector_cm": [
+        0.671868850571002,
+        1.8703513888503398,
+        -0.4012122670364562
+      ],
+      "bend_distance_cm": 2.0274598278048637,
+      "plane_normal": [
+        -0.9146670490866851,
+        0.36556462401553075,
+        0.17247230207612835
+      ]
+    }
+  },
+  "finger_chains": {}
+}

@@ -1,0 +1,7 @@
+{
+  "indexwise_vertex_max_cm": 8.193540145396958e-06,
+  "blender_triangles": 50943,
+  "ue_triangles": 50925,
+  "triangles_equal": false,
+  "limit": "UE import drops degenerate source faces and triangulates independently; original polygon/UV arrays untouched. Native final surface preservation must be verified against UE original import as well."
+}

@@ -1,0 +1,128 @@
+Begin Object Class=/Script/Engine.AnimBlueprint Name="ABP_CopyPoseFromMesh" ExportPath="/Script/Engine.AnimBlueprint'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh'"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Attributes Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Base Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimationGraph Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph'"
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh Name="AnimGraphNode_CopyPoseFromMesh_0" ExportPath="/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_CopyPoseFromMesh_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_CopyPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_2" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.EdGraphNode_Comment_2'"
+      End Object
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_Root Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph.K2Node_CallFunction_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph.K2Node_Event_0'"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph'"
+      Begin Object Name="AnimGraphNode_CopyPoseFromMesh_0" ExportPath="/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_CopyPoseFromMesh_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_CopyPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         Node=(bUseAttachedParent=True,bCopyCurves=True,bUseMeshPose=True)
+         ShowPinForProperties(0)=(PropertyName="SourceMeshComponent",PropertyFriendlyName="Source Mesh Component",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:SourceMeshComponent", "This is used by default if it\'s valid"),CategoryName="Copy",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(1)=(PropertyName="bUseAttachedParent",PropertyFriendlyName="Use Attached Parent",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:bUseAttachedParent", "If SourceMeshComponent is not valid, and if this is true, it will look for attahced parent as a source"),CategoryName="Copy")
+         ShowPinForProperties(2)=(PropertyName="bCopyCurves",PropertyFriendlyName="Copy Curves",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:bCopyCurves", "Copy curves also from SouceMeshComponent. This will copy the curves if this instance also contains curve attributes"),CategoryName="Copy")
+         ShowPinForProperties(3)=(PropertyName="bCopyCustomAttributes",PropertyFriendlyName="Copy Custom Attributes(Animation Attributes)",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:bCopyCustomAttributes", "Copy custom attributes (animation attributes) from SourceMeshComponent"),CategoryName="Copy")
+         ShowPinForProperties(4)=(PropertyName="bUseMeshPose",PropertyFriendlyName="Use Mesh Pose",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:bUseMeshPose", "Use root space transform to copy to the target pose. By default, it copies their relative transform (bone space)"),CategoryName="Copy")
+         ShowPinForProperties(5)=(PropertyName="RootBoneToCopy",PropertyFriendlyName="Root Bone to Copy",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_CopyPoseFromMesh:RootBoneToCopy", "If you want to specify copy root, use this - this will ensure copy only below of this joint (inclusively)"),CategoryName="Copy")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-352
+         NodePosY=112
+         NodeGuid=73E84EDB4B0F26F6C60CCF9BFD2E0A03
+         CustomProperties Pin (PinId=FF8F19AC46998D160F40D89336507381,PinName="SourceMeshComponent",PinFriendlyName=INVTEXT("Source Mesh Component"),PinToolTip="Source Mesh Component\nSkeletal Mesh Component Weak object\n\nThis is used by default if it\'s valid",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=True,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5AB4DCFD4B7811C30A715889EA1EBE14,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_Root_0 A00BA90347524505EA08959C619D3E6D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="EdGraphNode_Comment_2" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.EdGraphNode_Comment_2'"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-384
+         NodePosY=-80
+         NodeWidth=656
+         NodeHeight=464
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="Copies the animation from the attached parent component to this skeletal mesh - works since base hierarchy between Echo and Mannequin are the same"
+         NodeGuid=26F3E786453C9B7A901170B9BE8647CD
+      End Object
+      Begin Object Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         Node=(LayerGroup="")
+         ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosY=48
+         ErrorType=4
+         NodeGuid=627E060742D3C830A731F8978A3D8CE5
+         CustomProperties Pin (PinId=A00BA90347524505EA08959C619D3E6D,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_CopyPoseFromMesh_0 5AB4DCFD4B7811C30A715889EA1EBE14,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationGraphSchema'"
+      Nodes(0)="/Script/AnimGraph.AnimGraphNode_Root'AnimGraphNode_Root_0'"
+      Nodes(1)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_2'"
+      Nodes(2)="/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh'AnimGraphNode_CopyPoseFromMesh_0'"
+      bAllowDeletion=False
+      GraphGuid=302E78134F00A21832EB59BEC65D43D7
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph'"
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph.K2Node_CallFunction_0'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberName="TryGetPawnOwner",bSelfContext=True)
+         NodePosY=100
+         EnabledState=Disabled
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=D4A0B2134FBA98D47E5424BCE081D76A
+         CustomProperties Pin (PinId=66FE33754C2C97C1C0DF8DB22C720E6E,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=906ED90E492C38A7AB19EBB325AFE9D3,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Pawn'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=0453A0274E03124DB9719F816B916131
+         CustomProperties Pin (PinId=FF21C9CD4FD10F6F0506398A2259CDB4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2149DCFE4AFBCB2BD6A2DCA71F50748F,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7FBC2A46442CFB5120E4FEBA7B73BA99,PinName="DeltaTimeX",PinToolTip="Delta Time X\nFloat (single-precision)",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      bAllowDeletion=False
+      GraphGuid=443BBEC4442FA375101588A2BDB9B880
+   End Object
+   TargetSkeleton="/Script/Engine.Skeleton'/Game/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/AnimGraph.AnimationGraph'AnimGraph'"
+   CategorySorting(0)=""
+   CategorySorting(1)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:EventGraph",SavedViewOffset=(X=-941.050049,Y=-573.625000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh:AnimGraph",SavedViewOffset=(X=-1261.050049,Y=-439.625000),SavedZoomAmount=1.000000)
+   Extensions(0)="/Script/AnimGraph.AnimBlueprintExtension_Base'AnimBlueprintExtension_Base_0'"
+   Extensions(1)="/Script/AnimGraph.AnimBlueprintExtension_Attributes'AnimBlueprintExtension_Attributes_0'"
+   Extensions(2)="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'AnimBlueprintExtension_PropertyAccess_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   GeneratedClass="/Script/Engine.AnimBlueprintGeneratedClass'ABP_CopyPoseFromMesh_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=D5FF4FA44A55E5105DB6A59228339CF5
+End Object

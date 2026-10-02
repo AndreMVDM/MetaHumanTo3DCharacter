@@ -1,0 +1,36 @@
+[
+  {
+    "character": "Bill",
+    "stage": "proposal_extracted",
+    "human_reviews": 0,
+    "downstream_authorised": false,
+    "target_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Geometry/SM_Bill180_FrameVerified",
+    "vertices": 25728,
+    "triangles": 49363,
+    "height_cm": 180.0,
+    "solve_success": true,
+    "solve_seconds": 48.140999999995984,
+    "joint_count": 342,
+    "python_api_code": "<ImportErrorCode.SUCCESS: 13>",
+    "python_native_max_cm": 0.0,
+    "dna_sha256": "97e967de90857a087b787dadfc110cb30582b8a6612f88f6669f70190c594efc",
+    "donor_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Authoring/MHC_BillDonor.MHC_BillDonor"
+  },
+  {
+    "character": "Jill",
+    "stage": "proposal_extracted",
+    "human_reviews": 0,
+    "downstream_authorised": false,
+    "target_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/Jill/Geometry/SM_Jill180",
+    "vertices": 27014,
+    "triangles": 52385,
+    "height_cm": 180.0,
+    "solve_success": true,
+    "solve_seconds": 44.48500000000058,
+    "joint_count": 342,
+    "python_api_code": "<ImportErrorCode.SUCCESS: 13>",
+    "python_native_max_cm": 0.0,
+    "dna_sha256": "67940c1cb248a5425e68d4c6b0422885529b1a0ccc29773036f85b8cbccd694a",
+    "donor_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/Jill/Authoring/MHC_JillDonor.MHC_JillDonor"
+  }
+]

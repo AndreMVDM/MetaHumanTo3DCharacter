@@ -1,0 +1,104 @@
+{
+  "rotation_columns_world": [
+    [
+      -0.9999998424836326,
+      -0.00039006429869573435,
+      0.0004035871072474338
+    ],
+    [
+      0.0003810976257270633,
+      -0.9997582513131614,
+      -0.02198394177233432
+    ],
+    [
+      0.0004120646914242252,
+      -0.021983784503415326,
+      0.9997582424874514
+    ]
+  ],
+  "origin_body_coordinates_cm": [
+    0.01912765811696282,
+    -1.2419213543212106,
+    0.08872202071984837
+  ],
+  "source_height_cm": 99.74817106917645,
+  "target_height_cm": 180,
+  "factor": 1.8045443647800623,
+  "up_world": [
+    0.0004035871072474338,
+    -0.02198394177233432,
+    0.9997582424874514
+  ],
+  "left_world": [
+    -0.9999998424836326,
+    0.0003810976257270633,
+    0.0004120646914242252
+  ],
+  "forward_world": [
+    -0.00039006429869573435,
+    -0.9997582513131614,
+    -0.021983784503415326
+  ],
+  "ground_endpoint_support": [
+    [
+      46,
+      -1
+    ],
+    [
+      40,
+      1
+    ]
+  ],
+  "ground_plane_points": 110,
+  "ground_pitch_refinement_rad": 0.04500000000000001,
+  "symmetry_search_mean_cm": 0.2170347377734558,
+  "symmetry_refined_mean_p95_cm": [
+    0.1645889437228942,
+    0.5068480899943573
+  ],
+  "symmetry_angle_candidates": [
+    {
+      "angle_rad": -0.1,
+      "mean_cm": 0.8061556295997148
+    },
+    {
+      "angle_rad": -0.07500000000000001,
+      "mean_cm": 0.6071811316219949
+    },
+    {
+      "angle_rad": -0.05,
+      "mean_cm": 0.4177968504343248
+    },
+    {
+      "angle_rad": -0.024999999999999994,
+      "mean_cm": 0.2170347377734558
+    },
+    {
+      "angle_rad": 0.0,
+      "mean_cm": 0.3034306629731876
+    },
+    {
+      "angle_rad": 0.024999999999999994,
+      "mean_cm": 0.5004550868653986
+    },
+    {
+      "angle_rad": 0.05000000000000002,
+      "mean_cm": 0.7080527118128505
+    },
+    {
+      "angle_rad": 0.07500000000000001,
+      "mean_cm": 0.9130536861722913
+    },
+    {
+      "angle_rad": 0.1,
+      "mean_cm": 1.12147522923366
+    }
+  ],
+  "shoe_forward_extents_cm": [
+    -3.933947243131693,
+    11.054767394488888
+  ],
+  "facing_rule": "larger paired shoe extension from lower-shank centre; checked both feet separately downstream",
+  "left_rule": "forward cross up, anatomical left; reflection alone cannot name left",
+  "probability": false
+}

@@ -1,0 +1,30 @@
+{
+  "authoring_only": true,
+  "final_lara_package_created": false,
+  "runtime_dependency_closure_status": "not testable: anatomy rejected, no final Phase4C Lara package",
+  "no_cloud_solve_call_in_phase4c_script": true,
+  "offline_disconnect_test_performed": false,
+  "saved_donor_fresh_process_reload": true,
+  "saved_donor_class": "MetaHumanCharacter",
+  "authoring_package_dependency_edges": {
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined": [
+      "/Script/MetaHumanCharacter",
+      "/Script/MetaHumanCharacterPalette",
+      "/Script/MetaHumanDefaultEditorPipeline",
+      "/MetaHumanCharacter/BuildPipeline/BP_DefaultPipeline",
+      "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_LaraOriginal"
+    ]
+  },
+  "authoring_dependencies_traversal_scope": "Phase4C packages, with direct external package edges recorded",
+  "phase4c_assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.MHC_LaraDonor_combined",
+    "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180.SM_Lara180"
+  ],
+  "commandlet_exit_code": 1,
+  "commandlet_exit_reason": "DDC installed graph has no writable nodes; memory fallback logged an engine error. Python dependency query and fresh donor reload completed; exit is not reported as clean."
+}

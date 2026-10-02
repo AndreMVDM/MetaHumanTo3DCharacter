@@ -1,0 +1,2020 @@
+{
+  "checks": [
+    {
+      "name": "single_connected_hierarchy",
+      "pass": true,
+      "measured": {
+        "joints": 23,
+        "reachable": 23
+      },
+      "threshold": "one grounded root; unique roles; every role reachable; no cycle",
+      "kind": "hard"
+    },
+    {
+      "name": "finite_nonzero_segments",
+      "pass": true,
+      "measured": {
+        "pelvis": 101.46368593233237,
+        "spine_01": 7.783040376413178,
+        "spine_02": 15.32137693171602,
+        "spine_03": 14.686104648823282,
+        "neck_01": 12.594387947282907,
+        "head": 9.524253664270915,
+        "clavicle_l": 9.138861192329768,
+        "upperarm_l": 14.267193104569474,
+        "lowerarm_l": 25.678948903368106,
+        "hand_l": 25.573564171232462,
+        "thigh_l": 9.461237708616329,
+        "calf_l": 45.07452751622528,
+        "foot_l": 42.55123370055709,
+        "ball_l": 13.954959852875678,
+        "clavicle_r": 9.138857293135834,
+        "upperarm_r": 14.2671992729119,
+        "lowerarm_r": 25.968057339999515,
+        "hand_r": 24.65022636105804,
+        "thigh_r": 9.461238962970729,
+        "calf_r": 45.182169428411314,
+        "foot_r": 42.606257419201334,
+        "ball_r": 14.057178024030351
+      },
+      "threshold": "finite XYZ and all parent segments >.001cm",
+      "kind": "hard"
+    },
+    {
+      "name": "root_grounded_distinct_pelvis",
+      "pass": true,
+      "measured": 101.46368593233237,
+      "threshold": "root=(0,0,0), pelvis >50cm away",
+      "kind": "hard"
+    },
+    {
+      "name": "height",
+      "pass": true,
+      "measured": 180.0,
+      "threshold": "180 +/- .01cm",
+      "kind": "hard"
+    },
+    {
+      "name": "left_right_not_crossed",
+      "pass": false,
+      "measured": {
+        "clavicle_l": 1.4538447856903076,
+        "upperarm_l": 13.896257400512695,
+        "lowerarm_l": 24.909408569335938,
+        "hand_l": 33.100791931152344,
+        "thigh_l": 9.579394340515137,
+        "calf_l": 14.78506851196289,
+        "foot_l": 18.0073299407959,
+        "ball_l": 19.7733211517334,
+        "clavicle_r": 0.0670352578163147,
+        "upperarm_r": -12.390768051147461,
+        "lowerarm_r": -24.6092472076416,
+        "hand_r": -32.69942092895508,
+        "thigh_r": -8.440633773803711,
+        "calf_r": -13.629362106323242,
+        "foot_r": -18.15096664428711,
+        "ball_r": -19.947315216064453
+      },
+      "threshold": "positive left, negative right",
+      "kind": "hard"
+    },
+    {
+      "name": "bilateral_body_consistency",
+      "pass": true,
+      "measured": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 1.5229941867687569
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 1.5173135774560347
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 0.5091388876068708
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 1.3814415687664168
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 1.1822596745094842
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 1.162948971559343
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 0.1448581087498396
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 0.19200278729601986
+        }
+      ],
+      "threshold": "maximum mirrored role difference <6cm; prototype tolerance",
+      "kind": "hard"
+    },
+    {
+      "name": "ball_forward_l",
+      "pass": true,
+      "measured": 12.951849937438965,
+      "threshold": ">1cm along inferred forward",
+      "kind": "hard"
+    },
+    {
+      "name": "knee_monotonic_l",
+      "pass": true,
+      "measured": [
+        98.52506256103516,
+        53.752235412597656,
+        11.492603302001953
+      ],
+      "threshold": "descending hip/knee/ankle height",
+      "kind": "hard"
+    },
+    {
+      "name": "elbow_between_shoulder_wrist_l",
+      "pass": true,
+      "measured": [
+        139.10354614257812,
+        116.10186004638672,
+        93.41477966308594
+      ],
+      "threshold": "descending shoulder/elbow/wrist height",
+      "kind": "hard"
+    },
+    {
+      "name": "ball_forward_r",
+      "pass": true,
+      "measured": 13.049006223678589,
+      "threshold": ">1cm along inferred forward",
+      "kind": "hard"
+    },
+    {
+      "name": "knee_monotonic_r",
+      "pass": true,
+      "measured": [
+        98.56282043457031,
+        53.68055725097656,
+        11.49612045288086
+      ],
+      "threshold": "descending hip/knee/ankle height",
+      "kind": "hard"
+    },
+    {
+      "name": "elbow_between_shoulder_wrist_r",
+      "pass": true,
+      "measured": [
+        139.24256896972656,
+        116.51264953613281,
+        94.62911224365234
+      ],
+      "threshold": "descending shoulder/elbow/wrist height",
+      "kind": "hard"
+    },
+    {
+      "name": "surface_envelope_pelvis",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.5840033292770386,
+          3.9870738983154297,
+          101.38363647460938
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_pelvis",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_01",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.5644272565841675,
+          4.776899814605713,
+          109.12647247314453
+        ],
+        "enclosing_contour_count": 2
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_01",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_02",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.6436465978622437,
+          5.475666522979736,
+          124.43170166015625
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_02",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_spine_03",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.6902815699577332,
+          -1.3419198989868164,
+          137.43939208984375
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_spine_03",
+      "pass": true,
+      "measured": [],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_neck_01",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.7336483209043365,
+          -0.7638249224990512,
+          150.02043073097894
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_neck_01",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review",
+        "posterior_neck_joint_position_requires_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_head",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          1.011353850364685,
+          -2.6623544692993164,
+          159.3494110107422
+        ],
+        "enclosing_contour_count": 2
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_head",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_clavicle_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          1.4538447856903076,
+          -6.639039993286133,
+          144.8472442626953
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_clavicle_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_upperarm_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          13.896257400512695,
+          -2.6705265045166016,
+          139.10354614257812
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_upperarm_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_lowerarm_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          24.909408569335938,
+          0.33635807037353516,
+          116.10186004638672
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_lowerarm_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_hand_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          33.100791931152344,
+          8.833699226379395,
+          93.41477966308594
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_hand_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_thigh_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          9.579394340515137,
+          3.3339929580688477,
+          98.52506256103516
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_thigh_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_calf_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          14.78506851196289,
+          3.2449066638946533,
+          53.752235412597656
+        ],
+        "enclosing_contour_count": 2
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_calf_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_foot_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          18.0073299407959,
+          -0.5429706573486328,
+          11.492603302001953
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_foot_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_ball_l",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          19.7733211517334,
+          12.408879280090332,
+          6.606729507446289
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_ball_l",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_clavicle_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          0.0670352578163147,
+          -6.709756851196289,
+          144.8093719482422
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_clavicle_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_upperarm_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -12.390768051147461,
+          -2.542405605316162,
+          139.24256896972656
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_upperarm_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_lowerarm_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -24.6092472076416,
+          0.3557889461517334,
+          116.51264953613281
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_lowerarm_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_hand_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -32.69942092895508,
+          8.31151294708252,
+          94.62911224365234
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_hand_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_thigh_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -8.440633773803711,
+          3.649487257003784,
+          98.56282043457031
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_thigh_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_calf_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -13.629362106323242,
+          3.3528661727905273,
+          53.68055725097656
+        ],
+        "enclosing_contour_count": 2
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_calf_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_foot_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -18.15096664428711,
+          -0.5614097118377686,
+          11.49612045288086
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_foot_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "surface_envelope_ball_r",
+      "pass": true,
+      "measured": {
+        "position_cm": [
+          -19.947315216064453,
+          12.48759651184082,
+          6.586861610412598
+        ],
+        "enclosing_contour_count": 1
+      },
+      "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+      "kind": "hard"
+    },
+    {
+      "name": "anatomical_role_resolved_ball_r",
+      "pass": true,
+      "measured": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "threshold": "automatic score >=.80 with no flags OR corrected position with SHA-bound explicit human anatomical review/evidence; all geometry gates still required",
+      "kind": "anatomical"
+    },
+    {
+      "name": "neck_exits_torso",
+      "pass": true,
+      "measured": [
+        137.43939208984375,
+        150.02043073097894,
+        159.3494110107422
+      ],
+      "threshold": "spine < neck < head",
+      "kind": "hard"
+    },
+    {
+      "name": "frame_orthonormal",
+      "pass": true,
+      "measured": {
+        "orthogonality_error": 2.220446049250313e-16,
+        "determinant": -1.0000000000000004
+      },
+      "threshold": "orthonormal determinant -1; explicit left/forward/up LH canonical frame",
+      "kind": "hard"
+    },
+    {
+      "name": "paired_sole_up_evidence",
+      "pass": true,
+      "measured": 110,
+      "threshold": ">=40 near-ground supporting vertices; geometric up evidence, no medical upright certification",
+      "kind": "hard"
+    },
+    {
+      "name": "geometry_shoe_facing_l",
+      "pass": true,
+      "measured": {
+        "forward_extent_cm": 20.16741749361547,
+        "rear_extent_cm": 7.80812120180399
+      },
+      "threshold": "paired shoe anterior extension greater than heel extension from lower shank",
+      "kind": "hard"
+    },
+    {
+      "name": "geometry_shoe_facing_r",
+      "pass": true,
+      "measured": {
+        "forward_extent_cm": 20.334935959057624,
+        "rear_extent_cm": 7.640118006859324
+      },
+      "threshold": "paired shoe anterior extension greater than heel extension from lower shank",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_root",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pelvis",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_spine_01",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000004,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_spine_02",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999997,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_spine_03",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_neck_01",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_head",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_clavicle_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999993,
+        "orthogonality_error": 5.551115123125783e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_upperarm_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_lowerarm_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_hand_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.4270484786348718e-17
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thigh_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_calf_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 8.829758708264803e-18
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_foot_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ball_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_clavicle_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000004,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_upperarm_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_lowerarm_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_hand_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thigh_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_calf_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000004,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_foot_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ball_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_01_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999996,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_02_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_03_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_01_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_02_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000004,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_03_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000004,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_01_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_02_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_03_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_01_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999996,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_02_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_03_l",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_01_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_02_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_03_l",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_01_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_02_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_middle_03_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_01_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_02_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_index_03_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0000000000000002,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_01_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999998,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_02_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 1.8266549761827495e-17
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_ring_03_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 1.8266549761827495e-17
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_01_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999999,
+        "orthogonality_error": 2.220446049250313e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_02_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999996,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_pinky_03_r",
+      "pass": true,
+      "measured": {
+        "determinant": 0.9999999999999996,
+        "orthogonality_error": 3.3306690738754696e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_01_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 1.1102230246251565e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_02_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "reference_axes_thumb_03_r",
+      "pass": true,
+      "measured": {
+        "determinant": 1.0,
+        "orthogonality_error": 4.440892098500626e-16
+      },
+      "threshold": "proper right-handed local basis; finite orthonormal axes",
+      "kind": "hard"
+    },
+    {
+      "name": "pole_nondegenerate_arm_l",
+      "pass": true,
+      "measured": {
+        "bend_vector_cm": [
+          1.3908485249007256,
+          -2.757230222584986,
+          -0.10963746091874782
+        ],
+        "bend_distance_cm": 3.0901130225917766,
+        "plane_normal": [
+          0.809282619627294,
+          0.39079289195206074,
+          0.43856875990992494
+        ]
+      },
+      "threshold": "bend > .05cm and valid plane; signed direction additionally requires human review",
+      "kind": "hard"
+    },
+    {
+      "name": "pole_anatomical_direction_arm_l",
+      "pass": true,
+      "measured": {
+        "reviewed_role": "lowerarm_l"
+      },
+      "threshold": "explicit elbow/knee anatomical review includes front/side bend direction",
+      "kind": "anatomical"
+    },
+    {
+      "name": "pole_nondegenerate_leg_l",
+      "pass": true,
+      "measured": {
+        "bend_vector_cm": [
+          0.870081659927564,
+          1.9053445149411847,
+          -0.0006199889428302185
+        ],
+        "bend_distance_cm": 2.0946074095030442,
+        "plane_normal": [
+          -0.9045319686010969,
+          0.4130229245168102,
+          -0.10599047882807913
+        ]
+      },
+      "threshold": "bend > .05cm and valid plane; signed direction additionally requires human review",
+      "kind": "hard"
+    },
+    {
+      "name": "pole_anatomical_direction_leg_l",
+      "pass": true,
+      "measured": {
+        "reviewed_role": "calf_l"
+      },
+      "threshold": "explicit elbow/knee anatomical review includes front/side bend direction",
+      "kind": "anatomical"
+    },
+    {
+      "name": "pole_nondegenerate_arm_r",
+      "pass": true,
+      "measured": {
+        "bend_vector_cm": [
+          -1.7954248606423917,
+          -2.672385785646859,
+          0.16714245324584454
+        ],
+        "bend_distance_cm": 3.2238382120102074,
+        "plane_normal": [
+          0.7254038764382339,
+          -0.5158602877176905,
+          -0.455716336775636
+        ]
+      },
+      "threshold": "bend > .05cm and valid plane; signed direction additionally requires human review",
+      "kind": "hard"
+    },
+    {
+      "name": "pole_anatomical_direction_arm_r",
+      "pass": true,
+      "measured": {
+        "reviewed_role": "lowerarm_r"
+      },
+      "threshold": "explicit elbow/knee anatomical review includes front/side bend direction",
+      "kind": "anatomical"
+    },
+    {
+      "name": "pole_nondegenerate_leg_r",
+      "pass": true,
+      "measured": {
+        "bend_vector_cm": [
+          -0.1908377590983079,
+          1.870719886166218,
+          -0.06919190154644639
+        ],
+        "bend_distance_cm": 1.8817012148678185,
+        "plane_normal": [
+          -0.9886643513666202,
+          -0.09660552812564473,
+          0.11493551353861566
+        ]
+      },
+      "threshold": "bend > .05cm and valid plane; signed direction additionally requires human review",
+      "kind": "hard"
+    },
+    {
+      "name": "pole_anatomical_direction_leg_r",
+      "pass": true,
+      "measured": {
+        "reviewed_role": "calf_r"
+      },
+      "threshold": "explicit elbow/knee anatomical review includes front/side bend direction",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_complete_unique_identity_l",
+      "pass": true,
+      "measured": [
+        "digit_branch_5_l",
+        "digit_branch_1_l",
+        "digit_branch_2_l",
+        "digit_branch_3_l",
+        "digit_branch_4_l"
+      ],
+      "threshold": "five independently user-identified distinct tracks; naming is not acceptance",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_review_thumb_l",
+      "pass": false,
+      "measured": {
+        "present": true,
+        "approved": false
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_thumb_l",
+      "pass": true,
+      "measured": [
+        28.705373015057752,
+        28.340047282813906,
+        28.125953716721575
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_thumb_l",
+      "pass": true,
+      "measured": [
+        0.36121329484913006,
+        0.8722095108045167,
+        0.7503778272114663
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_thumb_l",
+      "pass": true,
+      "measured": [
+        1.7258162127351773,
+        0.9354664799698386
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_index_l",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_index_l",
+      "pass": true,
+      "measured": [
+        33.45915595216009,
+        33.223878819129425,
+        32.92733253033154
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_index_l",
+      "pass": true,
+      "measured": [
+        0.6594211188157333,
+        0.6774143640132794,
+        0.6415161211022283
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_index_l",
+      "pass": true,
+      "measured": [
+        3.9847681393702485,
+        1.2487735166645024
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_middle_l",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_middle_l",
+      "pass": true,
+      "measured": [
+        34.100801223910096,
+        33.69622228500294,
+        33.33220477180035
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_middle_l",
+      "pass": true,
+      "measured": [
+        0.7167352047463857,
+        0.8877631507406947,
+        0.6693099578883782
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_middle_l",
+      "pass": true,
+      "measured": [
+        3.3002041619516875,
+        1.691300757516343
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_ring_l",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_ring_l",
+      "pass": true,
+      "measured": [
+        34.293177715373545,
+        33.985586497146734,
+        33.431609305184956
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_ring_l",
+      "pass": true,
+      "measured": [
+        0.9894135576415806,
+        0.8785787537127155,
+        0.6174782447745752
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_ring_l",
+      "pass": true,
+      "measured": [
+        2.623938640535532,
+        2.1497973659198393
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_pinky_l",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_pinky_l",
+      "pass": true,
+      "measured": [
+        33.70212859433079,
+        33.3037531016833,
+        32.9890146094354
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_pinky_l",
+      "pass": true,
+      "measured": [
+        0.18679306388908695,
+        0.5763626300326953,
+        0.5270542574143064
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_pinky_l",
+      "pass": true,
+      "measured": [
+        1.7414871813464967,
+        0.8791292807700708
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_l_index_l",
+      "pass": true,
+      "measured": 5.747152891328992,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_l_middle_l",
+      "pass": true,
+      "measured": 7.526002676110249,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_l_ring_l",
+      "pass": true,
+      "measured": 9.000104970597949,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_l_pinky_l",
+      "pass": true,
+      "measured": 10.798771486136404,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_l_middle_l",
+      "pass": true,
+      "measured": 2.6041354669555163,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_l_ring_l",
+      "pass": true,
+      "measured": 5.151396956686191,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_l_pinky_l",
+      "pass": true,
+      "measured": 7.642904674450313,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_middle_l_ring_l",
+      "pass": true,
+      "measured": 2.662680422204365,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_middle_l_pinky_l",
+      "pass": true,
+      "measured": 5.152427548139944,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_ring_l_pinky_l",
+      "pass": true,
+      "measured": 2.252186683293381,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_complete_unique_identity_r",
+      "pass": true,
+      "measured": [
+        "digit_branch_5_r",
+        "digit_branch_2_r",
+        "digit_branch_1_r",
+        "digit_branch_3_r",
+        "digit_branch_4_r"
+      ],
+      "threshold": "five independently user-identified distinct tracks; naming is not acceptance",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_review_thumb_r",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_thumb_r",
+      "pass": true,
+      "measured": [
+        -28.376905712194585,
+        -28.23456581568394,
+        -28.116127054244245
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_thumb_r",
+      "pass": true,
+      "measured": [
+        0.20465266647560193,
+        0.8942341801550459,
+        0.7137912805225731
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_thumb_r",
+      "pass": true,
+      "measured": [
+        1.6608305169868811,
+        0.8850098686168395
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_index_r",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_index_r",
+      "pass": true,
+      "measured": [
+        -33.30565441052058,
+        -33.43596055342096,
+        -33.264189884119226
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_index_r",
+      "pass": true,
+      "measured": [
+        0.69059402025217,
+        0.7465056442879513,
+        0.6248065608181532
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_index_r",
+      "pass": true,
+      "measured": [
+        3.738816655986008,
+        1.3812922798307044
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_middle_r",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_middle_r",
+      "pass": true,
+      "measured": [
+        -34.38586008306122,
+        -34.1598562752064,
+        -33.82588219375562
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_middle_r",
+      "pass": true,
+      "measured": [
+        1.1137771510088719,
+        0.8643249443350218,
+        0.6770481568870651
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_middle_r",
+      "pass": true,
+      "measured": [
+        3.2205661556891707,
+        1.7257732244657487
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_ring_r",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_ring_r",
+      "pass": true,
+      "measured": [
+        -34.64790609631665,
+        -34.39630717288691,
+        -33.9176363121299
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_ring_r",
+      "pass": true,
+      "measured": [
+        1.0921289724522918,
+        0.9183001455298393,
+        0.6535991728802216
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_ring_r",
+      "pass": true,
+      "measured": [
+        2.584847986391909,
+        2.1515124052526438
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_review_pinky_r",
+      "pass": true,
+      "measured": {
+        "present": true,
+        "approved": true
+      },
+      "threshold": "SHA-bound explicit human digit identity, root/tip and generated-chain review",
+      "kind": "anatomical"
+    },
+    {
+      "name": "finger_side_pinky_r",
+      "pass": true,
+      "measured": [
+        -34.23260326777297,
+        -33.937540583529376,
+        -33.61907093777185
+      ],
+      "threshold": "all phalanges on correct side",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_surface_pinky_r",
+      "pass": true,
+      "measured": [
+        0.143658710790364,
+        0.6004192242217457,
+        0.49933915133846124
+      ],
+      "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_segments_pinky_r",
+      "pass": true,
+      "measured": [
+        1.693323021460678,
+        0.8987104196194675
+      ],
+      "threshold": "finite separated consecutive phalanges .05..8cm",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_r_index_r",
+      "pass": true,
+      "measured": 5.602392169886913,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_r_middle_r",
+      "pass": true,
+      "measured": 7.753415024769786,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_r_ring_r",
+      "pass": true,
+      "measured": 9.409118916986515,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_thumb_r_pinky_r",
+      "pass": true,
+      "measured": 11.174472799211683,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_r_middle_r",
+      "pass": true,
+      "measured": 2.742133717661423,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_r_ring_r",
+      "pass": true,
+      "measured": 5.321361984721378,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_index_r_pinky_r",
+      "pass": true,
+      "measured": 7.7462289719126645,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_middle_r_ring_r",
+      "pass": true,
+      "measured": 2.7116842569375197,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_middle_r_pinky_r",
+      "pass": true,
+      "measured": 5.1936800830003165,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_no_collision_ring_r_pinky_r",
+      "pass": true,
+      "measured": 2.1625269938716536,
+      "threshold": "sampled path separation >.25cm; discrete screen, not a volumetric proof",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_target_tracks_not_collapsed",
+      "pass": true,
+      "measured": {
+        "unique_complete": true,
+        "collision_screens": 20
+      },
+      "threshold": "ten distinct independently identified target paths; every retained collision screen passes",
+      "kind": "hard"
+    },
+    {
+      "name": "finger_chains_anatomically_resolved",
+      "pass": false,
+      "measured": 9,
+      "threshold": "10/10 independently accepted chains",
+      "kind": "anatomical"
+    }
+  ],
+  "passed": false,
+  "failed": [
+    "left_right_not_crossed",
+    "finger_review_thumb_l",
+    "finger_chains_anatomically_resolved"
+  ],
+  "structural_geometric_passed": false,
+  "automatic_anatomical_passed": false,
+  "manual_anatomical_review_roles": [
+    "pelvis",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "proposal_sha256": "763308ff79b1bca1681337f3332628dc5db9f082b62ecf6995b8a05c24cbe323",
+  "downstream_authorised": false,
+  "numeric_screen_limit": "Section bounding envelopes are conservative; no claim of exact internal anatomical ground truth. Unresolved anatomical roles block downstream even when geometric screens pass.",
+  "skin": {
+    "status": "not_run_if_rejected"
+  },
+  "retarget_bake": {
+    "status": "not_run_if_rejected"
+  },
+  "phase": "Phase4D",
+  "baseline_numeric_thresholds_unchanged": true,
+  "review_change": "Explicit review allowed at unchanged positions; all prior numeric checks retained",
+  "additional_limits": "Pole sign judged by human front/side review; coarse envelope/finger vertex screens cannot certify exact internal anatomy or skin deformation"
+}

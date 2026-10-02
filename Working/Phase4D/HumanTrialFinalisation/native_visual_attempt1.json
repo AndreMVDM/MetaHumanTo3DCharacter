@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "captures": [],
+  "runtime_changes_only": true,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/capture_native_evidence.py\", line 25, in tick\n    if frame==1:setup()\n                ^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/capture_native_evidence.py\", line 12, in setup\n    c.set_editor_property('force_refpose',stage==0);c.set_visibility(True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMeshComponent: Failed to find property 'force_refpose' for attribute 'force_refpose' on 'SkeletalMeshComponent'\n"
+}

@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-01",
+  "engine": "5.8.3-58210709",
+  "temporary_namespace": "/Game/MetaHumanTo3DCharacter/Phase4C",
+  "configuration_changes": [],
+  "execution_phases": [
+    {
+      "phase": "preflight/fresh ZIP/source frame",
+      "scripts": [
+        "preflight.py",
+        "prepare_geometry.py",
+        "normalise.py"
+      ],
+      "logs": [
+        "source_verification.log"
+      ]
+    },
+    {
+      "phase": "plugin probe",
+      "scripts": [
+        "ue_probe.py"
+      ],
+      "logs": [
+        "probe.log",
+        "probe_memory.log"
+      ]
+    },
+    {
+      "phase": "body-only diagnostic (historical configuration recorded; script later adapted to combined)",
+      "scripts": [
+        "ue_solve.py"
+      ],
+      "logs": [
+        "solve.log"
+      ],
+      "evidence": [
+        "solve_result_bodyonly_fullsurface.json",
+        "donor_joints_bodyonly_fullsurface.json"
+      ]
+    },
+    {
+      "phase": "combined solve",
+      "scripts": [
+        "ue_solve.py"
+      ],
+      "logs": [
+        "solve_combined.log",
+        "solve_combined_stdout.log"
+      ],
+      "evidence": [
+        "solve_result_combined.json",
+        "solve_configuration_combined.json"
+      ]
+    },
+    {
+      "phase": "public native helper build",
+      "scripts": [
+        "run_native_actions.py"
+      ],
+      "logs": [
+        "native_build_stdout.log",
+        "native_actions_stdout.log"
+      ],
+      "limit": "UBT UBA executor failed; compiled/linker actions and module execution verified"
+    },
+    {
+      "phase": "posed public extraction",
+      "scripts": [
+        "ue_extract.py"
+      ],
+      "logs": [
+        "extract_combined.log"
+      ],
+      "evidence": [
+        "donor_extraction.json",
+        "solved_donor_joints.json"
+      ]
+    },
+    {
+      "phase": "fresh reload and authoring dependency edges",
+      "scripts": [
+        "ue_dependencies.py"
+      ],
+      "logs": [
+        "dependencies.log",
+        "dependencies_stdout.log"
+      ],
+      "limit": "exit code 1 due DDC error; query succeeded"
+    },
+    {
+      "phase": "mapping/evaluation/gate/correction/render/audit/report",
+      "scripts": [
+        "analyse.py",
+        "validate_fit.py",
+        "render_evidence.py",
+        "verify_source.py",
+        "finalise.py",
+        "write_report.py",
+        "self_review.py"
+      ]
+    }
+  ],
+  "commandlet_load_flags": [
+    "-EnablePlugins=MetaHumanCharacter",
+    "-DDC-ForceMemoryCache",
+    "-unattended",
+    "-nullrhi"
+  ],
+  "extraction_additional_flags": [
+    "-Plugin=<absolute Phase4CTools.uplugin>",
+    "-EnablePlugins=MetaHumanCharacter,Phase4CTools"
+  ],
+  "rerun_limit": "Solve script deliberately rejects an existing donor asset and refuses overwrite. Use a fresh namespace for a new solve; do not rerun against this retained evidence without adaptation.",
+  "document_sha256": "ae09fe24b6d8a16f6ebbb7fedec47eab02354d36dcaf04231c0d0edec18dfd36",
+  "evidence_files": [
+    {
+      "path": "Documentation\\Phase4C\\analysis_summary.json",
+      "sha256": "78881af2376286edee3c1728bc3fbf16a0eada393b660553418cdf619a3b371d",
+      "bytes": 690
+    },
+    {
+      "path": "Documentation\\Phase4C\\anatomical_validation.json",
+      "sha256": "9394e8a16afcef0b2d2414776de868eba3b0ebceaacef698ad2cabb2b3bb8a20",
+      "bytes": 30546
+    },
+    {
+      "path": "Documentation\\Phase4C\\anatomical_validation_v2.json",
+      "sha256": "86c4c0188fcbcbcd8c90ef7f3707609313da9430fe9302f50138fd1bfafe8c40",
+      "bytes": 25762
+    },
+    {
+      "path": "Documentation\\Phase4C\\animation_bake_results.json",
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "bytes": 287
+    },
+    {
+      "path": "Documentation\\Phase4C\\ankle_ball_foot_closeup.png",
+      "sha256": "bfda4845b74b5a6229899422068cda39acb205f9237f4ab2b7c03f84e2126576",
+      "bytes": 110825
+    },
+    {
+      "path": "Documentation\\Phase4C\\automatic_fit_v2.json",
+      "sha256": "0324a9f4796865ff9ac350c7d8b03136d6ff54bbe4b532dce4b8af71325572fe",
+      "bytes": 32008
+    },
+    {
+      "path": "Documentation\\Phase4C\\coordinate_frame.json",
+      "sha256": "571d5a16652a4a5a649ab7256a4f9dc5db30e5bd274d4689a2fdf09ef47f3ce0",
+      "bytes": 2387
+    },
+    {
+      "path": "Documentation\\Phase4C\\correction_measurements.json",
+      "sha256": "9ced8f1861651fcb9af3f2be93011e9ef67c815b51874a64e758be20719f6278",
+      "bytes": 1355
+    },
+    {
+      "path": "Documentation\\Phase4C\\dependency_evidence.json",
+      "sha256": "91d41be9fc51ea474b279c1bcf110405ab43b24746890370ee669d1de3b4656d",
+      "bytes": 1516
+    },
+    {
+      "path": "Documentation\\Phase4C\\donor_extraction.json",
+      "sha256": "09c10ba76cbc53383e0cf797c0d857eb5c695f806e14fe3b195ed0e841b542e5",
+      "bytes": 564
+    },
+    {
+      "path": "Documentation\\Phase4C\\donor_joints_bodyonly_fullsurface.json",
+      "sha256": "14cee4930db2feff71218b90386209580241533e64b3f55bac8204d07ac2794b",
+      "bytes": 163670
+    },
+    {
+      "path": "Documentation\\Phase4C\\donor_semantic_skeleton.png",
+      "sha256": "107f657090da19f61be72c7b79862637f8aa561110f1580b938d54b6e6725b90",
+      "bytes": 117066
+    },
+    {
+      "path": "Documentation\\Phase4C\\donor_to_lara_mapping.json",
+      "sha256": "8e385f4dec410b7018d226ab9d25c0bd6b8af35cd6175bd3d86084ae52edef99",
+      "bytes": 369699
+    },
+    {
+      "path": "Documentation\\Phase4C\\existing_evidence_index.json",
+      "sha256": "c0e8495b5f46c35d1ff92910c9a5e8c550120a2627f1546a9766ce14c452ce3c",
+      "bytes": 13174
+    },
+    {
+      "path": "Documentation\\Phase4C\\experiment_result.json",
+      "sha256": "af5f9b96771d4d7a0f50eda562f743fcef2f6814254aeca7b964216dc863f6d5",
+      "bytes": 800
+    },
+    {
+      "path": "Documentation\\Phase4C\\finger_validation.json",
+      "sha256": "cc11757edacdb3a3a12d40e13601a7e21d5afc2bac8c24643ade96c861209e1f",
+      "bytes": 9489
+    },
+    {
+      "path": "Documentation\\Phase4C\\front_comparison.png",
+      "sha256": "f0269d295fd81b14efe45d940b91fe2cb1f5e6aab3eb61c7dbd61988b651663e",
+      "bytes": 149047
+    },
+    {
+      "path": "Documentation\\Phase4C\\geometry_input.json",
+      "sha256": "55ed7e4670b984d9fd5e3b1ea5b9b549e1c0a77c34e4b93beb884e3c22059432",
+      "bytes": 872
+    },
+    {
+      "path": "Documentation\\Phase4C\\hand_finger_closeup.png",
+      "sha256": "7b149056dc87de2e999eb53fff34c12e556c5a0a7a5d215ba3c03ab89093bc76",
+      "bytes": 134375
+    },
+    {
+      "path": "Documentation\\Phase4C\\hand_finger_right_closeup.png",
+      "sha256": "2bdaa0e067cfe5396cf172a25c2d0fb0261fb19c3dc46050d8e444b401341155",
+      "bytes": 116210
+    },
+    {
+      "path": "Documentation\\Phase4C\\ik_retarget_configuration.json",
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "bytes": 287
+    },
+    {
+      "path": "Documentation\\Phase4C\\input_inventory.json",
+      "sha256": "dbede9525eb61d284b1654d3ca5af60a1c8a5c559e099188911e3ea31186231f",
+      "bytes": 488
+    },
+    {
+      "path": "Documentation\\Phase4C\\knee_closeup.png",
+      "sha256": "ecf630093a7aeaa9316ab5624e6254e88aaa4f15a04274e83efff83c49bdae61",
+      "bytes": 151394
+    },
+    {
+      "path": "Documentation\\Phase4C\\manual_control_comparison.json",
+      "sha256": "ac27f5c0afc0a35180fdf283c58def17de8124515d8786d228064b1123b2d577",
+      "bytes": 11444
+    },
+    {
+      "path": "Documentation\\Phase4C\\mapped_donor_front.png",
+      "sha256": "bd10aa9fc8cd8d63560a254bacf4caedc03feee22c828f4af1f73e7a81e19f15",
+      "bytes": 119395
+    },
+    {
+      "path": "Documentation\\Phase4C\\mapped_donor_side.png",
+      "sha256": "ef61ee495a6fde3187b65ac8310a143f490258ae7e68e7363bc5654d76a7605d",
+      "bytes": 95566
+    },
+    {
+      "path": "Documentation\\Phase4C\\original_Lara_surface.png",
+      "sha256": "3a7464009e8a28b3b26134a7364ac0da7fa153afbd376804b38cae960e637a02",
+      "bytes": 112398
+    },
+    {
+      "path": "Documentation\\Phase4C\\pelvis_hip_closeup.png",
+      "sha256": "e592dc66546fae4da6108acfed1bfb2e9897f33014b6d086487f071f6f1abd8e",
+      "bytes": 177003
+    },
+    {
+      "path": "Documentation\\Phase4C\\phase4b_comparison.json",
+      "sha256": "0a23b8bb2c07b32f9fad6989ed71ec5faebe463c3444a5d9ef63a9d7caa4475e",
+      "bytes": 38884
+    },
+    {
+      "path": "Documentation\\Phase4C\\Phase4B_vs_Phase4C_overlay.png",
+      "sha256": "9c39b21c091415f5b4d933487ba2a73862efcaf323e1426efda3b42abf4d88d5",
+      "bytes": 118963
+    },
+    {
+      "path": "Documentation\\Phase4C\\Phase4CMetaHumanSemanticDonor.md",
+      "sha256": "ae09fe24b6d8a16f6ebbb7fedec47eab02354d36dcaf04231c0d0edec18dfd36",
+      "bytes": 31743
+    },
+    {
+      "path": "Documentation\\Phase4C\\protected_before.json",
+      "sha256": "151597dd6a0f031f28b4086bee8266fde70218764eab0a076d1aceda55c1f179",
+      "bytes": 493327
+    },
+    {
+      "path": "Documentation\\Phase4C\\protected_file_audit.json",
+      "sha256": "03d5a947e1e138edb47e1d6cb6380dc05ea40a1dcbdcd991b64ec279830501e4",
+      "bytes": 1052
+    },
+    {
+      "path": "Documentation\\Phase4C\\python_api_probe.json",
+      "sha256": "c1f0e654a72098c90fac43684efdde21bd4030d9a02310de682efe09bdd1b5f4",
+      "bytes": 44612
+    },
+    {
+      "path": "Documentation\\Phase4C\\self_review.json",
+      "sha256": "a0b8e484221b8eb8ecb2d9719afcfe6bb79e613a6bc1a38f475b29ddb8065c57",
+      "bytes": 4240
+    },
+    {
+      "path": "Documentation\\Phase4C\\semantic_api_inventory.json",
+      "sha256": "f2789796b722a088d91ffe47d17f55c934c1f33e93ed4ff3a97cea9de01c0a7f",
+      "bytes": 12481
+    },
+    {
+      "path": "Documentation\\Phase4C\\shoulder_elbow_closeup.png",
+      "sha256": "a3aa095f213c01e8dffa08841d50c45e264af2dbe7a499152f2a0e7726989f0d",
+      "bytes": 203781
+    },
+    {
+      "path": "Documentation\\Phase4C\\side_comparison.png",
+      "sha256": "c5cdf50c8069d22a1cd61b0ffd14c5121a2d979d243c4dbdc7a03e1101913e43",
+      "bytes": 112769
+    },
+    {
+      "path": "Documentation\\Phase4C\\skinning_results.json",
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "bytes": 287
+    },
+    {
+      "path": "Documentation\\Phase4C\\solve_configuration.json",
+      "sha256": "5492cf730e40f50a2a1e13cbac14dc8365d20e48ec2e222883d7c68a0b7b4c9e",
+      "bytes": 1768
+    },
+    {
+      "path": "Documentation\\Phase4C\\solve_configuration_combined.json",
+      "sha256": "780c1948f7ad05ccf2ebbcb7505c435d08ea2975667108b0164433b19f1814f7",
+      "bytes": 1765
+    },
+    {
+      "path": "Documentation\\Phase4C\\solve_result.json",
+      "sha256": "c61210c5f8c2a2b827c64c170eb4bb096a0876a0e9cf52e463ead9c94df1c59b",
+      "bytes": 2357
+    },
+    {
+      "path": "Documentation\\Phase4C\\solve_result_bodyonly_fullsurface.json",
+      "sha256": "c61210c5f8c2a2b827c64c170eb4bb096a0876a0e9cf52e463ead9c94df1c59b",
+      "bytes": 2357
+    },
+    {
+      "path": "Documentation\\Phase4C\\solve_result_combined.json",
+      "sha256": "078d1f8c053b3994aa8c87a138cf1d2184ca571117af25c917508206178ef12c",
+      "bytes": 2563
+    },
+    {
+      "path": "Documentation\\Phase4C\\solved_donor_joints.json",
+      "sha256": "5b8d1f629417e5d9c1d0a26f1bcca62057753d1f00ff862d8ff3a8c1dc3d4316",
+      "bytes": 164133
+    },
+    {
+      "path": "Documentation\\Phase4C\\solved_donor_joints_raw.json",
+      "sha256": "235de99a06c34bda953bf4e4c399b359d9a53d9e02084d3619139a6cdd3e6b01",
+      "bytes": 65020
+    },
+    {
+      "path": "Documentation\\Phase4C\\source_independent_playback.json",
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "bytes": 287
+    },
+    {
+      "path": "Documentation\\Phase4C\\source_preservation.json",
+      "sha256": "a590977ce44739151b99a5e30c1c8daf17b442f3a40fdcfdf9e6a658e6ae5a2f",
+      "bytes": 405
+    },
+    {
+      "path": "Documentation\\Phase4C\\temporary_donor_overlay.png",
+      "sha256": "9ce375e3bd47e419f420b13f2a00957abc6358f3bca47f5ec262453c1f48b9f2",
+      "bytes": 152340
+    },
+    {
+      "path": "Documentation\\Phase4C\\transform_mapping.json",
+      "sha256": "272e5175dbe4f38f684084e96cc45e26bdc2340f1dc9ef1d3ee7c2123a71a005",
+      "bytes": 1882
+    },
+    {
+      "path": "Documentation\\Phase4C\\web_sources.json",
+      "sha256": "9c22bae26fcd6d653860f8fcf1cc2812cef50da1ee0ae3b5319534407fedaed8",
+      "bytes": 646
+    }
+  ],
+  "script_hashes": {
+    "analyse.py": "1d5180c4bf7744df7ec18df4e05722a3b7b590b13c08ff356157793a2313e0d4",
+    "finalise.py": "93f18d6292bce01f3257fe92f7a7606c544568a8278e1c22703de005312d0d78",
+    "normalise.py": "345eec309dfc73c2fc6205ec6f8893f40a757d1052d4cefeaa89238e6233db23",
+    "preflight.py": "9258414ddd9cd311b5c947d9e135d984d71c70b3712374bfd47986569ed8516f",
+    "prepare_geometry.py": "c1826dda426bbae00f6cc7366052af6ed9f9d1ef95002cd6ec902f5115f35ff7",
+    "render_evidence.py": "86c1d0ffd64501bc62c4e2fb2e8b4890c6c9041cbb1d14fea1d245d5b7bdbab0",
+    "run_native_actions.py": "3ca065aadd0d2544aa3b9c01d3972fda664883c27fdc6ce6acc28788c5d77f23",
+    "self_review.py": "01dc943d5eab9119d6f233bf745ca80fefa50624171cb293e7fd89dad2f39b84",
+    "ue_dependencies.py": "dbf86a3092c89d33170b3d177d9f89a09435151621525f26ab69385c7870c9eb",
+    "ue_extract.py": "a1781dc0b93802bfd485d8d758592d034ab8b0bd558b9c89dca5b5bf9b355e81",
+    "ue_probe.py": "eb76ed10743b091560b831c409bc16db67f7e7b7a89b2dac94c83f21aed72da3",
+    "ue_solve.py": "7d0b9f98854564824a5b2483c0998595298d8f7ba235ac7e3df2e56103575075",
+    "validate_fit.py": "ea7b922cd7850bb50e49cffedf76e97bb7510e183179f83bf98c57d17483d3ac",
+    "verify_source.py": "ae64b5e8cbc985d86b9394564f97e830d23890c220da79d368eb509744329f4c",
+    "write_report.py": "1933cca1bbc6bbf44513068958a58f315080f24dd2ae47ef5bfebe8f0b42b4fa"
+  },
+  "native_helper_source": [
+    {
+      "path": "Working\\Phase4C\\NativeHost\\Plugins\\Phase4CTools\\Source\\Phase4CTools\\Phase4CTools.Build.cs",
+      "sha256": "fee3dd140dc4e62ef83f7f76a359fa16b71cfc83d46e12033f4a9e5c901e5fe8"
+    },
+    {
+      "path": "Working\\Phase4C\\NativeHost\\Plugins\\Phase4CTools\\Source\\Phase4CTools\\Private\\Phase4CLibrary.cpp",
+      "sha256": "695c8ab3550513ff2fe9014b4f39e247e3aa57ebfb6288f132970f83ebcc0ce7"
+    },
+    {
+      "path": "Working\\Phase4C\\NativeHost\\Plugins\\Phase4CTools\\Source\\Phase4CTools\\Public\\Phase4CLibrary.h",
+      "sha256": "08fae87e43055a4c6b2adb375db11bd8af50ff779bdef61483fd2a7411717026"
+    }
+  ]
+}

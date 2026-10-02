@@ -1,0 +1,45 @@
+{
+  "tests": [
+    {
+      "name": "body_selection",
+      "pass": true
+    },
+    {
+      "name": "viewport_marker_position_readback",
+      "pass": true
+    },
+    {
+      "name": "live_preview_five_dependencies",
+      "pass": true
+    },
+    {
+      "name": "preview_does_not_record_correction",
+      "pass": true
+    },
+    {
+      "name": "preview_restored",
+      "pass": true
+    },
+    {
+      "name": "track_highlight",
+      "pass": true
+    },
+    {
+      "name": "no_human_events",
+      "pass": true
+    },
+    {
+      "name": "no_approvals",
+      "pass": true
+    },
+    {
+      "name": "state_unchanged",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "synthetic_preview_only": true,
+  "human_trial_started": false,
+  "corrections_recorded": 0,
+  "saved_map": "/Game/MetaHumanTo3DCharacter/Phase4D/Maps/L_GuidedCorrection.L_GuidedCorrection"
+}

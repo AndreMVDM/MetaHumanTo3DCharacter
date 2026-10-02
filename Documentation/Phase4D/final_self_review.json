@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "historical reconstruction preserved verbatim",
+      "passed": true
+    },
+    {
+      "name": "one final appendix",
+      "passed": true
+    },
+    {
+      "name": "all final appendix evidence links resolve",
+      "passed": true
+    },
+    {
+      "name": "modified scripts parse",
+      "passed": true
+    },
+    {
+      "name": "gate and classification separate",
+      "passed": true
+    },
+    {
+      "name": "measured results retained",
+      "passed": true
+    },
+    {
+      "name": "runtime authoring preview removed",
+      "passed": true
+    },
+    {
+      "name": "runtime foreign/helper dependencies absent",
+      "passed": true
+    },
+    {
+      "name": "current proposal hash matches build and gate",
+      "passed": true
+    },
+    {
+      "name": "ledger preservation",
+      "passed": true
+    },
+    {
+      "name": "protected files preservation",
+      "passed": true
+    },
+    {
+      "name": "native reference transform verified",
+      "passed": true
+    },
+    {
+      "name": "ten native finger identities measured",
+      "passed": true
+    }
+  ],
+  "appendix_links_checked": 29,
+  "missing_links": [],
+  "level": 1,
+  "independent_agent_used": false,
+  "character_quality_accepted": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": 37,
+  "utc_epoch": 1790833886.7875545,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "hand_r"
+    ],
+    "judgement": "accept",
+    "category": "actual anatomical misplacement",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113",
+    "reviewed_positions": {
+      "hand_r": [
+        -32.69942092895508,
+        8.31151294708252,
+        94.62911224365234
+      ]
+    }
+  }
+}

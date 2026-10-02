@@ -1,0 +1,412 @@
+{
+  "character": "Jill",
+  "blender_version": "5.2.0 LTS",
+  "source_fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Inputs\\Jill\\Jill_Textured_Unrigged.fbx",
+  "objects": [
+    {
+      "name": "tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+      "vertices": 27014,
+      "polygons": 29132,
+      "triangles": 52392,
+      "edges": 56229,
+      "vertex_groups": [],
+      "modifiers": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          7.549790126404332e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_world_cm": [
+        [
+          -49.3408203125,
+          -7.446280866861343,
+          -5.437468253433053e-07
+        ],
+        [
+          49.3408203125,
+          7.446293532848358,
+          99.951171875
+        ]
+      ],
+      "materials": [
+        "tripo_941820f7_43fd_4df6_b675_72fc70214f51"
+      ],
+      "polygon_material_counts": {
+        "0": 29132
+      },
+      "uv_layers": [
+        {
+          "name": "Attribute",
+          "loops": 110656
+        }
+      ],
+      "uv_bounds": [
+        [
+          0.0011166539043188095,
+          0.001116676488891244
+        ],
+        [
+          0.9988316893577576,
+          0.9988833069801331
+        ]
+      ],
+      "uv_nonfinite": 0,
+      "uv_sha256": "9c7cba406c01eb4fabaa9e539e9183a6c09244c9d4269803fe29a8a097924fa5"
+    }
+  ],
+  "armatures": [],
+  "unrigged_verified": true,
+  "vertices": 27014,
+  "triangles": 52392,
+  "bounds_world_cm": [
+    [
+      -49.3408203125,
+      -7.446280866861343,
+      -5.437468253433053e-07
+    ],
+    [
+      49.3408203125,
+      7.446293532848358,
+      99.951171875
+    ]
+  ],
+  "coordinate_space": "Blender RH world centimetres; +Z is DCC up after importer axis conversion. Geometric pose/frame inspected separately.",
+  "materials": [
+    {
+      "name": "tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+      "use_nodes": true,
+      "image_nodes": [
+        {
+          "node": "Image Texture",
+          "image": "jill_textured_unrigged_basecolor"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "jill_textured_unrigged_basecolor",
+      "source_path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Inputs\\Jill\\Jill_Textured_Unrigged.fbm\\Jill_Textured_Unrigged_basecolor.jpg",
+      "resolved": true,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "channels": 4,
+      "colour_space": "sRGB"
+    }
+  ],
+  "raw_connected_components": 14,
+  "position_welded_components": 14,
+  "diagnostic_weld_tolerance_cm": 1e-05,
+  "source_welded": false,
+  "components": [
+    {
+      "id": 13,
+      "vertices": 14602,
+      "triangles": 28601,
+      "bounds_cm": [
+        [
+          -49.3408203125,
+          -6.958002597093582,
+          9.86328125
+        ],
+        [
+          49.3408203125,
+          7.446293532848358,
+          85.83984375
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "vertices": 6112,
+      "triangles": 12000,
+      "bounds_cm": [
+        [
+          -5.0537109375,
+          -7.446280866861343,
+          83.0078125
+        ],
+        [
+          5.5419921875,
+          5.053719878196716,
+          99.951171875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "vertices": 1806,
+      "triangles": 3507,
+      "bounds_cm": [
+        [
+          8.37402269244194,
+          -6.81152418255806,
+          -5.290013316283648e-07
+        ],
+        [
+          15.2099609375,
+          7.20214769244194,
+          11.23046875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "vertices": 1797,
+      "triangles": 3487,
+      "bounds_cm": [
+        [
+          -15.8447265625,
+          -6.274418532848358,
+          -5.437468253433053e-07
+        ],
+        [
+          -8.12988355755806,
+          7.3974572122097015,
+          11.181640625
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "vertices": 969,
+      "triangles": 1567,
+      "bounds_cm": [
+        [
+          -4.37011756002903,
+          0.024422138812951744,
+          81.640625
+        ],
+        [
+          5.0537109375,
+          7.202155888080597,
+          94.53125
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "vertices": 518,
+      "triangles": 865,
+      "bounds_cm": [
+        [
+          -4.71191443502903,
+          -1.391594111919403,
+          81.15234375
+        ],
+        [
+          4.80956993997097,
+          5.590828135609627,
+          84.1796875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 0,
+      "vertices": 222,
+      "triangles": 440,
+      "bounds_cm": [
+        [
+          -37.4755859375,
+          3.295900672674179,
+          79.248046875
+        ],
+        [
+          -36.2060546875,
+          4.663088172674179,
+          79.58984375
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "vertices": 210,
+      "triangles": 416,
+      "bounds_cm": [
+        [
+          -20.6787109375,
+          2.416996844112873,
+          79.39453125
+        ],
+        [
+          -19.9462890625,
+          2.954106405377388,
+          81.689453125
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "vertices": 210,
+      "triangles": 416,
+      "bounds_cm": [
+        [
+          20.6298828125,
+          2.026377245783806,
+          79.39453125
+        ],
+        [
+          21.3623046875,
+          2.5634868070483208,
+          81.689453125
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "vertices": 200,
+      "triangles": 395,
+      "bounds_cm": [
+        [
+          -20.53222805261612,
+          6.909184157848358,
+          78.955078125
+        ],
+        [
+          -19.70214992761612,
+          7.299809902906418,
+          81.201171875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "vertices": 192,
+      "triangles": 380,
+      "bounds_cm": [
+        [
+          20.09277194738388,
+          6.518565118312836,
+          78.955078125
+        ],
+        [
+          20.97167819738388,
+          6.958018243312836,
+          81.201171875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "vertices": 74,
+      "triangles": 144,
+      "bounds_cm": [
+        [
+          -20.43457180261612,
+          6.469731777906418,
+          79.833984375
+        ],
+        [
+          -19.06738430261612,
+          7.153324782848358,
+          80.419921875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "vertices": 72,
+      "triangles": 140,
+      "bounds_cm": [
+        [
+          -20.3369140625,
+          2.465825155377388,
+          80.126953125
+        ],
+        [
+          -18.9697265625,
+          3.198247030377388,
+          80.76171875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "vertices": 30,
+      "triangles": 34,
+      "bounds_cm": [
+        [
+          -4.22363318502903,
+          2.6123125106096268,
+          84.375
+        ],
+        [
+          -3.83300818502903,
+          3.833015263080597,
+          89.794921875
+        ]
+      ],
+      "object_ids": [
+        0
+      ]
+    }
+  ],
+  "reference_pose": "Observed source T-pose / approximately horizontal arms",
+  "clothing_classification": "merged/integrated surface",
+  "clothing_evidence": "One dominant connected surface spans both arms, torso and trousers/legs; boots, head and hair-related pieces remain separate. Primary garments cannot be selected as complete distinct connected shirt/trouser shells.",
+  "finger_observation": "Five visible digits per hand in source projection; semantic identities and articulated motion require human review and later tests.",
+  "nonfinite_vertex_values": 0,
+  "triangles_area_below_1e_8_cm2": 19
+}

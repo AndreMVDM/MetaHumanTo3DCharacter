@@ -1,0 +1,295 @@
+{
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "systems": [
+    {
+      "name": "GeometryScript_BoneWeights.compute_smooth_bone_weights -> FSkinBindingOp",
+      "scope": "Automatic weights for an existing Skeleton; DirectDistance or GeodesicVoxel. Voxel128, stiffness0.2, max5 tested.",
+      "exposure": [
+        "C++",
+        "Blueprint",
+        "Python"
+      ],
+      "status": "Public API; core implementation with modelling operator; requires supplied skeleton",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryScripting\\Source\\GeometryScriptingCore\\Public\\GeometryScript\\MeshBoneWeightFunctions.h",
+          "sha256": "9c1b1441093e6ed3b5eafc43742a1bcb4d7ccb74d05a09465ebb950b7cdeed5d",
+          "matches": [
+            {
+              "line": 72,
+              "text": "DirectDistance = 0,\t\t/** Compute weighting by using Euclidean distance from bone to vertex */"
+            },
+            {
+              "line": 73,
+              "text": "GeodesicVoxel = 1,\t\t/** Compute weighting by using geodesic distance from bone to vertex */"
+            },
+            {
+              "line": 84,
+              "text": "EGeometryScriptSmoothBoneWeightsType DistanceWeighingType = EGeometryScriptSmoothBoneWeightsType::DirectDistance;"
+            },
+            {
+              "line": 90,
+              "text": "float Stiffness = 0.2f;"
+            },
+            {
+              "line": 96,
+              "text": "int32 MaxInfluences = 5;"
+            },
+            {
+              "line": 102,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, meta=(EditCondition=\"DistanceWeighingType==EGeometryScriptSmoothBoneWeightsType::GeodesicVoxel\"))"
+            },
+            {
+              "line": 103,
+              "text": "int32 VoxelResolution = 256;"
+            },
+            {
+              "line": 430,
+              "text": "ComputeSmoothBoneWeights("
+            }
+          ]
+        },
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryScripting\\Source\\GeometryScriptingCore\\Private\\MeshBoneWeightFunctions.cpp",
+          "sha256": "50abe13dea42be7ec1cb3c7e8e6d65af40eb2046e47303ec88662c4301abf6fd",
+          "matches": [
+            {
+              "line": 617,
+              "text": "UDynamicMesh* UGeometryScriptLibrary_MeshBoneWeightFunctions::ComputeSmoothBoneWeights("
+            },
+            {
+              "line": 627,
+              "text": "AppendError(Debug, EGeometryScriptErrorType::InvalidInputs, LOCTEXT(\"ComputeSmoothBoneWeights_InvalidInput\", \"ComputeSmoothBoneWeights: TargetMesh is Null\"));"
+            },
+            {
+              "line": 632,
+              "text": "AppendError(Debug, EGeometryScriptErrorType::InvalidInputs, LOCTEXT(\"ComputeSmoothBoneWeights_InvalidSkeleton\", \"ComputeSmoothBoneWeights: Skeleton is Null\"));"
+            },
+            {
+              "line": 638,
+              "text": "FSkinBindingOp SkinBindingOp;"
+            },
+            {
+              "line": 640,
+              "text": "SkinBindingOp.SetTransformHierarchyFromReferenceSkeleton(Skeleton->GetReferenceSkeleton());"
+            }
+          ]
+        },
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\MeshModelingToolset\\Source\\ModelingOperators\\Public\\SkinningOps\\SkinBindingOp.h",
+          "sha256": "6fd1ca85680b8d08e5570828344faa73d89e6dca31b3d1b4bbb19647a3919757",
+          "matches": [
+            {
+              "line": 23,
+              "text": "class FSkinBindingOp : public FDynamicMeshOperator"
+            },
+            {
+              "line": 29,
+              "text": "virtual ~FSkinBindingOp() override = default;"
+            },
+            {
+              "line": 40,
+              "text": "ESkinBindingType BindType = ESkinBindingType::DirectDistance;"
+            },
+            {
+              "line": 43,
+              "text": "int32 VoxelResolution = 256;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkinBinding::CreateSkinWeightsFromMedialSkeleton",
+      "scope": "Engine-native automatic medial skeleton conversion and cluster-constrained skin generation. DirectDistance/max5 tested through thin wrapper.",
+      "exposure": [
+        "C++"
+      ],
+      "status": "Public DynamicMesh API; run without imported bone transforms or weights",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryProcessing\\Source\\DynamicMesh\\Public\\Operations\\MedialSkeletonSkinBinding.h",
+          "sha256": "df0d92fb7dd1d0b7fbc0f2128162aece0aff08d332f16564efbbf53367ed4317",
+          "matches": [
+            {
+              "line": 13,
+              "text": "struct FBindMedialSkeletonSettings"
+            },
+            {
+              "line": 20,
+              "text": "FBindSettings BindSettings;"
+            },
+            {
+              "line": 39,
+              "text": "UE_API bool CreateSkinWeightsFromMedialSkeleton("
+            },
+            {
+              "line": 44,
+              "text": "const FBindMedialSkeletonSettings& Settings,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GeometryScript_BoneWeights.transfer_bone_weights_from_mesh",
+      "scope": "Transfer donor weights via closest-surface or inpainting; requires donor skeleton/weights, not joint placement. Not used for this proof.",
+      "exposure": [
+        "C++",
+        "Blueprint",
+        "Python"
+      ],
+      "status": "Public API; optional route for future already-rigged input",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryScripting\\Source\\GeometryScriptingCore\\Public\\GeometryScript\\MeshBoneWeightFunctions.h",
+          "sha256": "9c1b1441093e6ed3b5eafc43742a1bcb4d7ccb74d05a09465ebb950b7cdeed5d",
+          "matches": [
+            {
+              "line": 109,
+              "text": "/** For every vertex on the TargetMesh, find the closest point on the surface of the SourceMesh and transfer"
+            },
+            {
+              "line": 110,
+              "text": "* bone weights from it. This is usually a point on the SourceMesh triangle where the bone weights are computed via"
+            },
+            {
+              "line": 113,
+              "text": "ClosestPointOnSurface = 0,"
+            },
+            {
+              "line": 118,
+              "text": "* (same as the ClosestPointOnSurface method). For all the vertices we didn't copy the weights directly,"
+            },
+            {
+              "line": 121,
+              "text": "InpaintWeights = 1"
+            },
+            {
+              "line": 127,
+              "text": "/** When transferring weights, the SourceMesh bone attriubtes will be copied over to the TargetMesh, replacing any"
+            },
+            {
+              "line": 132,
+              "text": "/** When transferring weights, if the TargetMesh has bone attributes, then the transferred SourceMesh weights will be"
+            },
+            {
+              "line": 133,
+              "text": "* reindexed with respect to the TargetMesh bones. In cases where a transferred SourceMesh weight refers to a bone"
+            },
+            {
+              "line": 148,
+              "text": "ETransferBoneWeightsMethod TransferMethod = ETransferBoneWeightsMethod::ClosestPointOnSurface;"
+            },
+            {
+              "line": 163,
+              "text": "* radius will be ignored. If negative, all points are considered. Only used in the InpaintWeights algorithm.*/"
+            },
+            {
+              "line": 164,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, Meta = (UIMin = -1, UIMax = 2, ClampMin = -1, ClampMax = 2, EditCondition = \"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 168,
+              "text": "* If negative, normals are ignored. Only used in the InpaintWeights algorithm.*/"
+            },
+            {
+              "line": 169,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, Meta = (UIMin = -1, UIMax = 180, ClampMin = -1, ClampMax = 180, EditCondition=\"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 175,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, Meta = (EditCondition = \"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 179,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, meta = (UIMin = 0, UIMax = 100, ClampMin = 0, ClampMax = 100, EditCondition = \"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 183,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, meta = (UIMin = 0, UIMax = 1, ClampMin = 0, ClampMax = 1, EditCondition = \"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 187,
+              "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Options, meta = (EditCondition = \"TransferMethod == ETransferBoneWeightsMethod::InpaintWeights\"))"
+            },
+            {
+              "line": 438,
+              "text": "* Transfer the bone weights from the SourceMesh to the TargetMesh. Assumes that the meshes are aligned. Otherwise,"
+            },
+            {
+              "line": 441,
+              "text": "* @param SourceMesh The mesh we are transferring the weights from."
+            },
+            {
+              "line": 449,
+              "text": "TransferBoneWeightsFromMesh("
+            },
+            {
+              "line": 450,
+              "text": "UDynamicMesh* SourceMesh,"
+            },
+            {
+              "line": 457,
+              "text": "* Copy the bone attributes (skeleton) from the SourceMesh to the TargetMesh."
+            },
+            {
+              "line": 458,
+              "text": "* @param SourceMesh Mesh we are copying the bone attributes from."
+            },
+            {
+              "line": 465,
+              "text": "UDynamicMesh* SourceMesh,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skeletal Mesh Editing Tools",
+      "scope": "UI skeleton authoring, binding and weight editing; automation uses corresponding API, not fictitious Auto Rig button.",
+      "exposure": [
+        "Editor UI",
+        "C++ operators"
+      ],
+      "status": "SkeletalMeshModelingTools plugin no beta/experimental flag; Editor module enabled by default",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\SkeletalMeshModelingTools\\SkeletalMeshModelingTools.uplugin",
+          "sha256": "34176395c519a3ac4909b96717d025b711c2bc306408f8e59f31957bdef7b667",
+          "matches": [
+            {
+              "line": 5,
+              "text": "\"FriendlyName\": \"Skeletal Mesh Editing Tools\","
+            },
+            {
+              "line": 12,
+              "text": "\"EnabledByDefault\" : true,"
+            },
+            {
+              "line": 14,
+              "text": "\"IsExperimentalVersion\": false,"
+            },
+            {
+              "line": 15,
+              "text": "\"IsBetaVersion\": false,"
+            },
+            {
+              "line": 20,
+              "text": "\"Type\": \"Editor\","
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "not_rigging_solutions": [
+    "ML Deformer and Mesh Deformer are deformation infrastructure, not a verified mesh-to-humanoid-joint fitter.",
+    "No verified heat-binding callable was used; do not advertise an untested binding algorithm.",
+    "MetaHuman custom mesh solving/topology replacement excluded by scope."
+  ],
+  "python_evidence": [
+    "python_api_probe.json",
+    "additional_python_apis.json"
+  ]
+}

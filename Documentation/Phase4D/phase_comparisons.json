@@ -1,0 +1,312 @@
+{
+  "comparisons": [
+    {
+      "comparison": "current Phase4D vs Phase4B",
+      "evaluation_only": true,
+      "initialisation_used": false,
+      "mean_difference_cm": 4.969924902337942,
+      "max_difference_cm": 12.15731367578968,
+      "joints": [
+        {
+          "role": "root",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "pelvis",
+          "difference_cm": 1.43229562185784
+        },
+        {
+          "role": "spine_01",
+          "difference_cm": 5.463475133535916
+        },
+        {
+          "role": "spine_02",
+          "difference_cm": 2.4636315886413955
+        },
+        {
+          "role": "spine_03",
+          "difference_cm": 1.636084827806794
+        },
+        {
+          "role": "neck_01",
+          "difference_cm": 5.848013197722307
+        },
+        {
+          "role": "head",
+          "difference_cm": 8.781781939544267
+        },
+        {
+          "role": "clavicle_l",
+          "difference_cm": 8.674096049060138
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 4.5157629651142335
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 6.724356466933195
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 12.15731367578968
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 2.5475059367490953
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 1.6038715523220113
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 5.629842649562964
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 2.6701580145874693
+        },
+        {
+          "role": "clavicle_r",
+          "difference_cm": 9.992712765138918
+        },
+        {
+          "role": "upperarm_r",
+          "difference_cm": 5.92857717799291
+        },
+        {
+          "role": "lowerarm_r",
+          "difference_cm": 6.224209648969354
+        },
+        {
+          "role": "hand_r",
+          "difference_cm": 10.777825827184914
+        },
+        {
+          "role": "thigh_r",
+          "difference_cm": 1.990242950525012
+        },
+        {
+          "role": "calf_r",
+          "difference_cm": 1.0058840407278153
+        },
+        {
+          "role": "foot_r",
+          "difference_cm": 5.636272617672912
+        },
+        {
+          "role": "ball_r",
+          "difference_cm": 2.6043581063335104
+        }
+      ],
+      "limit": "4A is approximate manual control, not ground truth; 4B/4C were rejected proposals"
+    },
+    {
+      "comparison": "current Phase4D vs Phase4C",
+      "evaluation_only": true,
+      "initialisation_used": false,
+      "mean_difference_cm": 0.3656773980811595,
+      "max_difference_cm": 8.410580155866668,
+      "joints": [
+        {
+          "role": "root",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "pelvis",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "spine_01",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "spine_02",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "spine_03",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "neck_01",
+          "difference_cm": 8.410580155866668
+        },
+        {
+          "role": "head",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "clavicle_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "clavicle_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "upperarm_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "lowerarm_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "hand_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "thigh_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "calf_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "foot_r",
+          "difference_cm": 0.0
+        },
+        {
+          "role": "ball_r",
+          "difference_cm": 0.0
+        }
+      ],
+      "limit": "4A is approximate manual control, not ground truth; 4B/4C were rejected proposals"
+    },
+    {
+      "comparison": "current Phase4D vs Phase4A",
+      "evaluation_only": true,
+      "initialisation_used": false,
+      "mean_difference_cm": 4.9243746844038325,
+      "max_difference_cm": 12.523897796012776,
+      "joints": [
+        {
+          "role": "root",
+          "difference_cm": 2.247078838079422
+        },
+        {
+          "role": "pelvis",
+          "difference_cm": 4.219473531008356
+        },
+        {
+          "role": "spine_01",
+          "difference_cm": 5.81847133381719
+        },
+        {
+          "role": "spine_02",
+          "difference_cm": 6.057564765196173
+        },
+        {
+          "role": "spine_03",
+          "difference_cm": 1.1057811311839902
+        },
+        {
+          "role": "neck_01",
+          "difference_cm": 0.822586642005819
+        },
+        {
+          "role": "head",
+          "difference_cm": 2.4687900985109277
+        },
+        {
+          "role": "clavicle_l",
+          "difference_cm": 10.209425082958548
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 4.510997404385911
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 5.02609156003256
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 12.523897796012776
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 3.84645621268773
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 2.133179226271439
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 2.5413664354645142
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 3.0596656315534183
+        },
+        {
+          "role": "clavicle_r",
+          "difference_cm": 11.446347148668346
+        },
+        {
+          "role": "upperarm_r",
+          "difference_cm": 5.928609832565083
+        },
+        {
+          "role": "lowerarm_r",
+          "difference_cm": 4.621712242370449
+        },
+        {
+          "role": "hand_r",
+          "difference_cm": 11.22987781867316
+        },
+        {
+          "role": "thigh_r",
+          "difference_cm": 4.652411172039983
+        },
+        {
+          "role": "calf_r",
+          "difference_cm": 3.011431295074983
+        },
+        {
+          "role": "foot_r",
+          "difference_cm": 2.574285960409893
+        },
+        {
+          "role": "ball_r",
+          "difference_cm": 3.2051165823174865
+        }
+      ],
+      "limit": "4A is approximate manual control, not ground truth; 4B/4C were rejected proposals"
+    }
+  ],
+  "proposal_bytes_sha256": "083ec2ea0c8ec4b7666dfb43a53a066d14d2d008186f6f2f062bb63e132fb49e",
+  "control_used_for_initialisation": false
+}

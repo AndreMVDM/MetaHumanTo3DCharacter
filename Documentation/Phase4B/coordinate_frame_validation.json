@@ -1,0 +1,28 @@
+{
+  "rigid_reorientation_tests": [
+    {
+      "case": "yaw90",
+      "max_corresponding_vertex_difference_cm": 4.571315497677294e-14,
+      "mean_cm": 1.9830866638441868e-14,
+      "pass": true,
+      "inferred_height_cm": 180.0
+    },
+    {
+      "case": "oblique",
+      "max_corresponding_vertex_difference_cm": 1.400656241451401e-13,
+      "mean_cm": 4.626977321501184e-14,
+      "pass": true,
+      "inferred_height_cm": 180.0
+    },
+    {
+      "case": "upside_down",
+      "max_corresponding_vertex_difference_cm": 4.043894974555048e-14,
+      "mean_cm": 1.5567347682173764e-14,
+      "pass": true,
+      "inferred_height_cm": 180.0
+    }
+  ],
+  "tolerance_cm": 0.1,
+  "passed": true,
+  "limit": "Same Lara topology/pose only; no additional humanoid generalisation or guarantee under scale/pose/accessory changes."
+}

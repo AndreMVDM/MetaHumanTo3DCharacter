@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "candidates": [
+    {
+      "label": "RootOnly",
+      "asset": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_RootOnly.SK_Lara_RootOnly",
+      "statistics": {
+        "vertices": 28189,
+        "influences": {
+          "5": 22990,
+          "4": 5199
+        },
+        "normalisation_error_max": 4.540197551250458e-08,
+        "unweighted": 0
+      },
+      "input_to_saved_max_weight_delta": 5.587935447692871e-08,
+      "geometry_uv_reference_identical": true
+    },
+    {
+      "label": "Semantic",
+      "asset": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Semantic.SK_Lara_Semantic",
+      "statistics": {
+        "vertices": 28189,
+        "influences": {
+          "5": 22206,
+          "3": 3763,
+          "4": 1626,
+          "2": 594
+        },
+        "normalisation_error_max": 5.21540641784668e-08,
+        "unweighted": 0
+      },
+      "input_to_saved_max_weight_delta": 1.9744631089585463e-05,
+      "geometry_uv_reference_identical": true
+    },
+    {
+      "label": "Refined",
+      "asset": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined.SK_Lara_Refined",
+      "statistics": {
+        "vertices": 28189,
+        "influences": {
+          "5": 20172,
+          "3": 3763,
+          "4": 3660,
+          "2": 594
+        },
+        "normalisation_error_max": 4.842877388000488e-08,
+        "unweighted": 0
+      },
+      "input_to_saved_max_weight_delta": 2.6430023935319902e-05,
+      "geometry_uv_reference_identical": true
+    }
+  ],
+  "playback_assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/BP_QualityPlayback.BP_QualityPlayback",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Maps/L_QualityComparison"
+  ]
+}

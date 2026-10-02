@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "Phase 2 Manny to Lara runtime retargeting proof of concept",
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true },
+    { "Name": "IKRig", "Enabled": true },
+    { "Name": "FullBodyIK", "Enabled": true }
+  ]
+}

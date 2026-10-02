@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "character": "John",
+      "status": "passed",
+      "fresh_process_map_loaded": true,
+      "controls": 22,
+      "control_max_error_cm": 0.0,
+      "source_height_cm": 180.0,
+      "source_actor_scales_unit": true,
+      "source_materials": [
+        {
+          "material": "/Game/MetaHumanTo3DCharacter/Phase4F/John/Geometry/tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a.tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+          "textures": [
+            "/Game/MetaHumanTo3DCharacter/Phase4F/John/Geometry/John_Textured_Unrigged_basecolor.John_Textured_Unrigged_basecolor"
+          ]
+        }
+      ],
+      "human_review_created": false,
+      "runtime_playback_test": false
+    },
+    {
+      "character": "Jane",
+      "status": "passed",
+      "fresh_process_map_loaded": true,
+      "controls": 22,
+      "control_max_error_cm": 0.0,
+      "source_height_cm": 180.0,
+      "source_actor_scales_unit": true,
+      "source_materials": [
+        {
+          "material": "/Game/MetaHumanTo3DCharacter/Phase4F/Jane/Geometry/d14002ea_b2ef_4e4d_85fd_f6066181b733.d14002ea_b2ef_4e4d_85fd_f6066181b733",
+          "textures": [
+            "/Game/MetaHumanTo3DCharacter/Phase4F/Jane/Geometry/Jane_Textured_Unrigged_basecolor.Jane_Textured_Unrigged_basecolor"
+          ]
+        }
+      ],
+      "human_review_created": false,
+      "runtime_playback_test": false
+    }
+  ],
+  "scope": "Saved static anatomical authoring maps only. Not skeletal/native-runtime or clean-project playback."
+}

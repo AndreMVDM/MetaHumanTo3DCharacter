@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "all_documentation_json_strict_finite",
+      "passed": true
+    },
+    {
+      "check": "retained_scripts_parse",
+      "passed": true
+    },
+    {
+      "check": "required_23_report_sections",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_automatic_fit_v2.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_experiment_result.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_existing_evidence_index.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_search_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_supplemental_search.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_semantic_api_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_python_api_probe.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_external_inference_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_input_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_geometry_input.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_cross_sections.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_raw_geometry_sections.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_coordinate_frame_validation.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_manual_control_basis_validation.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_automatic_major_landmarks.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_hand_finger_evidence.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_fitted_skeleton_front.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_fitted_skeleton_side.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_foot_ankle_ball.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_anatomical_validation_v2.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_manual_control_comparison_v2.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_correction_model_validation.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_anatomical_validation_corrected.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_ue_debug_scene.json",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_ue_fit_front.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_ue_fit_side.png",
+      "passed": true
+    },
+    {
+      "check": "report_reference_exists_protected_file_audit.json",
+      "passed": true
+    },
+    {
+      "check": "all_required_applicable_images_readable",
+      "passed": true
+    },
+    {
+      "check": "control_compared_current_immutable_fit",
+      "passed": true
+    },
+    {
+      "check": "correction_patch_bound_current_fit",
+      "passed": true
+    },
+    {
+      "check": "gate_bound_current_fit",
+      "passed": true
+    },
+    {
+      "check": "result_count_consistency",
+      "passed": true
+    },
+    {
+      "check": "rejected_anatomy_no_downstream_claim",
+      "passed": true
+    },
+    {
+      "check": "protected_audit_pass",
+      "passed": true
+    },
+    {
+      "check": "final_geometry_uv_readback_pass",
+      "passed": true
+    },
+    {
+      "check": "replay_fixtures_pass",
+      "passed": true
+    },
+    {
+      "check": "synthetic_moved_spines_still_rejected",
+      "passed": true
+    },
+    {
+      "check": "no_manual_anatomical_signoff_claim",
+      "passed": true
+    },
+    {
+      "check": "unique_installed_systems",
+      "passed": true
+    }
+  ],
+  "review_level": "Level 1 self-review plus one focused Level 2 independent source reviewer",
+  "independent_review": "Prior correction ordering/hash/revalidation issues repaired. Final reviewer confirmed code closures; root verified exact field dependency_anatomical_acceptance_invalidated=true in current evidence. Review is not anatomical certification.",
+  "actual_human_anatomical_review_count": 0,
+  "report_sha256": "07f2d898423703e3d083557a321a5f8f7e74105680e1619c95effaebcca05bab"
+}

@@ -1,0 +1,201 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.10.01-12.24.37:979][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.01-12.24.37:979][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.01-12.24.37:979][  0]LogTrace: Display: Control listening on port 40174
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -run=pythonscript -script=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F/ue_review.py -unattended -nosplash -nosound -NullRHI -NoAnalytics -NoAutoSave -ddc=InstalledNoZenLocalFallback -DDC-ForceMemoryCache -abslog=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F/review_scenes_ue.log""
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.01-12.24.37:979][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading Mac ini files took 0.04 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading IOS ini files took 0.04 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading Android ini files took 0.04 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading Unix ini files took 0.05 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading Windows ini files took 0.05 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+[2026.10.01-12.24.37:979][  0]LogConfig: Display: Loading Linux ini files took 0.05 seconds
+[2026.10.01-12.24.37:979][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.01-12.24.37:979][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-12.24.37:979][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=378MiB, MaxMemoryAvailable=102094MiB
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-12.24.37:979][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.01-12.24.37:979][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.01-12.24.37:979][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.01-12.24.37:979][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-12.24.38:340][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.01-12.24.38:426][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.01-12.24.38:432][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.01-12.24.38:432][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.01-12.24.38:432][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.01-12.24.38:432][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.01-12.24.38:432][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.01-12.24.38:432][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.01-12.24.38:432][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.01-12.24.38:433][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.01-12.24.38:433][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.01-12.24.38:453][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.01-12.24.38:462][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.01-12.24.38:473][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.01-12.24.38:485][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.01-12.24.38:486][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.01-12.24.38:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.01-12.24.38:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.01-12.24.38:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.01-12.24.38:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.01-12.24.38:497][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.01-12.24.38:500][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.01-12.24.38:771][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.01-12.24.38:773][  0]LogDerivedDataCache: Warning: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Failed to write to C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache/TestData/FBEE9766482E71EEA84466BDCA3D8AFF/TestData/0/TestData_4kb.dat. WriteError: 3 (The system cannot find the path specified.)
+[2026.10.01-12.24.38:773][  0]LogDerivedDataCache: Display: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.03ms. RandomReadSpeed=925.06MBs, RandomWriteSpeed=0.00MBs. Assigned SpeedClass 'Local'
+[2026.10.01-12.24.38:774][  0]LogDerivedDataCache: Warning: Failed to create graph 'InstalledNoZenLocalFallback' because it has no writable nodes available. Attempting to create graph 'Installed'...
+[2026.10.01-12.24.39:006][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.01-12.24.39:007][  0]LogZenServiceInstance: Warning: Skipping Zen config default=C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Data due to an invalid path
+[2026.10.01-12.24.39:007][  0]LogZenServiceInstance: Warning: Unable to determine a valid Zen data path
+[2026.10.01-12.24.39:007][  0]LogZenServiceInstance: Warning: Unreal Zen Storage Server is unable to determine a valid data path
+[2026.10.01-12.24.39:007][  0]LogZenServiceInstance: Display: Launching zen utility 'D:/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.01-12.24.39:165][  0]LogZenServiceInstance: Display: Removing installed plugin 'AndroidPortForwarder2' as it is no longer referenced by any workspace
+[2026.10.01-12.24.39:165][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.01-12.24.39:165][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.01-12.24.39:165][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.01-12.24.39:165][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.01-12.24.39:178][  0]LogZenServiceInstance: Display: Writing plugin configuration to 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json'
+[2026.10.01-12.24.39:179][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.24.39:179][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.24.44:186][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.24.44:686][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.24.44:686][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.24.49:691][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.24.50:192][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.24.50:192][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.24.55:199][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.24.55:700][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.24.55:700][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.25.00:705][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.25.01:205][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.25.01:205][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.25.06:209][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.25.06:710][  0]LogZenServiceInstance: Display: Lock file '.lock' is not active, nothing to do
+[2026.10.01-12.25.06:710][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir '', args '--port 8558 --data-dir  --no-sentry --http-forceloopback  --child-id Zen_9628_Startup'
+[2026.10.01-12.25.11:714][  0]LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.25.11:714][  0]LogZenServiceInstance: Warning: Local ZenServer AutoLaunch initialization timed out waiting for service to become healthy, waited 32.535 seconds
+[2026.10.01-12.25.13:951][  0]LogDerivedDataCache: Display: ZenLocal: Unable to reach ZenServer HTTP service at localhost with namespace ue.ddc. ErrorCode: Connect, Error: , Status: 0, Response: .
+[2026.10.01-12.25.13:951][  0]LogDerivedDataCache: Display: ZenLocal: Readiness check failed. It will be deactivated until responsiveness improves. If this is consistent, consider disabling this cache store through the use of the '-ddc=NoZenLocalFallback' or '-ddc=InstalledNoZenLocalFallback' commandline arguments.
+[2026.10.01-12.25.13:955][  0]LogDerivedDataCache: Warning: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Failed to write to C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache/TestData/53D524A646278BEB855467AB96C6CD73/TestData/0/TestData_4kb.dat. WriteError: 3 (The system cannot find the path specified.)
+[2026.10.01-12.25.13:955][  0]LogDerivedDataCache: Display: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=753.64MBs, RandomWriteSpeed=0.00MBs. Assigned SpeedClass 'Local'
+[2026.10.01-12.25.13:956][  0]LogDerivedDataCache: Error: Unable to use cache graph 'Installed' because it has no writable nodes available. Creating a memory cache as a fallback to avoid crashing immediately.
+[2026.10.01-12.25.13:958][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.01-12.25.13:958][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.01-12.25.13:958][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.01-12.25.13:965][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.01-12.25.13:965][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-12.25.14:300][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.01-12.25.14:538][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.01-12.25.14:538][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.01-12.25.14:573][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.01-12.25.14:575][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.01-12.25.14:589][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.01-12.25.14:589][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.01-12.25.14:589][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.01-12.25.14:605][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.01-12.25.14:605][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.01-12.25.14:605][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.01-12.25.14:605][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.01-12.25.14:732][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.01-12.25.14:732][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-12.25.14:732][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.01-12.25.14:732][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.01-12.25.14:811][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.01-12.25.14:813][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.375 ms
+[2026.10.01-12.25.15:136][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.01-12.25.15:138][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.01-12.25.15:425][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-12.25.15:425][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-12.25.15:842][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.01-12.25.15:847][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.01-12.25.15:847][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-12.25.15:847][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.01-12.25.15:847][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.01-12.25.15:929][  0]LogAssetRegistry: Display: Asset registry cache read as 119.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_977D8A39492A63E099D9B1919873F6CF.bin (memory-mapped=yes)
+[2026.10.01-12.25.15:929][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.083s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.01-12.25.15:958][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.01-12.25.15:992][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.01-12.25.16:318][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.01-12.25.16:472][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.01-12.25.16:479][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 6.773 ms
+[2026.10.01-12.25.16:479][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.01-12.25.16:510][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 31.276 ms (total: 38.050 ms)
+[2026.10.01-12.25.16:511][  0]LogPythonScriptCommandlet: Display: Running Python script: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F/ue_review.py
+[2026.10.01-12.25.16:604][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Automatic'
+[2026.10.01-12.25.16:672][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.01-12.25.16:673][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Ambiguous'
+[2026.10.01-12.25.16:738][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Reviewed'
+[2026.10.01-12.25.16:804][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Moved'
+[2026.10.01-12.25.16:870][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Generated'
+[2026.10.01-12.25.16:941][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Track'
+[2026.10.01-12.25.16:999][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Ghost'
+[2026.10.01-12.25.17:064][  0]LogStaticMesh: Display: Building static mesh SM_Bill180_FrameVerified (Required Memory Estimate: 76.511785 MB)...
+[2026.10.01-12.25.17:135][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 30/31 (/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Geometry/SM_Bill180_FrameVerified) ...
+[2026.10.01-12.25.17:578][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.01-12.25.17:578][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Jill/Authoring/MHC_JillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.01-12.25.17:578][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Bill/Authoring/MHC_BillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.01-12.25.17:625][  0]LogStaticMesh: Display: Building static mesh SM_Jill180 (Required Memory Estimate: 81.111783 MB)...
+[2026.10.01-12.25.17:704][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MetaHumanTo3DCharacter/Phase4F/Jill/Geometry/SM_Jill180) ...
+[2026.10.01-12.25.18:139][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.01-12.25.18:139][  0]LogInit: Display: 
+[2026.10.01-12.25.18:139][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.01-12.25.18:139][  0]LogInit: Display: -----------------------------------
+[2026.10.01-12.25.18:139][  0]LogInit: Display: LogDerivedDataCache: Error: Unable to use cache graph 'Installed' because it has no writable nodes available. Creating a memory cache as a fallback to avoid crashing immediately.
+[2026.10.01-12.25.18:139][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-12.25.18:139][  0]LogInit: Display: LogDerivedDataCache: Warning: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Failed to write to C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache/TestData/FBEE9766482E71EEA84466BDCA3D8AFF/TestData/0/TestData_4kb.dat. WriteError: 3 (The system cannot find the path specified.)
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogDerivedDataCache: Warning: Failed to create graph 'InstalledNoZenLocalFallback' because it has no writable nodes available. Attempting to create graph 'Installed'...
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogZenServiceInstance: Warning: Skipping Zen config default=C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Data due to an invalid path
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogZenServiceInstance: Warning: Unable to determine a valid Zen data path
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogZenServiceInstance: Warning: Unreal Zen Storage Server is unable to determine a valid data path
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogZenServiceInstance: Warning: Failed launch service using executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogZenServiceInstance: Warning: Local ZenServer AutoLaunch initialization timed out waiting for service to become healthy, waited 32.535 seconds
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogDerivedDataCache: Warning: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Failed to write to C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache/TestData/53D524A646278BEB855467AB96C6CD73/TestData/0/TestData_4kb.dat. WriteError: 3 (The system cannot find the path specified.)
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Automatic'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Ambiguous'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Reviewed'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Moved'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Generated'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Track'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MetaHumanTo3DCharacter/Phase4F/ReviewMaterials/M_Ghost'
+[2026.10.01-12.25.18:140][  0]LogInit: Display: 
+[2026.10.01-12.25.18:140][  0]LogInit: Display: Failure - 1 error(s), 21 warning(s)
+[2026.10.01-12.25.18:140][  0]LogInit: Display: 
+
+Execution of commandlet took:  1.67 seconds, PeakPhysMemoryMB=1798 MB, PeakVirtMemoryMB=1705 MB
+[2026.10.01-12.25.18:249][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.01-12.25.18:249][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-12.25.18:370][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.10.01-12.25.18:394][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json

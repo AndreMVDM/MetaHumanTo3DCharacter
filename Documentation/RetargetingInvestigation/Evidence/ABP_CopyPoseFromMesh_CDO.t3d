@@ -1,0 +1,19 @@
+Begin Object Class=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C Name="Default__ABP_CopyPoseFromMesh_C" ExportPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.Default__ABP_CopyPoseFromMesh_C'"
+   AnimBlueprintExtension_PropertyAccess=()
+   AnimBlueprintExtension_Base=()
+   AnimGraphNode_Root=(Result=(LinkID=1,SourceLinkID=0),Name="AnimGraph",LayerGroup="",InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_CopyPoseFromMesh=(bUseAttachedParent=True,bCopyCurves=True,bCopyCustomAttributes=False,bUseMeshPose=True,RootBoneToCopy="",InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   RootMotionMode=RootMotionFromMontagesOnly
+   bUseMultiThreadedAnimationUpdate=True
+   bUsingCopyPoseFromMesh=True
+   bReceiveNotifiesFromLinkedInstances=False
+   bPropagateNotifiesToLinkedInstances=False
+   bUseMainInstanceMontageEvaluationData=False
+   OnMontageBlendingOut=()
+   OnMontageBlendedIn=()
+   OnMontageStarted=()
+   OnMontageEnded=()
+   OnAllMontageInstancesEnded=()
+   OnMontageSectionChanged=()
+   PostCompileValidationClassName=None
+End Object

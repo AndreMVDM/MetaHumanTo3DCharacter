@@ -1,0 +1,7 @@
+{
+  "reason": "FBX material import omitted source diffuse texture. Imported the unchanged archived JPEG and restored its declared DiffuseColor connection. No texture pixels or UVs authored.",
+  "source": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Inputs\\Unrigged\\Lara_UnRigged_Textured.fbm\\Lara_UnRigged_Textured_basecolor.jpg",
+  "texture": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/T_Lara_BaseColor.T_Lara_BaseColor",
+  "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+  "used_textures": []
+}

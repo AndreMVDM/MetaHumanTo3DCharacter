@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "name": "Manny_Source",
+      "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+      "anim_bp": null,
+      "clip": "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd",
+      "offset_y": -750
+    },
+    {
+      "name": "UE5_OriginalHeight",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/ABP_Lara_UE5.ABP_Lara_UE5",
+      "clip": null,
+      "offset_y": 150
+    },
+    {
+      "name": "UE5_Height160",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/ABP_Lara_UE5.ABP_Lara_UE5",
+      "clip": null,
+      "offset_y": 300
+    },
+    {
+      "name": "UE5_Height175",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/ABP_Lara_UE5.ABP_Lara_UE5",
+      "clip": null,
+      "offset_y": 450
+    },
+    {
+      "name": "UE5_Height180",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/ABP_Lara_UE5.ABP_Lara_UE5",
+      "clip": null,
+      "offset_y": 600
+    },
+    {
+      "name": "UE5_Height200",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/ABP_Lara_UE5.ABP_Lara_UE5",
+      "clip": null,
+      "offset_y": 750
+    },
+    {
+      "name": "Mixamo_OriginalHeight",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/ABP_Lara_Mixamo.ABP_Lara_Mixamo",
+      "clip": null,
+      "offset_y": 900
+    },
+    {
+      "name": "Mixamo_Height160",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/ABP_Lara_Mixamo.ABP_Lara_Mixamo",
+      "clip": null,
+      "offset_y": 1050
+    },
+    {
+      "name": "Mixamo_Height175",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/ABP_Lara_Mixamo.ABP_Lara_Mixamo",
+      "clip": null,
+      "offset_y": 1200
+    },
+    {
+      "name": "Mixamo_Height180",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/ABP_Lara_Mixamo.ABP_Lara_Mixamo",
+      "clip": null,
+      "offset_y": 1350
+    },
+    {
+      "name": "Mixamo_Height200",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/ABP_Lara_Mixamo.ABP_Lara_Mixamo",
+      "clip": null,
+      "offset_y": 1500
+    },
+    {
+      "name": "RawUE5_FK",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/RawLegacy/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/LiveControls/ABP_FK.ABP_FK",
+      "clip": null,
+      "offset_y": 3850
+    },
+    {
+      "name": "RawUE5_Solver0",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/RawLegacy/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/LiveControls/ABP_Solver0.ABP_Solver0",
+      "clip": null,
+      "offset_y": 4000
+    },
+    {
+      "name": "RawUE5_Solver1",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/RawLegacy/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/LiveControls/ABP_Solver1.ABP_Solver1",
+      "clip": null,
+      "offset_y": 4150
+    },
+    {
+      "name": "RawUE5_Full",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/RawLegacy/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/LiveControls/ABP_Full.ABP_Full",
+      "clip": null,
+      "offset_y": 4300
+    },
+    {
+      "name": "Baked_UE5",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/SK_Lara_UE5.SK_Lara_UE5",
+      "anim_bp": null,
+      "clip": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "offset_y": 1100
+    },
+    {
+      "name": "Baked_Mixamo",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "anim_bp": null,
+      "clip": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "offset_y": 1300
+    }
+  ],
+  "errors": [],
+  "map": "/Game/MetaHumanTo3DCharacter/Phase3B/Maps/L_Phase3B_LiveTest",
+  "actor_bp": "/Game/MetaHumanTo3DCharacter/Phase3B/BP_Phase3B_LiveTest.BP_Phase3B_LiveTest"
+}

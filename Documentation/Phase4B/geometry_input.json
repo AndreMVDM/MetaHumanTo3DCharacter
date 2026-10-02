@@ -1,0 +1,27 @@
+{
+  "source": "Authoritative ZIP, fresh Phase4B extraction",
+  "archive_sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "vertices": 27725,
+  "triangles": 49508,
+  "polygons": 28636,
+  "uv_loops": 106780,
+  "vertex_sha256": "9d2e8e3144c552fa4911c27f3c8f543d30c57a5895bf3a5d76ffaad0f01e8570",
+  "uv_sha256": "17b2f20dd461baa3f55e5fdd3bea249a881311a9f16934839e58595b1da72cac",
+  "faces_sha256": "6b835f4af5e0c342122b476d04810264f158410a7b894addd737f2566e22daa3",
+  "raw_world_bounds_cm": [
+    [
+      -19.9951171875,
+      -10.424807667732239,
+      3.373074708434842e-07
+    ],
+    [
+      19.9951171875,
+      10.424814373254776,
+      99.951171875
+    ]
+  ],
+  "coordinate_semantics": "DCC world cm only; fitter must infer body frame from surface",
+  "materials": [
+    "f9dcb69f_c978_4517_86d5_c509f2f721f9"
+  ]
+}

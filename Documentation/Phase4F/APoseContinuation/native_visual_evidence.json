@@ -1,0 +1,22 @@
+{
+  "captures": [
+    {
+      "character": "John",
+      "view": "front",
+      "path": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Documentation/Phase4F/John/native_review_front.png",
+      "screenshotId": "screenshot-0",
+      "windowId": 28641994,
+      "scope": "Native static authoring review; no human acceptance"
+    },
+    {
+      "character": "Jane",
+      "view": "front",
+      "path": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Documentation/Phase4F/Jane/native_review_front.png",
+      "screenshotId": "screenshot-0",
+      "windowId": 28641994,
+      "scope": "Native static authoring review; no human acceptance"
+    }
+  ],
+  "anatomy_accepted": false,
+  "runtime_test": false
+}

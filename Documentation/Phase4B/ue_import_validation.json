@@ -1,0 +1,19 @@
+{
+  "source_vertex_count": 27725,
+  "ue_dynamic_vertex_count": 28189,
+  "source_to_ue_max_cm": 7.83902870823264e-06,
+  "ue_to_source_max_cm": 7.83902870823264e-06,
+  "geometry_vertex_positions_pass": true,
+  "source_triangles": 49508,
+  "ue_triangles": 49508,
+  "triangle_count_difference": 0,
+  "source_triangles_area_below_1e_minus_8_cm2": 7,
+  "triangle_connectivity_identical": false,
+  "topology_limit": "UE import changes vertex indexing/splitting; final triangle count matches. Exact triangle-connectivity equivalence is not certified. Initial debug import had 9 fewer triangles; current readback supersedes it. Source archive and Blender polygon/UV arrays remain unchanged.",
+  "uv_corner_count": 148524,
+  "uv_at_position_unmatched_corners": 0,
+  "uv_at_position_max_difference": 2.9802322387695312e-08,
+  "uv_at_position_pass": true,
+  "uv_conversion": "UE V inverted to DCC V before comparison",
+  "uv_check_limit": "Every imported triangle corner has matching source UV at its position; missing/removed source triangles are not a bidirectional triangle-connectivity proof."
+}

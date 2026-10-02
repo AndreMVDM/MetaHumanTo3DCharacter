@@ -1,0 +1,28 @@
+# Evidence hashes bind exact on-disk bytes. Do not normalise line endings.
+* -text
+
+# Authored Unreal assets and binary source/reproducibility artefacts.
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.blend1 filter=lfs diff=lfs merge=lfs -text
+*.dna filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.ppm filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+
+# Preserved diagnostic JSON evidence above GitHub's regular-Git file limit.
+/Working/Phase3B/visual_skin_samples.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/control_samples.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/live_before_rootlock_correction.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/live_runtime_samples.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/pre_goal_runtime_samples.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/runtime_samples.json filter=lfs diff=lfs merge=lfs -text
+/Documentation/Phase3B/trajectory_runtime_samples.json filter=lfs diff=lfs merge=lfs -text

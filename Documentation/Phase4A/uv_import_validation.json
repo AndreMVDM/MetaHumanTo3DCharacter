@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "uv_import_comparison": {
+    "source_unique_round5": 56329,
+    "ue_unique_round5": 56329,
+    "direct_set_equal": false,
+    "v_flipped_set_equal": false,
+    "difference_count_after_v_flip": 70,
+    "max_source_to_ue_coordinate_error_after_v_flip": 2.9802322387695312e-08,
+    "source_values_within_1e_6": true,
+    "note": "UV coordinate set comparison, not corner attachment proof. Within-UE triangle/corner hashes and unchanged mesh states prove no subsequent rigging UV change; before/after rendering validates attachment visually."
+  }
+}

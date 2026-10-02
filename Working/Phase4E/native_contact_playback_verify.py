@@ -1,0 +1,3 @@
+"""Live native playback of final contact-baked clips, separate from source-copy tests."""
+from pathlib import Path
+p=Path(r'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/native_playback_verify.py');src=p.read_text();src=src.replace("clips=['MM_Idle','MF_Walk_Fwd','MM_Run_Fwd','JumpingJacks','MannyFingerIdentity']","clips=['MM_Idle','MF_Walk_Fwd','MM_Run_Fwd']");src=src.replace("B+'/Character/NativeAnimations/'+clips[stage]","B+'/Character/SurfaceContactAnimations/'+clips[stage]");src=src.replace('source_independent_playback.json','contact_native_playback.json');exec(compile(src,str(p),'exec'),globals())

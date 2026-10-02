@@ -1,0 +1,38 @@
+{
+  "phase": "Phase4F",
+  "status": "awaiting_human_review",
+  "decision_complete": false,
+  "phase5_authorised": false,
+  "current_phase5_recommendation": "HOLD_PENDING_EVIDENCE",
+  "stop_reason": "Genuine anatomical judgement and target-digit identification; both new automatic proposals fail anatomy.",
+  "completed": [
+    "prior evidence reading",
+    "protection baseline",
+    "fixed budget",
+    "three archive/FBX/geometry inventories",
+    "topology/clothing comparison",
+    "Bill/Jill donor proposals",
+    "automatic gates",
+    "unnamed five-track-per-hand proposals",
+    "native review scenes",
+    "correction provenance self-review"
+  ],
+  "pending": [
+    "actual Bill/Jill guided anatomical review",
+    "anatomy refresh/pass",
+    "native skeleton and geodesic binding",
+    "bounded dimensionless quality candidates",
+    "fixed stress suite for all three",
+    "shoulder/pelvis worst-case review",
+    "finger/thumb motion",
+    "foot authoring contact comparison",
+    "native runtime closure/playback",
+    "clean project/cooked validation",
+    "definitive GO/HOLD/NO-GO"
+  ],
+  "human_actions_recorded": {
+    "Bill": 0,
+    "Jill": 0
+  },
+  "no_positive_or_negative_generalisation_inferred_from_unperformed_tests": true
+}

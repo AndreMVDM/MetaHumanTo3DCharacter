@@ -1,0 +1,99 @@
+{
+  "rotation_columns_world": [
+    [
+      -0.9999514788944663,
+      -0.007878611983990353,
+      0.0059133180174375
+    ],
+    [
+      0.008103717876293177,
+      -0.9992039378254702,
+      0.03906175099320647
+    ],
+    [
+      0.005600858269147129,
+      0.039107775534790314,
+      0.9992193013945284
+    ]
+  ],
+  "origin_body_coordinates_cm": [
+    0.2482801245687245,
+    -0.026498228266538554,
+    -0.3024396917290878
+  ],
+  "source_height_cm": 100.34320014088715,
+  "target_height_cm": 180,
+  "factor": 1.793843526489792,
+  "up_world": [
+    0.0059133180174375,
+    0.03906175099320647,
+    0.9992193013945284
+  ],
+  "left_world": [
+    -0.9999514788944663,
+    0.008103717876293177,
+    0.005600858269147129
+  ],
+  "forward_world": [
+    -0.007878611983990353,
+    -0.9992039378254702,
+    0.039107775534790314
+  ],
+  "ground_endpoint_support": [
+    [
+      46,
+      -1
+    ],
+    [
+      40,
+      1
+    ]
+  ],
+  "ground_plane_points": 36,
+  "symmetry_search_mean_cm": 0.40594342756227103,
+  "symmetry_angle_candidates": [
+    {
+      "angle_rad": -0.1,
+      "mean_cm": 0.719989726690876
+    },
+    {
+      "angle_rad": -0.07500000000000001,
+      "mean_cm": 0.5979722895686579
+    },
+    {
+      "angle_rad": -0.05,
+      "mean_cm": 0.4930551170297467
+    },
+    {
+      "angle_rad": -0.024999999999999994,
+      "mean_cm": 0.40594342756227103
+    },
+    {
+      "angle_rad": 0.0,
+      "mean_cm": 0.42407187955214154
+    },
+    {
+      "angle_rad": 0.024999999999999994,
+      "mean_cm": 0.5126868370840639
+    },
+    {
+      "angle_rad": 0.05000000000000002,
+      "mean_cm": 0.6119785501281836
+    },
+    {
+      "angle_rad": 0.07500000000000001,
+      "mean_cm": 0.7252195908180732
+    },
+    {
+      "angle_rad": 0.1,
+      "mean_cm": 0.8613358736977947
+    }
+  ],
+  "shoe_forward_extents_cm": [
+    -4.976475025775174,
+    10.008285687312204
+  ],
+  "facing_rule": "larger paired shoe extension from lower-shank centre; checked both feet separately downstream",
+  "left_rule": "forward cross up, anatomical left; reflection alone cannot name left",
+  "probability": false
+}

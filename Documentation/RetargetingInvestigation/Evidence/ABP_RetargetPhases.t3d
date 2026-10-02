@@ -1,0 +1,312 @@
+Begin Object Class=/Script/Engine.AnimBlueprint Name="ABP_RetargetPhases" ExportPath="/Script/Engine.AnimBlueprint'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases'"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Attributes Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Base Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimationGraph Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph'"
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_6" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_6'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_3" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_3'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_2" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_2'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.K2Node_VariableGet_0'"
+      End Object
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_BlendListByInt Name="AnimGraphNode_BlendListByInt_1" ExportPath="/Script/AnimGraph.AnimGraphNode_BlendListByInt'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_BlendListByInt_1'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_BlendListByInt_1.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh Name="AnimGraphNode_RetargetPoseFromMesh_0" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh Name="AnimGraphNode_RetargetPoseFromMesh_2" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_2'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_2.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_8" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_8'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_1" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_1'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_0" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_0'"
+      End Object
+      Begin Object Class=/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh Name="AnimGraphNode_RetargetPoseFromMesh_1" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_1'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_1.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_Root Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph.K2Node_CallFunction_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph.K2Node_Event_0'"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_PropertyAccess_0'"
+      Subsystem=(Library=(PathSegments=((Name="Character Number",Property=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C:Character Number,Flags=2),(Name="__AnimBlueprintMutables",Struct="/Script/CoreUObject.ScriptStruct'ABP_RetargetPhases_C:AnimBlueprintGeneratedMutableData'",Property=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C:__AnimBlueprintMutables,Flags=1),(Name="__IntProperty",Property=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C:AnimBlueprintGeneratedMutableData:__IntProperty,Flags=2)),SrcPaths=((PathSegmentStartIndex=0,PathSegmentCount=1)),DestPaths=((PathSegmentStartIndex=1,PathSegmentCount=2)),CopyBatchArray=((Copies=((AccessIndex=0,DestAccessStartIndex=0,DestAccessEndIndex=1))))))
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph'"
+      Begin Object Name="EdGraphNode_Comment_6" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_6'"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-352
+         NodePosY=320
+         NodeWidth=344
+         NodeHeight=222
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="IK Retargeting"
+         NodeGuid=1E640CE64BD29A4B8179F092D20C1229
+      End Object
+      Begin Object Name="EdGraphNode_Comment_3" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_3'"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-352
+         NodePosY=80
+         NodeWidth=344
+         NodeHeight=222
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="FK Retargeting"
+         NodeGuid=FB48D3D548E8C8603BDC7FBF8B7AAEC9
+      End Object
+      Begin Object Name="EdGraphNode_Comment_2" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_2'"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-352
+         NodePosY=-176
+         NodeWidth=344
+         NodeHeight=222
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="Retarget Root"
+         NodeGuid=C8BB583A4535B900C4D5FEB4780A8585
+      End Object
+      Begin Object Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.K2Node_VariableGet_0'"
+         VariableReference=(MemberName="Character Number",MemberGuid=781E33F848B4863453EFE697275AD13C,bSelfContext=True)
+         NodePosX=-192
+         NodePosY=624
+         NodeGuid=44AECBCE410C306333D445AFE3E9BD29
+         CustomProperties Pin (PinId=87926B1541EDA21710731085F7F4931B,PinName="Character Number",Direction="EGPD_Output",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",LinkedTo=(AnimGraphNode_BlendListByInt_1 62ED7671466FE21CCCEE9EA27E8ADC0E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D81011824E8FB7A7FCF6BD9F3D41ADC2,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_BlendListByInt_1" ExportPath="/Script/AnimGraph.AnimGraphNode_BlendListByInt'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_BlendListByInt_1'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_BlendListByInt_1.AnimGraphNodeBinding_Base_0'"
+         End Object
+         Node=(BlendPose=((),(),()),BlendTime=(0.100000,0.100000,0.100000),BlendType=Linear)
+         ShowPinForProperties(0)=(PropertyName="BlendPose",PropertyFriendlyName="Blend Pose",CategoryName="Links",bShowPin=True)
+         ShowPinForProperties(1)=(PropertyName="BlendTime",PropertyFriendlyName="Blend Time",CategoryName="Config",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(2)=(PropertyName="TransitionType",PropertyFriendlyName="Transition Type",CategoryName="Config")
+         ShowPinForProperties(3)=(PropertyName="BlendType",PropertyFriendlyName="Blend Type",CategoryName="BlendType")
+         ShowPinForProperties(4)=(PropertyName="ChildUpateMode",PropertyFriendlyName="Child Upate Mode",CategoryName="Option")
+         ShowPinForProperties(5)=(PropertyName="CustomBlendCurve",PropertyFriendlyName="Custom Blend Curve",CategoryName="BlendType")
+         ShowPinForProperties(6)=(PropertyName="BlendProfile",PropertyFriendlyName="Blend Profile",CategoryName="BlendType")
+         ShowPinForProperties(7)=(PropertyName="ActiveChildIndex",PropertyFriendlyName="Active Child Index",CategoryName="Runtime",bShowPin=True,bCanToggleVisibility=True)
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=96
+         NodePosY=160
+         ErrorType=4
+         NodeGuid=0A2CF2484CFC464D3643DFB5BA674F8E
+         CustomProperties Pin (PinId=D73208A14619AA298524BAA615985DE3,PinName="BlendPose_0",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 0, "PinName", INVTEXT("Blend Pose")),PinToolTip="Blend Pose 0\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_RetargetPoseFromMesh_1 91EC1AA0493889B9465FAB87098F359C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=96954ABC41DA55A62133AC9A7B2AE349,PinName="BlendPose_1",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 1, "PinName", INVTEXT("Blend Pose")),PinToolTip="Blend Pose 1\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_RetargetPoseFromMesh_2 91EC1AA0493889B9465FAB87098F359C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D53DFE564251367226FAE4BDBA16AAC0,PinName="BlendPose_2",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 2, "PinName", INVTEXT("Blend Pose")),PinToolTip="Blend Pose 2\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_RetargetPoseFromMesh_0 91EC1AA0493889B9465FAB87098F359C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=13823CEE4C758ACF619075BD300BC98B,PinName="BlendTime_0",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 0, "PinName", INVTEXT("Blend Time")),PinToolTip="Blend Time 0\nFloat (single-precision)",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=True,DefaultValue="0.000000",AutogeneratedDefaultValue="0.100000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2D9A06B749988F655D1A1BA877673783,PinName="BlendTime_1",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 1, "PinName", INVTEXT("Blend Time")),PinToolTip="Blend Time 1\nFloat (single-precision)",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2E3778D24E8C3195FF02A9B734BE4EF8,PinName="BlendTime_2",PinFriendlyName=LOCGEN_FORMAT_NAMED(NSLOCTEXT("K2Node", "PinFriendlyNameWithIndex", "{PinName} {Index}"), "Index", 2, "PinName", INVTEXT("Blend Time")),PinToolTip="Blend Time 2\nFloat (single-precision)",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=62ED7671466FE21CCCEE9EA27E8ADC0E,PinName="ActiveChildIndex",PinFriendlyName=INVTEXT("Active Child Index"),PinToolTip="Active Child Index\nInteger",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",LinkedTo=(K2Node_VariableGet_0 87926B1541EDA21710731085F7F4931B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=366C66444D776A98E146B69F2A915EC3,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_Root_0 64C1DBA84F8EBE2DEC106793AF4F5985,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_RetargetPoseFromMesh_0" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         ShowPinForProperties(0)=(PropertyName="Source",PropertyFriendlyName="Source",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:Source", "Input pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode."),CategoryName="Links",bShowPin=True)
+         ShowPinForProperties(1)=(PropertyName="RetargetFrom",PropertyFriendlyName="Retarget From",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:RetargetFrom", "Specify where to get the source pose to retarget from. Can be from the anim graph, or a different skeletal mesh component."),CategoryName="Settings")
+         ShowPinForProperties(2)=(PropertyName="SourceMeshComponent",PropertyFriendlyName="Source Mesh Component",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:SourceMeshComponent", "The Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(3)=(PropertyName="IKRetargeterAsset",PropertyFriendlyName="IKRetargeter Asset",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:IKRetargeterAsset", "Retarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(4)=(PropertyName="CustomRetargetProfile",PropertyFriendlyName="Custom Retarget Profile",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:CustomRetargetProfile", "Connect a custom retarget profile to modify the retargeter\'s settings at runtime."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(5)=(PropertyName="bUseCustomOverrideSets",PropertyFriendlyName="Use Custom Override Sets",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bUseCustomOverrideSets", "If true, will use the custom list of named override sets to apply. These are stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(6)=(PropertyName="OverrideSetsToApply",PropertyFriendlyName="Override Sets to Apply",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:OverrideSetsToApply", "Apply one or more override sets stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True,bHasOverridePin=True)
+         ShowPinForProperties(7)=(PropertyName="LODThreshold",PropertyFriendlyName="LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThreshold", "Max LOD that this node is allowed to run.\nFor example if you have LODThreshold at 2, it will run until LOD 2 (based on 0 index) when the component LOD becomes 3, it will stop update/evaluate\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(8)=(PropertyName="LODThresholdForIK",PropertyFriendlyName="IK LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThresholdForIK", "Max LOD that IK is allowed to run.\nFor example if you have LODThresholdForIK at 2, it will skip the IK pass on LODs 3 and greater.\nThis only disables IK and does not affect the Root or FK passes.\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(9)=(PropertyName="bSuppressWarnings",PropertyFriendlyName="Suppress Warnings",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bSuppressWarnings", "Toggle whether to print warnings about missing or incorrectly configured retarget configurations."),CategoryName="Debug")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-288
+         NodePosY=384
+         bHasCompilerMessage=True
+         ErrorType=4
+         ErrorMsg="Source  was visible but ignored"
+         NodeGuid=FF2075024960C0C14D77F89D94B39D9F
+         CustomProperties Pin (PinId=4DD8B8564CD02814A2036DB88CCD942A,PinName="Source",PinFriendlyName=INVTEXT("Source"),PinToolTip="Source\nPose Link Structure\n\nInput pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode.",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=True,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2850076C42ABC22F870271A27F768D84,PinName="SourceMeshComponent",PinFriendlyName=INVTEXT("Source Mesh Component"),PinToolTip="Source Mesh Component\nSkeletal Mesh Component Weak object\n\nThe Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=True,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=DFDBA6114277D063A144ACBBCF0760CE,PinName="IKRetargeterAsset",PinFriendlyName=INVTEXT("IKRetargeter Asset"),PinToolTip="IKRetargeter Asset\nIKRetargeter Object Reference\n\nRetarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/IKRig.IKRetargeter'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",DefaultObject="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish.RTG_Mannequin_Starfish",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=91EC1AA0493889B9465FAB87098F359C,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_BlendListByInt_1 D53DFE564251367226FAE4BDBA16AAC0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_RetargetPoseFromMesh_2" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_2'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_2.AnimGraphNodeBinding_Base_0'"
+         End Object
+         ShowPinForProperties(0)=(PropertyName="Source",PropertyFriendlyName="Source",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:Source", "Input pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode."),CategoryName="Links",bShowPin=True)
+         ShowPinForProperties(1)=(PropertyName="RetargetFrom",PropertyFriendlyName="Retarget From",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:RetargetFrom", "Specify where to get the source pose to retarget from. Can be from the anim graph, or a different skeletal mesh component."),CategoryName="Settings")
+         ShowPinForProperties(2)=(PropertyName="SourceMeshComponent",PropertyFriendlyName="Source Mesh Component",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:SourceMeshComponent", "The Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(3)=(PropertyName="IKRetargeterAsset",PropertyFriendlyName="IKRetargeter Asset",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:IKRetargeterAsset", "Retarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(4)=(PropertyName="CustomRetargetProfile",PropertyFriendlyName="Custom Retarget Profile",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:CustomRetargetProfile", "Connect a custom retarget profile to modify the retargeter\'s settings at runtime."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(5)=(PropertyName="bUseCustomOverrideSets",PropertyFriendlyName="Use Custom Override Sets",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bUseCustomOverrideSets", "If true, will use the custom list of named override sets to apply. These are stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(6)=(PropertyName="OverrideSetsToApply",PropertyFriendlyName="Override Sets to Apply",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:OverrideSetsToApply", "Apply one or more override sets stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True,bHasOverridePin=True)
+         ShowPinForProperties(7)=(PropertyName="LODThreshold",PropertyFriendlyName="LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThreshold", "Max LOD that this node is allowed to run.\nFor example if you have LODThreshold at 2, it will run until LOD 2 (based on 0 index) when the component LOD becomes 3, it will stop update/evaluate\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(8)=(PropertyName="LODThresholdForIK",PropertyFriendlyName="IK LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThresholdForIK", "Max LOD that IK is allowed to run.\nFor example if you have LODThresholdForIK at 2, it will skip the IK pass on LODs 3 and greater.\nThis only disables IK and does not affect the Root or FK passes.\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(9)=(PropertyName="bSuppressWarnings",PropertyFriendlyName="Suppress Warnings",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bSuppressWarnings", "Toggle whether to print warnings about missing or incorrectly configured retarget configurations."),CategoryName="Debug")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-288
+         NodePosY=144
+         bHasCompilerMessage=True
+         ErrorType=4
+         ErrorMsg="Source  was visible but ignored"
+         NodeGuid=17C6FACA41BFF7EF6DD5F0B946DC741E
+         CustomProperties Pin (PinId=7DE21EA8474B0B1619594C80C9B96B64,PinName="Source",PinFriendlyName=INVTEXT("Source"),PinToolTip="Source\nPose Link Structure\n\nInput pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode.",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=True,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2850076C42ABC22F870271A27F768D84,PinName="SourceMeshComponent",PinFriendlyName=INVTEXT("Source Mesh Component"),PinToolTip="Source Mesh Component\nSkeletal Mesh Component Weak object\n\nThe Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=True,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1430B76D4D2F2F1EEA6DDE877F3601C5,PinName="IKRetargeterAsset",PinFriendlyName=INVTEXT("IKRetargeter Asset"),PinToolTip="IKRetargeter Asset\nIKRetargeter Object Reference\n\nRetarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/IKRig.IKRetargeter'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",DefaultObject="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_FK.RTG_RetargetPhases_FK",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=91EC1AA0493889B9465FAB87098F359C,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_BlendListByInt_1 96954ABC41DA55A62133AC9A7B2AE349,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="EdGraphNode_Comment_8" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_8'"
+         CommentColor=(R=1.000000,G=0.734903,B=0.136673,A=1.000000)
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-800
+         NodePosY=480
+         NodeHeight=128
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="The Global Retarget Phases can be found in Global Settings in the Chain Mapping panel of the IK Retarget Editor"
+         NodeGuid=10769C72402100CECBB23FA6F6178187
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_1'"
+         CommentColor=(R=1.000000,G=0.734903,B=0.136673,A=1.000000)
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-800
+         NodePosY=128
+         NodeHeight=304
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="This shows the different phases of how the IK Retargeter applies the retargeted result.\r\n\r\nFirst it transfers the motion to the Retarget Roots, then does a interpolated FK Retarget pass across all mapped chains, then applies an IK Retarget from the IK solvers/goals in IK Rig"
+         NodeGuid=6B0425BD41E0705C6BDAF1BF3CCE1424
+      End Object
+      Begin Object Name="EdGraphNode_Comment_0" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.EdGraphNode_Comment_0'"
+         CommentColor=(R=1.000000,G=0.734903,B=0.136673,A=1.000000)
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-800
+         NodePosY=-64
+         NodeHeight=160
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="To see the IK Retargeter asset, Double Click the Retarget Pose From Mesh node or double click on IK Retargeter Asset thumbnail in Details Panel"
+         NodeGuid=3AAA9FBD477808B31B031CA7989DB454
+      End Object
+      Begin Object Name="AnimGraphNode_RetargetPoseFromMesh_1" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_1'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_1.AnimGraphNodeBinding_Base_0'"
+         End Object
+         ShowPinForProperties(0)=(PropertyName="Source",PropertyFriendlyName="Source",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:Source", "Input pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode."),CategoryName="Links",bShowPin=True)
+         ShowPinForProperties(1)=(PropertyName="RetargetFrom",PropertyFriendlyName="Retarget From",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:RetargetFrom", "Specify where to get the source pose to retarget from. Can be from the anim graph, or a different skeletal mesh component."),CategoryName="Settings")
+         ShowPinForProperties(2)=(PropertyName="SourceMeshComponent",PropertyFriendlyName="Source Mesh Component",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:SourceMeshComponent", "The Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(3)=(PropertyName="IKRetargeterAsset",PropertyFriendlyName="IKRetargeter Asset",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:IKRetargeterAsset", "Retarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(4)=(PropertyName="CustomRetargetProfile",PropertyFriendlyName="Custom Retarget Profile",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:CustomRetargetProfile", "Connect a custom retarget profile to modify the retargeter\'s settings at runtime."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(5)=(PropertyName="bUseCustomOverrideSets",PropertyFriendlyName="Use Custom Override Sets",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bUseCustomOverrideSets", "If true, will use the custom list of named override sets to apply. These are stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(6)=(PropertyName="OverrideSetsToApply",PropertyFriendlyName="Override Sets to Apply",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:OverrideSetsToApply", "Apply one or more override sets stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True,bHasOverridePin=True)
+         ShowPinForProperties(7)=(PropertyName="LODThreshold",PropertyFriendlyName="LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThreshold", "Max LOD that this node is allowed to run.\nFor example if you have LODThreshold at 2, it will run until LOD 2 (based on 0 index) when the component LOD becomes 3, it will stop update/evaluate\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(8)=(PropertyName="LODThresholdForIK",PropertyFriendlyName="IK LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThresholdForIK", "Max LOD that IK is allowed to run.\nFor example if you have LODThresholdForIK at 2, it will skip the IK pass on LODs 3 and greater.\nThis only disables IK and does not affect the Root or FK passes.\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(9)=(PropertyName="bSuppressWarnings",PropertyFriendlyName="Suppress Warnings",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bSuppressWarnings", "Toggle whether to print warnings about missing or incorrectly configured retarget configurations."),CategoryName="Debug")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-288
+         NodePosY=-112
+         bHasCompilerMessage=True
+         ErrorType=4
+         ErrorMsg="Source  was visible but ignored"
+         NodeGuid=2E125670496F5DCA0E43F299B52DE8B7
+         CustomProperties Pin (PinId=36C9710642137E876147908AF7024D6F,PinName="Source",PinFriendlyName=INVTEXT("Source"),PinToolTip="Source\nPose Link Structure\n\nInput pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode.",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=True,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2850076C42ABC22F870271A27F768D84,PinName="SourceMeshComponent",PinFriendlyName=INVTEXT("Source Mesh Component"),PinToolTip="Source Mesh Component\nSkeletal Mesh Component Weak object\n\nThe Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=True,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=36EB8FD545BEFF7AFFE9D3A25957A4DC,PinName="IKRetargeterAsset",PinFriendlyName=INVTEXT("IKRetargeter Asset"),PinToolTip="IKRetargeter Asset\nIKRetargeter Object Reference\n\nRetarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/IKRig.IKRetargeter'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",DefaultObject="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_Root.RTG_RetargetPhases_Root",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=91EC1AA0493889B9465FAB87098F359C,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_BlendListByInt_1 D73208A14619AA298524BAA615985DE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         Node=(LayerGroup="")
+         ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=416
+         NodePosY=96
+         ErrorType=4
+         NodeGuid=243691474809E9780719BFAA8A29786B
+         CustomProperties Pin (PinId=64C1DBA84F8EBE2DEC106793AF4F5985,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_BlendListByInt_1 366C66444D776A98E146B69F2A915EC3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationGraphSchema'"
+      Nodes(0)="/Script/AnimGraph.AnimGraphNode_Root'AnimGraphNode_Root_0'"
+      Nodes(1)="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'AnimGraphNode_RetargetPoseFromMesh_1'"
+      Nodes(2)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_0'"
+      Nodes(3)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_1'"
+      Nodes(4)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_8'"
+      Nodes(5)="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'AnimGraphNode_RetargetPoseFromMesh_2'"
+      Nodes(6)="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'AnimGraphNode_RetargetPoseFromMesh_0'"
+      Nodes(7)="/Script/AnimGraph.AnimGraphNode_BlendListByInt'AnimGraphNode_BlendListByInt_1'"
+      Nodes(8)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_0'"
+      Nodes(9)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_2'"
+      Nodes(10)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_3'"
+      Nodes(11)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_6'"
+      bAllowDeletion=False
+      GraphGuid=42444B5F4D216F725960F9BA12E70C3C
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph'"
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph.K2Node_CallFunction_0'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberName="TryGetPawnOwner",bSelfContext=True)
+         NodePosY=100
+         EnabledState=Disabled
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=13025E684C24F2BEB3C3169D984CB4B6
+         CustomProperties Pin (PinId=A0F2ECF14755E292F65F16BF1D91508A,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1207FF42431CB70C8F194084B27773F6,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Pawn'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=148B6FEF441C5BF7A1D3648A2138C27F
+         CustomProperties Pin (PinId=EB5BD28D46AF5E048E0165B34E30BC76,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CF484D1844F8BFA80E186EAC01AB1A41,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1352008344FD367E3D89599705A36E68,PinName="DeltaTimeX",PinToolTip="Delta Time X\nFloat (single-precision)",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      bAllowDeletion=False
+      GraphGuid=8002496645B194C19DD008B138B9BEE4
+   End Object
+   TargetSkeleton="/Script/Engine.Skeleton'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton.Starfish_Skeleton'"
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/AnimGraph.AnimationGraph'AnimGraph'"
+   NewVariables(0)=(VarName="Character Number",VarGuid=781E33F848B4863453EFE697275AD13C,VarType=(PinCategory="int"),FriendlyName="Character Number",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=5)
+   CategorySorting(0)=""
+   CategorySorting(1)="Event Graph"
+   CategorySorting(2)="Default"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:EventGraph",SavedViewOffset=(X=-494.050049,Y=-415.625000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases:AnimGraph",SavedViewOffset=(X=-1164.977539,Y=-314.264221),SavedZoomAmount=1.000000)
+   Extensions(0)="/Script/AnimGraph.AnimBlueprintExtension_Base'AnimBlueprintExtension_Base_0'"
+   Extensions(1)="/Script/AnimGraph.AnimBlueprintExtension_Attributes'AnimBlueprintExtension_Attributes_0'"
+   Extensions(2)="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'AnimBlueprintExtension_PropertyAccess_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   GeneratedClass="/Script/Engine.AnimBlueprintGeneratedClass'ABP_RetargetPhases_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=C1E61AE54E6AE0F12ADBCE89E63589EF
+End Object

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "captures": [
+    {
+      "file": "native_reference_pose.png",
+      "stage": 0,
+      "pose": "reference"
+    },
+    {
+      "file": "native_representative_poses.png",
+      "stage": 1,
+      "pose": "paused native clip at 50% duration"
+    },
+    {
+      "file": "native_shoulders_reach.png",
+      "stage": 2,
+      "pose": "paused native clip at 50% duration"
+    },
+    {
+      "file": "native_walk_feet.png",
+      "stage": 3,
+      "pose": "paused native clip at 50% duration"
+    }
+  ],
+  "runtime_changes_only": true,
+  "reference_component_position_error_cm_max": 1.3616676068818947e-13
+}

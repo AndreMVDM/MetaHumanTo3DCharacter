@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="SKM_Bot" ExportPath="/Script/Engine.SkeletalMesh'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot'"
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:FbxSkeletalMeshImportData_0'"
+      ThresholdUV=0.000977
+      NormalImportMethod=FBXNIM_ImportNormals
+      ImportMaterialOriginalNameData(0)="casing"
+      ImportMaterialOriginalNameData(1)="face"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("casing","face"))
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   SourceModels(0)=(TriangleCount=51358,VertexCount=27097,Bounds=(Origin=(X=-0.000004,Y=-0.842422,Z=81.774571),BoxExtent=(X=48.790356,Y=35.395435,Z=81.809138),SphereRadius=87.671229),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=386163E3386163E3386163E3386163E3,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bRecomputeNormals=False,bComputeWeightedNormals=True,bUseBackwardsCompatibleF16TruncUVs=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000),bAllowCPUAccess=True)
+   Skeleton="/Script/Engine.Skeleton'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot'"
+   bHasVertexColors=True
+   VertexColorGuid=60C7A75E407CB626E9CA81A85BAD8115
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+   TargetMeshDeformers="/Script/Engine.MeshDeformerCollection'/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections.DA_MeshDesformerCollections'"
+End Object

@@ -1,0 +1,20 @@
+Log file: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\native_export6.log
+Determining max actions to execute in parallel (24 physical cores, 32 logical cores)
+  Executing up to 24 processes, one per physical core
+Available x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36256, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Unavailable x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.39.33519
+    (Family=14.39.33519, FamilyRank=2, Version=14.39.33523, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool has banned the MSVC 14.39.0-14.39.99999 toolchains due to compiler issues. Please install a different toolchain such as 14.50.35717 by opening the generated solution and installing recommended components or from the Visual Studio installer.")
+Visual Studio compiler version 14.51.36256 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Unhandled 1 aggregate exceptions
+Unhandled exception: Exception: UBA executor is not expected to be invoked from a recursive UBT call.
+   at UnrealBuildTool.UBAExecutor.Init(IEnumerable`1 targetDescriptors, ILogger logger)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+Result: Failed (OtherCompilationError)
+Total execution time: 0.96 seconds

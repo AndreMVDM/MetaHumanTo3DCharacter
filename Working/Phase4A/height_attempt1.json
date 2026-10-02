@@ -1,0 +1,26 @@
+[
+  {
+    "case": "Unrigged",
+    "height_cm": 175,
+    "route": "ScaleThenBind",
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/test_height_routes.py\", line 11, in run\n    author=T.duplicate_asset('SK_Lara_Authoring',base,source);assert author;author.set_editor_property('skeleton',sk)\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMesh: Property 'Skeleton' for attribute 'skeleton' on 'SkeletalMesh' is read-only and cannot be set\n"
+  },
+  {
+    "case": "Unrigged",
+    "height_cm": 175,
+    "route": "BindThenScale",
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/test_height_routes.py\", line 11, in run\n    author=T.duplicate_asset('SK_Lara_Authoring',base,source);assert author;author.set_editor_property('skeleton',sk)\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMesh: Property 'Skeleton' for attribute 'skeleton' on 'SkeletalMesh' is read-only and cannot be set\n"
+  },
+  {
+    "case": "MixamoRecovered",
+    "height_cm": 175,
+    "route": "ScaleThenBind",
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/test_height_routes.py\", line 11, in run\n    author=T.duplicate_asset('SK_Lara_Authoring',base,source);assert author;author.set_editor_property('skeleton',sk)\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMesh: Property 'Skeleton' for attribute 'skeleton' on 'SkeletalMesh' is read-only and cannot be set\n"
+  },
+  {
+    "case": "MixamoRecovered",
+    "height_cm": 175,
+    "route": "BindThenScale",
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/test_height_routes.py\", line 11, in run\n    author=T.duplicate_asset('SK_Lara_Authoring',base,source);assert author;author.set_editor_property('skeleton',sk)\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMesh: Property 'Skeleton' for attribute 'skeleton' on 'SkeletalMesh' is read-only and cannot be set\n"
+  }
+]

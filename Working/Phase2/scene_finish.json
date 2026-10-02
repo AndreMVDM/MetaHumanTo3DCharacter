@@ -1,0 +1,26 @@
+{
+  "map": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest",
+  "actors": [
+    {
+      "label": "Manny and Lara Retarget Comparison",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0"
+    },
+    {
+      "label": "Phase 2 Comparison Camera",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.CameraActor_0"
+    },
+    {
+      "label": "Phase 2 Floor",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.StaticMeshActor_0"
+    },
+    {
+      "label": "Phase 2 Key Light",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.DirectionalLight_0"
+    },
+    {
+      "label": "Phase 2 PlayerStart",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.PlayerStart_0"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "world": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting",
+    "actor": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1",
+    "components": [
+      {
+        "name": "Source_SkeletalMesh",
+        "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+        "anim_class": null,
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot",
+        "pose": {
+          "root": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "pelvis": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.060227, y: -0.728771, z: 0.001403, w: 0.682102}, translation: {x: -1.173819, y: -15.395723, z: 85.972885}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "spine_03": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.241511, y: -0.650205, z: 0.106108, w: 0.712493}, translation: {x: 0.520233, y: -6.339994, z: 100.446226}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "head": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.134263, y: -0.687763, z: 0.130196, w: 0.701431}, translation: {x: 6.867957, y: 14.230290, z: 144.745416}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "hand_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.702848, y: 0.711149, z: 0.010401, w: 0.012792}, translation: {x: 24.034317, y: 16.735396, z: 99.684713}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "foot_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.146398, y: -0.689302, z: -0.112782, w: 0.700507}, translation: {x: 4.306791, y: -3.632366, z: 8.260233}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "lowerarm_twist_01_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.272228, y: 0.535534, z: 0.583209, w: 0.546775}, translation: {x: 26.689391, y: 8.334431, z: 101.895802}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        "instance": "/Script/Engine.AnimSingleNodeInstance",
+        "time": {
+          "error": "'AnimSingleNodeInstance' object has no attribute 'get_current_time'"
+        }
+      },
+      {
+        "name": "Target_SkeletalMesh",
+        "mesh": "/Game/Characters/Echo/Meshes/Echo.Echo",
+        "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh",
+        "pose": {
+          "root": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "pelvis": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.060227, y: -0.728771, z: 0.001403, w: 0.682102}, translation: {x: -1.173819, y: -15.395723, z: 85.972885}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "spine_03": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.241511, y: -0.650205, z: 0.106108, w: 0.712493}, translation: {x: 0.520233, y: -6.339994, z: 100.446226}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "head": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.134263, y: -0.687763, z: 0.130196, w: 0.701431}, translation: {x: 6.867957, y: 14.230290, z: 144.745416}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "hand_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.702848, y: 0.711149, z: 0.010401, w: 0.012792}, translation: {x: 24.034317, y: 16.735396, z: 99.684713}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "foot_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.146398, y: -0.689302, z: -0.112782, w: 0.700507}, translation: {x: 4.306791, y: -3.632366, z: 8.260233}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "lowerarm_twist_01_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.448618, y: -0.720609, z: -0.356184, w: -0.390637}, translation: {x: 26.689391, y: 8.334431, z: 101.895802}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "C_Scarf_A_Joint1_Jnt": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.151175, y: 0.646780, z: -0.349416, w: 0.660855}, translation: {x: 12.594677, y: 1.442333, z: 139.978782}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        "instance": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+        "time": {
+          "error": "'AnimInstance' object has no attribute 'get_current_time'"
+        },
+        "post_process": "/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C"
+      },
+      {
+        "name": "HairMesh",
+        "mesh": null,
+        "anim_class": null,
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh",
+        "pose": {}
+      }
+    ],
+    "time": 156611.421
+  },
+  {
+    "world": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting",
+    "actor": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1",
+    "components": [
+      {
+        "name": "Source_SkeletalMesh",
+        "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+        "anim_class": null,
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot",
+        "pose": {
+          "root": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "pelvis": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.154656, y: -0.680874, z: -0.000109, w: 0.715885}, translation: {x: -1.661679, y: -15.107641, z: 91.185883}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "spine_03": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.156899, y: -0.671085, z: 0.172539, w: 0.703745}, translation: {x: 0.581062, y: -5.013969, z: 105.035218}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "head": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.095304, y: -0.692295, z: 0.203133, w: 0.685844}, translation: {x: -0.142842, y: 14.226741, z: 150.111303}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "hand_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.374821, y: 0.899962, z: 0.116485, w: -0.189762}, translation: {x: 16.066685, y: 26.427886, z: 117.045444}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "foot_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.571549, y: -0.455648, z: 0.404211, w: 0.549846}, translation: {x: 8.628881, y: -77.365801, z: 29.454347}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "lowerarm_twist_01_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.345356, y: 0.409718, z: 0.790808, w: 0.295774}, translation: {x: 21.657893, y: 19.890076, z: 114.128257}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        "instance": "/Script/Engine.AnimSingleNodeInstance",
+        "time": {
+          "error": "'AnimSingleNodeInstance' object has no attribute 'get_current_time'"
+        }
+      },
+      {
+        "name": "Target_SkeletalMesh",
+        "mesh": "/Game/Characters/Echo/Meshes/Echo.Echo",
+        "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh",
+        "pose": {
+          "root": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "pelvis": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.154656, y: -0.680874, z: -0.000109, w: 0.715885}, translation: {x: -1.661679, y: -15.107641, z: 91.185883}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "spine_03": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.156899, y: -0.671085, z: 0.172539, w: 0.703745}, translation: {x: 0.581062, y: -5.013969, z: 105.035218}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "head": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.095304, y: -0.692295, z: 0.203133, w: 0.685844}, translation: {x: -0.142842, y: 14.226741, z: 150.111303}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "hand_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: 0.374821, y: 0.899962, z: 0.116485, w: -0.189762}, translation: {x: 16.066685, y: 26.427886, z: 117.045444}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "foot_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.571549, y: -0.455648, z: 0.404211, w: 0.549846}, translation: {x: 8.628881, y: -77.365801, z: 29.454347}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "lowerarm_twist_01_l": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.426644, y: -0.714223, z: -0.545568, w: -0.101077}, translation: {x: 21.657893, y: 19.890076, z: 114.128257}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "C_Scarf_A_Joint1_Jnt": "<Struct 'Transform' (0x000001C7E04C2BB0) {rotation: {x: -0.290655, y: 0.681406, z: -0.133302, w: 0.658359}, translation: {x: 10.896879, y: 4.280071, z: 144.107592}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        "instance": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+        "time": {
+          "error": "'AnimInstance' object has no attribute 'get_current_time'"
+        },
+        "post_process": "/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C"
+      },
+      {
+        "name": "HairMesh",
+        "mesh": null,
+        "anim_class": null,
+        "parent": "/Game/Maps/Animation/UEDPIE_0_Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh",
+        "pose": {}
+      }
+    ],
+    "time": 156612.234
+  }
+]

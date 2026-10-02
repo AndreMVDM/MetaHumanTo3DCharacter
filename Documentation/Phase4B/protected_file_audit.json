@@ -1,0 +1,21 @@
+{
+  "protected_baseline_files": 980,
+  "changed_files": [],
+  "missing_files": [],
+  "new_files_outside_phase4b_in_protected_scopes": [],
+  "engine_inventory_source_hash_changes": [],
+  "working_input_entries": [
+    {
+      "entry": "Lara_UnRigged_Textured.fbx",
+      "bytes_equal": true
+    },
+    {
+      "entry": "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg",
+      "bytes_equal": true
+    }
+  ],
+  "original_lara_archive_sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "passed": true,
+  "audit_scope": "All source archives, existing Content/Config/Reference/docs, Phase4A authored working files; excludes execution caches; engine evidence hashes separately",
+  "audit_limit": "Engine source hash check covers inventoried files, not entire engine. Baseline excludes caches; Working/Phase2/3/3B not broadly hashed. No writes were authored there. Git status reports not a Git repository; no commit/push attempted."
+}

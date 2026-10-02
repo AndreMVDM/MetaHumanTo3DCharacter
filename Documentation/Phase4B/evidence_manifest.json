@@ -1,0 +1,418 @@
+{
+  "Working\\Phase4B\\api_inventory.py": {
+    "bytes": 11034,
+    "sha256": "426af3cfe57fd76622d709324a7616bacf50d3f31d65af7f0d64035e53f30dd5"
+  },
+  "Working\\Phase4B\\compare_control.py": {
+    "bytes": 2984,
+    "sha256": "48b1f6be41a5577099378699ed3bf7c342ba5e12b6e4f440ee082a9a381fe8cd"
+  },
+  "Working\\Phase4B\\corrections.json": {
+    "bytes": 492,
+    "sha256": "1e85a129c1071e03b8c3b1cc485d792962554a22fb34614f43a308d4906cad0e"
+  },
+  "Working\\Phase4B\\correction_model.py": {
+    "bytes": 8396,
+    "sha256": "88e46444734e03eac28382c724dcdf110f8f7c5b743cb1ae486aa6174656dc8a"
+  },
+  "Working\\Phase4B\\correction_replay_fixture.json": {
+    "bytes": 121157,
+    "sha256": "3861c3151e582b248058cf36854dc5a6df3a697395fa053a641b1402db1234b3"
+  },
+  "Working\\Phase4B\\export_debug_geometry.py": {
+    "bytes": 1757,
+    "sha256": "0c0682f9e7464b9ee84f42c639e2b76301a5f98d52d1f3f2bdab69d1dab2669b"
+  },
+  "Working\\Phase4B\\export_geometry.log": {
+    "bytes": 385,
+    "sha256": "28fc73b8a0cf1870659e988bfcb10d8d68f114ea7f0ef05130fea3f9f3f2f350"
+  },
+  "Working\\Phase4B\\fit_semantic.py": {
+    "bytes": 10773,
+    "sha256": "79d7c22a9d3bb62e170b51fcaca0707978b4ded68ca091a9966a04fa9bb108c8"
+  },
+  "Working\\Phase4B\\geometry_analysis.log": {
+    "bytes": 11341,
+    "sha256": "5ddca0696ed904e372b73a5e607176a836eac1caaaffe2def00db75be85d9254"
+  },
+  "Working\\Phase4B\\geometry_tools.py": {
+    "bytes": 5445,
+    "sha256": "49059ba814e43f9e71fd101503a17f357df8d7561f700d9d77f5ab35002158d7"
+  },
+  "Working\\Phase4B\\inspect_geometry.py": {
+    "bytes": 1377,
+    "sha256": "d56e4a1cdd2fe55a6bcd77b15db4bcd3e280c0b79b8e33a8e215996cd3a67a95"
+  },
+  "Working\\Phase4B\\investigate.py": {
+    "bytes": 4904,
+    "sha256": "985d2efe46ade7e6656b284ee1f58c660ffb75ed3ea5b16ea08afaf4bce1eec8"
+  },
+  "Working\\Phase4B\\Lara_180_DebugGeometry.fbx": {
+    "bytes": 1798572,
+    "sha256": "d26622eb624f7946ff262c5da2a963ec6ddf0343f35bdf90bb98f60a655b8851"
+  },
+  "Working\\Phase4B\\limb_curves.json": {
+    "bytes": 138804,
+    "sha256": "71731619b0e2b1d3a243c3c6cf82c15c468fed9dd5d1671c71b9236660011aca"
+  },
+  "Working\\Phase4B\\normalised_geometry.npz": {
+    "bytes": 1854112,
+    "sha256": "ecce962a27217d263629134421b61a50644e0eec1f1ab49ae044cb229c286dd4"
+  },
+  "Working\\Phase4B\\normalised_source_uv_corners.json": {
+    "bytes": 10838642,
+    "sha256": "f7544fff90d9d184db96dab830569edcfb87f881184bf1d5e0484f69eb6f8a39"
+  },
+  "Working\\Phase4B\\phase4a_ue_vertices_readonly.json": {
+    "bytes": 1719846,
+    "sha256": "67a02f988ce0ed92e87814680b28fc1686f8e33509290067c7991b8b1f5b6534"
+  },
+  "Working\\Phase4B\\prepare_geometry.py": {
+    "bytes": 2205,
+    "sha256": "10f10fd0b3c0399c998663a60b49c6aa6ff816797a836bed716eb75ebb92263c"
+  },
+  "Working\\Phase4B\\protected_audit.py": {
+    "bytes": 2153,
+    "sha256": "29f76bb08431a7ba84b97957e0ada7db2d79efa05a478ea96dbf41b7378c1fc6"
+  },
+  "Working\\Phase4B\\refine_template.py": {
+    "bytes": 3992,
+    "sha256": "da88be2fac02403d2b840043a50536a9713d976672aacb3c189d2873c8e2fc66"
+  },
+  "Working\\Phase4B\\render_fit.py": {
+    "bytes": 3003,
+    "sha256": "3085a08bb2fd2e524eb674e0da2612a15107b7f63989332787c1a9be7eabf4f1"
+  },
+  "Working\\Phase4B\\self_review.py": {
+    "bytes": 4485,
+    "sha256": "bcb41b5e0c8656ac2d5eed22f587525de802fc78193094b372fcb86f11996c71"
+  },
+  "Working\\Phase4B\\source_geometry.npz": {
+    "bytes": 3562840,
+    "sha256": "59d0f7cf9b29fb9fa2a21524fb5ed8e03b3b9a1759ab57d080f6c26e829bb668"
+  },
+  "Working\\Phase4B\\source_uv.py": {
+    "bytes": 495,
+    "sha256": "ad361e55008905a592a47378fae036ad086ced5029197c140fb9d5ab84086c1d"
+  },
+  "Working\\Phase4B\\source_working.blend": {
+    "bytes": 1826021,
+    "sha256": "98cf17ddb6a91eb2fbe41b07a4199bb42f1723400566408efec8517eb7e1d650"
+  },
+  "Working\\Phase4B\\supplement_api.py": {
+    "bytes": 4344,
+    "sha256": "2937ade109576cd7345a2873fd66e78a1b1396535a3d1c3b9b5017724318e4d6"
+  },
+  "Working\\Phase4B\\supplement_search.py": {
+    "bytes": 2316,
+    "sha256": "43bdba852e12488761638be397322fce7ca1b65a864b3c45ba7331c18fc083d2"
+  },
+  "Working\\Phase4B\\ue_basis.py": {
+    "bytes": 816,
+    "sha256": "e080294a8e464e4480d42d74b709649cb617a6c8b08d0b1b30240cd744c3c6c5"
+  },
+  "Working\\Phase4B\\ue_capture.py": {
+    "bytes": 3333,
+    "sha256": "70ffe920cada890f84e86f8e77b935552513892a74149974763d01d3a9ab9b01"
+  },
+  "Working\\Phase4B\\ue_debug_scene.py": {
+    "bytes": 7232,
+    "sha256": "7ac40a10d2d2d754161af6ade35a63ceb2ba0208d487ecd8f96cbe30cf6920b8"
+  },
+  "Working\\Phase4B\\ue_debug_vertices.json": {
+    "bytes": 1719669,
+    "sha256": "1d5277eaf2670f0e63e3db7925fefb0ac317b3e327a3c2680ce1b36b3bef63ef"
+  },
+  "Working\\Phase4B\\ue_probe.py": {
+    "bytes": 1146,
+    "sha256": "730132359a090b0a09c2079a189ae1d5fdf7493cbb9ef6d617c28d6d18dcc98f"
+  },
+  "Working\\Phase4B\\ue_uv.py": {
+    "bytes": 1048,
+    "sha256": "e844bc1951ee8fb9c02a66679002bddab4cbdfc34864a37df854047b302e2134"
+  },
+  "Working\\Phase4B\\ue_uv_corners.json": {
+    "bytes": 15088376,
+    "sha256": "ad32d0516e96e22f313d471c24007d8fcac397416f973d47449af3470806768a"
+  },
+  "Working\\Phase4B\\validate_control_basis.py": {
+    "bytes": 1135,
+    "sha256": "1fd7270a22bad636287840c6621a47973a96b539a881ac32ab960e02a8e8c204"
+  },
+  "Working\\Phase4B\\validate_fit.py": {
+    "bytes": 7520,
+    "sha256": "86411aab6b4ba273750f168ad848c2596210ac9ed103d9106f11edf5769d648e"
+  },
+  "Working\\Phase4B\\validate_frame.py": {
+    "bytes": 1300,
+    "sha256": "72d1685789f560a4716bdf82d15bddf53e5221b7282b2c37324f8301a6155145"
+  },
+  "Working\\Phase4B\\validate_import.py": {
+    "bytes": 3462,
+    "sha256": "f5f86bc17ff7134cdffa24452ecd696eb30a92c920eaeff2493ff32e912a13b4"
+  },
+  "Working\\Phase4B\\write_report.py": {
+    "bytes": 36778,
+    "sha256": "cea952d3c58d560a4417e013024819d54bb48dcc0d6dc32f2d095ba8d5e4b5dc"
+  },
+  "Working\\Phase4B\\Inputs\\Lara_UnRigged_Textured.fbx": {
+    "bytes": 1759072,
+    "sha256": "d73f4bbb1e0701deedf1ab002d7b35c1328c73740f0ac7db70b1b6408fb504ab"
+  },
+  "Working\\Phase4B\\Search\\exact_concepts.txt": {
+    "bytes": 347802,
+    "sha256": "7761a0d66966a8435564bac3b6f5b1bc1a8bba320fed15389101260c8cd7dc66"
+  },
+  "Working\\Phase4B\\Search\\geometry.txt": {
+    "bytes": 160006,
+    "sha256": "9115bb421a98db4b43e3ce75f1c844d5aac063d2c89c3717be93532dc32385be"
+  },
+  "Working\\Phase4B\\Search\\metahuman.txt": {
+    "bytes": 215146,
+    "sha256": "e35c352c9ce8b1266da3bde96ff1a09cb7b2d38f7f0aad6e9a57f77e1e1f9034"
+  },
+  "Working\\Phase4B\\Search\\ml.txt": {
+    "bytes": 60205,
+    "sha256": "3963be79f5d004b2bdbab0f6a9e435b916659293c111ad68dfaddf8670bde23e"
+  },
+  "Working\\Phase4B\\Search\\predictors_including_vendor.txt": {
+    "bytes": 21540,
+    "sha256": "a9a66d2b84922a15ef7b34c7b396d9f2116e216952ab3aefc7853d647dce8f59"
+  },
+  "Working\\Phase4B\\Search\\semantic.txt": {
+    "bytes": 59439,
+    "sha256": "eb8b95e223722a5a2bd50a80bc39347871bec93d92d8ce9f951be4811b55682b"
+  },
+  "Working\\Phase4B\\Search\\templates.txt": {
+    "bytes": 273544,
+    "sha256": "2103f833a38714e074febd1eb6b00806615b987e40cdfa699ddc137e14fe8a17"
+  },
+  "Working\\Phase4B\\Inputs\\Lara_UnRigged_Textured.fbm\\Lara_UnRigged_Textured_basecolor.jpg": {
+    "bytes": 4026618,
+    "sha256": "e54248a0d64cc4e4b40ade553e679f2b6919b87e79dbdb66adcf73e253a6b585"
+  },
+  "Documentation\\Phase4B\\anatomical_validation.json": {
+    "bytes": 24080,
+    "sha256": "9b121d858ca9e4f11e06e9d0c4710771b6da7ef086d884c5e649754b56366923"
+  },
+  "Documentation\\Phase4B\\anatomical_validation_corrected.json": {
+    "bytes": 24765,
+    "sha256": "8758307714ba62276593998b7e58568d0ec801923a178ea6f9dccf1c93e63812"
+  },
+  "Documentation\\Phase4B\\anatomical_validation_v2.json": {
+    "bytes": 24290,
+    "sha256": "9605cc4f3970efe3f015b57b7e2e2b6f1b40d47809c7c3578f154b7fa02ff6ce"
+  },
+  "Documentation\\Phase4B\\automatic_fit.json": {
+    "bytes": 95524,
+    "sha256": "b761fd264c630f1442902ebf2f7dbcd380e912f55ffe549a0ac74a0b1a640425"
+  },
+  "Documentation\\Phase4B\\automatic_fit_attempt1.json": {
+    "bytes": 95521,
+    "sha256": "9892ca7b2b5b554b829bccb81956f26a6fcc903f3380e74719afba99f8915806"
+  },
+  "Documentation\\Phase4B\\automatic_fit_before_axis_repair.json": {
+    "bytes": 95542,
+    "sha256": "66055b75a025ff6ca73d42b9689db2b5d2573d8bce7ced86ceba4c10c09ed0f5"
+  },
+  "Documentation\\Phase4B\\automatic_fit_before_top_spine_repair.json": {
+    "bytes": 95417,
+    "sha256": "54e4e839d337cfaa8c5c12c54a61952a1a70028a8db446e0ed7884723925c67a"
+  },
+  "Documentation\\Phase4B\\automatic_fit_before_torso_shell_repair.json": {
+    "bytes": 95521,
+    "sha256": "da31f69b67ddddca70bf2cbec55a5345b9f05ece8860a9ce1c0719d190b132ad"
+  },
+  "Documentation\\Phase4B\\automatic_fit_v2.json": {
+    "bytes": 101652,
+    "sha256": "2e65549fe654ad94f8c91045ec0dfdd9fe4a44367450118e70ed12c4ccd2b0fb"
+  },
+  "Documentation\\Phase4B\\automatic_fit_v2_before_axis_repair.json": {
+    "bytes": 101670,
+    "sha256": "0e14526f89fced3179c1bf9fa076465a61863996346289c0c25b3e991b220ed5"
+  },
+  "Documentation\\Phase4B\\automatic_major_landmarks.png": {
+    "bytes": 62727,
+    "sha256": "75203be9e62489a2c28305ac44d5a0dbc40c8422cff31297f0c7f343aa946927"
+  },
+  "Documentation\\Phase4B\\coordinate_frame.json": {
+    "bytes": 2387,
+    "sha256": "571d5a16652a4a5a649ab7256a4f9dc5db30e5bd274d4689a2fdf09ef47f3ce0"
+  },
+  "Documentation\\Phase4B\\coordinate_frame_attempt1.json": {
+    "bytes": 2192,
+    "sha256": "61d62c10da62b153efe42f89809092384df970b2d9deb18aed0f4f51e2721ed0"
+  },
+  "Documentation\\Phase4B\\coordinate_frame_attempt2.json": {
+    "bytes": 2342,
+    "sha256": "b0b8d2b64829f1077e7478f6ea30e6ef8261d614283b3242a370a4167470273f"
+  },
+  "Documentation\\Phase4B\\coordinate_frame_before_axis_repair.json": {
+    "bytes": 2353,
+    "sha256": "8ec6292117a5f4463672885a28bc45d70f523d0d28b761c99e808605aa44b905"
+  },
+  "Documentation\\Phase4B\\coordinate_frame_validation.json": {
+    "bytes": 851,
+    "sha256": "7c9148859bd26c96cc53a0e47a65879f54b0084fa27db67c0a9ac7e7373dbb12"
+  },
+  "Documentation\\Phase4B\\correction_model_validation.json": {
+    "bytes": 1197,
+    "sha256": "6ef608ac7961694bf6a807adfcd4808185fe43276d435349b4ddc9500450e8ce"
+  },
+  "Documentation\\Phase4B\\cross_sections.json": {
+    "bytes": 326338,
+    "sha256": "71746dfc23c5cb8e1808fd6a23f9d35183ca53ebdda65e846039407179feb245"
+  },
+  "Documentation\\Phase4B\\existing_evidence_index.json": {
+    "bytes": 8100,
+    "sha256": "00ffd3a8f515a112558cae24b1b8451bd4d4dd596eb3988c845267ef7e15c462"
+  },
+  "Documentation\\Phase4B\\experiment_result.json": {
+    "bytes": 4180,
+    "sha256": "0b7ddf962db65f57869a19c41df99c873c80c58bd3907984c029f34d786fb1cd"
+  },
+  "Documentation\\Phase4B\\external_inference_inventory.json": {
+    "bytes": 1347,
+    "sha256": "433c165e9721b5205f14bec0652b59e912ef0dacb9139de645714f4f6621f818"
+  },
+  "Documentation\\Phase4B\\finger_branch_prototype.json": {
+    "bytes": 14946,
+    "sha256": "bdf4513536fcb5d5f1be91c15b0728c6612889ca48962c8f239ce54ebc2aea2f"
+  },
+  "Documentation\\Phase4B\\fitted_skeleton_front.png": {
+    "bytes": 66791,
+    "sha256": "3b3ebd36ecb773ceb0e435c83feb49e8082b610905f949196c2f9445dcee3356"
+  },
+  "Documentation\\Phase4B\\fitted_skeleton_side.png": {
+    "bytes": 62837,
+    "sha256": "9983fcfe8e01da37014c64ceeb417d4bd162c38fc95c7224c6cc01a9db6a0138"
+  },
+  "Documentation\\Phase4B\\foot_ankle_ball.png": {
+    "bytes": 24082,
+    "sha256": "e18423c83caac82fbe52f1cf5cc68eedef8f30dffbc7fabbdd4e0d4d5c16ab92"
+  },
+  "Documentation\\Phase4B\\geometry_export_validation.json": {
+    "bytes": 354,
+    "sha256": "9f17b890fd9d78f35d4a594f3be5166eb0be76e25a323d1637f1943ed68514b3"
+  },
+  "Documentation\\Phase4B\\geometry_input.json": {
+    "bytes": 872,
+    "sha256": "d5ae21b8d5777553e59a47c9eb1a65d6898dc4a470bfb46e2edf972a7b994480"
+  },
+  "Documentation\\Phase4B\\hand_finger_evidence.png": {
+    "bytes": 22732,
+    "sha256": "9d75d599d463e08a1297f7fbd80a24c0fe257fc1e9becc0c514e6784637df1a7"
+  },
+  "Documentation\\Phase4B\\input_inventory.json": {
+    "bytes": 613,
+    "sha256": "862300dce2e8d7350bc2212b6645797fe8857e8bf9c8c12c7fd55471e57748b7"
+  },
+  "Documentation\\Phase4B\\installed_resources.json": {
+    "bytes": 16935,
+    "sha256": "4edf44739ff04be3d737dd1e872066d5764afca6abf97188b5f65958660fb5c2"
+  },
+  "Documentation\\Phase4B\\manual_control_basis_validation.json": {
+    "bytes": 1824,
+    "sha256": "271faaeda21eb1ce9f15767dafb67ce44adde01f3083e3daa81ff637607e980c"
+  },
+  "Documentation\\Phase4B\\manual_control_comparison.json": {
+    "bytes": 14069,
+    "sha256": "12929c14ee783496c421decbffa84c1009a3250a173483d6d1e54023133af3e8"
+  },
+  "Documentation\\Phase4B\\manual_control_comparison_v2.json": {
+    "bytes": 14069,
+    "sha256": "11ca7a68c15b69fdf1b848c46404d3509c8211970eb9919655a0d79e458d8ae7"
+  },
+  "Documentation\\Phase4B\\Phase4BSemanticJointFitting.md": {
+    "bytes": 36884,
+    "sha256": "07f2d898423703e3d083557a321a5f8f7e74105680e1619c95effaebcca05bab"
+  },
+  "Documentation\\Phase4B\\protected_before.json": {
+    "bytes": 198832,
+    "sha256": "b99236c4a3cf0feb95b193b52f9ad5c3518ce9142a5bc223ffeed7b569250982"
+  },
+  "Documentation\\Phase4B\\protected_file_audit.json": {
+    "bytes": 990,
+    "sha256": "a33efc3ad479f7820e43493596d637921aecee49bbe93528e0c659d9cf66342f"
+  },
+  "Documentation\\Phase4B\\python_api_probe.json": {
+    "bytes": 17578,
+    "sha256": "760e23c91c8a8a46cd030667b1f35eb50f2cb6141fe627a87e0bc306c6d706fc"
+  },
+  "Documentation\\Phase4B\\raw_geometry_sections.png": {
+    "bytes": 54956,
+    "sha256": "72167166a6b6097949ae49df48107c1961fd9a450492ea7e493e75c3d1163329"
+  },
+  "Documentation\\Phase4B\\raw_geometry_sections_attempt1.png": {
+    "bytes": 58048,
+    "sha256": "0b85960bbad2b1620117616c0864142fa1949af734bab87d622707608e07a88d"
+  },
+  "Documentation\\Phase4B\\search_manifest.json": {
+    "bytes": 6980,
+    "sha256": "b183fca4de6f644465dd9771e547f265b45bda7e94113ef8a4b6d031cd07a5ef"
+  },
+  "Documentation\\Phase4B\\self_review.json": {
+    "bytes": 4696,
+    "sha256": "c1b1d8279443490f8919490d5562375e472f95b3cabacd614e50d45486ceb2c0"
+  },
+  "Documentation\\Phase4B\\semantic_api_inventory.json": {
+    "bytes": 431438,
+    "sha256": "8ae2a2ef169185652f52c05f94be72bdbf8feea5612b1e87781ef4c9bc5d1caf"
+  },
+  "Documentation\\Phase4B\\supplemental_search.json": {
+    "bytes": 6531,
+    "sha256": "f9bba8111ef552c8b5545a78591a2654a98b70b231ee755c163c1dc84c02f16c"
+  },
+  "Documentation\\Phase4B\\ue_debug_scene.json": {
+    "bytes": 1859,
+    "sha256": "b43eab13382420ce7fac9c38d9e82c49a13702c3784c45f775d5fa8de1e64e2a"
+  },
+  "Documentation\\Phase4B\\ue_fit_front.png": {
+    "bytes": 565157,
+    "sha256": "2afb0adbacb9b25910a7bc41f7ad67e0c6c885d1bb921cae03a72a9dc4e21821"
+  },
+  "Documentation\\Phase4B\\ue_fit_side.png": {
+    "bytes": 353689,
+    "sha256": "1c27d484d026c1deffb3806ee71cdb06b6e674abdcffc7b684b9a83c42afbe7c"
+  },
+  "Documentation\\Phase4B\\ue_import_validation.json": {
+    "bytes": 1105,
+    "sha256": "efc617177e66c74fce88667c95a5400f7e391ff743e78076cc0cf4693902d813"
+  },
+  "Documentation\\Phase4B\\ue_import_validation_before_axis_repair.json": {
+    "bytes": 966,
+    "sha256": "f6e395131f7e1b4933990beb706075aa40bb40b58974bb01cf4cf301a94e332d"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Geometry\\SM_Lara180.uasset": {
+    "bytes": 2382157,
+    "sha256": "ee3e8d9c2ecfe6ea065243d474dcce3075a91adee78bd8ebbd4f98be0669046e"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Maps\\L_SemanticFitDebug.umap": {
+    "bytes": 85211,
+    "sha256": "ebc39c3dc193a111d4d738d998bf920276d505b1d3c370837694b7769b7d8225"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Accepted.uasset": {
+    "bytes": 9381,
+    "sha256": "55612c18bd3cf3eeb9716ad217761bbf5278e1a5dfd49160685904eeb581386d"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Ambiguous.uasset": {
+    "bytes": 9376,
+    "sha256": "71a8575daa392f6625a01268d336d45c4325617e5310fc3ca120e2ca90b2b1db"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Edges.uasset": {
+    "bytes": 9171,
+    "sha256": "cbae98edc9931df4c050412b538cd9b12a0f8b0eee1cf8e8cc1e7024437b7566"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Ghost.uasset": {
+    "bytes": 9504,
+    "sha256": "8d9e764af11248e49110a30605826be893556075cb12cb5d0346a63746ec0d7e"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_LaraOriginal.uasset": {
+    "bytes": 12001,
+    "sha256": "6e986f0fe62f3e16ad5b4b878eafa14a201c8912f14ade57ab8f5a864fc20473"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\T_LaraOriginal.uasset": {
+    "bytes": 4045525,
+    "sha256": "5ce5e613fe41160c0aaccf55b5ca4e5e952c7973f491883ad582b640ba37edf6"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "anim_methods": {
+    "controller": "Animation Data Controller\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: IAnimationDataController.h\r\n",
+    "data_model": null,
+    "data_model_interface": "Animation Data Model\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: IAnimationDataModel.h\r\n"
+  },
+  "source_settings": {
+    "type": "AnimSequence",
+    "text": "<Object '/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd' (0x0000012CC2912A00) Class 'AnimSequence'>",
+    "additive_anim_type": "<AdditiveAnimationType.AAT_NONE: 0>",
+    "allow_frame_stripping": "True",
+    "animation_track_names": "[]",
+    "asset_import_data": "<Object '/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0' (0x0000012CC2954000) Class 'FbxAnimSequenceImportData'>",
+    "asset_mapping_table": "None",
+    "asset_user_data": "[\"/Script/AnimationModifiers.AnimationModifiersAssetUserData'/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd:AnimationModifiersAssetUserData_0'\"]",
+    "bone_compression_settings": "<Object '/Engine/Animation/DefaultAnimBoneCompressionSettings.DefaultAnimBoneCompressionSettings' (0x0000012C2B8E3F70) Class 'AnimBoneCompressionSettings'>",
+    "compression_error_threshold_scale": "1.0",
+    "controller": "<Object '/Engine/Transient.AnimSequencerController_0' (0x0000012CB6779D00) Class 'AnimSequencerController'>",
+    "curve_compression_settings": "<Object '/Engine/Animation/DefaultAnimCurveCompressionSettings.DefaultAnimCurveCompressionSettings' (0x0000012CC2A80B40) Class 'AnimCurveCompressionSettings'>",
+    "data_model": "None",
+    "data_model_interface": "<Object '/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd:AnimationSequencerDataModel' (0x0000012CB660FE00) Class 'AnimationSequencerDataModel'>",
+    "do_not_override_compression": "False",
+    "enable_root_motion": "False",
+    "force_root_lock": "True",
+    "interpolation": "<AnimInterpolationType.LINEAR: 0>",
+    "loop": "False",
+    "meta_data": "[]",
+    "number_of_sampled_frames": "57",
+    "number_of_sampled_keys": "58",
+    "parent_asset": "None",
+    "per_bone_custom_attribute_data": "[]",
+    "platform_target_frame_rate": "<Struct 'PerPlatformFrameRate' (0x0000012CC2912E18) {}>",
+    "preview_pose_asset": "None",
+    "rate_scale": "1.0",
+    "ref_frame_index": "0",
+    "ref_pose_seq": "None",
+    "ref_pose_type": "<AdditiveBasePoseType.ABPT_NONE: 0>",
+    "retarget_source": "SKM_Manny",
+    "retarget_source_asset": "None",
+    "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+    "sequence_length": "1.899999976158142",
+    "skeleton": "<Object '/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin' (0x0000012CC29F3C00) Class 'Skeleton'>",
+    "strip_anim_data_on_dedicated_server": "<StripAnimDataOnDedicatedServerSettings.USE_PROJECT_SETTING: 0>",
+    "thumbnail_info": "<Object '/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd:SceneThumbnailInfo_0' (0x0000012CC2A80A00) Class 'SceneThumbnailInfo'>",
+    "use_normalized_root_motion_scale": "True",
+    "variable_frame_stripping_settings": "<Object '/Engine/Animation/DefaultVariableFrameStrippingSettings.DefaultVariableFrameStrippingSettings' (0x0000012C772E09A0) Class 'VariableFrameStrippingSettings'>"
+  },
+  "source_root": [
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "translation": [
+        7.574183437424531e-16,
+        1010.3499755859375,
+        0.0
+      ],
+      "rotation_xyzw": [
+        -7.853980991022514e-06,
+        -0.0,
+        0.0,
+        0.9999999999691574
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "root_op": {
+    "type": "IKRetargetRootMotionOpSettings",
+    "text": "<Struct 'IKRetargetRootMotionOpSettings' (0x0000012CC7F1AC80) {enabled: False, lod_threshold: -1, root_motion_source: CopyFromSourceRoot, rotate_with_pelvis: False, root_height_source: CopyHeightFromSource, global_offset: {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}, maintain_offset_from_pelvis: True, propagate_to_non_retargeted_children: True}>",
+    "enabled": "False",
+    "global_offset": "<Struct 'Transform' (0x0000012CC7F1AD10) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "lod_threshold": "-1",
+    "maintain_offset_from_pelvis": "True",
+    "propagate_to_non_retargeted_children": "True",
+    "root_height_source": "<RootMotionHeightSource.COPY_HEIGHT_FROM_SOURCE: 0>",
+    "root_motion_source": "<RootMotionSource.COPY_FROM_SOURCE_ROOT: 0>",
+    "rotate_with_pelvis": "False",
+    "source_root": "<Struct 'BoneReference' (0x0000012CC7F1ACC8) {}>",
+    "target_pelvis": "<Struct 'BoneReference' (0x0000012CC7F1ACF4) {}>",
+    "target_root": "<Struct 'BoneReference' (0x0000012CC7F1ACDC) {}>"
+  },
+  "controller_methods": {
+    "add_bone_curve": "x.add_bone_curve(bone_name, should_transact=True) -> bool\r\nAdd Bone Curve\r\n\r\nArgs:\r\n    bone_name (Name): \r\n    should_transact (bool): \r\n\r\nReturns:\r\n    bool:",
+    "add_bone_track": "x.add_bone_track(bone_name, should_transact=True) -> int32\r\nAdd Bone Track\r\ndeprecated: AddBoneTrack returning index is deprecated use AddBoneCurve returning bool instead.\r\n\r\nArgs:\r\n    bone_name (Name): \r\n    should_transact (bool): \r\n\r\nReturns:\r\n    int32:",
+    "close_bracket": "x.close_bracket(should_transact=True) -> None\r\nCloses a previously opened interaction bracket, used for combining a set of controller actions. Broadcasts a EAnimDataModelNotifyType::BracketClosed notify.\r\n\r\nArgs:\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "insert_bone_track": "x.insert_bone_track(bone_name, desired_index, should_transact=True) -> int32\r\nInsert Bone Track\r\ndeprecated: InsertBoneTrack is deprecated use AddBoneTrack instead.\r\n\r\nArgs:\r\n    bone_name (Name): \r\n    desired_index (int32): \r\n    should_transact (bool): \r\n\r\nReturns:\r\n    int32:",
+    "open_bracket": "x.open_bracket(title, should_transact=True) -> None\r\nOpens an interaction bracket, used for combining a set of controller actions. Broadcasts a EAnimDataModelNotifyType::BracketOpened notify,\nthis can be used by any Views or dependent systems to halt any unnecessary or invalid operations until the (last) bracket is closed.\r\n\r\nArgs:\r\n    title (Text): Description of the bracket, e.g. \"Generating Curve Data\"\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "remove_all_attributes_for_bone": "x.remove_all_attributes_for_bone(bone_name, should_transact=True) -> int32\r\nRemoves all attributes for the specified bone name, if any. Broadcasts a EAnimDataModelNotifyType::AttributeRemoved notify for each removed attribute.\r\n\r\nArgs:\r\n    bone_name (Name): Name of the bone to remove attributes for\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated\r\n\r\nReturns:\r\n    int32: Total number of removes attributes",
+    "remove_all_bone_tracks": "x.remove_all_bone_tracks(should_transact=True) -> None\r\nRemoves all existing Bone Animation tracks. Broadcasts a EAnimDataModelNotifyType::TrackRemoved for each removed track, wrapped within BracketOpened/BracketClosed notifies.\r\n\r\nArgs:\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "remove_bone_track": "x.remove_bone_track(bone_name, should_transact=True) -> bool\r\nRemoves an existing bone animation track with the provided name. Broadcasts a EAnimDataModelNotifyType::TrackRemoved notify if successful.\r\n\r\nArgs:\r\n    bone_name (Name): Bone name of the track which should be removed\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated\r\n\r\nReturns:\r\n    bool: Whether or not the removal was successful",
+    "resize_in_frames": "x.resize_in_frames(new_length_in_frames, t0, t1, should_transact=True) -> None\r\nSets the total play-able length in seconds and resizes curves. Broadcasts EAnimDataModelNotifyType::SequenceLengthChanged\nand EAnimDataModelNotifyType::CurveChanged notifies if successful.\nT0 and T1 are expected to represent the window of time that was either added or removed. E.g. for insertion T0 indicates the time\nat which additional time starts and T1 were it ends. For removal T0 indicates the time at which time should be started to remove, and T1 indicates the end. Giving a total of T1 - T0 added or removed length.\nThe number of frames and keys for the provided length is recalculated according to the current value of UAnimDataModel::FrameRate.\r\n\r\nArgs:\r\n    new_length_in_frames (FrameNumber): Total new play-able number of frames value (according to frame rate), has to be positive and non-zero\r\n    t0 (FrameNumber): Point between 0 and NewLengthInFrames at which the change in length starts\r\n    t1 (FrameNumber): Point between 0 and NewLengthInFrames at which the change in length ends\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "resize_number_of_frames": "x.resize_number_of_frames(new_length_in_frames, t0, t1, should_transact=True) -> None\r\nSets the total play-able length in seconds. Broadcasts a EAnimDataModelNotifyType::SequenceLengthChanged notify if successful.\nT0 and T1 are expected to represent the window of time that was either added or removed. E.g. for insertion T0 indicates the time\nat which additional time starts and T1 were it ends. For removal T0 indicates the time at which time should be started to remove, and T1 indicates the end. Giving a total of T1 - T0 added or removed length.\nThe number of frames and keys for the provided length is recalculated according to the current value of UAnimDataModel::FrameRate.\r\n\r\nArgs:\r\n    new_length_in_frames (FrameNumber): Total new play-able number of frames value (according to frame rate), has to be positive and non-zero\r\n    t0 (FrameNumber): Point between 0 and NewLengthInFrames at which the change in length starts\r\n    t1 (FrameNumber): Point between 0 and NewLengthInFrames at which the change in length ends\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "resize_play_length": "x.resize_play_length(new_length, t0, t1, should_transact=True) -> None\r\nResize Play Length\r\ndeprecated: ResizePlayLength is deprecated use ResizeNumberOfFrames instead.\r\n\r\nArgs:\r\n    new_length (float): \r\n    t0 (float): \r\n    t1 (float): \r\n    should_transact (bool):",
+    "set_bone_track_keys": "x.set_bone_track_keys(bone_name, positional_keys, rotational_keys, scaling_keys, should_transact=True) -> bool\r\nSets keys for an existing bone animation track with the provided name. Broadcasts a EAnimDataModelNotifyType::TrackChanged notify if successful.\nThe provided number of keys provided is expected to match for each component, and be non-zero.\r\n\r\nArgs:\r\n    bone_name (Name): Bone name of the track for which the keys should be set\r\n    positional_keys (Array[Vector]): Array of keys for the translation component\r\n    rotational_keys (Array[Quat]): Array of keys for the rotation component\r\n    scaling_keys (Array[Vector]): Array of keys for the scale component\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated\r\n\r\nReturns:\r\n    bool: Whether or not the keys were successfully set",
+    "set_frame_rate": "x.set_frame_rate(frame_rate, should_transact=True) -> None\r\nSets the frame rate according to which the bone animation is expected to be sampled. Broadcasts a EAnimDataModelNotifyType::FrameRateChanged notify if successful.\nThe number of frames and keys for the provided frame rate is recalculated according to the current value of UAnimDataModel::PlayLength.\r\n\r\nArgs:\r\n    frame_rate (FrameRate): The new sampling frame rate, has to be positive and non-zero\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "set_number_of_frames": "x.set_number_of_frames(new_length_in_frames, should_transact=True) -> None\r\nSets the total play-able length in seconds. Broadcasts a EAnimDataModelNotifyType::SequenceLengthChanged notify if successful.\nThe number of frames and keys for the provided length is recalculated according to the current value of UAnimDataModel::FrameRate.\r\n\r\nArgs:\r\n    new_length_in_frames (FrameNumber): Total new play-able number of frames value (according to frame rate), has to be positive and non-zero\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "set_play_length": "x.set_play_length(length, should_transact=True) -> None\r\nSet Play Length\r\ndeprecated: SetPlayLength is deprecated use SetNumberOfFrames instead.\r\n\r\nArgs:\r\n    length (float): \r\n    should_transact (bool):"
+  },
+  "model_methods": {}
+}

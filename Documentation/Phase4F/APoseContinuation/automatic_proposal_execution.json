@@ -1,0 +1,36 @@
+[
+  {
+    "character": "John",
+    "stage": "proposal_extracted",
+    "human_reviews": 0,
+    "downstream_authorised": false,
+    "target_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/John/Geometry/SM_John180",
+    "vertices": 26166,
+    "triangles": 50925,
+    "height_cm": 180.0,
+    "solve_success": true,
+    "solve_seconds": 47.23500000000058,
+    "joint_count": 342,
+    "python_api_code": "<ImportErrorCode.SUCCESS: 13>",
+    "python_native_max_cm": 0.0,
+    "dna_sha256": "16e2a8815755294c1c7c285784ce521ebe874e21e17eebbcc0a8cc591bc0ced4",
+    "donor_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/John/Authoring/MHC_JohnDonor.MHC_JohnDonor"
+  },
+  {
+    "character": "Jane",
+    "stage": "proposal_extracted",
+    "human_reviews": 0,
+    "downstream_authorised": false,
+    "target_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/Jane/Geometry/SM_Jane180",
+    "vertices": 28328,
+    "triangles": 55103,
+    "height_cm": 180.0,
+    "solve_success": true,
+    "solve_seconds": 43.93699999999808,
+    "joint_count": 342,
+    "python_api_code": "<ImportErrorCode.SUCCESS: 13>",
+    "python_native_max_cm": 0.0,
+    "dna_sha256": "f7398d92ab501552417e41dabe89bf0864f4d0aa451aeb3a29b0edb9525c9de3",
+    "donor_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/Jane/Authoring/MHC_JaneDonor.MHC_JaneDonor"
+  }
+]

@@ -1,0 +1,883 @@
+{
+  "method": "Public MetaHuman posed donor joints, no geometry landmark substitution",
+  "height_cm": 180,
+  "joints": [
+    {
+      "role": "root",
+      "parent_role": null,
+      "side": "centre",
+      "position_cm": [
+        0,
+        0,
+        0
+      ],
+      "source_joint_name": "root",
+      "source_joint_index": 0,
+      "source_parent_joint": "root",
+      "original_metahuman_source_world_cm": [
+        0,
+        0,
+        0
+      ],
+      "mapped_original_lara_world_cm": [
+        -0.018607418858243567,
+        1.2396779512323117,
+        0.1160105847609377
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.85,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "pelvis",
+      "parent_role": "root",
+      "side": "centre",
+      "position_cm": [
+        0.5840033292770386,
+        3.9870738983154297,
+        101.38363647460938
+      ],
+      "source_joint_name": "pelvis",
+      "source_joint_index": 1,
+      "source_parent_joint": "root",
+      "original_metahuman_source_world_cm": [
+        0.5840033292770386,
+        101.38363647460938,
+        3.9870738983154297
+      ],
+      "mapped_original_lara_world_cm": [
+        0.3268344349617094,
+        -2.2044848374177817,
+        56.236124101977595
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_01",
+      "parent_role": "pelvis",
+      "side": "centre",
+      "position_cm": [
+        0.5644272565841675,
+        4.776899814605713,
+        109.12647247314453
+      ],
+      "source_joint_name": "spine_02",
+      "source_joint_index": 3,
+      "source_parent_joint": "spine_01",
+      "original_metahuman_source_world_cm": [
+        0.5644272565841675,
+        109.12647247314453,
+        4.776899814605713
+      ],
+      "mapped_original_lara_world_cm": [
+        0.3175471910202443,
+        -2.7363895059842878,
+        60.5162121753871
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.85,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_02",
+      "parent_role": "spine_01",
+      "side": "centre",
+      "position_cm": [
+        0.6436465978622437,
+        5.475666522979736,
+        124.43170166015625
+      ],
+      "source_joint_name": "spine_04",
+      "source_joint_index": 5,
+      "source_parent_joint": "spine_03",
+      "original_metahuman_source_world_cm": [
+        0.6436465978622437,
+        124.43170166015625,
+        5.475666522979736
+      ],
+      "mapped_original_lara_world_cm": [
+        0.3647190753409711,
+        -3.30999537581193,
+        68.98712325465506
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.85,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "spine_03",
+      "parent_role": "spine_02",
+      "side": "centre",
+      "position_cm": [
+        0.6902815699577332,
+        -1.3419198989868164,
+        137.43939208984375
+      ],
+      "source_joint_name": "spine_05",
+      "source_joint_index": 6,
+      "source_parent_joint": "spine_04",
+      "original_metahuman_source_world_cm": [
+        0.6902815699577332,
+        137.43939208984375,
+        -1.3419198989868164
+      ],
+      "mapped_original_lara_world_cm": [
+        0.3949449866752904,
+        0.3086245513969883,
+        76.27672117956783
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.85,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [],
+      "status": "automatically_accepted",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "neck_01",
+      "parent_role": "spine_03",
+      "side": "centre",
+      "position_cm": [
+        0.7336481809616089,
+        -9.163066864013672,
+        150.45700073242188
+      ],
+      "source_joint_name": "neck_01",
+      "source_joint_index": 7,
+      "source_parent_joint": "spine_05",
+      "original_metahuman_source_world_cm": [
+        0.7336481809616089,
+        150.45700073242188,
+        -9.163066864013672
+      ],
+      "mapped_original_lara_world_cm": [
+        0.4235788592486971,
+        4.483119500215081,
+        83.58404059761939
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "posterior_neck_joint_position_requires_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "head",
+      "parent_role": "neck_01",
+      "side": "centre",
+      "position_cm": [
+        1.011353850364685,
+        -2.6623544692993164,
+        159.3494110107422
+      ],
+      "source_joint_name": "head",
+      "source_joint_index": 9,
+      "source_parent_joint": "neck_02",
+      "original_metahuman_source_world_cm": [
+        1.011353850364685,
+        159.3494110107422,
+        -2.6623544692993164
+      ],
+      "mapped_original_lara_world_cm": [
+        0.5780548574119679,
+        0.7731874811200936,
+        88.43137821311322
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_l",
+      "parent_role": "spine_03",
+      "side": "left",
+      "position_cm": [
+        1.4538447856903076,
+        -6.639039993286133,
+        144.8472442626953
+      ],
+      "source_joint_name": "clavicle_l",
+      "source_joint_index": 10,
+      "source_parent_joint": "spine_05",
+      "original_metahuman_source_world_cm": [
+        1.4538447856903076,
+        144.8472442626953,
+        -6.639039993286133
+      ],
+      "mapped_original_lara_world_cm": [
+        0.8208802208121343,
+        3.15294073430415,
+        80.44519579562673
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_l",
+      "parent_role": "clavicle_l",
+      "side": "left",
+      "position_cm": [
+        13.896257400512695,
+        -2.6705265045166016,
+        139.10354614257812
+      ],
+      "source_joint_name": "upperarm_l",
+      "source_joint_index": 11,
+      "source_parent_joint": "clavicle_l",
+      "original_metahuman_source_world_cm": [
+        13.896257400512695,
+        139.10354614257812,
+        -2.6705265045166016
+      ],
+      "mapped_original_lara_world_cm": [
+        7.713780633662166,
+        1.0216399861571372,
+        77.21187015616057
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_l",
+      "parent_role": "upperarm_l",
+      "side": "left",
+      "position_cm": [
+        24.909408569335938,
+        0.33635807037353516,
+        116.10186004638672
+      ],
+      "source_joint_name": "lowerarm_l",
+      "source_joint_index": 17,
+      "source_parent_joint": "upperarm_l",
+      "original_metahuman_source_world_cm": [
+        24.909408569335938,
+        116.10186004638672,
+        0.33635807037353516
+      ],
+      "mapped_original_lara_world_cm": [
+        13.810994748504028,
+        -0.3663486226770828,
+        64.42927165138691
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_l",
+      "parent_role": "lowerarm_l",
+      "side": "left",
+      "position_cm": [
+        33.100791931152344,
+        8.833699226379395,
+        93.41477966308594
+      ],
+      "source_joint_name": "hand_l",
+      "source_joint_index": 18,
+      "source_parent_joint": "lowerarm_l",
+      "original_metahuman_source_world_cm": [
+        33.100791931152344,
+        93.41477966308594,
+        8.833699226379395
+      ],
+      "mapped_original_lara_world_cm": [
+        18.34339168404499,
+        -4.799410703993454,
+        51.75472889463352
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_l",
+      "parent_role": "pelvis",
+      "side": "left",
+      "position_cm": [
+        9.579394340515137,
+        3.3339929580688477,
+        98.52506256103516
+      ],
+      "source_joint_name": "thigh_l",
+      "source_joint_index": 309,
+      "source_parent_joint": "pelvis",
+      "original_metahuman_source_world_cm": [
+        9.579394340515137,
+        98.52506256103516,
+        3.3339929580688477
+      ],
+      "mapped_original_lara_world_cm": [
+        5.311189948656906,
+        -1.809738289202682,
+        54.65831178558709
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_l",
+      "parent_role": "thigh_l",
+      "side": "left",
+      "position_cm": [
+        14.78506851196289,
+        3.2449066638946533,
+        53.752235412597656
+      ],
+      "source_joint_name": "calf_l",
+      "source_joint_index": 310,
+      "source_parent_joint": "thigh_l",
+      "original_metahuman_source_world_cm": [
+        14.78506851196289,
+        53.752235412597656,
+        3.2449066638946533
+      ],
+      "mapped_original_lara_world_cm": [
+        8.18595349911795,
+        -1.2160348959601825,
+        29.853053197666636
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_l",
+      "parent_role": "calf_l",
+      "side": "left",
+      "position_cm": [
+        18.0073299407959,
+        -0.5429706573486328,
+        11.492603302001953
+      ],
+      "source_joint_name": "foot_l",
+      "source_joint_index": 311,
+      "source_parent_joint": "calf_l",
+      "original_metahuman_source_world_cm": [
+        18.0073299407959,
+        11.492603302001953,
+        -0.5429706573486328
+      ],
+      "mapped_original_lara_world_cm": [
+        9.96295774290052,
+        1.396683856958486,
+        6.485674566551314
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_l",
+      "parent_role": "foot_l",
+      "side": "left",
+      "position_cm": [
+        19.7733211517334,
+        12.408879280090332,
+        6.606729507446289
+      ],
+      "source_joint_name": "ball_l",
+      "source_joint_index": 312,
+      "source_parent_joint": "foot_l",
+      "original_metahuman_source_world_cm": [
+        19.7733211517334,
+        6.606729507446289,
+        12.408879280090332
+      ],
+      "mapped_original_lara_world_cm": [
+        10.937700751252981,
+        -5.719783515868168,
+        3.6206017651634523
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_r",
+      "parent_role": "spine_03",
+      "side": "right",
+      "position_cm": [
+        0.0670352578163147,
+        -6.709756851196289,
+        144.8093719482422
+      ],
+      "source_joint_name": "clavicle_r",
+      "source_joint_index": 141,
+      "source_parent_joint": "spine_05",
+      "original_metahuman_source_world_cm": [
+        0.0670352578163147,
+        144.8093719482422,
+        -6.709756851196289
+      ],
+      "mapped_original_lara_world_cm": [
+        0.05237763525554999,
+        3.1928737258022735,
+        80.42539186072281
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_r",
+      "parent_role": "clavicle_r",
+      "side": "right",
+      "position_cm": [
+        -12.390768051147461,
+        -2.542405605316162,
+        139.24256896972656
+      ],
+      "source_joint_name": "upperarm_r",
+      "source_joint_index": 142,
+      "source_parent_joint": "clavicle_r",
+      "original_metahuman_source_world_cm": [
+        -12.390768051147461,
+        139.24256896972656,
+        -2.542405605316162
+      ],
+      "mapped_original_lara_world_cm": [
+        -6.853339849294374,
+        0.9545159656811616,
+        77.29333370618322
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_r",
+      "parent_role": "upperarm_r",
+      "side": "right",
+      "position_cm": [
+        -24.6092472076416,
+        0.3557889461517334,
+        116.51264953613281
+      ],
+      "source_joint_name": "lowerarm_r",
+      "source_joint_index": 148,
+      "source_parent_joint": "upperarm_r",
+      "original_metahuman_source_world_cm": [
+        -24.6092472076416,
+        116.51264953613281,
+        0.3557889461517334
+      ],
+      "mapped_original_lara_world_cm": [
+        -13.629998520155873,
+        -0.3716604945567889,
+        64.667929072137
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "hand_r",
+      "parent_role": "lowerarm_r",
+      "side": "right",
+      "position_cm": [
+        -32.69942092895508,
+        8.31151294708252,
+        94.62911224365234
+      ],
+      "source_joint_name": "hand_r",
+      "source_joint_index": 149,
+      "source_parent_joint": "lowerarm_r",
+      "original_metahuman_source_world_cm": [
+        -32.69942092895508,
+        94.62911224365234,
+        8.31151294708252
+      ],
+      "mapped_original_lara_world_cm": [
+        -18.11983416095567,
+        -4.511005198561116,
+        52.44888338927104
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_r",
+      "parent_role": "pelvis",
+      "side": "right",
+      "position_cm": [
+        -8.440633773803711,
+        3.649487257003784,
+        98.56282043457031
+      ],
+      "source_joint_name": "thigh_r",
+      "source_joint_index": 276,
+      "source_parent_joint": "pelvis",
+      "original_metahuman_source_world_cm": [
+        -8.440633773803711,
+        98.56282043457031,
+        3.649487257003784
+      ],
+      "mapped_original_lara_world_cm": [
+        -4.674784046799433,
+        -1.981183620004241,
+        54.67950184590172
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "calf_r",
+      "parent_role": "thigh_r",
+      "side": "right",
+      "position_cm": [
+        -13.629362106323242,
+        3.3528661727905273,
+        53.68055725097656
+      ],
+      "source_joint_name": "calf_r",
+      "source_joint_index": 277,
+      "source_parent_joint": "thigh_r",
+      "original_metahuman_source_world_cm": [
+        -13.629362106323242,
+        53.68055725097656,
+        3.3528661727905273
+      ],
+      "mapped_original_lara_world_cm": [
+        -7.560124977341909,
+        -1.2689728957757582,
+        29.818515056572735
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "foot_r",
+      "parent_role": "calf_r",
+      "side": "right",
+      "position_cm": [
+        -18.15096664428711,
+        -0.5614097118377686,
+        11.49612045288086
+      ],
+      "source_joint_name": "foot_r",
+      "source_joint_index": 278,
+      "source_parent_joint": "calf_r",
+      "original_metahuman_source_world_cm": [
+        -18.15096664428711,
+        11.49612045288086,
+        -0.5614097118377686
+      ],
+      "mapped_original_lara_world_cm": [
+        -10.074389624878293,
+        1.4144928494321218,
+        6.4961044670146615
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    },
+    {
+      "role": "ball_r",
+      "parent_role": "foot_r",
+      "side": "right",
+      "position_cm": [
+        -19.947315216064453,
+        12.48759651184082,
+        6.586861610412598
+      ],
+      "source_joint_name": "ball_r",
+      "source_joint_index": 279,
+      "source_parent_joint": "foot_r",
+      "original_metahuman_source_world_cm": [
+        -19.947315216064453,
+        6.586861610412598,
+        12.48759651184082
+      ],
+      "mapped_original_lara_world_cm": [
+        -11.073766303588611,
+        -5.754764083978011,
+        3.617705674153576
+      ],
+      "direct_solved_joint": true,
+      "postprocessing": "axis conversion and inverse target normalisation only; explicit hierarchy contraction for spine/neck",
+      "evidence_sources": [
+        "LoadDNAFromFile(Source/Transform) + IDNAReader + UE::MetaHuman::GetJointWorldTranslations",
+        "public Python joint readback agrees exactly",
+        "unchanged target cross-section screens applied separately"
+      ],
+      "confidence_score": 0.65,
+      "confidence_score_kind": "prototype evidence score, not probability",
+      "ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ],
+      "status": "ambiguous",
+      "competing_candidates": [],
+      "manual_correction": null
+    }
+  ],
+  "mapping_policy": "Retain MetaHuman spine 02/04/05 as canonical 01/02/03; collapse intervening joints and neck_02 without moving retained points. Selected by topology, before control evaluation.",
+  "acceptance_policy": "Root and supported axial spine points are provisional candidates under the existing 4B score/no-flags rule. Every other articulation needs independent target review; names do not certify position.",
+  "input_geometry_sha256": "ecce962a27217d263629134421b61a50644e0eec1f1ab49ae044cb229c286dd4",
+  "donor_sha256": "a88062db0b7d6c8dbb8d470e0b241d80b235b20b37e8545d68dd833f486cacb4",
+  "control_used_for_initialisation": false,
+  "downstream_authorised": false
+}

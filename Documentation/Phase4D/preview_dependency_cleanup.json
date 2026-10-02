@@ -1,0 +1,8 @@
+{
+  "status": "saved",
+  "intent": "Replace accidental Skeleton authoring-mesh preview with final Lara mesh; keep all reference transforms unchanged",
+  "asset": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SKEL_Lara.SKEL_Lara",
+  "preview": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+  "reference_transforms_identical": true,
+  "native_guard": "Both mesh and skeleton must belong to Phase4D namespace"
+}

@@ -1,0 +1,3928 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "utc_epoch": 1790862962.8674288,
+      "kind": "start",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "start"
+      }
+    },
+    {
+      "id": 2,
+      "utc_epoch": 1790863106.6105523,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pelvis"
+      }
+    },
+    {
+      "id": 3,
+      "utc_epoch": 1790863137.0206974,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pelvis"
+      }
+    },
+    {
+      "id": 4,
+      "utc_epoch": 1790863165.0793455,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "pelvis"
+      }
+    },
+    {
+      "id": 5,
+      "utc_epoch": 1790863194.8602633,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 6,
+      "utc_epoch": 1790863251.9475834,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 7,
+      "utc_epoch": 1790863300.8855703,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "pelvis"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "pelvis": [
+            0.10307380557060242,
+            -1.628673791885376,
+            95.82306671142578
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "utc_epoch": 1790865286.902288,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 9,
+      "utc_epoch": 1790865338.050281,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "neck_01"
+      }
+    },
+    {
+      "id": 10,
+      "utc_epoch": 1790865338.0572789,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 11,
+      "utc_epoch": 1790865363.9731374,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 12,
+      "utc_epoch": 1790865413.0843914,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "neck_01"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "neck_01": [
+            -0.11290943622589111,
+            -6.310903549194336,
+            148.3011932373047
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "utc_epoch": 1790865413.7629273,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "head"
+      }
+    },
+    {
+      "id": 14,
+      "utc_epoch": 1790865413.770698,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 15,
+      "utc_epoch": 1790865473.2558882,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 16,
+      "utc_epoch": 1790865566.391204,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "head"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "head": [
+            0.10363438725471497,
+            -4.275839328765869,
+            157.67886352539062
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "utc_epoch": 1790865567.0730157,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "upperarm_l"
+      }
+    },
+    {
+      "id": 18,
+      "utc_epoch": 1790865567.0810153,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 19,
+      "utc_epoch": 1790865616.291688,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 20,
+      "utc_epoch": 1790865647.3557246,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "upperarm_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "upperarm_l": [
+            23.37337875366211,
+            -8.953336715698242,
+            138.05743408203125
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "utc_epoch": 1790865648.0405238,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "clavicle_l"
+      }
+    },
+    {
+      "id": 22,
+      "utc_epoch": 1790865648.0490355,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 23,
+      "utc_epoch": 1790865674.1317031,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 24,
+      "utc_epoch": 1790865698.161161,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "clavicle_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "clavicle_l": [
+            1.555513858795166,
+            -7.228282928466797,
+            141.70518493652344
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "utc_epoch": 1790865698.839566,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "lowerarm_l"
+      }
+    },
+    {
+      "id": 26,
+      "utc_epoch": 1790865698.8473058,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 27,
+      "utc_epoch": 1790865716.488531,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 28,
+      "utc_epoch": 1790865742.8593364,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "lowerarm_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "lowerarm_l": [
+            34.438514709472656,
+            -10.179544448852539,
+            111.53286743164062
+          ]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "utc_epoch": 1790865743.5468218,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "hand_l"
+      }
+    },
+    {
+      "id": 30,
+      "utc_epoch": 1790865743.5548236,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 31,
+      "utc_epoch": 1790865756.4710207,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 32,
+      "utc_epoch": 1790865782.2684538,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "hand_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "hand_l": [
+            42.01698684692383,
+            -3.2924795150756836,
+            88.38768768310547
+          ]
+        }
+      }
+    },
+    {
+      "id": 33,
+      "utc_epoch": 1790865782.9338748,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "upperarm_r"
+      }
+    },
+    {
+      "id": 34,
+      "utc_epoch": 1790865782.951768,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 35,
+      "utc_epoch": 1790865801.8524592,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 36,
+      "utc_epoch": 1790865826.7645884,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "upperarm_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "upperarm_r": [
+            -23.43759536743164,
+            -8.665414810180664,
+            138.15135192871094
+          ]
+        }
+      }
+    },
+    {
+      "id": 37,
+      "utc_epoch": 1790865827.4514713,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "clavicle_r"
+      }
+    },
+    {
+      "id": 38,
+      "utc_epoch": 1790865827.4607053,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 39,
+      "utc_epoch": 1790865839.5146048,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 40,
+      "utc_epoch": 1790865867.0368516,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "clavicle_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "clavicle_r": [
+            -1.5769591331481934,
+            -7.197674751281738,
+            141.65269470214844
+          ]
+        }
+      }
+    },
+    {
+      "id": 41,
+      "utc_epoch": 1790865867.7173908,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "lowerarm_r"
+      }
+    },
+    {
+      "id": 42,
+      "utc_epoch": 1790865867.726926,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 43,
+      "utc_epoch": 1790865879.9827282,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 44,
+      "utc_epoch": 1790865908.4074147,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "lowerarm_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "lowerarm_r": [
+            -34.37824630737305,
+            -10.039040565490723,
+            111.62554168701172
+          ]
+        }
+      }
+    },
+    {
+      "id": 45,
+      "utc_epoch": 1790865909.0825796,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "hand_r"
+      }
+    },
+    {
+      "id": 46,
+      "utc_epoch": 1790865909.0930882,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "arms"
+      }
+    },
+    {
+      "id": 47,
+      "utc_epoch": 1790865919.7043676,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 48,
+      "utc_epoch": 1790865945.6908295,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "hand_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "hand_r": [
+            -42.050960540771484,
+            -3.3462963104248047,
+            88.26927947998047
+          ]
+        }
+      }
+    },
+    {
+      "id": 49,
+      "utc_epoch": 1790865946.3745852,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thigh_l"
+      }
+    },
+    {
+      "id": 50,
+      "utc_epoch": 1790865946.3856049,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 51,
+      "utc_epoch": 1790865959.213437,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 52,
+      "utc_epoch": 1790865988.0995336,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "thigh_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "thigh_l": [
+            9.064400672912598,
+            -1.9173508882522583,
+            90.33855438232422
+          ]
+        }
+      }
+    },
+    {
+      "id": 53,
+      "utc_epoch": 1790865988.782211,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "calf_l"
+      }
+    },
+    {
+      "id": 54,
+      "utc_epoch": 1790865988.7947192,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 55,
+      "utc_epoch": 1790866004.8462725,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 56,
+      "utc_epoch": 1790866025.0654743,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "calf_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "calf_l": [
+            15.017048835754395,
+            -4.284300327301025,
+            49.55315399169922
+          ]
+        }
+      }
+    },
+    {
+      "id": 57,
+      "utc_epoch": 1790866025.7324543,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "foot_l"
+      }
+    },
+    {
+      "id": 58,
+      "utc_epoch": 1790866025.743455,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "feet"
+      }
+    },
+    {
+      "id": 59,
+      "utc_epoch": 1790866038.2376943,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 60,
+      "utc_epoch": 1790866067.0504544,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "foot_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "foot_l": [
+            16.222156524658203,
+            -11.182873725891113,
+            9.819072723388672
+          ]
+        }
+      }
+    },
+    {
+      "id": 61,
+      "utc_epoch": 1790866067.730754,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ball_l"
+      }
+    },
+    {
+      "id": 62,
+      "utc_epoch": 1790866067.7417517,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "feet"
+      }
+    },
+    {
+      "id": 63,
+      "utc_epoch": 1790866080.4327273,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 64,
+      "utc_epoch": 1790866103.1389937,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "ball_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "ball_l": [
+            18.89809226989746,
+            4.2567291259765625,
+            1.713231086730957
+          ]
+        }
+      }
+    },
+    {
+      "id": 65,
+      "utc_epoch": 1790866103.812083,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thigh_r"
+      }
+    },
+    {
+      "id": 66,
+      "utc_epoch": 1790866103.8245838,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 67,
+      "utc_epoch": 1790866115.6503615,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 68,
+      "utc_epoch": 1790866139.153749,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "thigh_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "thigh_r": [
+            -8.898444175720215,
+            -1.8754589557647705,
+            90.40269470214844
+          ]
+        }
+      }
+    },
+    {
+      "id": 69,
+      "utc_epoch": 1790866139.8363662,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "calf_r"
+      }
+    },
+    {
+      "id": 70,
+      "utc_epoch": 1790866139.8484755,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 71,
+      "utc_epoch": 1790866150.7019677,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 72,
+      "utc_epoch": 1790866173.4499207,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "calf_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "calf_r": [
+            -15.047327995300293,
+            -4.365208148956299,
+            49.012508392333984
+          ]
+        }
+      }
+    },
+    {
+      "id": 73,
+      "utc_epoch": 1790866174.1347864,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "foot_r"
+      }
+    },
+    {
+      "id": 74,
+      "utc_epoch": 1790866174.1465998,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "feet"
+      }
+    },
+    {
+      "id": 75,
+      "utc_epoch": 1790866183.9736238,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 76,
+      "utc_epoch": 1790866208.5809023,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "foot_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "foot_r": [
+            -16.0981388092041,
+            -11.1641845703125,
+            9.603378295898438
+          ]
+        }
+      }
+    },
+    {
+      "id": 77,
+      "utc_epoch": 1790866209.258175,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ball_r"
+      }
+    },
+    {
+      "id": 78,
+      "utc_epoch": 1790866209.2716901,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "feet"
+      }
+    },
+    {
+      "id": 79,
+      "utc_epoch": 1790866219.0531769,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "side"
+      }
+    },
+    {
+      "id": 80,
+      "utc_epoch": 1790866221.0533328,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "front"
+      }
+    },
+    {
+      "id": 81,
+      "utc_epoch": 1790866245.36337,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "ball_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "ball_r": [
+            -20.44864273071289,
+            3.932969093322754,
+            1.9024138450622559
+          ]
+        }
+      }
+    },
+    {
+      "id": 82,
+      "utc_epoch": 1790866246.0313046,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 83,
+      "utc_epoch": 1790866398.535544,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 84,
+      "utc_epoch": 1790866398.5495558,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 85,
+      "utc_epoch": 1790866432.7645955,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 86,
+      "utc_epoch": 1790866432.7781289,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_5_l"
+      }
+    },
+    {
+      "id": 87,
+      "utc_epoch": 1790866507.471047,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 88,
+      "utc_epoch": 1790866515.117358,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_front"
+      }
+    },
+    {
+      "id": 89,
+      "utc_epoch": 1790866533.9135437,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 90,
+      "utc_epoch": 1790866564.588934,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "thumb",
+        "track_id": "digit_branch_5_l"
+      }
+    },
+    {
+      "id": 91,
+      "utc_epoch": 1790866581.270488,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 92,
+      "utc_epoch": 1790866581.2844925,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_4_l"
+      }
+    },
+    {
+      "id": 93,
+      "utc_epoch": 1790866660.0132692,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "pinky",
+        "track_id": "digit_branch_4_l"
+      }
+    },
+    {
+      "id": 94,
+      "utc_epoch": 1790866667.357514,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 95,
+      "utc_epoch": 1790866667.3720386,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 96,
+      "utc_epoch": 1790866703.3543162,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "index",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 97,
+      "utc_epoch": 1790866709.369551,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 98,
+      "utc_epoch": 1790866709.3856292,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 99,
+      "utc_epoch": 1790866726.0254045,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "index",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 100,
+      "utc_epoch": 1790866731.3723722,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 101,
+      "utc_epoch": 1790866731.3884242,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 102,
+      "utc_epoch": 1790866738.9760323,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "middle",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 103,
+      "utc_epoch": 1790866841.6363113,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_front"
+      }
+    },
+    {
+      "id": 104,
+      "utc_epoch": 1790866865.5005937,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thumb_l:root"
+      }
+    },
+    {
+      "id": 105,
+      "utc_epoch": 1790866882.1686144,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 106,
+      "utc_epoch": 1790866882.1856701,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_5_l"
+      }
+    },
+    {
+      "id": 107,
+      "utc_epoch": 1790866896.6004608,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thumb_l:root"
+      }
+    },
+    {
+      "id": 108,
+      "utc_epoch": 1790866912.1869972,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thumb_l:tip"
+      }
+    },
+    {
+      "id": 109,
+      "utc_epoch": 1790866934.3915162,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "thumb_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "thumb_l": {
+            "side": "l",
+            "digit": "thumb",
+            "track_id": "digit_branch_5_l",
+            "root_cm": [
+              36.41102229791586,
+              4.268401957379203,
+              81.4674398914847
+            ],
+            "tip_cm": [
+              34.9878094796309,
+              6.204314379216903,
+              76.26743989148463
+            ],
+            "path_cm": [
+              [
+                36.41102229791586,
+                4.268401957379203,
+                81.4674398914847
+              ],
+              [
+                36.22353581803837,
+                4.40702516513955,
+                81.0674398914847
+              ],
+              [
+                36.08485748773595,
+                4.542067900182287,
+                80.66743989148469
+              ],
+              [
+                35.95943155870988,
+                4.652450002692187,
+                80.26743989148468
+              ],
+              [
+                35.825321450601734,
+                4.764444034683409,
+                79.86743989148468
+              ],
+              [
+                35.708098453111134,
+                4.862307566980532,
+                79.46743989148467
+              ],
+              [
+                35.60672664497859,
+                4.889252988038335,
+                79.06743989148467
+              ],
+              [
+                35.531323866044545,
+                5.005180481069003,
+                78.66743989148466
+              ],
+              [
+                35.45888248617056,
+                5.200086115583648,
+                78.26743989148466
+              ],
+              [
+                35.3481223273825,
+                5.403260718758257,
+                77.86743989148465
+              ],
+              [
+                35.21688454137251,
+                5.634884119694631,
+                77.46743989148464
+              ],
+              [
+                35.11688454137251,
+                5.848639407739623,
+                77.06743989148464
+              ],
+              [
+                35.06173676614546,
+                6.032391038613636,
+                76.66743989148463
+              ],
+              [
+                34.9878094796309,
+                6.204314379216903,
+                76.26743989148463
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                36.41102229791586,
+                4.268401957379203,
+                81.4674398914847
+              ],
+              [
+                35.573636694913105,
+                4.940126908201901,
+                78.89190285938442
+              ],
+              [
+                35.179096680360594,
+                5.715657670846684,
+                77.31628844743699
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.4848051813872974,
+              0.797044465394996
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 110,
+      "utc_epoch": 1790867027.0636234,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 111,
+      "utc_epoch": 1790867027.0796576,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_4_l"
+      }
+    },
+    {
+      "id": 112,
+      "utc_epoch": 1790867036.2388003,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:tip"
+      }
+    },
+    {
+      "id": 113,
+      "utc_epoch": 1790867040.2391431,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:root"
+      }
+    },
+    {
+      "id": 114,
+      "utc_epoch": 1790867055.5539193,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "pinky_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "pinky_l": {
+            "side": "l",
+            "digit": "pinky",
+            "track_id": "digit_branch_4_l",
+            "root_cm": [
+              46.37343922037455,
+              -7.180419170451536,
+              77.06743989148464
+            ],
+            "tip_cm": [
+              43.435286495352564,
+              -7.610156027404228,
+              70.66743989148455
+            ],
+            "path_cm": [
+              [
+                46.37343922037455,
+                -7.180419170451536,
+                77.06743989148464
+              ],
+              [
+                46.33992438567898,
+                -7.226989731767143,
+                76.66743989148463
+              ],
+              [
+                46.29992438567898,
+                -7.283874698052726,
+                76.26743989148463
+              ],
+              [
+                46.246435021293216,
+                -7.316185672720135,
+                75.86743989148462
+              ],
+              [
+                46.14008203674702,
+                -7.341185672720135,
+                75.46743989148462
+              ],
+              [
+                45.9635430887994,
+                -7.391646715712828,
+                75.06743989148461
+              ],
+              [
+                45.78940096509817,
+                -7.457135819828302,
+                74.6674398914846
+              ],
+              [
+                45.620923285410775,
+                -7.474363736131966,
+                74.2674398914846
+              ],
+              [
+                45.47702881699846,
+                -7.4866936295880855,
+                73.8674398914846
+              ],
+              [
+                45.04135970311674,
+                -7.5152651126551895,
+                73.46743989148459
+              ],
+              [
+                44.677658820303265,
+                -7.557766364625909,
+                73.06743989148458
+              ],
+              [
+                44.36677376812764,
+                -7.5505010287771,
+                72.66743989148458
+              ],
+              [
+                44.10855791505436,
+                -7.538169046539991,
+                72.26743989148457
+              ],
+              [
+                43.8514150579115,
+                -7.562296688942496,
+                71.86743989148457
+              ],
+              [
+                43.65506848968296,
+                -7.562296688942497,
+                71.46743989148456
+              ],
+              [
+                43.508515406097345,
+                -7.579027191028559,
+                71.06743989148455
+              ],
+              [
+                43.435286495352564,
+                -7.610156027404228,
+                70.66743989148455
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                46.37343922037455,
+                -7.180419170451536,
+                77.06743989148464
+              ],
+              [
+                45.33385077121023,
+                -7.49608334527018,
+                73.73598412266725
+              ],
+              [
+                43.94290434448933,
+                -7.553712274758346,
+                72.00975655949452
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.49216395019008025,
+              0.7999433743173043
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 115,
+      "utc_epoch": 1790867275.550439,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 116,
+      "utc_epoch": 1790867275.5689452,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 117,
+      "utc_epoch": 1790867289.7001526,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 118,
+      "utc_epoch": 1790867295.715638,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:root"
+      }
+    },
+    {
+      "id": 119,
+      "utc_epoch": 1790867295.7436156,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 120,
+      "utc_epoch": 1790867330.3792365,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 121,
+      "utc_epoch": 1790867330.3967557,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 122,
+      "utc_epoch": 1790867341.4918175,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:root"
+      }
+    },
+    {
+      "id": 123,
+      "utc_epoch": 1790867348.8244948,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:tip"
+      }
+    },
+    {
+      "id": 124,
+      "utc_epoch": 1790867411.4822497,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 125,
+      "utc_epoch": 1790867411.5007663,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 126,
+      "utc_epoch": 1790867437.7675612,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 127,
+      "utc_epoch": 1790867437.787071,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 128,
+      "utc_epoch": 1790867455.6809485,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:tip"
+      }
+    },
+    {
+      "id": 129,
+      "utc_epoch": 1790867484.477236,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_front"
+      }
+    },
+    {
+      "id": 130,
+      "utc_epoch": 1790867512.5938456,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 131,
+      "utc_epoch": 1790867512.6134696,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 132,
+      "utc_epoch": 1790867529.2485876,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 133,
+      "utc_epoch": 1790867529.2676158,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 134,
+      "utc_epoch": 1790867554.5955083,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 135,
+      "utc_epoch": 1790867554.6145275,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 136,
+      "utc_epoch": 1790867576.102286,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 137,
+      "utc_epoch": 1790867581.3823395,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_front"
+      }
+    },
+    {
+      "id": 138,
+      "utc_epoch": 1790867596.814603,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 139,
+      "utc_epoch": 1790867596.8341653,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 140,
+      "utc_epoch": 1790867644.3665564,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_front"
+      }
+    },
+    {
+      "id": 141,
+      "utc_epoch": 1790867666.978691,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 142,
+      "utc_epoch": 1790867666.9972265,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 143,
+      "utc_epoch": 1790867681.9034235,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 144,
+      "utc_epoch": 1790867681.9233215,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 145,
+      "utc_epoch": 1790867694.4274204,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 146,
+      "utc_epoch": 1790867694.4474344,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_4_l"
+      }
+    },
+    {
+      "id": 147,
+      "utc_epoch": 1790867719.3268037,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:tip"
+      }
+    },
+    {
+      "id": 148,
+      "utc_epoch": 1790867727.1120877,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:root"
+      }
+    },
+    {
+      "id": 149,
+      "utc_epoch": 1790867735.8325698,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "pinky_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "pinky_l": {
+            "side": "l",
+            "digit": "pinky",
+            "track_id": "digit_branch_4_l",
+            "root_cm": [
+              46.37343922037455,
+              -7.180419170451536,
+              77.06743989148464
+            ],
+            "tip_cm": [
+              43.435286495352564,
+              -7.610156027404228,
+              70.66743989148455
+            ],
+            "path_cm": [
+              [
+                46.37343922037455,
+                -7.180419170451536,
+                77.06743989148464
+              ],
+              [
+                46.33992438567898,
+                -7.226989731767143,
+                76.66743989148463
+              ],
+              [
+                46.29992438567898,
+                -7.283874698052726,
+                76.26743989148463
+              ],
+              [
+                46.246435021293216,
+                -7.316185672720135,
+                75.86743989148462
+              ],
+              [
+                46.14008203674702,
+                -7.341185672720135,
+                75.46743989148462
+              ],
+              [
+                45.9635430887994,
+                -7.391646715712828,
+                75.06743989148461
+              ],
+              [
+                45.78940096509817,
+                -7.457135819828302,
+                74.6674398914846
+              ],
+              [
+                45.620923285410775,
+                -7.474363736131966,
+                74.2674398914846
+              ],
+              [
+                45.47702881699846,
+                -7.4866936295880855,
+                73.8674398914846
+              ],
+              [
+                45.04135970311674,
+                -7.5152651126551895,
+                73.46743989148459
+              ],
+              [
+                44.677658820303265,
+                -7.557766364625909,
+                73.06743989148458
+              ],
+              [
+                44.36677376812764,
+                -7.5505010287771,
+                72.66743989148458
+              ],
+              [
+                44.10855791505436,
+                -7.538169046539991,
+                72.26743989148457
+              ],
+              [
+                43.8514150579115,
+                -7.562296688942496,
+                71.86743989148457
+              ],
+              [
+                43.65506848968296,
+                -7.562296688942497,
+                71.46743989148456
+              ],
+              [
+                43.508515406097345,
+                -7.579027191028559,
+                71.06743989148455
+              ],
+              [
+                43.435286495352564,
+                -7.610156027404228,
+                70.66743989148455
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                46.37343922037455,
+                -7.180419170451536,
+                77.06743989148464
+              ],
+              [
+                45.33385077121023,
+                -7.49608334527018,
+                73.73598412266725
+              ],
+              [
+                43.94290434448933,
+                -7.553712274758346,
+                72.00975655949452
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.49216395019008025,
+              0.7999433743173043
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 150,
+      "utc_epoch": 1790867779.9829679,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 151,
+      "utc_epoch": 1790867780.0029862,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 152,
+      "utc_epoch": 1790867785.062318,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:root"
+      }
+    },
+    {
+      "id": 153,
+      "utc_epoch": 1790867909.150502,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "index",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 154,
+      "utc_epoch": 1790867952.891806,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 155,
+      "utc_epoch": 1790867952.9113433,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 156,
+      "utc_epoch": 1790867957.5486636,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "l",
+        "digit": "ring",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 157,
+      "utc_epoch": 1790867968.235599,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_l:root"
+      }
+    },
+    {
+      "id": 158,
+      "utc_epoch": 1790867973.698115,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_l:tip"
+      }
+    },
+    {
+      "id": 159,
+      "utc_epoch": 1790867986.0248675,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 160,
+      "utc_epoch": 1790867986.047419,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_1_l"
+      }
+    },
+    {
+      "id": 161,
+      "utc_epoch": 1790868002.3340628,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_l:tip"
+      }
+    },
+    {
+      "id": 162,
+      "utc_epoch": 1790868021.4304693,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "middle_l:tip"
+      }
+    },
+    {
+      "id": 163,
+      "utc_epoch": 1790868031.5781617,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "middle_l:root"
+      }
+    },
+    {
+      "id": 164,
+      "utc_epoch": 1790868035.981521,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "middle_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "middle_l": {
+            "side": "l",
+            "digit": "middle",
+            "track_id": "digit_branch_1_l",
+            "root_cm": [
+              45.69842092585413,
+              0.36504378129117176,
+              76.66743989148463
+            ],
+            "tip_cm": [
+              43.331295900325614,
+              -0.11897650851516994,
+              67.0674398914845
+            ],
+            "path_cm": [
+              [
+                45.69842092585413,
+                0.36504378129117176,
+                76.66743989148463
+              ],
+              [
+                45.7367519734907,
+                0.39361531885395096,
+                76.26743989148463
+              ],
+              [
+                45.72818054491927,
+                0.41629854072599515,
+                75.86743989148462
+              ],
+              [
+                45.71960911634785,
+                0.4385208343582212,
+                75.46743989148462
+              ],
+              [
+                45.71578213111356,
+                0.47416180157596255,
+                75.06743989148461
+              ],
+              [
+                45.70745526661398,
+                0.5105255553148998,
+                74.6674398914846
+              ],
+              [
+                45.67504181600039,
+                0.5327718170166723,
+                74.2674398914846
+              ],
+              [
+                45.604272585231165,
+                0.5339129013338129,
+                73.8674398914846
+              ],
+              [
+                45.51366578647699,
+                0.4818921857363262,
+                73.46743989148459
+              ],
+              [
+                45.41674603696639,
+                0.4665076637184268,
+                73.06743989148458
+              ],
+              [
+                45.315473967050885,
+                0.4511231417005276,
+                72.66743989148458
+              ],
+              [
+                45.21833110990803,
+                0.4350261803865402,
+                72.26743989148457
+              ],
+              [
+                45.14257238233983,
+                0.41684443849866704,
+                71.86743989148457
+              ],
+              [
+                44.92667216794526,
+                0.39866265876664697,
+                71.46743989148456
+              ],
+              [
+                44.65394489521799,
+                0.33188078314284253,
+                71.06743989148455
+              ],
+              [
+                44.43224851124886,
+                0.23530364052166264,
+                70.66743989148455
+              ],
+              [
+                44.198915177915524,
+                0.10721499053147443,
+                70.26743989148454
+              ],
+              [
+                44.004674346044645,
+                0.027215066825417855,
+                69.86743989148454
+              ],
+              [
+                43.82285616422646,
+                -0.052772032222578424,
+                69.46743989148453
+              ],
+              [
+                43.63873727618473,
+                -0.11052310496031115,
+                69.06743989148453
+              ],
+              [
+                43.4501658476133,
+                -0.16444907508784024,
+                68.66743989148452
+              ],
+              [
+                43.31918540674326,
+                -0.2068244453811866,
+                68.26743989148451
+              ],
+              [
+                43.230337179898086,
+                -0.21984366935821698,
+                67.86743989148451
+              ],
+              [
+                43.23849938618599,
+                -0.15949311813637884,
+                67.4674398914845
+              ],
+              [
+                43.331295900325614,
+                -0.11897650851516994,
+                67.0674398914845
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                45.69842092585413,
+                0.36504378129117176,
+                76.66743989148463
+              ],
+              [
+                45.07232811634876,
+                0.41092890119700837,
+                71.73729779563152
+              ],
+              [
+                43.61570287558014,
+                -0.11711027677270466,
+                69.01857904171722
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.4921443986809386,
+              0.7999356722076425
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 165,
+      "utc_epoch": 1790868087.3317397,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 166,
+      "utc_epoch": 1790868087.3542836,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_3_l"
+      }
+    },
+    {
+      "id": 167,
+      "utc_epoch": 1790868091.6698887,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:root"
+      }
+    },
+    {
+      "id": 168,
+      "utc_epoch": 1790868097.9584997,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "index_l:tip"
+      }
+    },
+    {
+      "id": 169,
+      "utc_epoch": 1790868102.5319037,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "index_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "index_l": {
+            "side": "l",
+            "digit": "index",
+            "track_id": "digit_branch_3_l",
+            "root_cm": [
+              43.71344457198133,
+              3.914297688908574,
+              77.06743989148464
+            ],
+            "tip_cm": [
+              40.67360781592035,
+              3.2479595366142697,
+              68.66743989148452
+            ],
+            "path_cm": [
+              [
+                43.71344457198133,
+                3.914297688908574,
+                77.06743989148464
+              ],
+              [
+                43.680111238647996,
+                3.9941958029508187,
+                76.66743989148463
+              ],
+              [
+                43.64066021182971,
+                4.066723174870892,
+                76.26743989148463
+              ],
+              [
+                43.60405481633758,
+                4.127474476953399,
+                75.86743989148462
+              ],
+              [
+                43.52634352133646,
+                4.160758181718211,
+                75.46743989148462
+              ],
+              [
+                43.344282932145916,
+                4.187547924321012,
+                75.06743989148461
+              ],
+              [
+                43.18670717457015,
+                4.131334259283346,
+                74.6674398914846
+              ],
+              [
+                43.02787014713206,
+                4.098220683969355,
+                74.2674398914846
+              ],
+              [
+                42.856441575703485,
+                4.065753290218086,
+                73.8674398914846
+              ],
+              [
+                42.68501300427492,
+                4.043058053432314,
+                73.46743989148459
+              ],
+              [
+                42.60247322758691,
+                4.026391386765647,
+                73.06743989148458
+              ],
+              [
+                42.309909190378434,
+                4.00972472009898,
+                72.66743989148458
+              ],
+              [
+                42.038480618949855,
+                3.8658470606774817,
+                72.26743989148457
+              ],
+              [
+                41.82872505617239,
+                3.717811143661697,
+                71.86743989148457
+              ],
+              [
+                41.599465431374,
+                3.5941182058435537,
+                71.46743989148456
+              ],
+              [
+                41.366646403697544,
+                3.48694105155748,
+                71.06743989148455
+              ],
+              [
+                41.16664640369754,
+                3.3652807108065272,
+                70.66743989148455
+              ],
+              [
+                40.95270119864696,
+                3.2363590509204014,
+                70.26743989148454
+              ],
+              [
+                40.73733521652582,
+                3.1526510168148363,
+                69.86743989148454
+              ],
+              [
+                40.59544857187227,
+                3.1128088685836435,
+                69.46743989148453
+              ],
+              [
+                40.565033273849394,
+                3.1386656132354975,
+                69.06743989148453
+              ],
+              [
+                40.67360781592035,
+                3.2479595366142697,
+                68.66743989148452
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                43.71344457198133,
+                3.914297688908574,
+                77.06743989148464
+              ],
+              [
+                42.260756693958115,
+                3.9836701816896376,
+                72.595004633602
+              ],
+              [
+                40.976185156776666,
+                3.250510295217096,
+                70.31134638263333
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.5167604910795774,
+              0.8096329207283184
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 170,
+      "utc_epoch": 1790868131.6467042,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 171,
+      "utc_epoch": 1790868131.6692557,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "l",
+        "track_id": "digit_branch_2_l"
+      }
+    },
+    {
+      "id": 172,
+      "utc_epoch": 1790868135.0431647,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_l:tip"
+      }
+    },
+    {
+      "id": 173,
+      "utc_epoch": 1790868142.4859235,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_l:root"
+      }
+    },
+    {
+      "id": 174,
+      "utc_epoch": 1790868148.0778513,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "ring_l"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "ring_l": {
+            "side": "l",
+            "digit": "ring",
+            "track_id": "digit_branch_2_l",
+            "root_cm": [
+              46.82816328289232,
+              -3.3625845900706,
+              76.66743989148463
+            ],
+            "tip_cm": [
+              44.58791534592114,
+              -3.7483856147848376,
+              67.4674398914845
+            ],
+            "path_cm": [
+              [
+                46.82816328289232,
+                -3.3625845900706,
+                76.66743989148463
+              ],
+              [
+                46.961496616225645,
+                -3.3379204590896787,
+                76.26743989148463
+              ],
+              [
+                47.031935736427144,
+                -3.3182234547136424,
+                75.86743989148462
+              ],
+              [
+                47.07155953597966,
+                -3.2985264503376066,
+                75.46743989148462
+              ],
+              [
+                47.091482856095126,
+                -3.280267272830289,
+                75.06743989148461
+              ],
+              [
+                47.1129114275237,
+                -3.2620854546484708,
+                74.6674398914846
+              ],
+              [
+                47.16444948666718,
+                -3.253552883165159,
+                74.2674398914846
+              ],
+              [
+                47.036032614820556,
+                -3.2535528103391202,
+                73.8674398914846
+              ],
+              [
+                46.91637449516243,
+                -3.253552814548611,
+                73.46743989148459
+              ],
+              [
+                46.79730295275465,
+                -3.2672867598020874,
+                73.06743989148458
+              ],
+              [
+                46.68016009561178,
+                -3.2826713140537342,
+                72.66743989148458
+              ],
+              [
+                46.565109326332774,
+                -3.298391110407489,
+                72.26743989148457
+              ],
+              [
+                46.502714721899366,
+                -3.323390945681926,
+                71.86743989148457
+              ],
+              [
+                46.19723348795942,
+                -3.35989903065141,
+                71.46743989148456
+              ],
+              [
+                45.94703387129287,
+                -3.3913535861638917,
+                71.06743989148455
+              ],
+              [
+                45.70243812114821,
+                -3.4686536366765255,
+                70.66743989148455
+              ],
+              [
+                45.49254542661967,
+                -3.516287298930831,
+                70.26743989148454
+              ],
+              [
+                45.27836138972566,
+                -3.565735268590455,
+                69.86743989148454
+              ],
+              [
+                45.08424076028342,
+                -3.6046792111244272,
+                69.46743989148453
+              ],
+              [
+                44.89339287253084,
+                -3.629110909748361,
+                69.06743989148453
+              ],
+              [
+                44.72988464684097,
+                -3.678291495446415,
+                68.66743989148452
+              ],
+              [
+                44.600740517057524,
+                -3.7320203270563566,
+                68.26743989148451
+              ],
+              [
+                44.567031532779794,
+                -3.7328690936805584,
+                67.86743989148451
+              ],
+              [
+                44.58791534592114,
+                -3.7483856147848376,
+                67.4674398914845
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                46.82816328289232,
+                -3.3625845900706,
+                76.66743989148463
+              ],
+              [
+                46.580782707680825,
+                -3.296249600493995,
+                72.32193194380642
+              ],
+              [
+                45.09003702526526,
+                -3.603516380512281,
+                69.47938352673545
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.45388719293627533,
+              0.7848646517627751
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 175,
+      "utc_epoch": 1790868205.4255755,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_l:root"
+      }
+    },
+    {
+      "id": 176,
+      "utc_epoch": 1790868205.449344,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_l_top"
+      }
+    },
+    {
+      "id": 177,
+      "utc_epoch": 1790868208.74348,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 178,
+      "utc_epoch": 1790868210.7422955,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 179,
+      "utc_epoch": 1790868212.0736833,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 180,
+      "utc_epoch": 1790868266.7612123,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 181,
+      "utc_epoch": 1790868266.785537,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_5_r"
+      }
+    },
+    {
+      "id": 182,
+      "utc_epoch": 1790868284.8912928,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "r",
+        "digit": "thumb",
+        "track_id": "digit_branch_5_r"
+      }
+    },
+    {
+      "id": 183,
+      "utc_epoch": 1790868301.5492985,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 184,
+      "utc_epoch": 1790868301.5733087,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_5_r"
+      }
+    },
+    {
+      "id": 185,
+      "utc_epoch": 1790868306.8796341,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_front"
+      }
+    },
+    {
+      "id": 186,
+      "utc_epoch": 1790868328.798443,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thumb_r:root"
+      }
+    },
+    {
+      "id": 187,
+      "utc_epoch": 1790868333.0579658,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "thumb_r:tip"
+      }
+    },
+    {
+      "id": 188,
+      "utc_epoch": 1790868346.5826187,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 189,
+      "utc_epoch": 1790868346.6081858,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_4_r"
+      }
+    },
+    {
+      "id": 190,
+      "utc_epoch": 1790868366.2318225,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 191,
+      "utc_epoch": 1790868366.2568483,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_5_r"
+      }
+    },
+    {
+      "id": 192,
+      "utc_epoch": 1790868376.9944034,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "thumb_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "thumb_r": {
+            "side": "r",
+            "digit": "thumb",
+            "track_id": "digit_branch_5_r",
+            "root_cm": [
+              -36.41102229791586,
+              4.26841134969687,
+              81.4674398914847
+            ],
+            "tip_cm": [
+              -34.9878094796309,
+              6.20432377153457,
+              76.26743989148463
+            ],
+            "path_cm": [
+              [
+                -36.41102229791586,
+                4.26841134969687,
+                81.4674398914847
+              ],
+              [
+                -36.22353581803837,
+                4.407034557457217,
+                81.0674398914847
+              ],
+              [
+                -36.08485748773595,
+                4.542077292499954,
+                80.66743989148469
+              ],
+              [
+                -35.95943155870988,
+                4.650239537590393,
+                80.26743989148468
+              ],
+              [
+                -35.825321450601734,
+                4.761350648701504,
+                79.86743989148468
+              ],
+              [
+                -35.708098453111134,
+                4.863337763326112,
+                79.46743989148467
+              ],
+              [
+                -35.60672664497859,
+                4.900886096833148,
+                79.06743989148467
+              ],
+              [
+                -35.531323866044545,
+                5.007718738490062,
+                78.66743989148466
+              ],
+              [
+                -35.45888248617056,
+                5.200095507901315,
+                78.26743989148466
+              ],
+              [
+                -35.3481223273825,
+                5.403270111075924,
+                77.86743989148465
+              ],
+              [
+                -35.21688454137251,
+                5.634893512012297,
+                77.46743989148464
+              ],
+              [
+                -35.11688454137251,
+                5.84864880005729,
+                77.06743989148464
+              ],
+              [
+                -35.06173676614546,
+                6.032400430931303,
+                76.66743989148463
+              ],
+              [
+                -34.9878094796309,
+                6.20432377153457,
+                76.26743989148463
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                -36.41102229791586,
+                4.26841134969687,
+                81.4674398914847
+              ],
+              [
+                -35.575269861074986,
+                4.945454896152768,
+                78.90056655154517
+              ],
+              [
+                -35.1796633318485,
+                5.714455815644159,
+                77.31855505338864
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.48342848699262114,
+              0.7965021312395174
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 193,
+      "utc_epoch": 1790868391.0152078,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 194,
+      "utc_epoch": 1790868391.0407205,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_4_r"
+      }
+    },
+    {
+      "id": 195,
+      "utc_epoch": 1790868401.2535734,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "r",
+        "digit": "pinky",
+        "track_id": "digit_branch_4_r"
+      }
+    },
+    {
+      "id": 196,
+      "utc_epoch": 1790868406.1558867,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_r:tip"
+      }
+    },
+    {
+      "id": 197,
+      "utc_epoch": 1790868412.224299,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_r:root"
+      }
+    },
+    {
+      "id": 198,
+      "utc_epoch": 1790868416.8853352,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "pinky_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "pinky_r": {
+            "side": "r",
+            "digit": "pinky",
+            "track_id": "digit_branch_4_r",
+            "root_cm": [
+              -46.37343922037455,
+              -7.180407094614536,
+              77.06743989148464
+            ],
+            "tip_cm": [
+              -43.435286495352564,
+              -7.610144622447062,
+              70.66743989148455
+            ],
+            "path_cm": [
+              [
+                -46.37343922037455,
+                -7.180407094614536,
+                77.06743989148464
+              ],
+              [
+                -46.344691524338884,
+                -7.224631020175064,
+                76.66743989148463
+              ],
+              [
+                -46.30024707989443,
+                -7.2817737683265715,
+                76.26743989148463
+              ],
+              [
+                -46.246435021293216,
+                -7.316173596883134,
+                75.86743989148462
+              ],
+              [
+                -46.14008203674702,
+                -7.341173596883134,
+                75.46743989148462
+              ],
+              [
+                -45.9635430887994,
+                -7.391634639875828,
+                75.06743989148461
+              ],
+              [
+                -45.78940096509817,
+                -7.457123743991302,
+                74.6674398914846
+              ],
+              [
+                -45.620923285410775,
+                -7.474351660294967,
+                74.2674398914846
+              ],
+              [
+                -45.47702881699846,
+                -7.486681553751085,
+                73.8674398914846
+              ],
+              [
+                -45.04135970311674,
+                -7.515253036818189,
+                73.46743989148459
+              ],
+              [
+                -44.677658820303265,
+                -7.564859722990707,
+                73.06743989148458
+              ],
+              [
+                -44.36677376812764,
+                -7.550489507231282,
+                72.66743989148458
+              ],
+              [
+                -44.10403852516255,
+                -7.538157641582824,
+                72.26743989148457
+              ],
+              [
+                -43.84774069289004,
+                -7.56228528398533,
+                71.86743989148457
+              ],
+              [
+                -43.65506848968296,
+                -7.56228528398533,
+                71.46743989148456
+              ],
+              [
+                -43.508515406097345,
+                -7.597458681579166,
+                71.06743989148455
+              ],
+              [
+                -43.435286495352564,
+                -7.610144622447062,
+                70.66743989148455
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                -46.37343922037455,
+                -7.180407094614536,
+                77.06743989148464
+              ],
+              [
+                -45.37821493800445,
+                -7.493161836563235,
+                73.77671610515638
+              ],
+              [
+                -43.952884345622905,
+                -7.55238715713994,
+                72.03153593833848
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.4837598380404731,
+              0.7966326634704894
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 199,
+      "utc_epoch": 1790868432.2324114,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 200,
+      "utc_epoch": 1790868432.2580566,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_3_r"
+      }
+    },
+    {
+      "id": 201,
+      "utc_epoch": 1790868445.885585,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "r",
+        "digit": "index",
+        "track_id": "digit_branch_3_r"
+      }
+    },
+    {
+      "id": 202,
+      "utc_epoch": 1790868450.9677293,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "index_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "index_r": {
+            "side": "r",
+            "digit": "index",
+            "track_id": "digit_branch_3_r",
+            "root_cm": [
+              -43.71344457198133,
+              3.914309429305658,
+              77.06743989148464
+            ],
+            "tip_cm": [
+              -40.67360781592035,
+              3.247970270691603,
+              68.66743989148452
+            ],
+            "path_cm": [
+              [
+                -43.71344457198133,
+                3.914309429305658,
+                77.06743989148464
+              ],
+              [
+                -43.680111238647996,
+                3.9942074839240442,
+                76.66743989148463
+              ],
+              [
+                -43.64066021182971,
+                4.066734839076217,
+                76.26743989148463
+              ],
+              [
+                -43.60405481633758,
+                4.127485922235018,
+                75.86743989148462
+              ],
+              [
+                -43.52634352133646,
+                4.160769586675378,
+                75.46743989148462
+              ],
+              [
+                -43.344282932145916,
+                4.187559329278178,
+                75.06743989148461
+              ],
+              [
+                -43.18670717457015,
+                4.131345664240513,
+                74.6674398914846
+              ],
+              [
+                -43.02787014713206,
+                4.0982318197105645,
+                74.2674398914846
+              ],
+              [
+                -42.856441575703485,
+                4.0657641485267675,
+                73.8674398914846
+              ],
+              [
+                -42.68501300427492,
+                4.043068787509648,
+                73.46743989148459
+              ],
+              [
+                -42.60247322758691,
+                4.026402120842981,
+                73.06743989148458
+              ],
+              [
+                -42.309909190378434,
+                4.0097354541763135,
+                72.66743989148458
+              ],
+              [
+                -42.038480618949855,
+                3.865857794754815,
+                72.26743989148457
+              ],
+              [
+                -41.82872505617239,
+                3.714711227420784,
+                71.86743989148457
+              ],
+              [
+                -41.599465431374,
+                3.5941289399208864,
+                71.46743989148456
+              ],
+              [
+                -41.366646403697544,
+                3.4869517856348136,
+                71.06743989148455
+              ],
+              [
+                -41.16664640369754,
+                3.3652914448838604,
+                70.66743989148455
+              ],
+              [
+                -40.95270119864696,
+                3.236369784997735,
+                70.26743989148454
+              ],
+              [
+                -40.73733521652581,
+                3.15266175089217,
+                69.86743989148454
+              ],
+              [
+                -40.59544857187227,
+                3.1128196026609767,
+                69.46743989148453
+              ],
+              [
+                -40.565033273849394,
+                3.1386763473128303,
+                69.06743989148453
+              ],
+              [
+                -40.67360781592035,
+                3.247970270691603,
+                68.66743989148452
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                -43.71344457198133,
+                3.914309429305658,
+                77.06743989148464
+              ],
+              [
+                -42.322978161565345,
+                4.010479961903671,
+                72.68530807694114
+              ],
+              [
+                -40.99649913060595,
+                3.262762066546635,
+                70.34932615193826
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.5045496135385981,
+              0.8048225750303568
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 203,
+      "utc_epoch": 1790868468.982216,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "r",
+        "digit": "ring",
+        "track_id": "digit_branch_2_r"
+      }
+    },
+    {
+      "id": 204,
+      "utc_epoch": 1790868472.7726526,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_r:root"
+      }
+    },
+    {
+      "id": 205,
+      "utc_epoch": 1790868476.812024,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_r:tip"
+      }
+    },
+    {
+      "id": 206,
+      "utc_epoch": 1790868480.3792055,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "ring_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "ring_r": {
+            "side": "r",
+            "digit": "ring",
+            "track_id": "digit_branch_2_r",
+            "root_cm": [
+              -46.82816328289232,
+              -3.36257227002052,
+              76.66743989148463
+            ],
+            "tip_cm": [
+              -44.58791534592114,
+              -3.7483739306074266,
+              67.4674398914845
+            ],
+            "path_cm": [
+              [
+                -46.82816328289232,
+                -3.36257227002052,
+                76.66743989148463
+              ],
+              [
+                -46.961496616225645,
+                -3.337908073271469,
+                76.26743989148463
+              ],
+              [
+                -47.031935736427144,
+                -3.3182111382535657,
+                75.86743989148462
+              ],
+              [
+                -47.07155953597966,
+                -3.298514203235662,
+                75.46743989148462
+              ],
+              [
+                -47.091482856095126,
+                -3.2975074337327737,
+                75.06743989148461
+              ],
+              [
+                -47.1129114275237,
+                -3.2975073990537074,
+                74.6674398914846
+              ],
+              [
+                -47.16444948666718,
+                -3.2868930311479216,
+                74.2674398914846
+              ],
+              [
+                -47.036032614820556,
+                -3.2668929612118043,
+                73.8674398914846
+              ],
+              [
+                -46.91637449516243,
+                -3.2535404271465436,
+                73.46743989148459
+              ],
+              [
+                -46.79730295275465,
+                -3.267274348525171,
+                73.06743989148458
+              ],
+              [
+                -46.68016009561178,
+                -3.2826589729878983,
+                72.66743989148458
+              ],
+              [
+                -46.565109326332774,
+                -3.2987750299611203,
+                72.26743989148457
+              ],
+              [
+                -46.502714721899366,
+                -3.328313818087197,
+                71.86743989148457
+              ],
+              [
+                -46.200540359989745,
+                -3.3525217041274615,
+                71.46743989148456
+              ],
+              [
+                -45.94703387129287,
+                -3.391341532837088,
+                71.06743989148455
+              ],
+              [
+                -45.70243812114821,
+                -3.4434940360644046,
+                70.66743989148455
+              ],
+              [
+                -45.49254542661967,
+                -3.5060407568755543,
+                70.26743989148454
+              ],
+              [
+                -45.27836138972566,
+                -3.5657233646845308,
+                69.86743989148454
+              ],
+              [
+                -45.08424076028342,
+                -3.604667349604028,
+                69.46743989148453
+              ],
+              [
+                -44.89339287253084,
+                -3.6290990920769697,
+                69.06743989148453
+              ],
+              [
+                -44.72988464684097,
+                -3.678279732270699,
+                68.66743989148452
+              ],
+              [
+                -44.600740517057524,
+                -3.7320085959100773,
+                68.26743989148451
+              ],
+              [
+                -44.567031532779794,
+                -3.732857353283475,
+                67.86743989148451
+              ],
+              [
+                -44.58791534592114,
+                -3.7483739306074266,
+                67.4674398914845
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                -46.82816328289232,
+                -3.36257227002052,
+                76.66743989148463
+              ],
+              [
+                -46.58579850259668,
+                -3.295876935967593,
+                72.33937048836302
+              ],
+              [
+                -45.09305603226027,
+                -3.6028988522531074,
+                69.48560441526993
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.4520633475664541,
+              0.7841461672231487
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 207,
+      "utc_epoch": 1790868492.3972633,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 208,
+      "utc_epoch": 1790868492.4247813,
+      "kind": "preview_track",
+      "provenance": "human_editor_action",
+      "details": {
+        "side": "r",
+        "track_id": "digit_branch_1_r"
+      }
+    },
+    {
+      "id": 209,
+      "utc_epoch": 1790868497.008448,
+      "kind": "assign",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "assign",
+        "side": "r",
+        "digit": "middle",
+        "track_id": "digit_branch_1_r"
+      }
+    },
+    {
+      "id": 210,
+      "utc_epoch": 1790868501.275692,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "middle_r:tip"
+      }
+    },
+    {
+      "id": 211,
+      "utc_epoch": 1790868505.9392154,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "middle_r:root"
+      }
+    },
+    {
+      "id": 212,
+      "utc_epoch": 1790868510.6082585,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "middle_r:tip"
+      }
+    },
+    {
+      "id": 213,
+      "utc_epoch": 1790868515.3444421,
+      "kind": "review",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "review",
+        "roles": [
+          "middle_r"
+        ],
+        "judgement": "accept",
+        "category": "anatomical_front_side_review",
+        "reviewed_positions": {
+          "middle_r": {
+            "side": "r",
+            "digit": "middle",
+            "track_id": "digit_branch_1_r",
+            "root_cm": [
+              -45.69842092585413,
+              0.35994818907985393,
+              76.66743989148463
+            ],
+            "tip_cm": [
+              -43.331295900325614,
+              -0.11896510355800316,
+              67.0674398914845
+            ],
+            "path_cm": [
+              [
+                -45.69842092585413,
+                0.35994818907985393,
+                76.66743989148463
+              ],
+              [
+                -45.7367519734907,
+                0.39328164956976286,
+                76.26743989148463
+              ],
+              [
+                -45.72818054491927,
+                0.4163106165629952,
+                75.86743989148462
+              ],
+              [
+                -45.71960911634785,
+                0.43853291019522134,
+                75.46743989148462
+              ],
+              [
+                -45.71578213111356,
+                0.4741738774129626,
+                75.06743989148461
+              ],
+              [
+                -45.70745526661398,
+                0.5105376311519,
+                74.6674398914846
+              ],
+              [
+                -45.67504181600039,
+                0.5150933686615911,
+                74.2674398914846
+              ],
+              [
+                -45.604272585231165,
+                0.4984266885346186,
+                73.8674398914846
+              ],
+              [
+                -45.51366578647699,
+                0.48190426157332633,
+                73.46743989148459
+              ],
+              [
+                -45.420077567951296,
+                0.4665197395554269,
+                73.06743989148458
+              ],
+              [
+                -45.333091212321506,
+                0.4511352175375277,
+                72.66743989148458
+              ],
+              [
+                -45.25023406946436,
+                0.43503820324732556,
+                72.26743989148457
+              ],
+              [
+                -45.18371129917173,
+                0.41685638506550704,
+                71.86743989148457
+              ],
+              [
+                -44.94962926659535,
+                0.39867456688368874,
+                71.46743989148456
+              ],
+              [
+                -44.65872017568626,
+                0.33189235581996757,
+                71.06743989148455
+              ],
+              [
+                -44.43224851124886,
+                0.24145224332652937,
+                70.66743989148455
+              ],
+              [
+                -44.198915177915524,
+                0.1287837053201787,
+                70.26743989148454
+              ],
+              [
+                -44.004674346044645,
+                0.06878370532017719,
+                69.86743989148454
+              ],
+              [
+                -43.82285616422646,
+                -0.018847274387166157,
+                69.46743989148453
+              ],
+              [
+                -43.63873727618473,
+                -0.09028307730679985,
+                69.06743989148453
+              ],
+              [
+                -43.4501658476133,
+                -0.16109217917990282,
+                68.66743989148452
+              ],
+              [
+                -43.31918540674326,
+                -0.20681304042401993,
+                68.26743989148451
+              ],
+              [
+                -43.230337179898086,
+                -0.21983226440105041,
+                67.86743989148451
+              ],
+              [
+                -43.23849938618599,
+                -0.15948171317921206,
+                67.4674398914845
+              ],
+              [
+                -43.331295900325614,
+                -0.11896510355800316,
+                67.0674398914845
+              ]
+            ],
+            "phalanges_cm": [
+              [
+                -45.69842092585413,
+                0.35994818907985393,
+                76.66743989148463
+              ],
+              [
+                -45.141835812818265,
+                0.41360379677082204,
+                71.7958829490015
+              ],
+              [
+                -43.628702610592576,
+                -0.09405112246380118,
+                69.04615423719814
+              ]
+            ],
+            "donor_length_fractions": [
+              0,
+              0.484259392969192,
+              0.7968294578363484
+            ],
+            "ambiguity_flags": [
+              "track_identity_and_root_tip_require_human_review",
+              "section_track_may_be_partial",
+              "phalange_interpolation_requires_review"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 214,
+      "utc_epoch": 1790868632.6988137,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "ring_r:root"
+      }
+    },
+    {
+      "id": 215,
+      "utc_epoch": 1790868632.730449,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 216,
+      "utc_epoch": 1790868634.7021244,
+      "kind": "select",
+      "provenance": "human_editor_action",
+      "details": {
+        "role": "pinky_r:root"
+      }
+    },
+    {
+      "id": 217,
+      "utc_epoch": 1790868634.733345,
+      "kind": "view",
+      "provenance": "human_editor_action",
+      "details": {
+        "view": "hand_r_top"
+      }
+    },
+    {
+      "id": 218,
+      "utc_epoch": 1790868806.689496,
+      "kind": "finish",
+      "provenance": "human_editor_action",
+      "details": {
+        "action": "finish"
+      }
+    }
+  ],
+  "human_approval_not_fabricated": true
+}

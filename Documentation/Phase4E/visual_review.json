@@ -1,0 +1,22 @@
+{
+  "status": "reviewed_with_residuals",
+  "reviewer": "Level1 single-agent visual inspection and self-review",
+  "images": "Original UE viewport captures; matching per-pair cameras and clip times verified in capture manifests. CPU images are geometry diagnostics, not textured native rendering.",
+  "findings": {
+    "pants_reach": "Severe inward front-crotch fold is visibly stabilised; native front/side and CPU multi-pose comparisons support material improvement. No obvious tearing seen in reviewed views. No exhaustive collision/volume proof.",
+    "pants_wide_back": "Wide stance retains crotch transition. Back/hips no gross new defect in sampled native back view; quantitative mean strain improves.",
+    "shoulders": "Shirt contour and chest/neck dragging improve in horizontal/overhead and reach. Angular armpit/upperarm detail remains; worst reach area-collapse counts regress. Full shoulder quality gate is not passed.",
+    "reference": "Fresh geometry/UV/reference readback exact, so weight edits cannot change rest surface; synthetic neutral is accepted reference, not an independently authored arms-down rest.",
+    "fingers": "Motion identity inherited and observed, support remains 9/10. Synthetic thumb opposition is finite but natural-motion quality not accepted.",
+    "feet": "Dense flat-floor contact improves substantially; native paired worst-baseline-walk views retained. Terrain, foot locking and sliding untested."
+  },
+  "acceptance": {
+    "reference": "passed",
+    "runtime": "passed_package_closure_and_native_playback",
+    "pants_primary": "material_improvement_observed",
+    "shoulders": "partial",
+    "feet_flat_floor": "material_improvement_measured",
+    "fingers_material_support_improvement": "not_passed",
+    "overall_product_go": "not_passed"
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "Characters\\Lara_Rigged_Mixamo.zip": {
+    "bytes": 1386256,
+    "sha256": "be9036cf870c5209d284420ef542cac086d67cafc9ccdb01a829e5fe0fe05c21"
+  },
+  "Characters\\Lara_Rigged_TexturedUE5.zip": {
+    "bytes": 6037048,
+    "sha256": "10e8171d85c33012fb3d9cc5e52d26a85b00c94d3316b65e53027c2777c782ba"
+  },
+  "Characters\\Lara_Rigged_UE5.zip": {
+    "bytes": 1403142,
+    "sha256": "eb588f66ae3b5c1a6d15907980f1cc195878d272d0134726556273b6ba9ebc1f"
+  },
+  "Config\\DefaultEngine.ini": {
+    "bytes": 669,
+    "sha256": "274f548d8efc0255a0167c35f9939fee214b5ec7571b01fec411ede3139e6b4f"
+  },
+  "Config\\DefaultInput.ini": {
+    "bytes": 9574,
+    "sha256": "61e3fb622f7ba0121c8036ac599acc7122bb3987a97b02b25ad13c56d5ce8e3a"
+  },
+  "Content\\Characters\\Mannequins\\Animations\\Manny\\MM_Run_Fwd.uasset": {
+    "bytes": 484363,
+    "sha256": "9df28272ab53eecaadf3190296b5fa23d0ebe2602d9182cd78b0219e68e9b127"
+  },
+  "Content\\Characters\\Mannequins\\Meshes\\SK_Mannequin.uasset": {
+    "bytes": 215033,
+    "sha256": "0fc88830a83a13d5edfaa1a106f497700b3f4bf42625329cd1b5d7e717c2c09e"
+  },
+  "Content\\Characters\\Mannequins\\Meshes\\SKM_Manny.uasset": {
+    "bytes": 28734860,
+    "sha256": "9bfc3b79e798894bcda381e3c8de8642eee3d05b8b36fe3959c9a65c03062f64"
+  },
+  "Content\\Characters\\Mannequins\\Meshes\\SKM_Manny_Simple.uasset": {
+    "bytes": 15824879,
+    "sha256": "1deb85c1ed5684dcad678cfbfd263b88e5e2cc29729e34be082acaf13bc8d3e4"
+  },
+  "Content\\Characters\\Mannequins\\Rigs\\IK_Mannequin.uasset": {
+    "bytes": 144766,
+    "sha256": "5c317063573fcd14e939f0e3a0ad17ed30987d6dc826592e18cd22623fcfd976"
+  },
+  "Content\\Characters\\StackOBot\\Mesh\\SK_Bot.uasset": {
+    "bytes": 21912,
+    "sha256": "410bf5fedf21151792470f5d93f8619e8e56feb4ed81f4cf47a440e5ec731423"
+  },
+  "Content\\Characters\\StackOBot\\Mesh\\SKM_Bot.uasset": {
+    "bytes": 9914702,
+    "sha256": "a5ba176a00a6e5b2d96b33d6a1b007ad86b557c636d1ab72c5ae5e69cafc4a3b"
+  },
+  "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\ABP_StackOBot_Retargeting.uasset": {
+    "bytes": 70106,
+    "sha256": "fa4c4ebc2fcb3b406467e396442419e9426212cc17b0f7e0a12a47667333cc9f"
+  },
+  "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\IK_StackOBot_Retargeting.uasset": {
+    "bytes": 62522,
+    "sha256": "c19fa58e39ca0de9d74237956c2001693caa5310effd334978bbc8dbddc8b0d8"
+  },
+  "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\RTG_Mannequin_StackOBot.uasset": {
+    "bytes": 30425,
+    "sha256": "92732133ce035eccd62194a105d0e8d5024c3b336f2eb9de7193cfb873c753be"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\BP_Phase2_RetargetTest.uasset": {
+    "bytes": 28705,
+    "sha256": "bc35a4cb6c59810d9aa8f90bc8a718920f117b83915a265da1a4f610bd9dcba5"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Maps\\L_Phase2_RetargetTest.umap": {
+    "bytes": 25874,
+    "sha256": "0f1f06d80adddf7779ca17c04ce9460904d80fbccb91d1e0598725ec08f00a45"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\ABP_Lara_Mixamo_Retarget.uasset": {
+    "bytes": 59838,
+    "sha256": "ada162ea84ab97c67848772a8d4b49722f672784ee8710a5cd34a4228c38063d"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\IK_Lara_Mixamo.uasset": {
+    "bytes": 67143,
+    "sha256": "12aa7aaa469ff3f4ab7ea965d1cc6c54bf4b4ef2d0be5f7e366f96e5cc34b726"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\RTG_Manny_Lara_Mixamo.uasset": {
+    "bytes": 20737,
+    "sha256": "da53a2770f752404832988731151d68a4b40798ebac0a9ee9a73a3577be8a18b"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\SK_Lara_Mixamo.uasset": {
+    "bytes": 6572982,
+    "sha256": "d5c3055b8e03f1afd8c7ee961e8e8ed317da39e63ea419b4bd87f74921c2e018"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\SK_Lara_Mixamo_Skeleton.uasset": {
+    "bytes": 15423,
+    "sha256": "09eaedb1df2f6f73eb500bf0d6cff6671fb3d4e118efa127c68fa5372fdd1371"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\tripo_mat_c86468c2.uasset": {
+    "bytes": 58774,
+    "sha256": "590b3ffc025b661fb200b2f7c2fa9c573d9623a21a49db5bd98abb7441346f35"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\ABP_Lara_UE5_Retarget.uasset": {
+    "bytes": 59717,
+    "sha256": "b636375be88fc54396ad891b4095d5982c866ebd505379349982e8a154c99b09"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\IK_Lara_UE5.uasset": {
+    "bytes": 70548,
+    "sha256": "e4d08088880568f2c59397c02ccb97192719502ce83467cab877bdf409a03108"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\RTG_Manny_Lara_UE5.uasset": {
+    "bytes": 25178,
+    "sha256": "44dbf0d9ed266fae15a8663597cfefbc72ea9b348472a87641cffd689ea81f06"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\SK_Lara_UE5.uasset": {
+    "bytes": 6632919,
+    "sha256": "00d860393db2709d1bfc67fd6c4f99b110bb219ec2cff7c99507e751a6014f98"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\SK_Lara_UE5_Skeleton.uasset": {
+    "bytes": 14271,
+    "sha256": "194920b4a704e0286effb496cf6c237b26df25464649c511412a8a2a28939f5d"
+  },
+  "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\tripo_mat_d5fc96b7.uasset": {
+    "bytes": 58742,
+    "sha256": "ca90f41a480418682de6086bac07fa22c0d08d57f8b22c834e73e3ddc55035a8"
+  },
+  "Documentation\\Phase2\\anatomy_mapping.json": {
+    "bytes": 13216,
+    "sha256": "4fde795d1ae7a13d735ad834fe6e8c5b4d79e82c9fbbafbc1df030b2ab79a3e1"
+  },
+  "Documentation\\Phase2\\asset_inventory.json": {
+    "bytes": 5112,
+    "sha256": "a1e38427dab1702de56bd5f3ece016c60ea857ab12ca9a11cf41f30858dfb4c4"
+  },
+  "Documentation\\Phase2\\bone_comparison.csv": {
+    "bytes": 1814,
+    "sha256": "38c2707b5fca93d6e224e0b4b2d34cf56401da4b259e4a4a0bbfa2924d53a992"
+  },
+  "Documentation\\Phase2\\chain_mapping.csv": {
+    "bytes": 1342,
+    "sha256": "ca142794c2de2326afbdd4f92e040106d843e8360294db781c154797de8eaf91"
+  },
+  "Documentation\\Phase2\\Phase2RetargetingReport.md": {
+    "bytes": 23414,
+    "sha256": "5440f5a0332b3414559c089ca731bc85911e67aba782fdf4c4534f2d47e79e84"
+  },
+  "Documentation\\Phase2\\pose_offsets.json": {
+    "bytes": 8147,
+    "sha256": "00695524cc3af2029318af9b9972fbcf24dbbe0d16de6d179085f50946fc0fc8"
+  },
+  "Documentation\\Phase2\\runtime_samples.json": {
+    "bytes": 8586,
+    "sha256": "3ac0c9991c0f3cb59f33631f4af23c991c62e94b902ac6c463ab79a7dcdeef1d"
+  },
+  "Documentation\\Phase3\\Evidence\\__pycache__\\collect_evidence.cpython-312.pyc": {
+    "bytes": 12537,
+    "sha256": "20578cf83126b015a3887dc2cfabfe1df4bb9b01db433c78ee15b7e99ce20ab7"
+  },
+  "Documentation\\Phase3\\Evidence\\api_inventory.json": {
+    "bytes": 14063,
+    "sha256": "bea74bd6b9cb2b4213a9681e5c4f6776a7933040a9133e46ca2b5b8581c8e0dc"
+  },
+  "Documentation\\Phase3\\Evidence\\collect_evidence.py": {
+    "bytes": 5605,
+    "sha256": "e39092f5ebd7e6fc9015c7d82991afc27a33b3acd42f228d957c256796ec3eb4"
+  },
+  "Documentation\\Phase3\\Evidence\\fbx_inspection.json": {
+    "bytes": 189590,
+    "sha256": "a36779ef9dbaab9d8542b2953adb294ae0c4227a0aa6639842be9eb9431c78c7"
+  },
+  "Documentation\\Phase3\\Evidence\\fit_search.txt": {
+    "bytes": 9562506,
+    "sha256": "daf7613da90a2e89d1c027e4c48eba16c9c6a5a50f4067feecaffeb422ab73e2"
+  },
+  "Documentation\\Phase3\\Evidence\\identity_search.txt": {
+    "bytes": 3171519,
+    "sha256": "2a178524b9e2a5955e220bebbfc8517bf69938187d24d82f65d3ab55bcabf942"
+  },
+  "Documentation\\Phase3\\Evidence\\index_findings.py": {
+    "bytes": 13466,
+    "sha256": "df0369071755ecb9be8229df7d5df412f70e5a6d7f033166fe6d0672aeb1d637"
+  },
+  "Documentation\\Phase3\\Evidence\\pipeline_presets_structure.json": {
+    "bytes": 58330,
+    "sha256": "f1e7c2cff62d2a6e9e0c4e16790cf5c8c6a93bfa718276188f6bff9db000e485"
+  },
+  "Documentation\\Phase3\\Evidence\\proportions_scale_search.txt": {
+    "bytes": 140061,
+    "sha256": "af143c76546d625af0b746472944297cbc0808f12a54869928c18c541e396bdb"
+  },
+  "Documentation\\Phase3\\Evidence\\protected_after.json": {
+    "bytes": 12082,
+    "sha256": "3a58ff0071bfaebe5b104c400f36416f21debc285a1a4b12623fe560b5f56e1b"
+  },
+  "Documentation\\Phase3\\Evidence\\protected_before.json": {
+    "bytes": 12082,
+    "sha256": "3a58ff0071bfaebe5b104c400f36416f21debc285a1a4b12623fe560b5f56e1b"
+  },
+  "Documentation\\Phase3\\Evidence\\reference_inventory.json": {
+    "bytes": 2042,
+    "sha256": "825db71f0a7d69f5e1e83294dd95f73ce568bdb9f3287f44bd6746484161afda"
+  },
+  "Documentation\\Phase3\\Evidence\\reference_texture_contact_sheet.jpg": {
+    "bytes": 172576,
+    "sha256": "87f24293d97a040fdfff5e2c6171f85c9343504cfd96cf1062b5e6782dc888b0"
+  },
+  "Documentation\\Phase3\\Evidence\\relevant_file_inventory.json": {
+    "bytes": 497328,
+    "sha256": "31244cd63145c9950e577cdc6e41d8bbcdb22bbf32f0118d014bd5d74986f2ab"
+  },
+  "Documentation\\Phase3\\Evidence\\resize_search.txt": {
+    "bytes": 3534470,
+    "sha256": "4bb681fe7dd8b37fe5e85debc41aa4bfba8a40148081f3d448dbf3939141b4ef"
+  },
+  "Documentation\\Phase3\\Evidence\\search_engine.py": {
+    "bytes": 1972,
+    "sha256": "a476e5187c02701ef80f75a31fa92164f6bfe182e4c7a5ffeeaf73901323983d"
+  },
+  "Documentation\\Phase3\\Evidence\\search_manifest.json": {
+    "bytes": 1474,
+    "sha256": "671a08c51a42cc7b2bff09e4fb36c665d70ec0b63299151064066caf046e4523"
+  },
+  "Documentation\\Phase3\\Evidence\\source_evidence.json": {
+    "bytes": 161999,
+    "sha256": "407a7951ba7799f1090104bc3cb22a1a468884e4562ec26042f23d13804e7af0"
+  },
+  "Documentation\\Phase3\\Evidence\\source_evidence.md": {
+    "bytes": 143392,
+    "sha256": "88794352d3e5ed0d37c24618a2340b5cee3cf4ad436b137a77fad12454e94ebb"
+  },
+  "Documentation\\Phase3\\Evidence\\systems_inventory.json": {
+    "bytes": 11016,
+    "sha256": "6a79d14366963a31055cb747d543bfd74e11aa37dc684284871fd0c7cc878765"
+  },
+  "Documentation\\Phase3\\Evidence\\validation.json": {
+    "bytes": 537,
+    "sha256": "83ebf269ab50dfd0358f4b8f49edd16f6b54ca2e1baf435756a9960c3857b693"
+  },
+  "Documentation\\Phase3\\Evidence\\web_sources.json": {
+    "bytes": 890,
+    "sha256": "aeca9c6645141f4b35e8c604a8bbfe42aaaca4076ce632c2667970d30c87a178"
+  },
+  "Documentation\\Phase3\\MetaHumanResizeConformInvestigation.md": {
+    "bytes": 48039,
+    "sha256": "50c4ced1bb973fc4e2ba6eda9a1a9bc0fae621b6584628608ddb319e5735b99d"
+  },
+  "MHTo3DCharacter.uproject": {
+    "bytes": 374,
+    "sha256": "4542a149e0ece87886d84d7505f257e231737a6d22805fdff3c21210635bd143"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\body.fbx": {
+    "bytes": 3120128,
+    "sha256": "655dcb9198e1fc2223211a1ade986fae28d8349f420b5ee1506df659422724f7"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\head.fbx": {
+    "bytes": 3020976,
+    "sha256": "5b380bae6398c7156a01e30c05b0970341150a108bd9177f4e0d15b02ffb7360"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Body_D.PNG": {
+    "bytes": 11824058,
+    "sha256": "a66587f59d6f92f8bb7c75b637c2ea7cac76bd2c831f018124ef06073db30280"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Body_D_Guides.PNG": {
+    "bytes": 24130502,
+    "sha256": "330905b0e32556facdf252995da9a6e399a2e876f224e952a3c0a3bd3f46964b"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Eyes_D.PNG": {
+    "bytes": 41710,
+    "sha256": "0135fb0cdf4bfe9d837e2573cf7b4c21bbbe4da9e8ac35121916298d9647fe16"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D.PNG": {
+    "bytes": 6642241,
+    "sha256": "3cae9277f9e914788eaa40c8b197bb7cfcda1fac02c64f12ea7707f2eaaafa22"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D_Guides.PNG": {
+    "bytes": 18826186,
+    "sha256": "dfb95047d058face8868ef71788ef0d8b2e79b6420038d82c71c51d5bd161dd2"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D_Guides_Annotated.png": {
+    "bytes": 35474601,
+    "sha256": "775a2a8f5babbd557d4c68e8f903f56d391e629415ba021e4caee8876fed67eb"
+  },
+  "Reference\\MetaHuman_Conform_Topology\\T_Gray_Teeth_D.PNG": {
+    "bytes": 714027,
+    "sha256": "5b22a997958799daab250dd3b296702d050e0c0d7e2f0022871958aa300c1ec9"
+  },
+  "Working\\Phase2\\actor_api.json": {
+    "bytes": 70804,
+    "sha256": "d7220dec94cfa4f247f380b4147be93394b9bfe4963c4a20a1c156ca313ba653"
+  },
+  "Working\\Phase2\\analyse_fbx.py": {
+    "bytes": 6171,
+    "sha256": "ab72ada90a0973366abd10a50f1214658bf74ada6d3a67786d8a7152c837877b"
+  },
+  "Working\\Phase2\\anim_bp_build.json": {
+    "bytes": 6235,
+    "sha256": "3cbc4f5b973b6e804f29fa4395cc8e6c9adba589a8c9c0b26b601f636f727e62"
+  },
+  "Working\\Phase2\\api_probe.json": {
+    "bytes": 32350,
+    "sha256": "84c9b447fa3c9f95550891a22e4a65be13a91a928773c786dece70358b66aaa6"
+  },
+  "Working\\Phase2\\build_anim_bps.py": {
+    "bytes": 3110,
+    "sha256": "506530ca29b66e2fb81633265ef4e2f15f9958d1810e38d97693f5c12c5b3375"
+  },
+  "Working\\Phase2\\build_retarget.py": {
+    "bytes": 8980,
+    "sha256": "74586190b1331d17d9bfc97bc55eddd0ff3c6934afc60bc9ca299a68e5f0d52b"
+  },
+  "Working\\Phase2\\build_scene.py": {
+    "bytes": 5500,
+    "sha256": "74574ac7b07f00bde01a3a4b51ab93e17327ecb2fcd1b4b91be83784b25d3d76"
+  },
+  "Working\\Phase2\\camera_fix.json": {
+    "bytes": 269,
+    "sha256": "b36a53f417448471ee346de997391b6cd80de07d89b86bf2879f6c9a4cff1d89"
+  },
+  "Working\\Phase2\\camera_inspection.json": {
+    "bytes": 1469,
+    "sha256": "345f44c8e00620314a6ecdf3c7f5460730d0aa695adb6aad94244f2650d35f32"
+  },
+  "Working\\Phase2\\capture_pie.py": {
+    "bytes": 1546,
+    "sha256": "5b89ff15ee058dce4a73e235f7620f94d0959806656b48aeb431f326112b90ef"
+  },
+  "Working\\Phase2\\correct_runtime.py": {
+    "bytes": 2129,
+    "sha256": "354cd15936d4a99ef7469cf912d22232d0050436afaf715fefd2bc30cc8a6309"
+  },
+  "Working\\Phase2\\export_evidence.py": {
+    "bytes": 6808,
+    "sha256": "39ad05272dce3effd318e14111a013d9488c4d4ea92de3b83ee3bc57b0dcc3c4"
+  },
+  "Working\\Phase2\\fbx_analysis.json": {
+    "bytes": 67809,
+    "sha256": "d9922ffce1223de41275bd0ecb23129b816e25c35e520d2541e80c2d73dbe809"
+  },
+  "Working\\Phase2\\fbx_bones.csv": {
+    "bytes": 23579,
+    "sha256": "0e1dc540ada44e929cee9bd5300fd8665269f0b0ea5286f1f48a0df7bbb8d49f"
+  },
+  "Working\\Phase2\\finish_scene.py": {
+    "bytes": 2455,
+    "sha256": "b7f6e30b9fcd09fe40a2caeb177797389e275b05b9076febfe37db4329fff665"
+  },
+  "Working\\Phase2\\fix_camera.py": {
+    "bytes": 1203,
+    "sha256": "0e0910363e621fc101024e0703de054716af31a915c86919f03be306a7d338bd"
+  },
+  "Working\\Phase2\\ik_isolation.json": {
+    "bytes": 38,
+    "sha256": "d20a2ad27b13d28d4a7bec4e7fae61216f11684e1898804eb849e7accb5b5476"
+  },
+  "Working\\Phase2\\import_lara.py": {
+    "bytes": 2688,
+    "sha256": "51316537115e585f7e5f0b284be9a5d4f0c961bda475dbb9d1210fee634378be"
+  },
+  "Working\\Phase2\\inspect_camera.py": {
+    "bytes": 1209,
+    "sha256": "5186d0a59f8f40e67324deee68c082a509eb59492aa39a01853847880848652b"
+  },
+  "Working\\Phase2\\inspect_scene.py": {
+    "bytes": 2199,
+    "sha256": "255b685a62af28207f4abf0ff7535f3aadb95bdb1b24b85553c52b74b13932d5"
+  },
+  "Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx": {
+    "bytes": 1621724,
+    "sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a"
+  },
+  "Working\\Phase2\\node_probe.json": {
+    "bytes": 13823,
+    "sha256": "d14b1127659ac561b7d03ea3a04986f0ee36a464e7e4634f70ad6591182ee1cd"
+  },
+  "Working\\Phase2\\pie_samples.json": {
+    "bytes": 16307,
+    "sha256": "b2cd8efbd02a0ae5fcc70e85b4e03e4a80659210c322b8ae2a2b58f985c5fdc2"
+  },
+  "Working\\Phase2\\presentation_update.json": {
+    "bytes": 1285,
+    "sha256": "de7421fb63693ac9befaed05fc0f5bfb48948af1c224336c1c54304d2751e54e"
+  },
+  "Working\\Phase2\\probe_actor_api.py": {
+    "bytes": 1913,
+    "sha256": "b60d6f48f73e8693b5bc802706b1c909756c7967f2dbdf3c91a18aa1ca3e7eee"
+  },
+  "Working\\Phase2\\probe_api.py": {
+    "bytes": 2317,
+    "sha256": "03fe14b5a4fe667bd0fb36e1b4c884a825fcd9dc1090df6e243ae0aa65620170"
+  },
+  "Working\\Phase2\\probe_node.py": {
+    "bytes": 1549,
+    "sha256": "ca3c0b8de428b1a57f947f875b034016993e2ed089dbbe7989ce2105421c188a"
+  },
+  "Working\\Phase2\\probe_root.py": {
+    "bytes": 1357,
+    "sha256": "248a1d847050f81c42f79db676b34cd56959c3e4bc27602e90ff851fb9ba3735"
+  },
+  "Working\\Phase2\\probe_unreal.py": {
+    "bytes": 1465,
+    "sha256": "0adc04443a1a8af39a6381de960a8259332b971dbfe6b114ad4aea4cf8ab1589"
+  },
+  "Working\\Phase2\\retarget_build.json": {
+    "bytes": 37009,
+    "sha256": "77bdbba3c1be0c203c531375f6b3554cf82f4e48302d1e0bc56486d896eb505a"
+  },
+  "Working\\Phase2\\root_probe.json": {
+    "bytes": 6516,
+    "sha256": "6ecd6e77d8d04c0e2104e151d7284ff6dfc354b34ac5d90d401dc082845ceec5"
+  },
+  "Working\\Phase2\\runtime_correction.json": {
+    "bytes": 2197,
+    "sha256": "86aee1d6e9418fa5c172ababace3c456514390f6a81d2dfe79ed3e9b522d84c3"
+  },
+  "Working\\Phase2\\scene_build.json": {
+    "bytes": 2106,
+    "sha256": "0037406a6833fb9b364b51c79ddd24ac155e9d56ff05be169cc5002fc93c348b"
+  },
+  "Working\\Phase2\\scene_finish.json": {
+    "bytes": 1103,
+    "sha256": "63a34c497e3db78df19eb1518885be48e348befbbfa5fa43ce5ed9a8bc9ea461"
+  },
+  "Working\\Phase2\\scene_inspection.json": {
+    "bytes": 5431,
+    "sha256": "2ec1b40d40a46cbc437f00780159c223b4762135939c191acfa4d546204e8f4d"
+  },
+  "Working\\Phase2\\test_disable_ik.py": {
+    "bytes": 554,
+    "sha256": "25f6e5cc46005e8b645d28111cfb847549ea245adc6157cb991424bd6eb760be"
+  },
+  "Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx": {
+    "bytes": 1631692,
+    "sha256": "992e0f60149063ca61db10c255416ac5139453cb4e8ef3a1b9646c2f378785a2"
+  },
+  "Working\\Phase2\\unreal_import.json": {
+    "bytes": 3263,
+    "sha256": "68a628fb0baa3016f2ec470e28dc0ecf099babe0db83fd2f857b648014fd8b34"
+  },
+  "Working\\Phase2\\unreal_probe.json": {
+    "bytes": 34263,
+    "sha256": "99757d5aff905e789af0613ea4c5660b6db5760a3cef97f3bf9ce2213ba0c979"
+  },
+  "Working\\Phase2\\update_presentation.py": {
+    "bytes": 2291,
+    "sha256": "87f334dec72f953955b9a16271d19cbfe9a25be2dda06433665ee7fbca82fe00"
+  },
+  "Working\\Phase2\\zip_inventory.json": {
+    "bytes": 704,
+    "sha256": "b8e3625ee8e0988c5aea6d58a42fd33f5e80207fcf74044b3d7750c023f05f6f"
+  }
+}

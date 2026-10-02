@@ -1,0 +1,402 @@
+{
+  "proposal_sha256": "57d4c45a3f0ddda765d66e76c7453f99f754affba4fc067c75775095b677fad2",
+  "provenance_kind": "human_anatomical_review",
+  "roles": {
+    "pelvis": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00007.json",
+      "evidence_sha256": "bb35d093e3bcb260c7f1afbecb9554d4d525c319a67f6096e49b03e12ca66d5b",
+      "event_id": 7,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        0.10307380557060242,
+        -1.628673791885376,
+        95.82306671142578
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "neck_01": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00012.json",
+      "evidence_sha256": "d1bbaeb1fe29ce65fb96180cce520d8bf3c70ce49d611b84813bf3466785e357",
+      "event_id": 12,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -0.11290943622589111,
+        -6.310903549194336,
+        148.3011932373047
+      ],
+      "resolved_ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ]
+    },
+    "head": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00016.json",
+      "evidence_sha256": "3db9399aa233eb6e46df81ed3573ae9fa540c03f834aef07d0dadbb32e68997f",
+      "event_id": 16,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        0.10363438725471497,
+        -4.275839328765869,
+        157.67886352539062
+      ],
+      "resolved_ambiguity_flags": [
+        "neck_head_pivot_and_hair_envelope_require_review"
+      ]
+    },
+    "upperarm_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00020.json",
+      "evidence_sha256": "3ccd0d1e28bcf6196340f41700fe669f8394c65399ca5f6c394878de72bc6216",
+      "event_id": 20,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        23.37337875366211,
+        -8.953336715698242,
+        138.05743408203125
+      ],
+      "resolved_ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ]
+    },
+    "clavicle_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00024.json",
+      "evidence_sha256": "b8936560337041a9ee1123aa9a9dabf72b8d1ee6dd44fb1548bd574d32ced402",
+      "event_id": 24,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        1.555513858795166,
+        -7.228282928466797,
+        141.70518493652344
+      ],
+      "resolved_ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ]
+    },
+    "lowerarm_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00028.json",
+      "evidence_sha256": "b507a930dc933e32b950443f8966d7432ec968bd1b7a8ad8a73e1dae019a2fd6",
+      "event_id": 28,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        34.438514709472656,
+        -10.179544448852539,
+        111.53286743164062
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "hand_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00032.json",
+      "evidence_sha256": "2b498087416dc379c398c3a2d1099bc6e2df34ee6e9db748174c6fabe5d4d241",
+      "event_id": 32,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        42.01698684692383,
+        -3.2924795150756836,
+        88.38768768310547
+      ],
+      "resolved_ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ]
+    },
+    "upperarm_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00036.json",
+      "evidence_sha256": "b60fbccb0d3b9fb3d5e91c5480dc190d93e83a148cd57e18a31486c2acf0a1ff",
+      "event_id": 36,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -23.43759536743164,
+        -8.665414810180664,
+        138.15135192871094
+      ],
+      "resolved_ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ]
+    },
+    "clavicle_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00040.json",
+      "evidence_sha256": "69838d8b792609866c56f85c05f5aa4acd3ec7f1188b96a2e2a9aec15c89bd2f",
+      "event_id": 40,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -1.5769591331481934,
+        -7.197674751281738,
+        141.65269470214844
+      ],
+      "resolved_ambiguity_flags": [
+        "girdle_pivot_and_shirt_transition_require_review"
+      ]
+    },
+    "lowerarm_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00044.json",
+      "evidence_sha256": "1f7458a4b49ecf21cd705af7a45c7a76e0ff0310ca0862ae2eafc29edeb0940c",
+      "event_id": 44,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -34.37824630737305,
+        -10.039040565490723,
+        111.62554168701172
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "hand_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00048.json",
+      "evidence_sha256": "0b4867f638fa05e2b539afa337676826c40c17181875a36298f9db663b86c1a2",
+      "event_id": 48,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -42.050960540771484,
+        -3.3462963104248047,
+        88.26927947998047
+      ],
+      "resolved_ambiguity_flags": [
+        "donor_wrist_and_target_palm_transition_require_correspondence_review"
+      ]
+    },
+    "thigh_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00052.json",
+      "evidence_sha256": "85f3c8cc56df5624d3204e6c58add3a3fc77ab110267cfdac388faac521d6726",
+      "event_id": 52,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        9.064400672912598,
+        -1.9173508882522583,
+        90.33855438232422
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "calf_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00056.json",
+      "evidence_sha256": "5e70935dddf163672bb71dca363cd4295404b3b623ca12da5cde201924e737e4",
+      "event_id": 56,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        15.017048835754395,
+        -4.284300327301025,
+        49.55315399169922
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "foot_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00060.json",
+      "evidence_sha256": "7656e24d6a3caec7a10d4a1b21d90986ca431b622fb5704d37aa8ec1ef110681",
+      "event_id": 60,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        16.222156524658203,
+        -11.182873725891113,
+        9.819072723388672
+      ],
+      "resolved_ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ]
+    },
+    "ball_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00064.json",
+      "evidence_sha256": "3817b0a551f273288ed391e822b5cb8cf3c03f0114beb451891cf8e125f3455f",
+      "event_id": 64,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        18.89809226989746,
+        4.2567291259765625,
+        1.713231086730957
+      ],
+      "resolved_ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ]
+    },
+    "thigh_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00068.json",
+      "evidence_sha256": "afd810deb981b95452923146ce41aa011c237e1e39cc72f158b7c1e8c8aaa9e1",
+      "event_id": 68,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -8.898444175720215,
+        -1.8754589557647705,
+        90.40269470214844
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "calf_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00072.json",
+      "evidence_sha256": "ab4b54d7585116f8d83a7996d25f3f89144c0c2f7a22a2cf9a51fd12f55fcc4e",
+      "event_id": 72,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -15.047327995300293,
+        -4.365208148956299,
+        49.012508392333984
+      ],
+      "resolved_ambiguity_flags": [
+        "internal_articulation_not_certified_by_clothed_surface"
+      ]
+    },
+    "foot_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00076.json",
+      "evidence_sha256": "3275f40b876bfbfe1616d436ec91d51aae3bef1c868d03e4fd33d023b94b4df7",
+      "event_id": 76,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -16.0981388092041,
+        -11.1641845703125,
+        9.603378295898438
+      ],
+      "resolved_ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ]
+    },
+    "ball_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00081.json",
+      "evidence_sha256": "4d008457f4c59b937e465474bb2e79bc3df5c39aac3a0360e268e2e5541605e7",
+      "event_id": 81,
+      "category": "anatomical_front_side_review",
+      "position_cm": [
+        -20.44864273071289,
+        3.932969093322754,
+        1.9024138450622559
+      ],
+      "resolved_ambiguity_flags": [
+        "boot_surface_hides_ankle_or_metatarsal_articulation"
+      ]
+    }
+  },
+  "fingers": {
+    "thumb_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00109.json",
+      "evidence_sha256": "4a955f0f0c3772d00bef37917dab4c6ad70e076aa1d98a3c4087c635a3e674f4",
+      "event_id": 109,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "690f59712517307fef08ddd444256e4ca3435a8b18a2fc9f5744eb9777de2eb5"
+    },
+    "pinky_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00149.json",
+      "evidence_sha256": "411d0fa7c43cc9fac2a5bb4b5d33a861f810a44b0105cb1e7551f81afdfd8820",
+      "event_id": 149,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "295f606994cbd9e0a6fd8cda9aa234a4bb32e439f7b87b2ebbbabf2530176658"
+    },
+    "middle_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00164.json",
+      "evidence_sha256": "5934466c22366408d1765efaa514c1566e59cab2ea897640468565f0a729b832",
+      "event_id": 164,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "fadc2a06aac7a128e2eb7b4bd1e9e8f0f71164f59a2769dc2b5f8468fb80ed13"
+    },
+    "index_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00169.json",
+      "evidence_sha256": "99d7de45e388f4f640b3952955222158d325e79c879a6bb15bb16ad184977c8e",
+      "event_id": 169,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "17d770ed799e8681af3a4df01bfafdbf03a960acc03894e870b2ba58f2a52fc7"
+    },
+    "ring_l": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00174.json",
+      "evidence_sha256": "762f0e0ef82ccdff05097b1e56d8dcca5b7778ead512eee9294d9a906f129bb0",
+      "event_id": 174,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "a940169ec3cdfd580986f1bc250c00bf9708e057818f5c2e748d28b206213ab8"
+    },
+    "thumb_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00192.json",
+      "evidence_sha256": "272d7686aac2a8476f62b6509b0d8701ebf59aa3195fea5223d35bc6ee45c1bf",
+      "event_id": 192,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "e8c030fd6e9442f9edabb15b3530bcd4c50fb7b55d2aa331668b22227dc6e0ee"
+    },
+    "pinky_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00198.json",
+      "evidence_sha256": "c648131a90ba900a05b17f91d9d5ee551111ec32fe75276a9db99db37b223f80",
+      "event_id": 198,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "93972baeaed3e221f5daf7a996491adb233d2153207b1d05af4725594a366b48"
+    },
+    "index_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00202.json",
+      "evidence_sha256": "b93498ae532887b33a110c143325cbcb1b8dbb073a02387c7b3de1204e8650ce",
+      "event_id": 202,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "bfdb4bebcdf2acb15d49a65c58bf5a9240ff26bbee0a0adfc2c0aeccf2c80a4a"
+    },
+    "ring_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00206.json",
+      "evidence_sha256": "c2a54cf661da466dd06e22cdb8f89bcb772306d0b99b34a2d0ab491bc8ff41e6",
+      "event_id": 206,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "ecbdbf79ccf2c7c6e55cf12e5ea57c0e264a2fbbe81784f1c6aa7730d1bc0b6d"
+    },
+    "middle_r": {
+      "anatomical_valid": true,
+      "method": "Explicit native review-utility anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\InteractionEvidence\\event_00213.json",
+      "evidence_sha256": "d8c8ac7b8962275e1a8202c65a71a15abffc97f441952ae01e4b8d073bd899ad",
+      "event_id": 213,
+      "category": "anatomical_front_side_review",
+      "chain_sha256": "a160ca81fddfd765a41fb289bfce0d351991a8a4cb3589905710d8822c3335b9"
+    }
+  }
+}

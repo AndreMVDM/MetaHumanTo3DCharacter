@@ -1,0 +1,13 @@
+{
+  "selected": "hybrid_direct_08_4",
+  "status": "native_reviewed_research_candidate_partial_acceptance",
+  "skeleton_changes": [],
+  "geometry_changes": [],
+  "method": "root/pelvis/side envelope + local shoulder blend to direct-distance stiff bind",
+  "limitations": [
+    "shoulder area-collapse regression",
+    "finger support unchanged",
+    "natural thumb unproven",
+    "single-character clothing evidence"
+  ]
+}

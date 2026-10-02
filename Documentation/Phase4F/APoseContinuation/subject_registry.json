@@ -1,0 +1,13 @@
+{
+  "primary": [
+    "John",
+    "Jane"
+  ],
+  "benchmark": "Lara",
+  "superseded_primary_retained_T_pose_controls": [
+    "Bill",
+    "Jill"
+  ],
+  "bill_jill_files_changed": false,
+  "source_pose_normalisation_deferred": true
+}

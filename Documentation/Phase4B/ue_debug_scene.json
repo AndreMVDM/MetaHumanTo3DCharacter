@@ -1,0 +1,63 @@
+{
+  "map": "/Game/MetaHumanTo3DCharacter/Phase4B/Maps/L_SemanticFitDebug.L_SemanticFitDebug",
+  "assets": [
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Geometry/SM_Lara180.SM_Lara180",
+      "class": "StaticMesh"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Maps/L_SemanticFitDebug.L_SemanticFitDebug",
+      "class": "World"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Accepted.M_Accepted",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Ambiguous.M_Ambiguous",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Edges.M_Edges",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Ghost.M_Ghost",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_LaraOriginal.M_LaraOriginal",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/T_LaraOriginal.T_LaraOriginal",
+      "class": "Texture2D"
+    }
+  ],
+  "skeletal_assets_authored": 0,
+  "height_cm": 180.0,
+  "actor_count": 47,
+  "errors": [],
+  "proposal": "automatic_fit_v2.json",
+  "mesh": "/Game/MetaHumanTo3DCharacter/Phase4B/Geometry/SM_Lara180.SM_Lara180",
+  "material": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_LaraOriginal.M_LaraOriginal",
+  "geometry_scale_baked": true,
+  "display_mesh_actor_scales": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "import_warnings": [
+    "Nearly zero tangents and binormals, tolerance 1e-4; debug unlit material; no shading-quality certification"
+  ],
+  "triangles": 49508,
+  "uv_sets": 1,
+  "vertex_count": 28189
+}

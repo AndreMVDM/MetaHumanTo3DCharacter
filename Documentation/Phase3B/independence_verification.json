@@ -1,0 +1,27 @@
+{
+  "no_live_manny_components": true,
+  "destination_native_playback": [
+    {
+      "rig": "UE5",
+      "samples": 25,
+      "pelvis_z_range_cm": [
+        89.50156981172222,
+        97.26698118867535
+      ],
+      "sanity_pass": true,
+      "animation_advanced": true
+    },
+    {
+      "rig": "Mixamo",
+      "samples": 25,
+      "pelvis_z_range_cm": [
+        88.63215637207031,
+        96.5902328491211
+      ],
+      "sanity_pass": true,
+      "animation_advanced": true
+    }
+  ],
+  "baked_full_clips": 50,
+  "foreign_game_dependency_count": 0
+}

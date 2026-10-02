@@ -1,0 +1,362 @@
+[
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Public\\MetaHumanCharacterBodyIdentity.h",
+    "bytes": 12934
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\MeshLandmarks.cpp",
+    "bytes": 26059
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\landmarks\\LandmarkSequence.cpp",
+    "bytes": 7554
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\landmarks\\LandmarkInstance.cpp",
+    "bytes": 22945
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\landmarks\\LandmarkConfiguration.cpp",
+    "bytes": 19055
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\LandmarkConstraintsBase.cpp",
+    "bytes": 2800
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\LandmarkConstraints3D.cpp",
+    "bytes": 17312
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\src\\LandmarkConstraints2D.cpp",
+    "bytes": 59823
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\MeshLandmarks.h",
+    "bytes": 5653
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LipClosure.h",
+    "bytes": 5151
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkTriangulation.h",
+    "bytes": 21936
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkSequence.h",
+    "bytes": 2639
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkInstance.h",
+    "bytes": 6319
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkConstraintsBase.h",
+    "bytes": 8309
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkConstraints3D.h",
+    "bytes": 3452
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkConstraints2D.h",
+    "bytes": 9426
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\nrr\\include\\nrr\\landmarks\\LandmarkConfiguration.h",
+    "bytes": 5578
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\MetaHumanCharacterBodyIdentity.cpp",
+    "bytes": 73986
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\conformer\\src\\TargetLandmarksHandler.cpp",
+    "bytes": 3203
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\conformer\\src\\BrowLandmarksGenerator.cpp",
+    "bytes": 11357
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\conformer\\include\\conformer\\TargetLandmarksHandler.h",
+    "bytes": 1003
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\conformer\\include\\conformer\\BrowLandmarksGenerator.h",
+    "bytes": 1480
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\api\\LandmarkData.h",
+    "bytes": 1212
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\api\\LandmarkData.cpp",
+    "bytes": 2448
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\api\\Internals\\LandmarkInstanceUtils.h",
+    "bytes": 1107
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Private\\api\\Internals\\LandmarkInstanceUtils.cpp",
+    "bytes": 7833
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Private\\Tools\\MetaHumanCharacterEditorMeshTarget3DKeyPointMechanic.h",
+    "bytes": 6722
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Private\\Tools\\MetaHumanCharacterEditorMeshTarget3DKeyPointMechanic.cpp",
+    "bytes": 60826
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Private\\MetaHumanCharacterEditorLandmarkTracker.h",
+    "bytes": 1254
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Private\\MetaHumanCharacterEditorLandmarkTracker.cpp",
+    "bytes": 6375
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacter\\Public\\MetaHumanCharacterTargetKeyPoints.h",
+    "bytes": 4769
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\uemhc_rig_calibration_data.json",
+    "bytes": 537
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\teeth_variants.binary",
+    "bytes": 3960890
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\symmetry.json",
+    "bytes": 185381
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\surface_joints_face.json",
+    "bytes": 77739
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\surface_joints_body.json",
+    "bytes": 12935
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\skinningWeightsConfig.json",
+    "bytes": 3888945
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\rig_calibration_models\\genecode_local.binary",
+    "bytes": 3697441
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\masks_face.json",
+    "bytes": 1326546
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\landmarks_config.json",
+    "bytes": 7975
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\inactive_joints.json",
+    "bytes": 775
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\hf_variants.binary",
+    "bytes": 31829077
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\face_lod_generation.binary",
+    "bytes": 8305762
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\face_landmarks.json",
+    "bytes": 47526
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\eyelashes_variants.binary",
+    "bytes": 1214936
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\bounds_config.json",
+    "bytes": 5349
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Face\\IdentityTemplate\\asset_generation.binary",
+    "bytes": 2901667
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\SKM_Body_DNA.uasset",
+    "bytes": 4194162
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\SKM_Body.uasset",
+    "bytes": 11545909
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\skin_model.binary",
+    "bytes": 27795897
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\region_landmarks.json",
+    "bytes": 2073
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\rbf_model.binary",
+    "bytes": 676805
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\pipeline_presets.masks.bin",
+    "bytes": 1306037
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\pipeline_presets.json",
+    "bytes": 42333
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\PHYS_Body.uasset",
+    "bytes": 217290
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\physics_bodies_mask.json",
+    "bytes": 247905
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\physics_bodies.json",
+    "bytes": 3603
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\combined_lod_generation.binary",
+    "bytes": 4211136
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\body_model.dna",
+    "bytes": 65123071
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\Body_LODSettings_Medium.uasset",
+    "bytes": 55670
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\Body_LODSettings_Low.uasset",
+    "bytes": 55655
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\Body_LODSettings_High.uasset",
+    "bytes": 57100
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\Body_LODSettings.uasset",
+    "bytes": 57098
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\body_joint_mapping.json",
+    "bytes": 60717
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\bodies_mask.json",
+    "bytes": 297791
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Source\\MetaHumanIdentity\\Public\\LandmarkConfigIdentityHelper.h",
+    "bytes": 3303
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Source\\MetaHumanIdentity\\Private\\LandmarkConfigIdentityHelper.cpp",
+    "bytes": 16681
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Neck_CtrlRig.uasset",
+    "bytes": 3324258
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\M_MetaHumanIdentity_Teeth.uasset",
+    "bytes": 21270
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\M_MetaHumanIdentity_Head.uasset",
+    "bytes": 19436
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\M_MetaHumanIdentity_Eye.uasset",
+    "bytes": 13849
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\M_MetaHumanIdentity_Empty.uasset",
+    "bytes": 6928
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\HeadMovementIK_Proc_CtrlRig.uasset",
+    "bytes": 2182699
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Face_PostProcess_AnimBP.uasset",
+    "bytes": 72294
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Face_ControlBoard_CtrlRig.uasset",
+    "bytes": 13130997
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Face_Archetype_Skeleton.uasset",
+    "bytes": 322251
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Face_Archetype_Brows.json",
+    "bytes": 13336
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\DefaultArchetypeTexture\\T_MetaHumanIdentity_Teeth_D.uasset",
+    "bytes": 2782132
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\DefaultArchetypeTexture\\T_MetaHumanIdentity_Head_N.uasset",
+    "bytes": 15296
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\DefaultArchetypeTexture\\T_MetaHumanIdentity_Head_D.uasset",
+    "bytes": 4898234
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\DefaultArchetypeTexture\\T_MetaHumanIdentity_Eye_D.uasset",
+    "bytes": 36311
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Controls\\M_RigControlActor_Black.uasset",
+    "bytes": 6990
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Controls\\MHGizmoLibrary.uasset",
+    "bytes": 4611
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Controls\\faceboard_followGrp.uasset",
+    "bytes": 77944
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Controls\\faceboard_2x.uasset",
+    "bytes": 533271
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanAnimator\\Content\\IdentityTemplate\\Controls\\convergence_3l.uasset",
+    "bytes": 194507
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Experimental\\MeshResizing\\Source\\MeshResizingEditorTools\\Private\\MeshResizing\\MeshWrapLandmarkSelectionTool.h",
+    "bytes": 4699
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Experimental\\MeshResizing\\Source\\MeshResizingEditorTools\\Private\\MeshResizing\\MeshWrapLandmarkSelectionTool.cpp",
+    "bytes": 18990
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryProcessing\\Source\\GeometryAlgorithms\\Public\\Skeletonization\\MeshMedialAxisSampling.h",
+    "bytes": 32011
+  },
+  {
+    "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryProcessing\\Source\\GeometryAlgorithms\\Private\\Skeletonization\\MeshMedialAxisSampling.cpp",
+    "bytes": 91523
+  }
+]

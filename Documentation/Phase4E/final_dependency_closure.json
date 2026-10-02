@@ -1,0 +1,356 @@
+{
+  "status": "passed",
+  "fresh_disk_readback": {
+    "geometry_topology_uv_reference_identical": true,
+    "bone_count": 53,
+    "baseline_weight_max_delta": 0.0,
+    "final_saved_weights_identical": true,
+    "statistics": {
+      "vertices": 28189,
+      "influences": {
+        "5": 20172,
+        "3": 3763,
+        "4": 3660,
+        "2": 594
+      },
+      "normalisation_error_max": 4.842877388000488e-08,
+      "unweighted": 0
+    },
+    "height_cm": 180.0
+  },
+  "evaluated_animation_preservation": [
+    {
+      "name": "MM_Idle",
+      "poses_compared": 121,
+      "source_duration_s": 7.566666603088379,
+      "copy_duration_s": 7.566666603088379,
+      "max_component_position_error_cm": 0.00010000577282303617,
+      "max_component_rotation_error_deg": 0.00010266605908686964,
+      "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "name": "MF_Walk_Fwd",
+      "poses_compared": 121,
+      "source_duration_s": 1.8666666746139526,
+      "copy_duration_s": 1.8666666746139526,
+      "max_component_position_error_cm": 5.332716437961421e-05,
+      "max_component_rotation_error_deg": 0.00011662685510795012,
+      "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "name": "MM_Run_Fwd",
+      "poses_compared": 121,
+      "source_duration_s": 1.899999976158142,
+      "copy_duration_s": 1.899999976158142,
+      "max_component_position_error_cm": 6.853632761586565e-05,
+      "max_component_rotation_error_deg": 0.00012379423462442375,
+      "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "name": "JumpingJacks",
+      "poses_compared": 121,
+      "source_duration_s": 9.466666221618652,
+      "copy_duration_s": 9.466666221618652,
+      "max_component_position_error_cm": 7.7582558589772e-05,
+      "max_component_rotation_error_deg": 0.015848637807478923,
+      "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "name": "MannyFingerIdentity",
+      "poses_compared": 121,
+      "source_duration_s": 11.0,
+      "copy_duration_s": 11.0,
+      "max_component_position_error_cm": 5.3108788241141575e-05,
+      "max_component_rotation_error_deg": 8.967468746207398e-05,
+      "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    }
+  ],
+  "seeds": [
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/BP_QualityPlayback",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Maps/L_QualityComparison",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/JumpingJacks",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MannyFingerIdentity",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MF_Walk_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Idle",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Run_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_45",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_horizontal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_overhead",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_elbows_bent",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_knee_bend",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_neutral",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_wide_stance"
+  ],
+  "closure": [
+    "/ACLPlugin/ACLAnimBoneCompressionSettings",
+    "/ACLPlugin/ACLAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Engine/BasicShapes/Plane",
+    "/Engine/EditorResources/LightIcons/S_LightError",
+    "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+    "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+    "/Engine/EngineMaterials/WorldGridMaterial",
+    "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/BP_QualityPlayback",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/JumpingJacks",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MF_Walk_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Idle",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Run_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MannyFingerIdentity",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_45",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_horizontal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_overhead",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_elbows_bent",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_knee_bend",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_neutral",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_wide_stance",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Maps/L_QualityComparison",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/T_LaraOriginal",
+    "/Script/ACLPlugin",
+    "/Script/AnimationData",
+    "/Script/AnimationModifiers",
+    "/Script/ControlRig",
+    "/Script/InterchangeEngine",
+    "/Script/MovieScene",
+    "/Script/NavigationSystem"
+  ],
+  "edges": {
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_wide_stance": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara": [
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara": [
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal": [
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/T_LaraOriginal"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/T_LaraOriginal": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Script/InterchangeEngine": [],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined": [
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal"
+    ],
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings": [],
+    "/ACLPlugin/ACLAnimCurveCompressionSettings": [
+      "/Script/ACLPlugin"
+    ],
+    "/Script/ACLPlugin": [],
+    "/ACLPlugin/ACLAnimBoneCompressionSettings": [
+      "/Script/ACLPlugin"
+    ],
+    "/Script/AnimationData": [],
+    "/Script/ControlRig": [],
+    "/Script/AnimationModifiers": [],
+    "/Script/MovieScene": [],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_neutral": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_knee_bend": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_elbows_bent": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_overhead": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_horizontal": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_45": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Run_Fwd": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Idle": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MF_Walk_Fwd": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MannyFingerIdentity": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/JumpingJacks": [
+      "/Script/MovieScene",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/AnimationData",
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Maps/L_QualityComparison": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Plane",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/BP_QualityPlayback"
+    ],
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/BP_QualityPlayback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara",
+      "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/JumpingJacks"
+    ],
+    "/Engine/EditorResources/LightIcons/S_LightError": [],
+    "/Engine/BasicShapes/Plane": [
+      "/Script/NavigationSystem",
+      "/Engine/EngineMaterials/WorldGridMaterial"
+    ],
+    "/Engine/EngineMaterials/WorldGridMaterial": [
+      "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+      "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+      "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+    ],
+    "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade": [],
+    "/Engine/EngineMaterials/T_Default_Material_Grid_N": [],
+    "/Engine/EngineMaterials/T_Default_Material_Grid_M": [],
+    "/Script/NavigationSystem": []
+  },
+  "foreign_game_packages": [],
+  "authoring_packages": [],
+  "helper_dependencies": [],
+  "limits": "Package closure and fresh UE reload, not clean-project migration or cooked executable. Evaluated sampled animation copy is not raw-track byte identity."
+}

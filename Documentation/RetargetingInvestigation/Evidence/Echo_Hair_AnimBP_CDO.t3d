@@ -1,0 +1,24 @@
+Begin Object Class=/Game/Characters/Echo/Rig/Echo_Hair_AnimBP.Echo_Hair_AnimBP_C Name="Default__Echo_Hair_AnimBP_C" ExportPath="/Game/Characters/Echo/Rig/Echo_Hair_AnimBP.Echo_Hair_AnimBP_C'/Game/Characters/Echo/Rig/Echo_Hair_AnimBP.Default__Echo_Hair_AnimBP_C'"
+   AnimBlueprintExtension_PropertyAccess=()
+   AnimBlueprintExtension_Base=()
+   AnimGraphNode_Root=(Result=(LinkID=2,SourceLinkID=0),Name="AnimGraph",LayerGroup="",InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_RigidBody=(OverridePhysicsAsset="/Script/Engine.PhysicsAsset'/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail.PA_Echo_Ponytail'",bDefaultToSkeletalMeshPhysicsAsset=True,bUseDefaultAsSimulated=False,bUseLocalLODThresholdOnly=False,OverrideWorldGravity=(X=0.000000,Y=0.000000,Z=-980.000000),ExternalForce=(X=0.000000,Y=0.000000,Z=0.000000),ComponentLinearAccScale=(X=0.400000,Y=0.400000,Z=0.400000),ComponentLinearVelScale=(X=0.200000,Y=0.200000,Z=0.200000),ComponentAppliedLinearAccClamp=(X=4000.000000,Y=4000.000000,Z=4000.000000),SimSpaceSettings=(WorldAlpha=0.000000,VelocityScaleZ=1.000000,DampingAlpha=1.000000,MaxLinearVelocity=10000.000000,MaxAngularVelocity=10000.000000,MaxLinearAcceleration=10000.000000,MaxAngularAcceleration=10000.000000,ExternalLinearDragV=(X=0.000000,Y=0.000000,Z=0.000000),ExternalLinearVelocity=(X=0.000000,Y=0.000000,Z=0.000000),ExternalAngularVelocity=(X=0.000000,Y=0.000000,Z=0.000000)),CachedBoundsScale=1.200000,BaseBoneRef=(BoneName="root"),OverlapChannel=ECC_WorldStatic,SimulationSpace=BaseBoneSpace,bForceDisableCollisionBetweenConstraintBodies=False,bUseExternalClothCollision=False,bEnableWorldGeometry=False,bOverrideWorldGravity=True,bTransferBoneVelocities=False,bFreezeIncomingPoseOnStart=False,bClampLinearTranslationLimitToRefPose=True,bAllowPoseScalePropagation=True,WorldSpaceMinimumScale=0.010000,EvaluationResetTime=0.010000,BoundsVelocityMultiplier=0.000000,MaxVelocityBoundsExpansion=0.000000,bAllowCCD=False,SimulationTiming=Default,ComponentPose=(LinkID=4,SourceLinkID=1),LODThreshold=-1,AlphaInputType=Float,bAlphaBoolEnabled=True,Alpha=1.000000,AlphaScaleBias=(Scale=1.000000,Bias=0.000000),AlphaBoolBlend=(BlendInTime=0.000000,BlendOutTime=0.000000,BlendOption=Linear,CustomCurve=None),AlphaCurveName="",AlphaScaleBiasClamp=(bMapRange=False,bClampResult=False,bInterpResult=False,InRange=(Min=0.000000,Max=1.000000),OutRange=(Min=0.000000,Max=1.000000),Scale=1.000000,Bias=0.000000,ClampMin=0.000000,ClampMax=1.000000,InterpSpeedIncreasing=10.000000,InterpSpeedDecreasing=10.000000),InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_ComponentToLocalSpace=(ComponentPose=(LinkID=1,SourceLinkID=2),InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_CopyPoseFromMesh=(bUseAttachedParent=True,bCopyCurves=False,bCopyCustomAttributes=False,bUseMeshPose=False,RootBoneToCopy="",InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   AnimGraphNode_LocalToComponentSpace=(LocalPose=(LinkID=3,SourceLinkID=4),InitialUpdateFunction=(ClassName="",FunctionName=""),BecomeRelevantFunction=(ClassName="",FunctionName=""),UpdateFunction=(ClassName="",FunctionName=""))
+   WindExternalForce=(X=20000.000000,Y=0.000000,Z=0.000000)
+   bIsWindy=False
+   RootMotionMode=RootMotionFromMontagesOnly
+   bUseMultiThreadedAnimationUpdate=True
+   bUsingCopyPoseFromMesh=True
+   bReceiveNotifiesFromLinkedInstances=False
+   bPropagateNotifiesToLinkedInstances=False
+   bUseMainInstanceMontageEvaluationData=False
+   OnMontageBlendingOut=()
+   OnMontageBlendedIn=()
+   OnMontageStarted=()
+   OnMontageEnded=()
+   OnAllMontageInstancesEnded=()
+   OnMontageSectionChanged=()
+   PostCompileValidationClassName=None
+End Object

@@ -1,0 +1,338 @@
+{
+  "source": "PIE in UE 5.8.3 with MM_Run_Fwd",
+  "samples": [
+    {
+      "unix_time": 1790768203.935579,
+      "components": {
+        "Manny_Source": {
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              0.227487,
+              -265.355885,
+              84.375946
+            ],
+            "head": [
+              -4.359931,
+              -231.916002,
+              141.31084
+            ],
+            "hand_l": [
+              30.013401,
+              -243.781943,
+              84.554643
+            ],
+            "foot_l": [
+              9.294495,
+              -294.162991,
+              53.380757
+            ]
+          }
+        },
+        "Lara_UE5_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              -44.454314,
+              -1081.385403,
+              4958.440757
+            ],
+            "head": [
+              -45.89605,
+              -1069.331622,
+              4983.966629
+            ],
+            "hand_l": [
+              -38.159778,
+              -1067.132034,
+              4965.961385
+            ],
+            "foot_l": [
+              -39.112423,
+              -1099.248811,
+              4938.804452
+            ]
+          }
+        },
+        "Lara_Mixamo_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "Hips": [
+              0.583808,
+              251.6969,
+              56.371647
+            ],
+            "head": [
+              -1.023535,
+              259.147176,
+              83.517394
+            ],
+            "LeftHand": [
+              14.739311,
+              261.1246,
+              58.303953
+            ],
+            "LeftFoot": [
+              6.274408,
+              237.906304,
+              34.746271
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unix_time": 1790768687.988727,
+      "components": {
+        "Manny_Source": {
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              -0.483603,
+              -265.225692,
+              89.588638
+            ],
+            "head": [
+              3.493894,
+              -234.338585,
+              148.115992
+            ],
+            "hand_l": [
+              25.25327,
+              -254.887386,
+              106.981208
+            ],
+            "foot_l": [
+              7.413089,
+              -232.520028,
+              18.090575
+            ]
+          }
+        },
+        "Lara_UE5_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              1.328236,
+              -14.018923,
+              5200.070571
+            ],
+            "head": [
+              2.003886,
+              -2.77021,
+              5225.993058
+            ],
+            "hand_l": [
+              9.853057,
+              -7.927953,
+              5246.022781
+            ],
+            "foot_l": [
+              5.175174,
+              10.845835,
+              5223.249603
+            ]
+          }
+        },
+        "Lara_Mixamo_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "Hips": [
+              0.593749,
+              251.735057,
+              56.340026
+            ],
+            "head": [
+              3.857276,
+              256.63576,
+              84.076571
+            ],
+            "LeftHand": [
+              14.035296,
+              253.640778,
+              64.387227
+            ],
+            "LeftFoot": [
+              6.000011,
+              277.726186,
+              20.978975
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unix_time": 1790769048.514517,
+      "components": {
+        "Manny_Source": {
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              -1.221378,
+              -265.381748,
+              86.470741
+            ],
+            "head": [
+              6.615485,
+              -235.731983,
+              145.261311
+            ],
+            "hand_l": [
+              24.311938,
+              -235.911314,
+              99.896862
+            ],
+            "foot_l": [
+              4.764153,
+              -248.950361,
+              8.398111
+            ]
+          }
+        },
+        "Lara_UE5_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              -0.718132,
+              -9.0496,
+              50.872347
+            ],
+            "head": [
+              1.728998,
+              1.563816,
+              77.095962
+            ],
+            "hand_l": [
+              9.649271,
+              4.191244,
+              56.305769
+            ],
+            "foot_l": [
+              3.220341,
+              -0.14894,
+              6.937231
+            ]
+          }
+        },
+        "Lara_Mixamo_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "Hips": [
+              0.621889,
+              251.747735,
+              56.357101
+            ],
+            "head": [
+              4.077339,
+              258.189263,
+              83.73451
+            ],
+            "LeftHand": [
+              9.822816,
+              264.30167,
+              63.361447
+            ],
+            "LeftFoot": [
+              1.911245,
+              267.941123,
+              14.457625
+            ]
+          }
+        }
+      }
+    },
+    {
+      "unix_time": 1790769448.14551,
+      "components": {
+        "Manny_Source": {
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              1.701265,
+              -265.372151,
+              83.356575
+            ],
+            "head": [
+              -2.610938,
+              -234.646142,
+              141.829251
+            ],
+            "hand_l": [
+              32.49529,
+              -254.659755,
+              89.983955
+            ],
+            "foot_l": [
+              9.795195,
+              -298.365582,
+              54.303753
+            ]
+          }
+        },
+        "Lara_UE5_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "pelvis": [
+              1.00131,
+              -9.043954,
+              49.040228
+            ],
+            "head": [
+              -0.165262,
+              1.966888,
+              75.211502
+            ],
+            "hand_l": [
+              14.731428,
+              -4.831069,
+              51.492104
+            ],
+            "foot_l": [
+              5.681752,
+              -28.869705,
+              30.963582
+            ]
+          }
+        },
+        "Lara_Mixamo_Target": {
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "anim_instance_present": true,
+          "bones_world_cm": {
+            "Hips": [
+              0.567518,
+              251.688605,
+              56.381548
+            ],
+            "head": [
+              -2.079419,
+              258.250267,
+              83.835907
+            ],
+            "LeftHand": [
+              14.721165,
+              255.805223,
+              60.785426
+            ],
+            "LeftFoot": [
+              6.398719,
+              235.21072,
+              35.895961
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "raw_evidence": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\pie_samples.json"
+}

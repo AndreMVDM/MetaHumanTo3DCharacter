@@ -1,0 +1,8 @@
+{
+  "uv_identical": true,
+  "polygon_indices_identical": true,
+  "geometry_transform": "single inferred rigid body frame, grounding, uniform180cm scale; XY pre-export scene-conversion compensation",
+  "uv_sha256": "17b2f20dd461baa3f55e5fdd3bea249a881311a9f16934839e58595b1da72cac",
+  "raw_geometry_replacement": false,
+  "skeletal_export": false
+}

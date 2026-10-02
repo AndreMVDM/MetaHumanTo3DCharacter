@@ -1,0 +1,216 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.09.30-15.22.05:988][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.09.30-15.22.05:988][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.30-15.22.05:988][  0]LogTrace: Display: Control listening on port 34442
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:\Repo\UE\Projects\MetaHumanTo3DCharacter\MHTo3DCharacter.uproject -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/verify_disk.py -unattended -nullrhi -nosplash -ddc=NoZenLocalFallback -LocalDataCachePath=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase3B\DDC -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/verify_disk.log""
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.30-15.22.05:988][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading Mac ini files took 0.05 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+[2026.09.30-15.22.05:988][  0]LogConfig: Display: Loading Linux ini files took 0.06 seconds
+[2026.09.30-15.22.05:988][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.30-15.22.05:988][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=367MiB, MaxMemoryAvailable=102390MiB
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-15.22.05:988][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-15.22.05:988][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.30-15.22.05:988][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.30-15.22.05:988][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.30-15.22.05:988][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-15.22.06:405][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.09.30-15.22.06:509][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.09.30-15.22.06:518][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.30-15.22.06:518][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.30-15.22.06:518][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.30-15.22.06:518][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.30-15.22.06:540][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.30-15.22.06:552][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.09.30-15.22.06:563][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.30-15.22.06:574][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.09.30-15.22.06:575][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.09.30-15.22.06:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.30-15.22.06:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.30-15.22.06:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.30-15.22.06:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.30-15.22.06:587][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.30-15.22.06:590][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.30-15.22.06:633][  0]LogDerivedDataCache: Display: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/DDC: Performance: Latency=0.01ms. RandomReadSpeed=941.46MBs, RandomWriteSpeed=228.09MBs. Assigned SpeedClass 'Local'
+[2026.09.30-15.22.06:635][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.30-15.22.06:635][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.30-15.22.06:635][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.09.30-15.22.06:644][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.09.30-15.22.06:644][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-15.22.06:986][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.30-15.22.07:216][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.30-15.22.07:216][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.30-15.22.07:252][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.30-15.22.07:255][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.30-15.22.07:269][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.30-15.22.07:269][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.30-15.22.07:269][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.30-15.22.07:288][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.30-15.22.07:288][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.30-15.22.07:288][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.30-15.22.07:288][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.30-15.22.07:410][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.30-15.22.07:411][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-15.22.07:411][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.30-15.22.07:411][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.30-15.22.07:495][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.30-15.22.07:497][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.999 ms
+[2026.09.30-15.22.07:754][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.30-15.22.07:756][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.30-15.22.08:252][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-15.22.08:252][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-15.22.08:858][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.09.30-15.22.08:861][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.09.30-15.22.08:861][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-15.22.08:861][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.09.30-15.22.08:861][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.09.30-15.22.08:968][  0]LogAssetRegistry: Display: Asset registry cache read as 118.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_B798602142F513F85BBD1DBCDA9941D9.bin (memory-mapped=yes)
+[2026.09.30-15.22.08:968][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.107s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.09.30-15.22.09:050][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.30-15.22.09:098][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.30-15.22.09:456][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.30-15.22.09:624][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.30-15.22.09:632][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 8.166 ms
+[2026.09.30-15.22.09:632][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.30-15.22.09:652][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 19.430 ms (total: 27.596 ms)
+[2026.09.30-15.22.09:653][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/verify_disk.py
+[2026.09.30-15.22.09:792][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 41.85 MB)
+[2026.09.30-15.22.09:797][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 10.49 MB)
+[2026.09.30-15.22.09:805][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 10.67 MB)
+[2026.09.30-15.22.09:814][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 52.30 MB)
+[2026.09.30-15.22.09:822][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 2.97 MB)
+[2026.09.30-15.22.09:831][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/2db35085737193f3ad5c1816f3395720635321db
+[2026.09.30-15.22.09:860][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/c1a3d058a5841ef69920de2fd986cce9daa838ae
+[2026.09.30-15.22.09:868][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/66f9cbf40d020b4c2e7f48e1c50c32e26d8175d7
+[2026.09.30-15.22.09:889][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 41.85 MB)
+[2026.09.30-15.22.09:895][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 10.49 MB)
+[2026.09.30-15.22.09:902][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 10.67 MB)
+[2026.09.30-15.22.09:943][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 2.97 MB)
+[2026.09.30-15.22.09:943][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 52.30 MB)
+[2026.09.30-15.22.09:965][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/cbd3e69338c685a7d538f0a59b7a20e721d36869
+[2026.09.30-15.22.09:971][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_UE5) ...
+[2026.09.30-15.22.09:974][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/95058fbb6a95b0105b87527c2cd4e455c7a3099e
+[2026.09.30-15.22.09:991][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 41.85 MB)
+[2026.09.30-15.22.09:998][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 10.49 MB)
+[2026.09.30-15.22.10:020][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/94e3d7c0c452ccd771cb0a696ee130b509714c42
+[2026.09.30-15.22.10:050][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 10.67 MB)
+[2026.09.30-15.22.10:051][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 52.30 MB)
+[2026.09.30-15.22.10:053][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 2.97 MB)
+[2026.09.30-15.22.10:067][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle, at AnimationSequence/6cffe45ba8e8802881ee32240ed1b2c7f5014690
+[2026.09.30-15.22.10:067][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/1da7b9c50227b4a5f56d6fca87c5f2d28188cdce
+[2026.09.30-15.22.10:074][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_UE5) ...
+[2026.09.30-15.22.10:081][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/d2fec23f13cc39937d0550ded739335df6332e77
+[2026.09.30-15.22.10:130][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 2.97 MB)
+[2026.09.30-15.22.10:136][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks, at AnimationSequence/3a9f5128d6163b74670762ee2264d4114918b56b
+[2026.09.30-15.22.10:146][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/c1b4847fe0efb379aee3a4ed59a9008f4dd2dd89
+[2026.09.30-15.22.10:156][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/3ffaf1d8151adc439e4c83ab633f6b0b18b2685b
+[2026.09.30-15.22.10:171][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Idle.MM_Idle, at AnimationSequence/a6068d91ed0e4c9547933e3da7e665f0131e9257
+[2026.09.30-15.22.10:183][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_UE5) ...
+[2026.09.30-15.22.10:199][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 41.85 MB)
+[2026.09.30-15.22.10:210][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 10.49 MB)
+[2026.09.30-15.22.10:217][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 10.67 MB)
+[2026.09.30-15.22.10:250][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 52.30 MB)
+[2026.09.30-15.22.10:266][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 2.97 MB)
+[2026.09.30-15.22.10:283][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/b706db857b643c4707bf0eabba69c0b6b1a3a01e
+[2026.09.30-15.22.10:288][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Mixamo) ...
+[2026.09.30-15.22.10:296][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Idle.MM_Idle, at AnimationSequence/d1ad33921698f3d6d98af18109742d72d22fbb36
+[2026.09.30-15.22.10:315][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/b712fc279e3373d4044b2d07157c8a88e812a6c0
+[2026.09.30-15.22.10:323][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 44.59 MB)
+[2026.09.30-15.22.10:328][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/bf9a2b91808271015ccd3d223ac87d191ccba244
+[2026.09.30-15.22.10:332][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 11.18 MB)
+[2026.09.30-15.22.10:361][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/JumpingJacks.JumpingJacks, at AnimationSequence/c535c70752e713101427196ed8aaf6763228f088
+[2026.09.30-15.22.10:365][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 11.37 MB)
+[2026.09.30-15.22.10:365][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 55.73 MB)
+[2026.09.30-15.22.10:387][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 3.17 MB)
+[2026.09.30-15.22.10:416][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Mixamo) ...
+[2026.09.30-15.22.10:444][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/d678e5b963b2b5d2dd523d4d6e8973d451638c97
+[2026.09.30-15.22.10:455][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 11.18 MB)
+[2026.09.30-15.22.10:455][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 44.59 MB)
+[2026.09.30-15.22.10:463][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/e97c10b01899fcdce87d4991684fa496fe3082de
+[2026.09.30-15.22.10:479][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 55.73 MB)
+[2026.09.30-15.22.10:482][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 3.17 MB)
+[2026.09.30-15.22.10:487][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 11.37 MB)
+[2026.09.30-15.22.10:487][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/f750b5a387702599350f6e12768ed2f4306ebf02
+[2026.09.30-15.22.10:488][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/JumpingJacks.JumpingJacks, at AnimationSequence/5df888d35f943941e92449acd8925dced47aa3f0
+[2026.09.30-15.22.10:513][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/6c441addee387cc7bb0097710869748b8d768784
+[2026.09.30-15.22.10:530][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Mixamo) ...
+[2026.09.30-15.22.10:546][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Idle.MM_Idle, at AnimationSequence/e66bd89d444f9111a388d81517c7edb1221f99f1
+[2026.09.30-15.22.10:568][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/13a7bca85f40d3d907e5ec7db163ffc46d152be6
+[2026.09.30-15.22.10:583][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 11.18 MB)
+[2026.09.30-15.22.10:584][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 11.37 MB)
+[2026.09.30-15.22.10:585][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 55.73 MB)
+[2026.09.30-15.22.10:586][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 44.59 MB)
+[2026.09.30-15.22.10:617][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/1849d574531eb157ad08c2251a6525de46f7cae3
+[2026.09.30-15.22.10:648][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Mixamo) ...
+[2026.09.30-15.22.10:661][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle, at AnimationSequence/d29b53dd7ac2b5dd7eca62236f8dc33cb00e3199
+[2026.09.30-15.22.10:698][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/JumpingJacks.JumpingJacks, at AnimationSequence/df53ebb4300db16d1b36ad921523bc6ce6fa5134
+[2026.09.30-15.22.10:699][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 3.17 MB)
+[2026.09.30-15.22.10:718][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 3.17 MB)
+[2026.09.30-15.22.10:722][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/550828a5064640c99ba2587475ce15b5e05e8f2c
+[2026.09.30-15.22.10:725][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/57358dbe779a2ef84d66462cff7f9ba78c43bb4a
+[2026.09.30-15.22.10:729][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/f745592583547bae2c95d967cda4f1d7e5c2c6d9
+[2026.09.30-15.22.10:731][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/78ee660a255d879228ce8db6529ddf41b1838de5
+[2026.09.30-15.22.10:752][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks, at AnimationSequence/1193312ae1c9d30def34d6dfe0bb30da97d211b2
+[2026.09.30-15.22.10:752][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Mixamo) ...
+[2026.09.30-15.22.10:771][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MM_Idle.MM_Idle (Required Memory Estimate: 44.59 MB)
+[2026.09.30-15.22.10:776][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 11.18 MB)
+[2026.09.30-15.22.10:792][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 11.37 MB)
+[2026.09.30-15.22.10:813][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.30-15.22.10:813][  0]LogInit: Display: 
+[2026.09.30-15.22.10:813][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.30-15.22.10:813][  0]LogInit: Display: -----------------------------------
+[2026.09.30-15.22.10:813][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-15.22.10:813][  0]LogInit: Display: 
+[2026.09.30-15.22.10:813][  0]LogInit: Display: Success - 0 error(s), 1 warning(s)
+[2026.09.30-15.22.10:813][  0]LogInit: Display: 
+
+Execution of commandlet took:  1.19 seconds, PeakPhysMemoryMB=2016 MB, PeakVirtMemoryMB=1954 MB
+[2026.09.30-15.22.10:820][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/JumpingJacks.JumpingJacks (Required Memory Estimate: 55.73 MB)
+[2026.09.30-15.22.10:820][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim (Required Memory Estimate: 3.17 MB)
+[2026.09.30-15.22.10:837][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/495bb60b1422900a053b5bc60a4c0e26e3ac50eb
+[2026.09.30-15.22.10:983][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-15.22.10:988][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.09.30-15.22.10:988][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-15.22.11:210][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

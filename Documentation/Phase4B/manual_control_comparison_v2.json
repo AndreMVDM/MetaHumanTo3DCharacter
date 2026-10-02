@@ -1,0 +1,520 @@
+{
+  "evaluation_only": true,
+  "automatic_proposal_unchanged_sha256": "2e65549fe654ad94f8c91045ec0dfdd9fe4a44367450118e70ed12c4ccd2b0fb",
+  "control": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Documentation\\Phase4A\\assisted_candidates_ball_forward.json",
+  "control_sha256": "2232fbdd204a5f3a0784887d06cae2ee6324d8b568f4ce5eee46b0dce486e0c0",
+  "alignment": "Invert Phase4A uniform factor; Verified UE Y-only handedness conversion inversion; apply Phase4B inferred body frame and final-height factor",
+  "manual_control_limit": "Approximate authored Phase4A joints, not anatomical ground truth. Positional agreement does not prove semantic accuracy.",
+  "joint_count": 23,
+  "mean_difference_cm": 4.160896830124891,
+  "max_difference_cm": 6.50234339548132,
+  "hierarchy_equivalent_for_body": true,
+  "joints": [
+    {
+      "role": "root",
+      "automatic_cm": [
+        0,
+        0,
+        0
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_in_inferred_frame_cm": [
+        0.034516707666404876,
+        2.2411021814403638,
+        -0.1601028225219023
+      ],
+      "absolute_difference_cm": 2.247078838079422,
+      "normalised_by_height": 0.012483771322663456,
+      "parent_segment_angle_difference_deg": null,
+      "same_parent_role": true
+    },
+    {
+      "role": "pelvis",
+      "automatic_cm": [
+        0.0,
+        4.668354559250324,
+        102.5
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        100.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.006773621986462537,
+        0.03824974575542558,
+        100.01918519849333
+      ],
+      "absolute_difference_cm": 5.252842901256234,
+      "normalised_by_height": 0.029182460562534634,
+      "parent_segment_angle_difference_deg": 3.867481339648166,
+      "same_parent_role": true
+    },
+    {
+      "role": "spine_01",
+      "automatic_cm": [
+        0.0,
+        5.321728269579018,
+        114.53333333333333
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        112.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.01172846154480662,
+        -0.2260925465267667,
+        112.04069976101515
+      ],
+      "absolute_difference_cm": 6.082078221321605,
+      "normalised_by_height": 0.033789323451786694,
+      "parent_segment_angle_difference_deg": 4.367679543759589,
+      "same_parent_role": true
+    },
+    {
+      "role": "spine_02",
+      "automatic_cm": [
+        0.0,
+        4.428229611949732,
+        126.56666666666666
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        125.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.017096204399679387,
+        -0.5124633631658089,
+        125.06400720374714
+      ],
+      "absolute_difference_cm": 5.1641770705565975,
+      "normalised_by_height": 0.02868987261420332,
+      "parent_segment_angle_difference_deg": 2.986945072497842,
+      "same_parent_role": true
+    },
+    {
+      "role": "spine_03",
+      "automatic_cm": [
+        0.0,
+        -0.41819147740446105,
+        138.6
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        138.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.02246394725455216,
+        -0.798834179804851,
+        138.08731464647914
+      ],
+      "absolute_difference_cm": 0.638936434656631,
+      "normalised_by_height": 0.0035496468592035053,
+      "parent_segment_angle_difference_deg": 20.677428273584752,
+      "same_parent_role": true
+    },
+    {
+      "role": "neck_01",
+      "automatic_cm": [
+        0.0,
+        3.8021034989995415,
+        153.6
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.027418786812896234,
+        -1.063176472087043,
+        150.10882920900093
+      ],
+      "absolute_difference_cm": 5.988319837721729,
+      "normalised_by_height": 0.03326844354289849,
+      "parent_segment_angle_difference_deg": 16.973802059494666,
+      "same_parent_role": true
+    },
+    {
+      "role": "head",
+      "automatic_cm": [
+        0.0,
+        1.8747791121823303,
+        166.8
+      ],
+      "control_original_ue_cm": [
+        0.0,
+        0.0,
+        161.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -0.03196072307471165,
+        -1.3054902400123864,
+        161.1285508913126
+      ],
+      "absolute_difference_cm": 6.50234339548132,
+      "normalised_by_height": 0.036124129974896224,
+      "parent_segment_angle_difference_deg": 7.0473835203508735,
+      "same_parent_role": true
+    },
+    {
+      "role": "clavicle_l",
+      "automatic_cm": [
+        8.70217430811581,
+        -3.152341540444544,
+        141.6
+      ],
+      "control_original_ue_cm": [
+        9.0,
+        0.0,
+        141.0
+      ],
+      "control_in_inferred_frame_cm": [
+        8.994612089898878,
+        -0.8684374760467208,
+        141.0963329632439
+      ],
+      "absolute_difference_cm": 2.3569934483366235,
+      "normalised_by_height": 0.013094408046314576,
+      "parent_segment_angle_difference_deg": 16.133491132074287,
+      "same_parent_role": true
+    },
+    {
+      "role": "upperarm_l",
+      "automatic_cm": [
+        18.129529808574603,
+        -3.152341540444544,
+        140.6
+      ],
+      "control_original_ue_cm": [
+        18.0,
+        0.0,
+        139.0
+      ],
+      "control_in_inferred_frame_cm": [
+        18.013752643534954,
+        -0.8278981505043436,
+        139.09638687895793
+      ],
+      "absolute_difference_cm": 2.7707929988996236,
+      "normalised_by_height": 0.015393294438331243,
+      "parent_segment_angle_difference_deg": 6.452641906435158,
+      "same_parent_role": true
+    },
+    {
+      "role": "lowerarm_l",
+      "automatic_cm": [
+        21.43482283041007,
+        -0.4854843149263076,
+        121.8
+      ],
+      "control_original_ue_cm": [
+        25.0,
+        0.0,
+        121.0
+      ],
+      "control_in_inferred_frame_cm": [
+        25.03542970612815,
+        -0.43412071899208277,
+        121.06694589439074
+      ],
+      "absolute_difference_cm": 3.674830120455391,
+      "normalised_by_height": 0.02041572289141884,
+      "parent_segment_angle_difference_deg": 13.15150123193295,
+      "same_parent_role": true
+    },
+    {
+      "role": "hand_l",
+      "automatic_cm": [
+        29.306981816542404,
+        3.7785553926618305,
+        103.8
+      ],
+      "control_original_ue_cm": [
+        31.0,
+        0.0,
+        102.0
+      ],
+      "control_in_inferred_frame_cm": [
+        31.055484700124204,
+        -0.017923904992825607,
+        102.03530762115405
+      ],
+      "absolute_difference_cm": 4.537031693009345,
+      "normalised_by_height": 0.025205731627829693,
+      "parent_segment_angle_difference_deg": 12.58314673619649,
+      "same_parent_role": true
+    },
+    {
+      "role": "thigh_l",
+      "automatic_cm": [
+        7.989295194138082,
+        3.580961204282466,
+        100.5
+      ],
+      "control_original_ue_cm": [
+        11.0,
+        0.0,
+        97.0
+      ],
+      "control_in_inferred_frame_cm": [
+        11.016849778733478,
+        0.10003587939435821,
+        97.01825505091593
+      ],
+      "absolute_difference_cm": 5.779747033445707,
+      "normalised_by_height": 0.03210970574136504,
+      "parent_segment_angle_difference_deg": 7.918283855379927,
+      "same_parent_role": true
+    },
+    {
+      "role": "calf_l",
+      "automatic_cm": [
+        13.518970869735476,
+        3.7456021013020093,
+        54.599999999999994
+      ],
+      "control_original_ue_cm": [
+        16.0,
+        1.0,
+        55.0
+      ],
+      "control_in_inferred_frame_cm": [
+        16.044748449864862,
+        2.025072500785122,
+        54.96700480633219
+      ],
+      "absolute_difference_cm": 3.078062218086241,
+      "normalised_by_height": 0.017100345656034674,
+      "parent_segment_angle_difference_deg": 2.39906960450718,
+      "same_parent_role": true
+    },
+    {
+      "role": "foot_l",
+      "automatic_cm": [
+        17.745956110526013,
+        -0.11411840893576986,
+        17.1
+      ],
+      "control_original_ue_cm": [
+        18.0,
+        0.0,
+        12.0
+      ],
+      "control_in_inferred_frame_cm": [
+        18.066191362194093,
+        1.9697244428155276,
+        11.868691092268554
+      ],
+      "absolute_difference_cm": 5.640172385248193,
+      "normalised_by_height": 0.03133429102915663,
+      "parent_segment_angle_difference_deg": 6.872571135009334,
+      "same_parent_role": true
+    },
+    {
+      "role": "ball_l",
+      "automatic_cm": [
+        21.52088366626552,
+        10.709634986078996,
+        5.5166203799100675
+      ],
+      "control_original_ue_cm": [
+        18.0,
+        10.0,
+        4.0
+      ],
+      "control_in_inferred_frame_cm": [
+        18.07331332065468,
+        12.16388152820856,
+        4.074634870045647
+      ],
+      "absolute_difference_cm": 4.00997462633992,
+      "normalised_by_height": 0.022277636812999557,
+      "parent_segment_angle_difference_deg": 16.367869630946625,
+      "same_parent_role": true
+    },
+    {
+      "role": "clavicle_r",
+      "automatic_cm": [
+        -8.70217430811581,
+        -3.152341540444544,
+        141.6
+      ],
+      "control_original_ue_cm": [
+        -9.0,
+        0.0,
+        141.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -9.042017404187156,
+        -0.8614020297040774,
+        141.0890536109753
+      ],
+      "absolute_difference_cm": 2.371700525841427,
+      "normalised_by_height": 0.013176114032452372,
+      "parent_segment_angle_difference_deg": 16.17751494184421,
+      "same_parent_role": true
+    },
+    {
+      "role": "upperarm_r",
+      "automatic_cm": [
+        -18.129529808574603,
+        -3.152341540444544,
+        140.6
+      ],
+      "control_original_ue_cm": [
+        -18.0,
+        0.0,
+        139.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -18.059506344637114,
+        -0.8138272578190566,
+        139.08182817442065
+      ],
+      "absolute_difference_cm": 2.7889779539336845,
+      "normalised_by_height": 0.015494321966298248,
+      "parent_segment_angle_difference_deg": 6.500727214255375,
+      "same_parent_role": true
+    },
+    {
+      "role": "lowerarm_r",
+      "automatic_cm": [
+        -21.43482283041007,
+        -0.4854843149263076,
+        121.8
+      ],
+      "control_original_ue_cm": [
+        -25.0,
+        0.0,
+        121.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -25.066318888555283,
+        -0.41457781248473985,
+        121.04672547142233
+      ],
+      "absolute_difference_cm": 3.7094762255359743,
+      "normalised_by_height": 0.020608201252977635,
+      "parent_segment_angle_difference_deg": 13.102869893335495,
+      "same_parent_role": true
+    },
+    {
+      "role": "hand_r",
+      "automatic_cm": [
+        -29.306981816542404,
+        3.7785553926618305,
+        103.8
+      ],
+      "control_original_ue_cm": [
+        -31.0,
+        0.0,
+        102.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -31.070683557283253,
+        0.006309299076279603,
+        102.0102342966732
+      ],
+      "absolute_difference_cm": 4.532520898315705,
+      "normalised_by_height": 0.025180671657309472,
+      "parent_segment_angle_difference_deg": 12.593734270003743,
+      "same_parent_role": true
+    },
+    {
+      "role": "thigh_r",
+      "automatic_cm": [
+        -7.989295194138082,
+        3.580961204282466,
+        100.5
+      ],
+      "control_original_ue_cm": [
+        -11.0,
+        0.0,
+        97.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -11.02791960292723,
+        0.10863475825758909,
+        97.00935806480982
+      ],
+      "absolute_difference_cm": 5.785747174320809,
+      "normalised_by_height": 0.03214303985733783,
+      "parent_segment_angle_difference_deg": 7.967863165383864,
+      "same_parent_role": true
+    },
+    {
+      "role": "calf_r",
+      "automatic_cm": [
+        -13.518970869735476,
+        3.7456021013020093,
+        54.599999999999994
+      ],
+      "control_original_ue_cm": [
+        -16.0,
+        1.0,
+        55.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -16.020370650732534,
+        2.0375799609498215,
+        54.9540637356324
+      ],
+      "absolute_difference_cm": 3.0495412155265873,
+      "normalised_by_height": 0.016941895641814374,
+      "parent_segment_angle_difference_deg": 2.405866741544209,
+      "same_parent_role": true
+    },
+    {
+      "role": "foot_r",
+      "automatic_cm": [
+        -17.745956110526013,
+        -0.11411840893576986,
+        17.1
+      ],
+      "control_original_ue_cm": [
+        -18.0,
+        0.0,
+        12.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -18.007067625977975,
+        1.9837953355008144,
+        11.854132387731296
+      ],
+      "absolute_difference_cm": 5.655841962789212,
+      "normalised_by_height": 0.03142134423771784,
+      "parent_segment_angle_difference_deg": 6.899504348743072,
+      "same_parent_role": true
+    },
+    {
+      "role": "ball_r",
+      "automatic_cm": [
+        -21.52088366626552,
+        10.709634986078996,
+        5.5166203799100675
+      ],
+      "control_original_ue_cm": [
+        -18.0,
+        10.0,
+        4.0
+      ],
+      "control_in_inferred_frame_cm": [
+        -17.99994566751739,
+        12.177952420893847,
+        4.060076165508389
+      ],
+      "absolute_difference_cm": 4.083439913714507,
+      "normalised_by_height": 0.022685777298413926,
+      "parent_segment_angle_difference_deg": 16.4200659873923,
+      "same_parent_role": true
+    }
+  ]
+}

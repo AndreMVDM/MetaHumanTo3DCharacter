@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "exact accepted editor replay: fingers",
+      "passed": true
+    },
+    {
+      "name": "exact accepted editor replay: approvals",
+      "passed": true
+    },
+    {
+      "name": "exact accepted editor replay: events",
+      "passed": true
+    },
+    {
+      "name": "exact accepted editor replay: joints",
+      "passed": true
+    },
+    {
+      "name": "exact accepted editor replay: generated_joint_schema",
+      "passed": true
+    },
+    {
+      "name": "derived local transforms replay within 1e-10",
+      "passed": true
+    },
+    {
+      "name": "root_cm real change invalidates thumb approval",
+      "passed": true
+    },
+    {
+      "name": "tip_cm real change invalidates thumb approval",
+      "passed": true
+    },
+    {
+      "name": "changed track invalidates thumb approval",
+      "passed": true
+    },
+    {
+      "name": "changed neck invalidates body approval",
+      "passed": true
+    },
+    {
+      "name": "actual human proposal passes parent-relative clavicle check",
+      "passed": true
+    },
+    {
+      "name": "wrong-side clavicle still rejected",
+      "passed": true
+    },
+    {
+      "name": "crossed wrist still rejected",
+      "passed": true
+    }
+  ],
+  "maximum_local_transform_replay_delta": 1.7763568394002505e-15,
+  "fixture_provenance": "Synthetic copies of recovered real editor state; no recorded human commands or approval exports"
+}

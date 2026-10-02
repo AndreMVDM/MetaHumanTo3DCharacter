@@ -1,0 +1,2026 @@
+{
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MaintainingContactPoints": [
+    "/Engine/EditorBlueprintResources/StandardMacros",
+    "/Script/IKRig",
+    "/Game/Global/Blueprints/BP_Slider",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot",
+    "/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd"
+  ],
+  "/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd": [
+    "/Script/MovieScene",
+    "/Script/AnimationModifiers",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Meshes/SK_Mannequin": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple"
+  ],
+  "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple": [
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01",
+    "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+  ],
+  "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02": [
+    "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK"
+  ],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN": [],
+  "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01": [
+    "/Game/Characters/Mannequins/Materials/M_Mannequin",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK",
+    "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK"
+  ],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D": [],
+  "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN": [],
+  "/Game/Characters/Mannequins/Materials/M_Mannequin": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_N",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan",
+    "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "/Game/Characters/Mannequins/Materials/Functions/CA_Mannequin",
+    "/Game/Characters/Mannequins/Materials/Functions/MF_Diffraction",
+    "/Game/Characters/Mannequins/Materials/Functions/MF_logo3layers",
+    "/Game/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff"
+  ],
+  "/Game/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff": [],
+  "/Game/Characters/Mannequins/Materials/Functions/MF_logo3layers": [
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+    "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M"
+  ],
+  "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M": [],
+  "/Game/Characters/Mannequins/Materials/Functions/MF_Diffraction": [
+    "/Game/Characters/Mannequins/Materials/Functions/CA_Mannequin",
+    "/Game/Characters/Mannequins/Materials/Functions/ChromaticCurve"
+  ],
+  "/Game/Characters/Mannequins/Materials/Functions/ChromaticCurve": [],
+  "/Game/Characters/Mannequins/Materials/Functions/CA_Mannequin": [
+    "/Game/Characters/Mannequins/Materials/Functions/ChromaticCurve"
+  ],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_N": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK": [],
+  "/Game/Characters/Mannequins/Rigs/PA_Mannequin": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny"
+  ],
+  "/Game/Characters/Mannequins/Meshes/SKM_Manny": [
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/ABP_Manny_PostProcess",
+    "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections",
+    "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01",
+    "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02"
+  ],
+  "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02": [
+    "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_BN",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_D",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_N",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan"
+  ],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_N": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_D": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_BN": [],
+  "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK": [],
+  "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01": [
+    "/Game/Characters/Mannequins/Materials/M_Mannequin",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_N",
+    "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan"
+  ],
+  "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections": [
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DeltaMushDeformerDemo",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DualQuatDeformerDemo",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_RigDrivenDeformerDemo",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_SimpleDeformer"
+  ],
+  "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_SimpleDeformer": [
+    "/Script/CoreUObject",
+    "/Script/OptimusCore",
+    "/DeformerGraph/SourceLibraries/DSL_Quaternion",
+    "/Script/ComputeFramework",
+    "/DeformerGraph/DeformerFunctions/DG_Function_ComputeNormalsTangentsAndKeepImportedNormals",
+    "/DeformerGraph/DeformerFunctions/DG_Function_LinearBlendSkin_PositionOnly"
+  ],
+  "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_RigDrivenDeformerDemo": [
+    "/Script/CoreUObject",
+    "/Script/OptimusCore",
+    "/DeformerGraph/SourceLibraries/DSL_Quaternion",
+    "/DeformerGraph/SourceLibraries/DSL_Matrix",
+    "/Script/ComputeFramework",
+    "/DeformerGraph/DeformerFunctions/DG_Function_ComputeNormalsTangentsAndKeepImportedNormals"
+  ],
+  "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DualQuatDeformerDemo": [
+    "/Script/CoreUObject",
+    "/Script/OptimusCore",
+    "/DeformerGraph/SourceLibraries/DSL_DualQuaternion",
+    "/Script/ComputeFramework"
+  ],
+  "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DeltaMushDeformerDemo": [
+    "/Script/CoreUObject",
+    "/Script/OptimusCore",
+    "/Script/ComputeFramework"
+  ],
+  "/Game/Characters/Mannequins/Rigs/ABP_Manny_PostProcess": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "/Script/ControlRigDeveloper",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural": [
+    "/Script/ControlRig",
+    "/ControlRig/Controls/DefaultGizmoLibrary",
+    "/Script/ControlRigDeveloper",
+    "/Script/RigVMDeveloper",
+    "/Script/RigVM",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body": [
+    "/Script/CoreUObject",
+    "/Script/AnimationCore",
+    "/Script/ControlRig",
+    "/ControlRig/Controls/DefaultGizmoLibraryNormalized",
+    "/Script/ControlRigDeveloper",
+    "/Script/RigVMDeveloper",
+    "/Script/RigVM",
+    "/Script/ControlRigSpline",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple"
+  ],
+  "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple": [
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections",
+    "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01",
+    "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02"
+  ],
+  "/Game/Characters/Mannequins/Meshes/SKM_Quinn": [
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess",
+    "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01",
+    "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+  ],
+  "/Game/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Script/ControlRigDeveloper",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim"
+  ],
+  "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_StackOBot_Retargeting"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_StackOBot_Retargeting": [
+    "/Script/IKRig",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot"
+  ],
+  "/Game/Characters/StackOBot/Mesh/SKM_Bot": [
+    "/Game/Characters/StackOBot/Materials/MI_BotFace",
+    "/Game/Characters/StackOBot/Materials/M_BotBase",
+    "/Game/Characters/StackOBot/Mesh/SK_Bot",
+    "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections"
+  ],
+  "/Game/Characters/StackOBot/Mesh/SK_Bot": [
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot"
+  ],
+  "/Game/Characters/StackOBot/Materials/M_BotBase": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/EngineMaterials/BlendFunc_DefBase",
+    "/Engine/EngineMaterials/BlendFunc_DefBlend",
+    "/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay",
+    "/Game/Characters/StackOBot/Materials/MF_SpawnEffect",
+    "/Game/Characters/StackOBot/Textures/T_Bot_Albedo",
+    "/Game/Characters/StackOBot/Textures/T_Bot_Masks",
+    "/Game/Characters/StackOBot/Textures/T_Bot_M_R_AO",
+    "/Game/Characters/StackOBot/Textures/T_Bot_Normal"
+  ],
+  "/Game/Characters/StackOBot/Textures/T_Bot_Normal": [],
+  "/Game/Characters/StackOBot/Textures/T_Bot_M_R_AO": [],
+  "/Game/Characters/StackOBot/Textures/T_Bot_Masks": [],
+  "/Game/Characters/StackOBot/Textures/T_Bot_Albedo": [],
+  "/Game/Characters/StackOBot/Materials/MF_SpawnEffect": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3"
+  ],
+  "/Game/Characters/StackOBot/Materials/MI_BotFace": [
+    "/Game/Characters/StackOBot/Materials/M_BotFace",
+    "/Game/Characters/StackOBot/Textures/T_Bot_FaceBG",
+    "/Game/Characters/StackOBot/Textures/T_Eyes_Atlas"
+  ],
+  "/Game/Characters/StackOBot/Textures/T_Eyes_Atlas": [],
+  "/Game/Characters/StackOBot/Textures/T_Bot_FaceBG": [],
+  "/Game/Characters/StackOBot/Materials/M_BotFace": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/Texturing/FlipBook",
+    "/Engine/EngineMaterials/DefaultDiffuse",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugFloat2Values",
+    "/Game/Characters/StackOBot/Materials/MF_SpawnEffect",
+    "/Game/Characters/StackOBot/Textures/T_Bot_FaceBG",
+    "/Game/Characters/StackOBot/Textures/T_Eyes_Atlas"
+  ],
+  "/Game/Characters/Mannequins/Rigs/IK_Mannequin": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "/Script/IKRig"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/Characters/StackOBot/Mesh/SK_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot"
+  ],
+  "/Game/Global/Blueprints/BP_Slider": [
+    "/Script/InputCore",
+    "/Script/PhysicsCore",
+    "/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction",
+    "/Game/Global/DemoRoom/Meshes/Slider_Button",
+    "/Game/Global/DemoRoom/Meshes/SM_SliderBase",
+    "/Game/Global/DemoRoom/Meshes/SM_SliderBase_Cap"
+  ],
+  "/Game/Global/DemoRoom/Meshes/SM_SliderBase_Cap": [
+    "/Script/NavigationSystem",
+    "/Game/Global/DemoRoom/Materials/MI_TileBlack",
+    "/Game/Global/DemoRoom/Materials/M_UELogo"
+  ],
+  "/Game/Global/DemoRoom/Materials/M_UELogo": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift"
+  ],
+  "/Game/Global/DemoRoom/Materials/MI_TileBlack": [
+    "/Game/Global/DemoRoom/Materials/M_Tile"
+  ],
+  "/Game/Global/DemoRoom/Materials/M_Tile": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/EngineMaterials/DefaultDiffuse",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+    "/Engine/OpenWorldTemplate/LandscapeMaterial/MF_RSquareGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-2D",
+    "/Game/Global/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR"
+  ],
+  "/Game/Global/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR": [],
+  "/Game/Global/DemoRoom/Meshes/SM_SliderBase": [
+    "/Script/NavigationSystem",
+    "/Game/Global/DemoRoom/Materials/MI_TileBlack",
+    "/Game/Global/DemoRoom/Materials/M_UELogo"
+  ],
+  "/Game/Global/DemoRoom/Meshes/Slider_Button": [
+    "/Script/NavigationSystem",
+    "/Game/Global/DemoRoom/Materials/M_Metal"
+  ],
+  "/Game/Global/DemoRoom/Materials/M_Metal": [
+    "/Engine/EngineMaterials/DefaultDiffuse",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+    "/Game/Global/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR"
+  ],
+  "/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction": [],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RootMotionGenerator_PostRetargetPhase": [
+    "/Engine/EditorBlueprintResources/StandardMacros",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RootMotionGenerator_PostRetargetPhase",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting",
+    "/Game/Characters/Mannequins/Animations/Manny/MM_Death_Front_01"
+  ],
+  "/Game/Characters/Mannequins/Animations/Manny/MM_Death_Front_01": [
+    "/Script/Engine",
+    "/Script/MovieScene",
+    "/ACLPlugin/ACLAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RootMotionGenerator_PostRetargetPhase": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/Characters/StackOBot/Mesh/SK_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RootMotionGenerator_PostRetargetPhase"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RootMotionGenerator_PostRetargetPhase": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_StackOBot_Retargeting"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_TranslationRetargeting": [
+    "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color1",
+    "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color2",
+    "/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_M_MALE_Base",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_S_MALE_Base"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_S_MALE_Base": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_M_MALE_Base": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton"
+  ],
+  "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color2": [
+    "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color1"
+  ],
+  "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color1": [
+    "/Game/Global/Materials/M_DemoRoomTiles_Inst"
+  ],
+  "/Game/Global/Materials/M_DemoRoomTiles_Inst": [
+    "/Game/Global/Materials/M_DemoRoomTiles",
+    "/Game/ExampleContent/Audio/Physical_Materials/Concrete"
+  ],
+  "/Game/ExampleContent/Audio/Physical_Materials/Concrete": [
+    "/Script/PhysicsCore"
+  ],
+  "/Game/Global/Materials/M_DemoRoomTiles": [
+    "/Game/Global/Textures/T_RoomTiles_M",
+    "/Game/Global/Textures/T_RoomTiles_N"
+  ],
+  "/Game/Global/Textures/T_RoomTiles_N": [],
+  "/Game/Global/Textures/T_RoomTiles_M": [],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_SpeedPlanting": [
+    "/Engine/EditorBlueprintResources/StandardMacros",
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/ExampleContent/AnimationRetargeting/Animations/MF_Run_Fwd_Speed_Curves",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish": [
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Blue",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Grey",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Red",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton": [
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Red": [],
+  "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Grey": [],
+  "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Blue": [],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting": [
+    "/Script/IKRig",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Animations/MF_Run_Fwd_Speed_Curves": [
+    "/Script/MovieScene",
+    "/Script/AnimationModifiers",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Script/AnimationModifierLibrary",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPoses": [
+    "/Script/IKRig",
+    "/Game/Global/Interactable/BPInterface_Button",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/ExampleContent/AnimationRetargeting/Animations/Starfish_Fixed_Pose",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting",
+    "/Game/ExampleContent/ControlRig/Animations/JumpingJacks",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/ControlRig/Animations/JumpingJacks": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Animations/Starfish_Fixed_Pose": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton"
+  ],
+  "/Game/Global/Interactable/BPInterface_Button": [],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting",
+    "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd": [
+    "/Script/MovieScene",
+    "/Script/AnimationModifiers",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_PinBone_PostRetargetPhase": [
+    "/Engine/EditorBlueprintResources/StandardMacros",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_NoPinBone_PostRetargetPhase"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_NoPinBone_PostRetargetPhase": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_NoPinBone_PostRetargetPhase"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_NoPinBone_PostRetargetPhase": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin"
+  ],
+  "/Game/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin": [
+    "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body",
+    "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton"
+  ],
+  "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton": [
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset": [
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo": [
+    "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body",
+    "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask",
+    "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA"
+  ],
+  "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA": [],
+  "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask": [],
+  "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
+    "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend",
+    "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Simple",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N",
+    "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA",
+    "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals",
+    "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask",
+    "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black",
+    "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige",
+    "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo",
+    "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal"
+  ],
+  "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal": [
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N"
+  ],
+  "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N": [],
+  "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01": [],
+  "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo": [
+    "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask"
+  ],
+  "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige": [],
+  "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black": [
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D",
+    "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N"
+  ],
+  "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N": [],
+  "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D": [],
+  "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals": [],
+  "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA": [],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny"
+  ],
+  "/Game/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin",
+    "/Game/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin"
+  ],
+  "/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase": [
+    "/Game/ExampleContent/AnimationRetargeting/Animations/TurnWithCurve",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_TopBulge",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_PhysicsAsset",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_PhysicsAsset": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/M_TopBulge": [],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_PhysicsAsset",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MidBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MidBulge": [],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_PhysicsAsset": [
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap": [
+    "/Script/IKRig",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_CurveRemap",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_CurveRemap": [
+    "/Script/IKRig",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Animations/TurnWithCurve": [
+    "/Script/MovieScene",
+    "/Script/AnimationModifiers",
+    "/ACLPlugin/ACLAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MannequinRetargeting": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd",
+    "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPhases": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases",
+    "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_FK",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_Root",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_Root": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_FK": [
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting",
+    "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh": [
+    "/Script/HairStrandsCore",
+    "/Script/ClothingSystemRuntimeNv",
+    "/Game/Characters/Echo/Hair/Eyebrows_L_Echo",
+    "/Game/Characters/Echo/Hair/Eyebrows_L_Echo_Echo_M3D_LOD0_Binding",
+    "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns",
+    "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Hair",
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd"
+  ],
+  "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd": [
+    "/Script/Engine",
+    "/Script/MovieScene",
+    "/Script/AnimationModifiers",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin"
+  ],
+  "/Game/Characters/Echo/Meshes/Echo_Hair": [
+    "/Game/Characters/Echo/Materials/MI_Echo_Cloth_Accessories",
+    "/Game/Characters/Echo/Materials/MI_Hair_Cards_Blonde",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/Echo_Hair_AnimBP",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail": [
+    "/Game/Characters/Echo/Meshes/Echo_Hair"
+  ],
+  "/Game/Characters/Echo/Rig/Echo_Hair_AnimBP": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Game/Characters/Echo/Meshes/Echo_Hair",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail"
+  ],
+  "/Game/Characters/Echo/Meshes/Echo_Skeleton": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Meshes/Echo": [
+    "/Script/ClothingSystemRuntimeCommon",
+    "/Script/ChaosCloth",
+    "/Game/Characters/Echo/Materials/MI_Echo_Cloth_Accessories",
+    "/Game/Characters/Echo/Materials/MI_Echo_GoldBuckle",
+    "/Game/Characters/Echo/Materials/MI_Echo_Leather",
+    "/Game/Characters/Echo/Materials/MI_Echo_LeatherCanteen",
+    "/Game/Characters/Echo/Materials/MI_Echo_Pants",
+    "/Game/Characters/Echo/Materials/MI_Echo_Scarf",
+    "/Game/Characters/Echo/Materials/MI_Echo_Shirt",
+    "/Game/Characters/Echo/Materials/MI_Echo_Skin",
+    "/Game/Characters/Echo/Materials/MI_EyeBlend",
+    "/Game/Characters/Echo/Materials/MI_EyeRefractive",
+    "/Game/Characters/Echo/Materials/MI_Hair_Cards_Blonde",
+    "/Game/Characters/Echo/Materials/MI_Head_Echo",
+    "/Game/Characters/Echo/Materials/MI_Lashes",
+    "/Game/Characters/Echo/Materials/M_Cloth_Scarf",
+    "/Game/Characters/Echo/Materials/M_Cloth_Skirt",
+    "/Game/Characters/Echo/Materials/M_hide",
+    "/Game/Characters/Echo/Materials/M_Lacrimal",
+    "/Game/Characters/Echo/Materials/M_TeethNew",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Cloth_Scarf"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_Cloth_Scarf": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Script/ControlRig",
+    "/Script/ControlRigDeveloper",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig",
+    "/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Canister",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Pouch",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_ShoulderPad",
+    "/Game/Characters/Echo/Rig/Physics/PA_Echo_Skirt",
+    "/Game/Characters/Echo/Rig/PoseAssets/calf_l_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/calf_r_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/hand_l_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/hand_r_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/neck_02_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_PoseAsset",
+    "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_PoseAsset"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/neck_02_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/neck_02_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/neck_02_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/hand_r_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/hand_r_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/hand_r_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/hand_l_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/hand_l_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/hand_l_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/calf_r_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/calf_r_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/calf_r_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/calf_l_PoseAsset": [
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "/Game/Characters/Echo/Rig/PoseAssets/calf_l_AnimSeq"
+  ],
+  "/Game/Characters/Echo/Rig/PoseAssets/calf_l_AnimSeq": [
+    "/Script/MovieScene",
+    "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+    "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+    "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+    "/Script/ControlRig",
+    "/Script/AnimationData",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_Skirt": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_ShoulderPad": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_Pouch": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Physics/PA_Echo_Canister": [
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig": [
+    "/Script/ControlRig",
+    "/ControlRig/Controls/DefaultGizmoLibrary",
+    "/Script/ControlRigDeveloper",
+    "/Script/RigVMDeveloper",
+    "/Script/RigVM",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig": [
+    "/Script/ControlRig",
+    "/ControlRig/Controls/DefaultGizmoLibrary",
+    "/Script/ControlRigDeveloper",
+    "/Script/RigVMDeveloper",
+    "/Script/RigVM",
+    "/Game/Characters/Echo/Meshes/Echo",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "/Game/Characters/Echo/Materials/M_TeethNew": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Teeth1",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D": [],
+  "/Game/Characters/Echo/Materials/SkinMaterials/SP_Teeth1": [],
+  "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion": [],
+  "/Game/Characters/Echo/Materials/Function/MF_Absorbing": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion"
+  ],
+  "/Game/Characters/Echo/Materials/M_Lacrimal": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_H",
+    "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_N"
+  ],
+  "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_N": [],
+  "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_H": [
+    "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_N"
+  ],
+  "/Game/Characters/Echo/Materials/M_hide": [],
+  "/Game/Characters/Echo/Materials/M_Cloth_Skirt": [],
+  "/Game/Characters/Echo/Materials/M_Cloth_Scarf": [],
+  "/Game/Characters/Echo/Materials/MI_Lashes": [
+    "/Engine/MapTemplates/TilingNoise05",
+    "/Game/Characters/Echo/Materials/HairMaterials/M_EyeLashes"
+  ],
+  "/Game/Characters/Echo/Materials/HairMaterials/M_EyeLashes": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/MapTemplates/TilingNoise05",
+    "/Engine/EngineMaterials/BlendFunc_DefBase",
+    "/Engine/EngineMaterials/BlendFunc_DefBlend",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+    "/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Lighten",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Head_Echo": [
+    "/Game/Characters/Echo/Materials/M_Head_Echo",
+    "/Game/Characters/Echo/Materials/SP_Head",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_001_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_007_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_008_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_009_R",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_Brow_M",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_micro_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_noBrows_D",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_O",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_ORM",
+    "/Game/Characters/Echo/Textures/Head/T_Head_additional_R",
+    "/Game/Characters/Echo/Textures/Head/T_Head_highpass_S",
+    "/Game/Characters/Echo/Textures/Head/T_Head_thickness_M",
+    "/Game/Characters/Echo/Textures/Head/T_toksvig_macro"
+  ],
+  "/Game/Characters/Echo/Textures/Head/T_toksvig_macro": [
+    "/Game/Characters/Echo/Textures/Head/T_Head_NM"
+  ],
+  "/Game/Characters/Echo/Textures/Head/T_Head_NM": [],
+  "/Game/Characters/Echo/Textures/Head/T_Head_thickness_M": [],
+  "/Game/Characters/Echo/Textures/Head/T_Head_highpass_S": [],
+  "/Game/Characters/Echo/Textures/Head/T_Head_additional_R": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_ORM": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_O": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_noBrows_D": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_N": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_micro_N": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_Brow_M": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N": [],
+  "/Game/Characters/Echo/Textures/T_Head_Skin_009_R": [],
+  "/Game/Characters/Echo/Textures/T_Head_Skin_008_R": [],
+  "/Game/Characters/Echo/Textures/T_Head_Skin_007_R": [],
+  "/Game/Characters/Echo/Textures/T_Head_Skin_001_R": [],
+  "/Game/Characters/Echo/Materials/SP_Head": [],
+  "/Game/Characters/Echo/Materials/M_Head_Echo": [
+    "/Engine/EngineDebugMaterials/HeatmapGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_RGB",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/EngineResources/Black",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Game/Characters/Echo/Materials/MF_FacePart",
+    "/Game/Characters/Echo/Materials/MF_PerPartRoughnessModulation",
+    "/Game/Characters/Echo/Materials/SP_Head",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_001_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_004_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_007_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_008_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_009_R",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_BN",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_Brow_M",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_D",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_micro_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_O",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_ORM",
+    "/Game/Characters/Echo/Textures/Head/T_Head_additional_R",
+    "/Game/Characters/Echo/Textures/Head/T_Head_highpass_S",
+    "/Game/Characters/Echo/Textures/Head/T_Head_thickness_M",
+    "/Game/Characters/Echo/Textures/Head/T_toksvig_macro"
+  ],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_D": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_BN": [],
+  "/Game/Characters/Echo/Textures/T_Head_Skin_004_R": [],
+  "/Game/Characters/Echo/Materials/MF_PerPartRoughnessModulation": [
+    "/Engine/EngineResources/Black",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_001_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_007_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_008_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_009_R"
+  ],
+  "/Game/Characters/Echo/Materials/MF_FacePart": [
+    "/Game/Characters/Echo/Textures/T_Head_Skin_001_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_004_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_007_R",
+    "/Game/Characters/Echo/Textures/T_Head_Skin_008_R"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Hair_Cards_Blonde": [
+    "/Game/Characters/Echo/Materials/M_Hair_Cards_Blonde",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_Depth",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_M",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_MatID"
+  ],
+  "/Game/Characters/Echo/Textures/Hair/T_Hair_MatID": [],
+  "/Game/Characters/Echo/Textures/Hair/T_Hair_M": [],
+  "/Game/Characters/Echo/Textures/Hair/T_Hair_Depth": [],
+  "/Game/Characters/Echo/Materials/M_Hair_Cards_Blonde": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable",
+    "/Engine/Functions/Engine_MaterialFunctions02/Lerp_Multiple_Float3",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_AO",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_Bent_N",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_Depth",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_M",
+    "/Game/Characters/Echo/Textures/Hair/T_Hair_MatID"
+  ],
+  "/Game/Characters/Echo/Textures/Hair/T_Hair_Bent_N": [],
+  "/Game/Characters/Echo/Textures/Hair/T_Hair_AO": [],
+  "/Game/Characters/Echo/Materials/MI_EyeRefractive": [
+    "/Game/Characters/Echo/Textures/T_eyes_sclera_D",
+    "/Game/Characters/Echo/Textures/T_Eye_N",
+    "/Game/Characters/Echo/Textures/T_Eye_Wet_N",
+    "/Game/Characters/Echo/Textures/T_ScleraBase_001_D",
+    "/Game/Characters/Echo/Textures/T_ScleraVeins_001_D",
+    "/Game/Characters/Echo/Textures/T_ScleraVessels_002_D",
+    "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeRefractive",
+    "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner"
+  ],
+  "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner": [],
+  "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeRefractive": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+    "/Engine/EngineMaterials/DefaultDiffuse",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/SafeNormalize",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal",
+    "/Engine/Functions/Engine_MaterialFunctions02/TangentBasis",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+    "/Engine/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectPivotPoint",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Engine/Functions/Engine_MaterialFunctions02/WorldPositionOffset/RotateAboutWorldAxis_cheap",
+    "/Game/Characters/Echo/Materials/MPC_EyeHighlight",
+    "/Game/Characters/Echo/Textures/T_EyeIrisBaseColor_D",
+    "/Game/Characters/Echo/Textures/T_EyeMidPlane_DP",
+    "/Game/Characters/Echo/Textures/T_eyes_sclera_D",
+    "/Game/Characters/Echo/Textures/T_Eye_N",
+    "/Game/Characters/Echo/Textures/T_Eye_Sphere_N",
+    "/Game/Characters/Echo/Textures/T_Eye_Wet_N",
+    "/Game/Characters/Echo/Textures/T_iris08_leftEye_N",
+    "/Game/Characters/Echo/Textures/T_Pisa_HDR",
+    "/Game/Characters/Echo/Textures/T_ScleraBase_001_D",
+    "/Game/Characters/Echo/Textures/T_ScleraVeins_001_D",
+    "/Game/Characters/Echo/Textures/T_ScleraVessels_002_D",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Materials/EyeMaterials/Functions/ML_EyeRefraction",
+    "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner"
+  ],
+  "/Game/Characters/Echo/Materials/EyeMaterials/Functions/ML_EyeRefraction": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+    "/Engine/Functions/Engine_MaterialFunctions02/TangentBasis",
+    "/Game/Characters/Echo/Textures/T_EyeMidPlane_DP"
+  ],
+  "/Game/Characters/Echo/Textures/T_EyeMidPlane_DP": [],
+  "/Game/Characters/Echo/Textures/T_ScleraVessels_002_D": [],
+  "/Game/Characters/Echo/Textures/T_ScleraVeins_001_D": [],
+  "/Game/Characters/Echo/Textures/T_ScleraBase_001_D": [],
+  "/Game/Characters/Echo/Textures/T_Pisa_HDR": [],
+  "/Game/Characters/Echo/Textures/T_iris08_leftEye_N": [],
+  "/Game/Characters/Echo/Textures/T_Eye_Wet_N": [],
+  "/Game/Characters/Echo/Textures/T_Eye_Sphere_N": [],
+  "/Game/Characters/Echo/Textures/T_Eye_N": [],
+  "/Game/Characters/Echo/Textures/T_eyes_sclera_D": [],
+  "/Game/Characters/Echo/Textures/T_EyeIrisBaseColor_D": [],
+  "/Game/Characters/Echo/Materials/MPC_EyeHighlight": [],
+  "/Game/Characters/Echo/Materials/MI_EyeBlend": [
+    "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeBlend",
+    "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner",
+    "/Game/Characters/Echo/Materials/EyeMaterials/Textures/T_eye_sclera_right_D"
+  ],
+  "/Game/Characters/Echo/Materials/EyeMaterials/Textures/T_eye_sclera_right_D": [],
+  "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeBlend": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner",
+    "/Game/Characters/Echo/Materials/EyeMaterials/Textures/T_eye_sclera_right_D"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Echo_Skin": [
+    "/Game/Characters/Echo/Materials/M_Echo_Skin",
+    "/Game/Characters/Echo/Materials/SP_Head",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_ORM": [
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_AO": [],
+  "/Game/Characters/Echo/Materials/M_Echo_Skin": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Materials/SP_Head",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_BN": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO": [],
+  "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo": [],
+  "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Echo_Shirt": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothShirtMaterial",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Shirt",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_MatID",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM": [
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_MatID": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_AO": [],
+  "/Game/Characters/Echo/Materials/SkinMaterials/SP_Shirt": [],
+  "/Game/Characters/Echo/Materials/M_Echo_ClothShirtMaterial": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal",
+    "/Engine/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Shirt",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_MatID",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN": [],
+  "/Game/Characters/Echo/Materials/MI_Echo_Scarf": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothScarf",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Scarf",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_O",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_O": [],
+  "/Game/Characters/Echo/Materials/SkinMaterials/SP_Scarf": [],
+  "/Game/Characters/Echo/Materials/M_Echo_ClothScarf": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal",
+    "/Engine/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_O",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM"
+  ],
+  "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing": [],
+  "/Game/Characters/Echo/Materials/MI_Echo_Pants": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothSimple",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_ORM"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_ORM": [
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_BN": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_D": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_AO": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID": [],
+  "/Game/Characters/Echo/Materials/M_Echo_ClothSimple": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Echo_LeatherCanteen": [
+    "/Game/Characters/Echo/Materials/MI_Echo_Leather",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_ORM",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_BN"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_BN": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_ORM": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_N": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_D": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_AO": [],
+  "/Game/Characters/Echo/Materials/MI_Echo_Leather": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothSimple",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_ORM"
+  ],
+  "/Game/Characters/Echo/Materials/MI_Echo_GoldBuckle": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothGold",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_Gold_ORM",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_MatID",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_ORM",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_BN"
+  ],
+  "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_ORM": [],
+  "/Game/Characters/Echo/Textures/Head/T_echo_Head_MatID": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_Gold_ORM": [
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N"
+  ],
+  "/Game/Characters/Echo/Materials/M_Echo_ClothGold": [
+    "/Engine/Functions/Engine_MaterialFunctions02/HueShift",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/Functions/Engine_MaterialFunctions02/ObjectLocalBounds",
+    "/Engine/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW",
+    "/Engine/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+    "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_Gold_ORM",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_MatID",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_ORM",
+    "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_D",
+    "/Game/Characters/Echo/Textures/Head/T_echo_Head_D"
+  ],
+  "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_D": [],
+  "/Game/Characters/Echo/Materials/MI_Echo_Cloth_Accessories": [
+    "/Game/Characters/Echo/Materials/M_Echo_ClothSimple",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_D",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_N",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_ORM",
+    "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_BN"
+  ],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_BN": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_ORM": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_N": [],
+  "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_D": [],
+  "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding": [
+    "/Script/HairStrandsCore",
+    "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns",
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns": [
+    "/Script/HairStrandsCore",
+    "/HairStrands/Emitters/StableSpringsSystem",
+    "/Game/Characters/Echo/Materials/MI_EchoGroom"
+  ],
+  "/Game/Characters/Echo/Materials/MI_EchoGroom": [
+    "/Game/Characters/Echo/Materials/M_GroomMaster"
+  ],
+  "/Game/Characters/Echo/Materials/M_GroomMaster": [
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+    "/Engine/MapTemplates/TilingNoise05",
+    "/Engine/EngineDebugMaterials/TangentColorMap",
+    "/Engine/Functions/Engine_MaterialFunctions02/Lerp_Multiple_Float",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable"
+  ],
+  "/Game/Characters/Echo/Hair/Eyebrows_L_Echo_Echo_M3D_LOD0_Binding": [
+    "/Script/HairStrandsCore",
+    "/Game/Characters/Echo/Hair/Eyebrows_L_Echo",
+    "/Game/Characters/Echo/Meshes/Echo"
+  ],
+  "/Game/Characters/Echo/Hair/Eyebrows_L_Echo": [
+    "/Script/HairStrandsCore",
+    "/HairStrands/Emitters/StableSpringsSystem",
+    "/Game/Characters/Echo/Materials/MI_EchoGroom_eyebrow"
+  ],
+  "/Game/Characters/Echo/Materials/MI_EchoGroom_eyebrow": [
+    "/Game/Characters/Echo/Materials/MI_EchoGroom"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_AdjustingStrides": [
+    "/Engine/EditorBlueprintResources/StandardMacros",
+    "/Script/IKRig",
+    "/Game/Global/Blueprints/BP_Slider",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Spelunkle_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish",
+    "/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle": [
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/lambert2",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/phong1",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle_Skeleton",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/Spelunkle_Secondary_Physics"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Spelunkle/Spelunkle_Secondary_Physics": [
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle_Skeleton": [
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle"
+  ],
+  "/Game/ExampleContent/IKRig/Mesh/Spelunkle/phong1": [],
+  "/Game/ExampleContent/IKRig/Mesh/Spelunkle/lambert2": [],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Spelunkle_Retargeting": [
+    "/Script/AnimGraph",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Spelunkle",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle_Skeleton"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Spelunkle": [
+    "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "/Script/IKRig",
+    "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Spelunkle_Retargeting",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Spelunkle_Retargeting": [
+    "/Script/IKRig",
+    "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle"
+  ],
+  "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_EditingRetargetRoot": [
+    "/Script/IKRig",
+    "/Game/Global/Blueprints/BP_Slider",
+    "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting",
+    "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot",
+    "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd"
+  ]
+}

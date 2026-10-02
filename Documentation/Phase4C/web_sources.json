@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://dev.epicgames.com/documentation/metahuman/metahuman-creator-from-custom-mesh-tool-in-unreal-engine",
+      "purpose": "combined/body-only input modes, custom pose export, keypoints and input limits"
+    },
+    {
+      "url": "https://www.metahuman.com/license",
+      "purpose": "standard Unreal Engine licence scope; no inferred redistribution permission"
+    },
+    {
+      "url": "https://www.unrealengine.com/eula/unreal",
+      "purpose": "Engine Tools, redistribution, seats and MetaHuman ML restrictions; professional review required"
+    }
+  ]
+}

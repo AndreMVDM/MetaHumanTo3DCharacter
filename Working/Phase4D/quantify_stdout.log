@@ -1,0 +1,258 @@
+[
+  {
+    "role": "idle",
+    "samples": 61,
+    "max_collapsed_triangles": 14,
+    "max_stretched_triangles": 7,
+    "max_bone_scale_error": 0.0,
+    "root_max_distance_cm": 0.0,
+    "regions": {
+      "shoulders": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "elbows": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "wrists": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "pelvis_hips": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "knees": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "ankles": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "fingers": {
+        "max_collapsed": 3,
+        "max_stretched": 0
+      }
+    },
+    "feet": {
+      "l": {
+        "sole_height_range_cm": [
+          -1.5508337709067512,
+          -1.3351329306603494
+        ],
+        "near_ground_interval_count": 60,
+        "near_ground_surface_slide_speed_cm_s_max": 0.28219063135040806,
+        "toe_pitch_range_deg": [
+          -27.805853828441197,
+          -27.47053221613629
+        ]
+      },
+      "r": {
+        "sole_height_range_cm": [
+          -2.5967149588437053,
+          -2.400787543732683
+        ],
+        "near_ground_interval_count": 0,
+        "near_ground_surface_slide_speed_cm_s_max": null,
+        "toe_pitch_range_deg": [
+          -26.91213452804532,
+          -26.501376735549762
+        ]
+      }
+    }
+  },
+  {
+    "role": "walk",
+    "samples": 61,
+    "max_collapsed_triangles": 18,
+    "max_stretched_triangles": 23,
+    "max_bone_scale_error": 0.0,
+    "root_max_distance_cm": 0.0,
+    "regions": {
+      "shoulders": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "elbows": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "wrists": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "pelvis_hips": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "knees": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "ankles": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "fingers": {
+        "max_collapsed": 4,
+        "max_stretched": 0
+      }
+    },
+    "feet": {
+      "l": {
+        "sole_height_range_cm": [
+          -4.519928908766351,
+          5.268883702953466
+        ],
+        "near_ground_interval_count": 15,
+        "near_ground_surface_slide_speed_cm_s_max": 545.2548492953506,
+        "toe_pitch_range_deg": [
+          -87.9591781683583,
+          3.5655460568419106
+        ]
+      },
+      "r": {
+        "sole_height_range_cm": [
+          -4.371374261025427,
+          6.07778567928981
+        ],
+        "near_ground_interval_count": 20,
+        "near_ground_surface_slide_speed_cm_s_max": 487.13642549058835,
+        "toe_pitch_range_deg": [
+          -86.64709334792039,
+          1.1933859866961787
+        ]
+      }
+    }
+  },
+  {
+    "role": "run",
+    "samples": 61,
+    "max_collapsed_triangles": 39,
+    "max_stretched_triangles": 128,
+    "max_bone_scale_error": 0.0,
+    "root_max_distance_cm": 0.0,
+    "regions": {
+      "shoulders": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "elbows": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "wrists": {
+        "max_collapsed": 1,
+        "max_stretched": 6
+      },
+      "pelvis_hips": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "knees": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "ankles": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "fingers": {
+        "max_collapsed": 12,
+        "max_stretched": 12
+      }
+    },
+    "feet": {
+      "l": {
+        "sole_height_range_cm": [
+          -3.135528611441043,
+          46.68702764977374
+        ],
+        "near_ground_interval_count": 3,
+        "near_ground_surface_slide_speed_cm_s_max": 503.59535828173495,
+        "toe_pitch_range_deg": [
+          -88.73008262156718,
+          -11.5148693999833
+        ]
+      },
+      "r": {
+        "sole_height_range_cm": [
+          -3.1092138567118788,
+          39.12832193081496
+        ],
+        "near_ground_interval_count": 1,
+        "near_ground_surface_slide_speed_cm_s_max": 412.9449360542843,
+        "toe_pitch_range_deg": [
+          -87.5488686631564,
+          2.262274259823502
+        ]
+      }
+    }
+  },
+  {
+    "role": "reach",
+    "samples": 61,
+    "max_collapsed_triangles": 44,
+    "max_stretched_triangles": 258,
+    "max_bone_scale_error": 0.0,
+    "root_max_distance_cm": 0.0,
+    "regions": {
+      "shoulders": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "elbows": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "wrists": {
+        "max_collapsed": 5,
+        "max_stretched": 2
+      },
+      "pelvis_hips": {
+        "max_collapsed": 0,
+        "max_stretched": 0
+      },
+      "knees": {
+        "max_collapsed": 1,
+        "max_stretched": 0
+      },
+      "ankles": {
+        "max_collapsed": 1,
+        "max_stretched": 0
+      },
+      "fingers": {
+        "max_collapsed": 6,
+        "max_stretched": 2
+      }
+    },
+    "feet": {
+      "l": {
+        "sole_height_range_cm": [
+          -4.032011231537841,
+          16.334066848381852
+        ],
+        "near_ground_interval_count": 16,
+        "near_ground_surface_slide_speed_cm_s_max": 115.02593691729963,
+        "toe_pitch_range_deg": [
+          -52.08562433931199,
+          -25.750538649293304
+        ]
+      },
+      "r": {
+        "sole_height_range_cm": [
+          -3.772426424304018,
+          18.67384357649507
+        ],
+        "near_ground_interval_count": 3,
+        "near_ground_surface_slide_speed_cm_s_max": 1.0585593084771932,
+        "toe_pitch_range_deg": [
+          -56.09003500571881,
+          -21.25011072174492
+        ]
+      }
+    }
+  }
+]

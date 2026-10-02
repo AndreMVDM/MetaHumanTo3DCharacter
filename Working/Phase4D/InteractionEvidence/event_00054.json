@@ -1,0 +1,22 @@
+{
+  "id": 54,
+  "utc_epoch": 1790834286.0423768,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "ball_l"
+    ],
+    "judgement": "accept",
+    "category": "actual anatomical misplacement",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113",
+    "reviewed_positions": {
+      "ball_l": [
+        19.7733211517334,
+        12.408879280090332,
+        6.606729507446289
+      ]
+    }
+  }
+}

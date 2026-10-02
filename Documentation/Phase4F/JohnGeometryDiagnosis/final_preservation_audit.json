@@ -1,0 +1,9 @@
+{
+  "protected_files_checked": 339,
+  "changed": [],
+  "proposal_sha256": "57d4c45a3f0ddda765d66e76c7453f99f754affba4fc067c75775095b677fad2",
+  "gate_score": "173/186",
+  "downstream_authorised": false,
+  "validator_rerun": false,
+  "policy_changed": false
+}

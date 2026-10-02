@@ -1,0 +1,5 @@
+Unhandled exception. System.UnauthorizedAccessException: Access to the path 'C:\Users\Andre\AppData\Local\UnrealBuildTool\Trace-backup-2026.09.29-15.03.58.uba' is denied.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at EpicGames.Core.FileReference.Delete(FileReference location)
+   at EpicGames.Core.Log.BackupLogFile(FileReference outputFile)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)

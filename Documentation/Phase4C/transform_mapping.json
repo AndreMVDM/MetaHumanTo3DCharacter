@@ -1,0 +1,39 @@
+{
+  "row_vector_forward": "canonical = (source_world_cm @ R - origin) * scale",
+  "row_vector_inverse": "source_world_cm = (canonical / scale + origin) @ R.T",
+  "R": [
+    [
+      0.9999998424836326,
+      -0.00039006429869573435,
+      0.0004035871072474338
+    ],
+    [
+      -0.0003810976257270633,
+      -0.9997582513131614,
+      -0.02198394177233432
+    ],
+    [
+      -0.0004120646914242252,
+      -0.021983784503415326,
+      0.9997582424874514
+    ]
+  ],
+  "origin": [
+    -0.01912765811696282,
+    -1.2419213543212106,
+    0.08872202071984837
+  ],
+  "scale": 1.8045443647800623,
+  "determinant": -1.0000000000000004,
+  "round_trip_max_cm": 4.264181500047145e-14,
+  "height_cm": 180.0,
+  "source_geometry_changed": false,
+  "donor_mapping_status": "validated against actual UE target readback and both public joint APIs",
+  "donor_round_trip_max_cm": 4.396160752440668e-14,
+  "ue_target_indexwise_vertex_max_difference_cm": 7.83902870823264e-06,
+  "ue_target_triangle_indices_identical": false,
+  "basis": "Source DCC world RH -> canonical UE LH left/forward/up via determinant -1 R; DNA source left/up/front -> UE left/front/up via Y/Z exchange.",
+  "model_offset_policy": "No fitted donor offset, recentering, rescaling or best-fit alignment. Posed export preserves the solved pose in target space; root remains [0,0,0].",
+  "model_pose": "Public posed-DNA export, evaluate-pose export state. Original local rotations/parents retained in solved_donor_joints.json; canonical rest orientations not authored because anatomy rejected.",
+  "ue_triangle_connectivity_limit": "Temporary target is an isolated copy of the 4B UE import. Vertex order/positions match fresh source; FBX triangulation differs from Blender loop triangulation. Original source polygon topology is retained separately and unchanged; no final Lara mesh authored."
+}

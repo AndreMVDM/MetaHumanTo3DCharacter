@@ -1,0 +1,24 @@
+{
+  "status": "evaluated_not_accepted",
+  "reviewed_images": [
+    "native_reference_pose.png",
+    "native_representative_poses.png",
+    "native_shoulders_reach.png",
+    "native_walk_feet.png",
+    "animated_body_front.png",
+    "animated_body_side.png",
+    "animated_feet_side.png",
+    "animated_finger_validation.png"
+  ],
+  "reference_pose": "Original material and reference silhouette retained; fresh disk geometry/UV equality and live reference transforms verified",
+  "shoulders_clothing": "Raised-arm native image shows jagged/thinned shoulder and shirt transitions; no production-quality acceptance",
+  "elbows": "Expected gross arm articulation in sampled poses; fine crease quality not certified",
+  "wrists": "Run/reach area screens flag local collapse/stretch; gloves and finger attachment require refinement",
+  "pelvis_hips": "Gross connected silhouette retained; apparel is ordinary auto-bound surface, with no separate cloth or rigid accessory treatment",
+  "knees": "Gross bend direction retained in representative native/CPU poses; reach flags one nearby collapsed triangle",
+  "ankles_feet": "Boot shape deforms, stance soles penetrate Z=0; lifted feet and toe pitch are assessed per sampled clip, not labelled as planting failures merely because airborne",
+  "fingers": "Independent identity and sampled 3D separation pass; right-ring support exceeds the explicit screen and natural thumb opposition is unproven",
+  "unexpected_limb_crossing_or_inversion": "No gross identity swap or reversed limb observed in representative images; nonzero segment lengths and complete finite poses measured separately. Not continuous collision or exhaustive bend-sign certification",
+  "weight_edits": [],
+  "quality_accepted": false
+}

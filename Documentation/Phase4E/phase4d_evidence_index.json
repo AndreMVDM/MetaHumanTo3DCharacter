@@ -1,0 +1,72 @@
+[
+  {
+    "path": "Documentation/Phase4D/Phase4DGuidedLandmarkCorrection.md",
+    "sha256": "a0cec5e73150e8c0d98ab7c3a395bbf7a067a3cc0cbb144b293e0ebb28f87532",
+    "bytes": 44900
+  },
+  {
+    "path": "Documentation/Phase4D/current_proposal.json",
+    "sha256": "083ec2ea0c8ec4b7666dfb43a53a066d14d2d008186f6f2f062bb63e132fb49e",
+    "bytes": 137672
+  },
+  {
+    "path": "Documentation/Phase4D/anatomical_validation.json",
+    "sha256": "821040af95e9dd080fbbb4340a182f32fd8224f766d8d5439fde457da519f453",
+    "bytes": 64011
+  },
+  {
+    "path": "Documentation/Phase4D/skeleton_construction.json",
+    "sha256": "4ed529a75872f735c2e9288da190598279cee18ea164b5a228c85387dfa6adf4",
+    "bytes": 58785
+  },
+  {
+    "path": "Documentation/Phase4D/skinning_results.json",
+    "sha256": "76aa600c6ed66118b3040323b001248509b4d10168ab6d61a51993b115c76108",
+    "bytes": 49077
+  },
+  {
+    "path": "Documentation/Phase4D/animation_bake_results.json",
+    "sha256": "4ad33dc251f09ddf3f9c15667f3e766a432cd425c4c4071219106f28762023ae",
+    "bytes": 273858
+  },
+  {
+    "path": "Documentation/Phase4D/deformation_contact_results.json",
+    "sha256": "7b1c576984177d6af9c8adb2a0537ad7056592281f5899e89463e9010ca50dda",
+    "bytes": 701703
+  },
+  {
+    "path": "Documentation/Phase4D/finger_animation_validation.json",
+    "sha256": "1ee3e4138e1612d228ad2c932448c04892b8be75ce39853826afab46903b0f66",
+    "bytes": 12379
+  },
+  {
+    "path": "Documentation/Phase4D/source_independent_playback.json",
+    "sha256": "e514a3d5ea37818b811ac45d055d64313d2abfdc03fc656d96498bd4cace9c3d",
+    "bytes": 30384941
+  },
+  {
+    "path": "Documentation/Phase4D/final_dependency_closure.json",
+    "sha256": "de034dbba646d9a064720af61e19fe0af04ac6e9f9ced17667e42c8e1cf75954",
+    "bytes": 65228
+  },
+  {
+    "path": "Documentation/Phase4D/protected_file_audit.json",
+    "sha256": "037d23454c366b24b88cfa7d5d871ef7d5c3d141931366a46c3854cf86349e28",
+    "bytes": 635
+  },
+  {
+    "path": "Documentation/Phase4D/runtime_samples.json",
+    "sha256": "da369414e1872d42139f036bf7759594fdb63e2afc1a044c3d735cead53d4f9c",
+    "bytes": 12869267
+  },
+  {
+    "path": "Documentation/Phase4D/finger_pose_samples.json",
+    "sha256": "14829cab79011beeed434811ba41b60a9064f650490eb31ae123cc2f13676ea5",
+    "bytes": 1157321
+  },
+  {
+    "path": "Documentation/Phase4D/human_ledger_preservation.json",
+    "sha256": "81b67763bfa7cc02ee6fa8a0435a77b120468e805edc5840a61c785d4cd65aad",
+    "bytes": 636
+  }
+]

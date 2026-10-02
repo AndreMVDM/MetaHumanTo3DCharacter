@@ -1,0 +1,410 @@
+{
+  "status": "measured",
+  "semantic_independent_motion_passed": true,
+  "all_sampled_chain_separation_passed": true,
+  "all_phalange_support_passed": false,
+  "results": [
+    {
+      "digit": "thumb_l",
+      "time_s": 1.5,
+      "local_rotation_degrees": {
+        "thumb_l": 51.693483776746426,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 23,
+      "own_chain_weight_mean": 0.8350506387650967,
+      "surface_displacement_cm_max": 3.810109216223631,
+      "phalange_surface_support_cm": 0.6439044123879518,
+      "bone_path_separation_screens": [
+        {
+          "other": "middle_l",
+          "min_sampled_bone_path_distance_cm": 7.52660647591488
+        },
+        {
+          "other": "ring_l",
+          "min_sampled_bone_path_distance_cm": 8.924431443771455
+        },
+        {
+          "other": "pinky_l",
+          "min_sampled_bone_path_distance_cm": 10.686529207519634
+        },
+        {
+          "other": "index_l",
+          "min_sampled_bone_path_distance_cm": 5.896904967422337
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "index_l",
+      "time_s": 2.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 62.36386022476057,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 63,
+      "own_chain_weight_mean": 0.8547767452186062,
+      "surface_displacement_cm_max": 5.526880238029151,
+      "phalange_surface_support_cm": 0.6561643643348043,
+      "bone_path_separation_screens": [
+        {
+          "other": "thumb_l",
+          "min_sampled_bone_path_distance_cm": 5.862595670139082
+        },
+        {
+          "other": "middle_l",
+          "min_sampled_bone_path_distance_cm": 2.5391084743575485
+        },
+        {
+          "other": "ring_l",
+          "min_sampled_bone_path_distance_cm": 4.849231481360426
+        },
+        {
+          "other": "pinky_l",
+          "min_sampled_bone_path_distance_cm": 7.405857101334662
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "middle_l",
+      "time_s": 3.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 45.99795342300135,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 40,
+      "own_chain_weight_mean": 0.823511484725168,
+      "surface_displacement_cm_max": 6.193049802009658,
+      "phalange_surface_support_cm": 0.7911827148674003,
+      "bone_path_separation_screens": [
+        {
+          "other": "thumb_l",
+          "min_sampled_bone_path_distance_cm": 7.52660647591488
+        },
+        {
+          "other": "ring_l",
+          "min_sampled_bone_path_distance_cm": 2.3641569111257907
+        },
+        {
+          "other": "pinky_l",
+          "min_sampled_bone_path_distance_cm": 4.97720923773868
+        },
+        {
+          "other": "index_l",
+          "min_sampled_bone_path_distance_cm": 2.532474466213488
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "ring_l",
+      "time_s": 4.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 53.951644001903205,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 83,
+      "own_chain_weight_mean": 0.754867123052792,
+      "surface_displacement_cm_max": 5.3995753227677765,
+      "phalange_surface_support_cm": 0.9551593564243697,
+      "bone_path_separation_screens": [
+        {
+          "other": "thumb_l",
+          "min_sampled_bone_path_distance_cm": 9.000104809287325
+        },
+        {
+          "other": "middle_l",
+          "min_sampled_bone_path_distance_cm": 2.287410578775472
+        },
+        {
+          "other": "pinky_l",
+          "min_sampled_bone_path_distance_cm": 2.660388819646957
+        },
+        {
+          "other": "index_l",
+          "min_sampled_bone_path_distance_cm": 4.872877900521054
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "pinky_l",
+      "time_s": 5.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 46.64658304689664,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 89,
+      "own_chain_weight_mean": 0.8037087973861254,
+      "surface_displacement_cm_max": 4.221448564182539,
+      "phalange_surface_support_cm": 0.43458565224428314,
+      "bone_path_separation_screens": [
+        {
+          "other": "thumb_l",
+          "min_sampled_bone_path_distance_cm": 10.798771245731466
+        },
+        {
+          "other": "middle_l",
+          "min_sampled_bone_path_distance_cm": 4.88158958350203
+        },
+        {
+          "other": "ring_l",
+          "min_sampled_bone_path_distance_cm": 2.555332913399871
+        },
+        {
+          "other": "index_l",
+          "min_sampled_bone_path_distance_cm": 7.446200789989144
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "thumb_r",
+      "time_s": 6.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 52.10545122591648
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 15,
+      "own_chain_weight_mean": 0.7724727349976699,
+      "surface_displacement_cm_max": 4.044997214964293,
+      "phalange_surface_support_cm": 0.8420492622972917,
+      "bone_path_separation_screens": [
+        {
+          "other": "middle_r",
+          "min_sampled_bone_path_distance_cm": 7.917567195130658
+        },
+        {
+          "other": "index_r",
+          "min_sampled_bone_path_distance_cm": 6.007475832030851
+        },
+        {
+          "other": "ring_r",
+          "min_sampled_bone_path_distance_cm": 9.33792075551956
+        },
+        {
+          "other": "pinky_r",
+          "min_sampled_bone_path_distance_cm": 10.647191234511842
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "index_r",
+      "time_s": 7.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 58.74417455479194,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 61,
+      "own_chain_weight_mean": 0.8594479012440462,
+      "surface_displacement_cm_max": 5.759686236980779,
+      "phalange_surface_support_cm": 0.6601873995262804,
+      "bone_path_separation_screens": [
+        {
+          "other": "middle_r",
+          "min_sampled_bone_path_distance_cm": 2.630897804728028
+        },
+        {
+          "other": "ring_r",
+          "min_sampled_bone_path_distance_cm": 4.932681443218595
+        },
+        {
+          "other": "pinky_r",
+          "min_sampled_bone_path_distance_cm": 7.420674861793795
+        },
+        {
+          "other": "thumb_r",
+          "min_sampled_bone_path_distance_cm": 5.974918813849069
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "middle_r",
+      "time_s": 8.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 46.665856418548124,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 39,
+      "own_chain_weight_mean": 0.8355668249945992,
+      "surface_displacement_cm_max": 6.134331484526203,
+      "phalange_surface_support_cm": 1.0814024919872123,
+      "bone_path_separation_screens": [
+        {
+          "other": "index_r",
+          "min_sampled_bone_path_distance_cm": 2.7082614341877957
+        },
+        {
+          "other": "ring_r",
+          "min_sampled_bone_path_distance_cm": 2.3951795610596376
+        },
+        {
+          "other": "pinky_r",
+          "min_sampled_bone_path_distance_cm": 4.966450485898552
+        },
+        {
+          "other": "thumb_r",
+          "min_sampled_bone_path_distance_cm": 7.917567195130658
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "ring_r",
+      "time_s": 9.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 54.2138230552146,
+        "pinky_r": 0.0,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 77,
+      "own_chain_weight_mean": 0.7812268461778082,
+      "surface_displacement_cm_max": 5.529477706757114,
+      "phalange_surface_support_cm": 1.251734847722227,
+      "bone_path_separation_screens": [
+        {
+          "other": "middle_r",
+          "min_sampled_bone_path_distance_cm": 2.4680157786143817
+        },
+        {
+          "other": "index_r",
+          "min_sampled_bone_path_distance_cm": 5.203320830902195
+        },
+        {
+          "other": "pinky_r",
+          "min_sampled_bone_path_distance_cm": 2.606114931929927
+        },
+        {
+          "other": "thumb_r",
+          "min_sampled_bone_path_distance_cm": 9.409262050107303
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    },
+    {
+      "digit": "pinky_r",
+      "time_s": 10.5,
+      "local_rotation_degrees": {
+        "thumb_l": 0.0,
+        "middle_l": 0.0,
+        "ring_l": 0.0,
+        "pinky_l": 0.0,
+        "index_l": 0.0,
+        "middle_r": 0.0,
+        "index_r": 0.0,
+        "ring_r": 0.0,
+        "pinky_r": 45.210166690281326,
+        "thumb_r": 0.0
+      },
+      "independent_semantic_motion_passed": true,
+      "surface_vertices": 89,
+      "own_chain_weight_mean": 0.7063641254607002,
+      "surface_displacement_cm_max": 4.257365334545768,
+      "phalange_surface_support_cm": 0.25706872008613846,
+      "bone_path_separation_screens": [
+        {
+          "other": "middle_r",
+          "min_sampled_bone_path_distance_cm": 4.988442143948112
+        },
+        {
+          "other": "index_r",
+          "min_sampled_bone_path_distance_cm": 7.638681554561901
+        },
+        {
+          "other": "ring_r",
+          "min_sampled_bone_path_distance_cm": 2.567456216664549
+        },
+        {
+          "other": "thumb_r",
+          "min_sampled_bone_path_distance_cm": 11.174472927348356
+        }
+      ],
+      "no_sampled_chain_crossing": true
+    }
+  ],
+  "limits": "One 45-degree diagnostic peak per digit; no exhaustive joint-range or continuous volumetric collision proof; reference digit vertices labelled by human-accepted target tracks; weight means are diagnostics, not anatomy approvals",
+  "corrections": []
+}

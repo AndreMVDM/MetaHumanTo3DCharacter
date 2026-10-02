@@ -1,0 +1,13 @@
+{
+  "verified_by": "Fresh Blender reload after solve; retained original world geometry, polygon topology and UV arrays",
+  "vertices_unchanged": true,
+  "uv_unchanged": true,
+  "polygon_topology_unchanged": true,
+  "armature_count": 0,
+  "vertex_group_count": 0,
+  "material_names": [
+    "f9dcb69f_c978_4517_86d5_c509f2f721f9"
+  ],
+  "archive_entries_byte_identical": true,
+  "passed": true
+}

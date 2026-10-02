@@ -1,0 +1,117 @@
+[
+  {
+    "source": "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd",
+    "fixture": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd.MM_Run_Fwd",
+    "root_track_constant_reference": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "non_root_tracks_unchanged": true
+  },
+  {
+    "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/MM_Idle",
+    "fixture": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle.MM_Idle",
+    "root_track_constant_reference": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "non_root_tracks_unchanged": true
+  },
+  {
+    "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/MF_Walk_Fwd",
+    "fixture": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd.MF_Walk_Fwd",
+    "root_track_constant_reference": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "non_root_tracks_unchanged": true
+  },
+  {
+    "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/JumpingJacks",
+    "fixture": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/JumpingJacks.JumpingJacks",
+    "root_track_constant_reference": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "non_root_tracks_unchanged": true
+  },
+  {
+    "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/Manny_upperarm_r_anim",
+    "fixture": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/Manny_upperarm_r_anim.Manny_upperarm_r_anim",
+    "root_track_constant_reference": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "non_root_tracks_unchanged": true
+  }
+]

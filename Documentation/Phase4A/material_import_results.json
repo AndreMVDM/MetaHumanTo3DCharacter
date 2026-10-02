@@ -1,0 +1,19 @@
+[
+  {
+    "case": "Unrigged",
+    "source_mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/SM_Lara_Source.SM_Lara_Source",
+    "materials": [
+      {
+        "slot": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+        "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+        "textures": []
+      }
+    ],
+    "height_mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara",
+    "source_height_cm": 99.951171875
+  },
+  {
+    "case": "MixamoRecovered",
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/preserve_materials.py\", line 11, in <module>\n    task=unreal.AssetImportTask();task.set_editor_properties({'filename':str(src),'destination_path':base,'destination_name':'SM_Lara_Source','automated':True,'save':False,'replace_existing':False,'options':options,'factory':unreal.FbxFactory()});T.import_asset_tasks([task]);mesh=next(unreal.load_asset(p) for p in task.imported_object_paths if isinstance(unreal.load_asset(p),unreal.StaticMesh));row['source_mesh']=mesh.get_path_name();row['materials']=[]\n                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nStopIteration\n"
+  }
+]

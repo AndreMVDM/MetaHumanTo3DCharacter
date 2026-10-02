@@ -1,0 +1,18 @@
+[
+  {
+    "variant": "UE5",
+    "zip": "Lara_Rigged_UE5.zip",
+    "entry": "tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+    "size": 1631692,
+    "compressed_size": 1402936,
+    "extracted_path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx"
+  },
+  {
+    "variant": "Mixamo",
+    "zip": "Lara_Rigged_Mixamo.zip",
+    "entry": "tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "size": 1621724,
+    "compressed_size": 1386050,
+    "extracted_path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx"
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "statistics": [
+    {
+      "case": "Unrigged",
+      "type": "automatic_medial",
+      "parameter": 64,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "3": 6271,
+        "4": 3601,
+        "5": 17728,
+        "2": 589
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000465661287
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 0,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "Unrigged",
+      "type": "automatic_medial",
+      "parameter": 128,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "4": 3692,
+        "5": 22818,
+        "3": 1545,
+        "2": 134
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000447034836
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 0,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "MixamoRecovered",
+      "type": "automatic_medial",
+      "parameter": 64,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "3": 2931,
+        "4": 5295,
+        "5": 19251,
+        "2": 712
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000465661287
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 3,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "MixamoRecovered",
+      "type": "automatic_medial",
+      "parameter": 128,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "4": 3587,
+        "5": 23107,
+        "3": 1247,
+        "2": 248
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000484287739
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 0,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "Unrigged",
+      "type": "assisted_manual_landmarks",
+      "parameter": null,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "5": 28188,
+        "4": 1
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000465661287
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 0,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "MixamoRecovered",
+      "type": "assisted_manual_landmarks",
+      "parameter": null,
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "5": 28188,
+        "4": 1
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999552965164,
+        1.0000000465661287
+      ],
+      "opposite_side_influence_gt25pct_lower_body_vertices": 0,
+      "bleed_screen_limit": "Screen outside 8cm centre band below95cm, using signed reference bone X; not a semantic clothing/limb segmentation."
+    },
+    {
+      "case": "Unrigged",
+      "type": "assisted_manual_landmarks",
+      "profile": "BallForward",
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "5": 28189
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999534338713,
+        1.0000000465661287
+      ]
+    },
+    {
+      "case": "MixamoRecovered",
+      "type": "assisted_manual_landmarks",
+      "profile": "BallForward",
+      "vertices": 28189,
+      "positive_influence_histogram": {
+        "5": 28189
+      },
+      "max_positive_influences": 5,
+      "zero_weight_vertices": 0,
+      "weight_sum_range": [
+        0.9999999534338713,
+        1.0000000465661287
+      ]
+    }
+  ],
+  "deformation_evidence": "deformation_metrics.json",
+  "accepted_quality": false,
+  "limitations": "Weight coverage and stable transforms do not prove deformation acceptance. Hands/fingers and clothing need dedicated anatomical fitting and local weight review.",
+  "corrected_deformation_evidence": "deformation_metrics_ball_forward.json"
+}

@@ -1,0 +1,2302 @@
+[
+  {
+    "case": "Unrigged",
+    "type": "automatic_medial",
+    "parameter": 64,
+    "bone_count": 66,
+    "root": {
+      "Bone": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 9,
+    "branch_points_with_more_than_3_children": {
+      "Bone_0": 9,
+      "Bone_8": 4,
+      "Bone_20": 5,
+      "Bone_34": 8,
+      "Bone_51": 6
+    },
+    "bone_lengths_cm": {
+      "Bone_0": 94.8156566167094,
+      "Bone_1": 18.004569230697122,
+      "Bone_2": 17.147067495261332,
+      "Bone_3": 10.593247460647822,
+      "Bone_4": 16.830046160720258,
+      "Bone_5": 16.89659386114262,
+      "Bone_6": 12.062661438254938,
+      "Bone_7": 14.693535240706254,
+      "Bone_8": 14.969461227349607,
+      "Bone_9": 11.804637138804326,
+      "Bone_10": 11.902292454927908,
+      "Bone_11": 16.27442720468898,
+      "Bone_12": 17.234690639514827,
+      "Bone_13": 10.202172132839376,
+      "Bone_14": 16.766154409015886,
+      "Bone_15": 10.990021724283837,
+      "Bone_16": 23.07985977941915,
+      "Bone_17": 13.28415897387434,
+      "Bone_18": 8.80246007442121,
+      "Bone_19": 9.952299654481823,
+      "Bone_20": 12.318502134992752,
+      "Bone_21": 11.897361719878994,
+      "Bone_22": 10.048334270199353,
+      "Bone_23": 18.575005846653916,
+      "Bone_24": 12.308108898346617,
+      "Bone_25": 21.293133225199984,
+      "Bone_26": 10.493272561922199,
+      "Bone_27": 18.18305549330413,
+      "Bone_28": 10.683880840053336,
+      "Bone_29": 12.916178266079168,
+      "Bone_30": 13.002250419052059,
+      "Bone_31": 15.102646082131939,
+      "Bone_32": 10.062658711101067,
+      "Bone_33": 13.267307255128497,
+      "Bone_34": 25.717595435365016,
+      "Bone_35": 17.07893651319149,
+      "Bone_36": 13.932619313989978,
+      "Bone_37": 12.480001809435525,
+      "Bone_38": 7.404112042024267,
+      "Bone_39": 14.224364940141273,
+      "Bone_40": 16.223782307734165,
+      "Bone_41": 9.609920358038002,
+      "Bone_42": 16.39350300218265,
+      "Bone_43": 15.251166562787713,
+      "Bone_44": 19.34422056313668,
+      "Bone_45": 19.961172842084842,
+      "Bone_46": 10.498379973551733,
+      "Bone_47": 7.3454119475506765,
+      "Bone_48": 21.185394240025218,
+      "Bone_49": 16.746461956932322,
+      "Bone_50": 11.520946353033741,
+      "Bone_51": 20.808431916837524,
+      "Bone_52": 21.96120005721082,
+      "Bone_53": 20.71919565271299,
+      "Bone_54": 14.209715724080397,
+      "Bone_55": 22.464456016116433,
+      "Bone_56": 13.845789179629332,
+      "Bone_57": 14.91148330263344,
+      "Bone_58": 13.736723726534075,
+      "Bone_59": 6.503467712544987,
+      "Bone_60": 8.108308443907728,
+      "Bone_61": 16.274151109343748,
+      "Bone_62": 22.95171494395315,
+      "Bone_63": 10.863944453620269,
+      "Bone_64": 7.381960516102509
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "Bone_20",
+        "distance_cm": 6.574405215886375
+      },
+      "spine_01": {
+        "bone": "Bone_1",
+        "distance_cm": 6.3607049222205765
+      },
+      "spine_02": {
+        "bone": "Bone_34",
+        "distance_cm": 5.608882119393519
+      },
+      "spine_03": {
+        "bone": "Bone_55",
+        "distance_cm": 2.9151878053471485
+      },
+      "neck_01": {
+        "bone": "Bone_56",
+        "distance_cm": 5.553334723207501
+      },
+      "head": {
+        "bone": "Bone_56",
+        "distance_cm": 6.0072828893260874
+      },
+      "clavicle_l": {
+        "bone": "Bone_49",
+        "distance_cm": 5.124341002448147
+      },
+      "upperarm_l": {
+        "bone": "Bone_49",
+        "distance_cm": 4.7661650577187045
+      },
+      "lowerarm_l": {
+        "bone": "Bone_48",
+        "distance_cm": 4.812448011246755
+      },
+      "hand_l": {
+        "bone": "Bone_62",
+        "distance_cm": 4.453650265305575
+      },
+      "thigh_l": {
+        "bone": "Bone_20",
+        "distance_cm": 6.227543825933958
+      },
+      "calf_l": {
+        "bone": "Bone_25",
+        "distance_cm": 5.433314295080031
+      },
+      "foot_l": {
+        "bone": "Bone_32",
+        "distance_cm": 4.61608488781125
+      },
+      "ball_l": {
+        "bone": "Bone_30",
+        "distance_cm": 7.01847892964387
+      },
+      "clavicle_r": {
+        "bone": "Bone_52",
+        "distance_cm": 3.825969190115603
+      },
+      "upperarm_r": {
+        "bone": "Bone_42",
+        "distance_cm": 5.25128032400487
+      },
+      "lowerarm_r": {
+        "bone": "Bone_44",
+        "distance_cm": 3.507490124246918
+      },
+      "hand_r": {
+        "bone": "Bone_45",
+        "distance_cm": 4.45946105745204
+      },
+      "thigh_r": {
+        "bone": "Bone_0",
+        "distance_cm": 5.549732941521573
+      },
+      "calf_r": {
+        "bone": "Bone_13",
+        "distance_cm": 5.757493148773022
+      },
+      "foot_r": {
+        "bone": "Bone_18",
+        "distance_cm": 4.552477501296372
+      },
+      "ball_r": {
+        "bone": "Bone_16",
+        "distance_cm": 7.816040066069166
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "mirror_nearest_mean_max_cm": [
+      3.2341657112202626,
+      9.764873883358815
+    ],
+    "accepted_humanoid": false,
+    "reason": "Non-semantic branched medial tree, asymmetric joint correspondence, no validated connected pelvis/spine/limb/finger chains; installed automatic characterisation and FBIK both fail."
+  },
+  {
+    "case": "Unrigged",
+    "type": "automatic_medial",
+    "parameter": 128,
+    "bone_count": 134,
+    "root": {
+      "Bone": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 12,
+    "branch_points_with_more_than_3_children": {
+      "Bone_0": 12,
+      "Bone_10": 8,
+      "Bone_13": 5,
+      "Bone_28": 8,
+      "Bone_36": 7,
+      "Bone_51": 5,
+      "Bone_59": 7,
+      "Bone_86": 8,
+      "Bone_111": 8
+    },
+    "bone_lengths_cm": {
+      "Bone_0": 96.26131493411755,
+      "Bone_1": 12.57905558399239,
+      "Bone_2": 15.490546501006845,
+      "Bone_3": 16.78033225980325,
+      "Bone_4": 11.095092509533448,
+      "Bone_5": 14.523595335704053,
+      "Bone_6": 14.412058812844887,
+      "Bone_7": 12.332220192798248,
+      "Bone_8": 15.702349172632584,
+      "Bone_9": 11.928608807070596,
+      "Bone_10": 18.9690660984771,
+      "Bone_11": 10.888571717163654,
+      "Bone_12": 7.403206592617741,
+      "Bone_13": 15.565689489462455,
+      "Bone_14": 9.977143762664756,
+      "Bone_15": 9.01292298834241,
+      "Bone_16": 9.857137026696991,
+      "Bone_17": 10.65517990250961,
+      "Bone_18": 10.11609987482148,
+      "Bone_19": 10.073513165575347,
+      "Bone_20": 10.544835189476336,
+      "Bone_21": 6.329795000590899,
+      "Bone_22": 6.3116270949152975,
+      "Bone_23": 7.989925588796297,
+      "Bone_24": 8.242012089710958,
+      "Bone_25": 4.189091132805965,
+      "Bone_26": 6.403781471201202,
+      "Bone_27": 8.966680150786901,
+      "Bone_28": 14.988709564094759,
+      "Bone_29": 12.700412433443287,
+      "Bone_30": 6.805460835253628,
+      "Bone_31": 8.552849854456674,
+      "Bone_32": 6.242896990740484,
+      "Bone_33": 10.338455438437366,
+      "Bone_34": 11.124071064746955,
+      "Bone_35": 11.049372503350483,
+      "Bone_36": 6.851341393388732,
+      "Bone_37": 6.43806875667452,
+      "Bone_38": 8.92391560838557,
+      "Bone_39": 3.177110223375592,
+      "Bone_40": 8.793128322474642,
+      "Bone_41": 6.207413473545189,
+      "Bone_42": 10.953981834478585,
+      "Bone_43": 7.834908409315046,
+      "Bone_44": 9.207738139336303,
+      "Bone_45": 8.505745314585269,
+      "Bone_46": 6.120136591948749,
+      "Bone_47": 9.16970633002089,
+      "Bone_48": 12.094878772020314,
+      "Bone_49": 10.654129448490712,
+      "Bone_50": 9.874006838611296,
+      "Bone_51": 13.390825586401764,
+      "Bone_52": 10.641505352083874,
+      "Bone_53": 11.70357017592559,
+      "Bone_54": 10.289226149126996,
+      "Bone_55": 8.988669985552455,
+      "Bone_56": 16.4069947168397,
+      "Bone_57": 11.64282168397919,
+      "Bone_58": 5.8124644853021,
+      "Bone_59": 11.222351653372424,
+      "Bone_60": 6.683584288241908,
+      "Bone_61": 7.648468669764334,
+      "Bone_62": 3.6243084719985568,
+      "Bone_63": 5.839800969403285,
+      "Bone_64": 8.389498571253608,
+      "Bone_65": 4.885263360445403,
+      "Bone_66": 6.1503835838386385,
+      "Bone_67": 9.014834688764996,
+      "Bone_68": 4.623334880092257,
+      "Bone_69": 5.840917183275882,
+      "Bone_70": 5.249149000051905,
+      "Bone_71": 4.3293951778145745,
+      "Bone_72": 9.815170869213853,
+      "Bone_73": 11.768268833794009,
+      "Bone_74": 15.628300873438286,
+      "Bone_75": 20.92419798773902,
+      "Bone_76": 9.869927152302102,
+      "Bone_77": 10.66752329324388,
+      "Bone_78": 10.030904617216503,
+      "Bone_79": 10.668634480262078,
+      "Bone_80": 8.706141621902972,
+      "Bone_81": 8.473923579739788,
+      "Bone_82": 9.772587646070921,
+      "Bone_83": 6.15698872162442,
+      "Bone_84": 5.179422039241696,
+      "Bone_85": 13.112355202002083,
+      "Bone_86": 12.656166004708792,
+      "Bone_87": 9.250459796276292,
+      "Bone_88": 11.793986143312733,
+      "Bone_89": 10.421509666054009,
+      "Bone_90": 8.774929812659913,
+      "Bone_91": 11.978687114039127,
+      "Bone_92": 9.902708091038425,
+      "Bone_93": 16.009489626774613,
+      "Bone_94": 10.578988425899977,
+      "Bone_95": 15.182973303112112,
+      "Bone_96": 8.542557871700698,
+      "Bone_97": 11.2983093829975,
+      "Bone_98": 10.312631370866313,
+      "Bone_99": 10.309209961399754,
+      "Bone_100": 12.529197919801888,
+      "Bone_101": 15.720111742700778,
+      "Bone_102": 6.032463045944956,
+      "Bone_103": 6.278648694935425,
+      "Bone_104": 5.209882361030382,
+      "Bone_105": 12.608301696198698,
+      "Bone_106": 11.326650969646073,
+      "Bone_107": 4.432675948284236,
+      "Bone_108": 5.98553123132959,
+      "Bone_109": 10.23390659604515,
+      "Bone_110": 5.85552751162735,
+      "Bone_111": 11.030187722343582,
+      "Bone_112": 15.090424423640934,
+      "Bone_113": 14.08794768515236,
+      "Bone_114": 11.514728498680723,
+      "Bone_115": 11.215749410189591,
+      "Bone_116": 10.754298910166652,
+      "Bone_117": 10.815324911688787,
+      "Bone_118": 18.656604042953013,
+      "Bone_119": 12.20254900210383,
+      "Bone_120": 21.433627014888426,
+      "Bone_121": 10.834678842138068,
+      "Bone_122": 16.770368885775355,
+      "Bone_123": 8.25770459268491,
+      "Bone_124": 11.348223193573471,
+      "Bone_125": 6.8606715293930725,
+      "Bone_126": 6.068531572246286,
+      "Bone_127": 13.558351300581057,
+      "Bone_128": 11.467489929164657,
+      "Bone_129": 7.5497050507878685,
+      "Bone_130": 9.743141555282712,
+      "Bone_131": 7.772467723713214,
+      "Bone_132": 13.808990294878555
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "Bone_111",
+        "distance_cm": 6.682328692472841
+      },
+      "spine_01": {
+        "bone": "Bone_5",
+        "distance_cm": 4.174010732817795
+      },
+      "spine_02": {
+        "bone": "Bone_12",
+        "distance_cm": 5.559576668078734
+      },
+      "spine_03": {
+        "bone": "Bone_33",
+        "distance_cm": 4.011256604047396
+      },
+      "neck_01": {
+        "bone": "Bone_28",
+        "distance_cm": 2.6242248340027965
+      },
+      "head": {
+        "bone": "Bone_37",
+        "distance_cm": 1.9374835411681148
+      },
+      "clavicle_l": {
+        "bone": "Bone_27",
+        "distance_cm": 2.019980102610588
+      },
+      "upperarm_l": {
+        "bone": "Bone_13",
+        "distance_cm": 3.5432221104519828
+      },
+      "lowerarm_l": {
+        "bone": "Bone_17",
+        "distance_cm": 3.616189824940141
+      },
+      "hand_l": {
+        "bone": "Bone_20",
+        "distance_cm": 5.868467853141318
+      },
+      "thigh_l": {
+        "bone": "Bone_111",
+        "distance_cm": 5.870542300713993
+      },
+      "calf_l": {
+        "bone": "Bone_120",
+        "distance_cm": 5.9375506889107585
+      },
+      "foot_l": {
+        "bone": "Bone_128",
+        "distance_cm": 3.9391626954562162
+      },
+      "ball_l": {
+        "bone": "Bone_127",
+        "distance_cm": 5.951446314855512
+      },
+      "clavicle_r": {
+        "bone": "Bone_74",
+        "distance_cm": 2.4642495819625307
+      },
+      "upperarm_r": {
+        "bone": "Bone_76",
+        "distance_cm": 3.884925548191164
+      },
+      "lowerarm_r": {
+        "bone": "Bone_77",
+        "distance_cm": 4.185706861330023
+      },
+      "hand_r": {
+        "bone": "Bone_79",
+        "distance_cm": 6.289135999156509
+      },
+      "thigh_r": {
+        "bone": "Bone_0",
+        "distance_cm": 5.908147569408072
+      },
+      "calf_r": {
+        "bone": "Bone_94",
+        "distance_cm": 5.966102247387973
+      },
+      "foot_r": {
+        "bone": "Bone_98",
+        "distance_cm": 4.315840721383158
+      },
+      "ball_r": {
+        "bone": "Bone_99",
+        "distance_cm": 6.709595296832144
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "mirror_nearest_mean_max_cm": [
+      2.739769955936827,
+      10.78023830576293
+    ],
+    "accepted_humanoid": false,
+    "reason": "Non-semantic branched medial tree, asymmetric joint correspondence, no validated connected pelvis/spine/limb/finger chains; installed automatic characterisation and FBIK both fail."
+  },
+  {
+    "case": "MixamoRecovered",
+    "type": "automatic_medial",
+    "parameter": 64,
+    "bone_count": 65,
+    "root": {
+      "Bone": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 10,
+    "branch_points_with_more_than_3_children": {
+      "Bone_0": 10,
+      "Bone_30": 4,
+      "Bone_43": 4,
+      "Bone_46": 4,
+      "Bone_55": 5
+    },
+    "bone_lengths_cm": {
+      "Bone_0": 97.21197537598762,
+      "Bone_1": 13.87212894114669,
+      "Bone_2": 10.381754133407078,
+      "Bone_3": 12.988012174130187,
+      "Bone_4": 18.763497348456294,
+      "Bone_5": 12.575320827440732,
+      "Bone_6": 16.735050745746527,
+      "Bone_7": 10.507668927207781,
+      "Bone_8": 16.683712602823697,
+      "Bone_9": 10.062710340707374,
+      "Bone_10": 12.157076210516802,
+      "Bone_11": 12.600363119213117,
+      "Bone_12": 15.057976445602334,
+      "Bone_13": 9.991467253946553,
+      "Bone_14": 7.183982725698625,
+      "Bone_15": 19.577998364881253,
+      "Bone_16": 14.505404159028531,
+      "Bone_17": 22.27096879234385,
+      "Bone_18": 11.150521047180453,
+      "Bone_19": 11.208996812662246,
+      "Bone_20": 14.92273370012029,
+      "Bone_21": 17.35127833288476,
+      "Bone_22": 16.821299782256823,
+      "Bone_23": 16.603198820146265,
+      "Bone_24": 10.101718787641001,
+      "Bone_25": 17.06512566535308,
+      "Bone_26": 11.026655338074866,
+      "Bone_27": 20.177744348636338,
+      "Bone_28": 12.98587188395295,
+      "Bone_29": 7.479491120228523,
+      "Bone_30": 10.965020032358298,
+      "Bone_31": 12.325205594408912,
+      "Bone_32": 10.379939992638516,
+      "Bone_33": 14.515927306307251,
+      "Bone_34": 16.02708908971583,
+      "Bone_35": 12.552379624778448,
+      "Bone_36": 20.331157433378007,
+      "Bone_37": 20.90888007226955,
+      "Bone_38": 10.263240287243708,
+      "Bone_39": 16.67785570706369,
+      "Bone_40": 5.102992377601021,
+      "Bone_41": 17.12690078903313,
+      "Bone_42": 13.733785223125393,
+      "Bone_43": 20.997056935262773,
+      "Bone_44": 11.384916082724864,
+      "Bone_45": 16.920128624492495,
+      "Bone_46": 29.203795450309,
+      "Bone_47": 15.418117505805643,
+      "Bone_48": 11.969533238667818,
+      "Bone_49": 7.973209431315448,
+      "Bone_50": 15.082216573612904,
+      "Bone_51": 13.399765310350832,
+      "Bone_52": 6.943548030339889,
+      "Bone_53": 16.94432703389232,
+      "Bone_54": 11.596358462112853,
+      "Bone_55": 17.75703744906941,
+      "Bone_56": 17.23440027551298,
+      "Bone_57": 14.405179047144674,
+      "Bone_58": 12.593587884605503,
+      "Bone_59": 19.014552730817567,
+      "Bone_60": 11.866456567173143,
+      "Bone_61": 21.947612851017436,
+      "Bone_62": 11.571617624297591,
+      "Bone_63": 7.435958155247821
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "Bone_0",
+        "distance_cm": 5.695247585101748
+      },
+      "spine_01": {
+        "bone": "Bone_1",
+        "distance_cm": 5.9958558452614765
+      },
+      "spine_02": {
+        "bone": "Bone_36",
+        "distance_cm": 4.9691961593365175
+      },
+      "spine_03": {
+        "bone": "Bone_60",
+        "distance_cm": 1.273071640024698
+      },
+      "neck_01": {
+        "bone": "Bone_54",
+        "distance_cm": 4.216927325284719
+      },
+      "head": {
+        "bone": "Bone_46",
+        "distance_cm": 5.6938073551613115
+      },
+      "clavicle_l": {
+        "bone": "Bone_45",
+        "distance_cm": 3.727169152710854
+      },
+      "upperarm_l": {
+        "bone": "Bone_45",
+        "distance_cm": 5.883132324937087
+      },
+      "lowerarm_l": {
+        "bone": "Bone_43",
+        "distance_cm": 5.762618921641685
+      },
+      "hand_l": {
+        "bone": "Bone_61",
+        "distance_cm": 5.003099763206542
+      },
+      "thigh_l": {
+        "bone": "Bone_3",
+        "distance_cm": 4.527827247093525
+      },
+      "calf_l": {
+        "bone": "Bone_7",
+        "distance_cm": 5.718794196721074
+      },
+      "foot_l": {
+        "bone": "Bone_13",
+        "distance_cm": 4.771038768539005
+      },
+      "ball_l": {
+        "bone": "Bone_11",
+        "distance_cm": 7.394889948434268
+      },
+      "clavicle_r": {
+        "bone": "Bone_39",
+        "distance_cm": 3.16961552794112
+      },
+      "upperarm_r": {
+        "bone": "Bone_39",
+        "distance_cm": 7.4124396046291245
+      },
+      "lowerarm_r": {
+        "bone": "Bone_37",
+        "distance_cm": 6.261723713335662
+      },
+      "hand_r": {
+        "bone": "Bone_42",
+        "distance_cm": 7.927515005466932
+      },
+      "thigh_r": {
+        "bone": "Bone_0",
+        "distance_cm": 6.799830406043596
+      },
+      "calf_r": {
+        "bone": "Bone_24",
+        "distance_cm": 6.27194961522345
+      },
+      "foot_r": {
+        "bone": "Bone_27",
+        "distance_cm": 2.8630898594616556
+      },
+      "ball_r": {
+        "bone": "Bone_27",
+        "distance_cm": 10.283225317208144
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "mirror_nearest_mean_max_cm": [
+      3.325669175933974,
+      8.472894914547124
+    ],
+    "accepted_humanoid": false,
+    "reason": "Non-semantic branched medial tree, asymmetric joint correspondence, no validated connected pelvis/spine/limb/finger chains; installed automatic characterisation and FBIK both fail."
+  },
+  {
+    "case": "MixamoRecovered",
+    "type": "automatic_medial",
+    "parameter": 128,
+    "bone_count": 133,
+    "root": {
+      "Bone": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 12,
+    "branch_points_with_more_than_3_children": {
+      "Bone_0": 12,
+      "Bone_26": 4,
+      "Bone_30": 4,
+      "Bone_54": 5,
+      "Bone_57": 7,
+      "Bone_64": 8,
+      "Bone_76": 6,
+      "Bone_82": 5,
+      "Bone_94": 4,
+      "Bone_98": 4,
+      "Bone_115": 5
+    },
+    "bone_lengths_cm": {
+      "Bone_0": 97.00874915230155,
+      "Bone_1": 15.613214117421204,
+      "Bone_2": 13.04435074908421,
+      "Bone_3": 15.63249183189102,
+      "Bone_4": 11.324514734916066,
+      "Bone_5": 13.042200191102411,
+      "Bone_6": 14.235629192277381,
+      "Bone_7": 10.060127834460445,
+      "Bone_8": 12.970933096990256,
+      "Bone_9": 11.184405428721218,
+      "Bone_10": 10.915338846308105,
+      "Bone_11": 16.784194834008257,
+      "Bone_12": 10.2129211658368,
+      "Bone_13": 15.316833141899286,
+      "Bone_14": 7.590915623245101,
+      "Bone_15": 10.946283907262247,
+      "Bone_16": 7.00470995666338,
+      "Bone_17": 5.031738177411014,
+      "Bone_18": 13.049904680959479,
+      "Bone_19": 16.438291450812663,
+      "Bone_20": 7.924100690705858,
+      "Bone_21": 9.446461162194048,
+      "Bone_22": 9.754369775106195,
+      "Bone_23": 10.82462235647765,
+      "Bone_24": 12.58804205214963,
+      "Bone_25": 9.767897449209453,
+      "Bone_26": 9.751539023208396,
+      "Bone_27": 5.513022726200679,
+      "Bone_28": 13.595865191783888,
+      "Bone_29": 7.308217405275507,
+      "Bone_30": 11.614704098101592,
+      "Bone_31": 6.387993016101224,
+      "Bone_32": 9.46111785755799,
+      "Bone_33": 7.758926539149619,
+      "Bone_34": 10.014311627796012,
+      "Bone_35": 9.269157587937947,
+      "Bone_36": 16.425244521726935,
+      "Bone_37": 10.206596335083157,
+      "Bone_38": 15.363433256205544,
+      "Bone_39": 10.154394421420688,
+      "Bone_40": 8.96582662329583,
+      "Bone_41": 11.05891451221133,
+      "Bone_42": 12.304472698368148,
+      "Bone_43": 9.595550617606284,
+      "Bone_44": 18.092685378289115,
+      "Bone_45": 15.105706435439624,
+      "Bone_46": 14.551562664168934,
+      "Bone_47": 10.345980220055088,
+      "Bone_48": 14.494695928248852,
+      "Bone_49": 8.350329854059217,
+      "Bone_50": 7.636200753520946,
+      "Bone_51": 5.38765425261986,
+      "Bone_52": 11.667658648585949,
+      "Bone_53": 15.0435377302886,
+      "Bone_54": 17.85286936492846,
+      "Bone_55": 18.992016483208733,
+      "Bone_56": 15.288102209812571,
+      "Bone_57": 17.43837014542012,
+      "Bone_58": 9.694783227846477,
+      "Bone_59": 14.28818534678483,
+      "Bone_60": 13.047154897075982,
+      "Bone_61": 9.249092254306593,
+      "Bone_62": 12.90166947056189,
+      "Bone_63": 14.918022271584153,
+      "Bone_64": 10.827361552005708,
+      "Bone_65": 1.7993278619204829,
+      "Bone_66": 5.900609960052059,
+      "Bone_67": 11.686112203298945,
+      "Bone_68": 11.343895463230549,
+      "Bone_69": 3.7543833064078247,
+      "Bone_70": 14.870121732905469,
+      "Bone_71": 16.596726468488715,
+      "Bone_72": 8.906612727041177,
+      "Bone_73": 3.458825650776473,
+      "Bone_74": 7.584392385076529,
+      "Bone_75": 8.647930626563026,
+      "Bone_76": 11.315488813079218,
+      "Bone_77": 6.066875559101096,
+      "Bone_78": 6.680208528219203,
+      "Bone_79": 12.519292038699941,
+      "Bone_80": 4.23632560480218,
+      "Bone_81": 7.781365152219936,
+      "Bone_82": 13.756624229878222,
+      "Bone_83": 10.77782775045553,
+      "Bone_84": 8.347863482038749,
+      "Bone_85": 8.52476279500897,
+      "Bone_86": 6.557607557957904,
+      "Bone_87": 12.469265135651495,
+      "Bone_88": 11.611510976176652,
+      "Bone_89": 13.161104963501893,
+      "Bone_90": 6.028854523260674,
+      "Bone_91": 6.852357424253771,
+      "Bone_92": 13.21364487284898,
+      "Bone_93": 13.448612839677974,
+      "Bone_94": 10.534865004643498,
+      "Bone_95": 12.063260668266064,
+      "Bone_96": 6.459809939920607,
+      "Bone_97": 13.694418597877974,
+      "Bone_98": 11.115782589100311,
+      "Bone_99": 15.30594857469143,
+      "Bone_100": 11.833450224744759,
+      "Bone_101": 17.30573064674273,
+      "Bone_102": 19.92640784663596,
+      "Bone_103": 11.223690930594302,
+      "Bone_104": 10.375767665644007,
+      "Bone_105": 13.851564323332587,
+      "Bone_106": 8.659951331457306,
+      "Bone_107": 12.446288869515389,
+      "Bone_108": 13.088953884470326,
+      "Bone_109": 7.266669379910048,
+      "Bone_110": 5.726225612919718,
+      "Bone_111": 9.035711382195965,
+      "Bone_112": 6.176790456118962,
+      "Bone_113": 6.58162905538469,
+      "Bone_114": 4.858704505301608,
+      "Bone_115": 20.80584033331256,
+      "Bone_116": 3.896449657069171,
+      "Bone_117": 8.984827066039097,
+      "Bone_118": 13.539746774728775,
+      "Bone_119": 8.1394378278787,
+      "Bone_120": 7.849768190181391,
+      "Bone_121": 5.155057004390588,
+      "Bone_122": 9.615042759760819,
+      "Bone_123": 14.64062317657617,
+      "Bone_124": 14.038596645344969,
+      "Bone_125": 7.462162863985138,
+      "Bone_126": 5.83849943182234,
+      "Bone_127": 8.83668655620144,
+      "Bone_128": 6.007061506879899,
+      "Bone_129": 5.76539376087206,
+      "Bone_130": 5.137336006106901,
+      "Bone_131": 13.430040899717339
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "Bone_0",
+        "distance_cm": 5.853437550910455
+      },
+      "spine_01": {
+        "bone": "Bone_6",
+        "distance_cm": 3.7558992470255195
+      },
+      "spine_02": {
+        "bone": "Bone_54",
+        "distance_cm": 6.356892013248056
+      },
+      "spine_03": {
+        "bone": "Bone_63",
+        "distance_cm": 3.8551784382353262
+      },
+      "neck_01": {
+        "bone": "Bone_70",
+        "distance_cm": 2.9609748320675187
+      },
+      "head": {
+        "bone": "Bone_86",
+        "distance_cm": 1.8016713277798875
+      },
+      "clavicle_l": {
+        "bone": "Bone_60",
+        "distance_cm": 2.4285173993042974
+      },
+      "upperarm_l": {
+        "bone": "Bone_120",
+        "distance_cm": 5.831106347894149
+      },
+      "lowerarm_l": {
+        "bone": "Bone_115",
+        "distance_cm": 6.7903865590161265
+      },
+      "hand_l": {
+        "bone": "Bone_124",
+        "distance_cm": 5.650505254674928
+      },
+      "thigh_l": {
+        "bone": "Bone_24",
+        "distance_cm": 5.558813922225207
+      },
+      "calf_l": {
+        "bone": "Bone_12",
+        "distance_cm": 5.276488736715284
+      },
+      "foot_l": {
+        "bone": "Bone_17",
+        "distance_cm": 4.162470732746085
+      },
+      "ball_l": {
+        "bone": "Bone_18",
+        "distance_cm": 6.153043330579294
+      },
+      "clavicle_r": {
+        "bone": "Bone_74",
+        "distance_cm": 2.627236954270846
+      },
+      "upperarm_r": {
+        "bone": "Bone_106",
+        "distance_cm": 6.6478701501920145
+      },
+      "lowerarm_r": {
+        "bone": "Bone_102",
+        "distance_cm": 4.433265270366144
+      },
+      "hand_r": {
+        "bone": "Bone_108",
+        "distance_cm": 5.634747134918355
+      },
+      "thigh_r": {
+        "bone": "Bone_0",
+        "distance_cm": 6.549686071928235
+      },
+      "calf_r": {
+        "bone": "Bone_37",
+        "distance_cm": 5.797393993583276
+      },
+      "foot_r": {
+        "bone": "Bone_44",
+        "distance_cm": 4.7172743185502455
+      },
+      "ball_r": {
+        "bone": "Bone_45",
+        "distance_cm": 7.004025964844792
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "mirror_nearest_mean_max_cm": [
+      2.4951590736938343,
+      9.34062157986035
+    ],
+    "accepted_humanoid": false,
+    "reason": "Non-semantic branched medial tree, asymmetric joint correspondence, no validated connected pelvis/spine/limb/finger chains; installed automatic characterisation and FBIK both fail."
+  },
+  {
+    "case": "Unrigged",
+    "type": "assisted_manual_landmarks",
+    "parameter": null,
+    "bone_count": 53,
+    "root": {
+      "root": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 5,
+    "branch_points_with_more_than_3_children": {
+      "hand_l": 5,
+      "hand_r": 5
+    },
+    "bone_lengths_cm": {
+      "pelvis": 100.0,
+      "spine_01": 12.0,
+      "spine_02": 13.0,
+      "spine_03": 13.0,
+      "neck_01": 12.0,
+      "head": 11.0,
+      "clavicle_l": 9.486832980505142,
+      "upperarm_l": 9.219544457292885,
+      "lowerarm_l": 19.313207915827977,
+      "hand_l": 19.924858845171286,
+      "thigh_l": 11.401754250991383,
+      "calf_l": 42.30839160261237,
+      "foot_l": 43.058100283222004,
+      "ball_l": 12.806248474865706,
+      "thumb_01_l": 6.633249580710802,
+      "thumb_02_l": 5.0,
+      "thumb_03_l": 4.0,
+      "index_01_l": 6.020797289396148,
+      "index_02_l": 5.0,
+      "index_03_l": 4.0,
+      "middle_01_l": 6.082762530298219,
+      "middle_02_l": 5.0,
+      "middle_03_l": 4.0,
+      "ring_01_l": 6.499999999999999,
+      "ring_02_l": 5.0,
+      "ring_03_l": 4.0,
+      "pinky_01_l": 7.2111025509279765,
+      "pinky_02_l": 5.0,
+      "pinky_03_l": 4.0,
+      "clavicle_r": 9.486832980505142,
+      "upperarm_r": 9.219544457292892,
+      "lowerarm_r": 19.313207915827967,
+      "hand_r": 19.924858845171293,
+      "thigh_r": 11.401754250991383,
+      "calf_r": 42.30839160261238,
+      "foot_r": 43.058100283222004,
+      "ball_r": 12.806248474865708,
+      "thumb_01_r": 6.633249580710799,
+      "thumb_02_r": 5.0,
+      "thumb_03_r": 4.0,
+      "index_01_r": 6.020797289396148,
+      "index_02_r": 5.0,
+      "index_03_r": 4.0,
+      "middle_01_r": 6.08276253029822,
+      "middle_02_r": 5.0,
+      "middle_03_r": 4.0,
+      "ring_01_r": 6.500000000000001,
+      "ring_02_r": 5.0,
+      "ring_03_r": 4.0,
+      "pinky_01_r": 7.211102550927981,
+      "pinky_02_r": 5.0,
+      "pinky_03_r": 4.0
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "pelvis",
+        "distance_cm": 0.0
+      },
+      "spine_01": {
+        "bone": "spine_01",
+        "distance_cm": 1.7763568394002505e-15
+      },
+      "spine_02": {
+        "bone": "spine_02",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "spine_03": {
+        "bone": "spine_03",
+        "distance_cm": 5.329070518200751e-15
+      },
+      "neck_01": {
+        "bone": "neck_01",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "head": {
+        "bone": "head",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "clavicle_l": {
+        "bone": "clavicle_l",
+        "distance_cm": 8.881784197001252e-15
+      },
+      "upperarm_l": {
+        "bone": "upperarm_l",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "lowerarm_l": {
+        "bone": "lowerarm_l",
+        "distance_cm": 1.4210854715202013e-14
+      },
+      "hand_l": {
+        "bone": "hand_l",
+        "distance_cm": 3.0354398977712314e-14
+      },
+      "thigh_l": {
+        "bone": "thigh_l",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "calf_l": {
+        "bone": "calf_l",
+        "distance_cm": 2.274955071274068e-14
+      },
+      "foot_l": {
+        "bone": "foot_l",
+        "distance_cm": 5.78344148577961e-14
+      },
+      "ball_l": {
+        "bone": "ball_l",
+        "distance_cm": 6.930068680024405e-14
+      },
+      "clavicle_r": {
+        "bone": "clavicle_r",
+        "distance_cm": 1.7763568394002505e-15
+      },
+      "upperarm_r": {
+        "bone": "upperarm_r",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "lowerarm_r": {
+        "bone": "lowerarm_r",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "hand_r": {
+        "bone": "hand_r",
+        "distance_cm": 2.864289338439558e-14
+      },
+      "thigh_r": {
+        "bone": "thigh_r",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "calf_r": {
+        "bone": "calf_r",
+        "distance_cm": 3.842911550348655e-14
+      },
+      "foot_r": {
+        "bone": "foot_r",
+        "distance_cm": 6.806636026826745e-14
+      },
+      "ball_r": {
+        "bone": "ball_r",
+        "distance_cm": 7.828072247850565e-14
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "accepted_humanoid": false,
+    "reason": "Diagnostic semantic hierarchy succeeds; hand/finger locations approximate, sole hover and deformation flags prevent quality acceptance."
+  },
+  {
+    "case": "MixamoRecovered",
+    "type": "assisted_manual_landmarks",
+    "parameter": null,
+    "bone_count": 53,
+    "root": {
+      "root": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "max_children": 5,
+    "branch_points_with_more_than_3_children": {
+      "hand_l": 5,
+      "hand_r": 5
+    },
+    "bone_lengths_cm": {
+      "pelvis": 100.0,
+      "spine_01": 12.0,
+      "spine_02": 13.0,
+      "spine_03": 13.0,
+      "neck_01": 12.0,
+      "head": 11.0,
+      "clavicle_l": 9.486832980505142,
+      "upperarm_l": 9.219544457292885,
+      "lowerarm_l": 19.313207915827977,
+      "hand_l": 19.924858845171286,
+      "thigh_l": 11.401754250991383,
+      "calf_l": 42.30839160261237,
+      "foot_l": 43.058100283222004,
+      "ball_l": 12.806248474865706,
+      "thumb_01_l": 6.633249580710802,
+      "thumb_02_l": 5.0,
+      "thumb_03_l": 4.0,
+      "index_01_l": 6.020797289396148,
+      "index_02_l": 5.0,
+      "index_03_l": 4.0,
+      "middle_01_l": 6.082762530298219,
+      "middle_02_l": 5.0,
+      "middle_03_l": 4.0,
+      "ring_01_l": 6.499999999999999,
+      "ring_02_l": 5.0,
+      "ring_03_l": 4.0,
+      "pinky_01_l": 7.2111025509279765,
+      "pinky_02_l": 5.0,
+      "pinky_03_l": 4.0,
+      "clavicle_r": 9.486832980505142,
+      "upperarm_r": 9.219544457292892,
+      "lowerarm_r": 19.313207915827967,
+      "hand_r": 19.924858845171293,
+      "thigh_r": 11.401754250991383,
+      "calf_r": 42.30839160261238,
+      "foot_r": 43.058100283222004,
+      "ball_r": 12.806248474865708,
+      "thumb_01_r": 6.633249580710799,
+      "thumb_02_r": 5.0,
+      "thumb_03_r": 4.0,
+      "index_01_r": 6.020797289396148,
+      "index_02_r": 5.0,
+      "index_03_r": 4.0,
+      "middle_01_r": 6.08276253029822,
+      "middle_02_r": 5.0,
+      "middle_03_r": 4.0,
+      "ring_01_r": 6.500000000000001,
+      "ring_02_r": 5.0,
+      "ring_03_r": 4.0,
+      "pinky_01_r": 7.211102550927981,
+      "pinky_02_r": 5.0,
+      "pinky_03_r": 4.0
+    },
+    "unit_scale": true,
+    "nearest_to_manual_landmark_proxy": {
+      "pelvis": {
+        "bone": "pelvis",
+        "distance_cm": 0.0
+      },
+      "spine_01": {
+        "bone": "spine_01",
+        "distance_cm": 1.7763568394002505e-15
+      },
+      "spine_02": {
+        "bone": "spine_02",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "spine_03": {
+        "bone": "spine_03",
+        "distance_cm": 5.329070518200751e-15
+      },
+      "neck_01": {
+        "bone": "neck_01",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "head": {
+        "bone": "head",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "clavicle_l": {
+        "bone": "clavicle_l",
+        "distance_cm": 8.881784197001252e-15
+      },
+      "upperarm_l": {
+        "bone": "upperarm_l",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "lowerarm_l": {
+        "bone": "lowerarm_l",
+        "distance_cm": 1.4210854715202013e-14
+      },
+      "hand_l": {
+        "bone": "hand_l",
+        "distance_cm": 3.0354398977712314e-14
+      },
+      "thigh_l": {
+        "bone": "thigh_l",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "calf_l": {
+        "bone": "calf_l",
+        "distance_cm": 2.274955071274068e-14
+      },
+      "foot_l": {
+        "bone": "foot_l",
+        "distance_cm": 5.78344148577961e-14
+      },
+      "ball_l": {
+        "bone": "ball_l",
+        "distance_cm": 6.930068680024405e-14
+      },
+      "clavicle_r": {
+        "bone": "clavicle_r",
+        "distance_cm": 1.7763568394002505e-15
+      },
+      "upperarm_r": {
+        "bone": "upperarm_r",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "lowerarm_r": {
+        "bone": "lowerarm_r",
+        "distance_cm": 7.105427357601002e-15
+      },
+      "hand_r": {
+        "bone": "hand_r",
+        "distance_cm": 2.864289338439558e-14
+      },
+      "thigh_r": {
+        "bone": "thigh_r",
+        "distance_cm": 3.552713678800501e-15
+      },
+      "calf_r": {
+        "bone": "calf_r",
+        "distance_cm": 3.842911550348655e-14
+      },
+      "foot_r": {
+        "bone": "foot_r",
+        "distance_cm": 6.806636026826745e-14
+      },
+      "ball_r": {
+        "bone": "ball_r",
+        "distance_cm": 7.828072247850565e-14
+      }
+    },
+    "anatomical_proxy_limit": "Manual landmarks are approximate geometry-based comparison points, not anatomical ground truth. Nearest distance alone cannot establish a connected humanoid hierarchy.",
+    "accepted_humanoid": false,
+    "reason": "Diagnostic semantic hierarchy succeeds; hand/finger locations approximate, sole hover and deformation flags prevent quality acceptance."
+  },
+  {
+    "case": "Unrigged",
+    "type": "assisted_manual_landmarks",
+    "profile": "BallForward",
+    "bone_count": 53,
+    "root": {
+      "root": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "bone_lengths_cm": {
+      "pelvis": 100.0,
+      "spine_01": 12.0,
+      "spine_02": 13.0,
+      "spine_03": 13.0,
+      "neck_01": 12.0,
+      "head": 11.0,
+      "clavicle_l": 9.486832980505142,
+      "upperarm_l": 9.219544457292885,
+      "lowerarm_l": 19.313207915827977,
+      "hand_l": 19.924858845171286,
+      "thigh_l": 11.401754250991383,
+      "calf_l": 42.30839160261237,
+      "foot_l": 43.058100283222004,
+      "ball_l": 12.806248474865706,
+      "thumb_01_l": 6.633249580710802,
+      "thumb_02_l": 5.0,
+      "thumb_03_l": 4.0,
+      "index_01_l": 6.020797289396148,
+      "index_02_l": 5.0,
+      "index_03_l": 4.0,
+      "middle_01_l": 6.082762530298219,
+      "middle_02_l": 5.0,
+      "middle_03_l": 4.0,
+      "ring_01_l": 6.499999999999999,
+      "ring_02_l": 5.0,
+      "ring_03_l": 4.0,
+      "pinky_01_l": 7.2111025509279765,
+      "pinky_02_l": 5.0,
+      "pinky_03_l": 4.0,
+      "clavicle_r": 9.486832980505142,
+      "upperarm_r": 9.219544457292892,
+      "lowerarm_r": 19.313207915827967,
+      "hand_r": 19.924858845171293,
+      "thigh_r": 11.401754250991383,
+      "calf_r": 42.30839160261238,
+      "foot_r": 43.058100283222004,
+      "ball_r": 12.806248474865704,
+      "thumb_01_r": 6.633249580710799,
+      "thumb_02_r": 5.0,
+      "thumb_03_r": 4.0,
+      "index_01_r": 6.020797289396148,
+      "index_02_r": 5.0,
+      "index_03_r": 4.0,
+      "middle_01_r": 6.08276253029822,
+      "middle_02_r": 5.0,
+      "middle_03_r": 4.0,
+      "ring_01_r": 6.500000000000001,
+      "ring_02_r": 5.0,
+      "ring_03_r": 4.0,
+      "pinky_01_r": 7.211102550927981,
+      "pinky_02_r": 5.0,
+      "pinky_03_r": 4.0
+    },
+    "unit_scale": true,
+    "landmark_coordinates": [
+      [
+        "pelvis",
+        "root",
+        [
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      [
+        "spine_01",
+        "pelvis",
+        [
+          0.0,
+          0.0,
+          112.0
+        ]
+      ],
+      [
+        "spine_02",
+        "spine_01",
+        [
+          0.0,
+          0.0,
+          125.0
+        ]
+      ],
+      [
+        "spine_03",
+        "spine_02",
+        [
+          0.0,
+          0.0,
+          138.0
+        ]
+      ],
+      [
+        "neck_01",
+        "spine_03",
+        [
+          0.0,
+          0.0,
+          150.0
+        ]
+      ],
+      [
+        "head",
+        "neck_01",
+        [
+          0.0,
+          0.0,
+          161.0
+        ]
+      ],
+      [
+        "clavicle_l",
+        "spine_03",
+        [
+          9.0,
+          0.0,
+          141.0
+        ]
+      ],
+      [
+        "upperarm_l",
+        "clavicle_l",
+        [
+          18.0,
+          0.0,
+          139.0
+        ]
+      ],
+      [
+        "lowerarm_l",
+        "upperarm_l",
+        [
+          25.0,
+          0.0,
+          121.0
+        ]
+      ],
+      [
+        "hand_l",
+        "lowerarm_l",
+        [
+          31.0,
+          0.0,
+          102.0
+        ]
+      ],
+      [
+        "thigh_l",
+        "pelvis",
+        [
+          11.0,
+          0.0,
+          97.0
+        ]
+      ],
+      [
+        "calf_l",
+        "thigh_l",
+        [
+          16.0,
+          1.0,
+          55.0
+        ]
+      ],
+      [
+        "foot_l",
+        "calf_l",
+        [
+          18.0,
+          0.0,
+          12.0
+        ]
+      ],
+      [
+        "ball_l",
+        "foot_l",
+        [
+          18.0,
+          10.0,
+          4.0
+        ]
+      ],
+      [
+        "thumb_01_l",
+        "hand_l",
+        [
+          29.0,
+          -2.0,
+          96.0
+        ]
+      ],
+      [
+        "thumb_02_l",
+        "thumb_01_l",
+        [
+          29.0,
+          -2.0,
+          91.0
+        ]
+      ],
+      [
+        "thumb_03_l",
+        "thumb_02_l",
+        [
+          29.0,
+          -2.0,
+          87.0
+        ]
+      ],
+      [
+        "index_01_l",
+        "hand_l",
+        [
+          30.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "index_02_l",
+        "index_01_l",
+        [
+          30.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "index_03_l",
+        "index_02_l",
+        [
+          30.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "middle_01_l",
+        "hand_l",
+        [
+          32.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "middle_02_l",
+        "middle_01_l",
+        [
+          32.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "middle_03_l",
+        "middle_02_l",
+        [
+          32.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "ring_01_l",
+        "hand_l",
+        [
+          33.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "ring_02_l",
+        "ring_01_l",
+        [
+          33.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "ring_03_l",
+        "ring_02_l",
+        [
+          33.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "pinky_01_l",
+        "hand_l",
+        [
+          35.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "pinky_02_l",
+        "pinky_01_l",
+        [
+          35.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "pinky_03_l",
+        "pinky_02_l",
+        [
+          35.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "clavicle_r",
+        "spine_03",
+        [
+          -9.0,
+          0.0,
+          141.0
+        ]
+      ],
+      [
+        "upperarm_r",
+        "clavicle_r",
+        [
+          -18.0,
+          0.0,
+          139.0
+        ]
+      ],
+      [
+        "lowerarm_r",
+        "upperarm_r",
+        [
+          -25.0,
+          0.0,
+          121.0
+        ]
+      ],
+      [
+        "hand_r",
+        "lowerarm_r",
+        [
+          -31.0,
+          0.0,
+          102.0
+        ]
+      ],
+      [
+        "thigh_r",
+        "pelvis",
+        [
+          -11.0,
+          0.0,
+          97.0
+        ]
+      ],
+      [
+        "calf_r",
+        "thigh_r",
+        [
+          -16.0,
+          1.0,
+          55.0
+        ]
+      ],
+      [
+        "foot_r",
+        "calf_r",
+        [
+          -18.0,
+          0.0,
+          12.0
+        ]
+      ],
+      [
+        "ball_r",
+        "foot_r",
+        [
+          -18.0,
+          10.0,
+          4.0
+        ]
+      ],
+      [
+        "thumb_01_r",
+        "hand_r",
+        [
+          -29.0,
+          -2.0,
+          96.0
+        ]
+      ],
+      [
+        "thumb_02_r",
+        "thumb_01_r",
+        [
+          -29.0,
+          -2.0,
+          91.0
+        ]
+      ],
+      [
+        "thumb_03_r",
+        "thumb_02_r",
+        [
+          -29.0,
+          -2.0,
+          87.0
+        ]
+      ],
+      [
+        "index_01_r",
+        "hand_r",
+        [
+          -30.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "index_02_r",
+        "index_01_r",
+        [
+          -30.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "index_03_r",
+        "index_02_r",
+        [
+          -30.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "middle_01_r",
+        "hand_r",
+        [
+          -32.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "middle_02_r",
+        "middle_01_r",
+        [
+          -32.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "middle_03_r",
+        "middle_02_r",
+        [
+          -32.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "ring_01_r",
+        "hand_r",
+        [
+          -33.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "ring_02_r",
+        "ring_01_r",
+        [
+          -33.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "ring_03_r",
+        "ring_02_r",
+        [
+          -33.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "pinky_01_r",
+        "hand_r",
+        [
+          -35.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "pinky_02_r",
+        "pinky_01_r",
+        [
+          -35.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "pinky_03_r",
+        "pinky_02_r",
+        [
+          -35.0,
+          0.0,
+          87.0
+        ]
+      ]
+    ],
+    "accepted_humanoid": false,
+    "reason": "Semantic authoring and downstream bake pass; manual approximate fingers, deformation screening flags and mixed floor contact prevent production acceptance."
+  },
+  {
+    "case": "MixamoRecovered",
+    "type": "assisted_manual_landmarks",
+    "profile": "BallForward",
+    "bone_count": 53,
+    "root": {
+      "root": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "bone_lengths_cm": {
+      "pelvis": 100.0,
+      "spine_01": 12.0,
+      "spine_02": 13.0,
+      "spine_03": 13.0,
+      "neck_01": 12.0,
+      "head": 11.0,
+      "clavicle_l": 9.486832980505142,
+      "upperarm_l": 9.219544457292885,
+      "lowerarm_l": 19.313207915827977,
+      "hand_l": 19.924858845171286,
+      "thigh_l": 11.401754250991383,
+      "calf_l": 42.30839160261237,
+      "foot_l": 43.058100283222004,
+      "ball_l": 12.806248474865706,
+      "thumb_01_l": 6.633249580710802,
+      "thumb_02_l": 5.0,
+      "thumb_03_l": 4.0,
+      "index_01_l": 6.020797289396148,
+      "index_02_l": 5.0,
+      "index_03_l": 4.0,
+      "middle_01_l": 6.082762530298219,
+      "middle_02_l": 5.0,
+      "middle_03_l": 4.0,
+      "ring_01_l": 6.499999999999999,
+      "ring_02_l": 5.0,
+      "ring_03_l": 4.0,
+      "pinky_01_l": 7.2111025509279765,
+      "pinky_02_l": 5.0,
+      "pinky_03_l": 4.0,
+      "clavicle_r": 9.486832980505142,
+      "upperarm_r": 9.219544457292892,
+      "lowerarm_r": 19.313207915827967,
+      "hand_r": 19.924858845171293,
+      "thigh_r": 11.401754250991383,
+      "calf_r": 42.30839160261238,
+      "foot_r": 43.058100283222004,
+      "ball_r": 12.806248474865704,
+      "thumb_01_r": 6.633249580710799,
+      "thumb_02_r": 5.0,
+      "thumb_03_r": 4.0,
+      "index_01_r": 6.020797289396148,
+      "index_02_r": 5.0,
+      "index_03_r": 4.0,
+      "middle_01_r": 6.08276253029822,
+      "middle_02_r": 5.0,
+      "middle_03_r": 4.0,
+      "ring_01_r": 6.500000000000001,
+      "ring_02_r": 5.0,
+      "ring_03_r": 4.0,
+      "pinky_01_r": 7.211102550927981,
+      "pinky_02_r": 5.0,
+      "pinky_03_r": 4.0
+    },
+    "unit_scale": true,
+    "landmark_coordinates": [
+      [
+        "pelvis",
+        "root",
+        [
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      [
+        "spine_01",
+        "pelvis",
+        [
+          0.0,
+          0.0,
+          112.0
+        ]
+      ],
+      [
+        "spine_02",
+        "spine_01",
+        [
+          0.0,
+          0.0,
+          125.0
+        ]
+      ],
+      [
+        "spine_03",
+        "spine_02",
+        [
+          0.0,
+          0.0,
+          138.0
+        ]
+      ],
+      [
+        "neck_01",
+        "spine_03",
+        [
+          0.0,
+          0.0,
+          150.0
+        ]
+      ],
+      [
+        "head",
+        "neck_01",
+        [
+          0.0,
+          0.0,
+          161.0
+        ]
+      ],
+      [
+        "clavicle_l",
+        "spine_03",
+        [
+          9.0,
+          0.0,
+          141.0
+        ]
+      ],
+      [
+        "upperarm_l",
+        "clavicle_l",
+        [
+          18.0,
+          0.0,
+          139.0
+        ]
+      ],
+      [
+        "lowerarm_l",
+        "upperarm_l",
+        [
+          25.0,
+          0.0,
+          121.0
+        ]
+      ],
+      [
+        "hand_l",
+        "lowerarm_l",
+        [
+          31.0,
+          0.0,
+          102.0
+        ]
+      ],
+      [
+        "thigh_l",
+        "pelvis",
+        [
+          11.0,
+          0.0,
+          97.0
+        ]
+      ],
+      [
+        "calf_l",
+        "thigh_l",
+        [
+          16.0,
+          1.0,
+          55.0
+        ]
+      ],
+      [
+        "foot_l",
+        "calf_l",
+        [
+          18.0,
+          0.0,
+          12.0
+        ]
+      ],
+      [
+        "ball_l",
+        "foot_l",
+        [
+          18.0,
+          10.0,
+          4.0
+        ]
+      ],
+      [
+        "thumb_01_l",
+        "hand_l",
+        [
+          29.0,
+          -2.0,
+          96.0
+        ]
+      ],
+      [
+        "thumb_02_l",
+        "thumb_01_l",
+        [
+          29.0,
+          -2.0,
+          91.0
+        ]
+      ],
+      [
+        "thumb_03_l",
+        "thumb_02_l",
+        [
+          29.0,
+          -2.0,
+          87.0
+        ]
+      ],
+      [
+        "index_01_l",
+        "hand_l",
+        [
+          30.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "index_02_l",
+        "index_01_l",
+        [
+          30.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "index_03_l",
+        "index_02_l",
+        [
+          30.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "middle_01_l",
+        "hand_l",
+        [
+          32.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "middle_02_l",
+        "middle_01_l",
+        [
+          32.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "middle_03_l",
+        "middle_02_l",
+        [
+          32.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "ring_01_l",
+        "hand_l",
+        [
+          33.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "ring_02_l",
+        "ring_01_l",
+        [
+          33.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "ring_03_l",
+        "ring_02_l",
+        [
+          33.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "pinky_01_l",
+        "hand_l",
+        [
+          35.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "pinky_02_l",
+        "pinky_01_l",
+        [
+          35.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "pinky_03_l",
+        "pinky_02_l",
+        [
+          35.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "clavicle_r",
+        "spine_03",
+        [
+          -9.0,
+          0.0,
+          141.0
+        ]
+      ],
+      [
+        "upperarm_r",
+        "clavicle_r",
+        [
+          -18.0,
+          0.0,
+          139.0
+        ]
+      ],
+      [
+        "lowerarm_r",
+        "upperarm_r",
+        [
+          -25.0,
+          0.0,
+          121.0
+        ]
+      ],
+      [
+        "hand_r",
+        "lowerarm_r",
+        [
+          -31.0,
+          0.0,
+          102.0
+        ]
+      ],
+      [
+        "thigh_r",
+        "pelvis",
+        [
+          -11.0,
+          0.0,
+          97.0
+        ]
+      ],
+      [
+        "calf_r",
+        "thigh_r",
+        [
+          -16.0,
+          1.0,
+          55.0
+        ]
+      ],
+      [
+        "foot_r",
+        "calf_r",
+        [
+          -18.0,
+          0.0,
+          12.0
+        ]
+      ],
+      [
+        "ball_r",
+        "foot_r",
+        [
+          -18.0,
+          10.0,
+          4.0
+        ]
+      ],
+      [
+        "thumb_01_r",
+        "hand_r",
+        [
+          -29.0,
+          -2.0,
+          96.0
+        ]
+      ],
+      [
+        "thumb_02_r",
+        "thumb_01_r",
+        [
+          -29.0,
+          -2.0,
+          91.0
+        ]
+      ],
+      [
+        "thumb_03_r",
+        "thumb_02_r",
+        [
+          -29.0,
+          -2.0,
+          87.0
+        ]
+      ],
+      [
+        "index_01_r",
+        "hand_r",
+        [
+          -30.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "index_02_r",
+        "index_01_r",
+        [
+          -30.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "index_03_r",
+        "index_02_r",
+        [
+          -30.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "middle_01_r",
+        "hand_r",
+        [
+          -32.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "middle_02_r",
+        "middle_01_r",
+        [
+          -32.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "middle_03_r",
+        "middle_02_r",
+        [
+          -32.0,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "ring_01_r",
+        "hand_r",
+        [
+          -33.5,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "ring_02_r",
+        "ring_01_r",
+        [
+          -33.5,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "ring_03_r",
+        "ring_02_r",
+        [
+          -33.5,
+          0.0,
+          87.0
+        ]
+      ],
+      [
+        "pinky_01_r",
+        "hand_r",
+        [
+          -35.0,
+          0.0,
+          96.0
+        ]
+      ],
+      [
+        "pinky_02_r",
+        "pinky_01_r",
+        [
+          -35.0,
+          0.0,
+          91.0
+        ]
+      ],
+      [
+        "pinky_03_r",
+        "pinky_02_r",
+        [
+          -35.0,
+          0.0,
+          87.0
+        ]
+      ]
+    ],
+    "accepted_humanoid": false,
+    "reason": "Semantic authoring and downstream bake pass; manual approximate fingers, deformation screening flags and mixed floor contact prevent production acceptance."
+  }
+]

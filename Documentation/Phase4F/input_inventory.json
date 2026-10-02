@@ -1,0 +1,893 @@
+[
+  {
+    "character": "Lara",
+    "archive": "Characters/Lara_UnRigged_Textured.zip",
+    "sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+    "bytes": 5739330,
+    "entries": [
+      {
+        "name": "Lara_UnRigged_Textured.fbx",
+        "bytes": 1759072,
+        "compressed_bytes": 1711922,
+        "crc32": 1261093116,
+        "sha256": "d73f4bbb1e0701deedf1ab002d7b35c1328c73740f0ac7db70b1b6408fb504ab"
+      },
+      {
+        "name": "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg",
+        "bytes": 4026618,
+        "compressed_bytes": 4026992,
+        "crc32": 723579702,
+        "sha256": "e54248a0d64cc4e4b40ade553e679f2b6919b87e79dbdb66adcf73e253a6b585"
+      }
+    ],
+    "fbx": [
+      {
+        "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Inputs\\Lara\\Lara_UnRigged_Textured.fbx",
+        "version": 7400,
+        "global_settings": {
+          "UpAxis": [
+            1
+          ],
+          "UpAxisSign": [
+            1
+          ],
+          "FrontAxis": [
+            2
+          ],
+          "FrontAxisSign": [
+            1
+          ],
+          "CoordAxis": [
+            0
+          ],
+          "CoordAxisSign": [
+            1
+          ],
+          "OriginalUpAxis": [
+            -1
+          ],
+          "OriginalUpAxisSign": [
+            1
+          ],
+          "UnitScaleFactor": [
+            100.0
+          ],
+          "OriginalUnitScaleFactor": [
+            100.0
+          ],
+          "AmbientColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "DefaultCamera": [
+            "Producer Perspective"
+          ],
+          "TimeMode": [
+            11
+          ],
+          "TimeProtocol": [
+            2
+          ],
+          "SnapOnFrameMode": [
+            0
+          ],
+          "TimeSpanStart": [
+            0
+          ],
+          "TimeSpanStop": [
+            46186158000
+          ],
+          "CustomFrameRate": [
+            24.0
+          ],
+          "TimeMarker": [],
+          "CurrentTimeMarker": [
+            -1
+          ]
+        },
+        "object_counts": {
+          "Geometry": 1,
+          "Material": 1,
+          "Video": 1,
+          "Texture": 1,
+          "Model": 1
+        },
+        "models": [
+          {
+            "id": 1000005,
+            "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+            "kind": "Mesh",
+            "properties": {
+              "RotationActive": [
+                1
+              ],
+              "DefaultAttributeIndex": [
+                0
+              ],
+              "InheritType": [
+                1
+              ],
+              "UserProperties": [
+                ""
+              ],
+              "IsNull": [
+                0
+              ]
+            }
+          }
+        ],
+        "geometries": [
+          {
+            "id": 1000001,
+            "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+            "kind": "Mesh",
+            "control_points": 27725,
+            "polygon_count": 28636,
+            "polygon_vertices": 106780,
+            "raw_local_bounds": {
+              "min": [
+                -0.199951171875,
+                0.0,
+                -0.10424807667732239
+              ],
+              "max": [
+                0.199951171875,
+                0.99951171875,
+                0.10424807667732239
+              ]
+            },
+            "layers": [
+              "LayerElementNormal",
+              "LayerElementUV",
+              "LayerElementMaterial"
+            ],
+            "uv_layers": [
+              {
+                "name": "LayerElementUV",
+                "uv_pairs": 56329
+              }
+            ]
+          }
+        ],
+        "deformers": [],
+        "materials": [
+          {
+            "id": 1000002,
+            "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+            "kind": "",
+            "properties": {
+              "AmbientColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "DiffuseColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "TransparentColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "TransparencyFactor": [
+                1.0
+              ],
+              "ReflectionColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "ReflectionFactor": [
+                0.0
+              ],
+              "SpecularColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "ShininessFactor": [
+                0.25
+              ],
+              "ShininessExponent": [
+                25.0
+              ],
+              "Emissive": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Ambient": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Diffuse": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "Opacity": [
+                1.0
+              ],
+              "Specular": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Shininess": [
+                25.0
+              ],
+              "Reflectivity": [
+                0.0
+              ]
+            },
+            "fields": {}
+          }
+        ],
+        "textures": [
+          {
+            "id": 1000004,
+            "name": "base_color_texture",
+            "kind": "",
+            "properties": {
+              "Translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scaling": [
+                1.0,
+                1.0,
+                0.0
+              ],
+              "CurrentTextureBlendMode": [
+                0
+              ],
+              "UseMaterial": [
+                1
+              ]
+            },
+            "fields": {
+              "FileName": [
+                "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg"
+              ],
+              "RelativeFilename": [
+                "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg"
+              ]
+            }
+          }
+        ],
+        "connections": [
+          [
+            "OP",
+            1000004,
+            1000002,
+            "DiffuseColor"
+          ],
+          [
+            "OO",
+            1000003,
+            1000004
+          ],
+          [
+            "OO",
+            1000005,
+            0
+          ],
+          [
+            "OO",
+            1000001,
+            1000005
+          ],
+          [
+            "OO",
+            1000002,
+            1000005
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Bill",
+    "archive": "Characters/Bill_Textured_Unrigged.zip",
+    "sha256": "2c3ffb40e26e956dcf3be0aa13df1515a2d8c3e206b588582e5108b2a6e1c505",
+    "bytes": 4435634,
+    "entries": [
+      {
+        "name": "Bill_Textured_Unrigged.fbx",
+        "bytes": 1542016,
+        "compressed_bytes": 1503575,
+        "crc32": 1831443959,
+        "sha256": "4c3ba8e1d2af14f40e59d6911205c9eb553bcdb6116d1eaab1747d5de4369527"
+      },
+      {
+        "name": "Bill_Textured_Unrigged.fbm/Bill_Textured_Unrigged_basecolor.jpg",
+        "bytes": 2931817,
+        "compressed_bytes": 2931643,
+        "crc32": 3972614041,
+        "sha256": "a56b93b7ffb4c76da5fdac0159e237b6c48b3e57f43bccaea5363df17476fd03"
+      }
+    ],
+    "fbx": [
+      {
+        "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Inputs\\Bill\\Bill_Textured_Unrigged.fbx",
+        "version": 7400,
+        "global_settings": {
+          "UpAxis": [
+            1
+          ],
+          "UpAxisSign": [
+            1
+          ],
+          "FrontAxis": [
+            2
+          ],
+          "FrontAxisSign": [
+            1
+          ],
+          "CoordAxis": [
+            0
+          ],
+          "CoordAxisSign": [
+            1
+          ],
+          "OriginalUpAxis": [
+            -1
+          ],
+          "OriginalUpAxisSign": [
+            1
+          ],
+          "UnitScaleFactor": [
+            100.0
+          ],
+          "OriginalUnitScaleFactor": [
+            100.0
+          ],
+          "AmbientColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "DefaultCamera": [
+            "Producer Perspective"
+          ],
+          "TimeMode": [
+            11
+          ],
+          "TimeProtocol": [
+            2
+          ],
+          "SnapOnFrameMode": [
+            0
+          ],
+          "TimeSpanStart": [
+            0
+          ],
+          "TimeSpanStop": [
+            46186158000
+          ],
+          "CustomFrameRate": [
+            24.0
+          ],
+          "TimeMarker": [],
+          "CurrentTimeMarker": [
+            -1
+          ]
+        },
+        "object_counts": {
+          "Geometry": 1,
+          "Material": 1,
+          "Video": 1,
+          "Texture": 1,
+          "Model": 1
+        },
+        "models": [
+          {
+            "id": 1000005,
+            "name": "tripo_3461b97c_284e_4ba6_b611_03960a23ee7c",
+            "kind": "Mesh",
+            "properties": {
+              "RotationActive": [
+                1
+              ],
+              "DefaultAttributeIndex": [
+                0
+              ],
+              "InheritType": [
+                1
+              ],
+              "UserProperties": [
+                ""
+              ],
+              "IsNull": [
+                0
+              ]
+            }
+          }
+        ],
+        "geometries": [
+          {
+            "id": 1000001,
+            "name": "tripo_3461b97c_284e_4ba6_b611_03960a23ee7c",
+            "kind": "Mesh",
+            "control_points": 25728,
+            "polygon_count": 26505,
+            "polygon_vertices": 102384,
+            "raw_local_bounds": {
+              "min": [
+                -0.499755859375,
+                0.0,
+                -0.0920410305261612
+              ],
+              "max": [
+                0.499755859375,
+                0.99560546875,
+                0.0920410305261612
+              ]
+            },
+            "layers": [
+              "LayerElementNormal",
+              "LayerElementUV",
+              "LayerElementMaterial"
+            ],
+            "uv_layers": [
+              {
+                "name": "LayerElementUV",
+                "uv_pairs": 44513
+              }
+            ]
+          }
+        ],
+        "deformers": [],
+        "materials": [
+          {
+            "id": 1000002,
+            "name": "tripo_3461b97c_284e_4ba6_b611_03960a23ee7c",
+            "kind": "",
+            "properties": {
+              "AmbientColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "DiffuseColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "TransparentColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "TransparencyFactor": [
+                1.0
+              ],
+              "ReflectionColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "ReflectionFactor": [
+                0.0
+              ],
+              "SpecularColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "ShininessFactor": [
+                0.25
+              ],
+              "ShininessExponent": [
+                25.0
+              ],
+              "Emissive": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Ambient": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Diffuse": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "Opacity": [
+                1.0
+              ],
+              "Specular": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Shininess": [
+                25.0
+              ],
+              "Reflectivity": [
+                0.0
+              ]
+            },
+            "fields": {}
+          }
+        ],
+        "textures": [
+          {
+            "id": 1000004,
+            "name": "base_color_texture",
+            "kind": "",
+            "properties": {
+              "Translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scaling": [
+                1.0,
+                1.0,
+                0.0
+              ],
+              "CurrentTextureBlendMode": [
+                0
+              ],
+              "UseMaterial": [
+                1
+              ]
+            },
+            "fields": {
+              "FileName": [
+                "Bill_Textured_Unrigged.fbm/Bill_Textured_Unrigged_basecolor.jpg"
+              ],
+              "RelativeFilename": [
+                "Bill_Textured_Unrigged.fbm/Bill_Textured_Unrigged_basecolor.jpg"
+              ]
+            }
+          }
+        ],
+        "connections": [
+          [
+            "OP",
+            1000004,
+            1000002,
+            "DiffuseColor"
+          ],
+          [
+            "OO",
+            1000003,
+            1000004
+          ],
+          [
+            "OO",
+            1000005,
+            0
+          ],
+          [
+            "OO",
+            1000001,
+            1000005
+          ],
+          [
+            "OO",
+            1000002,
+            1000005
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Jill",
+    "archive": "Characters/Jill_Textured_Unrigged.zip",
+    "sha256": "d46df5d1925b75515634f168128feff1c0bf0deb63cfd20d41d7b544367f1a93",
+    "bytes": 4279810,
+    "entries": [
+      {
+        "name": "Jill_Textured_Unrigged.fbx",
+        "bytes": 1619616,
+        "compressed_bytes": 1579423,
+        "crc32": 2102071462,
+        "sha256": "3438a15d46f37bf61d0563e5f25302b5905c9a7ecbb34a2878f04e7ad555cee8"
+      },
+      {
+        "name": "Jill_Textured_Unrigged.fbm/Jill_Textured_Unrigged_basecolor.jpg",
+        "bytes": 2700106,
+        "compressed_bytes": 2699971,
+        "crc32": 2741569975,
+        "sha256": "76c8e697baa901b1b10c79f3e75685b06e8b0404a5998e29a9cb8e16dca3654b"
+      }
+    ],
+    "fbx": [
+      {
+        "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Inputs\\Jill\\Jill_Textured_Unrigged.fbx",
+        "version": 7400,
+        "global_settings": {
+          "UpAxis": [
+            1
+          ],
+          "UpAxisSign": [
+            1
+          ],
+          "FrontAxis": [
+            2
+          ],
+          "FrontAxisSign": [
+            1
+          ],
+          "CoordAxis": [
+            0
+          ],
+          "CoordAxisSign": [
+            1
+          ],
+          "OriginalUpAxis": [
+            -1
+          ],
+          "OriginalUpAxisSign": [
+            1
+          ],
+          "UnitScaleFactor": [
+            100.0
+          ],
+          "OriginalUnitScaleFactor": [
+            100.0
+          ],
+          "AmbientColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "DefaultCamera": [
+            "Producer Perspective"
+          ],
+          "TimeMode": [
+            11
+          ],
+          "TimeProtocol": [
+            2
+          ],
+          "SnapOnFrameMode": [
+            0
+          ],
+          "TimeSpanStart": [
+            0
+          ],
+          "TimeSpanStop": [
+            46186158000
+          ],
+          "CustomFrameRate": [
+            24.0
+          ],
+          "TimeMarker": [],
+          "CurrentTimeMarker": [
+            -1
+          ]
+        },
+        "object_counts": {
+          "Geometry": 1,
+          "Material": 1,
+          "Video": 1,
+          "Texture": 1,
+          "Model": 1
+        },
+        "models": [
+          {
+            "id": 1000005,
+            "name": "tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+            "kind": "Mesh",
+            "properties": {
+              "RotationActive": [
+                1
+              ],
+              "DefaultAttributeIndex": [
+                0
+              ],
+              "InheritType": [
+                1
+              ],
+              "UserProperties": [
+                ""
+              ],
+              "IsNull": [
+                0
+              ]
+            }
+          }
+        ],
+        "geometries": [
+          {
+            "id": 1000001,
+            "name": "tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+            "kind": "Mesh",
+            "control_points": 27014,
+            "polygon_count": 29132,
+            "polygon_vertices": 110656,
+            "raw_local_bounds": {
+              "min": [
+                -0.493408203125,
+                0.0,
+                -0.0744628757238388
+              ],
+              "max": [
+                0.493408203125,
+                0.99951171875,
+                0.0744628757238388
+              ]
+            },
+            "layers": [
+              "LayerElementNormal",
+              "LayerElementUV",
+              "LayerElementMaterial"
+            ],
+            "uv_layers": [
+              {
+                "name": "LayerElementUV",
+                "uv_pairs": 46377
+              }
+            ]
+          }
+        ],
+        "deformers": [],
+        "materials": [
+          {
+            "id": 1000002,
+            "name": "tripo_941820f7_43fd_4df6_b675_72fc70214f51",
+            "kind": "",
+            "properties": {
+              "AmbientColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "DiffuseColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "TransparentColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "TransparencyFactor": [
+                1.0
+              ],
+              "ReflectionColor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "ReflectionFactor": [
+                0.0
+              ],
+              "SpecularColor": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "ShininessFactor": [
+                0.25
+              ],
+              "ShininessExponent": [
+                25.0
+              ],
+              "Emissive": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Ambient": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Diffuse": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "Opacity": [
+                1.0
+              ],
+              "Specular": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Shininess": [
+                25.0
+              ],
+              "Reflectivity": [
+                0.0
+              ]
+            },
+            "fields": {}
+          }
+        ],
+        "textures": [
+          {
+            "id": 1000004,
+            "name": "base_color_texture",
+            "kind": "",
+            "properties": {
+              "Translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scaling": [
+                1.0,
+                1.0,
+                0.0
+              ],
+              "CurrentTextureBlendMode": [
+                0
+              ],
+              "UseMaterial": [
+                1
+              ]
+            },
+            "fields": {
+              "FileName": [
+                "Jill_Textured_Unrigged.fbm/Jill_Textured_Unrigged_basecolor.jpg"
+              ],
+              "RelativeFilename": [
+                "Jill_Textured_Unrigged.fbm/Jill_Textured_Unrigged_basecolor.jpg"
+              ]
+            }
+          }
+        ],
+        "connections": [
+          [
+            "OP",
+            1000004,
+            1000002,
+            "DiffuseColor"
+          ],
+          [
+            "OO",
+            1000003,
+            1000004
+          ],
+          [
+            "OO",
+            1000005,
+            0
+          ],
+          [
+            "OO",
+            1000001,
+            1000005
+          ],
+          [
+            "OO",
+            1000002,
+            1000005
+          ]
+        ]
+      }
+    ]
+  }
+]

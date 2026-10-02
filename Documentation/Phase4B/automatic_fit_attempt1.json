@@ -1,0 +1,3546 @@
+{
+  "method": "Fixed semantic hierarchy + actual target cross-sections, limb curves, split-line bends and width features; no Phase4A manual data",
+  "input_geometry_sha256": "15a47c6977dd30d0b5f0c24d26f34d68203f99efd73d5e32a854dc9ca9f89b57",
+  "height_cm": 180.0,
+  "joints": [
+    {
+      "role": "root",
+      "parent_role": null,
+      "position_cm": [
+        0,
+        0,
+        0
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "method": "ground frame origin",
+          "points": 100
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.9999999999999999,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 1,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "automatically_accepted",
+      "manual_correction": null
+    },
+    {
+      "role": "pelvis",
+      "parent_role": "root",
+      "position_cm": [
+        0.0,
+        4.668354559250324,
+        102.5
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 102.5,
+          "region": "torso",
+          "side": 0,
+          "points": 160,
+          "bounds_cm": [
+            [
+              -15.857141818789165,
+              -7.018002406887787,
+              102.5
+            ],
+            [
+              13.705271018581083,
+              16.354711525388435,
+              102.5
+            ]
+          ],
+          "width_cm": 29.562412837370246,
+          "depth_cm": 23.37271393227622,
+          "closed_contour_fraction": 0.5
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.7959999999999999,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.66,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "internal_pelvis_articulation_not_visible"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "spine_01",
+      "parent_role": "pelvis",
+      "position_cm": [
+        0.0,
+        5.643377078601901,
+        112.025
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 112.025,
+          "region": "torso",
+          "side": 0,
+          "points": 69,
+          "bounds_cm": [
+            [
+              -11.676400862208691,
+              -2.7370641917376997,
+              112.025
+            ],
+            [
+              10.81086579295705,
+              14.023818348941502,
+              112.025
+            ]
+          ],
+          "width_cm": 22.48726665516574,
+          "depth_cm": 16.7608825406792,
+          "closed_contour_fraction": 1.0
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.834,
+      "confidence_components": {
+        "surface_support": 0.7666666666666667,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "automatically_accepted",
+      "manual_correction": null
+    },
+    {
+      "role": "spine_02",
+      "parent_role": "spine_01",
+      "position_cm": [
+        0.0,
+        4.5033423966053485,
+        121.55
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 121.55,
+          "region": "torso",
+          "side": 0,
+          "points": 73,
+          "bounds_cm": [
+            [
+              -12.71843142900813,
+              -5.678353491577274,
+              121.55
+            ],
+            [
+              11.754631071037853,
+              14.685038284787971,
+              121.55
+            ]
+          ],
+          "width_cm": 24.473062500045984,
+          "depth_cm": 20.363391776365248,
+          "closed_contour_fraction": 0.6
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.8473333333333333,
+      "confidence_components": {
+        "surface_support": 0.8111111111111111,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "automatically_accepted",
+      "manual_correction": null
+    },
+    {
+      "role": "spine_03",
+      "parent_role": "spine_02",
+      "position_cm": [
+        0.0,
+        3.6526482323356184,
+        131.075
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 131.075,
+          "region": "torso",
+          "side": 0,
+          "points": 139,
+          "bounds_cm": [
+            [
+              -14.192553812859352,
+              -8.991838886742421,
+              131.075
+            ],
+            [
+              12.904057491363975,
+              16.297135351413658,
+              131.075
+            ]
+          ],
+          "width_cm": 27.096611304223327,
+          "depth_cm": 25.28897423815608,
+          "closed_contour_fraction": 1.0
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.904,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "automatically_accepted",
+      "manual_correction": null
+    },
+    {
+      "role": "neck_01",
+      "parent_role": "spine_03",
+      "position_cm": [
+        0.0,
+        1.05814863583353,
+        150.6
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 150.6,
+          "region": "torso",
+          "side": 0,
+          "points": 35,
+          "bounds_cm": [
+            [
+              -5.392155106482593,
+              -4.179594547273849,
+              150.6
+            ],
+            [
+              4.212109293408885,
+              6.295891818940909,
+              150.6
+            ]
+          ],
+          "width_cm": 9.604264399891477,
+          "depth_cm": 10.475486366214758,
+          "closed_contour_fraction": 0.09090909090909091
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.6786666666666666,
+      "confidence_components": {
+        "surface_support": 0.3888888888888889,
+        "role_specificity": 0.77,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "hair_and_neck_surface_overlap"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "head",
+      "parent_role": "neck_01",
+      "position_cm": [
+        0.0,
+        -0.7696200455691171,
+        165.3
+      ],
+      "side": "centre",
+      "evidence_sources": [
+        {
+          "section_z_cm": 165.3,
+          "region": "torso",
+          "side": 0,
+          "points": 105,
+          "bounds_cm": [
+            [
+              -9.5074261707374,
+              -8.404347475127953,
+              165.3
+            ],
+            [
+              8.447759659573341,
+              6.865107383989718,
+              165.3
+            ]
+          ],
+          "width_cm": 17.95518583031074,
+          "depth_cm": 15.26945485911767,
+          "closed_contour_fraction": 0.0625
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.904,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "automatically_accepted",
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_l",
+      "parent_role": "spine_03",
+      "position_cm": [
+        8.404224940594537,
+        -4.140675061434475,
+        141.6
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "method": "upper torso to fitted shoulder branch",
+          "points": 43
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.6513333333333333,
+      "confidence_components": {
+        "surface_support": 0.4777777777777778,
+        "role_specificity": 0.68,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "shoulder_girdle_internal_landmark"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_l",
+      "parent_role": "clavicle_l",
+      "position_cm": [
+        17.50880195957195,
+        -4.140675061434475,
+        140.6
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "method": "upper-arm section extrapolation and shoulder volume projection",
+          "points": 43,
+          "bounds_cm": [
+            [
+              9.948970009625793,
+              -8.56460536540911,
+              140.6
+            ],
+            [
+              18.50880195957195,
+              6.272432811116908,
+              140.6
+            ]
+          ]
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.6513333333333333,
+      "confidence_components": {
+        "surface_support": 0.4777777777777778,
+        "role_specificity": 0.68,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "hair_clothing_obscures_shoulder_articulation"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_l",
+      "parent_role": "upperarm_l",
+      "position_cm": [
+        21.752416883489467,
+        -0.38211665140533646,
+        120.8
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "section_z_cm": 120.8,
+          "region": "arm",
+          "side": 1,
+          "points": 29,
+          "bounds_cm": [
+            [
+              17.96226674760313,
+              -4.278253040659507,
+              120.8
+            ],
+            [
+              25.542567019375802,
+              3.5140197378488343,
+              120.8
+            ]
+          ],
+          "width_cm": 7.580300271772671,
+          "depth_cm": 7.792272778508341,
+          "closed_contour_fraction": 0.6
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.6106666666666666,
+      "confidence_components": {
+        "surface_support": 0.32222222222222224,
+        "role_specificity": 0.69,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "piecewise_bend_may_follow_surface_not_elbow"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            21.752416883489467,
+            -0.38211665140533646,
+            120.8
+          ],
+          "residual_cm2": 23.57332008119384,
+          "bend_deg": 13.122497399777707,
+          "evidence": {
+            "section_z_cm": 120.8,
+            "region": "arm",
+            "side": 1,
+            "points": 29,
+            "bounds_cm": [
+              [
+                17.96226674760313,
+                -4.278253040659507,
+                120.8
+              ],
+              [
+                25.542567019375802,
+                3.5140197378488343,
+                120.8
+              ]
+            ],
+            "width_cm": 7.580300271772671,
+            "depth_cm": 7.792272778508341,
+            "closed_contour_fraction": 0.6
+          }
+        },
+        {
+          "position_cm": [
+            21.177827599784735,
+            -0.4283965465780575,
+            121.8
+          ],
+          "residual_cm2": 23.781089024305125,
+          "bend_deg": 15.851490469863169,
+          "evidence": {
+            "section_z_cm": 121.8,
+            "region": "arm",
+            "side": 1,
+            "points": 31,
+            "bounds_cm": [
+              [
+                17.365413480008833,
+                -4.468359850926939,
+                121.8
+              ],
+              [
+                24.99024171956064,
+                3.611566757770824,
+                121.8
+              ]
+            ],
+            "width_cm": 7.624828239551807,
+            "depth_cm": 8.079926608697763,
+            "closed_contour_fraction": 0.7777777777777778
+          }
+        },
+        {
+          "position_cm": [
+            22.352200798375414,
+            -0.477047219435325,
+            119.8
+          ],
+          "residual_cm2": 23.948861279965385,
+          "bend_deg": 11.622104112493648,
+          "evidence": {
+            "section_z_cm": 119.8,
+            "region": "arm",
+            "side": 1,
+            "points": 33,
+            "bounds_cm": [
+              [
+                18.55506579828693,
+                -4.166280691557005,
+                119.8
+              ],
+              [
+                26.149335798463902,
+                3.212186252686355,
+                119.8
+              ]
+            ],
+            "width_cm": 7.594270000176973,
+            "depth_cm": 7.37846694424336,
+            "closed_contour_fraction": 0.6666666666666666
+          }
+        },
+        {
+          "position_cm": [
+            20.601041723660778,
+            -0.49057871572678136,
+            122.8
+          ],
+          "residual_cm2": 24.498535561516825,
+          "bend_deg": 19.550269110379645,
+          "evidence": {
+            "section_z_cm": 122.8,
+            "region": "arm",
+            "side": 1,
+            "points": 27,
+            "bounds_cm": [
+              [
+                16.72363983749076,
+                -4.690271209146377,
+                122.8
+              ],
+              [
+                24.47844360983079,
+                3.709113777692814,
+                122.8
+              ]
+            ],
+            "width_cm": 7.754803772340029,
+            "depth_cm": 8.399384986839191,
+            "closed_contour_fraction": 0.5714285714285714
+          }
+        },
+        {
+          "position_cm": [
+            22.87064984483783,
+            -0.5213599356091523,
+            118.8
+          ],
+          "residual_cm2": 24.814475086131264,
+          "bend_deg": 11.282692608836586,
+          "evidence": {
+            "section_z_cm": 118.8,
+            "region": "arm",
+            "side": 1,
+            "points": 34,
+            "bounds_cm": [
+              [
+                19.0426143393691,
+                -4.067506119871408,
+                118.8
+              ],
+              [
+                26.69868535030656,
+                3.024786248653103,
+                118.8
+              ]
+            ],
+            "width_cm": 7.656071010937463,
+            "depth_cm": 7.092292368524511,
+            "closed_contour_fraction": 0.6666666666666666
+          }
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "hand_l",
+      "parent_role": "lowerarm_l",
+      "position_cm": [
+        29.372137718150107,
+        3.7728630596052213,
+        103.8
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "section_z_cm": 103.8,
+          "region": "arm",
+          "side": 1,
+          "points": 26,
+          "bounds_cm": [
+            [
+              26.837091642151098,
+              0.6879115122042949,
+              103.8
+            ],
+            [
+              31.907183794149113,
+              6.857814607006148,
+              103.8
+            ]
+          ],
+          "width_cm": 5.070092151998015,
+          "depth_cm": 6.169903094801853,
+          "closed_contour_fraction": 0.6666666666666666
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.7206666666666667,
+      "confidence_components": {
+        "surface_support": 0.28888888888888886,
+        "role_specificity": 0.89,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_l",
+      "parent_role": "pelvis",
+      "position_cm": [
+        7.850569586263973,
+        4.3182329710371095,
+        100.5
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "method": "upper thigh curve extrapolation into pelvis",
+          "points": 7,
+          "upper_thigh_z_cm": [
+            80.6,
+            81.6,
+            82.6,
+            83.6,
+            84.6,
+            85.6,
+            86.6
+          ]
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.5073333333333333,
+      "confidence_components": {
+        "surface_support": 0.07777777777777778,
+        "role_specificity": 0.64,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "internal_hip_articulation_extrapolated"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "calf_l",
+      "parent_role": "thigh_l",
+      "position_cm": [
+        13.033691484802318,
+        3.7534086748739783,
+        54.599999999999994
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "section_z_cm": 54.599999999999994,
+          "region": "leg",
+          "side": 1,
+          "points": 92,
+          "bounds_cm": [
+            [
+              7.11368735700256,
+              -4.086585014588966,
+              54.599999999999994
+            ],
+            [
+              18.953695612602075,
+              11.593402364336923,
+              54.599999999999994
+            ]
+          ],
+          "width_cm": 11.840008255599516,
+          "depth_cm": 15.679987378925889,
+          "closed_contour_fraction": 0.0
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.832,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.72,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "knee_pad_and_leg_bend_compete"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            13.033691484802318,
+            3.7534086748739783,
+            54.599999999999994
+          ],
+          "residual_cm2": 31.852080621771997,
+          "bend_deg": 6.445161445857713,
+          "evidence": {
+            "section_z_cm": 54.599999999999994,
+            "region": "leg",
+            "side": 1,
+            "points": 92,
+            "bounds_cm": [
+              [
+                7.11368735700256,
+                -4.086585014588966,
+                54.599999999999994
+              ],
+              [
+                18.953695612602075,
+                11.593402364336923,
+                54.599999999999994
+              ]
+            ],
+            "width_cm": 11.840008255599516,
+            "depth_cm": 15.679987378925889,
+            "closed_contour_fraction": 0.0
+          }
+        },
+        {
+          "position_cm": [
+            13.855657786453342,
+            1.917547031422587,
+            50.599999999999994
+          ],
+          "residual_cm2": 32.99808816805161,
+          "bend_deg": 1.0417095271793897,
+          "evidence": {
+            "section_z_cm": 50.599999999999994,
+            "region": "leg",
+            "side": 1,
+            "points": 73,
+            "bounds_cm": [
+              [
+                7.917501546379244,
+                -5.54876316926774,
+                50.599999999999994
+              ],
+              [
+                19.79381402652744,
+                9.383857232112915,
+                50.599999999999994
+              ]
+            ],
+            "width_cm": 11.876312480148195,
+            "depth_cm": 14.932620401380655,
+            "closed_contour_fraction": 0.5
+          }
+        },
+        {
+          "position_cm": [
+            14.169836469201158,
+            1.5088891785632654,
+            49.599999999999994
+          ],
+          "residual_cm2": 33.2061835656614,
+          "bend_deg": 1.103184137412803,
+          "evidence": {
+            "section_z_cm": 49.599999999999994,
+            "region": "leg",
+            "side": 1,
+            "points": 72,
+            "bounds_cm": [
+              [
+                8.19263964263501,
+                -5.719175552478049,
+                49.599999999999994
+              ],
+              [
+                20.147033295767308,
+                8.73695390960458,
+                49.599999999999994
+              ]
+            ],
+            "width_cm": 11.954393653132298,
+            "depth_cm": 14.456129462082629,
+            "closed_contour_fraction": 1.0
+          }
+        },
+        {
+          "position_cm": [
+            13.655004632733652,
+            2.408040413191435,
+            51.599999999999994
+          ],
+          "residual_cm2": 34.32695240352165,
+          "bend_deg": 2.4416246573285023,
+          "evidence": {
+            "section_z_cm": 51.599999999999994,
+            "region": "leg",
+            "side": 1,
+            "points": 89,
+            "bounds_cm": [
+              [
+                7.851733622546527,
+                -5.202987786453098,
+                51.599999999999994
+              ],
+              [
+                19.45827564292078,
+                10.019068612835968,
+                51.599999999999994
+              ]
+            ],
+            "width_cm": 11.606542020374253,
+            "depth_cm": 15.222056399289066,
+            "closed_contour_fraction": 0.0
+          }
+        },
+        {
+          "position_cm": [
+            14.560114251083,
+            0.6907229025249886,
+            48.599999999999994
+          ],
+          "residual_cm2": 36.53073910294903,
+          "bend_deg": 3.5720007096442496,
+          "evidence": {
+            "section_z_cm": 48.599999999999994,
+            "region": "leg",
+            "side": 1,
+            "points": 52,
+            "bounds_cm": [
+              [
+                8.607784869906371,
+                -6.0646449065090655,
+                48.599999999999994
+              ],
+              [
+                20.51244363225963,
+                7.446090711559043,
+                48.599999999999994
+              ]
+            ],
+            "width_cm": 11.904658762353257,
+            "depth_cm": 13.510735618068107,
+            "closed_contour_fraction": 0.75
+          }
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "foot_l",
+      "parent_role": "calf_l",
+      "position_cm": [
+        17.778102245041936,
+        -0.10834776708090033,
+        17.1
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "section_z_cm": 17.1,
+          "region": "leg",
+          "side": 1,
+          "points": 54,
+          "bounds_cm": [
+            [
+              13.789206024115945,
+              -5.138434357700879,
+              17.1
+            ],
+            [
+              21.76699846596793,
+              4.921738823539078,
+              17.1
+            ]
+          ],
+          "width_cm": 7.977792441851985,
+          "depth_cm": 10.060173181239957,
+          "closed_contour_fraction": 0.2857142857142857
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.7839999999999999,
+      "confidence_components": {
+        "surface_support": 0.6,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "ball_l",
+      "parent_role": "foot_l",
+      "position_cm": [
+        22.257466307456035,
+        11.44998382465528,
+        5.024988710482654
+      ],
+      "side": "left",
+      "evidence_sources": [
+        {
+          "method": "forefoot width maximum",
+          "points": 100,
+          "shoe_forward_cm": 19.807624703580146,
+          "shoe_heel_cm": -6.8152766353613785
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.7,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "shoe_hides_metatarsal_articulation"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            20.192311782712224,
+            4.843558408814136,
+            8.797172752932783
+          ],
+          "width_cm": 10.835589612132837,
+          "points": 162
+        },
+        {
+          "position_cm": [
+            17.680706141772255,
+            5.57760567724093,
+            8.762190174130234
+          ],
+          "width_cm": 11.01106852208605,
+          "points": 160
+        },
+        {
+          "position_cm": [
+            17.63654505851288,
+            6.311652945667723,
+            8.383622209388607
+          ],
+          "width_cm": 10.659278345000983,
+          "points": 141
+        },
+        {
+          "position_cm": [
+            18.51568188783647,
+            7.045700214094517,
+            8.343432941798286
+          ],
+          "width_cm": 11.187930703354052,
+          "points": 135
+        },
+        {
+          "position_cm": [
+            18.119306791349246,
+            7.77974748252131,
+            7.04676649520639
+          ],
+          "width_cm": 11.275366997031796,
+          "points": 124
+        },
+        {
+          "position_cm": [
+            18.16284570818667,
+            8.513794750948104,
+            6.087163940858839
+          ],
+          "width_cm": 11.188393138419796,
+          "points": 106
+        },
+        {
+          "position_cm": [
+            21.246797406968906,
+            9.247842019374898,
+            5.980840638123022
+          ],
+          "width_cm": 11.629399540425664,
+          "points": 95
+        },
+        {
+          "position_cm": [
+            20.584442860125662,
+            9.981889287801692,
+            5.946870542345888
+          ],
+          "width_cm": 11.629399540425664,
+          "points": 132
+        },
+        {
+          "position_cm": [
+            20.892631054181734,
+            10.715936556228485,
+            5.823592727413119
+          ],
+          "width_cm": 11.453245256562163,
+          "points": 119
+        },
+        {
+          "position_cm": [
+            22.257466307456035,
+            11.44998382465528,
+            5.024988710482654
+          ],
+          "width_cm": 11.630647657670101,
+          "points": 100
+        },
+        {
+          "position_cm": [
+            17.631726931728817,
+            12.184031093082073,
+            4.987073356928017
+          ],
+          "width_cm": 11.630647657670101,
+          "points": 115
+        },
+        {
+          "position_cm": [
+            17.32295015110642,
+            12.918078361508867,
+            4.9019766269722345
+          ],
+          "width_cm": 11.542568772780351,
+          "points": 92
+        },
+        {
+          "position_cm": [
+            17.36350907785299,
+            13.65212562993566,
+            4.400086977073815
+          ],
+          "width_cm": 11.452716210488976,
+          "points": 43
+        },
+        {
+          "position_cm": [
+            18.599745535341473,
+            14.386172898362455,
+            4.011913225019977
+          ],
+          "width_cm": 11.013486175342715,
+          "points": 27
+        },
+        {
+          "position_cm": [
+            24.852902670257038,
+            15.120220166789247,
+            4.1196940878457795
+          ],
+          "width_cm": 10.837903798133178,
+          "points": 23
+        },
+        {
+          "position_cm": [
+            24.235552477545447,
+            15.854267435216041,
+            4.228266745946941
+          ],
+          "width_cm": 9.514655828976139,
+          "points": 19
+        },
+        {
+          "position_cm": [
+            24.148476117587112,
+            16.588314703642837,
+            4.329864379549271
+          ],
+          "width_cm": 9.69244397559859,
+          "points": 32
+        },
+        {
+          "position_cm": [
+            22.739859323038832,
+            17.32236197206963,
+            4.4800131452064464
+          ],
+          "width_cm": 9.69244397559859,
+          "points": 29
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "clavicle_r",
+      "parent_role": "spine_03",
+      "position_cm": [
+        -9.000123675637083,
+        -2.164008019454613,
+        141.6
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "method": "upper torso to fitted shoulder branch",
+          "points": 63
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.718,
+      "confidence_components": {
+        "surface_support": 0.7,
+        "role_specificity": 0.68,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "shoulder_girdle_internal_landmark"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "upperarm_r",
+      "parent_role": "clavicle_r",
+      "position_cm": [
+        -18.750257657577258,
+        -2.164008019454613,
+        140.6
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "method": "upper-arm section extrapolation and shoulder volume projection",
+          "points": 63,
+          "bounds_cm": [
+            [
+              -19.750257657577258,
+              -8.855216748244827,
+              140.6
+            ],
+            [
+              -9.955940716010227,
+              7.113630204949426,
+              140.6
+            ]
+          ]
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.718,
+      "confidence_components": {
+        "surface_support": 0.7,
+        "role_specificity": 0.68,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "hair_clothing_obscures_shoulder_articulation"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "lowerarm_r",
+      "parent_role": "upperarm_r",
+      "position_cm": [
+        -21.204308653349685,
+        -0.6041951556096925,
+        122.8
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "section_z_cm": 122.8,
+          "region": "arm",
+          "side": -1,
+          "points": 29,
+          "bounds_cm": [
+            [
+              -24.988280602613845,
+              -4.79053393828313,
+              122.8
+            ],
+            [
+              -17.420336704085525,
+              3.5821436270637452,
+              122.8
+            ]
+          ],
+          "width_cm": 7.56794389852832,
+          "depth_cm": 8.372677565346876,
+          "closed_contour_fraction": 0.5714285714285714
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.6106666666666666,
+      "confidence_components": {
+        "surface_support": 0.32222222222222224,
+        "role_specificity": 0.69,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "piecewise_bend_may_follow_surface_not_elbow"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            -21.204308653349685,
+            -0.6041951556096925,
+            122.8
+          ],
+          "residual_cm2": 30.81957855954287,
+          "bend_deg": 27.332598221336728,
+          "evidence": {
+            "section_z_cm": 122.8,
+            "region": "arm",
+            "side": -1,
+            "points": 29,
+            "bounds_cm": [
+              [
+                -24.988280602613845,
+                -4.79053393828313,
+                122.8
+              ],
+              [
+                -17.420336704085525,
+                3.5821436270637452,
+                122.8
+              ]
+            ],
+            "width_cm": 7.56794389852832,
+            "depth_cm": 8.372677565346876,
+            "closed_contour_fraction": 0.5714285714285714
+          }
+        },
+        {
+          "position_cm": [
+            -21.69181806103541,
+            -0.5425720832745577,
+            121.8
+          ],
+          "residual_cm2": 31.24770445400538,
+          "bend_deg": 23.59813274602616,
+          "evidence": {
+            "section_z_cm": 121.8,
+            "region": "arm",
+            "side": -1,
+            "points": 29,
+            "bounds_cm": [
+              [
+                -25.416020555882653,
+                -4.569363563429647,
+                121.8
+              ],
+              [
+                -17.967615566188165,
+                3.4842193968805315,
+                121.8
+              ]
+            ],
+            "width_cm": 7.448404989694488,
+            "depth_cm": 8.053582960310179,
+            "closed_contour_fraction": 0.7777777777777778
+          }
+        },
+        {
+          "position_cm": [
+            -20.511806249503536,
+            -0.7472371997221718,
+            123.8
+          ],
+          "residual_cm2": 31.664025540397702,
+          "bend_deg": 34.15910065612641,
+          "evidence": {
+            "section_z_cm": 123.8,
+            "region": "arm",
+            "side": -1,
+            "points": 55,
+            "bounds_cm": [
+              [
+                -24.623326419548555,
+                -5.100068178921887,
+                123.8
+              ],
+              [
+                -16.400286079458517,
+                3.6055937794775437,
+                123.8
+              ]
+            ],
+            "width_cm": 8.223040340090037,
+            "depth_cm": 8.705661958399432,
+            "closed_contour_fraction": 0.875
+          }
+        },
+        {
+          "position_cm": [
+            -19.715645223615617,
+            -1.2945388351410902,
+            125.8
+          ],
+          "residual_cm2": 32.13069586361391,
+          "bend_deg": 47.776244114346184,
+          "evidence": {
+            "section_z_cm": 125.8,
+            "region": "arm",
+            "side": -1,
+            "points": 106,
+            "bounds_cm": [
+              [
+                -24.007830461234953,
+                -6.503919222798946,
+                125.8
+              ],
+              [
+                -15.42345998599628,
+                3.9148415525167657,
+                125.8
+              ]
+            ],
+            "width_cm": 8.584370475238673,
+            "depth_cm": 10.418760775315711,
+            "closed_contour_fraction": 0.75
+          }
+        },
+        {
+          "position_cm": [
+            -22.183266899747075,
+            -0.5064090906590124,
+            120.8
+          ],
+          "residual_cm2": 32.65274006606019,
+          "bend_deg": 20.764933173939756,
+          "evidence": {
+            "section_z_cm": 120.8,
+            "region": "arm",
+            "side": -1,
+            "points": 30,
+            "bounds_cm": [
+              [
+                -25.896204590417753,
+                -4.381873297055901,
+                120.8
+              ],
+              [
+                -18.4703292090764,
+                3.3690551157378765,
+                120.8
+              ]
+            ],
+            "width_cm": 7.425875381341353,
+            "depth_cm": 7.750928412793778,
+            "closed_contour_fraction": 0.6
+          }
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "hand_r",
+      "parent_role": "lowerarm_r",
+      "position_cm": [
+        -29.2418259149347,
+        3.7842477257184397,
+        103.8
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "section_z_cm": 103.8,
+          "region": "arm",
+          "side": -1,
+          "points": 28,
+          "bounds_cm": [
+            [
+              -31.789734245055957,
+              0.67540817325852,
+              103.8
+            ],
+            [
+              -26.69391758481344,
+              6.893087278178359,
+              103.8
+            ]
+          ],
+          "width_cm": 5.095816660242516,
+          "depth_cm": 6.2176791049198386,
+          "closed_contour_fraction": 0.6666666666666666
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.7273333333333334,
+      "confidence_components": {
+        "surface_support": 0.3111111111111111,
+        "role_specificity": 0.89,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "thigh_r",
+      "parent_role": "pelvis",
+      "position_cm": [
+        -8.128020802012191,
+        2.8436894375278223,
+        100.5
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "method": "upper thigh curve extrapolation into pelvis",
+          "points": 7,
+          "upper_thigh_z_cm": [
+            80.6,
+            81.6,
+            82.6,
+            83.6,
+            84.6,
+            85.6,
+            86.6
+          ]
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.5073333333333333,
+      "confidence_components": {
+        "surface_support": 0.07777777777777778,
+        "role_specificity": 0.64,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "internal_hip_articulation_extrapolated"
+      ],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "calf_r",
+      "parent_role": "thigh_r",
+      "position_cm": [
+        -14.004250254668632,
+        3.73779552773004,
+        54.599999999999994
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "section_z_cm": 54.599999999999994,
+          "region": "leg",
+          "side": -1,
+          "points": 97,
+          "bounds_cm": [
+            [
+              -19.86288474684304,
+              -4.1034703323170865,
+              54.599999999999994
+            ],
+            [
+              -8.145615762494224,
+              11.579061387777166,
+              54.599999999999994
+            ]
+          ],
+          "width_cm": 11.717268984348816,
+          "depth_cm": 15.682531720094254,
+          "closed_contour_fraction": 0.0
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.832,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.72,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "knee_pad_and_leg_bend_compete"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            -14.004250254668632,
+            3.73779552773004,
+            54.599999999999994
+          ],
+          "residual_cm2": 40.354669324315005,
+          "bend_deg": 7.3902997281778,
+          "evidence": {
+            "section_z_cm": 54.599999999999994,
+            "region": "leg",
+            "side": -1,
+            "points": 97,
+            "bounds_cm": [
+              [
+                -19.86288474684304,
+                -4.1034703323170865,
+                54.599999999999994
+              ],
+              [
+                -8.145615762494224,
+                11.579061387777166,
+                54.599999999999994
+              ]
+            ],
+            "width_cm": 11.717268984348816,
+            "depth_cm": 15.682531720094254,
+            "closed_contour_fraction": 0.0
+          }
+        },
+        {
+          "position_cm": [
+            -14.243900419991002,
+            2.887586296268573,
+            52.599999999999994
+          ],
+          "residual_cm2": 45.47677155360481,
+          "bend_deg": 4.850466649721045,
+          "evidence": {
+            "section_z_cm": 52.599999999999994,
+            "region": "leg",
+            "side": -1,
+            "points": 92,
+            "bounds_cm": [
+              [
+                -20.002410967442277,
+                -4.843066355789013,
+                52.599999999999994
+              ],
+              [
+                -8.485389872539727,
+                10.618238948326159,
+                52.599999999999994
+              ]
+            ],
+            "width_cm": 11.51702109490255,
+            "depth_cm": 15.461305304115172,
+            "closed_contour_fraction": 0.0
+          }
+        },
+        {
+          "position_cm": [
+            -13.945087285850903,
+            0.3036018615152454,
+            53.599999999999994
+          ],
+          "residual_cm2": 45.53274631794109,
+          "bend_deg": 4.41874286308405,
+          "evidence": {
+            "section_z_cm": 53.599999999999994,
+            "region": "leg",
+            "side": -1,
+            "points": 47,
+            "bounds_cm": [
+              [
+                -19.683473411648276,
+                -4.599750174728359,
+                53.599999999999994
+              ],
+              [
+                -8.20670116005353,
+                5.20695389775885,
+                53.599999999999994
+              ]
+            ],
+            "width_cm": 11.476772251594745,
+            "depth_cm": 9.806704072487209,
+            "closed_contour_fraction": 0.0
+          }
+        },
+        {
+          "position_cm": [
+            -13.719514389409014,
+            4.306916971112191,
+            55.599999999999994
+          ],
+          "residual_cm2": 49.2378083543081,
+          "bend_deg": 9.185866040366593,
+          "evidence": {
+            "section_z_cm": 55.599999999999994,
+            "region": "leg",
+            "side": -1,
+            "points": 86,
+            "bounds_cm": [
+              [
+                -19.636827110854693,
+                -3.340049815986903,
+                55.599999999999994
+              ],
+              [
+                -7.802201667963335,
+                11.953883758211285,
+                55.599999999999994
+              ]
+            ],
+            "width_cm": 11.834625442891358,
+            "depth_cm": 15.293933574198189,
+            "closed_contour_fraction": 0.5
+          }
+        },
+        {
+          "position_cm": [
+            -14.642561759605965,
+            -0.5593651214511799,
+            51.599999999999994
+          ],
+          "residual_cm2": 55.68052989665831,
+          "bend_deg": 7.184472739137278,
+          "evidence": {
+            "section_z_cm": 51.599999999999994,
+            "region": "leg",
+            "side": -1,
+            "points": 35,
+            "bounds_cm": [
+              [
+                -20.285448930494326,
+                -5.220676089739094,
+                51.599999999999994
+              ],
+              [
+                -8.999674588717605,
+                4.101945846836734,
+                51.599999999999994
+              ]
+            ],
+            "width_cm": 11.28577434177672,
+            "depth_cm": 9.322621936575828,
+            "closed_contour_fraction": 0.0
+          }
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "foot_r",
+      "parent_role": "calf_r",
+      "position_cm": [
+        -17.71380997601009,
+        -0.11988905079063938,
+        17.1
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "section_z_cm": 17.1,
+          "region": "leg",
+          "side": -1,
+          "points": 54,
+          "bounds_cm": [
+            [
+              -21.731250826585267,
+              -5.151642804010022,
+              17.1
+            ],
+            [
+              -13.696369125434911,
+              4.911864702428743,
+              17.1
+            ]
+          ],
+          "width_cm": 8.034881701150356,
+          "depth_cm": 10.063507506438764,
+          "closed_contour_fraction": 0.2857142857142857
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.7839999999999999,
+      "confidence_components": {
+        "surface_support": 0.6,
+        "role_specificity": 0.84,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [],
+      "competing_candidates": [],
+      "status": "ambiguous",
+      "manual_correction": null
+    },
+    {
+      "role": "ball_r",
+      "parent_role": "foot_r",
+      "position_cm": [
+        -20.784301025075003,
+        9.969286147502713,
+        6.008252049337481
+      ],
+      "side": "right",
+      "evidence_sources": [
+        {
+          "method": "forefoot width maximum",
+          "points": 131,
+          "shoe_forward_cm": 19.805540227596648,
+          "shoe_heel_cm": -6.817287642784876
+        },
+        "Canonical connected biped hierarchy; region/height search windows are priors, positions come from target sections"
+      ],
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "surface_support": 1.0,
+        "role_specificity": 0.7,
+        "hierarchy_prior": 1.0
+      },
+      "ambiguity_flags": [
+        "shoe_hides_metatarsal_articulation"
+      ],
+      "competing_candidates": [
+        {
+          "position_cm": [
+            -20.163125610473845,
+            4.831496006108523,
+            8.812588368615524
+          ],
+          "width_cm": 10.751973850143173,
+          "points": 161
+        },
+        {
+          "position_cm": [
+            -17.608456512638885,
+            5.565466026307693,
+            8.77885041639518
+          ],
+          "width_cm": 10.928944955919413,
+          "points": 159
+        },
+        {
+          "position_cm": [
+            -17.6087387913402,
+            6.299436046506862,
+            8.400450875560676
+          ],
+          "width_cm": 10.663947605477942,
+          "points": 144
+        },
+        {
+          "position_cm": [
+            -18.49156976170636,
+            7.033406066706033,
+            8.36029716904653
+          ],
+          "width_cm": 11.10453279050896,
+          "points": 133
+        },
+        {
+          "position_cm": [
+            -18.183503188796834,
+            7.767376086905203,
+            7.107650147131762
+          ],
+          "width_cm": 11.281434008628304,
+          "points": 124
+        },
+        {
+          "position_cm": [
+            -18.227503614522266,
+            8.501346107104371,
+            6.1045887351776145
+          ],
+          "width_cm": 11.19218285937558,
+          "points": 109
+        },
+        {
+          "position_cm": [
+            -21.223463065851746,
+            9.235316127303543,
+            6.039110580506667
+          ],
+          "width_cm": 11.632335076164672,
+          "points": 95
+        },
+        {
+          "position_cm": [
+            -20.784301025075003,
+            9.969286147502713,
+            6.008252049337481
+          ],
+          "width_cm": 11.63294412734853,
+          "points": 131
+        },
+        {
+          "position_cm": [
+            -20.828531995863173,
+            10.703256167701882,
+            5.840626364672318
+          ],
+          "width_cm": 11.544118268759755,
+          "points": 118
+        },
+        {
+          "position_cm": [
+            -22.195243845728715,
+            11.437226187901052,
+            5.039088581125485
+          ],
+          "width_cm": 11.632933212934764,
+          "points": 99
+        },
+        {
+          "position_cm": [
+            -17.525452599950285,
+            12.171196208100222,
+            5.00442703648346
+          ],
+          "width_cm": 11.543658811301501,
+          "points": 115
+        },
+        {
+          "position_cm": [
+            -17.305042897625192,
+            12.905166228299391,
+            4.919276972302715
+          ],
+          "width_cm": 11.456268903750654,
+          "points": 92
+        },
+        {
+          "position_cm": [
+            -17.349747655672346,
+            13.639136248498563,
+            4.414311296704663
+          ],
+          "width_cm": 11.368422306455829,
+          "points": 43
+        },
+        {
+          "position_cm": [
+            -18.58373112206608,
+            14.373106268697732,
+            4.027097686318274
+          ],
+          "width_cm": 11.014639806723215,
+          "points": 27
+        },
+        {
+          "position_cm": [
+            -24.842549545546024,
+            15.107076288896902,
+            4.138079045999902
+          ],
+          "width_cm": 10.8377721682033,
+          "points": 23
+        },
+        {
+          "position_cm": [
+            -24.2266096905093,
+            15.841046309096072,
+            4.244154047323702
+          ],
+          "width_cm": 9.429532515457094,
+          "points": 19
+        },
+        {
+          "position_cm": [
+            -24.047742380086998,
+            16.57501632929524,
+            4.345858364154559
+          ],
+          "width_cm": 9.692781622888983,
+          "points": 31
+        },
+        {
+          "position_cm": [
+            -21.889133904726677,
+            17.30898634949441,
+            4.495162045428567
+          ],
+          "width_cm": 9.5167217837948,
+          "points": 28
+        }
+      ],
+      "status": "ambiguous",
+      "manual_correction": null
+    }
+  ],
+  "features": {
+    "crotch_merge_z_cm": 89.0,
+    "waist_min_width": {
+      "section_z_cm": 116.0,
+      "region": "torso",
+      "side": 0,
+      "points": 72,
+      "bounds_cm": [
+        [
+          -11.229781520999278,
+          -3.694952994618424,
+          116.0
+        ],
+        [
+          10.303837916485117,
+          14.625969070499135,
+          116.0
+        ]
+      ],
+      "width_cm": 21.533619437484397,
+      "depth_cm": 18.320922065117557,
+      "closed_contour_fraction": 1.0
+    },
+    "pelvis_region_midpoint_z_cm": 102.5,
+    "fingers_l": {
+      "slice_branch_evidence": [
+        {
+          "z_cm": 75.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 76.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 77.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 78.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 79.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 80.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 81.6,
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "centre": [
+                33.30705736705705,
+                11.111863679594915,
+                81.6
+              ],
+              "min": [
+                32.748858701698644,
+                10.435900871129094,
+                81.6
+              ],
+              "max": [
+                33.86525603241545,
+                11.787826488060734,
+                81.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.63630281559969,
+                7.8694150440820545,
+                81.6
+              ],
+              "min": [
+                33.044496927655835,
+                7.064486561665872,
+                81.6
+              ],
+              "max": [
+                34.22810870354354,
+                8.674343526498237,
+                81.6
+              ],
+              "count": 16,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 82.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                33.25935586951759,
+                11.054132618085877,
+                82.6
+              ],
+              "min": [
+                32.64096508376013,
+                10.260979478440948,
+                82.6
+              ],
+              "max": [
+                33.87774665527506,
+                11.847285757730805,
+                82.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.64883045726183,
+                5.1000328386973734,
+                82.6
+              ],
+              "min": [
+                33.137413052584535,
+                4.395792950719008,
+                82.6
+              ],
+              "max": [
+                34.160247861939126,
+                5.804272726675738,
+                82.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.790922386901954,
+                7.9628807316978065,
+                82.6
+              ],
+              "min": [
+                33.080423610665456,
+                7.088340284496254,
+                82.6
+              ],
+              "max": [
+                34.50142116313846,
+                8.83742117889936,
+                82.6
+              ],
+              "count": 19,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "z_cm": 83.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                33.43496050981682,
+                11.074595877974406,
+                83.6
+              ],
+              "min": [
+                32.727168374435934,
+                10.235079414465005,
+                83.6
+              ],
+              "max": [
+                34.142752645197696,
+                11.914112341483806,
+                83.6
+              ],
+              "count": 19,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.79000619347465,
+                5.209416824477838,
+                83.6
+              ],
+              "min": [
+                33.1321965828522,
+                4.392839456720047,
+                83.6
+              ],
+              "max": [
+                34.447815804097104,
+                6.025994192235628,
+                83.6
+              ],
+              "count": 19,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.11317826004323,
+                8.059682852428592,
+                83.6
+              ],
+              "min": [
+                33.33587052669859,
+                7.163441198514943,
+                83.6
+              ],
+              "max": [
+                34.890485993387856,
+                8.955924506342242,
+                83.6
+              ],
+              "count": 16,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 84.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                33.43867525435006,
+                11.049353594694377,
+                84.6
+              ],
+              "min": [
+                32.65064124834663,
+                10.129563628710756,
+                84.6
+              ],
+              "max": [
+                34.226709260353495,
+                11.969143560677997,
+                84.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.14213288048523,
+                5.3466878524485475,
+                84.6
+              ],
+              "min": [
+                33.41083851283652,
+                4.488559626515439,
+                84.6
+              ],
+              "max": [
+                34.873427248133936,
+                6.204816078381656,
+                84.6
+              ],
+              "count": 22,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.171968409603366,
+                8.1535683852224,
+                84.6
+              ],
+              "min": [
+                33.2691674841388,
+                7.218376821131875,
+                84.6
+              ],
+              "max": [
+                35.07476933506793,
+                9.088759949312923,
+                84.6
+              ],
+              "count": 18,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 85.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                33.35386820062541,
+                2.7757216193510006,
+                85.6
+              ],
+              "min": [
+                32.824232231934516,
+                2.091265074954606,
+                85.6
+              ],
+              "max": [
+                33.88350416931631,
+                3.460178163747395,
+                85.6
+              ],
+              "count": 19,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.51604587205546,
+                11.03000817685188,
+                85.6
+              ],
+              "min": [
+                32.64220157707042,
+                10.030458920607645,
+                85.6
+              ],
+              "max": [
+                34.389890167040484,
+                12.029557433096112,
+                85.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.293494261426815,
+                5.48050673035986,
+                85.6
+              ],
+              "min": [
+                33.437561421809754,
+                4.544915379620762,
+                85.6
+              ],
+              "max": [
+                35.14942710104388,
+                6.416098081098958,
+                85.6
+              ],
+              "count": 23,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.369902272481404,
+                8.212332508178829,
+                85.6
+              ],
+              "min": [
+                33.39277253177367,
+                7.198751412489831,
+                85.6
+              ],
+              "max": [
+                35.347032013189136,
+                9.225913603867825,
+                85.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 86.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                33.45860138921491,
+                10.983766536591894,
+                86.6
+              ],
+              "min": [
+                32.52112966879788,
+                9.957946874146042,
+                86.6
+              ],
+              "max": [
+                34.39607310963194,
+                12.009586199037745,
+                86.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.86198030395962,
+                2.9057033704769917,
+                86.6
+              ],
+              "min": [
+                33.27425115989923,
+                2.152938827913831,
+                86.6
+              ],
+              "max": [
+                34.44970944802001,
+                3.6584679130401523,
+                86.6
+              ],
+              "count": 23,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.4559572877238,
+                8.29315605515572,
+                86.6
+              ],
+              "min": [
+                33.5250479746435,
+                7.294225646230966,
+                86.6
+              ],
+              "max": [
+                35.3868666008041,
+                9.292086464080475,
+                86.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.52531017470412,
+                5.57409438738499,
+                86.6
+              ],
+              "min": [
+                33.577993063459466,
+                4.62106146244454,
+                86.6
+              ],
+              "max": [
+                35.47262728594877,
+                6.527127312325442,
+                86.6
+              ],
+              "count": 21,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "z_cm": 87.6,
+          "candidate_count": 6,
+          "candidates": [
+            {
+              "centre": [
+                28.031722830240877,
+                13.30284858179023,
+                87.6
+              ],
+              "min": [
+                27.091178374280513,
+                12.45667291677619,
+                87.6
+              ],
+              "max": [
+                28.97226728620124,
+                14.14902424680427,
+                87.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                33.30565441052058,
+                10.860506657106646,
+                87.6
+              ],
+              "min": [
+                32.117667500556465,
+                9.631165038095023,
+                87.6
+              ],
+              "max": [
+                34.4936413204847,
+                12.089848276118268,
+                87.6
+              ],
+              "count": 22,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.07730654013413,
+                3.1220595071447317,
+                87.6
+              ],
+              "min": [
+                33.358837473157195,
+                2.3063342745181994,
+                87.6
+              ],
+              "max": [
+                34.795775607111075,
+                3.9377847397712644,
+                87.6
+              ],
+              "count": 19,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.38586008306122,
+                8.340099342693618,
+                87.6
+              ],
+              "min": [
+                33.26088454586805,
+                7.154695481976781,
+                87.6
+              ],
+              "max": [
+                35.51083562025438,
+                9.525503203410455,
+                87.6
+              ],
+              "count": 24,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.5792163538636,
+                6.032299372656446,
+                87.6
+              ],
+              "min": [
+                33.63161414454383,
+                5.164591134848495,
+                87.6
+              ],
+              "max": [
+                35.52681856318336,
+                6.900007610464397,
+                87.6
+              ],
+              "count": 21,
+              "closed": false
+            },
+            {
+              "centre": [
+                34.585024643633666,
+                5.226424939030559,
+                87.6
+              ],
+              "min": [
+                33.71589924349247,
+                4.745210958156048,
+                87.6
+              ],
+              "max": [
+                35.45415004377486,
+                5.70763891990507,
+                87.6
+              ],
+              "count": 11,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "z_cm": 88.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                28.18996042552274,
+                12.913483949694086,
+                88.6
+              ],
+              "min": [
+                27.179884237451464,
+                12.035252842011134,
+                88.6
+              ],
+              "max": [
+                29.20003661359402,
+                13.791715057377038,
+                88.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.23260326777297,
+                3.228171879047439,
+                88.6
+              ],
+              "min": [
+                33.52767753043914,
+                2.4662561622574937,
+                88.6
+              ],
+              "max": [
+                34.9375290051068,
+                3.9900875958373843,
+                88.6
+              ],
+              "count": 22,
+              "closed": false
+            },
+            {
+              "centre": [
+                34.26178864759448,
+                3.952890165111401,
+                88.6
+              ],
+              "min": [
+                33.66137158982979,
+                3.6354261454150882,
+                88.6
+              ],
+              "max": [
+                34.862205705359166,
+                4.270354184807714,
+                88.6
+              ],
+              "count": 11,
+              "closed": true
+            },
+            {
+              "centre": [
+                34.64790609631665,
+                5.8092440640101985,
+                88.6
+              ],
+              "min": [
+                33.55305676177804,
+                4.661858949532213,
+                88.6
+              ],
+              "max": [
+                35.74275543085527,
+                6.956629178488184,
+                88.6
+              ],
+              "count": 26,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 89.6,
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "centre": [
+                28.30831437174137,
+                12.757863966279139,
+                89.6
+              ],
+              "min": [
+                27.32167434234244,
+                11.797227681155611,
+                89.6
+              ],
+              "max": [
+                29.294954401140302,
+                13.718500251402668,
+                89.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 90.6,
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "centre": [
+                28.376905712194585,
+                12.532990441379274,
+                90.6
+              ],
+              "min": [
+                27.50590689624197,
+                11.667541848382333,
+                90.6
+              ],
+              "max": [
+                29.247904528147203,
+                13.398439034376215,
+                90.6
+              ],
+              "count": 11,
+              "closed": false
+            },
+            {
+              "centre": [
+                28.834591054018823,
+                12.077813360366745,
+                90.6
+              ],
+              "min": [
+                27.50320190204792,
+                10.883048527713328,
+                90.6
+              ],
+              "max": [
+                30.16598020598973,
+                13.272578193020163,
+                90.6
+              ],
+              "count": 28,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 91.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 92.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 93.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 94.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 95.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 96.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 97.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 98.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 99.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 100.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 101.6,
+          "candidate_count": 0,
+          "candidates": []
+        }
+      ],
+      "accepted_chains": [],
+      "decision": "Separated digit surfaces exist, but thumb identity/order/root correspondence is unresolved. No named chains accepted."
+    },
+    "fingers_r": {
+      "slice_branch_evidence": [
+        {
+          "z_cm": 75.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 76.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 77.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 78.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 79.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 80.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 81.6,
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "centre": [
+                -33.11440515050957,
+                7.925763907051929,
+                81.6
+              ],
+              "min": [
+                -33.70682189401333,
+                7.118575162899636,
+                81.6
+              ],
+              "max": [
+                -32.52198840700581,
+                8.732952651204222,
+                81.6
+              ],
+              "count": 16,
+              "closed": true
+            },
+            {
+              "centre": [
+                -32.93171406723391,
+                11.037857580756935,
+                81.6
+              ],
+              "min": [
+                -33.443664130382444,
+                10.338261064640857,
+                81.6
+              ],
+              "max": [
+                -32.41976400408537,
+                11.73745409687301,
+                81.6
+              ],
+              "count": 19,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 82.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                -33.30927845565465,
+                8.004356317654693,
+                82.6
+              ],
+              "min": [
+                -34.063650016039105,
+                7.15074195931046,
+                82.6
+              ],
+              "max": [
+                -32.55490689527019,
+                8.857970675998926,
+                82.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.17194685261598,
+                4.98648436249294,
+                82.6
+              ],
+              "min": [
+                -33.632349468883675,
+                4.2906057456559505,
+                82.6
+              ],
+              "max": [
+                -32.71154423634829,
+                5.6823629793299295,
+                82.6
+              ],
+              "count": 19,
+              "closed": true
+            },
+            {
+              "centre": [
+                -32.926339364363464,
+                10.981670955617457,
+                82.6
+              ],
+              "min": [
+                -33.55495826023585,
+                10.148883514819518,
+                82.6
+              ],
+              "max": [
+                -32.29772046849108,
+                11.814458396415395,
+                82.6
+              ],
+              "count": 20,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 83.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                -33.60409941701643,
+                8.062672545410754,
+                83.6
+              ],
+              "min": [
+                -34.38335060725296,
+                7.128653888779379,
+                83.6
+              ],
+              "max": [
+                -32.82484822677989,
+                8.996691202042129,
+                83.6
+              ],
+              "count": 16,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.28264740131689,
+                5.083805717866666,
+                83.6
+              ],
+              "min": [
+                -33.9178371409238,
+                4.2682383564347415,
+                83.6
+              ],
+              "max": [
+                -32.647457661709986,
+                5.899373079298591,
+                83.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.22273169074508,
+                10.961801580181318,
+                83.6
+              ],
+              "min": [
+                -33.97172377308927,
+                10.123505265597391,
+                83.6
+              ],
+              "max": [
+                -32.47373960840088,
+                11.800097894765244,
+                83.6
+              ],
+              "count": 17,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "z_cm": 84.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                -33.73062867336817,
+                8.080524736789869,
+                84.6
+              ],
+              "min": [
+                -34.63679345300549,
+                7.109126364008444,
+                84.6
+              ],
+              "max": [
+                -32.82446389373086,
+                9.051923109571293,
+                84.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.69704512832838,
+                5.228188886851527,
+                84.6
+              ],
+              "min": [
+                -34.429289905557056,
+                4.37454873850127,
+                84.6
+              ],
+              "max": [
+                -32.9648003510997,
+                6.0818290352017845,
+                84.6
+              ],
+              "count": 23,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.26389025616713,
+                10.935269381127625,
+                84.6
+              ],
+              "min": [
+                -34.05466229020473,
+                10.017960464023377,
+                84.6
+              ],
+              "max": [
+                -32.47311822212953,
+                11.852578298231872,
+                84.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 85.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                -33.944337665653926,
+                8.143765011922918,
+                85.6
+              ],
+              "min": [
+                -34.93604959652187,
+                7.170254240809005,
+                85.6
+              ],
+              "max": [
+                -32.95262573478598,
+                9.117275783036831,
+                85.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.885889515616725,
+                5.359007180045403,
+                85.6
+              ],
+              "min": [
+                -34.703840759811726,
+                4.428532420628815,
+                85.6
+              ],
+              "max": [
+                -33.067938271421724,
+                6.28948193946199,
+                85.6
+              ],
+              "count": 21,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.4241379620203,
+                10.913050193532726,
+                85.6
+              ],
+              "min": [
+                -34.31618586739421,
+                9.912386990733353,
+                85.6
+              ],
+              "max": [
+                -32.532090056646396,
+                11.9137133963321,
+                85.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -32.74938586506398,
+                2.701572241171983,
+                85.6
+              ],
+              "min": [
+                -33.293532817620815,
+                2.0614394318663254,
+                85.6
+              ],
+              "max": [
+                -32.20523891250714,
+                3.3417050504776404,
+                85.6
+              ],
+              "count": 17,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 86.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                -34.12322267898131,
+                5.451121954701259,
+                86.6
+              ],
+              "min": [
+                -35.024210336617415,
+                4.496138312040728,
+                86.6
+              ],
+              "max": [
+                -33.222235021345206,
+                6.406105597361791,
+                86.6
+              ],
+              "count": 22,
+              "closed": true
+            },
+            {
+              "centre": [
+                -34.03370010286974,
+                8.183163907607085,
+                86.6
+              ],
+              "min": [
+                -34.979384130228866,
+                7.188604598352122,
+                86.6
+              ],
+              "max": [
+                -33.08801607551061,
+                9.177723216862047,
+                86.6
+              ],
+              "count": 20,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.47878035201212,
+                10.802955480640911,
+                86.6
+              ],
+              "min": [
+                -34.39722009317059,
+                9.794883792707273,
+                86.6
+              ],
+              "max": [
+                -32.56034061085365,
+                11.811027168574551,
+                86.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.217186515111614,
+                2.886502948837887,
+                86.6
+              ],
+              "min": [
+                -33.823957552520575,
+                2.127455797378961,
+                86.6
+              ],
+              "max": [
+                -32.61041547770265,
+                3.645550100296813,
+                86.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 87.6,
+          "candidate_count": 6,
+          "candidates": [
+            {
+              "centre": [
+                -34.27352187364221,
+                5.202019865327534,
+                87.6
+              ],
+              "min": [
+                -35.1132276978068,
+                4.625646632751063,
+                87.6
+              ],
+              "max": [
+                -33.43381604947762,
+                5.778393097904006,
+                87.6
+              ],
+              "count": 15,
+              "closed": false
+            },
+            {
+              "centre": [
+                -34.27051116613742,
+                6.0770428525589155,
+                87.6
+              ],
+              "min": [
+                -35.18122653416111,
+                5.361852816776192,
+                87.6
+              ],
+              "max": [
+                -33.35979579811372,
+                6.792232888341639,
+                87.6
+              ],
+              "count": 22,
+              "closed": true
+            },
+            {
+              "centre": [
+                -34.100801223910096,
+                8.224580691525796,
+                87.6
+              ],
+              "min": [
+                -35.22735564432156,
+                7.0404892646689445,
+                87.6
+              ],
+              "max": [
+                -32.97424680349864,
+                9.408672118382647,
+                87.6
+              ],
+              "count": 24,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.488275348934394,
+                3.072971096864859,
+                87.6
+              ],
+              "min": [
+                -34.16847847965921,
+                2.2737478375033318,
+                87.6
+              ],
+              "max": [
+                -32.808072218209574,
+                3.8721943562263865,
+                87.6
+              ],
+              "count": 18,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.45915595216009,
+                10.748429513364474,
+                87.6
+              ],
+              "min": [
+                -34.62278700380338,
+                9.520525719708091,
+                87.6
+              ],
+              "max": [
+                -32.29552490051679,
+                11.976333307020859,
+                87.6
+              ],
+              "count": 22,
+              "closed": true
+            },
+            {
+              "centre": [
+                -27.96139938683256,
+                13.584563824085087,
+                87.6
+              ],
+              "min": [
+                -28.816096682517276,
+                12.797064033035912,
+                87.6
+              ],
+              "max": [
+                -27.10670209114785,
+                14.37206361513426,
+                87.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 88.6,
+          "candidate_count": 4,
+          "candidates": [
+            {
+              "centre": [
+                -34.293177715373545,
+                5.764324949469164,
+                88.6
+              ],
+              "min": [
+                -35.38904796130077,
+                4.626239542141858,
+                88.6
+              ],
+              "max": [
+                -33.19730746944632,
+                6.90241035679647,
+                88.6
+              ],
+              "count": 26,
+              "closed": true
+            },
+            {
+              "centre": [
+                -33.70212859433079,
+                3.168354465139654,
+                88.6
+              ],
+              "min": [
+                -34.40695436540393,
+                2.4994397542715308,
+                88.6
+              ],
+              "max": [
+                -32.99730282325764,
+                3.837269176007777,
+                88.6
+              ],
+              "count": 19,
+              "closed": false
+            },
+            {
+              "centre": [
+                -33.66449481236114,
+                3.9684101449034666,
+                88.6
+              ],
+              "min": [
+                -34.24827334897995,
+                3.634788440260858,
+                88.6
+              ],
+              "max": [
+                -33.08071627574233,
+                4.302031849546076,
+                88.6
+              ],
+              "count": 16,
+              "closed": true
+            },
+            {
+              "centre": [
+                -28.2770041432562,
+                13.034756116211693,
+                88.6
+              ],
+              "min": [
+                -29.292930879040696,
+                12.189481947740036,
+                88.6
+              ],
+              "max": [
+                -27.261077407471703,
+                13.88003028468335,
+                88.6
+              ],
+              "count": 16,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 89.6,
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "centre": [
+                -28.44590078795668,
+                12.877513670074691,
+                89.6
+              ],
+              "min": [
+                -29.476134934522467,
+                11.969917739429274,
+                89.6
+              ],
+              "max": [
+                -27.415666641390896,
+                13.78510960072011,
+                89.6
+              ],
+              "count": 17,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 90.6,
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "centre": [
+                -35.86139810697005,
+                6.461496617237733,
+                90.6
+              ],
+              "min": [
+                -35.993461729902236,
+                6.026790247529667,
+                90.6
+              ],
+              "max": [
+                -35.729334484037864,
+                6.8962029869457995,
+                90.6
+              ],
+              "count": 16,
+              "closed": true
+            },
+            {
+              "centre": [
+                -29.213888403253293,
+                12.004688056838525,
+                90.6
+              ],
+              "min": [
+                -30.279089145962864,
+                11.059077604214737,
+                90.6
+              ],
+              "max": [
+                -28.148687660543718,
+                12.95029850946231,
+                90.6
+              ],
+              "count": 21,
+              "closed": true
+            },
+            {
+              "centre": [
+                -28.705373015057752,
+                12.530293329007353,
+                90.6
+              ],
+              "min": [
+                -29.68477460199886,
+                11.485736403365056,
+                90.6
+              ],
+              "max": [
+                -27.725971428116644,
+                13.574850254649652,
+                90.6
+              ],
+              "count": 14,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "z_cm": 91.6,
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "centre": [
+                -35.76811098487022,
+                6.004044967832691,
+                91.6
+              ],
+              "min": [
+                -35.89561939933634,
+                5.662906197784854,
+                91.6
+              ],
+              "max": [
+                -35.64060257040409,
+                6.345183737880528,
+                91.6
+              ],
+              "count": 12,
+              "closed": false
+            },
+            {
+              "centre": [
+                -35.367146603367374,
+                4.080358479146733,
+                91.6
+              ],
+              "min": [
+                -35.6394650217455,
+                3.3385639665017264,
+                91.6
+              ],
+              "max": [
+                -35.094828184989254,
+                4.822152991791741,
+                91.6
+              ],
+              "count": 24,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 92.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 93.6,
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "centre": [
+                -35.3747569470316,
+                4.495925928974719,
+                93.6
+              ],
+              "min": [
+                -35.55081690915289,
+                4.022375708341548,
+                93.6
+              ],
+              "max": [
+                -35.1986969849103,
+                4.96947614960789,
+                93.6
+              ],
+              "count": 13,
+              "closed": false
+            },
+            {
+              "centre": [
+                -35.274308136622736,
+                5.608723099131435,
+                93.6
+              ],
+              "min": [
+                -35.37519696162977,
+                5.472595025767601,
+                93.6
+              ],
+              "max": [
+                -35.1734193116157,
+                5.744851172495268,
+                93.6
+              ],
+              "count": 12,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 94.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 95.6,
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "centre": [
+                -34.866627617850284,
+                4.810579910726416,
+                95.6
+              ],
+              "min": [
+                -35.015541502277465,
+                4.07877094527214,
+                95.6
+              ],
+              "max": [
+                -34.7177137334231,
+                5.5423888761806905,
+                95.6
+              ],
+              "count": 21,
+              "closed": true
+            }
+          ]
+        },
+        {
+          "z_cm": 96.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 97.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 98.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 99.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 100.6,
+          "candidate_count": 0,
+          "candidates": []
+        },
+        {
+          "z_cm": 101.6,
+          "candidate_count": 0,
+          "candidates": []
+        }
+      ],
+      "accepted_chains": [],
+      "decision": "Separated digit surfaces exist, but thumb identity/order/root correspondence is unresolved. No named chains accepted."
+    }
+  },
+  "confidence_model": {
+    "type": "documented deterministic support score, not probability",
+    "formula": ".30*min(section_points/90,1)+.60*role_specificity+.10*hierarchy_prior",
+    "automatic_threshold": 0.8,
+    "flags_override_score": true,
+    "role_specificity": "Prototype authored feature-reliability categories; not statistically calibrated",
+    "correction_schema": "corrections.json: role, position_cm or candidate_index, provenance, reason. Refit dependent spine/clavicle/limb joints then rerun all gates."
+  },
+  "manual_corrections_applied": 0,
+  "unresolved_fingers": [
+    "thumb",
+    "index",
+    "middle",
+    "ring",
+    "pinky"
+  ]
+}

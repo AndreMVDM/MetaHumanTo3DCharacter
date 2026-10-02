@@ -1,0 +1,21 @@
+{
+  "id": 76,
+  "utc_epoch": 1790866208.5809023,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "foot_r"
+    ],
+    "judgement": "accept",
+    "category": "anatomical_front_side_review",
+    "reviewed_positions": {
+      "foot_r": [
+        -16.0981388092041,
+        -11.1641845703125,
+        9.603378295898438
+      ]
+    }
+  }
+}

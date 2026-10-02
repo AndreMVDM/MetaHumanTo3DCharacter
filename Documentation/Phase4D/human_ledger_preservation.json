@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "original_events": 159,
+  "changed_event_files": [],
+  "new_human_event_files": [],
+  "exact_editor_snapshot_fields_preserved": [
+    "events",
+    "fingers",
+    "approvals",
+    "joints",
+    "generated_joint_schema"
+  ],
+  "editor_snapshot_sha256": "e1c609c7b59b38798ba8c44542efd7f2875d9398d0649184d7a6a2f311c906a7",
+  "starting_proposal_sha256": "0324a9f4796865ff9ac350c7d8b03136d6ff54bbe4b532dce4b8af71325572fe",
+  "final_proposal_sha256": "083ec2ea0c8ec4b7666dfb43a53a066d14d2d008186f6f2f062bb63e132fb49e",
+  "trial_elapsed_seconds": 12179.218626737595,
+  "not_active_authoring_time": true
+}

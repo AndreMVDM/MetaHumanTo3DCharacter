@@ -1,0 +1,21 @@
+{
+  "id": 7,
+  "utc_epoch": 1790863300.8855703,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "pelvis"
+    ],
+    "judgement": "accept",
+    "category": "anatomical_front_side_review",
+    "reviewed_positions": {
+      "pelvis": [
+        0.10307380557060242,
+        -1.628673791885376,
+        95.82306671142578
+      ]
+    }
+  }
+}

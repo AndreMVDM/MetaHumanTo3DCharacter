@@ -1,0 +1,30 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="Starfish" ExportPath="/Script/Engine.SkeletalMesh'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish'"
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish:FbxSkeletalMeshImportData_0'"
+      bUpdateSkeletonReferencePose=True
+      bUseT0AsRefPose=True
+      NormalImportMethod=FBXNIM_ImportNormals
+      ImportMaterialOriginalNameData(0)="lambert1"
+      ImportMaterialOriginalNameData(1)="lambert3"
+      ImportMaterialOriginalNameData(2)="lambert2"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("lambert1","lambert3","lambert2"))
+   End Object
+   SourceModels(0)=(TriangleCount=1360,VertexCount=1040,Bounds=(Origin=(X=0.000000,Y=0.000000,Z=109.151961),BoxExtent=(X=116.084335,Y=7.500004,Z=110.402757),SphereRadius=131.660194),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=007EF888007EF888007EF888087EF888,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bRecomputeNormals=False,bComputeWeightedNormals=True,bUseBackwardsCompatibleF16TruncUVs=True),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   Skeleton="/Script/Engine.Skeleton'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton.Starfish_Skeleton'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object

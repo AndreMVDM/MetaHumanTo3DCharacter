@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "clips": [],
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_exact_clips.py\", line 14, in <module>\n    positions,rotations,scales=unreal.AnimationLibrary.get_raw_track_data(src,n);ctl.add_bone_track(n,False);assert ctl.set_bone_track_keys(n,positions,rotations,scales,False)\n                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AnimationDataController: /Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Idle : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0\n"
+}

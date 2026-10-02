@@ -1,0 +1,438 @@
+Begin Object Class=/Script/Engine.Skeleton Name="M_MALE_Base_Skeleton" ExportPath="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton'"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_9" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_9'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_8" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_8'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_7" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_7'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_6" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_6'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_5" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_5'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_4" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_4'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_39" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_39'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_38" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_38'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_37" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_37'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_36" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_36'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_35" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_35'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_34" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_34'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_33" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_33'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_32" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_32'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_31" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_31'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_30" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_30'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_3" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_3'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_29" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_29'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_28" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_28'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_27" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_27'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_26" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_26'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_25" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_25'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_24" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_24'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_23" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_23'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_22" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_22'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_21" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_21'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_20" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_20'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_2" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_2'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_19" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_19'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_18" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_18'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_17" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_17'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_16" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_16'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_15" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_15'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_14" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_14'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_13" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_13'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_12" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_12'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_11" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_11'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_10" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_10'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_1'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_0" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_9" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_9'"
+      SocketName="LeftHand"
+      BoneName="weapon_l"
+      RelativeRotation=(Pitch=0.000000,Yaw=-90.000000,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_8" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_8'"
+      SocketName="Root_Effect"
+      BoneName="Root"
+      RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_7" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_7'"
+      SocketName="Glasses"
+      BoneName="head"
+      RelativeLocation=(X=5.146201,Y=3.790898,Z=-0.000000)
+      RelativeRotation=(Pitch=-90.000000,Yaw=-90.000000,Roll=90.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_6" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_6'"
+      SocketName="Messenger"
+      BoneName="spine_04"
+      RelativeLocation=(X=-6.217352,Y=-0.416285,Z=5.136121)
+      RelativeRotation=(Pitch=-29.012421,Yaw=-0.508270,Roll=4.264578)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_5" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_5'"
+      SocketName="Hat"
+      BoneName="head"
+      RelativeRotation=(Pitch=-90.000000,Yaw=-90.000000,Roll=90.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_4" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_4'"
+      SocketName="Backpack"
+      BoneName="spine_04"
+      RelativeLocation=(X=15.000000,Y=0.000000,Z=0.000000)
+      RelativeRotation=(Pitch=-90.000000,Yaw=0.000000,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_39" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_39'"
+      SocketName="FX_TechClip"
+      BoneName="spine_04"
+      RelativeLocation=(X=0.527099,Y=14.216944,Z=18.361967)
+      RelativeRotation=(Pitch=-4.595947,Yaw=94.595650,Roll=-90.000153)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_38" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_38'"
+      SocketName="FX_foot_rSocket"
+      BoneName="foot_r"
+      RelativeLocation=(X=5.771506,Y=8.660397,Z=-0.000011)
+      RelativeRotation=(Pitch=0.000000,Yaw=19.999975,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_37" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_37'"
+      SocketName="FX_foot_lSocket"
+      BoneName="foot_l"
+      RelativeLocation=(X=-5.771506,Y=-8.660397,Z=-0.000008)
+      RelativeRotation=(Pitch=-0.000000,Yaw=-160.000076,Roll=-0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_36" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_36'"
+      SocketName="FX_SoulSuck_R"
+      BoneName="weapon_r"
+      RelativeLocation=(X=0.000038,Y=3.320762,Z=-0.000214)
+      RelativeRotation=(Pitch=-0.000183,Yaw=-0.000641,Roll=90.000015)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_35" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_35'"
+      SocketName="FX_SoulSuck_L"
+      BoneName="weapon_l"
+      RelativeLocation=(X=0.000000,Y=3.320762,Z=0.000000)
+      RelativeRotation=(Pitch=0.000042,Yaw=0.000007,Roll=89.999985)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_34" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_34'"
+      SocketName="Melee_LSword_Upper"
+      BoneName="weapon_l"
+      RelativeLocation=(X=0.000020,Y=-0.000373,Z=99.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_33" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_33'"
+      SocketName="Melee_LSword_Lower"
+      BoneName="weapon_l"
+      RelativeLocation=(X=-0.000011,Y=0.000153,Z=42.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_32" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_32'"
+      SocketName="Melee_RSword_Upper"
+      BoneName="weapon_r"
+      RelativeLocation=(X=-0.000084,Y=-0.000061,Z=99.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_31" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_31'"
+      SocketName="Melee_RSword_Lower"
+      BoneName="weapon_r"
+      RelativeLocation=(X=-0.000439,Y=-0.000022,Z=42.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_30" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_30'"
+      SocketName="Melee_L_Lower"
+      BoneName="weapon_l"
+      RelativeLocation=(X=0.001361,Y=0.000204,Z=-35.466095)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_3" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_3'"
+      SocketName="BluePrintPen"
+      BoneName="weapon_r"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_29" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_29'"
+      SocketName="Melee_L_Upper"
+      BoneName="weapon_l"
+      RelativeLocation=(X=0.000230,Y=0.000028,Z=-107.044647)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_28" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_28'"
+      SocketName="Melee_R_Lower"
+      BoneName="weapon_r"
+      RelativeLocation=(X=0.000000,Y=0.000000,Z=-15.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_27" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_27'"
+      SocketName="Melee_R_Upper"
+      BoneName="weapon_r"
+      RelativeLocation=(X=0.000000,Y=0.000000,Z=52.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_26" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_26'"
+      SocketName="SM_L_Shin"
+      BoneName="calf_l"
+      RelativeRotation=(Pitch=-87.472900,Yaw=90.907425,Roll=-93.165710)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_25" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_25'"
+      SocketName="SM_L_Thigh"
+      BoneName="thigh_l"
+      RelativeRotation=(Pitch=-81.550415,Yaw=86.440475,Roll=-88.939270)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_24" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_24'"
+      SocketName="SM_R_Shin"
+      BoneName="calf_r"
+      RelativeLocation=(X=-0.015507,Y=-0.169480,Z=-0.008671)
+      RelativeRotation=(Pitch=-87.512878,Yaw=-117.346832,Roll=-64.888428)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_23" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_23'"
+      SocketName="SM_R_Thigh"
+      BoneName="thigh_r"
+      RelativeRotation=(Pitch=-87.500854,Yaw=-94.542389,Roll=-87.957397)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_22" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_22'"
+      SocketName="SM_L_ArmFore"
+      BoneName="lowerarm_l"
+      RelativeRotation=(Pitch=-53.098755,Yaw=154.370331,Roll=48.953835)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_21" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_21'"
+      SocketName="SM_L_Shoulder"
+      BoneName="upperarm_l"
+      RelativeLocation=(X=0.643149,Y=-0.098373,Z=0.832648)
+      RelativeRotation=(Pitch=-56.665741,Yaw=173.029373,Roll=7.487703)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_20" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_20'"
+      SocketName="SM_R_ArmFore"
+      BoneName="lowerarm_r"
+      RelativeLocation=(X=-0.344143,Y=2.100525,Z=1.498836)
+      RelativeRotation=(Pitch=48.124313,Yaw=-42.456665,Roll=148.893890)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_2" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_2'"
+      SocketName="BluePrintPaper"
+      BoneName="weapon_l"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_19" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_19'"
+      SocketName="SM_R_Shoulders"
+      BoneName="upperarm_r"
+      RelativeLocation=(X=-1.897591,Y=0.000078,Z=3.162012)
+      RelativeRotation=(Pitch=54.636177,Yaw=-19.699280,Roll=163.723312)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_18" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_18'"
+      SocketName="SM_Pelvis"
+      BoneName="pelvis"
+      RelativeRotation=(Pitch=-90.000000,Yaw=0.000000,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_17" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_17'"
+      SocketName="SM_Helmet"
+      BoneName="neck_02"
+      RelativeLocation=(X=-4.997036,Y=0.434505,Z=0.000000)
+      RelativeRotation=(Pitch=-90.000000,Yaw=75.670067,Roll=-75.670105)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_16" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_16'"
+      SocketName="SM_UpperBody"
+      BoneName="spine_05"
+      RelativeRotation=(Pitch=-90.000000,Yaw=158.003815,Roll=-158.003662)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_15" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_15'"
+      SocketName="FX_Combat"
+      BoneName="Root"
+      RelativeLocation=(X=0.000000,Y=-0.000214,Z=182.223969)
+      RelativeRotation=(Pitch=0.000000,Yaw=89.999840,Roll=0.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_14" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_14'"
+      SocketName="FX_TechStack"
+      BoneName="spine_05"
+      RelativeLocation=(X=54.701942,Y=-20.262724,Z=-13.884652)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_13" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_13'"
+      SocketName="FX_Head"
+      BoneName="head"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_12" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_12'"
+      SocketName="FX_Chest"
+      BoneName="spine_05"
+      RelativeRotation=(Pitch=-0.017029,Yaw=89.999817,Roll=-89.900574)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_11" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_11'"
+      SocketName="FX_Spine"
+      BoneName="Spine_03"
+      RelativeRotation=(Pitch=0.016493,Yaw=89.999855,Roll=-89.900513)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_10" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_10'"
+      SocketName="FX_Feet"
+      BoneName="Root"
+      RelativeLocation=(X=0.000000,Y=0.000000,Z=15.000000)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_1'"
+      SocketName="RightHand"
+      BoneName="weapon_r"
+      RelativeLocation=(X=1.080809,Y=0.002455,Z=0.251091)
+      RelativeRotation=(Pitch=0.023168,Yaw=-89.889656,Roll=-1.458157)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_0" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:SkeletalMeshSocket_0'"
+      SocketName="b_MF_Head"
+      BoneName="head"
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton:AnimCurveMetaData_0'"
+      CurveMetaData=(("DisableHandIKRT", ()))
+   End Object
+   BoneTree(1)=(TranslationRetargetingMode=AnimationScaled)
+   BoneTree(2)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(3)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(4)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(5)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(6)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(7)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(8)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(9)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(10)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(11)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(12)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(13)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(14)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(15)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(16)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(17)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(18)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(19)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(20)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(21)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(22)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(23)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(24)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(25)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(26)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(27)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(28)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(29)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(30)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(31)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(32)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(33)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(34)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(35)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(36)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(37)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(38)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(39)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(40)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(41)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(42)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(43)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(44)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(45)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(46)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(47)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(48)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(49)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(50)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(51)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(52)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(53)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(54)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(55)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(56)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(57)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(58)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(59)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(60)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(61)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(62)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(63)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(64)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(65)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(66)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(67)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(68)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(69)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(70)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(71)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(74)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(75)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(76)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(77)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(78)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(79)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(80)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(81)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(82)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(83)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(84)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(85)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(251)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(252)=(TranslationRetargetingMode=Skeleton)
+   Sockets(0)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_0'"
+   Sockets(1)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_1'"
+   Sockets(2)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_2'"
+   Sockets(3)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_3'"
+   Sockets(4)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_4'"
+   Sockets(5)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_5'"
+   Sockets(6)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_7'"
+   Sockets(7)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_6'"
+   Sockets(8)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_9'"
+   Sockets(9)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_8'"
+   Sockets(10)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_10'"
+   Sockets(11)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_11'"
+   Sockets(12)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_12'"
+   Sockets(13)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_13'"
+   Sockets(14)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_14'"
+   Sockets(15)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_15'"
+   Sockets(16)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_16'"
+   Sockets(17)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_17'"
+   Sockets(18)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_18'"
+   Sockets(19)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_19'"
+   Sockets(20)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_20'"
+   Sockets(21)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_21'"
+   Sockets(22)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_22'"
+   Sockets(23)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_23'"
+   Sockets(24)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_24'"
+   Sockets(25)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_25'"
+   Sockets(26)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_26'"
+   Sockets(27)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_27'"
+   Sockets(28)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_28'"
+   Sockets(29)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_29'"
+   Sockets(30)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_30'"
+   Sockets(31)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_31'"
+   Sockets(32)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_32'"
+   Sockets(33)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_33'"
+   Sockets(34)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_34'"
+   Sockets(35)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_35'"
+   Sockets(36)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_36'"
+   Sockets(37)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_37'"
+   Sockets(38)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_38'"
+   Sockets(39)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_39'"
+   SlotGroups(0)=(SlotNames=("UpperBody","FullBody","MeshRotationUpperBody","DefaultSlot"))
+   PreviewSkeletalMesh="/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base"
+   AnimationNotifies(0)="MeleeDamageEvent"
+   AnimationNotifies(1)="PlayMeleeSwingFX"
+   AnimationNotifies(2)="LeapSmashGoDown"
+   AnimationNotifies(3)="LeapSmashDownImpact"
+   AnimationNotifies(4)="go"
+   AnimationNotifies(5)="Hit"
+   AnimationNotifies(6)="Melee_FX_S1"
+   AnimationNotifies(7)="LeftFootstep"
+   AnimationNotifies(8)="RightFootstep"
+   AnimationNotifies(9)="EatFood"
+   AnimationNotifies(10)="PlayFireFX"
+   AnimationNotifies(11)="InterruptReload"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

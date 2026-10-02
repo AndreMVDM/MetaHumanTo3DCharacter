@@ -1,0 +1,15 @@
+{
+  "protected_file_count": 2392,
+  "changed": [],
+  "missing": [],
+  "new_authored_files_outside_phase4c": [],
+  "passed": true,
+  "archive_sha256_after": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "archive_sha256_before": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "scope": "All Characters, Config, Content, Reference, prior Documentation and authored Working; excludes execution/build caches",
+  "configuration_byte_identical": true,
+  "engine_reference_limit": "Engine/reference locations were never write targets; project Reference authored files hashed. No pre-run exhaustive external Engine hash baseline, so no blanket cryptographic proof for the entire installation.",
+  "expected_execution_caches": "UE Saved/Intermediate/DDC, NativeHost Binaries/Intermediate and external standard UE process caches are outside authored preservation scope.",
+  "git_actions": "No Git repository; no stage, commit, push, branch or config change attempted",
+  "archive_byte_identical": true
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source": {
+    "triangles": 49508,
+    "triangle_indices_sha256": "502b2429adcec9ae85e5065b97ca97dbe2aacfc02608da7f02733442a78899ec",
+    "position_uv_corners_sha256": "f5673ab77ab2b7afdd75dad0c801f4258687cf2a721cf012299d5d3a8b681f14",
+    "uv_sets": 1,
+    "height_cm": 180.0
+  },
+  "phase4d": {
+    "triangles": 49508,
+    "triangle_indices_sha256": "502b2429adcec9ae85e5065b97ca97dbe2aacfc02608da7f02733442a78899ec",
+    "position_uv_corners_sha256": "f5673ab77ab2b7afdd75dad0c801f4258687cf2a721cf012299d5d3a8b681f14",
+    "uv_sets": 1,
+    "height_cm": 180.0
+  },
+  "method": "exact ordered triangle indices and triangle-corner position/UV hash; build settings disabled",
+  "archive_sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "limit": "Normalised prior StaticMesh readback equivalence; archive/extracted source byte preservation verified separately; no skeletal mesh authored"
+}

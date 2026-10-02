@@ -1,0 +1,13 @@
+{
+  "id": 109,
+  "utc_epoch": 1790836350.4113624,
+  "kind": "assign",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "assign",
+    "side": "l",
+    "digit": "middle",
+    "track_id": "digit_branch_2_l",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113"
+  }
+}

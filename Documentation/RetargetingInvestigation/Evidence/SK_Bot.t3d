@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SK_Bot" ExportPath="/Script/Engine.Skeleton'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot'"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot:SkeletalMeshSocket_1'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot:SkeletalMeshSocket_1'"
+      SocketName="BackpackSocket"
+      BoneName="spine_03"
+      RelativeLocation=(X=-0.000001,Y=0.000025,Z=-13.343653)
+      RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-90.000000)
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/Characters/StackOBot/Mesh/SK_Bot.SK_Bot:AnimCurveMetaData_0'"
+      CurveMetaData=(("IKBlend_l", ()),("IK_blend_interact", ()),("neck_01", ()),("head", ()),("upperarm_r", ()),("lowerarm_r", ()))
+   End Object
+   BoneTree(52)=()
+   VirtualBoneGuid=70BBE2414A82D8F4B66FDCBB7DFA882F
+   Sockets(0)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_1'"
+   SlotGroups(0)=(SlotNames=("DefaultSlot","UpperBody"))
+   PreviewSkeletalMesh="/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot"
+   AnimationNotifies(0)="shake"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

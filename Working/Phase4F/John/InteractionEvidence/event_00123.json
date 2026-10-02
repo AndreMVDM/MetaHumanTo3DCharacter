@@ -1,0 +1,9 @@
+{
+  "id": 123,
+  "utc_epoch": 1790867348.8244948,
+  "kind": "select",
+  "provenance": "human_editor_action",
+  "details": {
+    "role": "index_l:tip"
+  }
+}

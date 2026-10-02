@@ -1,0 +1,27 @@
+{
+  "light": {
+    "functionalMinimum": 3.629038242184328,
+    "horizontalOverflow": false,
+    "mutedMinimum": 4.625517021307015,
+    "statusMinimum": 3.4433773607379368,
+    "textMinimum": 4.933501081954582,
+    "theme": "light"
+  },
+  "dark": {
+    "functionalMinimum": 3.125364918501368,
+    "horizontalOverflow": false,
+    "mutedMinimum": 6.139025255597523,
+    "statusMinimum": 4.865062417408951,
+    "textMinimum": 5.42583841629041,
+    "theme": "dark"
+  },
+  "narrow": {
+    "width": 420,
+    "horizontalOverflow": false
+  },
+  "keyboardFocus": {
+    "outline": "solid",
+    "width": "3px"
+  },
+  "motion": "No animated transitions; reduced-motion CSS supplied"
+}

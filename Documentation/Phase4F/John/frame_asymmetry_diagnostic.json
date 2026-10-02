@@ -1,0 +1,652 @@
+{
+  "character": "John",
+  "regional_reflection_planes": {
+    "lower_legs": {
+      "best": {
+        "yaw_plane_normal_deg": 0.0,
+        "offset_cm": 0.0,
+        "mean_nearest_cm": 0.09509309029919376,
+        "p95_nearest_cm": 0.5224076912113855
+      },
+      "zero_yaw": {
+        "yaw_plane_normal_deg": 0.0,
+        "offset_cm": 0.0,
+        "mean_nearest_cm": 0.09509309029919376,
+        "p95_nearest_cm": 0.5224076912113855
+      },
+      "candidates": [
+        {
+          "yaw_plane_normal_deg": -25.0,
+          "offset_cm": 1.319693704223667,
+          "mean_nearest_cm": 8.46562731584087,
+          "p95_nearest_cm": 28.13565722495138
+        },
+        {
+          "yaw_plane_normal_deg": -24.0,
+          "offset_cm": 1.2955198638941354,
+          "mean_nearest_cm": 8.249709140253739,
+          "p95_nearest_cm": 27.494510432069923
+        },
+        {
+          "yaw_plane_normal_deg": -23.0,
+          "offset_cm": 1.2709513956640812,
+          "mean_nearest_cm": 8.023240753507334,
+          "p95_nearest_cm": 26.66009588412461
+        },
+        {
+          "yaw_plane_normal_deg": -22.0,
+          "offset_cm": 1.2459957833269222,
+          "mean_nearest_cm": 7.786286749550382,
+          "p95_nearest_cm": 26.053699609221205
+        },
+        {
+          "yaw_plane_normal_deg": -21.0,
+          "offset_cm": 1.2206606286039303,
+          "mean_nearest_cm": 7.540710270466326,
+          "p95_nearest_cm": 25.545603165464954
+        },
+        {
+          "yaw_plane_normal_deg": -20.0,
+          "offset_cm": 1.1949536488286618,
+          "mean_nearest_cm": 7.262648080056243,
+          "p95_nearest_cm": 24.689010230532574
+        },
+        {
+          "yaw_plane_normal_deg": -19.0,
+          "offset_cm": 1.1688826745961833,
+          "mean_nearest_cm": 6.940274375242602,
+          "p95_nearest_cm": 23.423277641652117
+        },
+        {
+          "yaw_plane_normal_deg": -18.0,
+          "offset_cm": 1.1423213251610314,
+          "mean_nearest_cm": 6.609078966284758,
+          "p95_nearest_cm": 22.306908946230877
+        },
+        {
+          "yaw_plane_normal_deg": -17.0,
+          "offset_cm": 1.0832729765658655,
+          "mean_nearest_cm": 6.2669682221383285,
+          "p95_nearest_cm": 20.803197894972104
+        },
+        {
+          "yaw_plane_normal_deg": -16.0,
+          "offset_cm": 1.0238946525281385,
+          "mean_nearest_cm": 5.910567013391091,
+          "p95_nearest_cm": 19.307575599577397
+        },
+        {
+          "yaw_plane_normal_deg": -15.0,
+          "offset_cm": 0.9589232155396381,
+          "mean_nearest_cm": 5.547438076759875,
+          "p95_nearest_cm": 17.895901097773823
+        },
+        {
+          "yaw_plane_normal_deg": -14.0,
+          "offset_cm": 0.8933546440478146,
+          "mean_nearest_cm": 5.159469106557051,
+          "p95_nearest_cm": 16.476429355493302
+        },
+        {
+          "yaw_plane_normal_deg": -13.0,
+          "offset_cm": 0.8275139480772928,
+          "mean_nearest_cm": 4.761127196054151,
+          "p95_nearest_cm": 15.048529248588483
+        },
+        {
+          "yaw_plane_normal_deg": -12.0,
+          "offset_cm": 0.7614211833418807,
+          "mean_nearest_cm": 4.360079551173246,
+          "p95_nearest_cm": 13.618782936418906
+        },
+        {
+          "yaw_plane_normal_deg": -11.0,
+          "offset_cm": 0.69509648233797,
+          "mean_nearest_cm": 3.951922608259227,
+          "p95_nearest_cm": 12.188589378607247
+        },
+        {
+          "yaw_plane_normal_deg": -10.0,
+          "offset_cm": 0.628560048211984,
+          "mean_nearest_cm": 3.53764448805479,
+          "p95_nearest_cm": 10.75968750979789
+        },
+        {
+          "yaw_plane_normal_deg": -9.0,
+          "offset_cm": 0.5639901063699639,
+          "mean_nearest_cm": 3.1359874674524413,
+          "p95_nearest_cm": 9.3344961646386
+        },
+        {
+          "yaw_plane_normal_deg": -8.0,
+          "offset_cm": 0.501758049251606,
+          "mean_nearest_cm": 2.7575647616739083,
+          "p95_nearest_cm": 7.896666655106277
+        },
+        {
+          "yaw_plane_normal_deg": -7.0,
+          "offset_cm": 0.43937315177080905,
+          "mean_nearest_cm": 2.3945296163826777,
+          "p95_nearest_cm": 6.45046901070475
+        },
+        {
+          "yaw_plane_normal_deg": -6.0,
+          "offset_cm": 0.3768544169716783,
+          "mean_nearest_cm": 2.0233765146976954,
+          "p95_nearest_cm": 5.106282738634462
+        },
+        {
+          "yaw_plane_normal_deg": -5.0,
+          "offset_cm": 0.314220888666469,
+          "mean_nearest_cm": 1.6973664718108876,
+          "p95_nearest_cm": 3.824492832489508
+        },
+        {
+          "yaw_plane_normal_deg": -4.0,
+          "offset_cm": 0.25149164563464055,
+          "mean_nearest_cm": 1.350843478118648,
+          "p95_nearest_cm": 2.6922615768615414
+        },
+        {
+          "yaw_plane_normal_deg": -3.0,
+          "offset_cm": 0.18868579581130618,
+          "mean_nearest_cm": 1.0345283604376379,
+          "p95_nearest_cm": 2.0150361997570885
+        },
+        {
+          "yaw_plane_normal_deg": -2.0,
+          "offset_cm": 0.1258224704667228,
+          "mean_nearest_cm": 0.7981391843121253,
+          "p95_nearest_cm": 1.446137672028797
+        },
+        {
+          "yaw_plane_normal_deg": -1.0,
+          "offset_cm": 0.06292081837876395,
+          "mean_nearest_cm": 0.5191010795409198,
+          "p95_nearest_cm": 0.9351864974686236
+        },
+        {
+          "yaw_plane_normal_deg": 0.0,
+          "offset_cm": 0.0,
+          "mean_nearest_cm": 0.09509309029919376,
+          "p95_nearest_cm": 0.5224076912113855
+        },
+        {
+          "yaw_plane_normal_deg": 1.0,
+          "offset_cm": -0.0629208183101575,
+          "mean_nearest_cm": 0.5102236665182692,
+          "p95_nearest_cm": 0.9646500645631764
+        },
+        {
+          "yaw_plane_normal_deg": 2.0,
+          "offset_cm": -0.12582247032953475,
+          "mean_nearest_cm": 0.8071230749480012,
+          "p95_nearest_cm": 1.5826796313990315
+        },
+        {
+          "yaw_plane_normal_deg": 3.0,
+          "offset_cm": -0.18868579560557563,
+          "mean_nearest_cm": 1.0389520668988395,
+          "p95_nearest_cm": 1.9777421529991106
+        },
+        {
+          "yaw_plane_normal_deg": 4.0,
+          "offset_cm": -0.251491645360435,
+          "mean_nearest_cm": 1.3541429971422738,
+          "p95_nearest_cm": 2.8423062401743313
+        },
+        {
+          "yaw_plane_normal_deg": 5.0,
+          "offset_cm": -0.3142208883238631,
+          "mean_nearest_cm": 1.7008444717803204,
+          "p95_nearest_cm": 3.680919152424293
+        },
+        {
+          "yaw_plane_normal_deg": 6.0,
+          "offset_cm": -0.37685441656078567,
+          "mean_nearest_cm": 2.044955844726705,
+          "p95_nearest_cm": 5.032440898472686
+        },
+        {
+          "yaw_plane_normal_deg": 7.0,
+          "offset_cm": -0.4393731512917505,
+          "mean_nearest_cm": 2.404932328915866,
+          "p95_nearest_cm": 6.465143898167714
+        },
+        {
+          "yaw_plane_normal_deg": 8.0,
+          "offset_cm": -0.5017580487045272,
+          "mean_nearest_cm": 2.7680372094645227,
+          "p95_nearest_cm": 7.930685634412959
+        },
+        {
+          "yaw_plane_normal_deg": 9.0,
+          "offset_cm": -0.5639901057550283,
+          "mean_nearest_cm": 3.1511938026323496,
+          "p95_nearest_cm": 9.326795087383513
+        },
+        {
+          "yaw_plane_normal_deg": 10.0,
+          "offset_cm": -0.6285600475293869,
+          "mean_nearest_cm": 3.5427447231699336,
+          "p95_nearest_cm": 10.736102596909651
+        },
+        {
+          "yaw_plane_normal_deg": 11.0,
+          "offset_cm": -0.6950964815879104,
+          "mean_nearest_cm": 3.9481228369911823,
+          "p95_nearest_cm": 12.153383737369579
+        },
+        {
+          "yaw_plane_normal_deg": 12.0,
+          "offset_cm": -0.7614211825245931,
+          "mean_nearest_cm": 4.352887968841547,
+          "p95_nearest_cm": 13.569204832684989
+        },
+        {
+          "yaw_plane_normal_deg": 13.0,
+          "offset_cm": -0.8275139471930224,
+          "mean_nearest_cm": 4.758718581436898,
+          "p95_nearest_cm": 14.988257992859996
+        },
+        {
+          "yaw_plane_normal_deg": 14.0,
+          "offset_cm": -0.8933546430968349,
+          "mean_nearest_cm": 5.151166438093746,
+          "p95_nearest_cm": 16.40852894765476
+        },
+        {
+          "yaw_plane_normal_deg": 15.0,
+          "offset_cm": -0.9589232145222368,
+          "mean_nearest_cm": 5.532599191244979,
+          "p95_nearest_cm": 17.828204674273568
+        },
+        {
+          "yaw_plane_normal_deg": 16.0,
+          "offset_cm": -1.023894640970667,
+          "mean_nearest_cm": 5.900317016154415,
+          "p95_nearest_cm": 19.24584830105559
+        },
+        {
+          "yaw_plane_normal_deg": 17.0,
+          "offset_cm": -1.0832729643067225,
+          "mean_nearest_cm": 6.264172056864438,
+          "p95_nearest_cm": 20.65209509924386
+        },
+        {
+          "yaw_plane_normal_deg": 18.0,
+          "offset_cm": -1.1423213122039506,
+          "mean_nearest_cm": 6.6082849883473544,
+          "p95_nearest_cm": 22.05205308196155
+        },
+        {
+          "yaw_plane_normal_deg": 19.0,
+          "offset_cm": -1.1688826472940441,
+          "mean_nearest_cm": 6.941369670429243,
+          "p95_nearest_cm": 23.261932746293056
+        },
+        {
+          "yaw_plane_normal_deg": 20.0,
+          "offset_cm": -1.1949536201468618,
+          "mean_nearest_cm": 7.251196760751976,
+          "p95_nearest_cm": 24.522525255865766
+        },
+        {
+          "yaw_plane_normal_deg": 21.0,
+          "offset_cm": -1.220660598551202,
+          "mean_nearest_cm": 7.54110845213195,
+          "p95_nearest_cm": 25.421272749617764
+        },
+        {
+          "yaw_plane_normal_deg": 22.0,
+          "offset_cm": -1.245995751912421,
+          "mean_nearest_cm": 7.795827077352112,
+          "p95_nearest_cm": 25.916484632202152
+        },
+        {
+          "yaw_plane_normal_deg": 23.0,
+          "offset_cm": -1.270951362897378,
+          "mean_nearest_cm": 8.018112535757806,
+          "p95_nearest_cm": 26.670138596082477
+        },
+        {
+          "yaw_plane_normal_deg": 24.0,
+          "offset_cm": -1.2955198297852064,
+          "mean_nearest_cm": 8.234075976823418,
+          "p95_nearest_cm": 27.580392403255885
+        },
+        {
+          "yaw_plane_normal_deg": 25.0,
+          "offset_cm": -1.3196936687829108,
+          "mean_nearest_cm": 8.433132498696429,
+          "p95_nearest_cm": 28.104368258236136
+        }
+      ]
+    },
+    "arms_hands": {
+      "best": {
+        "yaw_plane_normal_deg": 0.0,
+        "offset_cm": 0.0,
+        "mean_nearest_cm": 0.015949240467222472,
+        "p95_nearest_cm": 0.12434855756308046
+      },
+      "zero_yaw": {
+        "yaw_plane_normal_deg": 0.0,
+        "offset_cm": 0.0,
+        "mean_nearest_cm": 0.015949240467222472,
+        "p95_nearest_cm": 0.12434855756308046
+      },
+      "candidates": [
+        {
+          "yaw_plane_normal_deg": -25.0,
+          "offset_cm": 1.5131319807626298,
+          "mean_nearest_cm": 26.549286951057304,
+          "p95_nearest_cm": 34.80087332870194
+        },
+        {
+          "yaw_plane_normal_deg": -24.0,
+          "offset_cm": 1.4617167706482448,
+          "mean_nearest_cm": 25.332721236324712,
+          "p95_nearest_cm": 33.59858495927965
+        },
+        {
+          "yaw_plane_normal_deg": -23.0,
+          "offset_cm": 1.4098563074455512,
+          "mean_nearest_cm": 24.107223553853483,
+          "p95_nearest_cm": 32.211952147044315
+        },
+        {
+          "yaw_plane_normal_deg": -22.0,
+          "offset_cm": 1.357566388354023,
+          "mean_nearest_cm": 22.876056894916974,
+          "p95_nearest_cm": 30.844132988567928
+        },
+        {
+          "yaw_plane_normal_deg": -21.0,
+          "offset_cm": 1.3048629413895654,
+          "mean_nearest_cm": 21.638108722610415,
+          "p95_nearest_cm": 29.511443481788035
+        },
+        {
+          "yaw_plane_normal_deg": -20.0,
+          "offset_cm": 1.2517620205326665,
+          "mean_nearest_cm": 20.39796632040952,
+          "p95_nearest_cm": 28.093441440438525
+        },
+        {
+          "yaw_plane_normal_deg": -19.0,
+          "offset_cm": 1.1982798008382218,
+          "mean_nearest_cm": 19.15698047459662,
+          "p95_nearest_cm": 26.790774210636616
+        },
+        {
+          "yaw_plane_normal_deg": -18.0,
+          "offset_cm": 1.1444325216801303,
+          "mean_nearest_cm": 17.920518022522113,
+          "p95_nearest_cm": 25.44761934709258
+        },
+        {
+          "yaw_plane_normal_deg": -17.0,
+          "offset_cm": 1.0902366918938426,
+          "mean_nearest_cm": 16.684940966908027,
+          "p95_nearest_cm": 24.070830402661755
+        },
+        {
+          "yaw_plane_normal_deg": -16.0,
+          "offset_cm": 1.0251151076114198,
+          "mean_nearest_cm": 15.447633652901459,
+          "p95_nearest_cm": 22.723570230586684
+        },
+        {
+          "yaw_plane_normal_deg": -15.0,
+          "offset_cm": 0.9430798289622864,
+          "mean_nearest_cm": 14.206728595938365,
+          "p95_nearest_cm": 21.264595048217593
+        },
+        {
+          "yaw_plane_normal_deg": -14.0,
+          "offset_cm": 0.8607572790614348,
+          "mean_nearest_cm": 12.955243565038828,
+          "p95_nearest_cm": 19.890576191325763
+        },
+        {
+          "yaw_plane_normal_deg": -13.0,
+          "offset_cm": 0.7781725341550363,
+          "mean_nearest_cm": 11.700830403550556,
+          "p95_nearest_cm": 18.52986266867737
+        },
+        {
+          "yaw_plane_normal_deg": -12.0,
+          "offset_cm": 0.6953507503564111,
+          "mean_nearest_cm": 10.451553586755905,
+          "p95_nearest_cm": 17.032615851546716
+        },
+        {
+          "yaw_plane_normal_deg": -11.0,
+          "offset_cm": 0.6123171559832059,
+          "mean_nearest_cm": 9.215462179397385,
+          "p95_nearest_cm": 15.558698937225282
+        },
+        {
+          "yaw_plane_normal_deg": -10.0,
+          "offset_cm": 0.542068274642947,
+          "mean_nearest_cm": 8.01073716317155,
+          "p95_nearest_cm": 14.066191042532427
+        },
+        {
+          "yaw_plane_normal_deg": -9.0,
+          "offset_cm": 0.4883331440523335,
+          "mean_nearest_cm": 6.844767433050008,
+          "p95_nearest_cm": 12.570030489216947
+        },
+        {
+          "yaw_plane_normal_deg": -8.0,
+          "offset_cm": 0.4337432954823619,
+          "mean_nearest_cm": 5.801151362135293,
+          "p95_nearest_cm": 11.130901896502465
+        },
+        {
+          "yaw_plane_normal_deg": -7.0,
+          "offset_cm": 0.3750748292045998,
+          "mean_nearest_cm": 4.853596679204755,
+          "p95_nearest_cm": 9.726673167253017
+        },
+        {
+          "yaw_plane_normal_deg": -6.0,
+          "offset_cm": 0.32170515087454277,
+          "mean_nearest_cm": 3.9989786310332476,
+          "p95_nearest_cm": 8.242616224643067
+        },
+        {
+          "yaw_plane_normal_deg": -5.0,
+          "offset_cm": 0.26823747803910436,
+          "mean_nearest_cm": 3.2748532717738317,
+          "p95_nearest_cm": 6.902362252578536
+        },
+        {
+          "yaw_plane_normal_deg": -4.0,
+          "offset_cm": 0.21468809746937723,
+          "mean_nearest_cm": 2.5891527646881505,
+          "p95_nearest_cm": 5.478290326431577
+        },
+        {
+          "yaw_plane_normal_deg": -3.0,
+          "offset_cm": 0.16107332082543024,
+          "mean_nearest_cm": 1.943390629898808,
+          "p95_nearest_cm": 4.071811843143992
+        },
+        {
+          "yaw_plane_normal_deg": -2.0,
+          "offset_cm": 0.1074094796876075,
+          "mean_nearest_cm": 1.3481843851061575,
+          "p95_nearest_cm": 2.7654032853177437
+        },
+        {
+          "yaw_plane_normal_deg": -1.0,
+          "offset_cm": 0.05371292058176991,
+          "mean_nearest_cm": 0.8271739296524544,
+          "p95_nearest_cm": 1.459505596764809
+        },
+        {
+          "yaw_plane_normal_deg": 0.0,
+          "offset_cm": 0.0,
+          "mean_nearest_cm": 0.015949240467222472,
+          "p95_nearest_cm": 0.12434855756308046
+        },
+        {
+          "yaw_plane_normal_deg": 1.0,
+          "offset_cm": -0.05371292021588303,
+          "mean_nearest_cm": 0.8328040488674235,
+          "p95_nearest_cm": 1.4843785120173516
+        },
+        {
+          "yaw_plane_normal_deg": 2.0,
+          "offset_cm": -0.10740947895594033,
+          "mean_nearest_cm": 1.348370874381943,
+          "p95_nearest_cm": 2.817448995138921
+        },
+        {
+          "yaw_plane_normal_deg": 3.0,
+          "offset_cm": -0.1610733197282066,
+          "mean_nearest_cm": 1.944986128563024,
+          "p95_nearest_cm": 4.162659828699623
+        },
+        {
+          "yaw_plane_normal_deg": 4.0,
+          "offset_cm": -0.21468809600693106,
+          "mean_nearest_cm": 2.599122479036065,
+          "p95_nearest_cm": 5.575002814084028
+        },
+        {
+          "yaw_plane_normal_deg": 5.0,
+          "offset_cm": -0.2682374762118833,
+          "mean_nearest_cm": 3.301884771631316,
+          "p95_nearest_cm": 7.00120474417935
+        },
+        {
+          "yaw_plane_normal_deg": 6.0,
+          "offset_cm": -0.3217051486831082,
+          "mean_nearest_cm": 4.0645721011155365,
+          "p95_nearest_cm": 8.43391500617694
+        },
+        {
+          "yaw_plane_normal_deg": 7.0,
+          "offset_cm": -0.37507482664961245,
+          "mean_nearest_cm": 4.91393716721872,
+          "p95_nearest_cm": 9.779179238361305
+        },
+        {
+          "yaw_plane_normal_deg": 8.0,
+          "offset_cm": -0.43374329548236545,
+          "mean_nearest_cm": 5.856008909185767,
+          "p95_nearest_cm": 11.221016021049152
+        },
+        {
+          "yaw_plane_normal_deg": 9.0,
+          "offset_cm": -0.4883331440523335,
+          "mean_nearest_cm": 6.906837713853465,
+          "p95_nearest_cm": 12.473974223254062
+        },
+        {
+          "yaw_plane_normal_deg": 10.0,
+          "offset_cm": -0.5420682746429435,
+          "mean_nearest_cm": 8.072372522262281,
+          "p95_nearest_cm": 14.007811886368959
+        },
+        {
+          "yaw_plane_normal_deg": 11.0,
+          "offset_cm": -0.6123171559832059,
+          "mean_nearest_cm": 9.28438941706395,
+          "p95_nearest_cm": 15.55687791241841
+        },
+        {
+          "yaw_plane_normal_deg": 12.0,
+          "offset_cm": -0.6953507503564111,
+          "mean_nearest_cm": 10.52120111276164,
+          "p95_nearest_cm": 17.094697931025127
+        },
+        {
+          "yaw_plane_normal_deg": 13.0,
+          "offset_cm": -0.7781725341550363,
+          "mean_nearest_cm": 11.767162020416373,
+          "p95_nearest_cm": 18.62943531562849
+        },
+        {
+          "yaw_plane_normal_deg": 14.0,
+          "offset_cm": -0.8607572790614384,
+          "mean_nearest_cm": 13.014475149341907,
+          "p95_nearest_cm": 20.162011070663723
+        },
+        {
+          "yaw_plane_normal_deg": 15.0,
+          "offset_cm": -0.9430798289622864,
+          "mean_nearest_cm": 14.259082641096255,
+          "p95_nearest_cm": 21.65398135519281
+        },
+        {
+          "yaw_plane_normal_deg": 16.0,
+          "offset_cm": -1.0251151076114198,
+          "mean_nearest_cm": 15.499241025997371,
+          "p95_nearest_cm": 23.073352026045235
+        },
+        {
+          "yaw_plane_normal_deg": 17.0,
+          "offset_cm": -1.0902366918938426,
+          "mean_nearest_cm": 16.733743648137168,
+          "p95_nearest_cm": 24.475107396560915
+        },
+        {
+          "yaw_plane_normal_deg": 18.0,
+          "offset_cm": -1.1444325216801268,
+          "mean_nearest_cm": 17.967814186239295,
+          "p95_nearest_cm": 25.75208557978283
+        },
+        {
+          "yaw_plane_normal_deg": 19.0,
+          "offset_cm": -1.1982798008382218,
+          "mean_nearest_cm": 19.20591906053445,
+          "p95_nearest_cm": 26.96354238455037
+        },
+        {
+          "yaw_plane_normal_deg": 20.0,
+          "offset_cm": -1.2517620205326665,
+          "mean_nearest_cm": 20.446220393483085,
+          "p95_nearest_cm": 28.34226373748354
+        },
+        {
+          "yaw_plane_normal_deg": 21.0,
+          "offset_cm": -1.3048629413895654,
+          "mean_nearest_cm": 21.683942842770072,
+          "p95_nearest_cm": 29.616276550490824
+        },
+        {
+          "yaw_plane_normal_deg": 22.0,
+          "offset_cm": -1.3575663883540265,
+          "mean_nearest_cm": 22.918599550588546,
+          "p95_nearest_cm": 31.039717634678034
+        },
+        {
+          "yaw_plane_normal_deg": 23.0,
+          "offset_cm": -1.4098563074455512,
+          "mean_nearest_cm": 24.149606004079423,
+          "p95_nearest_cm": 32.47030280537627
+        },
+        {
+          "yaw_plane_normal_deg": 24.0,
+          "offset_cm": -1.4617167706482448,
+          "mean_nearest_cm": 25.3739704162769,
+          "p95_nearest_cm": 33.80875494846976
+        },
+        {
+          "yaw_plane_normal_deg": 25.0,
+          "offset_cm": -1.5131319807626298,
+          "mean_nearest_cm": 26.59055513806415,
+          "p95_nearest_cm": 35.13181306686911
+        }
+      ]
+    }
+  },
+  "frame_changed": false,
+  "semantic_solve_repeated": false,
+  "limit": "Nearest-vertex reflection of selected surface regions is a diagnostic, not a symmetry-ground-truth or anatomy acceptance. Different regional yaw optima do not support silently rotating one limb or pose-normalising the source."
+}

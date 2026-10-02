@@ -1,0 +1,196 @@
+{
+  "samples": [
+    {
+      "time": 1790768137.6372914,
+      "components": [],
+      "errors": [
+        "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase2/capture_pie.py\", line 24, in <module>\n    item[bone] = str(comp.get_bone_location(bone, unreal.BoneSpaces.WORLD_SPACE))\n                     ^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SkeletalMeshComponent' object has no attribute 'get_bone_location'\n"
+      ],
+      "world": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest' (0x0000027E5C4D6200) Class 'World'>"
+    },
+    {
+      "time": 1790768203.935579,
+      "components": [
+        {
+          "name": "Manny_Source",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x0000027E58B5DC00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source.AnimSingleNodeInstance_1' (0x0000027D6343AF00) Class 'AnimSingleNodeInstance'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 0.227487, y: -265.355885, z: 84.375946}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -4.359931, y: -231.916002, z: 141.310840}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -4.359931, y: -231.916002, z: 141.310840}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 30.013401, y: -243.781943, z: 84.554643}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 9.294495, y: -294.162991, z: 53.380757}>"
+        },
+        {
+          "name": "Lara_UE5_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5' (0x0000027E7D976E00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_UE5_Target.ABP_Lara_UE5_Retarget_C_0' (0x0000027E11919C00) Class 'ABP_Lara_UE5_Retarget_C'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -44.454314, y: -1081.385403, z: 4958.440757}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -45.896050, y: -1069.331622, z: 4983.966629}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -45.896050, y: -1069.331622, z: 4983.966629}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -38.159778, y: -1067.132034, z: 4965.961385}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF83F30) {x: -39.112423, y: -1099.248811, z: 4938.804452}>"
+        },
+        {
+          "name": "Lara_Mixamo_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo' (0x0000027E7D976400) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_Mixamo_Target.ABP_Lara_Mixamo_Retarget_C_0' (0x0000027E1191A800) Class 'ABP_Lara_Mixamo_Retarget_C'>",
+          "Hips": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 0.583808, y: 251.696900, z: 56.371647}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: -1.023535, y: 259.147176, z: 83.517394}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: -1.023535, y: 259.147176, z: 83.517394}>",
+          "LeftHand": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 14.739311, y: 261.124600, z: 58.303953}>",
+          "LeftFoot": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 6.274408, y: 237.906304, z: 34.746271}>"
+        }
+      ],
+      "errors": [],
+      "world": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest' (0x0000027E5C4D6200) Class 'World'>"
+    },
+    {
+      "time": 1790768687.988727,
+      "components": [
+        {
+          "name": "Manny_Source",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF65140) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x0000027E58B5DC00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source.AnimSingleNodeInstance_1' (0x0000027E81BDAF00) Class 'AnimSingleNodeInstance'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF65140) {x: -0.483603, y: -265.225692, z: 89.588638}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF65140) {x: 3.493894, y: -234.338585, z: 148.115992}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF65140) {x: 3.493894, y: -234.338585, z: 148.115992}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF65140) {x: 25.253270, y: -254.887386, z: 106.981208}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF65140) {x: 7.413089, y: -232.520028, z: 18.090575}>"
+        },
+        {
+          "name": "Lara_UE5_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF65140) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5' (0x0000027E7D976E00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_UE5_Target.ABP_Lara_UE5_Retarget_C_0' (0x0000027EA34E9C00) Class 'ABP_Lara_UE5_Retarget_C'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF65140) {x: 1.328236, y: -14.018923, z: 5200.070571}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF65140) {x: 2.003886, y: -2.770210, z: 5225.993058}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF65140) {x: 2.003886, y: -2.770210, z: 5225.993058}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF65140) {x: 9.853057, y: -7.927953, z: 5246.022781}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF65140) {x: 5.175174, y: 10.845835, z: 5223.249603}>"
+        },
+        {
+          "name": "Lara_Mixamo_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo' (0x0000027E7D976400) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_Mixamo_Target.ABP_Lara_Mixamo_Retarget_C_0' (0x0000027EA34E1800) Class 'ABP_Lara_Mixamo_Retarget_C'>",
+          "Hips": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 0.593749, y: 251.735057, z: 56.340026}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 3.857276, y: 256.635760, z: 84.076571}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 3.857276, y: 256.635760, z: 84.076571}>",
+          "LeftHand": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 14.035296, y: 253.640778, z: 64.387227}>",
+          "LeftFoot": "<Struct 'Vector' (0x0000027E7FF67A30) {x: 6.000011, y: 277.726186, z: 20.978975}>"
+        }
+      ],
+      "errors": [],
+      "world": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest' (0x0000027E84FAD200) Class 'World'>"
+    },
+    {
+      "time": 1790769048.514517,
+      "components": [
+        {
+          "name": "Manny_Source",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x0000027E58B5DC00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source.AnimSingleNodeInstance_1' (0x0000027E8C767300) Class 'AnimSingleNodeInstance'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF82D10) {x: -1.221378, y: -265.381748, z: 86.470741}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 6.615485, y: -235.731983, z: 145.261311}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 6.615485, y: -235.731983, z: 145.261311}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 24.311938, y: -235.911314, z: 99.896862}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 4.764153, y: -248.950361, z: 8.398111}>"
+        },
+        {
+          "name": "Lara_UE5_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5' (0x0000027E7D976E00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_UE5_Target.ABP_Lara_UE5_Retarget_C_0' (0x0000027E11910000) Class 'ABP_Lara_UE5_Retarget_C'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E7FF82D10) {x: -0.718132, y: -9.049600, z: 50.872347}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 1.728998, y: 1.563816, z: 77.095962}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 1.728998, y: 1.563816, z: 77.095962}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 9.649271, y: 4.191244, z: 56.305769}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 3.220341, y: -0.148940, z: 6.937231}>"
+        },
+        {
+          "name": "Lara_Mixamo_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo' (0x0000027E7D976400) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_Mixamo_Target.ABP_Lara_Mixamo_Retarget_C_0' (0x0000027E11910C00) Class 'ABP_Lara_Mixamo_Retarget_C'>",
+          "Hips": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 0.621889, y: 251.747735, z: 56.357101}>",
+          "head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 4.077339, y: 258.189263, z: 83.734510}>",
+          "Head": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 4.077339, y: 258.189263, z: 83.734510}>",
+          "LeftHand": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 9.822816, y: 264.301670, z: 63.361447}>",
+          "LeftFoot": "<Struct 'Vector' (0x0000027E7FF83F30) {x: 1.911245, y: 267.941123, z: 14.457625}>"
+        }
+      ],
+      "errors": [],
+      "world": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest' (0x0000027E831D7E00) Class 'World'>"
+    },
+    {
+      "time": 1790769448.14551,
+      "components": [
+        {
+          "name": "Manny_Source",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E6390A310) {x: 0.000000, y: -250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+          "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x0000027E58B5DC00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Manny_Source.AnimSingleNodeInstance_1' (0x0000027E5EAE2300) Class 'AnimSingleNodeInstance'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E6390A310) {x: 1.701265, y: -265.372151, z: 83.356575}>",
+          "head": "<Struct 'Vector' (0x0000027E6390A310) {x: -2.610938, y: -234.646142, z: 141.829251}>",
+          "Head": "<Struct 'Vector' (0x0000027E6390A310) {x: -2.610938, y: -234.646142, z: 141.829251}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E6390A310) {x: 32.495290, y: -254.659755, z: 89.983955}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E6390A310) {x: 9.795195, y: -298.365582, z: 54.303753}>"
+        },
+        {
+          "name": "Lara_UE5_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E6390A310) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5' (0x0000027E7D976E00) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_UE5_Target.ABP_Lara_UE5_Retarget_C_0' (0x0000027E99636000) Class 'ABP_Lara_UE5_Retarget_C'>",
+          "pelvis": "<Struct 'Vector' (0x0000027E6390A310) {x: 1.001310, y: -9.043954, z: 49.040228}>",
+          "head": "<Struct 'Vector' (0x0000027E6390A310) {x: -0.165262, y: 1.966888, z: 75.211502}>",
+          "Head": "<Struct 'Vector' (0x0000027E6390A310) {x: -0.165262, y: 1.966888, z: 75.211502}>",
+          "hand_l": "<Struct 'Vector' (0x0000027E6390A310) {x: 14.731428, y: -4.831069, z: 51.492104}>",
+          "foot_l": "<Struct 'Vector' (0x0000027E6390A310) {x: 5.681752, y: -28.869705, z: 30.963582}>"
+        },
+        {
+          "name": "Lara_Mixamo_Target",
+          "visible": true,
+          "location": "<Struct 'Vector' (0x0000027E6390A540) {x: 0.000000, y: 250.000000, z: 0.000000}>",
+          "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+          "mesh": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo' (0x0000027E7D976400) Class 'SkeletalMesh'>",
+          "anim_instance": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0.Lara_Mixamo_Target.ABP_Lara_Mixamo_Retarget_C_0' (0x0000027E99639C00) Class 'ABP_Lara_Mixamo_Retarget_C'>",
+          "Hips": "<Struct 'Vector' (0x0000027E6390A540) {x: 0.567518, y: 251.688605, z: 56.381548}>",
+          "head": "<Struct 'Vector' (0x0000027E6390A540) {x: -2.079419, y: 258.250267, z: 83.835907}>",
+          "Head": "<Struct 'Vector' (0x0000027E6390A540) {x: -2.079419, y: 258.250267, z: 83.835907}>",
+          "LeftHand": "<Struct 'Vector' (0x0000027E6390A540) {x: 14.721165, y: 255.805223, z: 60.785426}>",
+          "LeftFoot": "<Struct 'Vector' (0x0000027E6390A540) {x: 6.398719, y: 235.210720, z: 35.895961}>"
+        }
+      ],
+      "errors": [],
+      "world": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest' (0x0000027EC98D4600) Class 'World'>"
+    }
+  ]
+}

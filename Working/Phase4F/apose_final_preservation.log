@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "protected_files": 3614,
+  "unexpected_changed": [],
+  "missing": [],
+  "unexpected_authored_outside_phase4f": [],
+  "authorised_shared_updates": [
+    "Documentation/Phase4F/HumanReviewInstructions.md",
+    "Documentation/Phase4F/Phase4FQualityGeneralisationGate.md",
+    "Documentation/Phase4F/phase_status.json",
+    "Documentation/Phase4F/product_generalisation_matrix.json"
+  ],
+  "historical_report_prefixes_byte_identical": {
+    "Phase4FQualityGeneralisationGate.md": true,
+    "HumanReviewInstructions.md": true
+  },
+  "bill_jill_control_files_protected": 71,
+  "bill_jill_control_files_unchanged": true,
+  "five_original_zip_sha256": {
+    "John": "f52193505c74f5200fa252db260769bad999d7f990b34e09260fd67360f2a27d",
+    "Jane": "791989d75aa9024ecc6c686623645cf82229f79d8bdcc932e27aaae6e91ae839",
+    "Bill": "2c3ffb40e26e956dcf3be0aa13df1515a2d8c3e206b588582e5108b2a6e1c505",
+    "Jill": "d46df5d1925b75515634f168128feff1c0bf0deb63cfd20d41d7b544367f1a93",
+    "Lara": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959"
+  },
+  "phase4d_human_ledger_unchanged": true,
+  "external_scope": "Engine source/external reference projects used read-only; no exhaustive external-tree baseline.",
+  "git_state": "Workspace has no .git; no staging, commit, push or branch/config changes."
+}

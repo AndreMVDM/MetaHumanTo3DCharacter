@@ -1,0 +1,297 @@
+{
+  "character": "Jane",
+  "archive": "Characters\\Jane_Textured_Unrigged.zip",
+  "sha256": "791989d75aa9024ecc6c686623645cf82229f79d8bdcc932e27aaae6e91ae839",
+  "bytes": 4915184,
+  "entries": [
+    {
+      "name": "Jane_Textured_Unrigged.fbx",
+      "bytes": 1757712,
+      "compressed_bytes": 1715141,
+      "crc32": 477820199,
+      "sha256": "747f97dbb44b555726ce8a197d4aa2019dd6e9f4e73b8d369cbce2c3e05a5da9"
+    },
+    {
+      "name": "Jane_Textured_Unrigged.fbm/Jane_Textured_Unrigged_basecolor.jpg",
+      "bytes": 3200487,
+      "compressed_bytes": 3199627,
+      "crc32": 1277461004,
+      "sha256": "6416897902131f695cc62d9601a4e65b38dd5ea8727a442a4db3efa6f30a6b63"
+    }
+  ],
+  "fbx": [
+    {
+      "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Jane\\Input\\Jane_Textured_Unrigged.fbx",
+      "version": 7400,
+      "global_settings": {
+        "UpAxis": [
+          1
+        ],
+        "UpAxisSign": [
+          1
+        ],
+        "FrontAxis": [
+          2
+        ],
+        "FrontAxisSign": [
+          1
+        ],
+        "CoordAxis": [
+          0
+        ],
+        "CoordAxisSign": [
+          1
+        ],
+        "OriginalUpAxis": [
+          -1
+        ],
+        "OriginalUpAxisSign": [
+          1
+        ],
+        "UnitScaleFactor": [
+          100.0
+        ],
+        "OriginalUnitScaleFactor": [
+          100.0
+        ],
+        "AmbientColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "DefaultCamera": [
+          "Producer Perspective"
+        ],
+        "TimeMode": [
+          11
+        ],
+        "TimeProtocol": [
+          2
+        ],
+        "SnapOnFrameMode": [
+          0
+        ],
+        "TimeSpanStart": [
+          0
+        ],
+        "TimeSpanStop": [
+          46186158000
+        ],
+        "CustomFrameRate": [
+          24.0
+        ],
+        "TimeMarker": [],
+        "CurrentTimeMarker": [
+          -1
+        ]
+      },
+      "object_counts": {
+        "Geometry": 1,
+        "Material": 1,
+        "Video": 1,
+        "Texture": 1,
+        "Model": 1
+      },
+      "models": [
+        {
+          "id": 1000005,
+          "name": "d14002ea_b2ef_4e4d_85fd_f6066181b733",
+          "kind": "Mesh",
+          "properties": {
+            "RotationActive": [
+              1
+            ],
+            "DefaultAttributeIndex": [
+              0
+            ],
+            "InheritType": [
+              1
+            ],
+            "UserProperties": [
+              ""
+            ],
+            "IsNull": [
+              0
+            ]
+          }
+        }
+      ],
+      "geometries": [
+        {
+          "id": 1000001,
+          "name": "d14002ea_b2ef_4e4d_85fd_f6066181b733",
+          "kind": "Mesh",
+          "control_points": 28328,
+          "polygon_count": 30279,
+          "polygon_vertices": 115667,
+          "raw_local_bounds": {
+            "min": [
+              -0.323974609375,
+              0.0,
+              -0.11499026417732239
+            ],
+            "max": [
+              0.323974609375,
+              0.99951171875,
+              0.11499026417732239
+            ]
+          },
+          "layers": [
+            "LayerElementNormal",
+            "LayerElementUV",
+            "LayerElementMaterial"
+          ],
+          "uv_layers": [
+            {
+              "name": "LayerElementUV",
+              "uv_pairs": 51150
+            }
+          ]
+        }
+      ],
+      "deformers": [],
+      "materials": [
+        {
+          "id": 1000002,
+          "name": "d14002ea_b2ef_4e4d_85fd_f6066181b733",
+          "kind": "",
+          "properties": {
+            "AmbientColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "DiffuseColor": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "TransparentColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "TransparencyFactor": [
+              1.0
+            ],
+            "ReflectionColor": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "ReflectionFactor": [
+              0.0
+            ],
+            "SpecularColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ShininessFactor": [
+              0.25
+            ],
+            "ShininessExponent": [
+              25.0
+            ],
+            "Emissive": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Ambient": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Diffuse": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "Opacity": [
+              1.0
+            ],
+            "Specular": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Shininess": [
+              25.0
+            ],
+            "Reflectivity": [
+              0.0
+            ]
+          },
+          "fields": {}
+        }
+      ],
+      "textures": [
+        {
+          "id": 1000004,
+          "name": "base_color_texture",
+          "kind": "",
+          "properties": {
+            "Translation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scaling": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "CurrentTextureBlendMode": [
+              0
+            ],
+            "UseMaterial": [
+              1
+            ]
+          },
+          "fields": {
+            "FileName": [
+              "Jane_Textured_Unrigged.fbm/Jane_Textured_Unrigged_basecolor.jpg"
+            ],
+            "RelativeFilename": [
+              "Jane_Textured_Unrigged.fbm/Jane_Textured_Unrigged_basecolor.jpg"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        [
+          "OP",
+          1000004,
+          1000002,
+          "DiffuseColor"
+        ],
+        [
+          "OO",
+          1000003,
+          1000004
+        ],
+        [
+          "OO",
+          1000005,
+          0
+        ],
+        [
+          "OO",
+          1000001,
+          1000005
+        ],
+        [
+          "OO",
+          1000002,
+          1000005
+        ]
+      ]
+    }
+  ]
+}

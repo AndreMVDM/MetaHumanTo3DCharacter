@@ -1,0 +1,9 @@
+Begin Object Class=/Script/Engine.Skeleton Name="Starfish_Skeleton" ExportPath="/Script/Engine.Skeleton'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton.Starfish_Skeleton'"
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton.Starfish_Skeleton:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton.Starfish_Skeleton:AnimCurveMetaData_0'"
+   End Object
+   BoneTree(21)=()
+   PreviewSkeletalMesh="/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

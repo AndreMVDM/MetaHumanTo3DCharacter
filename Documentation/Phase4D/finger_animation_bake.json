@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "measured_results": {
+    "samples": 22,
+    "duration_s": 11.0,
+    "digit_order": [
+      "thumb_l",
+      "index_l",
+      "middle_l",
+      "ring_l",
+      "pinky_l",
+      "thumb_r",
+      "index_r",
+      "middle_r",
+      "ring_r",
+      "pinky_r"
+    ],
+    "source_rotation": "45 degree sinusoidal local-Z flex of each three-phalange chain, one digit at a time; other tracks held at idle pose"
+  },
+  "anatomical_edits": [],
+  "assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MannyFingerIdentity.MannyFingerIdentity"
+  ],
+  "source_fixture": "/Game/MetaHumanTo3DCharacter/Phase4D/Authoring/MannyFingerIdentity.MannyFingerIdentity",
+  "meaning": "diagnostic capability and identity probe, not a human correction or production finger animation"
+}

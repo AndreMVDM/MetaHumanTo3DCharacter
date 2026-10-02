@@ -1,0 +1,81 @@
+{
+  "id": 136,
+  "utc_epoch": 1790836919.5045485,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "thumb_l"
+    ],
+    "judgement": "accept",
+    "category": "actual anatomical misplacement",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113",
+    "reviewed_positions": {
+      "thumb_l": {
+        "side": "l",
+        "digit": "thumb",
+        "track_id": "digit_branch_5_l",
+        "root_cm": [
+          28.705373015057752,
+          12.530293329007353,
+          90.6
+        ],
+        "tip_cm": [
+          27.96139938683256,
+          13.584563824085087,
+          87.6
+        ],
+        "path_cm": [
+          [
+            28.705373015057752,
+            12.530293329007353,
+            90.6
+          ],
+          [
+            28.44590078795668,
+            12.877513670074691,
+            89.6
+          ],
+          [
+            28.2770041432562,
+            13.034756116211693,
+            88.6
+          ],
+          [
+            27.96139938683256,
+            13.584563824085087,
+            87.6
+          ]
+        ],
+        "phalanges_cm": [
+          [
+            28.705373015057752,
+            12.530293329007353,
+            90.6
+          ],
+          [
+            28.340047282813906,
+            12.976063076490332,
+            88.97326460611166
+          ],
+          [
+            28.125953716721575,
+            13.297897552124729,
+            88.12139369429569
+          ]
+        ],
+        "donor_length_fractions": [
+          0,
+          0.5251527706846544,
+          0.8129389702697124
+        ],
+        "ambiguity_flags": [
+          "track_identity_and_root_tip_require_human_review",
+          "section_track_may_be_partial",
+          "phalange_interpolation_requires_review"
+        ]
+      }
+    }
+  }
+}

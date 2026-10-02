@@ -1,0 +1,14 @@
+{
+  "protected_baseline_files": 3614,
+  "unexpected_changed": [],
+  "missing": [],
+  "historically_authorised_shared_changes": [
+    "Documentation/Phase4F/HumanReviewInstructions.md",
+    "Documentation/Phase4F/Phase4FQualityGeneralisationGate.md",
+    "Documentation/Phase4F/phase_status.json",
+    "Documentation/Phase4F/product_generalisation_matrix.json"
+  ],
+  "current_turn_scope": "Only new Phase4F diagnosis scripts/artifacts authored; 385 current files also frozen.",
+  "Bill_Jill_originals_and_Phase4D_preserved": true,
+  "external_engine_reference_scope": "Not exhaustively hashed; no writes issued."
+}

@@ -1,0 +1,96 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BPI_PlayerInteraction" ExportPath="/Script/Engine.Blueprint'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction'"
+   Begin Object Class=/Script/Engine.EdGraph Name="OnPlayerInteractRelease" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteractRelease'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteractRelease.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="OnPlayerStopHover" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerStopHover'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerStopHover.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="OnPlayerHover" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionResult'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover.K2Node_FunctionResult_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="OnPlayerInteract" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteract'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteract.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Name="OnPlayerInteractRelease" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteractRelease'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteractRelease.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="OnPlayerInteractRelease")
+         bIsEditable=True
+         NodeGuid=0ECFD09A4F3327DD8EECCD9A682BFF5A
+         CustomProperties Pin (PinId=AA0BEC7C4A57E5B8640B7D959E23DE5B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=151CF7D84D7BC7E9258FE38D8E491A07
+   End Object
+   Begin Object Name="OnPlayerStopHover" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerStopHover'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerStopHover.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="OnPlayerStopHover")
+         bIsEditable=True
+         NodeGuid=F37D3D104F4033606AE8A69BE1CC81AB
+         CustomProperties Pin (PinId=15633696463E0B61F5B8688F59283F36,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=E5096D6F433DC11406D157B74025A68E
+   End Object
+   Begin Object Name="OnPlayerHover" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover'"
+      Begin Object Name="K2Node_FunctionResult_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionResult'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover.K2Node_FunctionResult_0'"
+         FunctionReference=(MemberName="OnPlayerHover")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=AC4E085C459B680754EB5E9AB35EE98A
+         CustomProperties Pin (PinId=B33299FE46F59ABCA5367F935F96E627,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 8D00D1994CD2C41E12826798C01650AF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BFDA91D8452C520E02BB17A6912D7131,PinName="InteractText",PinType.PinCategory="text",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="InteractText",PinType=(PinCategory="text"),DesiredPinDirection=EGPD_Input)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="OnPlayerHover")
+         bIsEditable=True
+         NodeGuid=A1D37A144560BB2ADED1E7B0E37D8C98
+         CustomProperties Pin (PinId=8D00D1994CD2C41E12826798C01650AF,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_0 B33299FE46F59ABCA5367F935F96E627,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=618E1D1F47C470DB62CA149EDD9DF83E,PinName="HitResult",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.HitResult'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="HitResult",PinType=(PinCategory="struct",PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.HitResult'"),DesiredPinDirection=EGPD_Output)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_FunctionResult'K2Node_FunctionResult_0'"
+      GraphGuid=7CB15630402D010BCFAB5797118B766F
+   End Object
+   Begin Object Name="OnPlayerInteract" ExportPath="/Script/Engine.EdGraph'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteract'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteract.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="OnPlayerInteract")
+         bIsEditable=True
+         NodeGuid=80A2E24B4A8B06D669CF14861BDC97FB
+         CustomProperties Pin (PinId=5C00FEF64ABDECA0FA893D8C01B9574D,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=75563FC0402F675435E2B68B9E1E706D,PinName="HitResult",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.HitResult'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="HitResult",PinType=(PinCategory="struct",PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.HitResult'"),DesiredPinDirection=EGPD_Output)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=6C4195F84A4EC7E61A3A4DAB7D605916
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/CoreUObject.Interface'"
+   BlueprintType=BPTYPE_Interface
+   BlueprintSystemVersion=2
+   FunctionGraphs(0)="/Script/Engine.EdGraph'OnPlayerInteract'"
+   FunctionGraphs(1)="/Script/Engine.EdGraph'OnPlayerHover'"
+   FunctionGraphs(2)="/Script/Engine.EdGraph'OnPlayerStopHover'"
+   FunctionGraphs(3)="/Script/Engine.EdGraph'OnPlayerInteractRelease'"
+   CategorySorting(0)=""
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerHover",SavedViewOffset=(X=-563.705933,Y=-281.625000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerInteract",SavedViewOffset=(X=-570.205933,Y=-281.625000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(2)=(EditedObjectPath="/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction.BPI_PlayerInteraction:OnPlayerStopHover",SavedViewOffset=(X=-570.205933,Y=-281.625000),SavedZoomAmount=1.000000)
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BPI_PlayerInteraction_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=3AD44F4A41DC9C81C4C830947CE29E48
+End Object

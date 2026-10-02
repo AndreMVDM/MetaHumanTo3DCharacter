@@ -1,0 +1,610 @@
+{
+  "comparison": {
+    "Bill": {
+      "source_pose": "T",
+      "anatomy_checks_passed": 65,
+      "anatomy_checks_total": 106,
+      "body_roles_requiring_review": 19,
+      "shoulder_envelope_failures": 0,
+      "elbow_envelope_failures": 1,
+      "wrist_envelope_failures": 2,
+      "bilateral_mismatch_max_cm": 6.144888152757775,
+      "bilateral_role_mismatch_cm": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 1.1292500736867848
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 1.2263985901457914
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 5.171174620466776
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 6.144888152757775
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 2.1442782624454915
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 2.492538285814919
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 2.089705263287747
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 1.9797645390497252
+        }
+      ],
+      "finger_tracks_detected": {
+        "l": 5,
+        "r": 5
+      },
+      "downstream_authorised": false,
+      "arm_envelope_checks": {
+        "upperarm_l": {
+          "name": "surface_envelope_upperarm_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              20.379064559936523,
+              -9.836777687072754,
+              147.22801208496094
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "upperarm_r": {
+          "name": "surface_envelope_upperarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -19.202388763427734,
+              -9.802629470825195,
+              147.57199096679688
+            ],
+            "enclosing_contour_count": 2
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_l": {
+          "name": "surface_envelope_lowerarm_l",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              16.89238166809082,
+              -8.555520057678223,
+              118.21656799316406
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_r": {
+          "name": "surface_envelope_lowerarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -12.089179039001465,
+              -10.146427154541016,
+              119.28395080566406
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_l": {
+          "name": "surface_envelope_hand_l",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              23.53932762145996,
+              7.196693420410156,
+              96.1961441040039
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_r": {
+          "name": "surface_envelope_hand_r",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              -19.890789031982422,
+              2.2902326583862305,
+              95.58421325683594
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        }
+      },
+      "donor_wrist_positions_cm": {
+        "l": [
+          23.53932762145996,
+          7.196693420410156,
+          96.1961441040039
+        ],
+        "r": [
+          -19.890789031982422,
+          2.2902326583862305,
+          95.58421325683594
+        ]
+      }
+    },
+    "John": {
+      "source_pose": "A",
+      "anatomy_checks_passed": 66,
+      "anatomy_checks_total": 106,
+      "body_roles_requiring_review": 19,
+      "shoulder_envelope_failures": 0,
+      "elbow_envelope_failures": 0,
+      "wrist_envelope_failures": 0,
+      "bilateral_mismatch_max_cm": 1.5952483838978728,
+      "bilateral_role_mismatch_cm": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 0.06443589843721421
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 0.30958578631107664
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 0.17877958255902102
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 0.13442827791277667
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 0.18278532106012962
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 0.5475039426532022
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 0.24950704265217863
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 1.5952483838978728
+        }
+      ],
+      "finger_tracks_detected": {
+        "l": 5,
+        "r": 5
+      },
+      "downstream_authorised": false,
+      "arm_envelope_checks": {
+        "upperarm_l": {
+          "name": "surface_envelope_upperarm_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              23.37337875366211,
+              -8.953336715698242,
+              138.05743408203125
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "upperarm_r": {
+          "name": "surface_envelope_upperarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -23.43759536743164,
+              -8.665414810180664,
+              138.15135192871094
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_l": {
+          "name": "surface_envelope_lowerarm_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              34.438514709472656,
+              -10.179544448852539,
+              111.53286743164062
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_r": {
+          "name": "surface_envelope_lowerarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -34.37824630737305,
+              -10.039040565490723,
+              111.62554168701172
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_l": {
+          "name": "surface_envelope_hand_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              42.01698684692383,
+              -3.2924795150756836,
+              88.38768768310547
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_r": {
+          "name": "surface_envelope_hand_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -42.050960540771484,
+              -3.3462963104248047,
+              88.26927947998047
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        }
+      },
+      "donor_wrist_positions_cm": {
+        "l": [
+          42.01698684692383,
+          -3.2924795150756836,
+          88.38768768310547
+        ],
+        "r": [
+          -42.050960540771484,
+          -3.3462963104248047,
+          88.26927947998047
+        ]
+      },
+      "wrist_to_source_narrowing_proxy_cm": {
+        "l": 1.6600847033058221,
+        "r": 1.763729733415286
+      },
+      "elbow_to_source_section_proxy_cm": {
+        "l": 3.7045170604864563,
+        "r": 3.6099149564858592
+      }
+    },
+    "Jill": {
+      "source_pose": "T",
+      "anatomy_checks_passed": 62,
+      "anatomy_checks_total": 106,
+      "body_roles_requiring_review": 19,
+      "shoulder_envelope_failures": 2,
+      "elbow_envelope_failures": 2,
+      "wrist_envelope_failures": 2,
+      "bilateral_mismatch_max_cm": 20.622065473039516,
+      "bilateral_role_mismatch_cm": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 0.5504765949856625
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 0.589761936655872
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 11.212276186257903
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 20.622065473039516
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 0.8052503233027413
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 1.0237151395240391
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 1.8439026861139793
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 1.572369847134839
+        }
+      ],
+      "finger_tracks_detected": {
+        "l": 5,
+        "r": 5
+      },
+      "downstream_authorised": false,
+      "arm_envelope_checks": {
+        "upperarm_l": {
+          "name": "surface_envelope_upperarm_l",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              15.118847846984863,
+              -2.7920451164245605,
+              145.8328857421875
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "upperarm_r": {
+          "name": "surface_envelope_upperarm_r",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              -15.615513801574707,
+              -3.070885181427002,
+              145.67994689941406
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_l": {
+          "name": "surface_envelope_lowerarm_l",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              25.775009155273438,
+              -4.2768754959106445,
+              118.51973724365234
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_r": {
+          "name": "surface_envelope_lowerarm_r",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              -28.48201560974121,
+              6.295717716217041,
+              121.09024810791016
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_l": {
+          "name": "surface_envelope_hand_l",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              39.57374572753906,
+              10.024004936218262,
+              99.26380920410156
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_r": {
+          "name": "surface_envelope_hand_r",
+          "pass": false,
+          "measured": {
+            "position_cm": [
+              -43.10472106933594,
+              27.127429962158203,
+              110.23078918457031
+            ],
+            "enclosing_contour_count": 0
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        }
+      },
+      "donor_wrist_positions_cm": {
+        "l": [
+          39.57374572753906,
+          10.024004936218262,
+          99.26380920410156
+        ],
+        "r": [
+          -43.10472106933594,
+          27.127429962158203,
+          110.23078918457031
+        ]
+      }
+    },
+    "Jane": {
+      "source_pose": "A",
+      "anatomy_checks_passed": 65,
+      "anatomy_checks_total": 106,
+      "body_roles_requiring_review": 19,
+      "shoulder_envelope_failures": 0,
+      "elbow_envelope_failures": 0,
+      "wrist_envelope_failures": 0,
+      "bilateral_mismatch_max_cm": 17.777317961035617,
+      "bilateral_role_mismatch_cm": [
+        {
+          "role": "clavicle_l",
+          "difference_cm": 2.7594156490375497
+        },
+        {
+          "role": "upperarm_l",
+          "difference_cm": 9.438311996721174
+        },
+        {
+          "role": "lowerarm_l",
+          "difference_cm": 15.901685582063147
+        },
+        {
+          "role": "hand_l",
+          "difference_cm": 17.777317961035617
+        },
+        {
+          "role": "thigh_l",
+          "difference_cm": 8.763006920979912
+        },
+        {
+          "role": "calf_l",
+          "difference_cm": 5.455231906064755
+        },
+        {
+          "role": "foot_l",
+          "difference_cm": 4.2166567174977745
+        },
+        {
+          "role": "ball_l",
+          "difference_cm": 5.45777284114686
+        }
+      ],
+      "finger_tracks_detected": {
+        "l": 5,
+        "r": 5
+      },
+      "downstream_authorised": false,
+      "arm_envelope_checks": {
+        "upperarm_l": {
+          "name": "surface_envelope_upperarm_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              15.634757041931152,
+              -7.618954181671143,
+              139.66326904296875
+            ],
+            "enclosing_contour_count": 2
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "upperarm_r": {
+          "name": "surface_envelope_upperarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -10.558460235595703,
+              -0.04858207702636719,
+              137.21328735351562
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_l": {
+          "name": "surface_envelope_lowerarm_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              32.054290771484375,
+              -14.273361206054688,
+              114.91921997070312
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "lowerarm_r": {
+          "name": "surface_envelope_lowerarm_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -29.752357482910156,
+              1.4607744216918945,
+              114.87818908691406
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_l": {
+          "name": "surface_envelope_hand_l",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              47.22541809082031,
+              -7.9305338859558105,
+              95.26244354248047
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        },
+        "hand_r": {
+          "name": "surface_envelope_hand_r",
+          "pass": true,
+          "measured": {
+            "position_cm": [
+              -44.67045593261719,
+              9.584620475769043,
+              96.91307067871094
+            ],
+            "enclosing_contour_count": 1
+          },
+          "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+          "kind": "hard"
+        }
+      },
+      "donor_wrist_positions_cm": {
+        "l": [
+          47.22541809082031,
+          -7.9305338859558105,
+          95.26244354248047
+        ],
+        "r": [
+          -44.67045593261719,
+          9.584620475769043,
+          96.91307067871094
+        ]
+      },
+      "wrist_to_source_narrowing_proxy_cm": {
+        "l": 2.468700618157726,
+        "r": 3.63196074093794
+      },
+      "elbow_to_source_section_proxy_cm": {
+        "l": 1.4815834098099574,
+        "r": 1.111903005656056
+      }
+    }
+  },
+  "method": "Identical retained 106-check starting anatomy gate; envelope tolerance +/-0.8 cm, mirrored-role max <6cm; no review approvals. New source surface anchors were measured before donor solve.",
+  "interpretation_limits": "Different meshes/proportions/topology, source arm angles and Jane fore/aft asymmetry confound attribution. An envelope pass is a coarse numerical improvement, not anatomical truth or proven correction savings. Finger track count is neither identity nor surface-support acceptance."
+}

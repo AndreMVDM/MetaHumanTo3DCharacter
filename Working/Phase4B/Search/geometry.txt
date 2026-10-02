@@ -1,0 +1,819 @@
+D:\Epic Games\UE_5.8\Engine\Plugins\2D\Paper2D\Source\Paper2D\Private\Terrain\PaperTerrainComponent.cpp:559:			// Add body segments
+D:\Epic Games\UE_5.8\Engine\Plugins\2D\Paper2D\Source\Paper2D\Private\Terrain\PaperTerrainComponent.cpp:585:				// Stretch body segments
+D:\Epic Games\UE_5.8\Engine\Source\Programs\UnrealBuildTool\Configuration\Rules\TargetRules.cs:1410:		/// Whether to compile with navmesh segment links.
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:2493:					auto RightBlock = SingletonBlock(BlockStart, RightExpr);
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:2798:					auto RightSyntax = Gen.Leading(Leading, ApplyTrailing(LessExpr));
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:3172:					auto RightBlock =
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:3236:		auto RightExpr =
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:3373:		auto RightStart = Cursor;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Public\uLang\Parser\VerseGrammar.h:3378:				auto RightBlock = SingletonBlock(RightStart, RightExpr);
+D:\Epic Games\UE_5.8\Engine\Plugins\Editor\ProxyLODPlugin\Source\ProxyLOD\Private\ProxyLODMeshParameterization.h:11:*  In mesh segmentation (charts and atlases) and parameterization (generating UVs ) we rely 
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\VerseCompiler\Private\uLang\SemanticAnalyzer\SemanticAnalyzer.cpp:124:    auto RightFirst = Rights.end();
+D:\Epic Games\UE_5.8\Engine\Plugins\Importers\USDImporter\Source\USDSchemas\Private\USDGeomPointInstancerTranslator.cpp:447:		// We "link" the prototype meshes to the point instancer, but we don't know which mesh corresponds to each
+D:\Epic Games\UE_5.8\Engine\Plugins\TextureGraph\Source\TextureGraphEngine\Transform\Expressions\T_ExtractMaterialIds.cpp:115:				auto RightPixelIndex = FMath::Min(j + 1, Height - 1) * Width + i;
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\IKRig\Source\IKRigEditor\Private\RigEditor\IKRigEditorController.cpp:578:		// notify user that no skeleton template was used
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\Water\Source\Runtime\Private\WaterMeshSceneProxy.cpp:1022:	BaseMesh.SegmentIndex = 0;
+D:\Epic Games\UE_5.8\Engine\Source\Editor\UnrealEd\UnrealEd.Build.cs:367:				PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=1");
+D:\Epic Games\UE_5.8\Engine\Source\Editor\UnrealEd\UnrealEd.Build.cs:371:				PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=0");
+D:\Epic Games\UE_5.8\Engine\Source\Editor\UnrealEd\UnrealEd.Build.cs:387:			PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=0");
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:6754:	if (UFKControlRig* AutoRig = Cast<UFKControlRig>(Track->GetControlRig()))
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:6764:					FExecuteAction::CreateRaw(this, &FControlRigParameterTrackEditor::SelectFKBonesToAnimate, AutoRig, Track)));
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:6898:	SLATE_ATTRIBUTE(UFKControlRig*, AutoRig)
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:6905:		AutoRig = InArgs._AutoRig.Get();
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7020:		Collector.AddReferencedObject(AutoRig);
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7101:		if (bValid && AutoRig)
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7131:			AutoRig->SetControlActive(BoneCheckArray);
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7141:	TObjectPtr<UFKControlRig> AutoRig;
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7146:void FControlRigParameterTrackEditor::SelectFKBonesToAnimate(UFKControlRig* AutoRig, UMovieSceneControlRigParameterTrack* Track)
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7148:	if (AutoRig)
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7162:			.AutoRig(AutoRig)
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7166:		TArray<FName> ControlRigNames = AutoRig->GetControlNames();
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7173:			Info.bActive = AutoRig->GetControlActive(Index);
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7586:	UFKControlRig* AutoRig = Cast<UFKControlRig>(ControlRig);
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\Private\Sequencer\ControlRigParameterTrackEditor.cpp:7587:	if (AutoRig || ControlRig->SupportsEvent(FRigUnit_InverseExecution::EventName))
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRig\Private\Sequencer\MovieSceneControlRigParameterSection.cpp:4304:	UFKControlRig* AutoRig = Cast<UFKControlRig>(ControlRig);
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRig\Private\Sequencer\MovieSceneControlRigParameterSection.cpp:4305:	if (!AutoRig && !ControlRig->SupportsEvent(FRigUnit_InverseExecution::EventName))
+D:\Epic Games\UE_5.8\Engine\Plugins\Animation\ControlRig\Source\ControlRig\Private\Sequencer\MovieSceneControlRigParameterSection.cpp:4422:		EvaluationOptions.bShouldRetarget = (EvaluationOptions.OptionalSkeletalMesh && AutoRig == nullptr) ? LoadData.bShouldRetarget : false;
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\CableComponent\Source\CableComponent\Private\CableComponent.cpp:318:			Mesh.SegmentIndex = 0;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Renderer\Private\Lumen\LumenHardwareRayTracingCommon.cpp:98:	TEXT("1 - Rays will execute any-hit shaders on masked geometry and support shadow casting settings on mesh segments (default)\n")
+D:\Epic Games\UE_5.8\Engine\Plugins\VirtualProduction\CinematicAssemblyTools\Source\CineAssemblyToolsEditor\Private\UI\CineAssembly\SCineAssemblyAssetTreeView.cpp:1009:				OriginText = FText::Format(LOCTEXT("TemplateOriginText", "from {0}"), FText::FromString(TemplateObject->GetName()));
+D:\Epic Games\UE_5.8\Engine\Plugins\VirtualProduction\CinematicAssemblyTools\Source\CineAssemblyToolsEditor\Private\Sequencer\SubAssemblySection.cpp:184:			return FText::Format(LOCTEXT("TemplateOriginText", "from {0}"), FText::FromString(TemplateObject->GetName()));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanCloudServicesSettings.h:50:	FString AutorigServiceUrl;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:52:	class FAutoRigServiceRequest;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:53:	class FAutorigResponse
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:55:		friend class FAutoRigServiceRequest;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:56:		FAutorigResponse(const TArray<uint8>& Content)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:78:	* Request to autorig service
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:86:	class FAutoRigServiceRequest final
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:90:		FAutoRigServiceRequest() = default;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:92:		DECLARE_DELEGATE_OneParam(FAutorigRequestCompleteDelegate, const FAutorigResponse& Response);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:93:		FAutorigRequestCompleteDelegate AutorigRequestCompleteDelegate;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:95:		// create a new autorig service request for a mesh
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Public\Cloud\MetaHumanARServiceRequest.h:96:		static UE_API TSharedRef<FAutoRigServiceRequest> CreateRequest(const FTargetSolveParameters& InSolveParams);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Verification\VerifyMetaHumanGroom.cpp:77:	// Check if we have valid UV data for strand to mesh correspondence
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\UI\SMetaHumanAuthenticationMenuButton.cpp:26:	static const FText NoUserIDText = LOCTEXT("AuthenticationMenu_NoIDLabel", "please autorig to trigger log-in flow");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\UI\SMetaHumanAuthenticationMenuButton.cpp:27:	static const FText NoUserSignedInToolTipText = LOCTEXT("AuthenticationMenu_NoUserToolTipText", "No user signed in, please autorig to trigger log-in flow");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:27:DEFINE_LOG_CATEGORY_STATIC(LogAutorigServiceRequest, Log, All)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:29:static TAutoConsoleVariable<bool> CVarSaveAutorigProtobuffers(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:30:	TEXT("MetaHuman.Cloud.Autorig.SaveProtobuffers"),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:36:static TAutoConsoleVariable<bool> CVarAutorigUseDdc(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:37:	TEXT("MetaHuman.Cloud.Autorig.UseDdc"),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:39:	TEXT("Enable or disable using DDC for autorig requests"),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:50:	struct FAutorigRequestContext : FRequestContextBase
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:52:		FAutorigRequestContext(TSharedRef<FMetaHumanServiceRequestBase> Owner)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:60:	void FAutoRigServiceRequest::RequestSolveAsync()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:62:		TSharedPtr<FAutorigRequestContext> RequestContext = MakeShared<FAutorigRequestContext>(AsShared());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:77:						UE_LOGFMT(LogAutorigServiceRequest, Warning, "Invalid FVector input to autorigger");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:124:			metahuman_service_api::AutorigRequest ProtoRequest;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:185:		// check the DDC first, in case the user has just requested a new autorig when nothig has really changed
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:191:		if( CVarSaveAutorigProtobuffers.GetValueOnAnyThread() )
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:197:#define AUTORIGSERVICE_DERIVEDDATA_VER TEXT("UEMHCAR_41a2767b4ae049ecb5a4bea25afdb736_")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:198:		FString CacheKey = AUTORIGSERVICE_DERIVEDDATA_VER + HashedPayloadStr;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:200:		if (CVarAutorigUseDdc.GetValueOnAnyThread())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:222:	TSharedRef<FAutoRigServiceRequest> FAutoRigServiceRequest::CreateRequest(const FTargetSolveParameters& InSolveParams)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:224:		TSharedRef<FAutoRigServiceRequest> Request = MakeShared<FAutoRigServiceRequest>();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:229:	bool FAutoRigServiceRequest::DoBuildRequest(TSharedRef<IHttpRequest> HttpRequest, FRequestContextBasePtr Context)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:231:		FAutorigRequestContext* RequestContext = reinterpret_cast<FAutorigRequestContext*>(Context.Get());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:234:		HttpRequest->SetURL(Settings->AutorigServiceUrl);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:241:	void FAutoRigServiceRequest::OnRequestCompleted(const TArray<uint8>& Content, FRequestContextBasePtr Context)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:243:		FAutorigRequestContext* RequestContext = reinterpret_cast<FAutorigRequestContext*>(Context.Get());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:244:		FAutorigResponse Response(Content);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:247:			if (CVarAutorigUseDdc.GetValueOnAnyThread())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:252:					UpdateCacheAsync(RequestContext->CacheKey, FSharedString(TEXT("MetaHumanAutorigService")), SharedBuffer);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:255:			AutorigRequestCompleteDelegate.ExecuteIfBound(Response);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:259:			UE_LOGFMT(LogAutorigServiceRequest, Error, "Service returned invalid DNA");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Source\MetaHumanSDKEditor\Private\Cloud\MetaHumanARServiceRequest.cpp:266:	bool FAutorigResponse::ReadDna()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanSDK\Config\DefaultMetaHumanSDK.ini:6:AutorigServiceUrl = "https://mh-uemhc-autorig-service.eeeb.live.use1a.on.epicgames.com/v1/autorigs"
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCrowd\Source\MetaHumanCrowdEditor\Private\MetaHumanCrowdSkeletonPickerDialog.cpp:85:			"Failed to duplicate target skeleton template {Template} to {Path}",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCrowd\Source\MetaHumanCrowdEditor\Private\MetaHumanCrowdEditorPipeline.cpp:2341:				"Crowd pipeline {Pipeline} has no Target Skeleton set, and the Target Skeleton Template {Template} could not be loaded.",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCrowd\Source\MetaHumanCrowdEditor\Private\MetaHumanCrowdEditorPipeline.cpp:2349:		if (!UE::MetaHuman::CrowdEditor::PromptForTargetSkeleton(Template, CollectionFolder, ChosenSkeleton)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanIdentityErrorCode.h:50:enum class EAutoRigIdentityValidationError : uint8
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanConformer.h:262:			* Refine the teeth placement provided as output from the autorigging service so that they are in a better starting position
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanConformer.h:264:			* @param[in] InRawDNAPlusDeltaDNABuffer: a buffer containing the raw DNA plus delta DNA from the autorigging service (unscaled)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanConformer.h:265:			* @param[in] InRawDNABuffer: a buffer containing the raw DNA returned from the autorigging service (to be used as reference)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanCharacterIdentity.h:296:	 * Note that this leaves the Identity in a state where it needs autorigging. Returns true if successful, false if not
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanCharacterIdentity.h:302:	 * Note that this leaves the Identity in a state where it needs autorigging. Returns true if successful, false if not
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanCharacterIdentity.h:324:	 * Note that this leaves the Identity in a state where it needs autorigging. Returns true if successful, false otherwise (for example if the DNA selected is not appropriate)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanCharacterIdentity.h:337:	UE_API void WriteDebugAutoriggingData(const FString& DirectoryPath) const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Public\MetaHumanCharacterBodyIdentity.h:62:	bool bAutoRigHelperJoints = true;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\rigmorpher\src\RigMorphModule.cpp:1071:        const auto rigMeshVertices = rigGeometry->GetMesh(meshIndex).Vertices();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\rigmorpher\src\RigMorphModule.cpp:1160:            const auto rigidTransformBaseMeshName = FindByValue(meshName, rigidTransformMeshNames);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\rigcalibration_core\src\RigCalibrationConfigurationData.cpp:21:    auto rigCalibrationParams = std::make_shared<RigCalibrationParams>();
+D:\Epic Games\UE_5.8\Engine\Source\Editor\Sequencer\Private\SimpleView\Tools\SimpleViewRetimeToolLattice.cpp:179:	static const auto RightFrontBrush = FAppStyle::GetBrush(TEXT("Sequencer.SimpleView.DragHandleRight"));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\src\RigFitting.cpp:277:                    const auto rigidModes = rigidModel.MutableModes().block(3 * j, 0, 3, 6);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\src\ICPConstraints.cpp:189:    // search mesh correspondences if available
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\include\nrr\landmarks\LandmarkConstraintsBase.h:127:    //! Landmarks and curves on the face mesh corresponding to landmarks and curves as annotated in 2D images
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\include\nrr\landmarks\LandmarkConstraintsBase.h:130:    //! Curves on the left eye mesh corresponding to landmarks and curves as annotated in 2D images
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\include\nrr\landmarks\LandmarkConstraintsBase.h:133:    //! Curves on the right eye mesh corresponding to landmarks and curves as annotated in 2D images
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nrr\include\nrr\landmarks\LandmarkConstraintsBase.h:136:    //! Landarmks on the teeth mesh corresponding to landmarks and curves as annotated in 2D images
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\HairStrands\Source\HairStrandsCore\Private\GroomComponent.cpp:1063:		Mesh.SegmentIndex = 0;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nls\src\geometry\MeshCorrespondenceSearch.cpp:96:        CARBON_CRITICAL("mesh correspondence search: src mesh is missing vertex normals");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\nls\src\geometry\MeshCorrespondenceSearch.cpp:113:        CARBON_CRITICAL("mesh correspondence search: sizes of vertices and normals do not match");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:15:DEFINE_LOG_CATEGORY_STATIC(Autorigger, Log, Log);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:18:void AutoriggerLogFunction(TITAN_NAMESPACE::LogLevel logLevel, const char* format, ...)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:39:	case LogLevel::ERR: UE_LOGF(Autorigger, Error, "%ls", *MessageW); break;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:40:	case LogLevel::FATAL: UE_LOGF(Autorigger, Error, "%ls", *MessageW); break;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:41:	case LogLevel::CRITICAL: UE_LOGF(Autorigger, Error, "%ls", *MessageW); break;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:42:	case LogLevel::WARNING: UE_LOGF(Autorigger, Warning, "%ls", *MessageW); break;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:44:	default: UE_LOGF(Autorigger, Error, "%ls", *MessageW);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCoreTechLib.cpp:56:		TITAN_NAMESPACE::GetIntegrationParams() = { TITAN_NAMESPACE::Logger(AutoriggerLogFunction), MemoryResource.Get() };
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\MetaHumanCharacterIdentity.cpp:988:void FMetaHumanCharacterIdentity::FState::WriteDebugAutoriggingData(const FString& DirectoryPath) const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\conformer\src\GeometryConstraints.cpp:271:        // search mesh correspondences if available
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\conformer\src\FittingInitializer.cpp:170:    const auto rightEyeMeshCurve = rightCurves.at(curveNameRight);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\conformer\include\conformer\TeethAlignment.h:22: * Module to align teeth asset in the autorig using the reference rig as model
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:34:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:133:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:135:static const int DT_MAX_OFFMESH_SEGMENT_PARTS = 4;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:137:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:198:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:200:	DT_POLYTYPE_OFFMESH_SEGMENT = 2,
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:201:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:315:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:348:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:448:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:452:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:497:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:499:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:583:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:590:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:721:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Public\Detour\DetourNavMesh.h:731:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DetourCrowd\DetourCrowd.cpp:1261:	// Get nearby navmesh segments and agents to collide with.
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:1090:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:1091:	else if (poly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:1110:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2559:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2566:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2628:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2634:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2684:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2686:			if (fromType == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2703:				if (toType == DT_POLYTYPE_OFFMESH_SEGMENT && i != apexIndex)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2729:			if (toType == DT_POLYTYPE_OFFMESH_SEGMENT && segmentLinkPortalEntryTestState == ESegmentLinkPortalEntryTestState::Requested)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2743:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2787:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2789:					if (toType == DT_POLYTYPE_OFFMESH_SEGMENT && segmentLinkPortalEntryTestState == ESegmentLinkPortalEntryTestState::None)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2791:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2842:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2844:					if (toType == DT_POLYTYPE_OFFMESH_SEGMENT && segmentLinkPortalEntryTestState == ESegmentLinkPortalEntryTestState::None)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2846:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2857:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2858:			// Handle entering off-mesh segments
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2859:			if (toType == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:2902:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3209:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3210:	else if (fromPoly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3231:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3252:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3253:	else if (toPoly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshQuery.cpp:3271:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:356:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:363:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:387:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:403:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:409:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:412:	const int totPolyCount = firstSegPoly + storedOffMeshSegCount*DT_MAX_OFFMESH_SEGMENT_PARTS;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:413:	const int totVertCount = firstSegVert + storedOffMeshSegCount*DT_MAX_OFFMESH_SEGMENT_PARTS*4;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:417:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:510:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:514:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:550:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:552:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:599:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:603:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:710:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:713:				for (int j = 0; j < DT_MAX_OFFMESH_SEGMENT_PARTS; j++)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:719:					p->setType(DT_POLYTYPE_OFFMESH_SEGMENT);
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:723:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:827:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:843:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:939:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:943:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:980:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:982:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1001:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1003:#endif // WITH_NAVMESH_SEGMENT_LINKS	
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1074:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1090:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1131:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1133:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1153:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1155:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1282:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1283:	// Transform off-mesh segment connections
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMeshBuilder.cpp:1295:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:28:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:357:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:362:static const int DT_MAX_OFFMESH_SEGMENT_POINTS = 32;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:373:	dtOffMeshSegmentIntersection points[DT_MAX_OFFMESH_SEGMENT_POINTS];
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:473:	if (maxIdx < 0 && nlist < DT_MAX_OFFMESH_SEGMENT_POINTS)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:544:				if (list.npoints >= DT_MAX_OFFMESH_SEGMENT_POINTS)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:764:	const int maxLinkPairs = DT_MAX_OFFMESH_SEGMENT_POINTS - 1;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:816:	if (nparts > DT_MAX_OFFMESH_SEGMENT_PARTS)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:819:		nparts = DT_MAX_OFFMESH_SEGMENT_PARTS;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:823:	dtReal uniquePos[DT_MAX_OFFMESH_SEGMENT_PARTS*2];
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:832:	dtReal uniquePosB[DT_MAX_OFFMESH_SEGMENT_PARTS*2];
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:917:		const int maxParts = (DT_MAX_OFFMESH_SEGMENT_POINTS * 2) - 1;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:926:		// The polys array is allocated enough memory to contain the max off-mesh segment parts when it is created.
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:927:		// Therefore, polyBase must be incremented by the max off-mesh segment parts count for subsequent connections to access the correct data.
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:929:		polyBase += DT_MAX_OFFMESH_SEGMENT_PARTS;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:932:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2016:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2018:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2039:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2041:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2227:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2332:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2885:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2886:	if (poly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2920:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2956:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2973:	if (poly->getType() != DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:2976:	const unsigned int idx = (ip - tile->header->offMeshSegPolyBase) / DT_MAX_OFFMESH_SEGMENT_PARTS;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:3004:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:3119:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:3120:			// Shift off-mesh segment connections
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\Detour\DetourNavMesh.cpp:3128:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:255:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:260:			if (p->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:279:			if (p->getType() != DT_POLYTYPE_OFFMESH_SEGMENT)	// Skip regular polys.
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:296:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:545:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:546:	else if (poly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Private\DebugUtils\DetourDebugDraw.cpp:557:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Navmesh.Build.cs:14:				PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=1");
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Navmesh\Navmesh.Build.cs:18:				PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=0");
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshMapEvaluator.h:51:	/** Detail to target mesh correspondence sample. */
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshMapEvaluator.h:73:		 * Function pointer to evaluate a mesh correspondence sample into a
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshMapEvaluator.h:80:		 * @param Sample the detail/target mesh correspondence sample data.
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshMapEvaluator.h:99:		 * @param Sample the detail/target mesh correspondence sample data.
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshBakerCommon.h:23: * Compute base/detail mesh correspondence by raycast
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Sampling\MeshBakerCommon.h:38: * Compute base/detail mesh correspondence by nearest distance
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterMigrationEditor\Private\MetaHumanCharacterMigrationEditorModule.cpp:362:	// Note that this leaves the Character in a non-autorigged state; the user must then autorig the Character in
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMeshGenerator.h:1048:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMeshGenerator.h:1051:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\MeshModelingToolsetExp\Source\MeshModelingToolsEditorOnlyExp\Public\SubdividePolyTool.h:68:	/** Display the mesh corresponding to Subdivision Level 0 */
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:220:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:229:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:250:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:253:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:1207:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:1302:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:1303:	/** update area class and poly flags for all offmesh segment links with given UserId */
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\RecastNavMesh.h:1305:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\PImplRecastNavMesh.h:150:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Public\NavMesh\PImplRecastNavMesh.h:159:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:12:	class FAutoRigServiceRequest;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:13:	class FAutorigResponse;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:28:	// A request to auto rig a character
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:29:	TSharedPtr<UE::MetaHuman::FAutoRigServiceRequest> AutoRig;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:37:	// The start time of the auto rig request
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:38:	double AutoRiggingStartTime = 0.0f;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:46:	// Handle used to update the progress of an auto rigging request
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:47:	FProgressNotificationHandle AutoRiggingProgressHandle;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:55:	// Permanent notification item displayed while the auto rigging request is live
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:56:	TWeakPtr<SNotificationItem> AutoRiggingNotificationItem;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:69:	* Marks the auto rigging request as finished and reset all of the state associated with it
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:71:	void AutoRiggingRequestFinished();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:74:	* Returns true if there is an active texture synthesis or auto-rigging request
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:81:	static void InitFaceAutoRigParams(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\Subsystem\MetaHumanCharacterService.h:84:		UE::MetaHuman::FTargetSolveParameters& OutAutoRigParameters);
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public\Parameterization\MeshPlanarSymmetry.h:18: * FMeshPlanarSymmetry detects pairwise symmetry relationships between vertices in a mesh, given a symmetry frame.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:111:class FAutoRigCommandChange : public FRemoveRigCommandChange
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:115:	FAutoRigCommandChange(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:125:		return FString(TEXT("Apply Auto-rig"));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:152:struct FMetaHumanCharacterAutoRiggingRequestParams
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:157:	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Auto-Rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:161:	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Auto-Rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:165:	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Auto-Rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1342:	 * Method which handles calls to AutoRigService.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1344:	UE_DEPRECATED(5.7, "Please use RequestAutoRigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1345:	void AutoRigFace(TNotNull<UMetaHumanCharacter*> InCharacter, const UE::MetaHuman::ERigType InRigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1348:	 * @brief Make a request to auto-rig a character
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1352:	 * @param InCharacter The character to be auto-rigged
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1353:	 * @param InParams Parameters to control the auto-rigging process
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1355:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|Auto-Rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1356:	void RequestAutoRigging(UMetaHumanCharacter* InCharacter, const FMetaHumanCharacterAutoRiggingRequestParams& InParams = FMetaHumanCharacterAutoRiggingRequestParams());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1364:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|Auto-Rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1389:	 * Returns true if there is an active request to auto rig the face of the given character
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1391:	bool IsAutoRiggingFace(TNotNull<const UMetaHumanCharacter*> InCharacter) const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1485:	 * Called when an AutoRigging request completes
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1487:	void OnAutoRigFaceRequestCompleted(const UE::MetaHuman::FAutorigResponse& InResponse, TObjectKey<UMetaHumanCharacter> InCharacterKey, const UE::MetaHuman::ERigType InRigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1492:	void OnAutoRigFaceRequestFailed(EMetaHumanServiceRequestResult InResult, TObjectKey<UMetaHumanCharacter> InCharacterKey);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1495:	 * Updates the progress of an AutoRigging request
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Public\MetaHumanCharacterEditorSubsystem.h:1497:	void OnAutoRigFaceProgressUpdated(float InPercentage, TObjectKey<UMetaHumanCharacter> InCharacterKey);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\bodyshapeeditor\src\BodyShapeEditor.cpp:5061:    auto rigLogic = std::make_shared<BodyLogic<float>>();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\bodyshapeeditor\src\BodyShapeEditor.cpp:5062:    auto rigGeometry = std::make_shared<BodyGeometry<float>>(m->threadPool);
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\RigLogicUAF\Source\RigLogicUAFUncookedOnly\Public\UAFGraphNodeTemplate_RigLogic.h:11:#include "UAFGraphNodeTemplate_RigLogic.generated.h"
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\RigLogicUAF\Source\RigLogicUAFUncookedOnly\Public\UAFGraphNodeTemplate_RigLogic.h:13:#define LOCTEXT_NAMESPACE "UAFGraphNodeTemplate_RigLogic"
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\RigLogicUAF\Source\RigLogicUAFUncookedOnly\Public\UAFGraphNodeTemplate_RigLogic.h:16:class UUAFGraphNodeTemplate_RigLogic : public UUAFGraphNodeTemplate
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\RigLogicUAF\Source\RigLogicUAFUncookedOnly\Public\UAFGraphNodeTemplate_RigLogic.h:20:	UUAFGraphNodeTemplate_RigLogic()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\MetaHumanCreatorBodyAPI.cpp:115:        auto rigGeometry = std::make_shared<RigGeometry<float>>();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\MetaHumanCreatorAPI.h:143:    //! Convert the current face state to DNA. Note that this does NOT currently include the updated skinning weights which should be generated post auto-rigging using func UpdateFaceSkinningWeightsFromBody
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\MetaHumanCreatorAPI.h:401:    //! Dump all data required for auto rigging to local directory @p directoryName
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\MetaHumanCreatorAPI.cpp:796:        auto rigGeometry = std::make_shared<RigGeometry<float>>();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\MetaHumanCreatorAPI.cpp:4496:        TITAN_HANDLE_EXCEPTION("failure to export state for auto rigging: {}", e.what());
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:1458:#if WITH_NAVMESH_SEGMENT_LINKS	
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:1498:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:4388:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:4390:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:7602:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshGenerator.cpp:7626:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshDataChunk.cpp:332:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMeshDataChunk.cpp:341:#endif // WITH_NAVMESH_SEGMENT_LINKS		
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.h:134:	/** True if the auto rig helper joints property should be enabled. */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.h:135:	bool IsAutoRigHelperJointsEnabled() const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.h:212:	/** True if the auto rig helper joints property should be enabled. */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.h:213:	bool IsAutoRigHelperJointsEnabled() const;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:125:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:127:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:158:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:160:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:357:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:359:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:2608:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:2611:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:2631:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:2643:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:2991:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\RecastNavMesh.cpp:3069:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:508:	FProperty* AutoRigHelperJointsProperty = Struct->FindPropertyByName(GET_MEMBER_NAME_CHECKED(FConformBodyParams, bAutoRigHelperJoints));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:516:	TSharedRef<SWidget> AutoRigHelperJointsWidget = CreatePropertyCheckBoxWidget(AutoRigHelperJointsProperty->GetDisplayNameText(), AutoRigHelperJointsProperty, BodyParams, BodyParamsDefault);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:517:	AutoRigHelperJointsWidget->SetEnabled(TAttribute<bool>::CreateSP(this, &SMetaHumanCharacterEditorImportFromDNAToolView::IsAutoRigHelperJointsEnabled));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:534:			// Auto-Rig Helper Joints
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:538:				AutoRigHelperJointsWidget
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:609:bool SMetaHumanCharacterEditorImportFromDNAToolView::IsAutoRigHelperJointsEnabled() const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1129:	FProperty* AutoRigHelperJointsProperty = Struct->FindPropertyByName(GET_MEMBER_NAME_CHECKED(FConformBodyParams, bAutoRigHelperJoints));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1137:	TSharedRef<SWidget> AutoRigHelperJointsWidget = CreatePropertyCheckBoxWidget(AutoRigHelperJointsProperty->GetDisplayNameText(), AutoRigHelperJointsProperty, BodyParams, BodyParamsDefault);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1138:	AutoRigHelperJointsWidget->SetEnabled(TAttribute<bool>::CreateSP(this, &SMetaHumanCharacterEditorImportFromTemplateToolView::IsAutoRigHelperJointsEnabled));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1155:			// Auto-Rig Helper Joints
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1159:				AutoRigHelperJointsWidget
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\UI\Views\SMetaHumanCharacterEditorImportToolView.cpp:1237:bool SMetaHumanCharacterEditorImportFromTemplateToolView::IsAutoRigHelperJointsEnabled() const
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:711:#if WITH_NAVMESH_SEGMENT_LINKS			
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:716:#endif // WITH_NAVMESH_SEGMENT_LINKS			
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:735:#if WITH_NAVMESH_SEGMENT_LINKS					
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:761:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:767:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:822:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:824:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:881:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:883:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:914:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:919:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:1088:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:1105:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:2244:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:2266:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:2325:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:2329:			if (Poly->getType() == DT_POLYTYPE_OFFMESH_SEGMENT)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:2333:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:3354:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\PImplRecastNavMesh.cpp:3388:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\NavMeshRenderingComponent.cpp:1241:#if WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\Private\NavMesh\NavMeshRenderingComponent.cpp:1304:#endif // WITH_NAVMESH_SEGMENT_LINKS
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\ActorRefinementAPI.h:90:     * @param[out] deltaTransferCorrespondanceData  delta transfer mesh correspondance in neutral.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\ActorRefinementAPI.h:198:     * [in] InCorrespondanceType type of the mesh correspondance
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCoreTechLib\Source\MetaHumanCoreTechLib\Private\api\ActorRefinementAPI.cpp:107:        const auto rigidTransformMeshesIt = m->rigidTransformMeshes.find(teethMeshName);
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\NavigationSystem.Build.cs:46:                    PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=1");
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\NavigationSystem.Build.cs:50:                    PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=0");
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\NavigationSystem\NavigationSystem.Build.cs:69:                PublicDefinitions.Add("WITH_NAVMESH_SEGMENT_LINKS=0");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tools\MetaHumanCharacterEditorImportTools.cpp:317:		&& Subsystem->SetBodyMesh(Character, OutVertices, BodyParams.bAutoRigHelperJoints);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tools\MetaHumanCharacterEditorImportTools.cpp:852:		bConformBody = Subsystem->SetBodyMesh(Character, OutVertices, BodyParams.bAutoRigHelperJoints);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tools\MetaHumanCharacterEditorFaceEditingTools.cpp:94:	// this could happen (for example) if we auto-rig
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\TitanLibTests.cpp:471:							State->WriteDebugAutoriggingData(TestDirectoryPath);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\TitanLibTests.cpp:489:									UE_LOGF(LogMetaHumanCoreTechLibTest, Error, "In WriteDebugAutoriggingData function, expected file %ls does not exist", *FullPath);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:405:	// Autorigging needs to run at least once in an editor session before attempting any texture service requests
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:413:		Subsystem->RequestAutoRigging(Char1, FMetaHumanCharacterAutoRiggingRequestParams
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:975:IMPLEMENT_SIMPLE_AUTOMATION_TEST(FMetaHumanCharacterAutoRigServiceTest, "MetaHumanCreator.Service.AutoRigServiceTest", EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:977:bool FMetaHumanCharacterAutoRigServiceTest::RunTest(const FString& InParams)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:1033:		// Reset the character to set a face state and autorig with blend shapes
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:1035:		MetaHumanCharacterSubsystem->RequestAutoRigging(Character, FMetaHumanCharacterAutoRiggingRequestParams
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterEditorTests.cpp:1138:			"Returned/aligned DNA matches face state on conformed meshes after autorig (MH-17828)",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterDCCExportTests.cpp:122:		FMetaHumanCharacterAutoRiggingRequestParams RiggingParams;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Tests\MetaHumanCharacterDCCExportTests.cpp:125:		Subsystem->RequestAutoRigging(Character.Get(), RiggingParams);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:156:void FMetaHumanCharacterEditorCloudRequests::AutoRiggingRequestFinished()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:158:	AutoRig.Reset();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:159:	AutoRiggingStartTime = 0.0f;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:160:	AutoRiggingProgressHandle.Reset();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:161:	AutoRiggingNotificationItem.Reset();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:166:	return TextureSynthesis.IsValid() || AutoRig.IsValid() || BodyTextures.IsValid();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:169:void FMetaHumanCharacterEditorCloudRequests::InitFaceAutoRigParams(const FMetaHumanCharacterIdentity::FState& InFaceState, TSharedRef<const IDNAReader> InFaceDNAReader, UE::MetaHuman::FTargetSolveParameters& OutAutoRigParameters)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:176:	InFaceState.GetRawBindPose(ConformedVertices, OutAutoRigParameters.BindPose);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:177:	InFaceState.GetFaceModelCoefficients(OutAutoRigParameters.Coefficients);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:178:	InFaceState.GetModelIdentifier(OutAutoRigParameters.ModelIdentifier);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:179:	InFaceState.GetGlobalScale(OutAutoRigParameters.Scale);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:180:	OutAutoRigParameters.HighFrequency = InFaceState.GetHighFrequencyVariant();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:185:		OutAutoRigParameters.HighFrequency = -1;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:192:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedFaceVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:196:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedTeethVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:200:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedLeftEyeVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:204:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedRightEyeVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:208:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedSalivaVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:212:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedEyeShellVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:216:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedEyeLashesVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:220:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedEyeEdgeVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\Subsystem\MetaHumanCharacterService.cpp:224:			ExtractMeshVertices(InFaceDNAReader, MeshIndex, InFaceState, ConformedVertices, OutAutoRigParameters.ConformedCartilageVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\Experimental\PlanarCutPlugin\Source\PlanarCut\Public\FractureAutoUV.h:217:	double Curvature_ThicknessFactor = 3.0; // distance to search for mesh correspondence, as a factor of voxel size
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.h:65:	/** Returns true if it's safe to call AutoRigFace */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.h:66:	bool CanAutoRigFace() const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.h:68:	/** Function which triggers the call to AutoRigService */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.h:69:	void AutoRigFace(EMetaHumanRigType InRigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:568:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:569:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes->GetLabel(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:570:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes->GetDescription(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:579:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:580:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly->GetLabel(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:581:							FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly->GetDescription(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:660:					Commands.AutoRigFaceBlendShapes,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:661:					FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes->GetLabel(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:662:					FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes->GetDescription(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:668:					Commands.AutoRigFaceJointsOnly,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:669:					FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly->GetLabel(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:670:					FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly->GetDescription(),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:719:													LOCTEXT("MetaHuman.Cloud.Authentication.NoUserLoggedIn", "No user logged in, please autorig to trigger log-in flow"), EAppMsgType::Ok);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:757:	ToolkitCommands->MapAction(FMetaHumanCharacterEditorCommands::Get().AutoRigFaceJointsOnly,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:758:	                           FExecuteAction::CreateSP(this, &FMetaHumanCharacterEditorToolkit::AutoRigFace, EMetaHumanRigType::JointsOnly),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:759:	                           FCanExecuteAction::CreateSP(this, &FMetaHumanCharacterEditorToolkit::CanAutoRigFace));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:761:	ToolkitCommands->MapAction(FMetaHumanCharacterEditorCommands::Get().AutoRigFaceBlendShapes,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:762:	                           FExecuteAction::CreateSP(this, &FMetaHumanCharacterEditorToolkit::AutoRigFace, EMetaHumanRigType::JointsAndBlendShapes),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:763:	                           FCanExecuteAction::CreateSP(this, &FMetaHumanCharacterEditorToolkit::CanAutoRigFace));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1294:bool FMetaHumanCharacterEditorToolkit::CanAutoRigFace() const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1299:	// Prevent auto-rigging if PIE is running since interchange will fail to import the DNA
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1307:void FMetaHumanCharacterEditorToolkit::AutoRigFace(EMetaHumanRigType InRigType)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1319:			const FText NotEnoughMemoryTitle = LOCTEXT("ToolkitNotEnoughMemoryDialogTitle", "Not enough memory to auto-rig with blend shapes");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1320:			const FText NotEnoughMemoryMessage = FText::Format(LOCTEXT("ToolkitNotEnoughMemoryDialogMessage", "Auto-rigging with blend shapes requires at least 10 GiB of free memory but only {0} is available.\n"
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1338:	UMetaHumanCharacterEditorSubsystem::Get()->RequestAutoRigging(MetaHumanCharacter,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1339:																  FMetaHumanCharacterAutoRiggingRequestParams
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorToolkit.cpp:1444:			MetaHumanCharacterSubsystem->GetFaceState(MetaHumanCharacter)->WriteDebugAutoriggingData(OutputFolder);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:97:static const TCHAR* AutoriggingTransactionContext = TEXT("AutoriggingTransaction");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:105:	static TAutoConsoleVariable<bool> CVarMHCharacterSaveAutoRiggedDNA
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:107:		TEXT("mh.Character.SaveAutoRiggedDNA"),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:109:		TEXT("Set to true to save the DNA file returned by the Auto-Rigging service to a file in the Saved directory."),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:528:FAutoRigCommandChange::FAutoRigCommandChange(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:2224:	if (IsAutoRiggingFace(InCharacter))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:2254:	if (IsAutoRiggingFace(InCharacter))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:2256:		OutErrorMessage = LOCTEXT("BuildDisabled_FaceAutoRigInProgress", "Face auto rig in progress.");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3240:void UMetaHumanCharacterEditorSubsystem::AutoRigFace(TNotNull<UMetaHumanCharacter*> InCharacter, const UE::MetaHuman::ERigType InRigType)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3242:	FMetaHumanCharacterAutoRiggingRequestParams Params;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3255:	RequestAutoRigging(InCharacter, Params);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3258:void UMetaHumanCharacterEditorSubsystem::RequestAutoRigging(UMetaHumanCharacter* InCharacter, const FMetaHumanCharacterAutoRiggingRequestParams& InParams)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3262:		UE_LOGFMT(LogMetaHumanCharacterEditor, Error, "RequestAutoRigging must be called on the Game Thread");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3268:		UE_LOGFMT(LogMetaHumanCharacterEditor, Error, "RequestAutoRigging called with invalid character");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3274:		UE_LOGFMT(LogMetaHumanCharacterEditor, Error, "RequestAutoRigging called with {Character} that is not not added for editing", InCharacter->GetName());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3278:	if (IsAutoRiggingFace(InCharacter))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3280:		UE_LOGFMT(LogMetaHumanCharacterEditor, Error, "RequestAutoRigging called for character {Character} that already has an active auto-rigging request", InCharacter->GetName());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3286:			  "Requesting Auto-Rigging for {Character}. Rig Type: {RigType}. Report Progress: {ReportProgress}. Blocking: {Blocking}",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3299:				  "RequestAutoRigging for {Character}: face mesh is not fully compatible with MetaHuman topology (Reason: {Reason}). Auto-rigging may fail. Continuing with the request.",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3304:			LOCTEXT("AutoRiggingMayFailMessage", "Face mesh is not fully compatible with MetaHuman topology (Reason: {0}). Auto-rigging may fail."),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3313:	// Prepare AutoRig parameters.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3315:	UE::MetaHuman::FTargetSolveParameters AutoRigParameters;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3317:	FMetaHumanCharacterEditorCloudRequests::InitFaceAutoRigParams(FaceState, FaceDNAReader.ToSharedRef(), AutoRigParameters);	
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3321:		AutoRigParameters.RigType = UE::MetaHuman::ERigType::JointsAndBlendshapes;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3322:		AutoRigParameters.RigRefinementLevel = UE::MetaHuman::ERigRefinementLevel::Medium;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3326:		AutoRigParameters.RigType = UE::MetaHuman::ERigType::JointsOnly;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3327:		AutoRigParameters.RigRefinementLevel = UE::MetaHuman::ERigRefinementLevel::None;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3333:				  "Failed to map EMetaHumanRigType '{RigType}' when Auto-Rigging '{Character}'",
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3341:	CloudRequests.AutoRig = UE::MetaHuman::FAutoRigServiceRequest::CreateRequest(AutoRigParameters);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3342:	CloudRequests.AutoRig->AutorigRequestCompleteDelegate.BindUObject(this, &UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceRequestCompleted, TObjectKey<UMetaHumanCharacter>(InCharacter), AutoRigParameters.RigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3343:	CloudRequests.AutoRig->OnMetaHumanServiceRequestFailedDelegate.BindUObject(this, &UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceRequestFailed, TObjectKey<UMetaHumanCharacter>(InCharacter));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3347:		CloudRequests.AutoRig->MetaHumanServiceRequestProgressDelegate.BindUObject(this, &UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceProgressUpdated, TObjectKey<UMetaHumanCharacter>(InCharacter));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3348:		CloudRequests.AutoRiggingProgressHandle = FSlateNotificationManager::Get().StartProgressNotification(LOCTEXT("AutoRiggingProgress", "Auto-Rigging"), 100);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3350:		CloudRequests.AutoRiggingNotificationItem = UE::MetaHuman::ShowNotification(LOCTEXT("StartAutoRiggingMessage", "Auto-Rigging Face Mesh"), SNotificationItem::ECompletionState::CS_Pending);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3354:	CloudRequests.AutoRig->RequestSolveAsync();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3355:	CloudRequests.AutoRiggingStartTime = FPlatformTime::Seconds();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3359:	UE::MetaHuman::Analytics::RecordRequestAutorigEvent(InCharacter, AutoRigParameters.RigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3365:												return IsAutoRiggingFace(InCharacter);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3370:bool UMetaHumanCharacterEditorSubsystem::IsAutoRiggingFace(TNotNull<const UMetaHumanCharacter*> InCharacter) const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3376:		return Requests->AutoRig.IsValid();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3382:void UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceRequestCompleted(const UE::MetaHuman::FAutorigResponse& InResponse, TObjectKey<UMetaHumanCharacter> InCharacterKey, const UE::MetaHuman::ERigType InRigType)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3394:		CloudRequests.AutoRiggingRequestFinished();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3411:	const double ElapsedTime = FPlatformTime::Seconds() - CloudRequests.AutoRiggingStartTime;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3418:		FScopedSlowTask ApplyDNATask{ 0.0f, LOCTEXT("ApplyDNATask", "Applying DNA from Auto-Rigging service") };
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3424:		// Autorig response: adapt the returned DNA to the character's current body before applying.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3432:			UE_LOGFMT(LogMetaHumanCharacterEditor, Error, "Failed to align face DNA from autorigging with the body");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3453:				FScopedTransaction Transaction(AutoriggingTransactionContext, LOCTEXT("CharacterAutorigSuccessTransaction", "Apply Auto-rig"), Character);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3469:				TUniquePtr<FAutoRigCommandChange> Change = MakeUnique<FAutoRigCommandChange>(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3488:			UE::MetaHuman::ShowNotification(LOCTEXT("AutoRiggingCheckDNAFailed", "Auto-Rigging failed due to incompatible DNA"), SNotificationItem::CS_Fail);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3491:		if (CVarMHCharacterSaveAutoRiggedDNA.GetValueOnAnyThread())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3497:			WriteDNAToFile(InResponse.Dna.Get(), EDNADataLayer::All, *(FPaths::ProjectSavedDir() + FString(TEXT("MetaHumanCharacterAutorig.dna"))));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3499:			WriteDNAToFile(OutDna.Get(), EDNADataLayer::All, *(FPaths::ProjectSavedDir() + FString(TEXT("MetaHumanCharacterAutorigApplied.dna"))));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3504:		UE::MetaHuman::ShowNotification(LOCTEXT("AutoRiggingInvalidResponse", "Auto-Rigging failed due to invalid response from the service"), SNotificationItem::CS_Fail);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3509:		const FText Message = FText::Format(LOCTEXT("AutoRiggingRequestCompleted", "Auto-Rigging finished in {0} seconds"), ElapsedTime);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3513:	if (TSharedPtr<SNotificationItem> AutoRiggingNotificationItem = CloudRequests.AutoRiggingNotificationItem.Pin())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3515:		AutoRiggingNotificationItem->SetCompletionState(bDnaApplied ? SNotificationItem::CS_Success : SNotificationItem::CS_Fail);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3516:		AutoRiggingNotificationItem->ExpireAndFadeout();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3522:void UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceProgressUpdated(float InPercentage, TObjectKey<UMetaHumanCharacter> InCharacterKey)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3529:	FSlateNotificationManager::Get().UpdateProgressNotification(CloudRequests.AutoRiggingProgressHandle,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3533:void UMetaHumanCharacterEditorSubsystem::OnAutoRigFaceRequestFailed(EMetaHumanServiceRequestResult InResult, TObjectKey<UMetaHumanCharacter> InCharacterKey)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3542:	FSlateNotificationManager::Get().CancelProgressNotification(CloudRequests.AutoRiggingProgressHandle);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3543:	if (TSharedPtr<SNotificationItem> AutoRiggingNotificationItem = CloudRequests.AutoRiggingNotificationItem.Pin())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3545:		AutoRiggingNotificationItem->SetCompletionState(SNotificationItem::CS_Fail);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3546:		AutoRiggingNotificationItem->ExpireAndFadeout();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3549:	const FText Message = FText::Format(LOCTEXT("AutoRigFailedMessage", "Auto-Rigging of Face failed with code '{0}'"), UEnum::GetDisplayValueAsText(InResult));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:3552:	CloudRequests.AutoRiggingRequestFinished();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:4218:		Message = LOCTEXT("DownloadLoginFailedMessage", "User not logged in, please autorig before downloading source face textures");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorSubsystem.cpp:4334:		Message = LOCTEXT("DownloadBodyLoginFailedMessage", "User not logged in, please autorig before downloading source body textures");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorMode.cpp:143:				// Only deactivate if we are autorigging, not if we are doing async conform
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorCommands.h:19:	TSharedPtr<FUICommandInfo> AutoRigFaceBlendShapes;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorCommands.h:20:	TSharedPtr<FUICommandInfo> AutoRigFaceJointsOnly;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorCommands.cpp:34:	UI_COMMAND(AutoRigFaceBlendShapes, "Create Full Rig", "Calls Auto-Rigging service and retrieves full DNA (blend shapes included).", EUserInterfaceActionType::Button, FInputChord{});
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorCommands.cpp:35:	UI_COMMAND(AutoRigFaceJointsOnly, "Create Joints Only Rig", "Calls Auto-Rigging service and retrieves joints-only DNA.", EUserInterfaceActionType::Button, FInputChord{});
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterEditorCommands.cpp:56:	UI_COMMAND(DumpFaceStateDataForAR, "Dump Face Data for AR", "Dumps Auto Rigging debug data for the face state to a folder", EUserInterfaceActionType::Button, FInputChord{});
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterAnalytics.h:156:	void RecordRequestAutorigEvent(TNotNull<const UMetaHumanCharacter*> InMetaHumanCharacter, ERigType RigType);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\MetaHumanCharacterAnalytics.cpp:209:	BEGIN_RECORD_EVENT(Autorig, RequestAutorig, UE::MetaHuman::ERigType RigType)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Source\MetaHumanCharacterEditor\Private\AssetDefinitions\AssetDefinition_MetaHumanCharacter.cpp:323:				const FText NotEnoughMemoryMessage = FText::Format(LOCTEXT("NotEnoughMemoryDialogMessage", "Loading a MetaHuman Character previously auto-rigged with blend shapes requires at least 10 GiB of free memory but only {0} is available.\n"
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\GeometryCache\Source\GeometryCache\Private\GeometryCacheSceneProxy.cpp:320:	Mesh.SegmentIndex = 0;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:13:    """Auto-rig and download textures so the character is ready for export."""
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:15:    autorig_params = unreal.MetaHumanCharacterAutoRiggingRequestParams()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:16:    autorig_params.blocking = True
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:17:    autorig_params.report_progress = False
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:18:    autorig_params.rig_type = unreal.MetaHumanRigType.JOINTS_ONLY
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_export_tools.py:19:    metahuman_subsystem.request_auto_rigging(character=metahuman, params=autorig_params)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_conform_from_identity.py:50:                # MH-18428: ImportFromIdentity checks IsConformalRigValid() (auto-rigged skeletal mesh)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_cloud_requests.py:7:def test_auto_rigging():
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_cloud_requests.py:9:    unreal.log("Running test_auto_rigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_cloud_requests.py:23:            request_params = unreal.MetaHumanCharacterAutoRiggingRequestParams()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_cloud_requests.py:27:            metahuman_character_subsystem.request_auto_rigging(character=metahuman, params=request_params)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_cloud_requests.py:59:    test_auto_rigging()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_character_assembly.py:28:            autorig_request_params = unreal.MetaHumanCharacterAutoRiggingRequestParams()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_character_assembly.py:29:            autorig_request_params.blocking = True
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_character_assembly.py:30:            autorig_request_params.report_progress = False
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_character_assembly.py:31:            autorig_request_params.rig_type = unreal.MetaHumanRigType.JOINTS_ONLY
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\test_character_assembly.py:32:            metahuman_character_subsystem.request_auto_rigging(character=metahuman, params=autorig_request_params)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_export_tools.py:17:    # - Character must be rigged (see example_auto_rig.py)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_auto_rig.py:16:    auto_rigging_request = unreal.MetaHumanCharacterAutoRiggingRequestParams()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_auto_rig.py:18:    auto_rigging_request.blocking = True
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_auto_rig.py:19:    auto_rigging_request.report_progress = False
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_auto_rig.py:21:    auto_rigging_request.rig_type = unreal.MetaHumanRigType.JOINTS_ONLY
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCharacter\Content\Python\examples\example_auto_rig.py:22:    metahuman_subsystem.request_auto_rigging(character, auto_rigging_request)
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:405:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:418:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:429:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:442:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:453:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:466:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:477:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:490:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:501:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:514:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:525:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:538:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:549:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:562:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:573:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:584:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:595:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:606:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:619:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:630:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:643:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:654:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:667:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:678:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:691:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:729:				if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:748:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:780:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:793:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:806:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:832:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:845:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:859:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:886:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:899:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:910:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:923:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:934:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:947:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:958:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:971:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:982:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:995:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1006:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1019:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1030:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1043:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1054:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1067:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1079:			if (auto Rigid = Ptr->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1091:			if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1100:		if (auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1249:		if (auto Rigid = GetParticle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1589:		if (auto Rigid = GetParticle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1598:		if (auto Rigid = GetParticle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1620:		if (auto Rigid = GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1630:		if (auto Rigid = GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1641:		if (auto Rigid = GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy\SingleParticlePhysicsProxy.h:1651:		if (auto Rigid = GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:152:	if(auto Rigid = Concrete.CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:1507:	if(auto Rigid = CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2385:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2413:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2422:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2431:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2439:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2447:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2456:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2464:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2472:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2481:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2489:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2497:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2506:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2515:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2524:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ParticleHandle.h:2533:		if (auto RigidHandle = MHandle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCalibrationProcessing\Source\MetaHumanCalibrationLib\Private\nls\src\geometry\MeshCorrespondenceSearch.cpp:96:        CARBON_CRITICAL("mesh correspondence search: src mesh is missing vertex normals");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanCalibrationProcessing\Source\MetaHumanCalibrationLib\Private\nls\src\geometry\MeshCorrespondenceSearch.cpp:113:        CARBON_CRITICAL("mesh correspondence search: sizes of vertices and normals do not match");
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\RewindData.cpp:157:	if (auto Rigid = Handle.CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\RewindData.cpp:1735:				if (auto Rigid = Handle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\RewindData.cpp:1870:				if (auto Rigid = Kinematic->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\RewindData.cpp:2258:		if (auto Rigid = Kinematic->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PhysicsProxy\SingleParticlePhysicsProxy.cpp:68:	auto RigidHandle = bHasDynamicData ? static_cast<Chaos::FPBDRigidParticleHandle*>(Handle) : nullptr;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PhysicsProxy\SingleParticlePhysicsProxy.cpp:260:	if(auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PhysicsProxy\SingleParticlePhysicsProxy.cpp:295:	if(auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PhysicsProxy\SingleParticlePhysicsProxy.cpp:550:	auto Rigid = Particle->CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PhysicsProxy\SingleParticlePhysicsProxy.cpp:557:	if(auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PBDRigidsSolver.cpp:1598:				if(auto Rigid = Particle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\PBDRigidsSolver.cpp:1774:				if(auto Rigid = Handle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\PBDRigidClustering.cpp:703:		if (auto Rigid = ClusteredParticle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\ChaosDebugDraw.cpp:1751:			if (const auto RigidParticle = InParticle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\ChaosDebugDraw.cpp:1786:			if (const auto RigidParticle = InParticle->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\ChaosDebugDraw.cpp:1824:			auto RigidParticle0 = ConstrainedParticles[0]->CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\ChaosDebugDraw.cpp:1825:			auto RigidParticle1 = ConstrainedParticles[1]->CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\CCDUtilities.cpp:1178:		const auto Rigid0 = Particle0.CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\CCDUtilities.cpp:1179:		const auto Rigid1 = Particle1.CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\CCDUtilities.cpp:1193:		const auto Rigid0 = Particle0.CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Private\Chaos\CCDUtilities.cpp:1194:		const auto Rigid1 = Particle1.CastToRigidParticle();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanPerformance\Private\MetaHumanPerformance.cpp:2549:				if (!Face->bIsAutoRigged)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanPerformance\Private\MetaHumanPerformance.cpp:2675:				if (!Face->bIsAutoRigged)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\UI\SMetaHumanIdentityPartsEditor.cpp:497:					LOCTEXT("DegenerateTrianglesHintMessage", "The mesh contains potential degenerate (zero-area) triangles which may cause autorig to fail."),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\UI\SMetaHumanIdentityPartsClassCombo.cpp:204:					if (Face->bIsAutoRigged)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityTooltipProvider.cpp:106:	FText IdentitySolveDefaultTooltipText = LOCTEXT("IdentitySolveToolbarButtonTooltip", "Conforms the Template Mesh to Markers obtained by Track Markers\ncommand, so it can be sent to MetaHuman Service for auto-rigging.");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityTooltipProvider.cpp:152:	FText MeshToMetaHumanCaptionTooltipText = LOCTEXT("MeshToMetaHumanToolbarButtonTooltip", "Send the Template Mesh to MetaHuman Service for auto-rigging\n\nWhen it finishes, the Service will return a Skeletal Mesh asset with\nthe likeness of the given MetaHuman Identity into your Content Browser");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityTooltipProvider.cpp:155:		if (Face->CanSubmitToAutorigging())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityCommands.cpp:27:	UI_COMMAND(MeshToMetaHumanDNAOnly, "Auto-Rig MetaHuman Identity", "", EUserInterfaceActionType::Button, FInputChord{}); //note: the tooltip is dynamic, so its string is empty here to avoid confusion
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.h:116:	void HandleSubmitToAutoRigging();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.h:134:	bool CanSubmitToAutoRigging() const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.h:303:	void HandleAutoriggingServiceFinished(bool InSuccess);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:167:	if (Identity->OnAutoRigServiceFinishedDelegate.IsBound())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:169:		Identity->OnAutoRigServiceFinishedDelegate.RemoveAll(this);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:355:	if (!Identity->OnAutoRigServiceFinishedDelegate.IsBound())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:357:		Identity->OnAutoRigServiceFinishedDelegate.AddSP(this, &FMetaHumanIdentityAssetEditorToolkit::HandleAutoriggingServiceFinished);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:441:								FExecuteAction::CreateSP(this, &FMetaHumanIdentityAssetEditorToolkit::HandleSubmitToAutoRigging),
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:442:								FCanExecuteAction::CreateSP(this, &FMetaHumanIdentityAssetEditorToolkit::CanSubmitToAutoRigging));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:751:						FToolMenuSection& AutoRiggingSection = InMenu->AddSection(TEXT("AutoRigging"));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:753:							AutoRiggingSection.AddEntry(FToolMenuEntry::InitToolBarButton(
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1400:void FMetaHumanIdentityAssetEditorToolkit::HandleSubmitToAutoRigging()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1402:	if (Identity->IsAutoRiggingInProgress())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1404:		UE_LOGF(LogMetaHumanIdentity, Error, "Autorigging service is already running for this MetaHuman Identity");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1774:bool FMetaHumanIdentityAssetEditorToolkit::CanSubmitToAutoRigging() const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1776:	if (Identity->IsAutoRiggingInProgress())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1778:		// Don't allow multiple submissions to the AutoRigging service
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1784:		// Only enables AutoRigging if the Face was conformed successfully
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1785:		return Face->CanSubmitToAutorigging();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:1826:		return bDepthProcessingEnabled && Face->bIsAutoRigged && !Face->IsAsyncPredictiveSolverTrainingActive() && !Face->IsAsyncPredictiveSolverTrainingCancelling() &&
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:2893:	FText MeshToMetaHumanDNAOnlyButtonTooltipText = LOCTEXT("MeshToMetaHumanDNAOnlyButtonTooltip", "Submit the Template to the Mesh to MetaHuman Service for auto-rigging.");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:2915:		if (Face->CanSubmitToAutorigging())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:2945:		return FText::Format(LOCTEXT("PrepareForPerformanceButtonDisabledTooltip", "{0}\nTo enable this option run Auto-Rig MetaHuman Identity first"), PrepareForPerformanceTooltip);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:2959:void FMetaHumanIdentityAssetEditorToolkit::HandleAutoriggingServiceFinished(bool InSuccess)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentityEditor\Private\MetaHumanIdentityAssetEditorToolkit.cpp:2963:		//if autorigging succeeded and there is the teeth pose present with at least one promoted frame, do FitTeeth automatically
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanTemplateMeshComponent.h:68:	/** Returns the vertices for the head mesh of the given pose type. The conversion type can be used to convert from UE space to rig space, which is the space expected by the autorigging service for example */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:42:	PotentialDegenerateTriangles,	// Mesh has zero-area triangles which may fail to autorig (hint only)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:133:	/** Return true if the face can be submitted to the AutoRigging service, which means is already conformed and the Neutral Pose has a valid Capture Data */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:134:	UE_API bool CanSubmitToAutorigging() const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:264:	/** Return the vertices of the conformed mesh transformed to the space required by the autorigging backend, for face mesh, left eye mesh and right eye mesh 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:266:	UE_API void GetConformalVerticesForAutoRigging(TArray<FVector>& OutConformedFaceVertices, 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:346:	/** The result of the auto-rigging process. This is the conformal mesh with a proper rig able to control the face */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:354:	/** True if this face has autorigged DNA applied either through AutoRig Service or if it was imported manually through Import functionality */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:356:	uint8 bIsAutoRigged : 1;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:365:	/** Holds the DNAToScan transform as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:366:	UPROPERTY(NonTransactional, meta = (DeprecatedProperty, DeprecationMessage = "The new autorigging service doesn't provide DNAToScan transform matrix"))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:372:	/** Holds the DNA Pivot as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:373:	UPROPERTY(NonTransactional, meta = (DeprecatedProperty, DeprecationMessage = "The new autorigging service doesn't provide DNA Pivot"))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:376:	/** Holds the DNA Scale as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:377:	UPROPERTY(NonTransactional, meta = (DeprecatedProperty, DeprecationMessage = "The new autorigging service doesn't provide DNATo Scale"))
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:384:	/* The maximum percentage difference an autorigged face result is allowed to differ from an average MetaHuman. Above this value a diagnostic warning will be flagged. */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:402:	/** Holds the raw dna file as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:405:	/** Holds the raw delta dna file as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentityParts.h:408:	/** Holds the combined raw dna and delta dna file as returned from the autorigging service */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:56:*   to MetaHuman Service, which returns an auto-rigged SkeletalMesh
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:81:	DECLARE_MULTICAST_DELEGATE_OneParam(FOnAutoRigServiceFinishedDelegate, bool);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:82:	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAutoRigServiceFinishedDynamicDelegate, bool, bInSuccess);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:87:	FOnAutoRigServiceFinishedDynamicDelegate OnAutoRigServiceFinishedDynamicDelegate;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:90:	FOnAutoRigServiceFinishedDelegate OnAutoRigServiceFinishedDelegate;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:144:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|AutoRigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:145:	METAHUMANIDENTITY_API void LogInToAutoRigService();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:148:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|AutoRigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:151:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|AutoRigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:152:	METAHUMANIDENTITY_API bool IsAutoRiggingInProgress();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:154:	UFUNCTION(BlueprintCallable, Category = "MetaHuman|AutoRigging")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:190:	static METAHUMANIDENTITY_API const FText AutoRigServiceTitleError;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:191:	static METAHUMANIDENTITY_API const FText AutoRigServiceTitleSuccess;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:206:	METAHUMANIDENTITY_API void AutoRigProgressEnd(bool bSuccess) const;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:208:	METAHUMANIDENTITY_API void AutoRigSolveFinished(bool bSuccess, bool bInLogOnly);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:210:	METAHUMANIDENTITY_API void HandleIdentityForAutoRigValidation(EAutoRigIdentityValidationError InErrorCode, bool bInLogOnly = false);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:213:	METAHUMANIDENTITY_API void HandleAutoRigServiceError(EMetaHumanServiceRequestResult InServiceError, bool bInLogOnly);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:216:	METAHUMANIDENTITY_API bool IdentityIsReadyForAutoRig(TArray<FVector>& OutConformedFaceVertices, 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:226:	/** True if the auto rigging service has been called */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:227:	bool bIsAutorigging = false;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:231:	METAHUMANIDENTITY_API void SendTelemetryForIdentityAutorigRequest(bool bIsFootageData);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:233:	/** A reference to the notification dialog that shows the autorigging progress */
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Public\MetaHumanIdentity.h:234:	TWeakPtr<class SNotificationItem> AutoRigProgressNotification;
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Containers\Deque.h:598:			auto RightIt = Right.begin();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:378:	if (bIsAutoRigged && !CheckRigCompatible())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:380:		// Since we're using bIsAutoRigged for both M2MH and imported DNA state,
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:384:		bIsAutoRigged = false;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:543:bool UMetaHumanIdentityFace::CanSubmitToAutorigging() const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:741:	bIsAutoRigged = false;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:797:	bIsAutoRigged = (FittedTeeth == EIdentityErrorCode::None);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:1549:	// It is presumed that DNA user manually applies is final (Autorigged DNA with deltas included) and ready for solver training.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:1550:	bIsAutoRigged = true;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:2214:void UMetaHumanIdentityFace::GetConformalVerticesForAutoRigging(TArray<FVector>& OutConformedFaceVertices, 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:2220:		// Transform applied to vertices before submitting to autorigging
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentityParts.cpp:2746:	GetConformalVerticesForAutoRigging(ConformedFaceVertices, ConformedLeftEyeVertices, ConformedRightEyeVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:47:const FText UMetaHumanIdentity::AutoRigServiceTitleError = LOCTEXT("ARSErrorTitle", "MetaHuman Service Error");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:48:const FText UMetaHumanIdentity::AutoRigServiceTitleSuccess = LOCTEXT("ARSSuccessTitle", "Mesh to MetaHuman");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:227:void UMetaHumanIdentity::SendTelemetryForIdentityAutorigRequest(bool bIsFootageData)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:230:	  * @EventName <Editor.MetaHumanPlugin.AutoRig>
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:231:	  * @Trigger <the user has requested auto-rigging from MetaHuman service>
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:248:	FEngineAnalytics::GetProvider().RecordEvent(TEXT("Editor.MetaHumanPlugin.AutoRig"), EventAttributes);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:487:void UMetaHumanIdentity::LogInToAutoRigService()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:496:bool UMetaHumanIdentity::IsAutoRiggingInProgress()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:498:	return bIsAutorigging;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:506:	if (IdentityIsReadyForAutoRig(Params.ConformedFaceVertices, 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:511:		bIsAutorigging = true;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:520:			SendTelemetryForIdentityAutorigRequest(bIsFootageData);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:531:		TSharedRef<UE::MetaHuman::FAutoRigServiceRequest> Request = 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:532:			UE::MetaHuman::FAutoRigServiceRequest::CreateRequest(Params);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:537:			FNotificationInfo Info(LOCTEXT("AutoRigProgressText", "Waiting for MetaHuman backend..."));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:540:			AutoRigProgressNotification = FSlateNotificationManager::Get().AddNotification(Info);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:541:			if (AutoRigProgressNotification.IsValid())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:543:				AutoRigProgressNotification.Pin()->SetCompletionState(SNotificationItem::CS_Pending);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:549:			HandleAutoRigServiceError(InRequestResult, bInLogOnly);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:551:			bIsAutorigging = false;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:552:			AutoRigProgressEnd(false);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:553:			OnAutoRigServiceFinishedDynamicDelegate.Broadcast(false);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:554:			OnAutoRigServiceFinishedDelegate.Broadcast(false);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:557:		Request->AutorigRequestCompleteDelegate.BindLambda([this, bInLogOnly](const UE::MetaHuman::FAutorigResponse& InResponse)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:564:			UE_LOGF(LogMetaHumanIdentity, Display, "Autorigging service executed");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:577:			AutoRigSolveFinished(bServiceSuccess, bInLogOnly);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:579:			bIsAutorigging = false;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:580:			AutoRigProgressEnd(true);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:582:			OnAutoRigServiceFinishedDynamicDelegate.Broadcast(bServiceSuccess);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:583:			OnAutoRigServiceFinishedDelegate.Broadcast(bServiceSuccess);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:591:void UMetaHumanIdentity::AutoRigProgressEnd(bool bSuccess) const
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:594:	if (AutoRigProgressNotification.IsValid())
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:598:			AutoRigProgressNotification.Pin()->SetText(LOCTEXT("AutoRigProgressComplete", "Mesh to MetaHuman complete!"));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:602:			AutoRigProgressNotification.Pin()->SetText(LOCTEXT("AutoRigProgressFailed", "Mesh to MetaHuman failed!"));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:604:		AutoRigProgressNotification.Pin()->SetCompletionState(SNotificationItem::CS_None);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:605:		AutoRigProgressNotification.Pin()->ExpireAndFadeout();
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:626:void UMetaHumanIdentity::AutoRigSolveFinished(bool bSuccess, bool bInLogOnly)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:641:		FText AutoRigResponse = LOCTEXT("SkeletalMeshAvailableNotification", "Skeletal Mesh with an embedded MetaHuman DNA is now available in your Content Browser.");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:645:			AutoRigResponse = FText::FromString(AutoRigResponse.ToString() + TEXT("\n\n") + DiagnosticsWarningMessage.ToString());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:648:		FMessageDialog::Open(EAppMsgType::Ok, AutoRigResponse, UMetaHumanIdentity::AutoRigServiceTitleSuccess);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:653:		UE_LOGF(LogMetaHumanIdentity, Error, "Autorigging service parse bytes error: '%ls'", *ErrorText.ToString());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:657:			FMessageDialog::Open(EAppMsgType::Ok, ErrorText, UMetaHumanIdentity::AutoRigServiceTitleError);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:662:bool UMetaHumanIdentity::IdentityIsReadyForAutoRig(TArray<FVector>& OutConformedFaceVertices, 
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:667:	EAutoRigIdentityValidationError ErrorCode = EAutoRigIdentityValidationError::None;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:673:			Face->GetConformalVerticesForAutoRigging(OutConformedFaceVertices, OutConformedLeftEyeVertices, OutConformedRightEyeVertices);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:677:				ErrorCode = EAutoRigIdentityValidationError::EmptyConformalMesh;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:682:			ErrorCode = EAutoRigIdentityValidationError::MeshNotConformed;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:687:		ErrorCode = EAutoRigIdentityValidationError::NoFacePart;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:690:	HandleIdentityForAutoRigValidation(ErrorCode, bInLogOnly);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:691:	return ErrorCode == EAutoRigIdentityValidationError::None;
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:716:		Message = LOCTEXT("NoTemplateError", "Failed to load template rig");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:857:void UMetaHumanIdentity::HandleIdentityForAutoRigValidation(EAutoRigIdentityValidationError InErrorCode, bool bInLogOnly)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:863:	case EAutoRigIdentityValidationError::None:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:866:	case EAutoRigIdentityValidationError::BodyNotSelected:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:870:	case EAutoRigIdentityValidationError::BodyIndexInvalid:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:874:	case EAutoRigIdentityValidationError::MeshNotConformed:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:875:		Message = FText::Format(LOCTEXT("MeshNotConformed", "Error submitting to autorig. Face mesh was not conformed in the MetaHuman Identity {0}"), FText::FromString(GetName()));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:878:	case EAutoRigIdentityValidationError::EmptyConformalMesh:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:879:		Message = FText::Format(LOCTEXT("EmptyConformalMesh", "Error submitting to autorig. ConformalMesh has no vertices to submit in the MetaHuman Identity %s"), FText::FromString(GetName()));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:882:	case EAutoRigIdentityValidationError::NoFacePart:
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:883:		Message = FText::Format(LOCTEXT("NoFacePart", "Error submitting to autorig. Face Part not found in the MetaHuman Identity %s"), FText::FromString(GetName()));
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:891:	if (InErrorCode != EAutoRigIdentityValidationError::None)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:897:			FMessageDialog::Open(EAppMsgType::Ok, Message, UMetaHumanIdentity::AutoRigServiceTitleError);
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:903:void UMetaHumanIdentity::HandleAutoRigServiceError(EMetaHumanServiceRequestResult InServiceError, bool bInLogOnly)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:936:	UE_LOGF(LogMetaHumanIdentity, Error, "Autorigging service returned an error: '%ls'", *ErrorText.ToString());
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanIdentity\Private\MetaHumanIdentity.cpp:939:		FMessageDialog::Open(EAppMsgType::Ok, ErrorText, UMetaHumanIdentity::AutoRigServiceTitleError);
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Landscape\Classes\LandscapeNaniteComponent.h:145:	 * @param NewProxyContentId Hash of the content that this mesh corresponds to
+D:\Epic Games\UE_5.8\Engine\Plugins\Runtime\MeshModelingToolset\Source\ModelingOperators\Public\CuttingOps\EdgeLoopInsertionOp.h:34:	// Edge IDs in the ResultMesh corresponding to the loop.
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Source\MetaHumanConfig\Private\MetaHumanConfig.cpp:292:	FString FittingConfigDataFile = InPath + TEXT("/configuration_autorig.json");
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:19:def process_autorig_service_response(dna_applied_success : bool):
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:20:    """Callback to process the response from the auto rigging service (Mesh to MetaHuman)"""
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:25:    identity_asset.on_auto_rig_service_finished_dynamic_delegate.remove_callable(process_autorig_service_response)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:31:        unreal.log_error("Failed to retrieve the DNA from Autorig service")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:64:        mh_identity_asset.log_in_to_auto_rig_service()
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:108:                        unreal.log("Calling AutoRig service to create a DNA for identity")
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:109:                        mh_identity_asset.on_auto_rig_service_finished_dynamic_delegate.add_callable(process_autorig_service_response)
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:151:        'The data is then used to conform the template mesh. The back-end AutoRig service is invoked to retrieve a DNA, which is applied '
+D:\Epic Games\UE_5.8\Engine\Plugins\MetaHuman\MetaHumanAnimator\Content\Python\create_identity_for_performance.py:153:        'The user must be connected to AutoRig service prior to running this script. '
+D:\Epic Games\UE_5.8\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Private\Transport\UdpMessageProcessor.h:920:	 * Processes a Mesh segment.
+D:\Epic Games\UE_5.8\Engine\Source\Developer\HierarchicalLODUtilities\Public\IHierarchicalLODUtilities.h:148:	/** Computes which LOD level of a Mesh corresponds to the given Distance (calculates closest ScreenSize with distance) */
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Private\CharacterMovementComponentAsync.cpp:3033:	if (auto Rigid = PhysicsHandle->GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Private\CharacterMovementComponentAsync.cpp:3070:	if (auto Rigid = PhysicsHandle->GetHandle_LowLevel()->CastToRigidParticle())
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Private\VerseVM\VVMInterpreter.cpp:1746:			auto RightString = RightSource.ToString(Context, EValueStringFormat::VerseSyntax);
+D:\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Private\SkeletalMeshSceneProxy.cpp:865:	Mesh.SegmentIndex = SectionIndex;
+D:\Epic Games\UE_5.8\Engine\Plugins\Media\ElectraPlayer\Source\ElectraPlayerRuntime\Private\Runtime\Player\DASH\ManifestBuilderDASH.cpp:583:						queryTemplate.RightChopInline(token2Pos+1, EAllowShrinking::No);

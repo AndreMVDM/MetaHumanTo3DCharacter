@@ -1,0 +1,14 @@
+{
+  "action": "review",
+  "roles": [
+    "pelvis",
+    "thigh_l",
+    "thigh_r",
+    "spine_01",
+    "spine_02",
+    "spine_03"
+  ],
+  "judgement": "accept",
+  "category": "actual anatomical misplacement",
+  "session_id": "b4e57640-116c-4f16-816a-b85647064113"
+}

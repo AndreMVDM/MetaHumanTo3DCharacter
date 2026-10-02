@@ -1,0 +1,889 @@
+{
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "systems": [
+    {
+      "name": "USkeletonModifier",
+      "scope": "Author/add/remove/parent/mirror/orient explicitly supplied bone transforms. No humanoid fitting.",
+      "exposure": [
+        "C++",
+        "Blueprint",
+        "Python subset"
+      ],
+      "status": "Public authoring API; skeletal editing requires editor; SetDynamicMesh/CommitSkeletonToDynamicMesh C++ only",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\MeshModelingToolset\\Source\\SkeletalMeshModifiers\\Public\\SkeletonModifier.h",
+          "sha256": "9a06232894c56f6fc8e98136af2fbdcf400667aeec5c60b1716d960ab9b619bc",
+          "matches": [
+            {
+              "line": 133,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Mesh\")"
+            },
+            {
+              "line": 134,
+              "text": "UE_API bool SetSkeletalMesh(USkeletalMesh* InSkeletalMesh);"
+            },
+            {
+              "line": 140,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Mesh\")"
+            },
+            {
+              "line": 141,
+              "text": "UE_API bool CommitSkeletonToSkeletalMesh();"
+            },
+            {
+              "line": 144,
+              "text": "UE_API bool SetDynamicMesh(UDynamicMesh* InDynamicMesh);"
+            },
+            {
+              "line": 155,
+              "text": "UE_API bool CommitSkeletonToDynamicMesh();"
+            },
+            {
+              "line": 164,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 165,
+              "text": "UE_API bool AddBone(const FName InBoneName, const FName InParentName, const FTransform& InTransform);"
+            },
+            {
+              "line": 166,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 174,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 176,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 185,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 187,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 188,
+              "text": "UE_API bool SetBonesTransforms(const TArray<FName>& InBoneNames, const TArray<FTransform>& InNewTransforms, const bool bMoveChildren);"
+            },
+            {
+              "line": 195,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 197,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 205,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 207,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 215,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 217,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 225,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 226,
+              "text": "UE_API bool OrientBone(const FName InBoneName, const FOrientOptions& InOptions = FOrientOptions());"
+            },
+            {
+              "line": 227,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 235,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 242,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 250,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            },
+            {
+              "line": 256,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"Skeleton\")"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FSkeletonViaSampling::ComputeSkeleton",
+      "scope": "Actual automatic mesh medial sphere sampling; convert tree to animation skeleton; generic geometry branches, not labelled humanoid joints.",
+      "exposure": [
+        "C++"
+      ],
+      "status": "Public GeometryAlgorithms headers; low-level algorithm; no direct Python method found",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryProcessing\\Source\\GeometryAlgorithms\\Public\\Skeletonization\\MeshMedialAxisSampling.h",
+          "sha256": "56a8a08c675f9f3afa033a00fbcfc4eff92fd40ff34ff3eda5c180cbde758122",
+          "matches": [
+            {
+              "line": 368,
+              "text": "struct FMedialSkeletonToTreeSkeletonOptions"
+            },
+            {
+              "line": 427,
+              "text": "GEOMETRYALGORITHMS_API static void ToHierarchy(const FMedialSkeleton& InMedialSkeleton, const TMeshAABBTree3<MeshType>* AvoidIntersectingMeshBVH, TArray<int32>& OutParent, TArray<FTransform>& OutTransform, FMedialSkeletonToTreeSkeletonOptions Options, int32 RootIndex = INDEX_NONE,"
+            },
+            {
+              "line": 430,
+              "text": "// Same as above ToHierarchy method, but without the AvoidIntersectingMeshBVH parameter"
+            },
+            {
+              "line": 431,
+              "text": "static void ToHierarchy(const FMedialSkeleton& InMedialSkeleton, TArray<int32>& OutParent, TArray<FTransform>& OutTransform, FMedialSkeletonToTreeSkeletonOptions Options, int32 RootIndex = INDEX_NONE,"
+            },
+            {
+              "line": 434,
+              "text": "return ToHierarchy<FDynamicMesh3>(InMedialSkeleton, nullptr, OutParent, OutTransform, Options, RootIndex, OutBoneIndexToMedialIndex, OutMedialIndexToBoneIndex);"
+            },
+            {
+              "line": 446,
+              "text": "// When re-clustering for subdivided edges, weight to use for the position error term. Equivalent in meaning to PosErrorWt in FSkeletonViaSampling."
+            },
+            {
+              "line": 512,
+              "text": "// When re-clustering for split edges, weight to use for the position error term. Equivalent in meaning to PosErrorWt in FSkeletonViaSampling."
+            },
+            {
+              "line": 532,
+              "text": "struct FSkeletonViaSampling"
+            },
+            {
+              "line": 537,
+              "text": "int32 MaxSpheres = 10;"
+            },
+            {
+              "line": 597,
+              "text": "GEOMETRYALGORITHMS_API FMedialSkeleton ComputeSkeleton(const TMeshAABBTree3<MeshType>& MeshBVH, TFunctionRef<FVector3d(int32)> GetVertexNormal, TFunctionRef<int32(int32)> VIDtoWeldVIDFn, const TFastWindingTree<MeshType>* MeshFWTree = nullptr);"
+            },
+            {
+              "line": 610,
+              "text": "GEOMETRYALGORITHMS_API FMedialSkeleton ComputeSkeleton(const TMeshAABBTree3<MeshType>& MeshBVH, TFunctionRef<bool(int32)> OptionalWeldVertexFilter = [](int32)->bool {return true;}, double ImplicitVertexNormalWeldThreshold = UE_DOUBLE_KINDA_SMALL_NUMBER, const TFastWindingTree<MeshType>* MeshFWTree = nullptr);"
+            },
+            {
+              "line": 620,
+              "text": "FMedialSkeleton ComputeSkeleton(const TMeshAABBTree3<FDynamicMesh3>& MeshBVH, double ImplicitVertexNormalWeldThreshold = UE_DOUBLE_KINDA_SMALL_NUMBER, const TFastWindingTree<FDynamicMesh3>* MeshFWTree = nullptr)"
+            },
+            {
+              "line": 623,
+              "text": "return ComputeSkeleton(MeshBVH, [&Mesh](int32 VID)->bool {return Mesh.IsBoundaryVertex(VID);}, ImplicitVertexNormalWeldThreshold, MeshFWTree);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geometry Collection medial Dataflow nodes",
+      "scope": "MeshMedialSkeletonSampling_v2 -> ConvertMedialSkeletonToAnimationSkeleton_v2 / SkinMeshViaMedialSkeleton_v2. Wrapper tests underlying native algorithms; graph itself not executed.",
+      "exposure": [
+        "Dataflow node registration",
+        "C++",
+        "Python graph construction/evaluation exposed"
+      ],
+      "status": "GeometryCollectionPlugin IsBetaVersion=true, disabled by default; conversion declarations in Private/Dataflow; latest v2 DataflowMesh, legacy DynamicMesh nodes deprecated5.8",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionNodes\\Public\\Dataflow\\GeometryCollectionSamplingNodes.h",
+          "sha256": "81f3b69c6b67c9ac1125216152b74d88691385a7d1e76d6027482cf0f5018be6",
+          "matches": [
+            {
+              "line": 9,
+              "text": "#include \"Skeletonization/MeshMedialAxisSampling.h\""
+            },
+            {
+              "line": 10,
+              "text": "#include \"Dataflow/DataflowMedialSkeleton.h\""
+            },
+            {
+              "line": 39,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 141,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 259,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 412,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 584,
+              "text": "* DEPRECATED 5.8 - use FMeshMedialSkeletonSamplingDataflowNode_v2 instead"
+            },
+            {
+              "line": 586,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 587,
+              "text": "struct FMeshMedialSkeletonSamplingDataflowNode : public FDataflowNode"
+            },
+            {
+              "line": 590,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FMeshMedialSkeletonSamplingDataflowNode, \"MeshMedialSkeletonSampling\", \"MedialSkeletonSampling\", \"\")"
+            },
+            {
+              "line": 598,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 630,
+              "text": "FMeshMedialSkeletonSamplingDataflowNode(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 639,
+              "text": "struct FMeshMedialSkeletonSamplingDataflowNode_v2 : public FDataflowNode"
+            },
+            {
+              "line": 642,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FMeshMedialSkeletonSamplingDataflowNode_v2, \"MeshMedialSkeletonSampling\", \"MedialSkeletonSampling\", \"\")"
+            },
+            {
+              "line": 650,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 682,
+              "text": "FMeshMedialSkeletonSamplingDataflowNode_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 688,
+              "text": "* DEPRECATED 5.8 - use FSimplifyMedialSkeletonDataflowNode_v2 instead"
+            },
+            {
+              "line": 690,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 691,
+              "text": "struct FSimplifyMedialSkeletonDataflowNode : public FDataflowNode"
+            },
+            {
+              "line": 694,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSimplifyMedialSkeletonDataflowNode, \"SimplifyMedialSkeleton\", \"MedialSkeletonSampling\", \"Reduce\")"
+            },
+            {
+              "line": 699,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 762,
+              "text": "FSimplifyMedialSkeletonDataflowNode(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 769,
+              "text": "struct FSimplifyMedialSkeletonDataflowNode_v2 : public FDataflowNode"
+            },
+            {
+              "line": 772,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSimplifyMedialSkeletonDataflowNode_v2, \"SimplifyMedialSkeleton\", \"MedialSkeletonSampling\", \"Reduce\")"
+            },
+            {
+              "line": 777,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 840,
+              "text": "FSimplifyMedialSkeletonDataflowNode_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 857,
+              "text": "* DEPRECATED 5.8 - use FSubdivideMedialSkeletonDataflowNode_v2 instead"
+            },
+            {
+              "line": 859,
+              "text": "USTRUCT(meta = (DataflowGeometryCollection, Deprecated = \"5.8\"))"
+            },
+            {
+              "line": 860,
+              "text": "struct FSubdivideMedialSkeletonDataflowNode : public FDataflowNode"
+            },
+            {
+              "line": 863,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSubdivideMedialSkeletonDataflowNode, \"SubdivideMedialSkeleton\", \"MedialSkeletonSampling\", \"Subdivide Refine Split\")"
+            },
+            {
+              "line": 868,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 908,
+              "text": "FSubdivideMedialSkeletonDataflowNode(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 917,
+              "text": "struct FSubdivideMedialSkeletonDataflowNode_v2 : public FDataflowNode"
+            },
+            {
+              "line": 920,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSubdivideMedialSkeletonDataflowNode_v2, \"SubdivideMedialSkeleton\", \"MedialSkeletonSampling\", \"Subdivide Refine Split\")"
+            },
+            {
+              "line": 925,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 965,
+              "text": "FSubdivideMedialSkeletonDataflowNode_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            }
+          ]
+        },
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionNodes\\Private\\Dataflow\\MeshMedialSkeletonConversionNodes.h",
+          "sha256": "f963649375f5508d32c8a8289c72dd3368c8f76201af1277249473c01b82f8b0",
+          "matches": [
+            {
+              "line": 13,
+              "text": "#include \"MeshMedialSkeletonConversionNodes.generated.h\""
+            },
+            {
+              "line": 16,
+              "text": "enum class EDataflowMedialSkeletonConversionEdgeWeightMethod : uint8"
+            },
+            {
+              "line": 27,
+              "text": "enum class EDataflowMedialSkeletonConversionMergeDisconnectedMethod : uint8"
+            },
+            {
+              "line": 36,
+              "text": "enum class EDataflowMedialSkeletonConversionSelectRootMethod : uint8"
+            },
+            {
+              "line": 51,
+              "text": "enum class EDataflowBindSkeletonMethod : uint8"
+            },
+            {
+              "line": 64,
+              "text": "* FConvertMedialSkeletonToAnimationSkeletonDataflowNode"
+            },
+            {
+              "line": 65,
+              "text": "* DEPRECATED 5.8 - use FConvertMedialSkeletonToAnimationSkeletonDataflowNode_v2 instead"
+            },
+            {
+              "line": 68,
+              "text": "struct FConvertMedialSkeletonToAnimationSkeletonDataflowNode : public FDataflowNode"
+            },
+            {
+              "line": 71,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FConvertMedialSkeletonToAnimationSkeletonDataflowNode, \"MedialToAnimSkeleton\", \"SkeletonUtil\", \"Skeletal Conversion\")"
+            },
+            {
+              "line": 77,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 87,
+              "text": "EDataflowMedialSkeletonConversionEdgeWeightMethod EdgeWeightMethod = EDataflowMedialSkeletonConversionEdgeWeightMethod::ArrayOrder;"
+            },
+            {
+              "line": 90,
+              "text": "EDataflowMedialSkeletonConversionMergeDisconnectedMethod MergeDisconnectedMethod = EDataflowMedialSkeletonConversionMergeDisconnectedMethod::ConnectClosestBones;"
+            },
+            {
+              "line": 94,
+              "text": "EDataflowMedialSkeletonConversionSelectRootMethod SelectRootMethod = EDataflowMedialSkeletonConversionSelectRootMethod::ArrayOrder;"
+            },
+            {
+              "line": 97,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::ClosestToPoint\"))"
+            },
+            {
+              "line": 101,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::FarthestInDirection\"))"
+            },
+            {
+              "line": 120,
+              "text": "FConvertMedialSkeletonToAnimationSkeletonDataflowNode(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 124,
+              "text": "struct FConvertMedialSkeletonToAnimationSkeletonDataflowNode_v2 : public FDataflowNode"
+            },
+            {
+              "line": 127,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FConvertMedialSkeletonToAnimationSkeletonDataflowNode_v2, \"MedialToAnimSkeleton\", \"SkeletonUtil\", \"Skeletal Conversion\")"
+            },
+            {
+              "line": 133,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 143,
+              "text": "EDataflowMedialSkeletonConversionEdgeWeightMethod EdgeWeightMethod = EDataflowMedialSkeletonConversionEdgeWeightMethod::ArrayOrder;"
+            },
+            {
+              "line": 146,
+              "text": "EDataflowMedialSkeletonConversionMergeDisconnectedMethod MergeDisconnectedMethod = EDataflowMedialSkeletonConversionMergeDisconnectedMethod::ConnectClosestBones;"
+            },
+            {
+              "line": 150,
+              "text": "EDataflowMedialSkeletonConversionSelectRootMethod SelectRootMethod = EDataflowMedialSkeletonConversionSelectRootMethod::ArrayOrder;"
+            },
+            {
+              "line": 153,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::ClosestToPoint\"))"
+            },
+            {
+              "line": 157,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::FarthestInDirection\"))"
+            },
+            {
+              "line": 176,
+              "text": "FConvertMedialSkeletonToAnimationSkeletonDataflowNode_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 180,
+              "text": "* FBindSkeletonToMeshDataflowNode"
+            },
+            {
+              "line": 181,
+              "text": "* DEPRECATED 5.8 - use FBindSkeletonToMeshDataflowNode_v2 instead"
+            },
+            {
+              "line": 184,
+              "text": "struct FBindSkeletonToMeshDataflowNode : public FDataflowNode"
+            },
+            {
+              "line": 187,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FBindSkeletonToMeshDataflowNode, \"BindSkeletonToMesh\", \"SkeletonUtil\", \"Skeletal Conversion\")"
+            },
+            {
+              "line": 200,
+              "text": "EDataflowBindSkeletonMethod BindMethod = EDataflowBindSkeletonMethod::DirectDistance;"
+            },
+            {
+              "line": 218,
+              "text": "FBindSkeletonToMeshDataflowNode(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 222,
+              "text": "struct FBindSkeletonToMeshDataflowNode_v2 : public FDataflowNode"
+            },
+            {
+              "line": 225,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FBindSkeletonToMeshDataflowNode_v2, \"BindSkeletonToMesh\", \"SkeletonUtil\", \"Skeletal Conversion\")"
+            },
+            {
+              "line": 238,
+              "text": "EDataflowBindSkeletonMethod BindMethod = EDataflowBindSkeletonMethod::DirectDistance;"
+            },
+            {
+              "line": 256,
+              "text": "FBindSkeletonToMeshDataflowNode_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 260,
+              "text": "* FSkinMeshViaMedialSkeleton"
+            },
+            {
+              "line": 261,
+              "text": "* DEPRECATED 5.8 - use FSkinMeshViaMedialSkeleton_v2 instead"
+            },
+            {
+              "line": 264,
+              "text": "struct FSkinMeshViaMedialSkeleton : public FDataflowNode"
+            },
+            {
+              "line": 267,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSkinMeshViaMedialSkeleton, \"SkinMeshViaMedialSkeleton\", \"SkeletonUtil\", \"Skeletal Mesh Conversion\")"
+            },
+            {
+              "line": 276,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 279,
+              "text": "EDataflowMedialSkeletonConversionEdgeWeightMethod EdgeWeightMethod = EDataflowMedialSkeletonConversionEdgeWeightMethod::ArrayOrder;"
+            },
+            {
+              "line": 282,
+              "text": "EDataflowMedialSkeletonConversionMergeDisconnectedMethod MergeDisconnectedMethod = EDataflowMedialSkeletonConversionMergeDisconnectedMethod::ConnectClosestBones;"
+            },
+            {
+              "line": 286,
+              "text": "EDataflowMedialSkeletonConversionSelectRootMethod SelectRootMethod = EDataflowMedialSkeletonConversionSelectRootMethod::ArrayOrder;"
+            },
+            {
+              "line": 289,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::ClosestToPoint\"))"
+            },
+            {
+              "line": 293,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::FarthestInDirection\"))"
+            },
+            {
+              "line": 310,
+              "text": "EDataflowBindSkeletonMethod BindMethod = EDataflowBindSkeletonMethod::DirectDistance;"
+            },
+            {
+              "line": 336,
+              "text": "FSkinMeshViaMedialSkeleton(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 340,
+              "text": "struct FSkinMeshViaMedialSkeleton_v2 : public FDataflowNode"
+            },
+            {
+              "line": 343,
+              "text": "DATAFLOW_NODE_DEFINE_INTERNAL(FSkinMeshViaMedialSkeleton_v2, \"SkinMeshViaMedialSkeleton\", \"SkeletonUtil\", \"Skeletal Mesh Conversion\")"
+            },
+            {
+              "line": 352,
+              "text": "FDataflowMedialSkeleton MedialSkeleton;"
+            },
+            {
+              "line": 355,
+              "text": "EDataflowMedialSkeletonConversionEdgeWeightMethod EdgeWeightMethod = EDataflowMedialSkeletonConversionEdgeWeightMethod::ArrayOrder;"
+            },
+            {
+              "line": 358,
+              "text": "EDataflowMedialSkeletonConversionMergeDisconnectedMethod MergeDisconnectedMethod = EDataflowMedialSkeletonConversionMergeDisconnectedMethod::ConnectClosestBones;"
+            },
+            {
+              "line": 362,
+              "text": "EDataflowMedialSkeletonConversionSelectRootMethod SelectRootMethod = EDataflowMedialSkeletonConversionSelectRootMethod::ArrayOrder;"
+            },
+            {
+              "line": 365,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::ClosestToPoint\"))"
+            },
+            {
+              "line": 369,
+              "text": "UPROPERTY(EditAnywhere, Category = \"Options\", meta = (DataflowInput, EditCondition = \"SelectRootMethod == EDataflowMedialSkeletonConversionSelectRootMethod::FarthestInDirection\"))"
+            },
+            {
+              "line": 386,
+              "text": "EDataflowBindSkeletonMethod BindMethod = EDataflowBindSkeletonMethod::DirectDistance;"
+            },
+            {
+              "line": 412,
+              "text": "FSkinMeshViaMedialSkeleton_v2(const UE::Dataflow::FNodeParameters& InParam, FGuid InGuid = FGuid::NewGuid());"
+            },
+            {
+              "line": 417,
+              "text": "void RegisterMeshMedialSkeletonConversionNodes();"
+            }
+          ]
+        },
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\GeometryCollectionPlugin.uplugin",
+          "sha256": "f346892e8641bf3650c00f293e29d8aa01a7028ab058e76cf17f685313f43aa6",
+          "matches": [
+            {
+              "line": 13,
+              "text": "\"EnabledByDefault\" : false,"
+            },
+            {
+              "line": 15,
+              "text": "\"IsBetaVersion\" : true,"
+            },
+            {
+              "line": 20,
+              "text": "\"Type\": \"Editor\","
+            },
+            {
+              "line": 25,
+              "text": "\"Type\": \"Runtime\","
+            },
+            {
+              "line": 30,
+              "text": "\"Type\": \"Editor\","
+            },
+            {
+              "line": 35,
+              "text": "\"Type\": \"Runtime\","
+            },
+            {
+              "line": 40,
+              "text": "\"Type\": \"Runtime\","
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Static mesh skeletal conversion factory",
+      "scope": "Create root-only skeleton, or use provided existing skeleton; conversion is not automatic anatomical fitting.",
+      "exposure": [
+        "C++ internal factories",
+        "Python classes discoverable but static input property not writable"
+      ],
+      "status": "Private Hidden factories; UI conversion utility",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\SkeletalMeshModelingTools\\Source\\SkeletalMeshModelingTools\\Private\\SkeletalMeshModelingToolsMeshConverter.h",
+          "sha256": "5ca589eb5c5d8dbe33570f6d43e3fd656a7e9137f2c6e612c2c16f4965d926ca",
+          "matches": [
+            {
+              "line": 6,
+              "text": "#include \"Factories/Factory.h\""
+            },
+            {
+              "line": 15,
+              "text": "class UStaticMesh;"
+            },
+            {
+              "line": 26,
+              "text": "UCLASS(Hidden, MinimalAPI)"
+            },
+            {
+              "line": 27,
+              "text": "class USkeletonFromStaticMeshFactory :"
+            },
+            {
+              "line": 28,
+              "text": "public UFactory"
+            },
+            {
+              "line": 32,
+              "text": "USkeletonFromStaticMeshFactory(const FObjectInitializer& InObjectInitializer);"
+            },
+            {
+              "line": 34,
+              "text": "// UFactory overrides"
+            },
+            {
+              "line": 35,
+              "text": "virtual UObject* FactoryCreateNew("
+            },
+            {
+              "line": 47,
+              "text": "TObjectPtr<UStaticMesh> StaticMesh;"
+            },
+            {
+              "line": 57,
+              "text": "UCLASS(Hidden, MinimalAPI)"
+            },
+            {
+              "line": 58,
+              "text": "class USkeletalMeshFromStaticMeshFactory :"
+            },
+            {
+              "line": 59,
+              "text": "public UFactory"
+            },
+            {
+              "line": 63,
+              "text": "USkeletalMeshFromStaticMeshFactory(const FObjectInitializer& InObjectInitializer);"
+            },
+            {
+              "line": 65,
+              "text": "// UFactory overrides"
+            },
+            {
+              "line": 66,
+              "text": "virtual UObject* FactoryCreateNew("
+            },
+            {
+              "line": 83,
+              "text": "TObjectPtr<UStaticMesh> StaticMesh;"
+            },
+            {
+              "line": 108,
+              "text": "UCLASS(config=EditorPerProjectUserSettings, HideCategories=Object, MinimalAPI)"
+            },
+            {
+              "line": 109,
+              "text": "class UStaticMeshToSkeletalMeshConvertOptions :"
+            },
+            {
+              "line": 158,
+              "text": "void ConvertStaticMeshAssetsToSkeletalMeshesInteractive(const TArray<FAssetData>& InStaticMeshAssets);"
+            }
+          ]
+        },
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\SkeletalMeshModelingTools\\Source\\SkeletalMeshModelingTools\\Private\\SkeletalMeshModelingToolsMeshConverter.cpp",
+          "sha256": "71391ba7fcaea65531e7603f5f9c77baef528528d95dd792d3a45f8fa2ba5835",
+          "matches": [
+            {
+              "line": 61,
+              "text": "UObject* USkeletonFromStaticMeshFactory::FactoryCreateNew("
+            },
+            {
+              "line": 75,
+              "text": "case ERootBonePositionReference::Absolute:"
+            },
+            {
+              "line": 79,
+              "text": "case ERootBonePositionReference::Relative:"
+            },
+            {
+              "line": 91,
+              "text": "const TCHAR* RootBoneName = TEXT(\"Root\");"
+            },
+            {
+              "line": 96,
+              "text": "Modifier.Add(FMeshBoneInfo(RootBoneName, RootBoneName, INDEX_NONE), RootTransform);"
+            },
+            {
+              "line": 113,
+              "text": "UObject* USkeletalMeshFromStaticMeshFactory::FactoryCreateNew("
+            },
+            {
+              "line": 244,
+              "text": "switch(InOptions->RootBonePlacement)"
+            },
+            {
+              "line": 246,
+              "text": "case ERootBonePlacementOptions::BottomCenter:"
+            },
+            {
+              "line": 248,
+              "text": "SkeletonFactory->PositionReference = ERootBonePositionReference::Relative;"
+            },
+            {
+              "line": 250,
+              "text": "case ERootBonePlacementOptions::Center:"
+            },
+            {
+              "line": 252,
+              "text": "SkeletonFactory->PositionReference = ERootBonePositionReference::Relative;"
+            },
+            {
+              "line": 254,
+              "text": "case ERootBonePlacementOptions::Origin:"
+            },
+            {
+              "line": 256,
+              "text": "SkeletonFactory->PositionReference = ERootBonePositionReference::Absolute;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GeometryScript_NewAssetUtils",
+      "scope": "Create persistent Skeletal Mesh from DynamicMesh + existing Skeleton + weights; options use_mesh_bone_proportions and original vertex order.",
+      "exposure": [
+        "C++",
+        "Blueprint",
+        "Python"
+      ],
+      "status": "Public GeometryScriptingEditor asset creation; editor-only",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Runtime\\GeometryScripting\\Source\\GeometryScriptingEditor\\Public\\GeometryScript\\CreateNewAssetUtilityFunctions.h",
+          "sha256": "e5e95f4a5dacc633b86c897c85add6c38311a2ce95b8990e95e64ba7577ae9b9",
+          "matches": [
+            {
+              "line": 78,
+              "text": "bool bUseOriginalVertexOrder = false;"
+            },
+            {
+              "line": 83,
+              "text": "struct FGeometryScriptCreateNewSkeletalMeshAssetOptions"
+            },
+            {
+              "line": 98,
+              "text": "bool bUseMeshBoneProportions = false;"
+            },
+            {
+              "line": 111,
+              "text": "bool bUseOriginalVertexOrder = false;"
+            },
+            {
+              "line": 203,
+              "text": "CreateNewSkeletalMeshAssetFromMesh("
+            },
+            {
+              "line": 205,
+              "text": "USkeleton* InSkeleton,"
+            },
+            {
+              "line": 207,
+              "text": "FGeometryScriptCreateNewSkeletalMeshAssetOptions Options,"
+            },
+            {
+              "line": 215,
+              "text": "UFUNCTION(BlueprintCallable, Category = \"GeometryScript|AssetManagement\", meta = (HidePin = \"Debug\", ScriptName=\"CreateNewSkeletalMeshAssetFromMeshLods;CreateNewSkeletalMeshAssetFromMeshLODs\", ExpandEnumAsExecs = \"Outcome\"))"
+            },
+            {
+              "line": 217,
+              "text": "CreateNewSkeletalMeshAssetFromMeshLODs("
+            },
+            {
+              "line": 219,
+              "text": "USkeleton* InSkeleton,"
+            },
+            {
+              "line": 221,
+              "text": "FGeometryScriptCreateNewSkeletalMeshAssetOptions Options,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Control Rig / IKRigController automatic characterisation",
+      "scope": "Existing skeleton control rigs/semantic chain identification/FBIK generation; not unrigged mesh joint discovery.",
+      "exposure": [
+        "C++",
+        "Blueprint",
+        "Python controller APIs"
+      ],
+      "status": "Characterisation fails on all four medial trees, succeeds on both assisted semantic hierarchies",
+      "source_evidence": [
+        {
+          "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\IKRig\\Source\\IKRigEditor\\Public\\RigEditor\\IKRigController.h",
+          "sha256": "5826d20ca436f15fabde0c94db762fff282091cb4738552140a7afc6024f5f69",
+          "matches": [
+            {
+              "line": 350,
+              "text": "UE_API bool SetRetargetRoot(const FName RootBoneName) const;"
+            },
+            {
+              "line": 358,
+              "text": "UE_API bool SetRootMotionBone(const FName RootBoneName) const;"
+            },
+            {
+              "line": 367,
+              "text": "UE_API bool ApplyAutoGeneratedRetargetDefinition();"
+            },
+            {
+              "line": 372,
+              "text": "UE_API bool ApplyAutoFBIK();"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "not_rigging_solutions": [
+    "ML Deformer and Mesh Deformer are deformation infrastructure, not a verified mesh-to-humanoid-joint fitter.",
+    "No verified heat-binding callable was used; do not advertise an untested binding algorithm.",
+    "MetaHuman custom mesh solving/topology replacement excluded by scope."
+  ],
+  "python_evidence": [
+    "python_api_probe.json",
+    "additional_python_apis.json"
+  ]
+}

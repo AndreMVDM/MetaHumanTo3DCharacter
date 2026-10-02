@@ -1,0 +1,43 @@
+Setting temp directory to 'C:\Users\Andre\AppData\Local\Temp\UnrealBuildTool\00f34584'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.26100.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Log file: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4D\preview_only_uht.log
+Unhandled exception: System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EpicGames.Core.FileReference.Move(FileReference sourceLocation, FileReference targetLocation)
+   at EpicGames.Core.Log.BackupLogFile(FileReference outputFile)
+   at EpicGames.Core.DefaultLogger.AddFileWriter(String name, FileReference outputFile)
+   at EpicGames.Core.Log.AddFileWriter(String name, FileReference outputFile)
+   at UnrealBuildTool.Modes.UnrealHeaderToolMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+Unhandled exception: IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EpicGames.Core.FileReference.Move(FileReference sourceLocation, FileReference targetLocation)
+   at EpicGames.Core.Log.BackupLogFile(FileReference outputFile)
+   at EpicGames.Core.DefaultLogger.AddFileWriter(String name, FileReference outputFile)
+   at EpicGames.Core.Log.AddFileWriter(String name, FileReference outputFile)
+   at UnrealBuildTool.Modes.UnrealHeaderToolMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.745 Main
+   0.000          [  0.000]  +0.298 <unknown>
+   0.298          [  0.298]  +0.135 Apply XmlConfig
+   0.302             0.302          [  0.003]  +0.006 Find target files
+   0.462          [  0.462]  +0.082 AddTelemetry
+   0.637          [  0.637]  +0.108 RegisterPlatforms
+[  0.804]  +0.002 TelemetryService.FlushEvents
+[  0.808]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 0.81 seconds

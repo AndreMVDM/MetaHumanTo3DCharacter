@@ -1,0 +1,2702 @@
+{
+  "world": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting",
+  "actors": [
+    {
+      "name": "LightmassImportanceVolume_1",
+      "label": "LightmassImportanceVolume1",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.LightmassImportanceVolume_1",
+      "class": "/Script/Engine.LightmassImportanceVolume",
+      "location": "<Struct 'Vector' (0x000001C8B89FDAF0) {x: 3557.995117, y: 1770.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FDAF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FDAF0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "PrecomputedVisibilityVolume_1",
+      "label": "PrecomputedVisibilityVolume1",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.PrecomputedVisibilityVolume_1",
+      "class": "/Script/Engine.PrecomputedVisibilityVolume",
+      "location": "<Struct 'Vector' (0x000001C8B89FDB90) {x: 1119.888794, y: -940.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FDB90) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FDB90) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_SimpleRetargeting_C_1",
+      "label": "BP_SimpleRetargeting",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SimpleRetargeting_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_TranslationRetargeting.BP_TranslationRetargeting_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1501.500000, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FDC30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_M_MALE_Base.SK_M_MALE_Base",
+            "skeletal_mesh_asset": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_M_MALE_Base.SK_M_MALE_Base",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C80F53D330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N.M_Jog_NoWep_N'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C80F53C980) {x: -200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C80F53C998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SimpleRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1301.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "SkeletalMesh1",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base",
+            "skeletal_mesh_asset": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C80F2B8330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N.M_Jog_NoWep_N'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C80F2B7980) {x: 200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C80F2B7998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SimpleRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1701.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "SkeletalMesh2",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_S_MALE_Base.SK_S_MALE_Base",
+            "skeletal_mesh_asset": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_S_MALE_Base.SK_S_MALE_Base",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C80F2BE730) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N.M_Jog_NoWep_N'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C80F2BDD80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C80F2BDD98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SimpleRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1501.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "TextRender",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Translation Retargeting Options can be found in the Skeleton asset's \r\nSkeleton Tree.\r\n\r\nThe Retarget Source property sets the bind pose of a Skeletal Mesh \r\nthat was used to author the animation. This property is found within \r\nthe Animation Sequence's Details Panel.",
+            "relative_location": "<Struct 'Vector' (0x000001C803826A80) {x: -291.318787, y: -0.000000, z: 280.609650}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C803826A98) {pitch: 0.000000, yaw: -270.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SimpleRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDC30) {x: 1210.181213, y: -659.257392, z: 291.730508}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_0",
+      "label": "BP_DemoDisplay",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_0",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FDC80) {x: 1501.500000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FDC80) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FDC80) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Translation Retargeting",
+            "relative_location": "<Struct 'Vector' (0x000001C80382D380) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C80382D398) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_0.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDCD0) {x: 1501.500000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Retarget Animations on the Same Skeleton ",
+            "relative_location": "<Struct 'Vector' (0x000001C8C4D98D80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8C4D98D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_0.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FDFF0) {x: 1501.500000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_1",
+      "label": "BP_DemoDisplay1",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_1",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE040) {x: 2500.000000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE040) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE040) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Copy Pose From Mesh",
+            "relative_location": "<Struct 'Vector' (0x000001C8E2811680) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E2811698) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE090) {x: 2500.000000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Copy Animations Across Similar Skeletons ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E2810880) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E2810898) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE130) {x: 2500.000000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_2",
+      "label": "BP_DemoDisplay2",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_2",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE180) {x: 500.000000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE180) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE180) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Animation Retargeting",
+            "relative_location": "<Struct 'Vector' (0x000001C8E2D63280) {x: 15.000000, y: 250.000000, z: 336.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E2D63298) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_2.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE1D0) {x: 250.000000, y: -885.000000, z: 336.000000}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "The Animation Retargeting map provides several <br>examples on how to reuse animations between <br>different characters, regardless of proportions and <br>skeleton hierarchies. <br><br>Through the use of Translation Retargeting, IK <br>Rig, and IK Retargeter, the retargeting process <br>can be done either at runtime or for offline <br>creation of new animation assets. ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E2D62B80) {x: 15.000000, y: 250.000000, z: 292.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E2D62B98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_2.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE270) {x: 250.000000, y: -885.000000, z: 292.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_3",
+      "label": "BP_DemoDisplay3",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_3",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE2C0) {x: 4500.757498, y: -900.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE2C0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE2C0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Retargeting on Different Skeletons",
+            "relative_location": "<Struct 'Vector' (0x000001C8E31A7180) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E31A7198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_3.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE310) {x: 4500.757498, y: -885.000000, z: 343.104340}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Retarget using IK Rig and IK Retargeter ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4450180) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4450198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_3.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE360) {x: 4500.757498, y: -885.000000, z: 306.208682}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoRoom_C_0",
+      "label": "BP_DemoRoom",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoRoom_C_0",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoRoom.BP_DemoRoom_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE360) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE360) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE360) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-1",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "IK Retargeting",
+            "relative_location": "<Struct 'Vector' (0x000001C90AC76380) {x: 5450.000000, y: -520.000000, z: 165.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90AC76398) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoRoom_C_0.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE3B0) {x: 5450.000000, y: -520.000000, z: 165.000000}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Retargeting Overview",
+            "relative_location": "<Struct 'Vector' (0x000001C90AC74E80) {x: 5050.000000, y: 520.000000, z: 165.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90AC74E98) {pitch: -0.000000, yaw: -90.000000, roll: -0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoRoom_C_0.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE400) {x: 5050.000000, y: 520.000000, z: 165.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight_0",
+      "label": "DirectionalLight",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.DirectionalLight_0",
+      "class": "/Script/Engine.DirectionalLight",
+      "location": "<Struct 'Vector' (0x000001C8B89FE540) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE540) {pitch: -60.000000, yaw: -160.000000, roll: -85.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE540) {x: -0.469846, y: -0.171010, z: -0.866025}>",
+      "components": []
+    },
+    {
+      "name": "SkyLight_0",
+      "label": "SkyLight",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.SkyLight_0",
+      "class": "/Script/Engine.SkyLight",
+      "location": "<Struct 'Vector' (0x000001C8B89FE590) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE590) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE590) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "SkyAtmosphere_0",
+      "label": "SkyAtmosphere",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.SkyAtmosphere_0",
+      "class": "/Script/Engine.SkyAtmosphere",
+      "location": "<Struct 'Vector' (0x000001C8B89FE5E0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE5E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE5E0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "ExponentialHeightFog_0",
+      "label": "ExponentialHeightFog",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.ExponentialHeightFog_0",
+      "class": "/Script/Engine.ExponentialHeightFog",
+      "location": "<Struct 'Vector' (0x000001C8B89FE680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE680) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE680) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_DemoDisplay_C_4",
+      "label": "BP_DemoDisplay4",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_4",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE6D0) {x: 4300.757498, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE6D0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE6D0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C90AC70880) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90AC70898) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_4.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE720) {x: 4300.757498, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_5",
+      "label": "BP_DemoDisplay5",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_5",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE770) {x: 4500.757498, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE770) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE770) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4CEB780) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4CEB798) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_5.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE7C0) {x: 4500.757498, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_6",
+      "label": "BP_DemoDisplay6",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_6",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE810) {x: 4700.757498, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE810) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE810) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4CE4E80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4CE4E98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_6.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE860) {x: 4700.757498, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_7",
+      "label": "BP_DemoDisplay7",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_7",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE8B0) {x: 1304.496094, y: -745.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE8B0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE8B0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4CE2480) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4CE2498) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_7.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE900) {x: 1304.496094, y: -497.500000, z: 15.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_8",
+      "label": "BP_DemoDisplay8",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_8",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE950) {x: 1499.496094, y: -745.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE950) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE950) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4CEA280) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4CEA298) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_8.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FE9A0) {x: 1499.496094, y: -497.500000, z: 15.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_10",
+      "label": "BP_DemoDisplay9",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_10",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FE9F0) {x: 1699.496094, y: -745.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FE9F0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FE9F0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4CEBE80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4CEBE98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_10.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEA40) {x: 1699.496094, y: -497.500000, z: 15.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_11",
+      "label": "BP_DemoDisplay10",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_11",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FEAE0) {x: 2349.496094, y: -745.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FEAE0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FEAE0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4E82480) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4E82498) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_11.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEB30) {x: 2349.496094, y: -497.500000, z: 15.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_12",
+      "label": "BP_DemoDisplay11",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_12",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FEBD0) {x: 2649.496094, y: -745.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FEBD0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FEBD0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4E81D80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4E81D98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_12.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEC20) {x: 2649.496094, y: -497.500000, z: 15.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_16",
+      "label": "BP_DemoDisplay12",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_16",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FECC0) {x: 3500.395860, y: -900.000000, z: -0.000010}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FECC0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FECC0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Retargeting Mannequins",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4E84780) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4E84798) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_16.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FED10) {x: 3500.395860, y: -885.000000, z: 343.104332}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Easily retarget to Manny & Quinn with IK Rig and IK Retargeter ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4EF8D80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4EF8D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_16.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEDB0) {x: 3500.395860, y: -885.000000, z: 306.208674}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_17",
+      "label": "BP_DemoDisplay13",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_17",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FEE50) {x: 3350.516457, y: -745.000000, z: -0.000005}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FEE50) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FEE50) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4EFDA80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4EFDA98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_17.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEEA0) {x: 3350.516457, y: -497.500000, z: 14.999995}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_18",
+      "label": "BP_DemoDisplay14",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_18",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FEF40) {x: 3650.516457, y: -745.000000, z: -0.000005}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FEF40) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FEF40) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525EF80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525EF98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_18.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FEF90) {x: 3650.516457, y: -497.500000, z: 14.999995}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_9",
+      "label": "BP_DemoDisplay15",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_9",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF030) {x: 6001.500000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF030) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF030) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Retarget Phases",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525D380) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525D398) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_9.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF080) {x: 6001.500000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Retarget Root -> FK Retargeting -> IK Retargeting ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525BE80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525BE98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_9.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF0D0) {x: 6001.500000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_13",
+      "label": "BP_DemoDisplay16",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_13",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF170) {x: 7000.000000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF170) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF170) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Retarget Poses",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5250F80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5250F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_13.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF1C0) {x: 7000.000000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Pose Character to Fit for Retarget - Hit Button to Play Animation ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5251D80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5251D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_13.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF210) {x: 7000.000000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_14",
+      "label": "BP_DemoDisplay17",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_14",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF2B0) {x: 9000.757498, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF2B0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF2B0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Maintaining Contact Points",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5252B80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5252B98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_14.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF300) {x: 9000.757498, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Pin Target IK Goals to the Source End Bone's Location ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5253280) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5253298) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_14.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF3A0) {x: 9000.757498, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_15",
+      "label": "BP_DemoDisplay18",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_15",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF440) {x: 8000.395860, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF440) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF440) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Editing Retarget Root",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5254080) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5254098) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_15.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF490) {x: 8000.395860, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Raise/Lower the Hips ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5254780) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5254798) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_15.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF530) {x: 8000.395860, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_19",
+      "label": "BP_DemoDisplay19",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_19",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF5D0) {x: 10001.500000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF5D0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF5D0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Adjusting Strides",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5255580) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5255598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_19.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF620) {x: 10001.500000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Scale Stride Length and Width ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5255C80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5255C98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_19.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF6C0) {x: 10001.500000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_20",
+      "label": "BP_DemoDisplay20",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_20",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF760) {x: 11000.000000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF760) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF760) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Speed Planting",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5256A80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5256A98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_20.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF7B0) {x: 11000.000000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Plant IK Goals based on generated Speed Curves ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5257180) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5257198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_20.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF800) {x: 11000.000000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_23",
+      "label": "BP_DemoDisplay21",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_23",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF8A0) {x: 5700.000000, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF8A0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF8A0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5257F80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5257F98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_23.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF8F0) {x: 5700.000000, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_24",
+      "label": "BP_DemoDisplay22",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_24",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FF990) {x: 5900.757498, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FF990) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FF990) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Root",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5258D80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5258D98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_24.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FF9E0) {x: 5900.757498, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_25",
+      "label": "BP_DemoDisplay23",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_25",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFA80) {x: 6100.757498, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFA80) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFA80) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "FK",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5259B80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5259B98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_25.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFAD0) {x: 6100.757498, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_26",
+      "label": "BP_DemoDisplay24",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_26",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFB70) {x: 6301.000000, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFB70) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFB70) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "IK",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525A980) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525A998) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_26.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFBC0) {x: 6301.000000, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_27",
+      "label": "BP_DemoDisplay25",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_27",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFC60) {x: 6774.626863, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFC60) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFC60) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525B780) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525B798) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_27.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFCB0) {x: 6774.626863, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_28",
+      "label": "BP_DemoDisplay26",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_28",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFD50) {x: 7000.161934, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFD50) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFD50) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Default",
+            "relative_location": "<Struct 'Vector' (0x000001C8E525E880) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E525E898) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_28.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFDA0) {x: 7000.161934, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_29",
+      "label": "BP_DemoDisplay27",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_29",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFE40) {x: 7225.853784, y: -745.000000, z: -0.000002}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFE40) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFE40) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Fixed",
+            "relative_location": "<Struct 'Vector' (0x000001C90AD4BE80) {x: 247.500000, y: -0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90AD4BE98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_29.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFE90) {x: 7225.853784, y: -497.500000, z: 14.999998}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_IKRetargeting_C_1",
+      "label": "BP_CopyPoseFromMesh",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh.BP_CopyPoseFromMesh_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFF30) {x: 2529.840079, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFF30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFF30) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CFD330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907CFC980) {x: -175.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907CFC998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFF80) {x: 2354.840079, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Echo/Meshes/Echo.Echo",
+            "skeletal_mesh_asset": "/Game/Characters/Echo/Meshes/Echo.Echo",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CF4730) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907CF3D80) {x: 300.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907CF3D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFFD0) {x: 2654.840079, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "HairMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": null,
+            "skeletal_mesh_asset": null,
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CF1F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907CF1580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907CF1598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C8B89FFFD0) {x: 2654.840079, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_RetargetingDifferentCharacters_C_1",
+      "label": "BP_RetargetingDifferentCharacters",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetingDifferentCharacters_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters_C",
+      "location": "<Struct 'Vector' (0x000001C8B89FFFD0) {x: 4494.478689, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C8B89FFFD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C8B89FFFD0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CF0B30) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907CF0180) {x: -200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907CF0198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetingDifferentCharacters_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4060) {x: 4294.478689, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "skeletal_mesh_asset": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting.ABP_StackOBot_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904C9AB30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904C9A180) {x: 400.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904C9A198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetingDifferentCharacters_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC40B0) {x: 4694.478689, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh1",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting.ABP_Starfish_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904CD8330) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904CD7980) {x: 200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904CD7998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetingDifferentCharacters_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4100) {x: 4494.478689, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_MannequinRetargeting_C_1",
+      "label": "BP_MannequinRetargeting",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MannequinRetargeting_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MannequinRetargeting.BP_MannequinRetargeting_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC41A0) {x: 3526.299243, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC41A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC41A0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904CD9730) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904CD8D80) {x: -175.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904CD8D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MannequinRetargeting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC41F0) {x: 3351.299243, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting.ABP_Mannequin_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904CD0B30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904CD0180) {x: 300.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904CD0198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MannequinRetargeting_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4240) {x: 3651.299243, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_RetargetPhases_C_1",
+      "label": "BP_RetargetPhases",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPhases_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPhases.BP_RetargetPhases_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC42E0) {x: 6001.500000, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC42E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC42E0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90EE94730) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90EE93D80) {x: -300.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90EE93D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPhases_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4330) {x: 5701.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Root",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90EE98330) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90EE97980) {x: 185.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90EE97998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPhases_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4330) {x: 5886.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "FK",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90EE9D330) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90EE9C980) {x: 400.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90EE9C998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPhases_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4330) {x: 6101.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "IK",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases.ABP_RetargetPhases_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90EE9AB30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90EE9A180) {x: 600.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90EE9A198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPhases_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4330) {x: 6301.500000, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoTrigger_C_1",
+      "label": "BP_DemoTrigger",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoTrigger_C_1",
+      "class": "/Game/Global/Interactable/BP_DemoTrigger.BP_DemoTrigger_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4380) {x: 7300.178219, y: -466.820278, z: 0.000046}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4380) {pitch: 0.000000, yaw: 179.999999, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4380) {x: -1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_RetargetPoses_C_1",
+      "label": "BP_RetargetPoses",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPoses_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPoses.BP_RetargetPoses_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4420) {x: 7000.000000, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4420) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4420) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90EE9BF30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90EE9B580) {x: -200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90EE9B598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPoses_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4470) {x: 6800.000000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "DefaultPose",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting.ABP_Starfish_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FB4730) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FB3D80) {x: 200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FB3D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPoses_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4470) {x: 7000.000000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "FixedPose",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting.ABP_Starfish_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FBE730) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/Starfish_Fixed_Pose.Starfish_Fixed_Pose'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FBDD80) {x: 400.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FBDD98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RetargetPoses_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4470) {x: 7200.000000, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_EditingRetargetRoot_C_1",
+      "label": "BP_EditingRetargetRoot",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_EditingRetargetRoot_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_EditingRetargetRoot.BP_EditingRetargetRoot_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4510) {x: 8000.395860, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4510) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4510) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FB1F30) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FB1580) {x: -100.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FB1598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_EditingRetargetRoot_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4560) {x: 7900.395860, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "skeletal_mesh_asset": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting.ABP_StackOBot_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FB6F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FB6580) {x: 200.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FB6598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_EditingRetargetRoot_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC45B0) {x: 8100.395860, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_MaintainingContactPoints_C_2",
+      "label": "BP_MaintainingContactPoints",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MaintainingContactPoints_C_2",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MaintainingContactPoints.BP_MaintainingContactPoints_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4650) {x: 9000.757498, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4650) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4650) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907F05B30) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.MF_Walk_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907F05180) {x: -100.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907F05198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MaintainingContactPoints_C_2.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC46A0) {x: 8900.757498, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "skeletal_mesh_asset": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting.ABP_StackOBot_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907F06F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907F06580) {x: 200.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907F06598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_MaintainingContactPoints_C_2.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC46F0) {x: 9100.757498, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_AdjustingStrides_C_1",
+      "label": "BP_AdjustingStrides",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_AdjustingStrides_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_AdjustingStrides.BP_AdjustingStrides_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4790) {x: 10001.500000, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4790) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C95D060B30) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.MF_Walk_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C95D060180) {x: -100.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C95D060198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_AdjustingStrides_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC47E0) {x: 9901.500000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Target_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Spelunkle_Retargeting.ABP_Spelunkle_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C95D066F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C95D066580) {x: 200.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C95D066598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_AdjustingStrides_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4830) {x: 10101.500000, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_31",
+      "label": "BP_DemoDisplay31",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_31",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC48D0) {x: 12000.757498, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC48D0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC48D0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Post Retarget Phase - Pin Bone",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5411D80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5411D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_31.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4920) {x: 12000.757498, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Pin IK Bones After The Retargeted Result ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5415C80) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5415C98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_31.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC49C0) {x: 12000.757498, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_32",
+      "label": "BP_DemoDisplay32",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_32",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4A60) {x: 13001.500000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4A60) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4A60) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Post Retarget Phase - Root Motion",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5416A80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5416A98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_32.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4AB0) {x: 13001.500000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Generate New Root Motion From Retargeted Animation ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5417180) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5417198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_32.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4B00) {x: 13001.500000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_33",
+      "label": "BP_DemoDisplay33",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_33",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4BA0) {x: 14000.000000, y: -900.000000, z: 0.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4BA0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4BA0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Post Retarget Phase - Remap Curve",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5417F80) {x: 15.000000, y: -0.000000, z: 343.104342}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5417F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_33.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4BF0) {x: 14000.000000, y: -885.000000, z: 343.104342}>"
+        },
+        {
+          "name": "NODE_AddTextRenderComponent-0",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Play or Simulate <br><br>Remap Curves in IK Retargeter ",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5418680) {x: 15.000000, y: -0.000000, z: 306.208684}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5418698) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_33.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4C40) {x: 14000.000000, y: -885.000000, z: 306.208684}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_SpeedPlanting_C_1",
+      "label": "BP_SpeedPlanting",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SpeedPlanting_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_SpeedPlanting.BP_SpeedPlanting_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4CE0) {x: 11000.000000, y: -659.257392, z: 11.120858}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4CE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4CE0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C8DA638330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/MF_Run_Fwd_Speed_Curves.MF_Run_Fwd_Speed_Curves'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C8DA637980) {x: -200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8DA637998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SpeedPlanting_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4D30) {x: 10800.000000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "SpeedPlanted",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting.ABP_Starfish_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C8DA631F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C8DA631580) {x: 400.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8DA631598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SpeedPlanting_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4D30) {x: 11200.000000, y: -659.257392, z: 11.120858}>"
+        },
+        {
+          "name": "Default",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "skeletal_mesh_asset": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish.Starfish",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting.ABP_Starfish_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C98B54E730) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C98B54DD80) {x: 200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C98B54DD98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_SpeedPlanting_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4D30) {x: 11000.000000, y: -659.257392, z: 11.120858}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_RemapCurve_PostRetargetPhase_C_1",
+      "label": "BP_RemapCurve_PostRetargetPhase",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RemapCurve_PostRetargetPhase_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4D80) {x: 14010.000000, y: -700.000000, z: 10.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4D80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4D80) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge",
+            "skeletal_mesh_asset": "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904A26F30) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/ExampleContent/AnimationRetargeting/Animations/TurnWithCurve.TurnWithCurve'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904A26580) {x: -60.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904A26598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RemapCurve_PostRetargetPhase_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4D80) {x: 13875.000000, y: -700.000000, z: 10.000000}>"
+        },
+        {
+          "name": "Target",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge.TopBulge",
+            "skeletal_mesh_asset": "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge.TopBulge",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904A2BF30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904A2B580) {x: 60.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904A2B598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RemapCurve_PostRetargetPhase_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4D80) {x: 14145.000000, y: -700.000000, z: 10.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_PinBone_PostRetargetPhase_C_1",
+      "label": "BP_PinBone_PostRetargetPhase",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_PinBone_PostRetargetPhase_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_PinBone_PostRetargetPhase.BP_PinBone_PostRetargetPhase_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4DD0) {x: 12000.757498, y: -764.000000, z: 12.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4DD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4DD0) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C904A2D330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C904A2C980) {x: -200.000000, y: 0.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C904A2C998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_PinBone_PostRetargetPhase_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4E20) {x: 11800.757498, y: -764.000000, z: 12.000000}>"
+        },
+        {
+          "name": "Target_PinBone",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting.ABP_Mannequin_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C9049E1F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C9049E1580) {x: 400.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C9049E1598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_PinBone_PostRetargetPhase_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4E20) {x: 12200.757498, y: -764.000000, z: 12.000000}>"
+        },
+        {
+          "name": "Target_NoPinBone",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_NoPinBone_PostRetargetPhase.ABP_NoPinBone_PostRetargetPhase_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C9049ED330) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C9049EC980) {x: 200.000000, y: 0.000000, z: -0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C9049EC998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_PinBone_PostRetargetPhase_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4E70) {x: 12000.757498, y: -764.000000, z: 12.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_RootMotionGenerator_PostRetargetPhase_C_1",
+      "label": "BP_RootMotionGenerator_PostRetargetPhase",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RootMotionGenerator_PostRetargetPhase_C_1",
+      "class": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RootMotionGenerator_PostRetargetPhase.BP_RootMotionGenerator_PostRetargetPhase_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC4E70) {x: 13023.500000, y: -722.000000, z: 12.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC4E70) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC4E70) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "Source_SkeletalMesh",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple",
+            "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+            "anim_class": null,
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FB8330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/MM_Death_Front_01.MM_Death_Front_01'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FB7980) {x: 0.000000, y: 200.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FB7998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RootMotionGenerator_PostRetargetPhase_C_1.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4EC0) {x: 12823.500000, y: -722.000000, z: 12.000000}>"
+        },
+        {
+          "name": "Target_RootMotionGenerated",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "skeletal_mesh_asset": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RootMotionGenerator_PostRetargetPhase.ABP_RootMotionGenerator_PostRetargetPhase_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907FB0B30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C907FB0180) {x: 0.000000, y: -400.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C907FB0198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RootMotionGenerator_PostRetargetPhase_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4F10) {x: 13223.500000, y: -722.000000, z: 12.000000}>"
+        },
+        {
+          "name": "Target_NoRootMotion",
+          "class": "/Script/Engine.SkeletalMeshComponent",
+          "properties": {
+            "skeletal_mesh": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "skeletal_mesh_asset": "/Game/Characters/StackOBot/Mesh/SKM_Bot.SKM_Bot",
+            "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+            "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting.ABP_StackOBot_Retargeting_C",
+            "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C90B890B30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+            "leader_pose_component": null,
+            "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+            "relative_location": "<Struct 'Vector' (0x000001C90B890180) {x: 0.000000, y: -200.000000, z: 0.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C90B890198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_RootMotionGenerator_PostRetargetPhase_C_1.Source_SkeletalMesh",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC4F60) {x: 13023.500000, y: -722.000000, z: 12.000000}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_21",
+      "label": "BP_DemoDisplay28",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_21",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5000) {x: 10800.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5000) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5000) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E549D380) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E549D398) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_21.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5050) {x: 10800.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_22",
+      "label": "BP_DemoDisplay29",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_22",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC50F0) {x: 11000.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC50F0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC50F0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Not Planted",
+            "relative_location": "<Struct 'Vector' (0x000001C8E549E180) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E549E198) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_22.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5140) {x: 11000.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_30",
+      "label": "BP_DemoDisplay30",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_30",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC51E0) {x: 11200.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC51E0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC51E0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Speed Planted",
+            "relative_location": "<Struct 'Vector' (0x000001C8E549EF80) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E549EF98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_30.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 11200.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_Slider_0",
+      "label": "BP_Slider",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_0",
+      "class": "/Game/Global/Blueprints/BP_Slider.BP_Slider_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 7820.395860, y: -880.675537, z: 214.432064}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5230) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_Slider_2",
+      "label": "BP_Slider2",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_2",
+      "class": "/Game/Global/Blueprints/BP_Slider.BP_Slider_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 8820.757498, y: -880.675537, z: 214.432064}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5230) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_Slider_3",
+      "label": "BP_Slider3",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_3",
+      "class": "/Game/Global/Blueprints/BP_Slider.BP_Slider_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 9821.500000, y: -880.675537, z: 214.432062}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5230) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5230) {x: 1.000000, y: 0.000000, z: 0.000000}>",
+      "components": []
+    },
+    {
+      "name": "BP_DemoDisplay_C_34",
+      "label": "BP_DemoDisplay34",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_34",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC52D0) {x: 11802.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC52D0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC52D0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5498D80) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5498D98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_34.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5320) {x: 11802.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_35",
+      "label": "BP_DemoDisplay35",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_35",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC53C0) {x: 12002.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC53C0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC53C0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target - No Pin",
+            "relative_location": "<Struct 'Vector' (0x000001C8E5700180) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E5700198) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_35.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5410) {x: 12002.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_36",
+      "label": "BP_DemoDisplay36",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_36",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC54B0) {x: 12202.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC54B0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC54B0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target - Pinned",
+            "relative_location": "<Struct 'Vector' (0x000001C8E57A0F80) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E57A0F98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_36.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5500) {x: 12202.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_37",
+      "label": "BP_DemoDisplay37",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_37",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC55A0) {x: 12753.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC55A0) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC55A0) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Source",
+            "relative_location": "<Struct 'Vector' (0x000001C8E57A1D80) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E57A1D98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_37.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC55F0) {x: 12753.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_38",
+      "label": "BP_DemoDisplay38",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_38",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5690) {x: 13016.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5690) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5690) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target - No RM",
+            "relative_location": "<Struct 'Vector' (0x000001C8E57A7180) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E57A7198) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_38.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC56E0) {x: 13016.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "BP_DemoDisplay_C_39",
+      "label": "BP_DemoDisplay39",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_39",
+      "class": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay_C",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5780) {x: 13250.471401, y: -745.000000, z: -0.000003}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5780) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5780) {x: -0.000000, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NODE_AddTextRenderComponent-2",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "Target - RM Generated",
+            "relative_location": "<Struct 'Vector' (0x000001C8E57A7F80) {x: 247.500000, y: 0.000000, z: 15.000000}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E57A7F98) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_DemoDisplay_C_39.DefaultSceneRoot",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC57D0) {x: 13250.471401, y: -497.500000, z: 14.999997}>"
+        }
+      ]
+    },
+    {
+      "name": "0_0",
+      "label": "-50",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.0_0",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC57D0) {x: 7811.020860, y: -880.999948, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC57D0) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC57D0) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "-50",
+            "relative_location": "<Struct 'Vector' (0x000001C942FF2480) {x: -5.000000, y: -0.173019, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C942FF2498) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_0.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5870) {x: 7811.020860, y: -880.999948, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "1_1",
+      "label": "50",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.1_1",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC58C0) {x: 8204.770860, y: -881.000056, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC58C0) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC58C0) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "50",
+            "relative_location": "<Struct 'Vector' (0x000001C942FF0F80) {x: 205.000000, y: -0.173077, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C942FF0F98) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_0.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5910) {x: 8204.770860, y: -881.000056, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "05_2",
+      "label": "0",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.05_2",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5960) {x: 8007.895860, y: -880.999998, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5960) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5960) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "0",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4755C80) {x: 100.000000, y: -0.173046, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4755C98) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_0.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC59B0) {x: 8007.895860, y: -880.999998, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "0_3",
+      "label": "0",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.0_3",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5A00) {x: 8811.382498, y: -880.999948, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5A00) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5A00) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "0",
+            "relative_location": "<Struct 'Vector' (0x000001C942FFE880) {x: -5.000000, y: -0.173019, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C942FFE898) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_2.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5A50) {x: 8811.382498, y: -880.999948, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "1_4",
+      "label": "1",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.1_4",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5AA0) {x: 9205.132498, y: -881.000056, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5AA0) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5AA0) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "1",
+            "relative_location": "<Struct 'Vector' (0x000001C8E1DDF680) {x: 205.000000, y: -0.173077, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E1DDF698) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_2.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5AF0) {x: 9205.132498, y: -881.000056, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "05_5",
+      "label": "0.5",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.05_5",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5B40) {x: 9008.257498, y: -880.999998, z: 172.922862}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5B40) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5B40) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "0.5",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4751680) {x: 100.000000, y: -0.173046, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4751698) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_2.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5B90) {x: 9008.257498, y: -880.999998, z: 172.922862}>"
+        }
+      ]
+    },
+    {
+      "name": "0_6",
+      "label": "0",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.0_6",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5BE0) {x: 9812.125000, y: -880.999948, z: 172.922860}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5BE0) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5BE0) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "0",
+            "relative_location": "<Struct 'Vector' (0x000001C942FFF680) {x: -5.000000, y: -0.173019, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C942FFF698) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_3.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5C30) {x: 9812.125000, y: -880.999948, z: 172.922860}>"
+        }
+      ]
+    },
+    {
+      "name": "1_7",
+      "label": "2",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.1_7",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5C80) {x: 10205.875000, y: -881.000056, z: 172.922860}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5C80) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5C80) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "2",
+            "relative_location": "<Struct 'Vector' (0x000001C8E1DDD380) {x: 205.000000, y: -0.173077, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E1DDD398) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_3.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5CD0) {x: 10205.875000, y: -881.000056, z: 172.922860}>"
+        }
+      ]
+    },
+    {
+      "name": "05_8",
+      "label": "1",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.05_8",
+      "class": "/Script/Engine.TextRenderActor",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5D20) {x: 10009.000000, y: -880.999998, z: 172.922860}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5D20) {pitch: 0.000000, yaw: 89.999947, roll: -0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5D20) {x: 0.000001, y: 1.000000, z: 0.000000}>",
+      "components": [
+        {
+          "name": "NewTextRenderComponent",
+          "class": "/Script/Engine.TextRenderComponent",
+          "properties": {
+            "text": "1",
+            "relative_location": "<Struct 'Vector' (0x000001C8E4754080) {x: 100.000000, y: -0.173046, z: -22.138241}>",
+            "relative_rotation": "<Struct 'Rotator' (0x000001C8E4754098) {pitch: 0.000000, yaw: 89.999947, roll: 0.000000}>",
+            "component_tags": [],
+            "hidden_in_game": false
+          },
+          "parent": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_Slider_3.Scene1",
+          "world_location": "<Struct 'Vector' (0x000001C7E3AC5D70) {x: 10009.000000, y: -880.999998, z: 172.922860}>"
+        }
+      ]
+    },
+    {
+      "name": "PlayerStart_1",
+      "label": "PlayerStart2",
+      "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.PlayerStart_1",
+      "class": "/Script/Engine.PlayerStart",
+      "location": "<Struct 'Vector' (0x000001C7E3AC5DC0) {x: 2510.000000, y: 10.000006, z: 112.000004}>",
+      "rotation": "<Struct 'Rotator' (0x000001C7E3AC5DC0) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+      "forward": "<Struct 'Vector' (0x000001C7E3AC5DC0) {x: 0.000000, y: -1.000000, z: 0.000000}>",
+      "components": []
+    }
+  ],
+  "python_types": [
+    "AIAsyncTaskBlueprintProxy",
+    "AISenseConfig_Blueprint",
+    "AISense_Blueprint",
+    "ActorElementsExporterT3D",
+    "ActorExporterT3D",
+    "ActorPerceptionBlueprintInfo",
+    "AnimBlueprint",
+    "AnimBlueprintFactory",
+    "AnimBlueprintFunctionPinInfo",
+    "AnimBlueprintGeneratedClass",
+    "AnimGraphNode_HandIKRetargeting",
+    "AnimGraphNode_IKRig",
+    "AnimNode_HandIKRetargeting",
+    "AnimNode_IKRig",
+    "AnimSequenceExporterFBX",
+    "AppleImageUtilsBaseAsyncTaskBlueprintProxy",
+    "AudioInsightsBlueprintLibrary",
+    "AudioLinkBlueprintInterface",
+    "AutomationUtilsBlueprintLibrary",
+    "BTDecorator_BlueprintBase",
+    "BTService_BlueprintBase",
+    "BTTask_BlueprintBase",
+    "BaseWidgetBlueprint",
+    "Blueprint",
+    "BlueprintAsyncActionBase",
+    "BlueprintCameraContextDataTableFunctionLibrary",
+    "BlueprintCameraDirectorActivateParams",
+    "BlueprintCameraDirectorDeactivateParams",
+    "BlueprintCameraDirectorEvaluationParams",
+    "BlueprintCameraDirectorEvaluator",
+    "BlueprintCameraEvaluationDataFunctionLibrary",
+    "BlueprintCameraEvaluationDataRef",
+    "BlueprintCameraNodeEvaluationResult",
+    "BlueprintCameraNodeEvaluator",
+    "BlueprintCameraPose",
+    "BlueprintCameraPoseFunctionLibrary",
+    "BlueprintCameraVariableTableFunctionLibrary",
+    "BlueprintCompileMode",
+    "BlueprintCore",
+    "BlueprintEditorLibrary",
+    "BlueprintEditorToolMenuContext",
+    "BlueprintFactory",
+    "BlueprintFindSessionsResultDelegate",
+    "BlueprintFunctionInfo",
+    "BlueprintFunctionLibrary",
+    "BlueprintFunctionLibraryFactory",
+    "BlueprintGeneratedClass",
+    "BlueprintGraphEditor",
+    "BlueprintGraphPin",
+    "BlueprintGraphPinLibrary",
+    "BlueprintInstancedStructLibrary",
+    "BlueprintInterfaceFactory",
+    "BlueprintMacroFactory",
+    "BlueprintMaterialTextureNodesBPLibrary",
+    "BlueprintPostProcessSettingsCollectionFunctionLibrary",
+    "BlueprintPropertyContainerTestObject",
+    "BlueprintPropertyTestObject",
+    "BlueprintSessionResult",
+    "BlueprintSpringMathLibrary",
+    "BlueprintStatus",
+    "BlueprintType",
+    "BlueprintVariableReplication",
+    "CastToControlRigBlueprintCases",
+    "CastToWidgetBlueprintCases",
+    "ChaosBlueprintLibrary",
+    "ChaosSolverEngineBlueprintLibrary",
+    "ChaosVDRuntimeBlueprintLibrary",
+    "ComponentElementsExporterT3D",
+    "ConstraintInstanceBlueprintLibrary",
+    "ControlRigBlueprint",
+    "ControlRigBlueprintFactory",
+    "ControlRigBlueprintLibrary",
+    "DataflowBlueprintLibrary",
+    "DataflowEditorBlueprintLibrary",
+    "DynamicMeshProcessorBlueprint",
+    "EditorDynamicMeshProcessorBlueprint",
+    "EditorSubsystemBlueprintLibrary",
+    "EditorUtilityBlueprint",
+    "EditorUtilityBlueprintAsyncActionBase",
+    "EditorUtilityBlueprintFactory",
+    "EditorUtilityWidgetBlueprint",
+    "EditorUtilityWidgetBlueprintFactory",
+    "EnvQueryContext_BlueprintBase",
+    "EnvQueryGenerator_BlueprintBase",
+    "EnvQueryInstanceBlueprintWrapper",
+    "EnvQueryInstanceBlueprintWrapper_EQSQueryDoneSignature",
+    "Exporter",
+    "ExporterFBX",
+    "GLTFAnimSequenceExporter",
+    "GLTFExporter",
+    "GLTFLevelExporter",
+    "GLTFLevelSequenceExporter",
+    "GLTFLevelVariantSetsExporter",
+    "GLTFMaterialExporter",
+    "GLTFSkeletalMeshExporter",
+    "GLTFStaticMeshExporter",
+    "GlobalConfigurationDataBlueprintLibrary",
+    "GroupActorExporterT3D",
+    "HealthSnapshotBlueprintLibrary",
+    "IKRetargetAdditivePoseController",
+    "IKRetargetAdditivePoseOp",
+    "IKRetargetAdditivePoseOpSettings",
+    "IKRetargetAlignPoleVectorController",
+    "IKRetargetAlignPoleVectorOp",
+    "IKRetargetAlignPoleVectorOpSettings",
+    "IKRetargetAnimInstance",
+    "IKRetargetBatchOperation",
+    "IKRetargetBatchOperationInputs",
+    "IKRetargetBlendToSourceChainSettings",
+    "IKRetargetBlendToSourceController",
+    "IKRetargetBlendToSourceOp",
+    "IKRetargetBlendToSourceOpSettings",
+    "IKRetargetCopyBasePoseController",
+    "IKRetargetCopyBasePoseOp",
+    "IKRetargetCopyBasePoseOpSettings",
+    "IKRetargetCurveRemapController",
+    "IKRetargetCurveRemapOp",
+    "IKRetargetCurveRemapOpSettings",
+    "IKRetargetCurvesOpBase",
+    "IKRetargetFKChainsController",
+    "IKRetargetFKChainsOp",
+    "IKRetargetFKChainsOpSettings",
+    "IKRetargetFactory",
+    "IKRetargetFilterBoneController",
+    "IKRetargetFilterBoneOp",
+    "IKRetargetFilterBoneOpSettings",
+    "IKRetargetFloorConstraintController",
+    "IKRetargetFloorConstraintOp",
+    "IKRetargetFloorConstraintOpSettings",
+    "IKRetargetGlobalSettings",
+    "IKRetargetIKChainsController",
+    "IKRetargetIKChainsOp",
+    "IKRetargetIKChainsOpSettings",
+    "IKRetargetOffsetGoalsChainSettings",
+    "IKRetargetOffsetGoalsController",
+    "IKRetargetOffsetGoalsOp",
+    "IKRetargetOffsetGoalsOpSettings",
+    "IKRetargetOpBase",
+    "IKRetargetOpControllerBase",
+    "IKRetargetOpSettingsBase",
+    "IKRetargetOpSkeletonProvider",
+    "IKRetargetPelvisMotionController",
+    "IKRetargetPelvisMotionOp",
+    "IKRetargetPelvisMotionOpSettings",
+    "IKRetargetPinBoneController",
+    "IKRetargetPinBoneOp",
+    "IKRetargetPinBoneOpSettings",
+    "IKRetargetPose",
+    "IKRetargetPoseController",
+    "IKRetargetPoseOp",
+    "IKRetargetPoseOpSettings",
+    "IKRetargetRootMotionController",
+    "IKRetargetRootMotionOp",
+    "IKRetargetRootMotionOpSettings",
+    "IKRetargetRunIKRigChainSettings",
+    "IKRetargetRunIKRigController",
+    "IKRetargetRunIKRigOp",
+    "IKRetargetRunIKRigOpSettings",
+    "IKRetargetScaleGoalsChainSettings",
+    "IKRetargetScaleGoalsController",
+    "IKRetargetScaleGoalsOp",
+    "IKRetargetScaleGoalsOpSettings",
+    "IKRetargetScaleSourceController",
+    "IKRetargetScaleSourceOp",
+    "IKRetargetScaleSourceOpSettings",
+    "IKRetargetSpeedPlantingController",
+    "IKRetargetSpeedPlantingOp",
+    "IKRetargetSpeedPlantingOpSettings",
+    "IKRetargetStretchChainController",
+    "IKRetargetStretchChainOp",
+    "IKRetargetStretchChainOpSettings",
+    "IKRetargetStrideWarpingController",
+    "IKRetargetStrideWarpingOp",
+    "IKRetargetStrideWarpingOpSettings",
+    "IKRetargetWeaponGoalOp",
+    "IKRetargetWeaponGoalsOpController",
+    "IKRetargetWeaponGoalsOpSettings",
+    "IKRetargeter",
+    "IKRetargeterController",
+    "IKRigAnimInstance",
+    "IKRigBodyMoverController",
+    "IKRigBodyMoverGoalSettings",
+    "IKRigBodyMoverSettings",
+    "IKRigBodyMoverSolver",
+    "IKRigBoneSettingsBase",
+    "IKRigComponent",
+    "IKRigController",
+    "IKRigDefinition",
+    "IKRigDefinitionFactory",
+    "IKRigEffectorGoal",
+    "IKRigFBIKBoneSettings",
+    "IKRigFBIKController",
+    "IKRigFBIKGoalSettings",
+    "IKRigFBIKSettings",
+    "IKRigFullBodyIKSolver",
+    "IKRigGoal",
+    "IKRigGoalInput",
+    "IKRigGoalPreviewMode",
+    "IKRigGoalSettingsBase",
+    "IKRigGoalSpace",
+    "IKRigGoalTransformSource",
+    "IKRigLimbSolver",
+    "IKRigLimbSolverController",
+    "IKRigLimbSolverSettings",
+    "IKRigPoleSolver",
+    "IKRigPoleSolverController",
+    "IKRigPoleSolverSettings",
+    "IKRigSetTransform",
+    "IKRigSetTransformController",
+    "IKRigSetTransformSettings",
+    "IKRigSettingsBase",
+    "IKRigSolver",
+    "IKRigSolverBase",
+    "IKRigSolverControllerBase",
+    "IKRigSolverSettingsBase",
+    "IKRigStretchLimbBoneSettings",
+    "IKRigStretchLimbSettings",
+    "IKRigStretchLimbSolver",
+    "IKRigStructViewer",
+    "IKRigStructWrapperBase",
+    "ImageWriteBlueprintLibrary",
+    "InterchangeBlueprintPipelineBase",
+    "InterchangeBlueprintPipelineBaseFactory",
+    "InterchangeEditorBlueprintPipelineBase",
+    "InterchangeEditorBlueprintPipelineBaseFactory",
+    "InterchangeTestsBlueprintFunctionLibrary",
+    "K2Node_StateTreeBlueprintPropertyRef",
+    "LandmassBlueprintFunctionLibrary",
+    "LandscapeBlueprintBrush",
+    "LandscapeBlueprintBrushBase",
+    "LandscapeBlueprintCustomBrush",
+    "LayersBlueprintLibrary",
+    "LegacyLevelSequenceDirectorBlueprint",
+    "LevelExporterFBX",
+    "LevelExporterLOD",
+    "LevelExporterOBJ",
+    "LevelExporterSTL",
+    "LevelExporterT3D",
+    "LevelScriptBlueprint",
+    "LevelSequenceDirectorBlueprint",
+    "LevelSequenceEditorBlueprintLibrary",
+    "LightWeightInstanceBlueprintFunctionLibrary",
+    "LiveLinkBaseBlueprintData",
+    "LiveLinkBasicBlueprintData",
+    "LiveLinkCameraBlueprintData",
+    "LiveLinkGamepadInputDeviceBlueprintData",
+    "LiveLinkLightBlueprintData",
+    "LiveLinkLocatorBlueprintData",
+    "LiveLinkTransformBlueprintData",
+    "MVVMBlueprintFieldPath",
+    "MVVMBlueprintFieldPathSource",
+    "MVVMBlueprintFunctionReference",
+    "MVVMBlueprintFunctionReferenceType",
+    "MVVMBlueprintInstancedViewModelBase",
+    "MVVMBlueprintLibrary",
+    "MVVMBlueprintPin",
+    "MVVMBlueprintPinId",
+    "MVVMBlueprintPinStatus",
+    "MVVMBlueprintPropertyPath",
+    "MVVMBlueprintView",
+    "MVVMBlueprintViewBinding",
+    "MVVMBlueprintViewCondition",
+    "MVVMBlueprintViewConversionFunction",
+    "MVVMBlueprintViewConversionPath",
+    "MVVMBlueprintViewEvent",
+    "MVVMBlueprintViewExtension",
+    "MVVMBlueprintViewExtension_PanelWidget",
+    "MVVMBlueprintViewModelContext",
+    "MVVMBlueprintViewModelContextCreationType",
+    "MVVMViewModelBlueprint",
+    "MetasoundFrontendLiteralBlueprintAccess",
+    "MetasoundOutputBlueprintAccess",
+    "ModelExporterT3D",
+    "MovieSceneDirectorBlueprintCondition",
+    "MovieSceneDirectorBlueprintConditionData",
+    "MovieSceneDirectorBlueprintConditionPayloadVariable",
+    "MovieSceneReplaceableDirectorBlueprintBinding",
+    "MovieSceneSpawnableDirectorBlueprintBinding",
+    "ObjectExporterT3D",
+    "ObjectMixerBlueprintFilterFactory",
+    "ObjectMixerBlueprintObjectFilter",
+    "OnlineBlueprintCallProxyBase",
+    "PCGAssetExporter",
+    "PCGAssetExporterParameters",
+    "PCGAssetExporterUtils",
+    "PCGAttributePropertySelectorBlueprintHelpers",
+    "PCGBlueprintBaseElement",
+    "PCGBlueprintContextHandle",
+    "PCGBlueprintElement",
+    "PCGBlueprintHelpers",
+    "PCGBlueprintPinHelpers",
+    "PCGBlueprintPointProcessorElement",
+    "PCGBlueprintPointProcessorSimpleElement",
+    "PCGBlueprintSettings",
+    "PCGDataCollectionExporter",
+    "PCGDeterminismTestBlueprintBase",
+    "PCGPinPropertiesBlueprintHelpers",
+    "PhysicsObjectBlueprintLibrary",
+    "PhysicsVolumeExporterT3D",
+    "PluginBlueprintLibrary",
+    "PolysExporterOBJ",
+    "PolysExporterT3D",
+    "PreviewAnimationBlueprintApplicationMethod",
+    "RenderTargetCubeExporterHDR",
+    "RenderTargetExporterEXR",
+    "RenderTargetExporterPNG",
+    "ResonanceAudioBlueprintFunctionLibrary",
+    "RigUnit_IKRig",
+    "RigVMBlueprint",
+    "RigVMBlueprintFilterDynamic",
+    "RigVMBlueprintLibrary",
+    "RigVMBlueprintLoadLogEntry",
+    "RigVMBlueprintLoadLogSeverity",
+    "RunIKRigSettingsWrapper",
+    "SequenceExporterT3D",
+    "SharedImageConstRefBlueprint",
+    "SharedImageConstRefBlueprintFns",
+    "ShouldCookBlueprintPropertyGuids",
+    "SkeletalMeshExporterFBX",
+    "SoundExporterOGG",
+    "SoundExporterWAV",
+    "SoundSurroundExporterWAV",
+    "StateTreeBlueprintPropertyRef",
+    "StateTreeConditionBlueprintBase",
+    "StateTreeConsiderationBlueprintBase",
+    "StateTreeEvaluatorBlueprintBase",
+    "StateTreeItemBlueprintBase",
+    "StateTreeNodeBlueprintBase",
+    "StateTreeTaskBlueprintBase",
+    "StaticMeshExporterFBX",
+    "StaticMeshExporterOBJ",
+    "SubobjectDataBlueprintFunctionLibrary",
+    "SynthesisUtilitiesBlueprintFunctionLibrary",
+    "TakeRecorderBlueprintLibrary",
+    "TakesCoreBlueprintLibrary",
+    "TakesCoreBlueprintLibrary_OnTakeRecorderSlateChanged",
+    "TakesCoreBlueprintLibrary_OnTakeRecorderTakeNumberChanged",
+    "TestBTDecorator_Blueprint",
+    "TextBufferExporterTXT",
+    "TextureAssetActionsBlueprintFns",
+    "TextureAssetActionsBlueprintReturn",
+    "TextureCubeExporterHDR",
+    "TextureExporterBMP",
+    "TextureExporterDDS",
+    "TextureExporterEXR",
+    "TextureExporterGeneric",
+    "TextureExporterHDR",
+    "TextureExporterJPEG",
+    "TextureExporterPNG",
+    "TextureExporterTGA",
+    "TextureExporterUEJPEG",
+    "ThumbnailColorStripOrientation_BlueprintType",
+    "ThumbnailLabelType_BlueprintType",
+    "TransformTrajectoryBlueprintLibrary",
+    "UserWidgetBlueprint",
+    "ValueOrBBKeyBlueprintUtility",
+    "VectorFieldExporter",
+    "VimBlueprint",
+    "VimBlueprintFactory",
+    "VirtualTextureBuilderExporterBMP",
+    "VirtualTextureBuilderExporterDDS",
+    "VirtualTextureBuilderExporterEXR",
+    "VirtualTextureBuilderExporterHDR",
+    "VirtualTextureBuilderExporterPNG",
+    "WidgetBlueprint",
+    "WidgetBlueprintFactory",
+    "WidgetBlueprintGeneratedClass",
+    "WorldPartitionBlueprintLibrary",
+    "WorldPartitionHLODBlueprintLibrary"
+  ]
+}

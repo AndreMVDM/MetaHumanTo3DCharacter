@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "captures": [
+    {
+      "label": "Baseline",
+      "name": "native_baseline_pants_wide",
+      "camera": [
+        0,
+        90,
+        98
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_wide_stance",
+      "fraction": 0.5,
+      "file": "native_baseline_pants_wide.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_hips_back",
+      "camera": [
+        0,
+        -100,
+        98
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_baseline_hips_back.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_shoulders_horizontal",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_horizontal",
+      "fraction": 0.5,
+      "file": "native_baseline_shoulders_horizontal.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_shoulders_overhead",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_overhead",
+      "fraction": 0.5,
+      "file": "native_baseline_shoulders_overhead.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_shoulders_45",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_45",
+      "fraction": 0.5,
+      "file": "native_baseline_shoulders_45.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_neutral",
+      "camera": [
+        0,
+        240,
+        100
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_neutral",
+      "fraction": 0.5,
+      "file": "native_baseline_neutral.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_pants_wide",
+      "camera": [
+        0,
+        90,
+        98
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_wide_stance",
+      "fraction": 0.5,
+      "file": "native_refined_pants_wide.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_hips_back",
+      "camera": [
+        0,
+        -100,
+        98
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_refined_hips_back.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_shoulders_horizontal",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_horizontal",
+      "fraction": 0.5,
+      "file": "native_refined_shoulders_horizontal.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_shoulders_overhead",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_overhead",
+      "fraction": 0.5,
+      "file": "native_refined_shoulders_overhead.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_shoulders_45",
+      "camera": [
+        0,
+        100,
+        134
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_arms_45",
+      "fraction": 0.5,
+      "file": "native_refined_shoulders_45.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_neutral",
+      "camera": [
+        0,
+        240,
+        100
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "Stress_neutral",
+      "fraction": 0.5,
+      "file": "native_refined_neutral.png",
+      "file_verified": true
+    }
+  ]
+}

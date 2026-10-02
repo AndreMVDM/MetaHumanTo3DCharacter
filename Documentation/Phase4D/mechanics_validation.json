@@ -1,0 +1,125 @@
+{
+  "tests": [
+    {
+      "name": "movement_before_start",
+      "pass": true
+    },
+    {
+      "name": "immutable_baseline",
+      "pass": true
+    },
+    {
+      "name": "pelvis_five_dependents",
+      "pass": true
+    },
+    {
+      "name": "dependent_acceptance_invalidated",
+      "pass": true
+    },
+    {
+      "name": "rebuild_idempotent",
+      "pass": true
+    },
+    {
+      "name": "order_independence",
+      "pass": true
+    },
+    {
+      "name": "explicit_hip_overrides_pelvis",
+      "pass": true
+    },
+    {
+      "name": "stale_dependent_review_removed",
+      "pass": true
+    },
+    {
+      "name": "unknown_role",
+      "pass": true
+    },
+    {
+      "name": "nan",
+      "pass": true
+    },
+    {
+      "name": "boolean_xyz",
+      "pass": true
+    },
+    {
+      "name": "ground_root_mutation",
+      "pass": true
+    },
+    {
+      "name": "zero_parent_segment",
+      "pass": true
+    },
+    {
+      "name": "missing_judgement",
+      "pass": true
+    },
+    {
+      "name": "stale_fit",
+      "pass": true
+    },
+    {
+      "name": "ten_independent_digit_chains",
+      "pass": true
+    },
+    {
+      "name": "thirty_generated_phalanges",
+      "pass": true
+    },
+    {
+      "name": "duplicate_track",
+      "pass": true
+    },
+    {
+      "name": "finger_root_updates_intermediates",
+      "pass": true
+    },
+    {
+      "name": "finger_tip_preserved",
+      "pass": true
+    },
+    {
+      "name": "synthetic_not_counted_as_human",
+      "pass": true
+    },
+    {
+      "name": "synthetic_no_downstream_authorisation",
+      "pass": true
+    },
+    {
+      "name": "53_joint_parent_transform_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "moved_endpoint_is_not_unchanged_chain_review",
+      "pass": true
+    },
+    {
+      "name": "unchanged_review_counted",
+      "pass": true
+    },
+    {
+      "name": "automatic_roles_counted",
+      "pass": true
+    },
+    {
+      "name": "finished_trial_rejects_edits",
+      "pass": true
+    },
+    {
+      "name": "resume_preserves_trial_origin",
+      "pass": true
+    },
+    {
+      "name": "atomic_publication_recovers_reader_lock",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "synthetic_only": true,
+  "real_session_modified": false,
+  "anatomical_accuracy_not_tested": true,
+  "fixtures_do_not_prove_digit_identity": true
+}

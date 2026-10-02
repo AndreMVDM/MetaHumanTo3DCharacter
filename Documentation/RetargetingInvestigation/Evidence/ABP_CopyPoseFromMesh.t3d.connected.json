@@ -1,0 +1,52 @@
+[
+  {
+    "name": "AnimGraph.AnimGraphNode_CopyPoseFromMesh_0",
+    "class": "/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh",
+    "settings": [
+      "Node=(bUseAttachedParent=True,bCopyCurves=True,bUseMeshPose=True)"
+    ],
+    "pins": [
+      {
+        "name": "SourceMeshComponent",
+        "direction": "input",
+        "category": "object",
+        "subcategoryobject": "/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",
+        "default": "None",
+        "default_object": null,
+        "links": []
+      },
+      {
+        "name": "Pose",
+        "direction": "EGPD_Output",
+        "category": "struct",
+        "subcategoryobject": "/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",
+        "default": null,
+        "default_object": null,
+        "links": [
+          "AnimGraph.AnimGraphNode_Root_0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AnimGraph.AnimGraphNode_Root_0",
+    "class": "/Script/AnimGraph.AnimGraphNode_Root",
+    "settings": [
+      "Node=(LayerGroup=\"\")",
+      "ErrorType=4"
+    ],
+    "pins": [
+      {
+        "name": "Result",
+        "direction": "input",
+        "category": "struct",
+        "subcategoryobject": "/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",
+        "default": "(LinkID=-1,SourceLinkID=-1)",
+        "default_object": null,
+        "links": [
+          "AnimGraph.AnimGraphNode_CopyPoseFromMesh_0"
+        ]
+      }
+    ]
+  }
+]

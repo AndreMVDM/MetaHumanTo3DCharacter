@@ -1,0 +1,2088 @@
+{
+  "dirty_maps": [],
+  "dirty_content": [],
+  "abp": {
+    "path": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh",
+    "properties": {
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  },
+  "cdo": {
+    "on_all_montage_instances_ended": "<Multicast delegate 'OnAllMontageInstancesEndedMCDelegate' (0x000001C8DA563FA0) <Unbound>>",
+    "on_montage_blended_in": "<Multicast delegate 'OnMontageBlendedInEndedMCDelegate' (0x000001C8DA563F58) <Unbound>>",
+    "on_montage_blending_out": "<Multicast delegate 'OnMontageBlendingOutStartedMCDelegate' (0x000001C8DA563F40) <Unbound>>",
+    "on_montage_ended": "<Multicast delegate 'OnMontageEndedMCDelegate' (0x000001C8DA563F88) <Unbound>>",
+    "on_montage_section_changed": "<Multicast delegate 'OnMontageSectionChangedMCDelegate' (0x000001C8DA563FB8) <Unbound>>",
+    "on_montage_started": "<Multicast delegate 'OnMontageStartedMCDelegate' (0x000001C8DA563F70) <Unbound>>"
+  },
+  "/Game/Characters/Mannequins/Meshes/SK_Mannequin": {
+    "dir": [
+      "__class__",
+      "__delattr__",
+      "__dir__",
+      "__doc__",
+      "__eq__",
+      "__format__",
+      "__ge__",
+      "__getattribute__",
+      "__getstate__",
+      "__gt__",
+      "__hash__",
+      "__init__",
+      "__init_subclass__",
+      "__le__",
+      "__lt__",
+      "__ne__",
+      "__new__",
+      "__reduce__",
+      "__reduce_ex__",
+      "__repr__",
+      "__setattr__",
+      "__sizeof__",
+      "__str__",
+      "__subclasshook__",
+      "_post_init",
+      "_wrapper_meta_data",
+      "acquire_editor_element_handle",
+      "add_asset_user_data_of_class",
+      "add_compatible_skeleton",
+      "add_compatible_skeleton_soft",
+      "add_curve_meta_data",
+      "call_method",
+      "cast",
+      "compatible_skeletons",
+      "copy_bones_from_skeleton",
+      "find_curve_identifier",
+      "get_asset_user_data_of_class",
+      "get_blend_profile",
+      "get_class",
+      "get_curve_identifier",
+      "get_curve_identifiers",
+      "get_curve_meta_data_material",
+      "get_curve_meta_data_morph_target",
+      "get_curve_meta_data_names",
+      "get_default_object",
+      "get_editor_property",
+      "get_fname",
+      "get_full_name",
+      "get_name",
+      "get_num_curve_meta_data",
+      "get_outer",
+      "get_outermost",
+      "get_package",
+      "get_path_name",
+      "get_reference_pose",
+      "get_skeleton_additional_preview_meshes",
+      "get_skeleton_preview_mesh",
+      "get_typed_outer",
+      "get_world",
+      "has_asset_user_data_of_class",
+      "is_editor_property_overridden",
+      "is_package_external",
+      "modify",
+      "remove_curve_meta_data",
+      "rename",
+      "rename_curve_meta_data",
+      "reset_editor_property",
+      "set_curve_meta_data_material",
+      "set_curve_meta_data_morph_target",
+      "set_editor_properties",
+      "set_editor_property",
+      "set_skeleton_additional_preview_meshes",
+      "set_skeleton_preview_mesh",
+      "static_class"
+    ],
+    "properties": {
+      "compatible_skeletons": []
+    }
+  },
+  "/Game/Characters/Echo/Meshes/Echo_Skeleton": {
+    "dir": [
+      "__class__",
+      "__delattr__",
+      "__dir__",
+      "__doc__",
+      "__eq__",
+      "__format__",
+      "__ge__",
+      "__getattribute__",
+      "__getstate__",
+      "__gt__",
+      "__hash__",
+      "__init__",
+      "__init_subclass__",
+      "__le__",
+      "__lt__",
+      "__ne__",
+      "__new__",
+      "__reduce__",
+      "__reduce_ex__",
+      "__repr__",
+      "__setattr__",
+      "__sizeof__",
+      "__str__",
+      "__subclasshook__",
+      "_post_init",
+      "_wrapper_meta_data",
+      "acquire_editor_element_handle",
+      "add_asset_user_data_of_class",
+      "add_compatible_skeleton",
+      "add_compatible_skeleton_soft",
+      "add_curve_meta_data",
+      "call_method",
+      "cast",
+      "compatible_skeletons",
+      "copy_bones_from_skeleton",
+      "find_curve_identifier",
+      "get_asset_user_data_of_class",
+      "get_blend_profile",
+      "get_class",
+      "get_curve_identifier",
+      "get_curve_identifiers",
+      "get_curve_meta_data_material",
+      "get_curve_meta_data_morph_target",
+      "get_curve_meta_data_names",
+      "get_default_object",
+      "get_editor_property",
+      "get_fname",
+      "get_full_name",
+      "get_name",
+      "get_num_curve_meta_data",
+      "get_outer",
+      "get_outermost",
+      "get_package",
+      "get_path_name",
+      "get_reference_pose",
+      "get_skeleton_additional_preview_meshes",
+      "get_skeleton_preview_mesh",
+      "get_typed_outer",
+      "get_world",
+      "has_asset_user_data_of_class",
+      "is_editor_property_overridden",
+      "is_package_external",
+      "modify",
+      "remove_curve_meta_data",
+      "rename",
+      "rename_curve_meta_data",
+      "reset_editor_property",
+      "set_curve_meta_data_material",
+      "set_curve_meta_data_morph_target",
+      "set_editor_properties",
+      "set_editor_property",
+      "set_skeleton_additional_preview_meshes",
+      "set_skeleton_preview_mesh",
+      "static_class"
+    ],
+    "properties": {
+      "compatible_skeletons": []
+    }
+  },
+  "abp_dependencies": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Game/Characters/Echo/Meshes/Echo_Skeleton"
+  ],
+  "actor_properties": {
+    "actor_guid": "<Struct 'Guid' (0x000001C906CFA250) {}>",
+    "actor_instance_guid": "<Struct 'Guid' (0x000001C906CFA260) {}>",
+    "always_relevant": false,
+    "auto_destroy_when_finished": false,
+    "can_be_damaged": true,
+    "content_bundle_guid": "<Struct 'Guid' (0x000001C906CFA270) {}>",
+    "custom_time_dilation": 1.0,
+    "enable_auto_lod_generation": true,
+    "find_camera_component_when_view_target": true,
+    "generate_overlap_events_during_level_streaming": false,
+    "hidden": false,
+    "initial_life_span": 0.0,
+    "instigator": null,
+    "is_spatially_loaded": true,
+    "life_span": 0.0,
+    "min_net_update_frequency": 2.0,
+    "net_cull_distance_squared": 225000000.0,
+    "net_dormancy": "<NetDormancy.DORM_AWAKE: 1>",
+    "net_priority": 1.0,
+    "net_update_frequency": 100.0,
+    "net_use_owner_relevancy": false,
+    "only_relevant_to_owner": false,
+    "pivot_offset": "<Struct 'Vector' (0x000001C906CFA1F8) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+    "replicate_using_registered_sub_object_list": false,
+    "replicates": false,
+    "root_component": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.DefaultSceneRoot",
+    "runtime_grid": "None",
+    "spawn_collision_handling_method": "<SpawnActorCollisionHandlingMethod.ALWAYS_SPAWN: 1>",
+    "sprite_scale": 1.0,
+    "tags": []
+  },
+  "components": [
+    {
+      "name": "DefaultSceneRoot",
+      "class": "/Script/Engine.SceneComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "auto_activate": false,
+        "b_absolute_translation": false,
+        "component_tags": [],
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "hidden_in_game": false,
+        "is_editor_only": false,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "relative_location": "<Struct 'Vector' (0x000001C90AE18B80) {x: 2529.840079, y: -659.257392, z: 11.120858}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C90AE18B98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C90AE18BB0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C90AE18B80) {x: 2529.840079, y: -659.257392, z: 11.120858}>",
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "should_update_physics_volume": false,
+        "use_attach_parent_bound": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "BillboardComponent_1",
+      "class": "/Script/Engine.BillboardComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": true,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "apply_impulse_on_damage": true,
+        "auto_activate": false,
+        "b_absolute_translation": false,
+        "body_instance": "<Struct 'BodyInstance' (0x000001C90AD4B318) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_YES: 1>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_YES: 1>",
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": false,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "component_tags": [],
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "emissive_light_source": false,
+        "enable_auto_lod_generation": true,
+        "exclude_from_light_attachment_group": true,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_mip_streaming": false,
+        "generate_overlap_events": false,
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": true,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": true,
+        "is_screen_size_scaled": true,
+        "ld_max_draw_distance": 0.0,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C90AD4B204) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "min_draw_distance": 0.0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "never_distance_cull": false,
+        "only_owner_see": false,
+        "opacity_mask_ref_val": 0.30000001192092896,
+        "owner_no_see": false,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C90AD4B080) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C90AD4B098) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C90AD4B0B0) {x: 0.500000, y: 0.500000, z: 0.500000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C90AD4B080) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "screen_size": 0.0024999999441206455,
+        "self_shadow_only": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "single_sample_shadow_from_stationary_lights": false,
+        "sprite": "/Engine/EditorResources/EmptyActor.EmptyActor",
+        "static_when_not_moveable": true,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "u": 0.0,
+        "ul": 0.0,
+        "use_as_occluder": false,
+        "use_attach_parent_bound": false,
+        "use_in_editor_scaling": true,
+        "v": 0.0,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false,
+        "vl": 0.0
+      }
+    },
+    {
+      "name": "Source_SkeletalMesh",
+      "class": "/Script/Engine.SkeletalMeshComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_anim_curve_evaluation": true,
+        "allow_cloth_actors": true,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "always_use_mesh_deformer": false,
+        "anim_blueprint_generated_class": null,
+        "anim_class": null,
+        "animation_blueprint": null,
+        "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CFD330) {anim_to_play: \"/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd'\", saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+        "animation_mode": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>",
+        "apply_impulse_on_damage": true,
+        "auto_activate": true,
+        "b_absolute_translation": false,
+        "b_ignore_master_pose_component_lod": false,
+        "b_propagate_curves_to_slaves": false,
+        "b_use_bounds_from_master_pose_component": false,
+        "body_instance": "<Struct 'BodyInstance' (0x000001C907CFCC18) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "capsule_indirect_shadow_min_visibility": 0.10000000149011612,
+        "cast_capsule_direct_shadow": false,
+        "cast_capsule_indirect_shadow": false,
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": true,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "cloth_blend_weight": 1.0,
+        "cloth_geometry_scale": 1.0,
+        "cloth_max_distance_scale": 1.0,
+        "cloth_teleport_mode": "<ClothingTeleportMode.TELEPORT_AND_RESET: 2>",
+        "cloth_velocity_scale": 1.0,
+        "collide_with_attached_children": false,
+        "collide_with_environment": false,
+        "component_tags": [],
+        "component_use_fixed_skel_bounds": false,
+        "consider_all_bodies_for_bounds": false,
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "default_animating_rig_override": null,
+        "defer_kinematic_bone_update": false,
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "disable_cloth_simulation": false,
+        "disable_morph_target": false,
+        "disable_post_process_blueprint": false,
+        "disallow_nanite": false,
+        "display_debug_update_rate_optimizations": false,
+        "emissive_light_source": false,
+        "enable_animation": true,
+        "enable_auto_lod_generation": true,
+        "enable_material_parameter_caching": false,
+        "enable_per_poly_collision": false,
+        "enable_physics_on_dedicated_server": true,
+        "enable_update_rate_optimizations": false,
+        "evaluate_world_position_offset": true,
+        "exclude_from_light_attachment_group": false,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_collision_update": false,
+        "force_mip_streaming": false,
+        "forced_lod_model": 0,
+        "generate_overlap_events": false,
+        "global_anim_rate_scale": 1.0,
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": false,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_leader_pose_component_lod": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "include_component_location_into_bounds": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": false,
+        "kinematic_bones_update_type": "<KinematicBonesUpdateToPhysics.SKIP_SIMULATING_BONES: 0>",
+        "ld_max_draw_distance": 0.0,
+        "leader_pose_component": null,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C907CFCB04) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "master_pose_component": null,
+        "material_slots_overlay_material": [],
+        "mesh_component_update_flag": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "mesh_deformer": null,
+        "mesh_deformer_instance_settings": null,
+        "min_draw_distance": 0.0,
+        "min_lod_model": 0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "nanite_pixel_programmable_distance": 0.0,
+        "never_distance_cull": false,
+        "no_skeleton_update": false,
+        "on_anim_initialized": "<Multicast delegate 'OnAnimInitialized' (0x000001C907CFD798) <Unbound>>",
+        "on_constraint_broken": "<Multicast delegate 'ConstraintBrokenSignature' (0x000001C907CFD4D8) <Unbound>>",
+        "on_plastic_deformation": "<Multicast delegate 'PlasticDeformationEventSignature' (0x000001C907CFD4F0) <Unbound>>",
+        "only_owner_see": false,
+        "overlay_material": null,
+        "overlay_material_max_draw_distance": 0.0,
+        "override_min_lod": false,
+        "owner_no_see": false,
+        "pause_anims": false,
+        "per_bone_motion_blur": true,
+        "physics_asset_override": null,
+        "physics_transform_update_mode": "<PhysicsTransformUpdateMode.SIMULATION_UPATES_COMPONENT_TRANSFORM: 0>",
+        "post_process_anim_bplod_threshold": -1,
+        "propagate_curves_to_followers": false,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C907CFC980) {x: -175.000000, y: 0.000000, z: 0.000000}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C907CFC998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C907CFC9B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C907CFC980) {x: -175.000000, y: 0.000000, z: 0.000000}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "render_static": false,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "reset_after_teleport": true,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "self_shadow_only": false,
+        "set_mesh_deformer": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "single_sample_shadow_from_stationary_lights": false,
+        "skeletal_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+        "skeletal_mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+        "skin_cache_usage": [],
+        "skin_weight_profile_on_render_thread": false,
+        "skinned_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+        "skip_bounds_update_when_interpolating": false,
+        "skip_kinematic_update_when_interpolating": false,
+        "sort_triangles": false,
+        "static_when_not_moveable": true,
+        "streaming_distance_multiplier": 1.0,
+        "suppress_notify_event_dispatch": false,
+        "sync_attach_parent_lod": true,
+        "teleport_distance_threshold": 300.0,
+        "teleport_rotation_threshold": 0.0,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "update_joints_from_animation": false,
+        "update_mesh_when_kinematic": false,
+        "use_as_occluder": true,
+        "use_attach_parent_bound": false,
+        "use_bounds_from_leader_pose_component": false,
+        "use_screen_render_state_for_update": false,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false,
+        "wait_for_parallel_cloth_task": false,
+        "world_position_offset_disable_distance": 0
+      },
+      "bones": [
+        {
+          "name": "root",
+          "parent": "None"
+        },
+        {
+          "name": "pelvis",
+          "parent": "root"
+        },
+        {
+          "name": "spine_01",
+          "parent": "pelvis"
+        },
+        {
+          "name": "spine_02",
+          "parent": "spine_01"
+        },
+        {
+          "name": "spine_03",
+          "parent": "spine_02"
+        },
+        {
+          "name": "spine_04",
+          "parent": "spine_03"
+        },
+        {
+          "name": "spine_05",
+          "parent": "spine_04"
+        },
+        {
+          "name": "neck_01",
+          "parent": "spine_05"
+        },
+        {
+          "name": "neck_02",
+          "parent": "neck_01"
+        },
+        {
+          "name": "head",
+          "parent": "neck_02"
+        },
+        {
+          "name": "clavicle_l",
+          "parent": "spine_05"
+        },
+        {
+          "name": "upperarm_l",
+          "parent": "clavicle_l"
+        },
+        {
+          "name": "lowerarm_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "lowerarm_twist_02_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "lowerarm_twist_01_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "hand_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "index_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "index_01_l",
+          "parent": "index_metacarpal_l"
+        },
+        {
+          "name": "index_02_l",
+          "parent": "index_01_l"
+        },
+        {
+          "name": "index_03_l",
+          "parent": "index_02_l"
+        },
+        {
+          "name": "middle_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "middle_01_l",
+          "parent": "middle_metacarpal_l"
+        },
+        {
+          "name": "middle_02_l",
+          "parent": "middle_01_l"
+        },
+        {
+          "name": "middle_03_l",
+          "parent": "middle_02_l"
+        },
+        {
+          "name": "thumb_01_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "thumb_02_l",
+          "parent": "thumb_01_l"
+        },
+        {
+          "name": "thumb_03_l",
+          "parent": "thumb_02_l"
+        },
+        {
+          "name": "pinky_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "pinky_01_l",
+          "parent": "pinky_metacarpal_l"
+        },
+        {
+          "name": "pinky_02_l",
+          "parent": "pinky_01_l"
+        },
+        {
+          "name": "pinky_03_l",
+          "parent": "pinky_02_l"
+        },
+        {
+          "name": "ring_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "ring_01_l",
+          "parent": "ring_metacarpal_l"
+        },
+        {
+          "name": "ring_02_l",
+          "parent": "ring_01_l"
+        },
+        {
+          "name": "ring_03_l",
+          "parent": "ring_02_l"
+        },
+        {
+          "name": "upperarm_twist_01_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "upperarm_twist_02_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "clavicle_r",
+          "parent": "spine_05"
+        },
+        {
+          "name": "upperarm_r",
+          "parent": "clavicle_r"
+        },
+        {
+          "name": "lowerarm_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "lowerarm_twist_02_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "lowerarm_twist_01_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "hand_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "pinky_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "pinky_01_r",
+          "parent": "pinky_metacarpal_r"
+        },
+        {
+          "name": "pinky_02_r",
+          "parent": "pinky_01_r"
+        },
+        {
+          "name": "pinky_03_r",
+          "parent": "pinky_02_r"
+        },
+        {
+          "name": "ring_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "ring_01_r",
+          "parent": "ring_metacarpal_r"
+        },
+        {
+          "name": "ring_02_r",
+          "parent": "ring_01_r"
+        },
+        {
+          "name": "ring_03_r",
+          "parent": "ring_02_r"
+        },
+        {
+          "name": "middle_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "middle_01_r",
+          "parent": "middle_metacarpal_r"
+        },
+        {
+          "name": "middle_02_r",
+          "parent": "middle_01_r"
+        },
+        {
+          "name": "middle_03_r",
+          "parent": "middle_02_r"
+        },
+        {
+          "name": "index_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "index_01_r",
+          "parent": "index_metacarpal_r"
+        },
+        {
+          "name": "index_02_r",
+          "parent": "index_01_r"
+        },
+        {
+          "name": "index_03_r",
+          "parent": "index_02_r"
+        },
+        {
+          "name": "thumb_01_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "thumb_02_r",
+          "parent": "thumb_01_r"
+        },
+        {
+          "name": "thumb_03_r",
+          "parent": "thumb_02_r"
+        },
+        {
+          "name": "upperarm_twist_01_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "upperarm_twist_02_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "thigh_r",
+          "parent": "pelvis"
+        },
+        {
+          "name": "calf_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "foot_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "ball_r",
+          "parent": "foot_r"
+        },
+        {
+          "name": "calf_twist_02_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "calf_twist_01_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "thigh_twist_01_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "thigh_twist_02_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "thigh_l",
+          "parent": "pelvis"
+        },
+        {
+          "name": "calf_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "foot_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "ball_l",
+          "parent": "foot_l"
+        },
+        {
+          "name": "calf_twist_02_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "calf_twist_01_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "thigh_twist_01_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "thigh_twist_02_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "ik_foot_root",
+          "parent": "root"
+        },
+        {
+          "name": "ik_foot_l",
+          "parent": "ik_foot_root"
+        },
+        {
+          "name": "ik_foot_r",
+          "parent": "ik_foot_root"
+        },
+        {
+          "name": "ik_hand_root",
+          "parent": "root"
+        },
+        {
+          "name": "ik_hand_gun",
+          "parent": "ik_hand_root"
+        },
+        {
+          "name": "ik_hand_l",
+          "parent": "ik_hand_gun"
+        },
+        {
+          "name": "ik_hand_r",
+          "parent": "ik_hand_gun"
+        },
+        {
+          "name": "interaction",
+          "parent": "root"
+        },
+        {
+          "name": "center_of_mass",
+          "parent": "root"
+        }
+      ],
+      "anim_instance": {
+        "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Source_SkeletalMesh.AnimSingleNodeInstance_1",
+        "properties": {
+          "on_all_montage_instances_ended": "<Multicast delegate 'OnAllMontageInstancesEndedMCDelegate' (0x000001C906B1CDA0) <Unbound>>",
+          "on_montage_blended_in": "<Multicast delegate 'OnMontageBlendedInEndedMCDelegate' (0x000001C906B1CD58) <Unbound>>",
+          "on_montage_blending_out": "<Multicast delegate 'OnMontageBlendingOutStartedMCDelegate' (0x000001C906B1CD40) <Unbound>>",
+          "on_montage_ended": "<Multicast delegate 'OnMontageEndedMCDelegate' (0x000001C906B1CD88) <Unbound>>",
+          "on_montage_section_changed": "<Multicast delegate 'OnMontageSectionChangedMCDelegate' (0x000001C906B1CDB8) <Unbound>>",
+          "on_montage_started": "<Multicast delegate 'OnMontageStartedMCDelegate' (0x000001C906B1CD70) <Unbound>>"
+        }
+      }
+    },
+    {
+      "name": "Target_SkeletalMesh",
+      "class": "/Script/Engine.SkeletalMeshComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_anim_curve_evaluation": true,
+        "allow_cloth_actors": true,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "always_use_mesh_deformer": false,
+        "anim_blueprint_generated_class": null,
+        "anim_class": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CopyPoseFromMesh.ABP_CopyPoseFromMesh_C",
+        "animation_blueprint": null,
+        "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CF4730) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+        "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "apply_impulse_on_damage": true,
+        "auto_activate": true,
+        "b_absolute_translation": false,
+        "b_ignore_master_pose_component_lod": false,
+        "b_propagate_curves_to_slaves": false,
+        "b_use_bounds_from_master_pose_component": false,
+        "body_instance": "<Struct 'BodyInstance' (0x000001C907CF4018) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "capsule_indirect_shadow_min_visibility": 0.10000000149011612,
+        "cast_capsule_direct_shadow": false,
+        "cast_capsule_indirect_shadow": false,
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": true,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "cloth_blend_weight": 1.0,
+        "cloth_geometry_scale": 1.0,
+        "cloth_max_distance_scale": 1.0,
+        "cloth_teleport_mode": "<ClothingTeleportMode.NONE: 0>",
+        "cloth_velocity_scale": 1.0,
+        "collide_with_attached_children": false,
+        "collide_with_environment": false,
+        "component_tags": [],
+        "component_use_fixed_skel_bounds": false,
+        "consider_all_bodies_for_bounds": false,
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "default_animating_rig_override": null,
+        "defer_kinematic_bone_update": false,
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "disable_cloth_simulation": false,
+        "disable_morph_target": false,
+        "disable_post_process_blueprint": false,
+        "disallow_nanite": false,
+        "display_debug_update_rate_optimizations": false,
+        "emissive_light_source": false,
+        "enable_animation": true,
+        "enable_auto_lod_generation": true,
+        "enable_material_parameter_caching": false,
+        "enable_per_poly_collision": false,
+        "enable_physics_on_dedicated_server": true,
+        "enable_update_rate_optimizations": false,
+        "evaluate_world_position_offset": true,
+        "exclude_from_light_attachment_group": false,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_collision_update": false,
+        "force_mip_streaming": false,
+        "forced_lod_model": 0,
+        "generate_overlap_events": false,
+        "global_anim_rate_scale": 1.0,
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": false,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_leader_pose_component_lod": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "include_component_location_into_bounds": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": false,
+        "kinematic_bones_update_type": "<KinematicBonesUpdateToPhysics.SKIP_SIMULATING_BONES: 0>",
+        "ld_max_draw_distance": 0.0,
+        "leader_pose_component": null,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C907CF3F04) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "master_pose_component": null,
+        "material_slots_overlay_material": [],
+        "mesh_component_update_flag": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "mesh_deformer": null,
+        "mesh_deformer_instance_settings": null,
+        "min_draw_distance": 0.0,
+        "min_lod_model": 0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "nanite_pixel_programmable_distance": 0.0,
+        "never_distance_cull": false,
+        "no_skeleton_update": false,
+        "on_anim_initialized": "<Multicast delegate 'OnAnimInitialized' (0x000001C907CF4B98) <Unbound>>",
+        "on_constraint_broken": "<Multicast delegate 'ConstraintBrokenSignature' (0x000001C907CF48D8) <Unbound>>",
+        "on_plastic_deformation": "<Multicast delegate 'PlasticDeformationEventSignature' (0x000001C907CF48F0) <Unbound>>",
+        "only_owner_see": false,
+        "overlay_material": null,
+        "overlay_material_max_draw_distance": 0.0,
+        "override_min_lod": false,
+        "owner_no_see": false,
+        "pause_anims": false,
+        "per_bone_motion_blur": true,
+        "physics_asset_override": null,
+        "physics_transform_update_mode": "<PhysicsTransformUpdateMode.SIMULATION_UPATES_COMPONENT_TRANSFORM: 0>",
+        "post_process_anim_bplod_threshold": -1,
+        "propagate_curves_to_followers": false,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C907CF3D80) {x: 300.000000, y: 0.000000, z: -0.000000}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C907CF3D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C907CF3DB0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C907CF3D80) {x: 300.000000, y: 0.000000, z: -0.000000}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "render_static": false,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "reset_after_teleport": true,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "self_shadow_only": false,
+        "set_mesh_deformer": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "single_sample_shadow_from_stationary_lights": false,
+        "skeletal_mesh": "/Game/Characters/Echo/Meshes/Echo.Echo",
+        "skeletal_mesh_asset": "/Game/Characters/Echo/Meshes/Echo.Echo",
+        "skin_cache_usage": [],
+        "skin_weight_profile_on_render_thread": false,
+        "skinned_asset": "/Game/Characters/Echo/Meshes/Echo.Echo",
+        "skip_bounds_update_when_interpolating": false,
+        "skip_kinematic_update_when_interpolating": false,
+        "sort_triangles": false,
+        "static_when_not_moveable": true,
+        "streaming_distance_multiplier": 1.0,
+        "suppress_notify_event_dispatch": false,
+        "sync_attach_parent_lod": true,
+        "teleport_distance_threshold": 300.0,
+        "teleport_rotation_threshold": 0.0,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "update_joints_from_animation": false,
+        "update_mesh_when_kinematic": false,
+        "use_as_occluder": true,
+        "use_attach_parent_bound": false,
+        "use_bounds_from_leader_pose_component": false,
+        "use_screen_render_state_for_update": false,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false,
+        "wait_for_parallel_cloth_task": false,
+        "world_position_offset_disable_distance": 0
+      },
+      "bones": [
+        {
+          "name": "root",
+          "parent": "None"
+        },
+        {
+          "name": "pelvis",
+          "parent": "root"
+        },
+        {
+          "name": "spine_01",
+          "parent": "pelvis"
+        },
+        {
+          "name": "spine_02",
+          "parent": "spine_01"
+        },
+        {
+          "name": "spine_03",
+          "parent": "spine_02"
+        },
+        {
+          "name": "spine_04",
+          "parent": "spine_03"
+        },
+        {
+          "name": "spine_05",
+          "parent": "spine_04"
+        },
+        {
+          "name": "clavicle_l",
+          "parent": "spine_05"
+        },
+        {
+          "name": "upperarm_l",
+          "parent": "clavicle_l"
+        },
+        {
+          "name": "lowerarm_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "hand_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "index_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "index_01_l",
+          "parent": "index_metacarpal_l"
+        },
+        {
+          "name": "index_02_l",
+          "parent": "index_01_l"
+        },
+        {
+          "name": "index_03_l",
+          "parent": "index_02_l"
+        },
+        {
+          "name": "middle_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "middle_01_l",
+          "parent": "middle_metacarpal_l"
+        },
+        {
+          "name": "middle_02_l",
+          "parent": "middle_01_l"
+        },
+        {
+          "name": "middle_03_l",
+          "parent": "middle_02_l"
+        },
+        {
+          "name": "pinky_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "pinky_01_l",
+          "parent": "pinky_metacarpal_l"
+        },
+        {
+          "name": "pinky_02_l",
+          "parent": "pinky_01_l"
+        },
+        {
+          "name": "pinky_03_l",
+          "parent": "pinky_02_l"
+        },
+        {
+          "name": "ring_metacarpal_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "ring_01_l",
+          "parent": "ring_metacarpal_l"
+        },
+        {
+          "name": "ring_02_l",
+          "parent": "ring_01_l"
+        },
+        {
+          "name": "ring_03_l",
+          "parent": "ring_02_l"
+        },
+        {
+          "name": "thumb_01_l",
+          "parent": "hand_l"
+        },
+        {
+          "name": "thumb_02_l",
+          "parent": "thumb_01_l"
+        },
+        {
+          "name": "thumb_03_l",
+          "parent": "thumb_02_l"
+        },
+        {
+          "name": "lowerarm_twist_02_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "lowerarm_twist_01_l",
+          "parent": "lowerarm_l"
+        },
+        {
+          "name": "upperarm_twist_01_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "upperarm_twist_02_l",
+          "parent": "upperarm_l"
+        },
+        {
+          "name": "C_Scarf_A_Root_Jnt",
+          "parent": "clavicle_l"
+        },
+        {
+          "name": "C_Scarf_A_Joint1_Jnt",
+          "parent": "C_Scarf_A_Root_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint2_Jnt",
+          "parent": "C_Scarf_A_Joint1_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint3_Jnt",
+          "parent": "C_Scarf_A_Joint2_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint4_Jnt",
+          "parent": "C_Scarf_A_Joint3_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint5_Jnt",
+          "parent": "C_Scarf_A_Joint4_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint6_Jnt",
+          "parent": "C_Scarf_A_Joint5_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint7_Jnt",
+          "parent": "C_Scarf_A_Joint6_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint8_Jnt",
+          "parent": "C_Scarf_A_Joint7_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint9_Jnt",
+          "parent": "C_Scarf_A_Joint8_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint10_Jnt",
+          "parent": "C_Scarf_A_Joint9_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint11_Jnt",
+          "parent": "C_Scarf_A_Joint10_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint12_Jnt",
+          "parent": "C_Scarf_A_Joint11_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint13_Jnt",
+          "parent": "C_Scarf_A_Joint12_Jnt"
+        },
+        {
+          "name": "C_Scarf_A_Joint14_Jnt",
+          "parent": "C_Scarf_A_Joint13_Jnt"
+        },
+        {
+          "name": "clavicle_r",
+          "parent": "spine_05"
+        },
+        {
+          "name": "upperarm_r",
+          "parent": "clavicle_r"
+        },
+        {
+          "name": "lowerarm_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "hand_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "index_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "index_01_r",
+          "parent": "index_metacarpal_r"
+        },
+        {
+          "name": "index_02_r",
+          "parent": "index_01_r"
+        },
+        {
+          "name": "index_03_r",
+          "parent": "index_02_r"
+        },
+        {
+          "name": "middle_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "middle_01_r",
+          "parent": "middle_metacarpal_r"
+        },
+        {
+          "name": "middle_02_r",
+          "parent": "middle_01_r"
+        },
+        {
+          "name": "middle_03_r",
+          "parent": "middle_02_r"
+        },
+        {
+          "name": "pinky_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "pinky_01_r",
+          "parent": "pinky_metacarpal_r"
+        },
+        {
+          "name": "pinky_02_r",
+          "parent": "pinky_01_r"
+        },
+        {
+          "name": "pinky_03_r",
+          "parent": "pinky_02_r"
+        },
+        {
+          "name": "ring_metacarpal_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "ring_01_r",
+          "parent": "ring_metacarpal_r"
+        },
+        {
+          "name": "ring_02_r",
+          "parent": "ring_01_r"
+        },
+        {
+          "name": "ring_03_r",
+          "parent": "ring_02_r"
+        },
+        {
+          "name": "thumb_01_r",
+          "parent": "hand_r"
+        },
+        {
+          "name": "thumb_02_r",
+          "parent": "thumb_01_r"
+        },
+        {
+          "name": "thumb_03_r",
+          "parent": "thumb_02_r"
+        },
+        {
+          "name": "lowerarm_twist_02_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "lowerarm_twist_01_r",
+          "parent": "lowerarm_r"
+        },
+        {
+          "name": "upperarm_twist_01_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "upperarm_twist_02_r",
+          "parent": "upperarm_r"
+        },
+        {
+          "name": "R_ShoulderPad_B_Root_Jnt",
+          "parent": "clavicle_r"
+        },
+        {
+          "name": "R_ShoulderPad_B_Jnt",
+          "parent": "R_ShoulderPad_B_Root_Jnt"
+        },
+        {
+          "name": "R_ShoulderPad_B_Front_Jnt",
+          "parent": "R_ShoulderPad_B_Jnt"
+        },
+        {
+          "name": "R_ShoulderPad_B_Back_Jnt",
+          "parent": "R_ShoulderPad_B_Jnt"
+        },
+        {
+          "name": "neck_01",
+          "parent": "spine_05"
+        },
+        {
+          "name": "neck_02",
+          "parent": "neck_01"
+        },
+        {
+          "name": "head",
+          "parent": "neck_02"
+        },
+        {
+          "name": "FACIAL_C_FacialRoot",
+          "parent": "head"
+        },
+        {
+          "name": "FACIAL_L_EyelidUpper",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_R_EyelidUpper",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_L_Eye",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_L_EyePupil",
+          "parent": "FACIAL_L_Eye"
+        },
+        {
+          "name": "FACIAL_R_Eye",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_R_EyePupil",
+          "parent": "FACIAL_R_Eye"
+        },
+        {
+          "name": "FACIAL_L_EyelidLower",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_R_EyelidLower",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_C_TeethUpper",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_C_Jaw",
+          "parent": "FACIAL_C_FacialRoot"
+        },
+        {
+          "name": "FACIAL_C_TeethLower",
+          "parent": "FACIAL_C_Jaw"
+        },
+        {
+          "name": "FACIAL_Tongue1",
+          "parent": "FACIAL_C_TeethLower"
+        },
+        {
+          "name": "FACIAL_Tongue2",
+          "parent": "FACIAL_Tongue1"
+        },
+        {
+          "name": "FACIAL_Tongue3",
+          "parent": "FACIAL_Tongue2"
+        },
+        {
+          "name": "FACIAL_Tongue4",
+          "parent": "FACIAL_Tongue3"
+        },
+        {
+          "name": "thigh_r",
+          "parent": "pelvis"
+        },
+        {
+          "name": "calf_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "calf_twist_02_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "calf_twist_01_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "foot_r",
+          "parent": "calf_r"
+        },
+        {
+          "name": "ball_r",
+          "parent": "foot_r"
+        },
+        {
+          "name": "thigh_twist_01_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "R_Skirt_A_Root_Jnt",
+          "parent": "thigh_twist_01_r"
+        },
+        {
+          "name": "R_Skirt_A_FrontRoot_Jnt",
+          "parent": "R_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "R_Skirt_A_Front1_Jnt",
+          "parent": "R_Skirt_A_FrontRoot_Jnt"
+        },
+        {
+          "name": "R_Skirt_A_BackRoot_Jnt",
+          "parent": "R_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "R_Skirt_A_Back1_Jnt",
+          "parent": "R_Skirt_A_BackRoot_Jnt"
+        },
+        {
+          "name": "thigh_twist_02_r",
+          "parent": "thigh_r"
+        },
+        {
+          "name": "thigh_l",
+          "parent": "pelvis"
+        },
+        {
+          "name": "calf_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "calf_twist_02_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "calf_twist_01_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "foot_l",
+          "parent": "calf_l"
+        },
+        {
+          "name": "ball_l",
+          "parent": "foot_l"
+        },
+        {
+          "name": "thigh_twist_01_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "L_Skirt_A_Root_Jnt",
+          "parent": "thigh_twist_01_l"
+        },
+        {
+          "name": "L_Skirt_A_FrontRoot_Jnt",
+          "parent": "L_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "L_Skirt_A_Front1_Jnt",
+          "parent": "L_Skirt_A_FrontRoot_Jnt"
+        },
+        {
+          "name": "L_Skirt_A_BackRoot_Jnt",
+          "parent": "L_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "L_Skirt_A_Back1_Jnt",
+          "parent": "L_Skirt_A_BackRoot_Jnt"
+        },
+        {
+          "name": "thigh_twist_02_l",
+          "parent": "thigh_l"
+        },
+        {
+          "name": "C_Skirt_A_Root_Jnt",
+          "parent": "pelvis"
+        },
+        {
+          "name": "C_Skirt_A_FrontRoot_Jnt",
+          "parent": "C_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "C_Skirt_A_Front1_Jnt",
+          "parent": "C_Skirt_A_FrontRoot_Jnt"
+        },
+        {
+          "name": "C_Skirt_A_BackRoot_Jnt",
+          "parent": "C_Skirt_A_Root_Jnt"
+        },
+        {
+          "name": "C_Skirt_A_Back1_Jnt",
+          "parent": "C_Skirt_A_BackRoot_Jnt"
+        },
+        {
+          "name": "R_LargePouch_A_Root_Jnt",
+          "parent": "pelvis"
+        },
+        {
+          "name": "R_LargePouch_A_Joint1_Jnt",
+          "parent": "R_LargePouch_A_Root_Jnt"
+        },
+        {
+          "name": "R_Canister_A_Joint1_Jnt",
+          "parent": "pelvis"
+        },
+        {
+          "name": "R_Canister_A_Joint2_Jnt",
+          "parent": "R_Canister_A_Joint1_Jnt"
+        }
+      ],
+      "anim_instance": {
+        "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.ABP_CopyPoseFromMesh_C_0",
+        "properties": {
+          "on_all_montage_instances_ended": "<Multicast delegate 'OnAllMontageInstancesEndedMCDelegate' (0x000001C95D1070A0) <Unbound>>",
+          "on_montage_blended_in": "<Multicast delegate 'OnMontageBlendedInEndedMCDelegate' (0x000001C95D107058) <Unbound>>",
+          "on_montage_blending_out": "<Multicast delegate 'OnMontageBlendingOutStartedMCDelegate' (0x000001C95D107040) <Unbound>>",
+          "on_montage_ended": "<Multicast delegate 'OnMontageEndedMCDelegate' (0x000001C95D107088) <Unbound>>",
+          "on_montage_section_changed": "<Multicast delegate 'OnMontageSectionChangedMCDelegate' (0x000001C95D1070B8) <Unbound>>",
+          "on_montage_started": "<Multicast delegate 'OnMontageStartedMCDelegate' (0x000001C95D107070) <Unbound>>"
+        }
+      },
+      "post_process": {
+        "path": "/Game/Maps/Animation/Animation_Retargeting.Animation_Retargeting:PersistentLevel.BP_IKRetargeting_C_1.Target_SkeletalMesh.Echo_PostProcess_AnimBP_C_1",
+        "properties": {
+          "on_all_montage_instances_ended": "<Multicast delegate 'OnAllMontageInstancesEndedMCDelegate' (0x000001C90E8CC0A0) <Unbound>>",
+          "on_montage_blended_in": "<Multicast delegate 'OnMontageBlendedInEndedMCDelegate' (0x000001C90E8CC058) <Unbound>>",
+          "on_montage_blending_out": "<Multicast delegate 'OnMontageBlendingOutStartedMCDelegate' (0x000001C90E8CC040) <Unbound>>",
+          "on_montage_ended": "<Multicast delegate 'OnMontageEndedMCDelegate' (0x000001C90E8CC088) <Unbound>>",
+          "on_montage_section_changed": "<Multicast delegate 'OnMontageSectionChangedMCDelegate' (0x000001C90E8CC0B8) <Unbound>>",
+          "on_montage_started": "<Multicast delegate 'OnMontageStartedMCDelegate' (0x000001C90E8CC070) <Unbound>>"
+        }
+      }
+    },
+    {
+      "name": "EyebrowsGroom",
+      "class": "/Script/HairStrandsCore.GroomComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "apply_impulse_on_damage": true,
+        "attachment_name": "head",
+        "auto_activate": true,
+        "b_absolute_translation": false,
+        "binding_asset": "/Game/Characters/Echo/Hair/Eyebrows_L_Echo_Echo_M3D_LOD0_Binding.Eyebrows_L_Echo_Echo_M3D_LOD0_Binding",
+        "body_instance": "<Struct 'BodyInstance' (0x000001C8E5604A18) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_YES: 1>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_YES: 1>",
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": true,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "component_tags": [],
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "emissive_light_source": false,
+        "enable_auto_lod_generation": true,
+        "enable_material_parameter_caching": false,
+        "exclude_from_light_attachment_group": false,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_mip_streaming": false,
+        "generate_overlap_events": false,
+        "groom_asset": "/Game/Characters/Echo/Hair/Eyebrows_L_Echo.Eyebrows_L_Echo",
+        "groom_cache": null,
+        "groom_groups_desc": [
+          "<Struct 'HairGroupDesc' (0x000001C8F6780B40) {hair_width: 0.100000, hair_width_override: False, hair_root_scale: 1.000000, hair_root_scale_override: False, hair_tip_scale: 1.000000, hair_tip_scale_override: False, hair_shadow_density: 1.000000, hair_shadow_density_override: False, hair_raytracing_radius_scale: 1.000000, hair_raytracing_radius_scale_override: False, use_hair_raytracing_geometry: False, use_hair_raytracing_geometry_override: False, lod_bias: 0.000000, use_stable_rasterization: False, use_stable_rasterization_override: False, scatter_scene_lighting: False, scatter_scene_lighting_override: False, hair_length_scale: 1.000000, hair_length_scale_override: False}>"
+        ],
+        "hair_strands_asset": "/Game/Characters/Echo/Hair/Eyebrows_L_Echo.Eyebrows_L_Echo",
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": false,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": false,
+        "ld_max_draw_distance": 0.0,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C8E5604904) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "material_slots_overlay_material": [],
+        "mesh_deformer": null,
+        "mesh_deformer_instance": null,
+        "mesh_deformer_instance_settings": null,
+        "min_draw_distance": 0.0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "never_distance_cull": false,
+        "only_owner_see": false,
+        "overlay_material": null,
+        "overlay_material_max_draw_distance": 0.0,
+        "owner_no_see": false,
+        "physics_asset": null,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C8E5604780) {x: -152.369539, y: -0.007318, z: 0.009168}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C8E5604798) {pitch: -90.000000, yaw: -0.017319, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C8E56047B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C8E5604780) {x: -152.369539, y: -0.007318, z: 0.009168}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "self_shadow_only": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "simulation_settings": "<Struct 'HairSimulationSettings' (0x000001C8E5604D00) {override_settings: False, simulation_setup: {reset_simulation: False, debug_simulation: False, local_simulation: True, linear_velocity_scale: 1.000000, angular_velocity_scale: 1.000000, local_bone: \"root\", teleport_distance: 50.000000}, solver_settings: {enable_simulation: False}, external_forces: {gravity_vector: {x: 0.000000, y: 0.000000, z: -981.000000}, air_drag: 0.100000, air_velocity: {x: 0.000000, y: 0.000000, z: 0.000000}}, material_constraints: {bend_damping: 0.001000, bend_stiffness: 0.010000, stretch_damping: 0.001000, stretch_stiffness: 1.000000, static_friction: 0.100000, kinetic_friction: 0.100000, strands_viscosity: 1.000000, collision_radius: 0.001000}}>",
+        "single_sample_shadow_from_stationary_lights": false,
+        "static_when_not_moveable": true,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "use_as_occluder": true,
+        "use_attach_parent_bound": false,
+        "use_cards": false,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false
+      }
+    },
+    {
+      "name": "HairMesh",
+      "class": "/Script/Engine.SkeletalMeshComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_anim_curve_evaluation": true,
+        "allow_cloth_actors": true,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "always_use_mesh_deformer": false,
+        "anim_blueprint_generated_class": null,
+        "anim_class": null,
+        "animation_blueprint": null,
+        "animation_data": "<Struct 'SingleAnimationPlayData' (0x000001C907CF1F30) {anim_to_play: None, saved_looping: True, saved_playing: True, saved_position: 0.000000, saved_play_rate: 1.000000}>",
+        "animation_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "apply_impulse_on_damage": true,
+        "auto_activate": true,
+        "b_absolute_translation": false,
+        "b_ignore_master_pose_component_lod": false,
+        "b_propagate_curves_to_slaves": false,
+        "b_use_bounds_from_master_pose_component": false,
+        "body_instance": "<Struct 'BodyInstance' (0x000001C907CF1818) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_OWNER: 2>",
+        "capsule_indirect_shadow_min_visibility": 0.10000000149011612,
+        "cast_capsule_direct_shadow": false,
+        "cast_capsule_indirect_shadow": false,
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": true,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "cloth_blend_weight": 1.0,
+        "cloth_geometry_scale": 1.0,
+        "cloth_max_distance_scale": 1.0,
+        "cloth_teleport_mode": "<ClothingTeleportMode.TELEPORT_AND_RESET: 2>",
+        "cloth_velocity_scale": 1.0,
+        "collide_with_attached_children": false,
+        "collide_with_environment": false,
+        "component_tags": [],
+        "component_use_fixed_skel_bounds": false,
+        "consider_all_bodies_for_bounds": false,
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "default_animating_rig_override": null,
+        "defer_kinematic_bone_update": false,
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "disable_cloth_simulation": false,
+        "disable_morph_target": false,
+        "disable_post_process_blueprint": false,
+        "disallow_nanite": false,
+        "display_debug_update_rate_optimizations": false,
+        "emissive_light_source": false,
+        "enable_animation": true,
+        "enable_auto_lod_generation": true,
+        "enable_material_parameter_caching": false,
+        "enable_per_poly_collision": false,
+        "enable_physics_on_dedicated_server": true,
+        "enable_update_rate_optimizations": false,
+        "evaluate_world_position_offset": true,
+        "exclude_from_light_attachment_group": false,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_collision_update": false,
+        "force_mip_streaming": false,
+        "forced_lod_model": 0,
+        "generate_overlap_events": false,
+        "global_anim_rate_scale": 1.0,
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": false,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_leader_pose_component_lod": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "include_component_location_into_bounds": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": false,
+        "kinematic_bones_update_type": "<KinematicBonesUpdateToPhysics.SKIP_SIMULATING_BONES: 0>",
+        "ld_max_draw_distance": 0.0,
+        "leader_pose_component": null,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C907CF1704) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "master_pose_component": null,
+        "material_slots_overlay_material": [],
+        "mesh_component_update_flag": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "mesh_deformer": null,
+        "mesh_deformer_instance_settings": null,
+        "min_draw_distance": 0.0,
+        "min_lod_model": 0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "nanite_pixel_programmable_distance": 0.0,
+        "never_distance_cull": false,
+        "no_skeleton_update": false,
+        "on_anim_initialized": "<Multicast delegate 'OnAnimInitialized' (0x000001C907CF2398) <Unbound>>",
+        "on_constraint_broken": "<Multicast delegate 'ConstraintBrokenSignature' (0x000001C907CF20D8) <Unbound>>",
+        "on_plastic_deformation": "<Multicast delegate 'PlasticDeformationEventSignature' (0x000001C907CF20F0) <Unbound>>",
+        "only_owner_see": false,
+        "overlay_material": null,
+        "overlay_material_max_draw_distance": 0.0,
+        "override_min_lod": false,
+        "owner_no_see": false,
+        "pause_anims": false,
+        "per_bone_motion_blur": true,
+        "physics_asset_override": null,
+        "physics_transform_update_mode": "<PhysicsTransformUpdateMode.SIMULATION_UPATES_COMPONENT_TRANSFORM: 0>",
+        "post_process_anim_bplod_threshold": -1,
+        "propagate_curves_to_followers": false,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C907CF1580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C907CF1598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C907CF15B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C907CF1580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "render_static": false,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "reset_after_teleport": true,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "self_shadow_only": false,
+        "set_mesh_deformer": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "single_sample_shadow_from_stationary_lights": false,
+        "skeletal_mesh": null,
+        "skeletal_mesh_asset": null,
+        "skin_cache_usage": [],
+        "skin_weight_profile_on_render_thread": false,
+        "skinned_asset": null,
+        "skip_bounds_update_when_interpolating": false,
+        "skip_kinematic_update_when_interpolating": false,
+        "sort_triangles": false,
+        "static_when_not_moveable": true,
+        "streaming_distance_multiplier": 1.0,
+        "suppress_notify_event_dispatch": false,
+        "sync_attach_parent_lod": true,
+        "teleport_distance_threshold": 300.0,
+        "teleport_rotation_threshold": 0.0,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "update_joints_from_animation": false,
+        "update_mesh_when_kinematic": false,
+        "use_as_occluder": true,
+        "use_attach_parent_bound": false,
+        "use_bounds_from_leader_pose_component": false,
+        "use_screen_render_state_for_update": false,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visibility_based_anim_tick_option": "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false,
+        "wait_for_parallel_cloth_task": false,
+        "world_position_offset_disable_distance": 0
+      },
+      "bones": []
+    },
+    {
+      "name": "HairGroom",
+      "class": "/Script/HairStrandsCore.GroomComponent",
+      "properties": {
+        "absolute_location": false,
+        "absolute_rotation": false,
+        "absolute_scale": false,
+        "affect_distance_field_lighting": true,
+        "affect_dynamic_indirect_lighting": true,
+        "affect_indirect_lighting_while_hidden": false,
+        "allow_cull_distance_volume": true,
+        "always_create_physics_state": false,
+        "apply_impulse_on_damage": true,
+        "attachment_name": "head",
+        "auto_activate": true,
+        "b_absolute_translation": false,
+        "binding_asset": "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding.Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding",
+        "body_instance": "<Struct 'BodyInstance' (0x000001C8E5604018) {simulate_physics: False, enable_gravity: True, update_kinematic_from_simulation: False, gyroscopic_torque_enabled: False, auto_weld: False, start_awake: True, generate_wake_events: False, update_mass_when_scale_changes: True, position_solver_iteration_count: 8, velocity_solver_iteration_count: 2, projection_solver_iteration_count: 1, sleep_family: Normal, use_ccd: False, ignore_analytic_collisions: False, notify_rigid_body_collision: False, smooth_edge_collisions: False, inertia_conditioning: True, one_way_interaction: False, override_solver_async_delta_time: False, solver_async_delta_time: 0.016667, max_depenetration_velocity: 0.000000, mass_in_kg_override: 100.000000, linear_damping: 0.010000, angular_damping: 0.000000, com_nudge: {x: 0.000000, y: 0.000000, z: 0.000000}, mass_scale: 1.000000, gravity_group_index: 0, inertia_tensor_scale: {x: 1.000000, y: 1.000000, z: 1.000000}, walkable_slope_override: {walkable_slope_behavior: WalkableSlope_Default, walkable_slope_angle: 0.000000}, phys_material_override: None, max_angular_velocity: 3600.000000, custom_sleep_threshold_multiplier: 1.000000, stabilization_threshold_multiplier: 1.000000}>",
+        "cached_max_draw_distance": 0.0,
+        "can_be_character_base": "<CanBeCharacterBase.ECB_YES: 1>",
+        "can_character_step_up_on": "<CanBeCharacterBase.ECB_YES: 1>",
+        "cast_cinematic_shadow": false,
+        "cast_contact_shadow": true,
+        "cast_dynamic_shadow": true,
+        "cast_far_shadow": false,
+        "cast_hidden_shadow": false,
+        "cast_inset_shadow": false,
+        "cast_shadow": true,
+        "cast_shadow_as_two_sided": false,
+        "cast_static_shadow": true,
+        "cast_volumetric_translucent_shadow": false,
+        "component_tags": [],
+        "custom_depth_stencil_value": 0,
+        "custom_depth_stencil_write_mask": "<RendererStencilMask.ERSM_DEFAULT: 0>",
+        "detail_mode": "<DetailMode.DM_LOW: 0>",
+        "emissive_light_source": false,
+        "enable_auto_lod_generation": true,
+        "enable_material_parameter_caching": false,
+        "exclude_from_light_attachment_group": false,
+        "first_person_primitive_type": "<FirstPersonPrimitiveType.NONE: 0>",
+        "force_mip_streaming": false,
+        "generate_overlap_events": false,
+        "groom_asset": "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns.Hair_S_UpdoBuns",
+        "groom_cache": null,
+        "groom_groups_desc": [
+          "<Struct 'HairGroupDesc' (0x000001C8F6780C40) {hair_width: 0.100000, hair_width_override: False, hair_root_scale: 1.000000, hair_root_scale_override: False, hair_tip_scale: 1.000000, hair_tip_scale_override: False, hair_shadow_density: 1.000000, hair_shadow_density_override: False, hair_raytracing_radius_scale: 1.000000, hair_raytracing_radius_scale_override: False, use_hair_raytracing_geometry: False, use_hair_raytracing_geometry_override: False, lod_bias: 0.000000, use_stable_rasterization: False, use_stable_rasterization_override: False, scatter_scene_lighting: False, scatter_scene_lighting_override: False, hair_length_scale: 1.000000, hair_length_scale_override: False}>"
+        ],
+        "hair_strands_asset": "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns.Hair_S_UpdoBuns",
+        "has_per_instance_hit_proxies": false,
+        "hidden_in_game": false,
+        "hidden_in_scene_capture": false,
+        "hlod_batching_policy": "<HLODBatchingPolicy.NONE: 0>",
+        "holdout": false,
+        "ignore_radial_force": false,
+        "ignore_radial_impulse": false,
+        "indirect_lighting_cache_quality": "<IndirectLightingCacheQuality.ILCQ_POINT: 1>",
+        "is_editor_only": false,
+        "ld_max_draw_distance": 0.0,
+        "light_attachments_as_group": false,
+        "lighting_channels": "<Struct 'LightingChannels' (0x000001C8E5603F04) {channel0: True, channel1: False, channel2: False}>",
+        "lightmap_type": "<LightmapType.DEFAULT: 0>",
+        "material_slots_overlay_material": [],
+        "mesh_deformer": null,
+        "mesh_deformer_instance": null,
+        "mesh_deformer_instance_settings": null,
+        "min_draw_distance": 0.0,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "modify_frequency": "<ComponentMobility.MOVABLE: 2>",
+        "multi_body_overlap": false,
+        "never_distance_cull": false,
+        "only_owner_see": false,
+        "overlay_material": null,
+        "overlay_material_max_draw_distance": 0.0,
+        "owner_no_see": false,
+        "physics_asset": null,
+        "ray_tracing_far_field": false,
+        "ray_tracing_group_culling_priority": "<RayTracingGroupCullingPriority.CP_4_DEFAULT: 4>",
+        "ray_tracing_group_id": -1,
+        "receive_mobile_csm_shadows": true,
+        "receives_decals": true,
+        "relative_location": "<Struct 'Vector' (0x000001C8E5603D80) {x: -152.369539, y: -0.007318, z: 0.009168}>",
+        "relative_rotation": "<Struct 'Rotator' (0x000001C8E5603D98) {pitch: -90.000000, yaw: -0.017319, roll: 0.000000}>",
+        "relative_scale3d": "<Struct 'Vector' (0x000001C8E5603DB0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+        "relative_translation": "<Struct 'Vector' (0x000001C8E5603D80) {x: -152.369539, y: -0.007318, z: 0.009168}>",
+        "render_custom_depth": false,
+        "render_in_depth_pass": true,
+        "render_in_main_pass": true,
+        "replicate_physics_to_autonomous_proxy": true,
+        "replicate_using_registered_sub_object_list": false,
+        "replicates": false,
+        "return_material_on_move": false,
+        "runtime_virtual_textures": [],
+        "self_shadow_only": false,
+        "shadow_cache_invalidation_behavior": "<ShadowCacheInvalidationBehavior.AUTO: 0>",
+        "should_update_physics_volume": false,
+        "simulation_settings": "<Struct 'HairSimulationSettings' (0x000001C8E5604300) {override_settings: False, simulation_setup: {reset_simulation: False, debug_simulation: False, local_simulation: True, linear_velocity_scale: 1.000000, angular_velocity_scale: 1.000000, local_bone: \"root\", teleport_distance: 50.000000}, solver_settings: {enable_simulation: False}, external_forces: {gravity_vector: {x: 0.000000, y: 0.000000, z: -981.000000}, air_drag: 0.100000, air_velocity: {x: 0.000000, y: 0.000000, z: 0.000000}}, material_constraints: {bend_damping: 0.001000, bend_stiffness: 0.010000, stretch_damping: 0.001000, stretch_stiffness: 1.000000, static_friction: 0.100000, kinetic_friction: 0.100000, strands_viscosity: 1.000000, collision_radius: 0.001000}}>",
+        "single_sample_shadow_from_stationary_lights": false,
+        "static_when_not_moveable": true,
+        "trace_complex_on_move": false,
+        "translucency_sort_distance_offset": 0.0,
+        "translucency_sort_priority": 0,
+        "treat_as_background_for_occlusion": false,
+        "use_as_occluder": true,
+        "use_attach_parent_bound": false,
+        "use_cards": false,
+        "virtual_texture_render_pass_type": "<RuntimeVirtualTextureMainPassType.EXCLUSIVE: 1>",
+        "visible": true,
+        "visible_in_ray_tracing": true,
+        "visible_in_real_time_sky_captures": true,
+        "visible_in_reflection_captures": true,
+        "visible_in_reflections": true,
+        "visible_in_scene_capture_only": false
+      }
+    }
+  ],
+  "asset_defaults": {
+    "AnimNode_CopyPoseFromMesh": {
+      "copy_curves": false,
+      "copy_custom_attributes": false,
+      "root_bone_to_copy": "None",
+      "source_mesh_component": null,
+      "use_attached_parent": false,
+      "use_mesh_pose": false
+    },
+    "AnimNode_RetargetPoseFromMesh": {
+      "custom_retarget_profile": "<Struct 'RetargetProfile' (0x000001C95D6A6708) {retarget_op_profiles: , apply_target_retarget_pose: False, target_retarget_pose_name: \"\", apply_source_retarget_pose: False, source_retarget_pose_name: \"\", force_all_ik_off: False, apply_chain_settings: False, chain_settings: (), apply_root_settings: False, root_settings: {}, apply_global_settings: False, global_settings: {}}>",
+      "ik_retargeter_asset": null,
+      "lod_threshold": -1,
+      "lod_threshold_for_ik": -1,
+      "override_sets_to_apply": [],
+      "retarget_from": "<RetargetSourceMode.PARENT_SKELETAL_MESH_COMPONENT: 0>",
+      "source_mesh_component": null,
+      "suppress_warnings": false,
+      "use_custom_override_sets": false
+    },
+    "AnimNode_ControlRig": {},
+    "AnimNode_RigidBody": {
+      "alpha": 1.0,
+      "alpha_bool_blend": "<Struct 'InputAlphaBoolBlend' (0x000001C97C68CCB8) {blend_in_time: 0.000000, blend_out_time: 0.000000, blend_option: HermiteCubic, custom_curve: None}>",
+      "alpha_bool_enabled": true,
+      "alpha_curve_name": "None",
+      "alpha_input_type": "<AnimAlphaInputType.FLOAT: 0>",
+      "alpha_scale_bias": "<Struct 'InputScaleBias' (0x000001C97C68CCB0) {scale: 1.000000, bias: 0.000000}>",
+      "alpha_scale_bias_clamp": "<Struct 'InputScaleBiasClamp' (0x000001C97C68CD0C) {map_range: False, clamp_result: False, interp_result: False, range: {min: 0.000000, max: 1.000000}, out_range: {min: 0.000000, max: 1.000000}, scale: 1.000000, bias: 0.000000, clamp_min: 0.000000, clamp_max: 1.000000, interp_speed_increasing: 10.000000, interp_speed_decreasing: 10.000000}>",
+      "component_pose": "<Struct 'ComponentSpacePoseLink' (0x000001C97C68CC88) {}>",
+      "lod_threshold": -1,
+      "use_local_lod_threshold_only": false
+    }
+  }
+}

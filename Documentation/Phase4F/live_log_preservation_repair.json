@@ -1,0 +1,10 @@
+{
+  "scope": "Only already-running Phase4E editor log; restore unchanged captured prefix after normal shutdown",
+  "baseline_bytes": 316450,
+  "observed_live_bytes": 341739,
+  "appended_bytes": 25289,
+  "restored_sha256": "93c941a1a2021d486455ef0943624a3c8739a05f16e7f841b831e05f738d49bb",
+  "restored_exact": true,
+  "full_execution_log_retained": "Working/Phase4F/prior_live_editor_log_full_capture.log",
+  "prior_assets_or_ledgers_restored_or_modified": false
+}

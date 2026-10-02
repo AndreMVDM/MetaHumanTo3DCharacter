@@ -1,0 +1,32 @@
+# Unreal generated build/cache directories, including nested hosts/plugins.
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+DDC/
+LocalDDC/
+LocalDerivedDataCache/
+*.uhtmanifest
+
+# Local IDE, dependency environments and Python bytecode.
+.vs/
+.idea/
+.cache/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Temporary ReviewPanel heartbeat/IPC. Genuine events are stored separately
+# in Working/Phase4F/{John,Jane}/InteractionEvidence and remain included.
+/Working/Phase4F/ReviewPanel/runtime/
+
+# Local environment secrets; distributable examples remain eligible.
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Authored Content, Documentation, Working evidence, Characters and Reference
+# are deliberately retained. Diagnostic logs and binary source backups remain.

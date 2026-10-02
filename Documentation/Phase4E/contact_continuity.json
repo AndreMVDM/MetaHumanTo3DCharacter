@@ -1,0 +1,90 @@
+{
+  "status": "measured",
+  "results": [
+    {
+      "role": "idle",
+      "key_frames": 455,
+      "non_leg_component_translation_error_cm": 6.350691853420509e-05,
+      "leg_length_preservation_error_cm": 5.684341886080802e-14,
+      "feet": {
+        "l": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 0.015432461378021086,
+            "end_to_start_displacement_cm": 0.013824689485205448
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 0.014737388328651077,
+            "end_to_start_displacement_cm": 0.01393272614397942
+          }
+        },
+        "r": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 0.014780348011099644,
+            "end_to_start_displacement_cm": 0.030670022471709885
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 0.014658181120862337,
+            "end_to_start_displacement_cm": 0.030579436598847324
+          }
+        }
+      }
+    },
+    {
+      "role": "walk",
+      "key_frames": 113,
+      "non_leg_component_translation_error_cm": 6.342519148523076e-05,
+      "leg_length_preservation_error_cm": 4.973799150320701e-14,
+      "feet": {
+        "l": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 7.894743864670514,
+            "end_to_start_displacement_cm": 0.00019448556352911442
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 8.079542360739008,
+            "end_to_start_displacement_cm": 0.00010980651824654804
+          }
+        },
+        "r": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 6.986998364630343,
+            "end_to_start_displacement_cm": 9.006104760639596e-05
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 6.986983984532721,
+            "end_to_start_displacement_cm": 9.00610253487482e-05
+          }
+        }
+      }
+    },
+    {
+      "role": "run",
+      "key_frames": 115,
+      "non_leg_component_translation_error_cm": 3.956090275650503e-05,
+      "leg_length_preservation_error_cm": 4.973799150320701e-14,
+      "feet": {
+        "l": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 9.075943689816555,
+            "end_to_start_displacement_cm": 0.004371661895345106
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 9.055276928289885,
+            "end_to_start_displacement_cm": 0.0043775528560298935
+          }
+        },
+        "r": {
+          "before": {
+            "max_adjacent_key_displacement_cm": 9.40598689765143,
+            "end_to_start_displacement_cm": 0.00433263677838478
+          },
+          "after": {
+            "max_adjacent_key_displacement_cm": 9.405978534856402,
+            "end_to_start_displacement_cm": 0.003497558846670149
+          }
+        }
+      }
+    }
+  ],
+  "limits": "Key displacement and loop endpoint diagnostics only; no planted foot/speed curves, sliding or terrain acceptance"
+}

@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "component": "Manny_Source_GEN_VARIABLE",
+      "slots": 2,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "component": "Lara_Mixamo_Target_GEN_VARIABLE",
+      "slots": 1,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "component": "Lara_Mixamo_Target_GEN_VARIABLE",
+      "slots": 1,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "component": "Lara_UE5_Target_GEN_VARIABLE",
+      "slots": 1,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "component": "Lara_UE5_Target_GEN_VARIABLE",
+      "slots": 1,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "component": "Manny_Source_GEN_VARIABLE",
+      "slots": 2,
+      "override": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    }
+  ],
+  "lights": [
+    "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.PointLight_0",
+    "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.PointLight_1"
+  ],
+  "errors": []
+}

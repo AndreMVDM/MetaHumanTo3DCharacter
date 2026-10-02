@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "input_fit_sha256": "0324a9f4796865ff9ac350c7d8b03136d6ff54bbe4b532dce4b8af71325572fe",
+  "corrections": [],
+  "pending_anatomical_review": [
+    "pelvis",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "actual_user_corrections": 0
+}

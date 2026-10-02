@@ -1,0 +1,16 @@
+BlenderMCP addon registered (auto-connect: on)
+fal.ai: importers module loaded (VSE refresh: scene-swap + refresh_all)
+cc_blender_tools_updater updater verbose is enabled
+cc_blender_tools_updater Updater: Read in JSON settings from file
+register_class(...):
+Warning: 'CCIC_ImportMixBones_UL_List' does not have upper case alphanumeric prefix
+register_class(...):
+Warning: 'CCIC_RigMixBones_UL_List' does not have upper case alphanumeric prefix
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+GEOMETRY_COMPARISON 2.554085040173959e-05 27725 True
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

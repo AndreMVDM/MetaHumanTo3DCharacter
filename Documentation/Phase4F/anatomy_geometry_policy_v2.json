@@ -1,0 +1,17 @@
+{
+  "version": "phase4f.geometry-support/2.0.0",
+  "supersedes": "Phase4F legacy fragment-AABB and unsigned nearest-vertex screens",
+  "authority": "JohnGeometryDiagnosis/README.md and Andre's explicit validator-only correction authorisation",
+  "placement_allowance_cm": 0.8,
+  "maximum_reconstructed_seam_gap_cm": 0.8,
+  "seam_budget_rationale": "Explicit reconstruction limit bounded by the existing placement screening budget; measured diagnostic gaps are below 0.506cm. This is a changed support definition, not an unchanged-rule pass.",
+  "coordinate_weld_cm": 0.00001,
+  "numerical_epsilon_cm": 0.00000001,
+  "finger_support_sample_spacing_cm": 0.2,
+  "finger_support": "Closed source polygons associated with the accepted named source track, plus no source-surface crossings on complete continuous path and phalange segments. No finger seam reconstruction or exterior placement allowance.",
+  "garment_provenance": "Existing character-local principal garment classification anchors; same original object and unambiguous material. An unclassified satellite fragment must have both reciprocal boundary matches directly to the same anchored garment group. Different garment groups and unanchored pairs cannot be joined.",
+  "legacy_finger_vertex_cap_cm": 1.2,
+  "legacy_results": "Preserved per replaced check as migration evidence; distances remain diagnostic only.",
+  "unchanged": "All review input/signature, identity, side, length, uniqueness, collision and other inherited gates. Source geometry is read-only.",
+  "open_ambiguous_invalid_support": "fail"
+}

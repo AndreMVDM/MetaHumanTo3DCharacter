@@ -1,0 +1,165 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.09.30-17.16.40:965][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.09.30-17.16.40:965][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.30-17.16.40:965][  0]LogTrace: Display: Control listening on port 36196
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:\Repo\UE\Projects\MetaHumanTo3DCharacter\MHTo3DCharacter.uproject -run=pythonscript -script=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\final_preservation.py -unattended -nosplash -nullrhi -DDC=InstalledNoZenLocalFallback -LocalDataCachePath=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\DDC""
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.30-17.16.40:965][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading Mac ini files took 0.05 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading Linux ini files took 0.06 seconds
+[2026.09.30-17.16.40:965][  0]LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2026.09.30-17.16.40:965][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.30-17.16.40:965][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-17.16.40:965][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=370MiB, MaxMemoryAvailable=102390MiB
+[2026.09.30-17.16.40:965][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.30-17.16.40:965][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.30-17.16.40:965][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.30-17.16.40:965][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-17.16.41:424][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.09.30-17.16.41:516][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.09.30-17.16.41:523][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.30-17.16.41:523][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.30-17.16.41:523][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.30-17.16.41:523][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.30-17.16.41:546][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.30-17.16.41:557][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.09.30-17.16.41:570][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.30-17.16.41:584][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.09.30-17.16.41:584][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.09.30-17.16.41:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.30-17.16.41:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.30-17.16.41:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.30-17.16.41:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.30-17.16.41:598][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.30-17.16.41:602][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.30-17.16.41:918][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.09.30-17.16.41:923][  0]LogDerivedDataCache: Display: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/DDC: Performance: Latency=0.02ms. RandomReadSpeed=723.83MBs, RandomWriteSpeed=239.96MBs. Assigned SpeedClass 'Local'
+[2026.09.30-17.16.41:925][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.30-17.16.41:925][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.30-17.16.41:925][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.09.30-17.16.41:935][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.09.30-17.16.41:935][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-17.16.42:299][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.30-17.16.42:536][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.30-17.16.42:536][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.30-17.16.42:574][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.30-17.16.42:576][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.30-17.16.42:595][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.30-17.16.42:595][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.30-17.16.42:595][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.30-17.16.42:614][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.30-17.16.42:614][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.30-17.16.42:614][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.30-17.16.42:614][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.30-17.16.42:743][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.30-17.16.42:743][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-17.16.42:744][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.30-17.16.42:744][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.30-17.16.42:824][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.30-17.16.42:825][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.157 ms
+[2026.09.30-17.16.43:412][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.30-17.16.43:417][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.30-17.16.44:071][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-17.16.44:071][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-17.16.44:312][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.09.30-17.16.44:317][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.09.30-17.16.44:317][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-17.16.44:317][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.09.30-17.16.44:317][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.09.30-17.16.44:426][  0]LogAssetRegistry: Display: Asset registry cache read as 118.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_B798602142F513F85BBD1DBCDA9941D9.bin (memory-mapped=yes)
+[2026.09.30-17.16.44:427][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.110s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.09.30-17.16.44:529][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.30-17.16.44:575][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.30-17.16.44:942][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.30-17.16.45:136][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.30-17.16.45:145][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 9.410 ms
+[2026.09.30-17.16.45:145][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.30-17.16.45:180][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 33.968 ms (total: 43.378 ms)
+[2026.09.30-17.16.45:180][  0]LogPythonScriptCommandlet: Display: Running Python script: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\final_preservation.py
+[2026.09.30-17.16.45:248][  0]LogFbx: Display: Triangulating static mesh tripo_node_c86468c2
+[2026.09.30-17.16.46:133][  0]LogStaticMesh: Display: Building static mesh SM_Lara_GeometrySource (Required Memory Estimate: 74.581674 MB)...
+[2026.09.30-17.16.46:374][  0]LogStaticMesh: Display: SM_Lara_GeometrySource has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2026.09.30-17.16.46:374][  0]LogStaticMesh: Display: SM_Lara_GeometrySource has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.30-17.16.46:379][  0]FBXImport: Warning: SM_Lara_GeometrySource has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2026.09.30-17.16.46:379][  0]FBXImport: Warning: SM_Lara_GeometrySource has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.30-17.16.46:399][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/SM_Lara_GeometrySource) ...
+[2026.09.30-17.16.46:458][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.30-17.16.46:482][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara) ...
+[2026.09.30-17.16.46:590][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara) ...
+[2026.09.30-17.16.46:683][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara) ...
+[2026.09.30-17.16.46:852][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.47:352][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.47:853][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.48:354][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.48:855][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.49:355][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.49:856][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.50:357][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.50:858][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.51:358][  0]LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.51:858][  0]LogFileManager: Error: Error moving file 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp'.
+[2026.09.30-17.16.51:858][  0]LogSavePackage: Warning: Failed to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to temp directory
+[2026.09.30-17.16.51:858][  0]LogSavePackage: Error: Error saving 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset'
+[2026.09.30-17.16.51:858][  0]EditorErrors: Warning: Error saving 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset'
+[2026.09.30-17.16.52:953][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.30-17.16.52:953][  0]LogInit: Display: 
+[2026.09.30-17.16.52:953][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.30-17.16.52:953][  0]LogInit: Display: -----------------------------------
+[2026.09.30-17.16.52:953][  0]LogInit: Display: LogFileManager: Error: Error moving file 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp'.
+[2026.09.30-17.16.52:953][  0]LogInit: Display: LogSavePackage: Error: Error saving 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset'
+[2026.09.30-17.16.52:953][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-17.16.52:953][  0]LogInit: Display: FBXImport: Warning: SM_Lara_GeometrySource has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2026.09.30-17.16.52:953][  0]LogInit: Display: FBXImport: Warning: SM_Lara_GeometrySource has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.30-17.16.52:953][  0]LogInit: Display: LogFileManager: Warning: MoveFile was unable to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SK_Lara2113B0514E8C3CC6D1F052A93DCCDA4C.tmp' (Error Code 32), retrying in .5s...
+[2026.09.30-17.16.52:953][  0]LogInit: Display: LogSavePackage: Warning: Failed to move 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset' to temp directory
+[2026.09.30-17.16.52:953][  0]LogInit: Display: EditorErrors: Warning: Error saving 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.uasset'
+[2026.09.30-17.16.52:953][  0]LogInit: Display: 
+[2026.09.30-17.16.52:953][  0]LogInit: Display: Failure - 2 error(s), 15 warning(s)
+[2026.09.30-17.16.52:953][  0]LogInit: Display: 
+
+Execution of commandlet took:  7.82 seconds, PeakPhysMemoryMB=1956 MB, PeakVirtMemoryMB=1859 MB
+[2026.09.30-17.16.53:199][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.09.30-17.16.53:199][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-17.16.53:399][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.09.30-17.16.53:424][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json

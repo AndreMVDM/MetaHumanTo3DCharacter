@@ -1,0 +1,11 @@
+{
+  "protected_file_count": 2515,
+  "changed": [],
+  "missing": [],
+  "new_authored_files_outside_phase4d": [],
+  "passed": true,
+  "archive_sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "scope": "All prior authored project Characters/Config/Content/Reference/Documentation/Working and descriptor; execution/build caches excluded",
+  "external_engine_limit": "Engine and reference projects were not write targets; no exhaustive external engine pre-run hash baseline",
+  "git": "Directory does not resolve as a Git repository; no staging/commit/push/branch/configuration operation attempted"
+}

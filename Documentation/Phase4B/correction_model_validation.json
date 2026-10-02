@@ -1,0 +1,50 @@
+{
+  "deterministic_replay_pass": true,
+  "dependency_spine_01_delta_cm": [
+    0.0,
+    0.75,
+    1.5
+  ],
+  "changed_dependents": [
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "thigh_l",
+    "thigh_r"
+  ],
+  "local_transform_axes_recomputed": 23,
+  "negative_cases_rejected": [
+    "unknown or duplicate role",
+    "finite XYZ required",
+    "candidate index out of range",
+    "zero-length segment after correction",
+    "missing, stale or unverified input fit hash",
+    "missing, stale or unverified input fit hash"
+  ],
+  "actual_user_corrections": 0,
+  "synthetic_fixture_used_for_binding": false,
+  "pending_review_roles": [
+    "pelvis",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "parent_frame_roundtrip_max_error_cm": 2.892040412512553e-14,
+  "patch_order_independence_pass": true,
+  "explicit_child_correction_preserved": true,
+  "fit_hash_binding_pass": true,
+  "dependency_anatomical_acceptance_invalidated": true
+}

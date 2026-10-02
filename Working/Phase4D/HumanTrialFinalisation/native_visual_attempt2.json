@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "captures": [
+    {
+      "file": "native_reference_pose.png",
+      "stage": 0,
+      "pose": "reference"
+    }
+  ],
+  "runtime_changes_only": true,
+  "reference_component_position_error_cm_max": 23.14842978339769,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/capture_native_evidence.py\", line 33, in tick\n    data['reference_component_position_error_cm_max']=max(errors);assert max(errors)<1e-4\n                                                                         ^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

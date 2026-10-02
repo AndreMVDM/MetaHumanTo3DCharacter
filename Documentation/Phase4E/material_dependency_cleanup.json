@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "material": "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal.M_LaraOriginal",
+  "texture": "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/T_LaraOriginal.T_LaraOriginal",
+  "expressions": 1,
+  "method": "Repoint expressions then recompile Phase4E material to refresh cached referenced textures; no prior asset save"
+}

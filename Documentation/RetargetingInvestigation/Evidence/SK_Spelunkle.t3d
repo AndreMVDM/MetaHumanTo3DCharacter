@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="SK_Spelunkle" ExportPath="/Script/Engine.SkeletalMesh'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle'"
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle.SK_Spelunkle:FbxSkeletalMeshImportData_0'"
+      ThresholdUV=0.000977
+      ImportMaterialOriginalNameData(0)="lambert2"
+      ImportMaterialOriginalNameData(1)="phong1"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("lambert2","phong1"))
+   End Object
+   SourceModels(0)=(TriangleCount=14272,VertexCount=7144,Bounds=(Origin=(X=-2.199507,Y=-5.414989,Z=51.344976),BoxExtent=(X=54.246836,Y=65.913540,Z=54.413294),SphereRadius=85.838194),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=36A1F46036A1F46036A1F46096A1F460,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,bUseBackwardsCompatibleF16TruncUVs=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   Skeleton="/Script/Engine.Skeleton'/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle_Skeleton.SK_Spelunkle_Skeleton'"
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/ExampleContent/IKRig/Mesh/Spelunkle/Spelunkle_Secondary_Physics.Spelunkle_Secondary_Physics'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object

@@ -1,0 +1,19 @@
+00:01.469  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4C\source_working.blend"
+BlenderMCP addon registered (auto-connect: on)
+fal.ai: importers module loaded (VSE refresh: scene-swap + refresh_all)
+cc_blender_tools_updater updater verbose is enabled
+cc_blender_tools_updater Updater: Read in JSON settings from file
+register_class(...):
+Warning: 'CCIC_ImportMixBones_UL_List' does not have upper case alphanumeric prefix
+register_class(...):
+Warning: 'CCIC_RigMixBones_UL_List' does not have upper case alphanumeric prefix
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+SOURCE_PRESERVATION {'verified_by': 'Fresh Blender reload after solve; retained original world geometry, polygon topology and UV arrays', 'vertices_unchanged': True, 'uv_unchanged': True, 'polygon_topology_unchanged': True, 'armature_count': 0, 'vertex_group_count': 0, 'material_names': ['f9dcb69f_c978_4517_86d5_c509f2f721f9'], 'archive_entries_byte_identical': True, 'passed': True}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

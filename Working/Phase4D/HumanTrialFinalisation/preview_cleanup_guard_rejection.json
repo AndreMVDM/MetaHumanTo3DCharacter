@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "intent": "Replace accidental Skeleton authoring-mesh preview with final Lara mesh; keep all reference transforms unchanged",
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/safe_preview_cleanup.py\", line 7, in <module>\n    mesh=unreal.load_asset('/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara');sk=mesh.skeleton;before=mesh_snapshot(mesh)['bones'];assert unreal.Phase4DLibrary.sync_skeleton_reference(mesh);after=mesh_snapshot(mesh)['bones'];assert before==after,'Reference transform change forbidden'\n                                                                                                                                                                                                                                               ^^^^^^^^^^^^^\nAssertionError: Reference transform change forbidden\n"
+}

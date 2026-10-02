@@ -1,0 +1,122 @@
+[
+  {
+    "rig": "UE5",
+    "label": "OriginalHeight",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height160",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height175",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height180",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height200",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "OriginalHeight",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height160",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height175",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height180",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height200",
+    "pass": true,
+    "full_clips": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MM_Idle.MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MF_Walk_Fwd.MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/MM_Run_Fwd.MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/JumpingJacks.JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/InPlaceFull/Manny_upperarm_r_anim.Manny_upperarm_r_anim"
+    ]
+  }
+]

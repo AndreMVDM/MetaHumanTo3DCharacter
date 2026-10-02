@@ -1,0 +1,60 @@
+[
+  {
+    "case": "MixamoRecovered",
+    "imported_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara.SM_Lara"
+    ],
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara.SM_Lara",
+    "bounds_cm": {
+      "origin": [
+        9.5367431640625e-06,
+        -2.86102294921875e-06,
+        90.0
+      ],
+      "extent": [
+        36.0087947845459,
+        18.77382183074951,
+        90.0
+      ]
+    },
+    "height_cm": 180.0,
+    "material_slots": [
+      "tripo_mat_c86468c2"
+    ],
+    "materials": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ],
+    "copy_outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+    "triangles": 49499,
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/import_assets.py\", line 14, in <module>\n    dm=unreal.DynamicMesh();result=unreal.GeometryScript_AssetUtils.copy_mesh_from_static_mesh(mesh,dm,unreal.GeometryScriptCopyMeshFromAssetOptions(),unreal.GeometryScriptMeshReadLOD());row['copy_outcome']=str(result[-1]);row['triangles']=dm.get_triangle_count();row['uv_channel_count']=mesh.get_num_uv_channels(0)\n                                                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'StaticMesh' object has no attribute 'get_num_uv_channels'\n"
+  },
+  {
+    "case": "Unrigged",
+    "imported_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara"
+    ],
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara",
+    "bounds_cm": {
+      "origin": [
+        0.0,
+        -4.76837158203125e-06,
+        90.0
+      ],
+      "extent": [
+        36.008792877197266,
+        18.77382755279541,
+        90.0
+      ]
+    },
+    "height_cm": 180.0,
+    "material_slots": [
+      "f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ],
+    "materials": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ],
+    "copy_outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+    "triangles": 49499,
+    "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/import_assets.py\", line 14, in <module>\n    dm=unreal.DynamicMesh();result=unreal.GeometryScript_AssetUtils.copy_mesh_from_static_mesh(mesh,dm,unreal.GeometryScriptCopyMeshFromAssetOptions(),unreal.GeometryScriptMeshReadLOD());row['copy_outcome']=str(result[-1]);row['triangles']=dm.get_triangle_count();row['uv_channel_count']=mesh.get_num_uv_channels(0)\n                                                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'StaticMesh' object has no attribute 'get_num_uv_channels'\n"
+  }
+]

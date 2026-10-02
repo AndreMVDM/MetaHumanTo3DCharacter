@@ -1,0 +1,21 @@
+{
+  "id": 64,
+  "utc_epoch": 1790866103.1389937,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "ball_l"
+    ],
+    "judgement": "accept",
+    "category": "anatomical_front_side_review",
+    "reviewed_positions": {
+      "ball_l": [
+        18.89809226989746,
+        4.2567291259765625,
+        1.713231086730957
+      ]
+    }
+  }
+}

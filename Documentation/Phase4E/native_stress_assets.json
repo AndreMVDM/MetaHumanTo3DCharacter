@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_neutral.Stress_neutral",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_45.Stress_arms_45",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_horizontal.Stress_arms_horizontal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_arms_overhead.Stress_arms_overhead",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_elbows_bent.Stress_elbows_bent",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_wide_stance.Stress_wide_stance",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/StressAnimations/Stress_knee_bend.Stress_knee_bend"
+  ]
+}

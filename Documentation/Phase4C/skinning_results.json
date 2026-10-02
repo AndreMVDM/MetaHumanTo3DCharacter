@@ -1,0 +1,7 @@
+{
+  "status": "not_run_anatomy_rejected",
+  "anatomical_gate_passed": false,
+  "authorised": false,
+  "created_assets": [],
+  "reason": "19 unresolved body articulations, strict clavicle side screen, collapsed digit mapping. No donor geometry or skin weights used as final Lara."
+}

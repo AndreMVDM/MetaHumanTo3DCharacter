@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "normalised_geometry_sha256": "ad6d03cf03993f3d2065e834a9121f60f766393ae83ff4e7d3bb413d041bb00a",
+  "source_geometry_sha256": "3f688abd762339884aee6f1907aef0f3cb12796742155d21dc96ec99578d8bd0",
+  "authority": "Completed JohnBodySupportDiagnosis/README.md; explicit implementation authorisation for its nine supported cases",
+  "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Documentation\\Phase4F\\JohnBodySupportDiagnosis\\measurements.json",
+  "evidence_sha256": "5b4da921f486f2bf2c493e25672a934d188da956b59bab1a825b8ecc607e68e6",
+  "regions": [
+    {
+      "family": "footwear",
+      "side": "l",
+      "components": [
+        32
+      ],
+      "source_provenance_token": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "classification_evidence": "Completed authoritative body-support diagnosis identifies boot upper/shell and sole from actual source component geometry, UV texture and section evidence; no anatomy/identity/approval change."
+    },
+    {
+      "family": "footwear",
+      "side": "r",
+      "components": [
+        7,
+        10
+      ],
+      "source_provenance_token": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "classification_evidence": "Completed authoritative body-support diagnosis identifies boot upper/shell and sole from actual source component geometry, UV texture and section evidence; no anatomy/identity/approval change."
+    }
+  ]
+}

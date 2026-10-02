@@ -1,0 +1,86 @@
+[
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180/SK_Lara_Authoring.SK_Lara_Authoring",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SK_Lara_Authoring.SK_Lara_Authoring",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Medial64/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Medial128/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9.f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180/SK_Lara_Authoring.SK_Lara_Authoring",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SK_Lara_Authoring.SK_Lara_Authoring",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Medial64/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  },
+  {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Medial128/SK_Lara.SK_Lara",
+    "material": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2",
+    "readback": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2.tripo_mat_c86468c2"
+    ]
+  }
+]

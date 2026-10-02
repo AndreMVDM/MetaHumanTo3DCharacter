@@ -1,0 +1,182 @@
+{
+  "baseline": {
+    "idle": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.09602003654681135,
+        "max_area_below_0_5": 2,
+        "max_area_above_2": 5
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.1530746121514077,
+        "max_area_below_0_5": 0,
+        "max_area_above_2": 38
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.17626024221272513,
+        "max_area_below_0_5": 112,
+        "max_area_above_2": 13
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.1620350733827448,
+        "max_area_below_0_5": 104,
+        "max_area_above_2": 67
+      }
+    },
+    "walk": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.14693030387078246,
+        "max_area_below_0_5": 37,
+        "max_area_above_2": 12
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.1844168426726939,
+        "max_area_below_0_5": 19,
+        "max_area_above_2": 55
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.18086272406169002,
+        "max_area_below_0_5": 116,
+        "max_area_above_2": 89
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.15811006793660795,
+        "max_area_below_0_5": 106,
+        "max_area_above_2": 106
+      }
+    },
+    "run": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.25426202865194497,
+        "max_area_below_0_5": 151,
+        "max_area_above_2": 16
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.2759448781686347,
+        "max_area_below_0_5": 54,
+        "max_area_above_2": 87
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.28082947633035443,
+        "max_area_below_0_5": 167,
+        "max_area_above_2": 261
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.23045947864296148,
+        "max_area_below_0_5": 172,
+        "max_area_above_2": 279
+      }
+    },
+    "reach": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.1574867578780608,
+        "max_area_below_0_5": 100,
+        "max_area_above_2": 31
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.22852302650659986,
+        "max_area_below_0_5": 49,
+        "max_area_above_2": 90
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.3334553340239407,
+        "max_area_below_0_5": 703,
+        "max_area_above_2": 409
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.28981279308511393,
+        "max_area_below_0_5": 615,
+        "max_area_above_2": 597
+      }
+    }
+  },
+  "refined": {
+    "idle": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.05157873148721274,
+        "max_area_below_0_5": 2,
+        "max_area_above_2": 2
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.10540246217451604,
+        "max_area_below_0_5": 1,
+        "max_area_above_2": 27
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.10088576255294954,
+        "max_area_below_0_5": 12,
+        "max_area_above_2": 3
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.11164850540395352,
+        "max_area_below_0_5": 25,
+        "max_area_above_2": 33
+      }
+    },
+    "walk": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.07312268111493633,
+        "max_area_below_0_5": 7,
+        "max_area_above_2": 6
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.1369090166442256,
+        "max_area_below_0_5": 3,
+        "max_area_above_2": 42
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.11114872454886823,
+        "max_area_below_0_5": 79,
+        "max_area_above_2": 6
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.11532471064633616,
+        "max_area_below_0_5": 35,
+        "max_area_above_2": 41
+      }
+    },
+    "run": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.1073952953322222,
+        "max_area_below_0_5": 34,
+        "max_area_above_2": 10
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.16801552445465465,
+        "max_area_below_0_5": 19,
+        "max_area_above_2": 49
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.1518204596523977,
+        "max_area_below_0_5": 151,
+        "max_area_above_2": 39
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.15425002099002516,
+        "max_area_below_0_5": 60,
+        "max_area_above_2": 125
+      }
+    },
+    "reach": {
+      "front_pants": {
+        "mean_edge_log_strain_rms": 0.05261924237586243,
+        "max_area_below_0_5": 9,
+        "max_area_above_2": 2
+      },
+      "back_hips": {
+        "mean_edge_log_strain_rms": 0.07506838293229699,
+        "max_area_below_0_5": 4,
+        "max_area_above_2": 7
+      },
+      "shoulders": {
+        "mean_edge_log_strain_rms": 0.19796083519168953,
+        "max_area_below_0_5": 844,
+        "max_area_above_2": 110
+      },
+      "upper_torso": {
+        "mean_edge_log_strain_rms": 0.2041689608063184,
+        "max_area_below_0_5": 610,
+        "max_area_above_2": 289
+      }
+    }
+  }
+}

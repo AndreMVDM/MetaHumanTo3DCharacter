@@ -1,0 +1,3925 @@
+{
+  "scope": "All source archives, existing Content/Config/Reference/docs, Phase4A authored working files; excludes execution caches; engine evidence hashes separately",
+  "files": {
+    "Characters\\Lara_Rigged_Mixamo.zip": {
+      "sha256": "be9036cf870c5209d284420ef542cac086d67cafc9ccdb01a829e5fe0fe05c21",
+      "bytes": 1386256
+    },
+    "Characters\\Lara_Rigged_TexturedUE5.zip": {
+      "sha256": "10e8171d85c33012fb3d9cc5e52d26a85b00c94d3316b65e53027c2777c782ba",
+      "bytes": 6037048
+    },
+    "Characters\\Lara_Rigged_UE5.zip": {
+      "sha256": "eb588f66ae3b5c1a6d15907980f1cc195878d272d0134726556273b6ba9ebc1f",
+      "bytes": 1403142
+    },
+    "Characters\\Lara_UnRigged_Textured.zip": {
+      "sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+      "bytes": 5739330
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\BP_Phase2_RetargetTest.uasset": {
+      "sha256": "bc35a4cb6c59810d9aa8f90bc8a718920f117b83915a265da1a4f610bd9dcba5",
+      "bytes": 28705
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\BP_Phase3B_LiveTest.uasset": {
+      "sha256": "b1b9958abed1ccdde5c655e4ab44f1eb8ce1b18eeade9734a01c879704c4b3fa",
+      "bytes": 49333
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\BP_NativePlayback.uasset": {
+      "sha256": "7696ec2d216448a5ec603b4d51e20834c998b2f98e6ba74ceb5fe12238860447",
+      "bytes": 34307
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Maps\\L_NativePlayback.umap": {
+      "sha256": "f248e5533b27be4d1caad0a9026d3094351182d9d67d2ad12a41084c655766b6",
+      "bytes": 6525
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Maps\\L_VerifiedNativePlayback.umap": {
+      "sha256": "15f0c2247ec5b8491eedc00ea51029a5ff0433f75f6f21a63dfd1b57c72b38bf",
+      "bytes": 20806
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\IK_Lara.uasset": {
+      "sha256": "2e6766ace51d53c884cb64a83fbf774718917b6e2a6af467241616e3c784cb59",
+      "bytes": 57733
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\RTG_Manny_Lara.uasset": {
+      "sha256": "0584dd627aca61d50bad5b35d45aa62a44dcd79f437724057e430f8120eb5cef",
+      "bytes": 20760
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\SKEL_Lara.uasset": {
+      "sha256": "884a8010e73fcc27e7bc22499eb9d5c90e443d69cf5205922c6664ddb07347b5",
+      "bytes": 12583
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\SK_Lara.uasset": {
+      "sha256": "6133ca061e4564703cd06519f5b9dd0d30e8762d38d11b9baf19dba5ea7f7388",
+      "bytes": 11924067
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\SK_Lara_Authoring.uasset": {
+      "sha256": "c94d0037181358967922ce3c723bd233c8e8186e2639bd1e618a06f9384ccddb",
+      "bytes": 11689345
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\IK_Lara.uasset": {
+      "sha256": "2c6bbf59ffd259d2e78332cc58b9c754de08676fa8ed016e79a525bc853e22e8",
+      "bytes": 57777
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\RTG_Manny_Lara.uasset": {
+      "sha256": "5ca6806efeda96e772690766cf90d0a1f87556e5efe16fd7edb6467b2a0b41e4",
+      "bytes": 20804
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\SKEL_Lara.uasset": {
+      "sha256": "91b2f7e6fabf4ffd182aeea73c77e3367499c54d23ef6d925bfaba9163137d8a",
+      "bytes": 12627
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\SK_Lara.uasset": {
+      "sha256": "dbf2f296748bdfc23ae08b3e0c40cf7b3c716233cb89b43dfa96084ec1a284df",
+      "bytes": 11927381
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\SK_Lara_Authoring.uasset": {
+      "sha256": "09d38f7a81d432951834f93378e09e12d8d9493773982dcc2d641889807881c9",
+      "bytes": 11689373
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Geometry\\SM_Lara.uasset": {
+      "sha256": "6cf9bf3ac1f890fd9415ed76e49eeae0631dcf9ab288c8a3275dc830b709c0fc",
+      "bytes": 2273145
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial128\\IK_Lara.uasset": {
+      "sha256": "92907e86f5d0b3ffe2c750b9dfd38b699475a4f04803f62727d2edb799dfbfe0",
+      "bytes": 98345
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial128\\SKEL_Lara.uasset": {
+      "sha256": "e9a1b3e09d0e7181af5353f4f26346f6974e89316afac69276a85722b1a67457",
+      "bytes": 26189
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial128\\SK_Lara.uasset": {
+      "sha256": "6f7b88682f43713d7480de4e5228fc01863f888600ba532a3b7a9ee704780f61",
+      "bytes": 12874140
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial64\\IK_Lara.uasset": {
+      "sha256": "7954c7d2d17e7c812ccfa018c5bf3c2b39f8e6091dc27d4eb6ccd7fe3c792018",
+      "bytes": 49585
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial64\\SKEL_Lara.uasset": {
+      "sha256": "b6f79c4164a3c4b7eaf50b578f2bc90fb1c87e35682748365345c1959a786e95",
+      "bytes": 13844
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Medial64\\SK_Lara.uasset": {
+      "sha256": "273525ae810a2440c3bf91fe254398ae4e0ff842735902d84cd367ae729476d7",
+      "bytes": 12859554
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\PreservedSource\\f9dcb69f_c978_4517_86d5_c509f2f721f9.uasset": {
+      "sha256": "1ad36db4bc85eba39191125f7049b012a60116d70ff2e396febe1dd780052bc2",
+      "bytes": 14922
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\PreservedSource\\SM_Lara_Source.uasset": {
+      "sha256": "4e95303557b591e49003a39a80ef8178b9c84a29bec19f1d1b863d1cdd775bd7",
+      "bytes": 2136525
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\PreservedSource\\T_Lara_BaseColor.uasset": {
+      "sha256": "50ad5ad2a69d27b9d1f99b17eb41e711f91134aaf959966f4c8fcd3c5f02fb38",
+      "bytes": 4030794
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\BindThenScale175\\SKEL_Lara.uasset": {
+      "sha256": "c7d0d6b420f8ad669b96965cef8f7a3b3ad52e198585a06d4a780e7ee7019001",
+      "bytes": 12972
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\BindThenScale175\\SK_Lara.uasset": {
+      "sha256": "3ecd62957f141f82126d43ec225f8b2771a195f4118005bd0cf0c92b4154fd1e",
+      "bytes": 11912648
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\BindThenScale175\\SK_Lara_Authoring.uasset": {
+      "sha256": "0fe4f70cf733e92bb2792e471272263f3e3b710ebad9b56be207becdc0c9a9a5",
+      "bytes": 11911938
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedBindThenScale175\\IK_Lara.uasset": {
+      "sha256": "8907119255ae95f7e4e30a3488ce292997a0014dda4552a6b0a243b604f85c47",
+      "bytes": 57849
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedBindThenScale175\\SKEL_Lara.uasset": {
+      "sha256": "a3f9a78ccd810baf3cae5f491c507462b6c731962b5c5288acada0638217cb5a",
+      "bytes": 13008
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedBindThenScale175\\SK_Lara.uasset": {
+      "sha256": "3e50fd5509bf324ddd45486a23db79f356b58660629f881026eee8aa1c98671d",
+      "bytes": 11912739
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedBindThenScale175\\SK_Lara_Authoring.uasset": {
+      "sha256": "80da35013805d6bec108bf71a89648397ad9e0bce77ee4e3fbc1e7c03171e12c",
+      "bytes": 11911974
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedScaleThenBind175\\IK_Lara.uasset": {
+      "sha256": "bcbcb13a09f877a3f70bbf2d3f14e787f16b380ae36ceca1c97114e7da8cb6b9",
+      "bytes": 57849
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedScaleThenBind175\\SKEL_Lara.uasset": {
+      "sha256": "3d6d87f233a35947a22e2dfeda98d05677347a59552159e23864cb72ddd3a570",
+      "bytes": 13008
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedScaleThenBind175\\SK_Lara.uasset": {
+      "sha256": "14b1a60aaa4b00da35be80d2520b59045721de1dbf46b643ba7aecbe50576165",
+      "bytes": 11919956
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\CorrectedScaleThenBind175\\SK_Lara_Authoring.uasset": {
+      "sha256": "b2eb4238bc99ce0ba6d233e04149f60d984670110d7a151cf79efe00ac9fa1ca",
+      "bytes": 11911974
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\ScaleThenBind175\\SKEL_Lara.uasset": {
+      "sha256": "0c7b100119f96a98d5473729d2ab20366c33fdb3cbe22f3811f82cd3acff7df5",
+      "bytes": 12972
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\ScaleThenBind175\\SK_Lara.uasset": {
+      "sha256": "34d628ddb58a2d65974d7190b3cdcee68a6d803551af00c20ed4f3887c645e49",
+      "bytes": 11919644
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\HeightOrdering\\ScaleThenBind175\\SK_Lara_Authoring.uasset": {
+      "sha256": "98fe0ca22249a183e4d3e9463d6325123dee12d38468a148fdf8054d09ce7660",
+      "bytes": 11911938
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\FK\\JumpingJacks.uasset": {
+      "sha256": "17179d16ee2f46699e7625c379934a87cbed81d22383151ad6678b2e02905e0e",
+      "bytes": 1519612
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "983fa35b84a8a7ed083493173be7b3fbf10fbd16ba62574ca0365591703a35c2",
+      "bytes": 360631
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\FK\\MM_Idle.uasset": {
+      "sha256": "e2330f2a8d8711ae1804993e326a350458db7ba3dde1ebeb239c66fd6c481bdd",
+      "bytes": 1229805
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "718e9a51f2e134811ceaebde9aecd330c39b6bfa80b8495ec3b9fea70115b64d",
+      "bytes": 368035
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\Full\\JumpingJacks.uasset": {
+      "sha256": "58e66dd48c1b0a0cd217b82a585b3bcc9483590d4c4381e6a3dea66aa24980a7",
+      "bytes": 1519616
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "61d3e6d2bb00b3753f6b740a8ebc3499f02f15f479dadafe1c75167a75f7fb54",
+      "bytes": 360635
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\Full\\MM_Idle.uasset": {
+      "sha256": "429f078bb2a882b01bac3ca12902f71e2d4450f3814296466cf004a28eb6e886",
+      "bytes": 1229809
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180BallForward\\Diagnostics\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "fdb1e7b01ea4c1002ba8369e4afe386ae2101e7f6859087fadacda1e7f1be5c5",
+      "bytes": 368039
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\FK\\JumpingJacks.uasset": {
+      "sha256": "cfa71f5c87823b9507e057805c686f8dc8a3995532b957f22c6a4f8cef4ee403",
+      "bytes": 1519535
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "85cd2752644eb78109fc19fc7dc9ab8f879c5e8e861c39bcee89b087e2044cbb",
+      "bytes": 360554
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\FK\\MM_Idle.uasset": {
+      "sha256": "dd81f1c4d2efb46570230588ed290471ca79c5b45668ff188abc58d118312f4a",
+      "bytes": 1229728
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "22e693003236b7b759ad0e508ef0eb3969df4c693729ec652ab01a1a9beb75fe",
+      "bytes": 367958
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\Full\\JumpingJacks.uasset": {
+      "sha256": "e66fa7dafd51c4122326c5d24222664d12d74bcb06f5f468b8212a61e159da5d",
+      "bytes": 1519539
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "0aa421df569c2d31d315816d7fae60006638d1d29daa7b8f8ac308c50e556bff",
+      "bytes": 360558
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\Full\\MM_Idle.uasset": {
+      "sha256": "cac86a70546d5519c1f23adbe28adf13cc479b209c4174c3a6d1f803c8030255",
+      "bytes": 1229732
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\Unrigged\\Assisted180\\Diagnostics\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "dad84137d23edadb0eb70717067cedb392476983bc58e902962cfef70dafc470",
+      "bytes": 367962
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\IK_Lara.uasset": {
+      "sha256": "afcfc89d3a76340082c79727ed6a0610313ead4bc2dd8cef071c0cd9854a4707",
+      "bytes": 57761
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\RTG_Manny_Lara.uasset": {
+      "sha256": "2e2e20aeae9f3dab50252b96a2c7c0f74ff53a55ec4f19bb3596c4bbe41a3745",
+      "bytes": 20788
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\SKEL_Lara.uasset": {
+      "sha256": "0020f7740704c7eb0c747b1f265f436f61b4cb9e1b29109b87f73828b3b0b602",
+      "bytes": 12611
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\SK_Lara.uasset": {
+      "sha256": "dfbb7cf820eab64e572b843b78cca71b6b1719deecb46a246dca55a096230bf1",
+      "bytes": 6250601
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\SK_Lara_Authoring.uasset": {
+      "sha256": "ee286e748cc5dfcdf6d48dff49a3d4e5be4961579f71e2538b7c228b66a71f85",
+      "bytes": 6017448
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\IK_Lara.uasset": {
+      "sha256": "302f48fe256a0860e5bef80ea9152fdfc7a4104c22a12aa4d8cdce0e94facb43",
+      "bytes": 57805
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\RTG_Manny_Lara.uasset": {
+      "sha256": "cd58a8aa45e10d208f49546bc58d59e7e3dc1512d36b0922bd6c32ad9f45e4a6",
+      "bytes": 20832
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\SKEL_Lara.uasset": {
+      "sha256": "0743005056572cca68016a357147de053cfa8e1fdf64ed32502815885b7491e6",
+      "bytes": 12655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\SK_Lara.uasset": {
+      "sha256": "05d879cf74f854b6ebf4994cce74c015e0ba336ef508051ebfbd69973ee12570",
+      "bytes": 6250301
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\SK_Lara_Authoring.uasset": {
+      "sha256": "69793f394ed30c035917681d638b62463c79ae8f11f64c0c26e0c1a5fbfff39f",
+      "bytes": 6017475
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Geometry\\SM_Lara.uasset": {
+      "sha256": "cc1e383a24e8f84c02fc66523bf14eb7ffb4f831d719d18db78b89cc6a0ca0a6",
+      "bytes": 1270215
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial128\\IK_Lara.uasset": {
+      "sha256": "f979df73edf74cd0d06ff3f34f4eabb21eaf38a9ef6a82a587e48940e61dd34a",
+      "bytes": 97656
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial128\\SKEL_Lara.uasset": {
+      "sha256": "79c1425582b9504dfb9715aa415097217901c75dd24ce3efa25da3b6eec0cbf0",
+      "bytes": 26035
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial128\\SK_Lara.uasset": {
+      "sha256": "4c4a604b915c113367ed8b8d38b18812cfd223b62f1c447b34440f8d002ebc48",
+      "bytes": 6378849
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial64\\IK_Lara.uasset": {
+      "sha256": "782fb5fe5ec59c2fde28e4d1e53f3b9c0e8e9ee4a5523a15f27d8b2f16f22307",
+      "bytes": 48896
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial64\\SKEL_Lara.uasset": {
+      "sha256": "ae1c1a19341769cd85981b1c3f3bc5380c3a0758fc3aba778cbf054d95c37ed7",
+      "bytes": 13691
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Medial64\\SK_Lara.uasset": {
+      "sha256": "324414fb96cabc4d5a4999e74aad222f1a08864691d65ae4ffdd7f2ecf6f2f0e",
+      "bytes": 6348546
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\PreservedSource\\SM_Lara_GeometrySource.uasset": {
+      "sha256": "8daf58c6f4a5e6017d52778e541f5fd1487d325e99596bec77956c5d2716ddd7",
+      "bytes": 1136365
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\PreservedSource\\tripo_mat_c86468c2.uasset": {
+      "sha256": "9e180c8c5d4c792fc1a5558b64d4002c0617210c741d833e1ad2a7c3c04e25f5",
+      "bytes": 9560
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\BindThenScale175\\SKEL_Lara.uasset": {
+      "sha256": "8f27363b917884bd106ccf1cf408201502422115f1df4002ab17d69ab9faa87d",
+      "bytes": 13000
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\BindThenScale175\\SK_Lara.uasset": {
+      "sha256": "379af4463a9e57e6af126f8ad32dc258d46a4c84f7f69da9226897a3dbea1f83",
+      "bytes": 6237556
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\BindThenScale175\\SK_Lara_Authoring.uasset": {
+      "sha256": "5fe3df86c3e52c258133b51203bb011c3e1727cb24ae3ee212a92fa27ef93a43",
+      "bytes": 6237883
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedBindThenScale175\\IK_Lara.uasset": {
+      "sha256": "1c6e57aaf38cb8fbb0cc98bfd4663aa9a3a9c1294af4d7f4e7a10737dd9bb2e1",
+      "bytes": 57877
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedBindThenScale175\\SKEL_Lara.uasset": {
+      "sha256": "c7ff4cf5b0a50398fb1ec35248c63030dd9e085bf50fbd42ede78cec03eaa340",
+      "bytes": 13036
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedBindThenScale175\\SK_Lara.uasset": {
+      "sha256": "42e8a8a0d65294f2e8dc4aecbb92a86d833e04c2932c8755513a82529cefd05d",
+      "bytes": 6237647
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedBindThenScale175\\SK_Lara_Authoring.uasset": {
+      "sha256": "b0e57a897a8a8b0e08dbb00edb3fb6a751f5a20768b9f676dac190ea8fb4a4e5",
+      "bytes": 6237919
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedScaleThenBind175\\IK_Lara.uasset": {
+      "sha256": "fe89edecf3ce6b2336f8cde0452b318892faf54fd879fde781add7f683d633fa",
+      "bytes": 57877
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedScaleThenBind175\\SKEL_Lara.uasset": {
+      "sha256": "94445fbb81ab9074ea94f7477b1f0769a9274058b392b73699f01ef9916696da",
+      "bytes": 13036
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedScaleThenBind175\\SK_Lara.uasset": {
+      "sha256": "fa805e763886e578d4eb467dd5c56f0323c5d2b3e5457b2c377bec0e25f26d56",
+      "bytes": 6245409
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\CorrectedScaleThenBind175\\SK_Lara_Authoring.uasset": {
+      "sha256": "c53b18c69f4fcc8e0bb9b093a120094381cb0ec51db30ff33262b2074d60a87c",
+      "bytes": 6237919
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\ScaleThenBind175\\SKEL_Lara.uasset": {
+      "sha256": "bafa69e6520abd2c456fb785299de2ad6fcea767172ce898964c5e334e6e0c99",
+      "bytes": 13000
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\ScaleThenBind175\\SK_Lara.uasset": {
+      "sha256": "4f05faf9529f46894e51d653ee8341f4213aee20b96d746183a7c0df412ac9d4",
+      "bytes": 6243540
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\HeightOrdering\\ScaleThenBind175\\SK_Lara_Authoring.uasset": {
+      "sha256": "7b314227db5c3541c5d939ee515f078d0e4f84a9f492282377ada401620c76af",
+      "bytes": 6237883
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\FK\\JumpingJacks.uasset": {
+      "sha256": "2d65aaf5e1be013799bdea5103a142c5f3402548eaf4470f8f488bb39b365f12",
+      "bytes": 1519661
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "d0732f428b0133f1c33e8e2fce3e49f5f2cf66c921f7fae93bca000d4e63d4ff",
+      "bytes": 360680
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\FK\\MM_Idle.uasset": {
+      "sha256": "8ecb0592833d63c90ae3248ee1c8236ec9d64d5d0884de4a89b75e17e5e11bc6",
+      "bytes": 1229854
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "9b63752864fd31a6ddc7714643a1c4c78baa16afa96400827d05dab2b6b2c505",
+      "bytes": 368084
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\Full\\JumpingJacks.uasset": {
+      "sha256": "045035fafe649bd7efc845826240f1b6cf488667b1b0a2f28466dedce3b290b6",
+      "bytes": 1519665
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "45dd96eb6d868a8b15f8c88ba5f31e348b4d914688fafe59287b46c0c47fbd56",
+      "bytes": 360684
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\Full\\MM_Idle.uasset": {
+      "sha256": "2e25bfe74b7c90b1acecf50677d5d95785ab8cf38ffda8a4be789de02e6ee8d9",
+      "bytes": 1229858
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180BallForward\\Diagnostics\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "5be137864d2f851bdba259104929dc2732593237bbec8532859511f0d16f2afd",
+      "bytes": 368088
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\FK\\JumpingJacks.uasset": {
+      "sha256": "515f41546942bac1294a662829d7dde400d126c1246257644eff2db360615c9c",
+      "bytes": 1519584
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "8a6104525bd0a0c737c6f2aa4f2eade6f9b3764b5f078329235119efe8998fa8",
+      "bytes": 360603
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\FK\\MM_Idle.uasset": {
+      "sha256": "a3fea7b2b31e5be2520b65b54c0d5230c6e27693f1fc63206f98942ec623b453",
+      "bytes": 1229777
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "48c1ef1475e99abeccbf62bb16efa13493bd075c1edfe843c2a6786f87e93ae0",
+      "bytes": 368007
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\Full\\JumpingJacks.uasset": {
+      "sha256": "8644af48aabee4a990e4533e35757c030728e2b53a08a789df91156bcba71a82",
+      "bytes": 1519588
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "6516ac65f35e10ab81a5dbdc618d2aca618ae1fe6b93ff7af19d508e5bc56122",
+      "bytes": 360607
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\Full\\MM_Idle.uasset": {
+      "sha256": "95ddaedfc74083b1473b9b253036f1241aec933ad960a25d6688fe10dee237db",
+      "bytes": 1229781
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase4A\\MixamoRecovered\\Assisted180\\Diagnostics\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "5aee22240a1fedc3a715446aa7593c7f496494f681f7fe5cb2df735293f1fa28",
+      "bytes": 368011
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Maps\\L_Phase3B_LiveTest.umap": {
+      "sha256": "2e4e19a33b2398da1b2e3febf4ef924dd76c0d29b9986b593e5b4e9e34bf2581",
+      "bytes": 31770
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\JumpingJacks.uasset": {
+      "sha256": "a1cde4e9347e5b75e12164b65739e22e2f478e5c676cccc1e15b051b9356b56f",
+      "bytes": 2043817
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "cfccfe3d0af088cf292e08ff3ee52193cd08597dd5bf7dd4cb4ffcbb2836aed4",
+      "bytes": 221087
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MF_Walk_Fwd.uasset": {
+      "sha256": "d25f99d65123f89d8cf3870731129cd5eb5a72d738e6e732ce8b08525eb9baee",
+      "bytes": 520580
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MM_Death_Front_01.uasset": {
+      "sha256": "3547c83646bd2ca3a750fc79440d00722c10e17cbb95d2720c7273e84ac067a2",
+      "bytes": 437588
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MM_Idle.uasset": {
+      "sha256": "11ee7fdeb84db89c1a66785b43b9bfc1415782122b8ac229517f4c5125d9cb0d",
+      "bytes": 1436554
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\ABP_Lara_UE5.uasset": {
+      "sha256": "9d343354ec26738f7e9545479fa606e4ab4ffa23d6df07eb5704f02d18906634",
+      "bytes": 59738
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\IK_Lara_UE5.uasset": {
+      "sha256": "642dd5bcdb946a93ee46c4e87e1a4a83dfa49e4c18a0a8dca9e65e13a9166697",
+      "bytes": 70477
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Lara_UE5_Height160_Skeleton.uasset": {
+      "sha256": "a67fbc6fd03a642c44516e04ec0c62b006a7ddf63c3a3ea7bcd44692a722781f",
+      "bytes": 21596
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "fffd886dd21dda6c9588bffafe93260ce65d2477f2ff4417bd57d64503d66f2d",
+      "bytes": 24849
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\SK_Lara_UE5.uasset": {
+      "sha256": "c10c6345c5f18f173654e1bbe36f27028970279b8946fa45b72758090a5d35b8",
+      "bytes": 6654927
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\ABP_Lara_UE5.uasset": {
+      "sha256": "c5e08098441ea1b642c107c1f729d24326c558176fbe20fd87f6368e8dc4d95e",
+      "bytes": 59742
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\IK_Lara_UE5.uasset": {
+      "sha256": "8b3960569de9c8e8b5803fbfc3b31a4db1418df11e944dfebc04a63a27b66be6",
+      "bytes": 70525
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Lara_UE5_Height175_Skeleton.uasset": {
+      "sha256": "9bb6b056eefc00a74f37d83b7d86d121b743bb312e4c9185b65bc750173d18e4",
+      "bytes": 21636
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "e77b1c39737ee983d33721b6d2e8ed641f42d5afb8d2b64f739cb27e650ccb83",
+      "bytes": 24745
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\SK_Lara_UE5.uasset": {
+      "sha256": "a73df08b194fedbc6b42158d6aeee0d00e22a30c6eb51ebfdeb181ba5b0daa5d",
+      "bytes": 6657058
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\ABP_Lara_UE5.uasset": {
+      "sha256": "fa32b3bad9f3eb9e5e3eb1a38f8b21ae31b3a4e7b629beae10676401551ebe53",
+      "bytes": 59740
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\IK_Lara_UE5.uasset": {
+      "sha256": "4dfa68861370de1f2dcaf83657f654a7dbeb5d5690af3ae81e4059cfd4b70b48",
+      "bytes": 70555
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Lara_UE5_Height180_Skeleton.uasset": {
+      "sha256": "ba40ea9aac7327a79e9c37882ebd9b27f5ef379998922e902afcbc9834503d0d",
+      "bytes": 21715
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "b13675f4c79e961002addd5d53fec6945d00fa5e790a005c4d150126f3328cc2",
+      "bytes": 24738
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\SK_Lara_UE5.uasset": {
+      "sha256": "53e4d88f0fa70c4f9da8e86797af0d01afde275a63bc51a22f93c3d080b1e44d",
+      "bytes": 6656303
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\ABP_Lara_UE5.uasset": {
+      "sha256": "fee008cb8c56b5fcd60035e748e2c73d35aa87463c0990cb134522f9a4bb2d8c",
+      "bytes": 59740
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\IK_Lara_UE5.uasset": {
+      "sha256": "b5b34015a26d947ba0f23931c1b6814b27d677021ef591572d9cfb68d70ec8d6",
+      "bytes": 70603
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Lara_UE5_Height200_Skeleton.uasset": {
+      "sha256": "aeb43f77136e5bdd3a7f80842aa7af33989e8c9a7f422d7c7e24d7c2065a651b",
+      "bytes": 21727
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "6802dac834cb89ea11cf55fb25439ae5bc43b2dc99014bdc8276742033408597",
+      "bytes": 24712
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\SK_Lara_UE5.uasset": {
+      "sha256": "446463470609e7bca5ee9f8814fe6a9e020bd46270e1f50a3d08db7db94e02be",
+      "bytes": 6656208
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\ABP_FK.uasset": {
+      "sha256": "8e67afd4f90d9bf2d5473a6cf4bcf6ad5e6243da5ab97f3c8dbc7e87d1849394",
+      "bytes": 59552
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\ABP_Full.uasset": {
+      "sha256": "9d96560c4049fbeacc85991e6a675aed99ff66275ee75cf841f1531a9205912b",
+      "bytes": 59600
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\ABP_Solver0.uasset": {
+      "sha256": "0c951d2020608b947bc880ec58f044e757e11d2f3fecfbf7a6bf7f43eccab23d",
+      "bytes": 59666
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\ABP_Solver1.uasset": {
+      "sha256": "86b523acca32165aa71f5fedbc6f8201c17e13580a5db1981dd12218302d653e",
+      "bytes": 59662
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\IK_FK.uasset": {
+      "sha256": "c9d797b73fcfec0178a0caf8b3e78eda8883464dc728b67c00d74d65d79d4e66",
+      "bytes": 70572
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\IK_Full.uasset": {
+      "sha256": "ced11f749bd324eda3f98b63135bd6b5c04e186bec553bbb25d8d7a90a1e122e",
+      "bytes": 70511
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\IK_Solver0.uasset": {
+      "sha256": "38144633f3fbf492468ea65deb00b9d37189a894171b0ef193e5bddbd383fad4",
+      "bytes": 70567
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\IK_Solver1.uasset": {
+      "sha256": "a24c2daf0ea5bd255944c66bc0cad3737d0d6b940a91cb9686668bfc1237179a",
+      "bytes": 70567
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\RTG_FK.uasset": {
+      "sha256": "d31b4e1fdc23b2c82d89c13b1d11378b1e0f0e55ce83362a641acfb72d569914",
+      "bytes": 20898
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\RTG_Full.uasset": {
+      "sha256": "eb101f2466f21ed120063aafcbd084b7f2763f5226398c1248a213196b02b540",
+      "bytes": 20885
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\RTG_Solver0.uasset": {
+      "sha256": "49fa649c89d24e500e11c0b13e66f5dfd34750b44cd632628abd4ed90410a067",
+      "bytes": 20903
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\LiveControls\\RTG_Solver1.uasset": {
+      "sha256": "a17fa87344d86d0dfadf64243f3b62fec52d0238bf26b6d324e4de52f1330705",
+      "bytes": 20903
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\ABP_Lara_UE5.uasset": {
+      "sha256": "cd742ad0a47608ad78aa8315f49d397f97c7c1514c1c3ffcfea42c0aa987a5d0",
+      "bytes": 59823
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\IK_Lara_UE5.uasset": {
+      "sha256": "35a78bdf36695dbe54cf32164f28ba37a55cce06ee3cd890e24ee927d82968cf",
+      "bytes": 70194
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Lara_UE5_OriginalHeight_Skeleton.uasset": {
+      "sha256": "5bdadf8059a4625742c7b6b4bc9a2614d2276b693c33abffd775a1174c4b08c3",
+      "bytes": 21330
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "45f6ee48579c59a3bfc8d9fe63dbbd53f71fc08313b0146f9446ac698a9580c6",
+      "bytes": 24976
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\SK_Lara_UE5.uasset": {
+      "sha256": "a16d0eb13bd4e8f2c39ef6bf7e6f1852fe89d717db9b6457017563e9af10d8ac",
+      "bytes": 6639217
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\IK_Control.uasset": {
+      "sha256": "b624b93cf63fb501038106ad007bd37e80aa7c8de45777f2ea7a09f8f762e568",
+      "bytes": 70608
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\RTG_Control.uasset": {
+      "sha256": "8fa8f37b8202d9a82570ff21ca8657db286a1dd487715c4106ad62f370114a67",
+      "bytes": 20754
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\SK_Lara_UE5.uasset": {
+      "sha256": "73c0b4c61925ad6726155c5eaa1d14996af7270d2a2d8ebbc6f9e72de8005b3c",
+      "bytes": 6510581
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\SK_Lara_UE5_Skeleton.uasset": {
+      "sha256": "348ed68ef0f7ba18fc2ad8d3e9718168ec240d62f5a9e870ed2901733c8a4c26",
+      "bytes": 14048
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\IK_Control.uasset": {
+      "sha256": "b078cfd2a376006051235df2982d6015eda5217f45c553e803d4339f0871fd34",
+      "bytes": 70588
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\RTG_Control.uasset": {
+      "sha256": "6af698ea501ebd285657c68d6b2aaee19c816faf5db0c0cff37b240f508fe30b",
+      "bytes": 20734
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\SK_Lara_UE5.uasset": {
+      "sha256": "f45d3db99bafcc488fc89725e140d61bab4a1a1e099166fc423f50d6e27ca08b",
+      "bytes": 6510561
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\SK_Lara_UE5_Skeleton.uasset": {
+      "sha256": "81f676495c04fbd3fd6406dd239c3e25e86db5f17968e0702cfa28ed7aee1492",
+      "bytes": 14038
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceOne_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "a7d7933bc21a137847d72372074f474ffebe9550592375b0ff4580f3dc9f8fe5",
+      "bytes": 376941
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceOne_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "6c6046d8232ced465dad6f63a49e87c8bf3314bc3fc07baaa087ef7716a1f582",
+      "bytes": 376945
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceOne_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "97affcd475f2ca61b29c67572497359681e85e56c8f5870981572b1de3a6b7ea",
+      "bytes": 376950
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceTwo_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "57ac077480b2c50ed8b775b0fa9661530629de04babceb37f77408928ae28981",
+      "bytes": 376944
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceTwo_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "d6a0564eb271e380b0e039f6a39eb432288283b9d153cc99528a46ef7fd63579",
+      "bytes": 376951
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawLegacy\\Tests\\InPlaceTwo_Solver1\\MM_Run_Fwd.uasset": {
+      "sha256": "d77843b87cc3041b2fd6c02c8c9a92a508845968fd9b4a88450bedeae74150b6",
+      "bytes": 376951
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceOne_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "e264c4557e637d21ac3c8f3dbfca28116f12ee16e2fef09e3cd1f14cbb266c82",
+      "bytes": 376975
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceOne_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "c674d564e2409dd0a50686b3c686ac8437bcaa73ff8e91b55ea9058d0b301ced",
+      "bytes": 376980
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceOne_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "dd921d0d542ec39f9f0ccc8ab57022f1933427ca66501b7f7eb7ea7ca7c80a7d",
+      "bytes": 376985
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceTwo_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "549363393eb2d20fb5021f58670f53b7473096032f8de3ce12731ace63216b49",
+      "bytes": 376979
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceTwo_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "a0cdd2c0e4c33c69ffc568a37e9d3017a21ddc85b706c072046be24dc30c9d6d",
+      "bytes": 376986
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\RawInterchange\\Tests\\InPlaceTwo_Solver1\\MM_Run_Fwd.uasset": {
+      "sha256": "5d73bccad928c47d8415032ae2435a2df9f2dc3e7ea9af0fb274ba13c059a5f4",
+      "bytes": 376986
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "0d48448cc8bb1eaffca7d7092b0e8fb61f68bcce6ba7f75b5741388541d149a1",
+      "bytes": 1528531
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "bc4903bdcb4b43ac6fc48c985797bd237df2d7f178ba61a9e69849ae4a1e18fb",
+      "bytes": 80406
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "87a2a3ce31ff7596ab587770bd4267ecf3247e88c78b5b9d551b54c74ba56138",
+      "bytes": 369598
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "ef423abc73dd595db0e29b23a1d665815f6430cd92287e27635fd45a61c81998",
+      "bytes": 1238724
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "8dd86f98a76cdc6628ce95d57dde475fe78bb3bb17f01adddf85fc0539e816b4",
+      "bytes": 378858
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "06f608b0d83b87df9b9e8fbe902c615df584585511914021b88d8cf49cbff1b3",
+      "bytes": 1528535
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "b2fbb95ff5ea232a107374c3eda42c8e9f4bed82e8856db833c476beb9ff7ac9",
+      "bytes": 106522
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "2671f75d7d8e9c2a5671d8c3e855be565de4f886a3dcbb532ccd990e7fa44c7e",
+      "bytes": 369602
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "d33b13fa8e79bcc477923aa5a9bc37f633be77fdecf19f3e6ac95684b1484c8e",
+      "bytes": 1238728
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "88e72efa710764677f16b7388576b092a60d30a648c502983f0943eb5b4b398d",
+      "bytes": 378862
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "27691a8842d4dc3c01d135f8940059a546cc8f72754dd01ddefa4f6a17771356",
+      "bytes": 1533092
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "6742790783c917eb43a14a87eaafa15dfea921464c0def31e7093396bc9d48af",
+      "bytes": 85192
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "23d371c4f84b44efbbbc15932cdb11ec349991a1dc7c3f239f7f5e53f3115a9f",
+      "bytes": 374023
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "39d45faa544f6cae3979e770e35332f37cec812ebf583aaae754d5974140dbff",
+      "bytes": 1243261
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "d9c1ebd1f480d7229adde0913f8c313f389b116fb82f1db270defb4e9b7c77f8",
+      "bytes": 381106
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "fb4fbfaa97550f8d67a64d2403628c0b324c93ef76385270a405a71d0216e27c",
+      "bytes": 1533074
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "7309305074a7d835f4a47b5181513bc2ea9cea05991da9db49988c598af5fe97",
+      "bytes": 113318
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "20e7dff7d0c4e9ae0d107b7f4c23a39af423b5a8325ea0abfc41c1d0a6cf6546",
+      "bytes": 374016
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "2191a49f473831013a014015c28e4ff85fc6da01eca14dbbf53f697274afa25d",
+      "bytes": 1243161
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "d6a0266b9b70e8961507e4a48b48803203234b80fb2e08d37cee83d1626a50cb",
+      "bytes": 381154
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "d5a936bedd64774e8fca1b1459b0ca0b48fda2042e1c5d33f5135e362bf1f4f8",
+      "bytes": 381160
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\OriginalHeight\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "8921accfe69d508ccb64e62525a01eb7279e992268212fe90f3602fe7afb0eb4",
+      "bytes": 378867
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "2c2b238e511829119d292acfc9cb2825af4fc11a80418ed9dee998c8e9b2f045",
+      "bytes": 1528476
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "041eee10ceadac74a93b413cfb67bd15dcb2abf2c2bdf5587f14d0c43a82a28d",
+      "bytes": 80351
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "990897eeec102ef69938106dbad69793f5c70d5151ccc58b101aef874f9f2c4a",
+      "bytes": 369543
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "74556afa3e7a01e1463da9bd3ade4dd136b079e8f7535ecaa4fee9fd2c7aba3d",
+      "bytes": 1238669
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "eb977f46d5f60875cd0b8e095e0d37637eabed4aeea2fe49a2f1c9d26afab78a",
+      "bytes": 378803
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "b3e03aa1eec4a2bc910022db42e8f957ce4de4f63527e47a853f69a6821102e0",
+      "bytes": 1528480
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "1d51556d05eb63ed5ef0343190f3e6a11d03dd7f0fc19fbc318aa63d8fd5bd4d",
+      "bytes": 106467
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "13082a3185b04a6f9e22e305df5f1e27c8c64d4be89d0bb4352d91601ed6efc8",
+      "bytes": 369547
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "472cfbaf42a53d69ff678c3c0b337109007963ff82ce355b203bef8715c32c43",
+      "bytes": 1238673
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "28776fdd293ccc30ef274402950397470effdaa7fdeb1e98e47f10bdc5e38a55",
+      "bytes": 378807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "abed5a72a9b361899a39d222cedfd4b27651d2e9ded38cd986c9e5c81ca70e32",
+      "bytes": 1532950
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "3351a9925a766b4d9d7b2ca29d2aa81b5db9d339514abd7757172d5eb5d736ae",
+      "bytes": 85078
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "99f2b3374fc741ebeb39113b138f94c51d18c22efbdde69769d7b8de40a00906",
+      "bytes": 373915
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "1f8720a2a7872c9d1ac0344bc566dc8268972dc6b870b5962322872de9656c03",
+      "bytes": 1243110
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "26e0a8989293c4652279556c7009cf66fd8183a79942b5e92520e7e71dce1a55",
+      "bytes": 381042
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "6192980cfedf367e6e004807f6c3ff55c823b0837a308b29b76ec1ba72067ad1",
+      "bytes": 1532880
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "85a5c197efcdffcd991194af28967dd590772b068e4ed4f58a4284030b03af14",
+      "bytes": 113252
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "4ef79024032a5371a0a6000bbe9d3411ac1a781146fb386bc3907e9496380465",
+      "bytes": 373920
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "e5aa64018075ffa44526ccec72e21c20f91915c02f4cdbb4f3711a9fa1dd2749",
+      "bytes": 1243099
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "f78913917c274adda0b90a1109519f7c0d5db69adfdde2acf2af311f639d6fc3",
+      "bytes": 381051
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "85463b753866a4dc3ed94079fcc727e0e9cae8ad09806d114adc615865ec4d3e",
+      "bytes": 381057
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height200\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "ba1ba75c4cc4c7b3796d2f9ba1efb0a282898835464ea39a1e242f2fc4c900e1",
+      "bytes": 378812
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Controls\\IK_Double.uasset": {
+      "sha256": "d6b1f949ff6727997b0288c43b3b7f92f8c692d5b0eed6773cb28bedc41deafc",
+      "bytes": 70602
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Controls\\RTG_Double.uasset": {
+      "sha256": "ccbc0edde5eca40e3e9b0b30055ca80ce4f4deb8b9a4515f10f84d56e7bc28e6",
+      "bytes": 20755
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\GoalTests\\IK_ToeGoal_RootMapped.uasset": {
+      "sha256": "2ca2de14d5361cea4623ff86a164df9dfc271c547ddeaf6156d84be1434f7bbc",
+      "bytes": 64327
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\GoalTests\\RTG_ToeGoal_RootMapped.uasset": {
+      "sha256": "84712c79188d0ea95d836896b6935c6636e5741a1fdfa57f92756ac92b3bbc06",
+      "bytes": 20830
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\RootMotionFinal\\RTG_RootMotion_Final.uasset": {
+      "sha256": "75473142a51b67c69c0ce6d335229a3f24238095171af3e84e5961912a42eb46",
+      "bytes": 24265
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\RootMotionTest\\RTG_RootMotion.uasset": {
+      "sha256": "7cfcb97ea22d7fa620677a3c249be07a3a8dd1b0a062bf9dd00909cb707fec95",
+      "bytes": 20778
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "12d8c68197daf7583761cd15a565716613354cc72cf056243fc18573f56eeed4",
+      "bytes": 1528476
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "2d7a69f5db2563b7be90bed94d27519d9a790500b98df878c797f6245f00813e",
+      "bytes": 80351
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "3151aff33a935f573b1f4e65b9c8e0d610242bce66903cdfa74fd316235dfcc1",
+      "bytes": 369543
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "fd5b6e7b4a7acf3096b753d9e00f62de0888c565e382eea5e97498427415ed85",
+      "bytes": 1238669
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "343d4a619813e20714bf7ce88848feea8835f3d3cfba0ed4dbdd010dec589640",
+      "bytes": 378803
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "1bf34f73279582528e8ef7c89a9c830255f38a0caa4c40c53d01f868e9d60473",
+      "bytes": 1528480
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "7c8445d7e719dadf603e8e3e214f2570f3b0de7c591ccb747fe55cd5f3e4d5eb",
+      "bytes": 106467
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "3a6508afe464a5c853b561a575de53bd8ebed0705430caf160e8048135fea9d4",
+      "bytes": 369547
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "ed35ef3eb9ba71631d0d9afff5bf337af5083d32b79b7c61d2540a607093c0cc",
+      "bytes": 1238673
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "f4b90bbfffabdd3ff309858e433057985e715e3730cc93652f7f223f8c811fce",
+      "bytes": 378807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceDouble_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "eb3bf32c3bb4017a944955e124950b56e9c9169192eaa01a84f674fba1dc7879",
+      "bytes": 376978
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceDouble_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "b4e05987953a4399558fdd26841fc97302bea0bce1a44808ff5fdf2df5aea303",
+      "bytes": 376985
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceDouble_Solver1\\MM_Run_Fwd.uasset": {
+      "sha256": "5bf259e0eefbf29b4b80aee26e044e771e0ea923ed94967a0d220122226ed126",
+      "bytes": 376985
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "247ae7855e71d9daec683af300c2b96285f716e78518c368bf68d9aac8545444",
+      "bytes": 1532972
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "034d71b9d6d89d9cb58f9a247040e37cae223f5a0ccd9e1f596cd7a25c9edbc5",
+      "bytes": 85087
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "92f37e884a0d75bf548bbb2af211454d3bcb165e33c97051da5a2665ace2023d",
+      "bytes": 373926
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "8c2a77854b7fd7829d5159b63f13849c155964c963b6b5a7f25b2b66a91f12ab",
+      "bytes": 1243112
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "ef6f31ff3f814bd1cce68110bfc59b6ceb4b0e6b8d0fafbdd72740830170d0af",
+      "bytes": 381053
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "957d1e2e6e37f5e3c6484f5f8aa469da1689acd3523362a80cc02e48d4021632",
+      "bytes": 1532942
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "c446ae7b25530bcf7aa97baa0f65430c8e230a72757da44f44f66bf3eecab1cc",
+      "bytes": 112748
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "188fac03ec937c0eeef01eb3afdd2f38a29f946b7bc6fbf117026c8f6d47aa27",
+      "bytes": 373928
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "e820e4804591470701238428596b19e0e15678295b953c9b4698ce67c03e6437",
+      "bytes": 1243099
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "46e4010e4b52f8cc3538497194da1ee22b440b1633e1a3b0e71a56d3d598eff8",
+      "bytes": 381046
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_FK\\JumpingJacks.uasset": {
+      "sha256": "b738ee0b022ec7a79a3b84ef8a50123ec847bef077fec0d786da7d6bbbdc088e",
+      "bytes": 1528548
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "817f1ec651fba185eecb8e8b42998c4bb7516efcd685e1e8dd58419b412cce87",
+      "bytes": 369567
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_FK\\MM_Idle.uasset": {
+      "sha256": "50462d0231b4df28f221502b2a472dd8f36c755dce5b0c7588051b5de5f09cbe",
+      "bytes": 1238741
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "3f52cdf18505ab5490474a36c03a7caa29b82e08dac5ea19d8998d8741379c41",
+      "bytes": 376971
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_Full\\JumpingJacks.uasset": {
+      "sha256": "1ae9880692a1659b6600c265bd4fb325204af596af85dd2a70661e0bc74745b8",
+      "bytes": 1528552
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "2cc2a8e56860d688ead83d5b61b8a2005b5d96f28c4e1d4edaf8ffb22b959ee9",
+      "bytes": 369571
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_Full\\MM_Idle.uasset": {
+      "sha256": "ae22d93dcabebf38028cd7917c8a9ee875749119b5c7e176e7730eac2fb997eb",
+      "bytes": 1238745
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceGoal_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "248c7f69024c384822d55f3bf54d12ee6512ff37dba47b3e5004fc570bb2b421",
+      "bytes": 376975
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceRootMotionFinal_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "3a786ba2a8f5a55a02fe58960f4187987f91aacceaa013f5ee5fee248435f9a4",
+      "bytes": 384907
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceRootMotion_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "447abfcde47cf35f6ad2c65df2786837f3aa334a23d9e1449855602e8c1762cc",
+      "bytes": 388123
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "f07864b1ee42564478d59924da2ff3aff6d0e15194a7330d3a1203f044fc1f84",
+      "bytes": 381051
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height180\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "9e79e17658a2e5343a0a2d494b54bc2de235352fcddc8584db2e9be446e966b9",
+      "bytes": 378813
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "d592ee13118f43124742583dbb5151373064501ad18ffb74564ae4163fbb86b9",
+      "bytes": 1528476
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "edd25bcee64bfccdbdef41a07a070b9d676f5934de622756f2f33a124f79fa4e",
+      "bytes": 80351
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "e3394f5c6361cfdb7f48f7c87bf3df5d3e0db4328d37367652a5f27b8b73e428",
+      "bytes": 369543
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "a3ff64e9998ecbf82638dfa9c3a8b58903ef7bd13314555b5762f5908acadee7",
+      "bytes": 1238669
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "f7fb5ce79f54d41d5407af5b331b0da55aa3393673389de4b6f3a440654be1ad",
+      "bytes": 378803
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "4284c0aee959b70dea6c8a661ddff93f7741b3eea80e6b4bb7a88ecc1917ac75",
+      "bytes": 1528480
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "c3f3e6bea7f4e119390317e9c509602af4aff62c51093bba503ff89555882d4f",
+      "bytes": 106467
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "5dd4b10a2b63682abe0f9a1390d06edcbb67bea7432378a45fa30f4bc2d42177",
+      "bytes": 369547
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "1e36b468fb8c29928f9b58657869ee2618c38d7a1a1c3b23f1fe9d802296bd91",
+      "bytes": 1238673
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "8f126656ddf338e7ff05ea06ef987044696cba8dd9ee150212951cdaf5753807",
+      "bytes": 378807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "2d99b8ad456fd7dc8457da74422c0191b0fd0ff195d7c00c3889115b84656cbb",
+      "bytes": 1532970
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "40b2fa006fb76f3d86b608b7fd45478ff5fb6b6cab1ff3d3910c4419a611bdc5",
+      "bytes": 85095
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "edcc73d777c408e28b9c89918380ec461ad366b709544e9e19191e0e8b63396c",
+      "bytes": 373932
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "4af56d821ddfc2f684d4df64da6e174b43b060f03cd0ac0e53807762ac38da93",
+      "bytes": 1243106
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "3404a6a69efd531fa0cd722d5316dcb05bcc36dadf00327715cf7f39528207c7",
+      "bytes": 381045
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "2aa6d3a031539d2fbb89bf79d02c3691d46bad43d5b48ef350b1c4958b802d53",
+      "bytes": 1532947
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "57501c2f0972ccb2ebd3e7c358d327b48370e72585358b009bc05e629d223cbe",
+      "bytes": 112731
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "6b2e9c2191b9d4d8a82c8c8c67c4361d05049cb38ccb11aace0dfb847d6cfc68",
+      "bytes": 373919
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "bd7fd753d94c175e50e1bf97dd0ef07c5288345e4aff17a288c5bc45744cff96",
+      "bytes": 1243092
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "f4661377c55f6b3bdb86a9baf1139e6518a771f369c01c84f84881d505409c57",
+      "bytes": 381054
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "dd4bd03bb772e2295e1d55625fda68c5b222122c7d4280aa5d65cc2c6629a007",
+      "bytes": 381060
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height175\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "35b8c810f600d23560459b78435d8aaf397255dd1a727a6f3aec91d4b9c1f5f7",
+      "bytes": 378812
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "461764a2e209231df85d76d808d27cc25710f7aa411e49f265faa3e873a781d8",
+      "bytes": 1528476
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "703c523530e78057df95c93d73abf265eb1d193d52e07a7a8b97d53132014b5e",
+      "bytes": 80351
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "533b85fd0d1583cc869cfb7369b37f0119ffc0e420c9f084506537479478b6b5",
+      "bytes": 369543
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "b1f052b58e1470795930b32ca1ce2dcd633c77c54f139c0459c2de883ec7562e",
+      "bytes": 1238669
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "86af5ed62a093e8fca8c8162031c5815047d02760007bb1baee1e1f74e8d5b2b",
+      "bytes": 378803
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "db1db65cb062aba98931e49c26fbae2855bd17d2cfedbb3565834596d8f6ca14",
+      "bytes": 1528480
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "47833938a80244972555149205eb07f5786ebdb992266356cde1b6cc2bd74bbe",
+      "bytes": 106467
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "283fd2cde4566feaa0a44abc075e6cc88fe83160e95455ae5205203f8c7f9eff",
+      "bytes": 369547
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "136fc6016278e0510680815e010f3bdf9a6553c07dccf1c739f4a71d8e1e7f98",
+      "bytes": 1238673
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "0aadd1cb13d746b63c85ed31f9bd4c0ec96ad535b4217dadf8da151428455299",
+      "bytes": 378807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "231ba006a38c05b5de04ddf5fb4390207f44a5ee4ff71553de4f86314fff7b27",
+      "bytes": 1532973
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "817370edc9a42975596c7742123b6a1d567ae56894c7ddb8c9fbf23cbfd10825",
+      "bytes": 85117
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "bae2a3295dbff9c00f8be5fce6d92b0eb3525e69beefe4d1bb31bfc7f2395cac",
+      "bytes": 373944
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "d047c93ed8cdab0117368d2e95e7a224b709d3cf57600765781733950b637819",
+      "bytes": 1243113
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "5444c3b023a76f0368f9469ed8c610a69f0e07dc8421abfda61c9665cac6cd85",
+      "bytes": 381047
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "3dc28b6ddec7c8c73c5c2742938f1c38533a46e7d5cd615e1de1d7c161219f42",
+      "bytes": 1532957
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "5c9ff8e21a9455a0d534d33327283f4bfc0823445cb00909992f8dc47e4dde08",
+      "bytes": 112751
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "e03d3a2f34ac8d13cb774e40bcb11e213001565218c91030d2dfd9f2835a79c2",
+      "bytes": 373931
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "8a136d0d7b271bad5dbf5528c3d72180d718bab4c43e0cbd6ca8cea9487d4d35",
+      "bytes": 1243107
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "f3fe225fd815c861d5eb29670895af3f0063d1d3d9714eee5107f691e0577644",
+      "bytes": 381064
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "0418e642ea4397cb9062558d7f25353be71fc7033443e3d2085d311858170fbf",
+      "bytes": 381070
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\UE5\\Height160\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "f3b300c286b462ca26f36abd66f37e7160f183aef97fa2aaa4b22eb9c94ffb8f",
+      "bytes": 378812
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\InPlace\\JumpingJacks.uasset": {
+      "sha256": "a1527c26de7207acf4968e005955164b61a51acac42e1a797319b8458e6724db",
+      "bytes": 2039870
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\InPlace\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "d7777cfbf04cb3510b45f4a3ee66d20da485345d541050a5b0cf8b1a90a33bd2",
+      "bytes": 176745
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\InPlace\\MF_Walk_Fwd.uasset": {
+      "sha256": "f6def4b8a4e6346489af2ed448806a6808ca69004425782ae9887c40c5878cc4",
+      "bytes": 503096
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\InPlace\\MM_Idle.uasset": {
+      "sha256": "73a2c5bbf5b4c6d05eba1e6d86a05f3a2e95d8f2469c7d34a2fa7a4ca0f2fb74",
+      "bytes": 1394460
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\InPlace\\MM_Run_Fwd.uasset": {
+      "sha256": "2dcd5fb5aeda01b765c9733f0929fe99662dcf0f4603074b0218a918da0b3849",
+      "bytes": 440598
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\ABP_Lara_Mixamo.uasset": {
+      "sha256": "7c0d873ec826a6d6cb48a31cdfddbde096171277bf25053a48e48a8a4f7e6b06",
+      "bytes": 59855
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\IK_Lara_Mixamo.uasset": {
+      "sha256": "b15c036c6bd28f7b87c6d0223787276ed80352ec4453bfcff9b739708363c464",
+      "bytes": 73404
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Lara_Mixamo_Height160_Skeleton.uasset": {
+      "sha256": "a42aba8f024b69765e28f7fe7841fba53993f9b35e798aeff4f4255548cb9f57",
+      "bytes": 22767
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "2329a005360a63d8822603a38bec68afabbacc36505f35646bc7fdd5e290eaac",
+      "bytes": 24866
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\SK_Lara_Mixamo.uasset": {
+      "sha256": "52a894e48d593964bd4463610a775edb4eefdfc237f4d1afeef0b56649f67ba9",
+      "bytes": 6647717
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\ABP_Lara_Mixamo.uasset": {
+      "sha256": "1350e9e516b75f1b8ccdddf313351d1c3ed852d9c80137886377f206a0ad95fd",
+      "bytes": 59857
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\IK_Lara_Mixamo.uasset": {
+      "sha256": "30bdbfbf86585287158054dd1b5a48372c63858458de725f7f29769eab0d9ce5",
+      "bytes": 73447
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Lara_Mixamo_Height175_Skeleton.uasset": {
+      "sha256": "b4080f91a4c9db0f630ae2812dc40fb9a5071489b1a687b62e84d2202d48ae82",
+      "bytes": 22800
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "a7f2b2ae7960695551e448a38a44b6ce0ae3d0a2d9c0b1615ae91303abff9ee3",
+      "bytes": 24768
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\SK_Lara_Mixamo.uasset": {
+      "sha256": "efdf6319887688991f85c8252471abbd40134c6500906b48e0aa1b8f2a0a0703",
+      "bytes": 6649595
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\ABP_Lara_Mixamo.uasset": {
+      "sha256": "c42bf7136a0d1fd06198850a1d17b6f9e20386ae3232af9c57a996c28ababe1f",
+      "bytes": 59857
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\IK_Lara_Mixamo.uasset": {
+      "sha256": "d3a14cc91fd5a58d5b3d851369674562e49a08910ae82316d2cfedc92113d25a",
+      "bytes": 73480
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Lara_Mixamo_Height180_Skeleton.uasset": {
+      "sha256": "08cd85b43e1fcf718800ba3396dc276f9e3b4d557d4e26ec5bce91303797e967",
+      "bytes": 22873
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "17c88b2402860a4182b5bc457093162de859f9135f057fcc1ac3448393f005ad",
+      "bytes": 24760
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\SK_Lara_Mixamo.uasset": {
+      "sha256": "ce9d95ffd3bdb157fb8bc153b306f658384723eb029dd9b8221acab588ab2cc4",
+      "bytes": 6649438
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\ABP_Lara_Mixamo.uasset": {
+      "sha256": "1a6e78d26d353ebaaa673f91b70c052f65437781956da98296950b00a4898538",
+      "bytes": 59859
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\IK_Lara_Mixamo.uasset": {
+      "sha256": "b64dbf9b4720c91ad9d6c3aec10e33ab9e4261be30c2d98a759f4e4090883825",
+      "bytes": 73535
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Lara_Mixamo_Height200_Skeleton.uasset": {
+      "sha256": "ee158ff5bcf2e3e911d3f57e68592160fc573cb32198762eb00c6116e5292e22",
+      "bytes": 22888
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "71db8b01d77ec20c82ad8c20dd3e70b35dbf5d3b9149e5401804ebf3c606cf2a",
+      "bytes": 24726
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\SK_Lara_Mixamo.uasset": {
+      "sha256": "571c0d9930334609dc76a3ab732df7d281be1a23cd2a7327d61dfcb7ee2cd90c",
+      "bytes": 6648680
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\ABP_Lara_Mixamo.uasset": {
+      "sha256": "c1d8ec17113aac53457689240030b6a70daf35e30d6eb55744080471a6a557b4",
+      "bytes": 59946
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\IK_Lara_Mixamo.uasset": {
+      "sha256": "34ae7363bc6a5f42b28b9eaa2865b76238f64f40d9b66d618f1111b2824e080c",
+      "bytes": 73122
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Lara_Mixamo_OriginalHeight_Skeleton.uasset": {
+      "sha256": "944cfc68a43cd535716615d9215c1b98351eea3b457cddef11deae3e82285a19",
+      "bytes": 22528
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "d5ad0e1753e14e559d07b6c4415256da2bb5616ba2b22d8b4ab9d99c924a4ce1",
+      "bytes": 24995
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\SK_Lara_Mixamo.uasset": {
+      "sha256": "59007413290bab792ae0ddecbb3033c81ff69c3c68fd631502ce47357970ec2c",
+      "bytes": 6633083
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\IK_Control.uasset": {
+      "sha256": "db251592fcfcf706d43bda3f05a42a01750647eab17254827dee3934a655d569",
+      "bytes": 67191
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\RTG_Control.uasset": {
+      "sha256": "8357a038eda746cc40994ff04c1d08a92e31b7628e18e6c02bf0978228732cfc",
+      "bytes": 20753
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\SK_Lara_Mixamo.uasset": {
+      "sha256": "e1d0ba07a080afda1da0a523d1f9a7f7171d4a9dad5db06bb81c92b771f4a88d",
+      "bytes": 6503543
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\SK_Lara_Mixamo_Skeleton.uasset": {
+      "sha256": "ebeb28f350b04f6ecc8a8c2dfce6329d4fb7aef2326402e26c83ab2fc58995f1",
+      "bytes": 15182
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\IK_Control.uasset": {
+      "sha256": "8a7777adc0a6f3ef6f5581ab540e87c13bbeb44f3d2c733d6c18a163b5b29cd6",
+      "bytes": 67171
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\RTG_Control.uasset": {
+      "sha256": "861b7dae154af51c3327a2dbbfec9938157e4d0e7f35e465ae4781f0a552d589",
+      "bytes": 20733
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\SK_Lara_Mixamo.uasset": {
+      "sha256": "9ef90488349d1cf34acad475c7f6391ec8f17848b533acdc3266ce8ff8f48b83",
+      "bytes": 6503523
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\SK_Lara_Mixamo_Skeleton.uasset": {
+      "sha256": "72b70953ee2d9dc354802188b669509086e2b7731c8e0fe76261821a19b0c246",
+      "bytes": 15172
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\Tests\\InPlaceOne_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "0d7d83fa14fb3fcefbcd93ee3fafd2461fa67900179d9f5edbeec8b23a39b219",
+      "bytes": 383447
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\Tests\\InPlaceOne_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "b8486b5e61df8785ee9e81be3cb820fb22e6fda3558d47ef10e3b027c429e85e",
+      "bytes": 453980
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawLegacy\\Tests\\InPlaceOne_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "f6c4bb67c097bad9a83d6b770e451d96c1445613e610c14e5b8b2f0ecd08ab86",
+      "bytes": 453985
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\Tests\\InPlaceOne_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "f0a1cc1f07e3892890e99d4c99b70b92265a364057ad53c108200d73033d64c6",
+      "bytes": 383482
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\Tests\\InPlaceOne_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "b235664cbcbb4aa8ff9a99b22b56b61cffa00d1d1e4403891481d8d6cbd48c9d",
+      "bytes": 454015
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\RawInterchange\\Tests\\InPlaceOne_Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "09b30e5c9a3c93241bb77e1dee0ae3b8ae33375eda1e8c476ed2a53b23d5ff6a",
+      "bytes": 454020
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "b63e6c415a67ab91214ebdd8c3556f7d233c9d6e5bb9acaac05dcca5789dfa12",
+      "bytes": 1478462
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "d530ff0f600363e30bfb05b5a0e84519bd5a93ec0ad114830832d11a5a71d51c",
+      "bytes": 85057
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "f7db00a22a0036c22ab8665032a68aff81bd7e311ccda84f175cf053e92692d8",
+      "bytes": 367768
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "1b7cd114f74b9e7b66b4fc090fe8a3efab4e3f4e4590f8ab68f5b4a9f7dfa079",
+      "bytes": 1199599
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "aba42bbee971b7e92ba01e896b76bcb7d1634718bbeb51a4c77198144e9ce702",
+      "bytes": 376743
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "6f81d2c57ae12662beabbb9ad2f970f169850f6df307a15360803ce8d7f0964e",
+      "bytes": 1533186
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "68c571d8c706a287b7db816afc427d0afb6caaba35401060bfb9f77af8706e40",
+      "bytes": 112197
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "a5a319a1e431372fe0e945f3f2190ea1ce682f924dc8ba0915e384ea77f62c19",
+      "bytes": 378782
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "7233d3b3d7a43efa702cbc887cfe469c8805fc0c7e19f1f68d152b3e8f5a4fe4",
+      "bytes": 1243379
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "755766b233ff9e3f2b2f13ea99e0ea11a2abb9a75d31cb034165e12759639d5c",
+      "bytes": 386017
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "da4f15e02198336b1d333b35e07c0afc93ae6bbca27e8f27cf880e7ed555fec5",
+      "bytes": 1537769
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "cc6e20d381f7a6e6578de16fce2ef666a236819d92a614d50bfed86a42c91ad4",
+      "bytes": 89807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "c6751cb0bdd06ad8b3025d51a19aaab1ee5baae0ca31c7e34fe0f4a594a0a91d",
+      "bytes": 378714
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "409d69831c1ad2ff54919bbc4d33f6469bdfa5888c6f87ad3e0eb4cd6c725574",
+      "bytes": 1247869
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "2f44d8a894816febaa2d66ce5e414b0810059872d49c0d7d2ca32b10d18d062b",
+      "bytes": 385852
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "f05a26bea6a44e8e8e61aa723af6356e62a5d9fd9ac233d5f69a70dd6b58fce0",
+      "bytes": 1537775
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "6bf18afbec94b0a0904fc5ea8e4388d015bc36f72ede6e8f485b4d43d8f2d562",
+      "bytes": 117484
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "56328006ebe7253731d8b6f556d6629e55d4bcc5d47a54b51657c134a004dc3e",
+      "bytes": 378737
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "61ba63c1d21c3182e060aee915c47bff067300a4f81285638abc6da3d17e210f",
+      "bytes": 1247909
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "ad67c5d703a511d9cec8784471a952f9859eb216545c00389e46bd6eca143cb7",
+      "bytes": 385807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "693c511236f9c165786780e38362ffb202d7ae002af1a83f268392229f0d02b3",
+      "bytes": 385813
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\OriginalHeight\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "386ce87d2bf8bcccf2af362c069a9522e3941192373f679b6ad8818c95a2be0e",
+      "bytes": 386023
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "5fe31557a94a3f2865ab82ba98ff0a3d1423e6a9b99db1ae79a3799a453257ca",
+      "bytes": 1478407
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "e6f2a8d5cb0ba9eadae0c486241d80a644e67d138db7100f6ae5a120f2cb6347",
+      "bytes": 85002
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "824ca9365ffa02c7d8841c98ff82a3a722e3e6744a26d2c9012919e6cb56469d",
+      "bytes": 367683
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "c32ac0f4a10520ddfefd6125458b7730f8b76c945077ab813133cb10da0e29f8",
+      "bytes": 1199544
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "fd523124d8ad7e6f57a282c8f3e45ed7f40744211dd020aa71d692c8357a59eb",
+      "bytes": 376624
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "5c9fed8429f484bac02c0756d234bec5ac38a1280d03399a0c6cfbcb3dd3aa12",
+      "bytes": 1533131
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "2653954697cde0355016fcb00efa89e7d799c4b51ceabacaa4a78a9ecb3ce313",
+      "bytes": 112654
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "ec9a48035c9cb6bc472c727552e3f6320bc5b920386ec13341a41fb5941cedc1",
+      "bytes": 378657
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "7101f3ae3e3a18f44a6949200dedf8cc4b85784ea4b03ea85439be7fcb2b1b68",
+      "bytes": 1243324
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "b00f259ccda9a60222fcdc5c62c6a7e599f7f25edbcb54451202bdbecda87f60",
+      "bytes": 385920
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "051e1270fdb80d1cd0592673e5d568f18d7ee3eb16fc7393de6a5b066b887d31",
+      "bytes": 1537636
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "c18a853c987bfc18895c5bcb740d9db367da0cc4f2e6059103e1527246fd3d52",
+      "bytes": 89713
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "df961cb2b978082db4a194f1f546ab6bd54ba3abe055f458d8bd170a3ada52ee",
+      "bytes": 378618
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "fbed516e78241ab265918592e9b92773dcfdb655a98ee28e3b4e11b0849dfd85",
+      "bytes": 1247790
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "56b0eb0da61db34bd584691bad309fa461573fc41564025e9a3483680c79026d",
+      "bytes": 385767
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "d58b50e356273a4e2ef5a4746e40f50bdb293633924d935e4c58a5acb9fb65c3",
+      "bytes": 1537632
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "63f720793bdb32d1de982ffe510a61dd6e67c99d80caeb49f127a0a7393a7cd0",
+      "bytes": 115825
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "0ba28c0de849448b547ca470dfb29eca0929f5cfc67762cc58ed87b9404707a1",
+      "bytes": 378645
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "cd7e6ef65b670d3d25efab2caa343ffaea4e7d7513bf07e6bd29801272c68efd",
+      "bytes": 1247814
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "d25e7e0a9ed2a83664a121d7ed84f33064fd8769eda6feb3ab1cd0a97ead27ee",
+      "bytes": 385738
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "ff55e567bcf1773a1c5ca7b7157f4a0c6835ba749d03c349e386a422e4260553",
+      "bytes": 385744
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height200\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "150a4890b9e59d6b36be453972c2863b1c39d976529ccc3c40efc481a14e38ae",
+      "bytes": 385926
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\IK_Foot_RootMapped.uasset": {
+      "sha256": "9a77e36e317d8a962c8d209f46e92cf36676027bed4180c85d647584da910eb2",
+      "bytes": 67223
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\IK_Foot_RootUnmapped.uasset": {
+      "sha256": "3d2a600e351bb2bf084cb50f83529f43f48ef8b4f4b70fc3abec64d8913abf15",
+      "bytes": 67231
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\IK_ToeBase_RootMapped.uasset": {
+      "sha256": "bab45ac55e842fce2bed48012de36a2c492b18a6cee912b731c1e2d221b31cca",
+      "bytes": 67235
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\IK_ToeBase_RootUnmapped.uasset": {
+      "sha256": "d8fbc47d5a08f9ed72c0253919d558185af4b0b8624b4b3819b93bc8c99be856",
+      "bytes": 67243
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\RTG_Foot_RootMapped.uasset": {
+      "sha256": "36f290857b44ba873b247e9cabf256b20ede783420e99e88eff2efdc575214d8",
+      "bytes": 20731
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\RTG_Foot_RootUnmapped.uasset": {
+      "sha256": "7bd8d17c69a83977a70547afde16d4fbf9a7a7525b8c8564b79a56ae678d8685",
+      "bytes": 20743
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\RTG_ToeBase_RootMapped.uasset": {
+      "sha256": "e7289e365710717531702e337b406c3e43819dc3b5cca9bfce5f3c9847847f14",
+      "bytes": 20829
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\FootTests\\RTG_ToeBase_RootUnmapped.uasset": {
+      "sha256": "cc1d5cbd9b2f43c87510fa0ee4fd69063d2489227d2fc978d5492077827f975c",
+      "bytes": 20841
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\GoalTests\\IK_ToeGoal_RootMapped.uasset": {
+      "sha256": "2b80b60d47f3d847530e8ffd8246fc18818d1ad6b589e5ce7e886d3bafa329f4",
+      "bytes": 67235
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\GoalTests\\IK_ToeGoal_RootUnmapped.uasset": {
+      "sha256": "b6d240d712ad0a655c5499631af647c704998a79dad2b91a099421cc51a5c5c5",
+      "bytes": 67243
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\GoalTests\\RTG_ToeGoal_RootMapped.uasset": {
+      "sha256": "0f09b9911e00e50f57d17f300f25a5e2e838d4b5db4a1ab8421e67b288d16936",
+      "bytes": 20829
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\GoalTests\\RTG_ToeGoal_RootUnmapped.uasset": {
+      "sha256": "349ed9f7c72795a48caf7f6996c14e5ad5aea9d2f106b3ae6050ab3d446a120b",
+      "bytes": 20841
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\RootMotionFinal\\RTG_RootMotion_Final.uasset": {
+      "sha256": "7d9cb53f3f6cede19870b41779dda21765cde99b6b8d526d8321b7b9cea71749",
+      "bytes": 24284
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\RootMotionTest\\RTG_RootMotion.uasset": {
+      "sha256": "ab4d2a0d6ca4b0b6f764988da94ad44c1f01aee0d9d9fba44f3044c69fa69c03",
+      "bytes": 20783
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "6b1d36f479c8be7fb7edc3b56061aca7055663ee863242c3a59849d7ef93c637",
+      "bytes": 1478407
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "4412694348770d3113322577222494e412e7a142910904e5cac8b25965529246",
+      "bytes": 85002
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "6dd8b7d2ceee9efac371c3498ce44f47572902537cdcb94d27fa75b9b14a0d4b",
+      "bytes": 367693
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "ab23d4321efa96ac9954c9a9e9e63e2538487677555caf99d8a36660a45efc68",
+      "bytes": 1199544
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "823b74da85632ce1e1e2dcf9ff6ea0a32699d9851dabdccb3980d28244f69186",
+      "bytes": 376649
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "33e6b38915af2e379279dd57610844c303ecba11a612faa3a9fda853818b01d3",
+      "bytes": 1533131
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "b22681597d3831e0270416ab5a3272fdebff27280d8afba43376bcb5c8f44f84",
+      "bytes": 112654
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "1ba08e214ef324b8eab5f24829c213ff5cb3e7d7cdc1000bca5f0150995e544c",
+      "bytes": 378665
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "2b4dec6ac0ba64f10410b17d99ec7269168d2e33c12a9184c32c94d205fc4056",
+      "bytes": 1243324
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "9307905130b4404845b30e3b1e3486fafea4a01547b9a957095a77b7d8d90691",
+      "bytes": 385911
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "4f3e7ad2bdab34622043e60ad89bcd37c0788d66b8ba28a89e557e15564553f9",
+      "bytes": 1537645
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "01ff4fffa3a5181ab5328ab0f010bafc6008bd40230834d666d4cfcd35976ca3",
+      "bytes": 89713
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "700b190666aadc87a6d7b400bdf8197e6c313f2150c0a77d28e82dade9eedd67",
+      "bytes": 378645
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "db6d049ce6e7ba20bd7e6fab6bc6e3ce96fde760bdc7088cc348b84f53f56f9f",
+      "bytes": 1247797
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "c691f375e7ba206f64bc7c0d62244c369a7e2dd42d3f2051a1ff14f2bf7d2109",
+      "bytes": 385773
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_FK\\JumpingJacks.uasset": {
+      "sha256": "b1196cd8ea615725cd1c0771870dacce240b1c838cfe639be0b4423b65655fec",
+      "bytes": 1537655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "44ea1c51d96a0cb23c1c214c0cfb1a30531a2a8808eb99d61ec25bfa8386bf4b",
+      "bytes": 378655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_FK\\MM_Idle.uasset": {
+      "sha256": "a21ab66e4bf9f7cb57099c33c0dd15603d080fc81f81db3932fa71667196f5cc",
+      "bytes": 1247807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "adbb0152246b5042f1ef142758cd5c7f7e542ba9c0eb7dace36198f00de7c781",
+      "bytes": 385783
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_Full\\JumpingJacks.uasset": {
+      "sha256": "d90647fa1513cd188fc7cc83e942d23f79e3fa38480f2c207151b9b02138f0ed",
+      "bytes": 1537776
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "9a15ebd70cbe7487e370e4c6fb2323595e2b00043a7d34c7ee8a7806f0a277de",
+      "bytes": 378615
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_Full\\MM_Idle.uasset": {
+      "sha256": "6dee60face91fe675903f9a5a64add61f30c6b18c75ad655edbe6df945fbe0ae",
+      "bytes": 1247704
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFoot_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "5ee3cadcbef5f54867bd8a29f77b570536c8458f5efa11f97e022d4d2790bda5",
+      "bytes": 385915
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "7f99c27c41006ff19257b8e74dd923b7c2e68cccfd6d249b0f2fe8de1cc4a9c7",
+      "bytes": 1537645
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "06d0bc2998081690abb1ddd10c187357a448abb7c25b98151bcf36932d26b848",
+      "bytes": 116860
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "33d572fc2baccc485c3ba97a9f0f44240da086cf510ae043cc349c8d963c639c",
+      "bytes": 378650
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "5bb4bdba45302c7c8ca4277df406ac2da601f91eb1064f0803abe77000298f4b",
+      "bytes": 1247838
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "d046d10c7df1a8b30f7a038668310bdd3b7e39470ced9edb83e68f9cbcd010d6",
+      "bytes": 385742
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_FK\\JumpingJacks.uasset": {
+      "sha256": "646103fbe399c1684e4af0d7b9dd3697c182b8229e00aa56d40fd098ae0ee320",
+      "bytes": 1537655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "5cb72e56c8562bf340d3d49395ab6d562295c98becd0cf4c4758b51b1df29fb1",
+      "bytes": 378655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_FK\\MM_Idle.uasset": {
+      "sha256": "ce033c2f1911f41ac02138e3cdaae8e79cdc8968447708b7d12c13c0f3bca35b",
+      "bytes": 1247807
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_FK\\MM_Run_Fwd.uasset": {
+      "sha256": "c78cfc208eb229ed1195f65dd94b91ac88cc2cd3607893a0e9eb6d5426423f8d",
+      "bytes": 385783
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_Full\\JumpingJacks.uasset": {
+      "sha256": "d888cd32d5b9c69d88cbd5ce0e8fc2dacbfa7a97b838aa12704d52582e628579",
+      "bytes": 1537655
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "275f317d6f033cee9b595b403f912aeb84a7ba4861ae5a952bba03f8bf2a1541",
+      "bytes": 378660
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_Full\\MM_Idle.uasset": {
+      "sha256": "8aa95b7505aa2d958aad08b0f5ecf455039c2d006294b6868a8b89e10bbba95a",
+      "bytes": 1247848
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceGoal_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "f3a1fdeb2d190fde73af785a7f81723994c218ef198f13c42dd045a0af7f913b",
+      "bytes": 385752
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceRootMotionFinal_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "78f0f93e6526591157d4f40060a5dc6f16158156cd07f5b584261c2cd007811c",
+      "bytes": 394712
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceRootMotion_Full\\MM_Run_Fwd.uasset": {
+      "sha256": "a8bd231dc7c8cbadddde2df02283c25d2ad2d1a581891c5962e4117ce84dfe6b",
+      "bytes": 401448
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "625294f950a4c130537e7d7705104fac4762c2ae719003ab0301283ae20c553b",
+      "bytes": 385748
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height180\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "fd229c152f906daf0c46682eaf2e750d2cedabaa583fa4c485b57778cc9cf3d7",
+      "bytes": 385917
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "f7ad5b1f940155a9fffce1ecc542efb0b4b3c25343fb2285f7f9c86d7c6a1033",
+      "bytes": 1478407
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "729e61d4e36b1dfbbef889bea8cc77e715baeff84408736fe28276c0e6e223ab",
+      "bytes": 85002
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "2947cae274ff8f838bb447d093b1be2754fe2ae9cab96cf34c69739631b47aac",
+      "bytes": 367700
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "f1b05140f3cfa078aab43763e93db054d309061cb95c559fc07104ef7cd9981b",
+      "bytes": 1199544
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "1b1ef822245679269957a5911c1bcd3305c7fa646902f185e321a6371d2f8301",
+      "bytes": 376632
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "d8e5dcdbc7625d2028d930b07923d3d019adecb54c2f627cbd2ca21f691467ec",
+      "bytes": 1533131
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "0ab0a57885b09641fe02df85fe775147a01dcdd85b952a6f970545eab605016a",
+      "bytes": 112654
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "b5cc56acc84a80346e94bf751e08393ff337a6a68242d59a90d4486548ae1f8d",
+      "bytes": 378660
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "5382d693a75ac1fc83e278fc5506586bb84500b58a1be3c8f402293e411738cc",
+      "bytes": 1243324
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "f5c84f38b060d3e09e728e22a53f42f7f8999618181abe8a47df47c29c5882cc",
+      "bytes": 385922
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "089fde66e9ed146b734e6bf8ea98faf991191592ceaa072f8cad13be070672dd",
+      "bytes": 1537646
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "d7f19612614d649e9bf2ddd2fe72966411eab4a2f1af79066ff597230364d24e",
+      "bytes": 89710
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "8866f0fa41cf6f963d7209c286b2b002759869ca13431ad3ff7f68659e1e83fc",
+      "bytes": 378633
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "5ab1dfb8475cc9ce37f50d1af808b97cd6d0f810152b22e2d43c086f92b0b867",
+      "bytes": 1247790
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "56d8aad073c144c78d528065fc799b9ba98203a75284defa6b99cf392122cb79",
+      "bytes": 385778
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "67bea429e13c6d8bc1543dca00f68f3801dbaa73967e5de40e4c518be203e3a1",
+      "bytes": 1537646
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "d7d6220f376eb3db70e34d2d024962dd5d43345722de5c636b42555666233cb0",
+      "bytes": 116854
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "eff737c80848bc91aa87e8053cf61f6d8150b82dfff067c5f8c69e0a6b2424ff",
+      "bytes": 378663
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "73b2a0257da31de63eefe28e58f3e426d2ee3bc57befb5511352af4e12ae6294",
+      "bytes": 1247836
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "ea8530327b52d15ad938423cb6fece45d3b176c3617edd560bd433679b1b7c2a",
+      "bytes": 385743
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "4692e184677ce7b4b789650458a8b239bd564ccba0f52ffcd6438e95231143a6",
+      "bytes": 385749
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height175\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "cc2c3c34aee8423b1a8d4d2c130c55e9ce4247394507540e625edf3fabf0893a",
+      "bytes": 385928
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\FK\\JumpingJacks.uasset": {
+      "sha256": "6c158063ffe7985eb5bb5d2b9c18fea2835dc331a9a30798bd1d6f67af634da5",
+      "bytes": 1478407
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\FK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "9d705fa2e637255aff213503b1700efdd2329c534612006544ee5a0a48e0c4fa",
+      "bytes": 85002
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\FK\\MF_Walk_Fwd.uasset": {
+      "sha256": "89bb5aa875c76bb977f74a70c0f6650c91452214a3d8de60291f305e6ba5a2fa",
+      "bytes": 367712
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\FK\\MM_Idle.uasset": {
+      "sha256": "b44c0a7612aa35a85cedab8652aefc83d5298ea501c84d1c8a569d68ba00e3ef",
+      "bytes": 1199544
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\FK\\MM_Run_Fwd.uasset": {
+      "sha256": "e1aa0883eedfde32093ff00441d18b11f59cfbee81b070b351b0e79d04be6364",
+      "bytes": 376654
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Full\\JumpingJacks.uasset": {
+      "sha256": "80066cbb6f0e58c466cef0073d3ff8c642a1e6d2e52a44599714fcc01b340958",
+      "bytes": 1533131
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Full\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "cc8e8ced82b5edf8db3a6938e4ef3502b47ec380de05de74ba8ed59576ab5e62",
+      "bytes": 112142
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Full\\MF_Walk_Fwd.uasset": {
+      "sha256": "be0f9d85a9722ce16c3b3f52091267498e2e099ea4ab5f8ab29f6459344d4779",
+      "bytes": 378672
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Full\\MM_Idle.uasset": {
+      "sha256": "030fea3e6945e5c321762289d818866a68281181a2208aefd62af55783d7055c",
+      "bytes": 1243324
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Full\\MM_Run_Fwd.uasset": {
+      "sha256": "709551b0f5f97eb93390b94927527eaedac20e73c495f7d3ba88b419cb58959c",
+      "bytes": 385940
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFK\\JumpingJacks.uasset": {
+      "sha256": "841668dc28f54825d9b62fc6e0ed923a459c83e07b4b80d9c8cbfea7a7756854",
+      "bytes": 1537649
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFK\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "f756bfb13da3749d80a8ac87e51a24b0a33bf711df6bf601e2390a21d5fc361a",
+      "bytes": 89716
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFK\\MF_Walk_Fwd.uasset": {
+      "sha256": "33704ec2b05fa2fdeebbf8974ca1db3581a7a452486b04f6bfc85eb1ec809ae2",
+      "bytes": 378642
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFK\\MM_Idle.uasset": {
+      "sha256": "83bcbe8148d87ce38d5977666cd3cd09b24afa4c71f1f3c4ba0c9409ae40b686",
+      "bytes": 1247800
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFK\\MM_Run_Fwd.uasset": {
+      "sha256": "b2a05c8123f2a06f1e5d2ea605e8df128bcd5fc50b7c77ce9d1b5c9692240975",
+      "bytes": 385766
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFull\\JumpingJacks.uasset": {
+      "sha256": "150903d5e5babbe332581acc1f8b0fb7d56390e414dcbf8a61584bbb2e8464a4",
+      "bytes": 1537644
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFull\\Manny_upperarm_r_anim.uasset": {
+      "sha256": "4719c59124c93dcb9df418b4c5c97c2afeac947ed6e1847262c6b52561e09151",
+      "bytes": 117380
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFull\\MF_Walk_Fwd.uasset": {
+      "sha256": "87a49068d3a1ada59bc2ae717ebf0ae22318baa79b3b846a98bd108aa2c1e20a",
+      "bytes": 378662
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFull\\MM_Idle.uasset": {
+      "sha256": "268874dc76affec6f184484b816ac18e85f4d23915dd87de0bfbdef30b8bfe9f",
+      "bytes": 1247857
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceFull\\MM_Run_Fwd.uasset": {
+      "sha256": "c688fd55407ec1d67be9d83efdc20c1f5af0389a3291b7bdf2a032cfe7251d01",
+      "bytes": 385753
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\InPlaceSolver0\\MM_Run_Fwd.uasset": {
+      "sha256": "3cde63c335ba028c0e7db7738e0ae8d9682d439bdd6bf387e061b9f82a6c419b",
+      "bytes": 385759
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase3B\\Mixamo\\Height160\\Tests\\Solver0\\MM_Run_Fwd.uasset": {
+      "sha256": "8295faad4f561828f33636eb9d6c59e266519e7dc99d1c6603a46948be0a3521",
+      "bytes": 385946
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Maps\\L_Phase2_RetargetTest.umap": {
+      "sha256": "0f1f06d80adddf7779ca17c04ce9460904d80fbccb91d1e0598725ec08f00a45",
+      "bytes": 25874
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\ABP_Lara_Mixamo_Retarget.uasset": {
+      "sha256": "ada162ea84ab97c67848772a8d4b49722f672784ee8710a5cd34a4228c38063d",
+      "bytes": 59838
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\IK_Lara_Mixamo.uasset": {
+      "sha256": "12aa7aaa469ff3f4ab7ea965d1cc6c54bf4b4ef2d0be5f7e366f96e5cc34b726",
+      "bytes": 67143
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\RTG_Manny_Lara_Mixamo.uasset": {
+      "sha256": "da53a2770f752404832988731151d68a4b40798ebac0a9ee9a73a3577be8a18b",
+      "bytes": 20737
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\SK_Lara_Mixamo.uasset": {
+      "sha256": "d5c3055b8e03f1afd8c7ee961e8e8ed317da39e63ea419b4bd87f74921c2e018",
+      "bytes": 6572982
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\SK_Lara_Mixamo_Skeleton.uasset": {
+      "sha256": "09eaedb1df2f6f73eb500bf0d6cff6671fb3d4e118efa127c68fa5372fdd1371",
+      "bytes": 15423
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\Mixamo\\tripo_mat_c86468c2.uasset": {
+      "sha256": "590b3ffc025b661fb200b2f7c2fa9c573d9623a21a49db5bd98abb7441346f35",
+      "bytes": 58774
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\ABP_Lara_UE5_Retarget.uasset": {
+      "sha256": "b636375be88fc54396ad891b4095d5982c866ebd505379349982e8a154c99b09",
+      "bytes": 59717
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\IK_Lara_UE5.uasset": {
+      "sha256": "e4d08088880568f2c59397c02ccb97192719502ce83467cab877bdf409a03108",
+      "bytes": 70548
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\RTG_Manny_Lara_UE5.uasset": {
+      "sha256": "44dbf0d9ed266fae15a8663597cfefbc72ea9b348472a87641cffd689ea81f06",
+      "bytes": 25178
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\SK_Lara_UE5.uasset": {
+      "sha256": "00d860393db2709d1bfc67fd6c4f99b110bb219ec2cff7c99507e751a6014f98",
+      "bytes": 6632919
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\SK_Lara_UE5_Skeleton.uasset": {
+      "sha256": "194920b4a704e0286effb496cf6c237b26df25464649c511412a8a2a28939f5d",
+      "bytes": 14271
+    },
+    "Content\\MetaHumanTo3DCharacter\\Phase2\\UE5\\tripo_mat_d5fc96b7.uasset": {
+      "sha256": "ca90f41a480418682de6086bac07fa22c0d08d57f8b22c834e73e3ddc55035a8",
+      "bytes": 58742
+    },
+    "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\ABP_StackOBot_Retargeting.uasset": {
+      "sha256": "fa4c4ebc2fcb3b406467e396442419e9426212cc17b0f7e0a12a47667333cc9f",
+      "bytes": 70106
+    },
+    "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\IK_StackOBot_Retargeting.uasset": {
+      "sha256": "c19fa58e39ca0de9d74237956c2001693caa5310effd334978bbc8dbddc8b0d8",
+      "bytes": 62522
+    },
+    "Content\\ExampleContent\\AnimationRetargeting\\AnimBlueprints\\RTG_Mannequin_StackOBot.uasset": {
+      "sha256": "92732133ce035eccd62194a105d0e8d5024c3b336f2eb9de7193cfb873c753be",
+      "bytes": 30425
+    },
+    "Content\\Characters\\StackOBot\\Mesh\\SKM_Bot.uasset": {
+      "sha256": "a5ba176a00a6e5b2d96b33d6a1b007ad86b557c636d1ab72c5ae5e69cafc4a3b",
+      "bytes": 9914702
+    },
+    "Content\\Characters\\StackOBot\\Mesh\\SK_Bot.uasset": {
+      "sha256": "410bf5fedf21151792470f5d93f8619e8e56feb4ed81f4cf47a440e5ec731423",
+      "bytes": 21912
+    },
+    "Content\\Characters\\Mannequins\\Meshes\\SKM_Manny.uasset": {
+      "sha256": "9bfc3b79e798894bcda381e3c8de8642eee3d05b8b36fe3959c9a65c03062f64",
+      "bytes": 28734860
+    },
+    "Content\\Characters\\Mannequins\\Meshes\\SKM_Manny_Simple.uasset": {
+      "sha256": "1deb85c1ed5684dcad678cfbfd263b88e5e2cc29729e34be082acaf13bc8d3e4",
+      "bytes": 15824879
+    },
+    "Content\\Characters\\Mannequins\\Meshes\\SK_Mannequin.uasset": {
+      "sha256": "0fc88830a83a13d5edfaa1a106f497700b3f4bf42625329cd1b5d7e717c2c09e",
+      "bytes": 215033
+    },
+    "Content\\Characters\\Mannequins\\Rigs\\IK_Mannequin.uasset": {
+      "sha256": "5c317063573fcd14e939f0e3a0ad17ed30987d6dc826592e18cd22623fcfd976",
+      "bytes": 144766
+    },
+    "Content\\Characters\\Mannequins\\Animations\\Manny\\MM_Run_Fwd.uasset": {
+      "sha256": "9df28272ab53eecaadf3190296b5fa23d0ebe2602d9182cd78b0219e68e9b127",
+      "bytes": 484363
+    },
+    "Config\\DefaultEngine.ini": {
+      "sha256": "274f548d8efc0255a0167c35f9939fee214b5ec7571b01fec411ede3139e6b4f",
+      "bytes": 669
+    },
+    "Config\\DefaultInput.ini": {
+      "sha256": "61e3fb622f7ba0121c8036ac599acc7122bb3987a97b02b25ad13c56d5ce8e3a",
+      "bytes": 9574
+    },
+    "Reference\\MetaHuman_Conform_Topology\\body.fbx": {
+      "sha256": "655dcb9198e1fc2223211a1ade986fae28d8349f420b5ee1506df659422724f7",
+      "bytes": 3120128
+    },
+    "Reference\\MetaHuman_Conform_Topology\\head.fbx": {
+      "sha256": "5b380bae6398c7156a01e30c05b0970341150a108bd9177f4e0d15b02ffb7360",
+      "bytes": 3020976
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Body_D.PNG": {
+      "sha256": "a66587f59d6f92f8bb7c75b637c2ea7cac76bd2c831f018124ef06073db30280",
+      "bytes": 11824058
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Body_D_Guides.PNG": {
+      "sha256": "330905b0e32556facdf252995da9a6e399a2e876f224e952a3c0a3bd3f46964b",
+      "bytes": 24130502
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Eyes_D.PNG": {
+      "sha256": "0135fb0cdf4bfe9d837e2573cf7b4c21bbbe4da9e8ac35121916298d9647fe16",
+      "bytes": 41710
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D.PNG": {
+      "sha256": "3cae9277f9e914788eaa40c8b197bb7cfcda1fac02c64f12ea7707f2eaaafa22",
+      "bytes": 6642241
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D_Guides.PNG": {
+      "sha256": "dfb95047d058face8868ef71788ef0d8b2e79b6420038d82c71c51d5bd161dd2",
+      "bytes": 18826186
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Head_D_Guides_Annotated.png": {
+      "sha256": "775a2a8f5babbd557d4c68e8f903f56d391e629415ba021e4caee8876fed67eb",
+      "bytes": 35474601
+    },
+    "Reference\\MetaHuman_Conform_Topology\\T_Gray_Teeth_D.PNG": {
+      "sha256": "5b22a997958799daab250dd3b296702d050e0c0d7e2f0022871958aa300c1ec9",
+      "bytes": 714027
+    },
+    "Documentation\\Phase2\\anatomy_mapping.json": {
+      "sha256": "4fde795d1ae7a13d735ad834fe6e8c5b4d79e82c9fbbafbc1df030b2ab79a3e1",
+      "bytes": 13216
+    },
+    "Documentation\\Phase2\\asset_inventory.json": {
+      "sha256": "a1e38427dab1702de56bd5f3ece016c60ea857ab12ca9a11cf41f30858dfb4c4",
+      "bytes": 5112
+    },
+    "Documentation\\Phase2\\bone_comparison.csv": {
+      "sha256": "38c2707b5fca93d6e224e0b4b2d34cf56401da4b259e4a4a0bbfa2924d53a992",
+      "bytes": 1814
+    },
+    "Documentation\\Phase2\\chain_mapping.csv": {
+      "sha256": "ca142794c2de2326afbdd4f92e040106d843e8360294db781c154797de8eaf91",
+      "bytes": 1342
+    },
+    "Documentation\\Phase2\\Phase2RetargetingReport.md": {
+      "sha256": "5440f5a0332b3414559c089ca731bc85911e67aba782fdf4c4534f2d47e79e84",
+      "bytes": 23414
+    },
+    "Documentation\\Phase2\\pose_offsets.json": {
+      "sha256": "00695524cc3af2029318af9b9972fbcf24dbbe0d16de6d179085f50946fc0fc8",
+      "bytes": 8147
+    },
+    "Documentation\\Phase2\\runtime_samples.json": {
+      "sha256": "3ac0c9991c0f3cb59f33631f4af23c991c62e94b902ac6c463ab79a7dcdeef1d",
+      "bytes": 8586
+    },
+    "Documentation\\Phase3\\MetaHumanResizeConformInvestigation.md": {
+      "sha256": "50c4ced1bb973fc4e2ba6eda9a1a9bc0fae621b6584628608ddb319e5735b99d",
+      "bytes": 48039
+    },
+    "Documentation\\Phase3B\\acceptance_verification.json": {
+      "sha256": "f8ecf674d1be76fe80e345c9cfcf32df1c081be9f006f3bd98acfafd71d96667",
+      "bytes": 773
+    },
+    "Documentation\\Phase3B\\api_probe.json": {
+      "sha256": "078441e374dc690e738e176a2d6b55dcff4e278b1b3bd9ecb968d85cb4164d39",
+      "bytes": 98100
+    },
+    "Documentation\\Phase3B\\baked_root_lock_correction.json": {
+      "sha256": "944fb9b8eaf3739b2d0e7d7e178a76704dd7714ab510598def83df8a3dc79688",
+      "bytes": 13389
+    },
+    "Documentation\\Phase3B\\bake_dependencies.json": {
+      "sha256": "b742a1f7774030abe42560320c400474c9dad4cc1eba7f934edef3181c33b9de",
+      "bytes": 58058
+    },
+    "Documentation\\Phase3B\\baseline_import.json": {
+      "sha256": "809eb537d51f7c873042fcbc848208f0538f8d632180379d85dc3340304eb5be",
+      "bytes": 224537
+    },
+    "Documentation\\Phase3B\\batch_probe.json": {
+      "sha256": "126add7598a9f40e1c69bdc35f98f831983a761153aaa6c85b459378256095a5",
+      "bytes": 149974
+    },
+    "Documentation\\Phase3B\\control_configs.json": {
+      "sha256": "5c996b1d490f2f0268f48e1dfe62e1abb80d126642f108caf1c8a61c4468777f",
+      "bytes": 1415650
+    },
+    "Documentation\\Phase3B\\control_results.json": {
+      "sha256": "88ecdec234b4e7cab11b92276b0a5076187533383cae06515576d28e9137db46",
+      "bytes": 3503691
+    },
+    "Documentation\\Phase3B\\control_samples.json": {
+      "sha256": "4f2a1d03bcfeecfa2bf02886fe73411d817cae81e5f598f96c2ad2466888ca11",
+      "bytes": 129530432
+    },
+    "Documentation\\Phase3B\\dcc_candidates.json": {
+      "sha256": "8384f230bdb4ff632fd1a5a9b2875546c8c5081a322470469e48531a45da3416",
+      "bytes": 63615
+    },
+    "Documentation\\Phase3B\\dcc_probe.json": {
+      "sha256": "bc00ccd6b4eb7424b0da4e882ff5e4c6c1e60debd777969d179dda25735026ed",
+      "bytes": 53669
+    },
+    "Documentation\\Phase3B\\fbx_units_and_bind_data.json": {
+      "sha256": "151f10a00906b0a2508925a0651604458e5c1e11dd73c3467bbd41df3bb4619c",
+      "bytes": 1018220
+    },
+    "Documentation\\Phase3B\\finalise_editor.json": {
+      "sha256": "304f037c683fd8fa90fdd1021786040a96d8ecf48fdd06111d8d4f132855a773",
+      "bytes": 121
+    },
+    "Documentation\\Phase3B\\fixture_probe.json": {
+      "sha256": "a2b2c15245b66f0fed202e2b07c3680a63c9b2661c3ab0904f53819072e05730",
+      "bytes": 13452
+    },
+    "Documentation\\Phase3B\\gate_self_tests.json": {
+      "sha256": "a7f335b74cf31e451328331004804a81fd5fc7f74b7c5e40e94c076ba427b913",
+      "bytes": 518
+    },
+    "Documentation\\Phase3B\\height_matrix.csv": {
+      "sha256": "33b35080b7338e08ced901f70af0498089c1ee2769d405341f7ecb71602c3939",
+      "bytes": 3199
+    },
+    "Documentation\\Phase3B\\height_measurements.json": {
+      "sha256": "62de58532f8d6eeb26f39c6453c2839d457d95bd299ba753ee2ce713e3357f0e",
+      "bytes": 9442
+    },
+    "Documentation\\Phase3B\\height_reference_matrix.png": {
+      "sha256": "06635804c5989ff8239653f014778a453ab19f08605895828e4e09cfb76d7f62",
+      "bytes": 230817
+    },
+    "Documentation\\Phase3B\\ik_rig_results.json": {
+      "sha256": "df9a94a1e9d4aad6d18f19866c947cb2bbfba63678984eb2c75710ec9530004a",
+      "bytes": 1634134
+    },
+    "Documentation\\Phase3B\\import_warnings.json": {
+      "sha256": "ed8a3fccac522333e35bba89a5727c8e4117636e8170b9da7917950ce75fde57",
+      "bytes": 11307
+    },
+    "Documentation\\Phase3B\\independence_live.json": {
+      "sha256": "4ea8e85bfba1c004d8c006a98643438719885e3a4135d497afdc508fbfd1d4f4",
+      "bytes": 3622465
+    },
+    "Documentation\\Phase3B\\independence_verification.json": {
+      "sha256": "1e04e350229065d544d4573553c5a535a2c7e840d0ded34cb6e1403a53626d8f",
+      "bytes": 579
+    },
+    "Documentation\\Phase3B\\inplace_sources.json": {
+      "sha256": "58ce3753f23130960e33d7b4181940b9a0f5c7802a09e5dd9e2c27f484f0eeda",
+      "bytes": 2617
+    },
+    "Documentation\\Phase3B\\live_before_rootlock_correction.json": {
+      "sha256": "707b426d6a3d8244b18fc024b935c0190629b88024b29a9fe992d8efd02b3be0",
+      "bytes": 141150986
+    },
+    "Documentation\\Phase3B\\live_repair.json": {
+      "sha256": "59721b428b20ed58fdbb02b6852dab03739620c6df0c518719086ec878db3f3e",
+      "bytes": 9751
+    },
+    "Documentation\\Phase3B\\live_runtime_samples.json": {
+      "sha256": "95ca75baea39f43a51153989f123d80cbba3450f408c962530794cbdb8016423",
+      "bytes": 141152134
+    },
+    "Documentation\\Phase3B\\live_scene.json": {
+      "sha256": "341f9940446dd7a95b5333d85de3d49a9fcbdb1b3f952a0bbf4a1d90f4da8d2b",
+      "bytes": 5155
+    },
+    "Documentation\\Phase3B\\live_solver_isolation.json": {
+      "sha256": "e21b9983793154f9d59f3e3f8046875aac3c5f951584da16116b687a7372f2be",
+      "bytes": 112486
+    },
+    "Documentation\\Phase3B\\live_started.json": {
+      "sha256": "c16139d763cb71618b909470c158897d6e785ace123f9bdad089865e4a37cf87",
+      "bytes": 17
+    },
+    "Documentation\\Phase3B\\live_unlit_view.jpg": {
+      "sha256": "6a2dad187a7c2848406c6a9e3c597c4b8fa06c3133e79a2c3b20fde738143805",
+      "bytes": 212364
+    },
+    "Documentation\\Phase3B\\mixamo_foot_tests.json": {
+      "sha256": "4f4123875ef8a1731bdbdd72db48fe956229d1e194b72f9b967b114e1b456ada",
+      "bytes": 796839
+    },
+    "Documentation\\Phase3B\\mixamo_run_cycle.png": {
+      "sha256": "eb923d88e92385ba7886b1d7cb6e0e0a5bfa67ff074c31a5a739357bc735e617",
+      "bytes": 187999
+    },
+    "Documentation\\Phase3B\\original_candidates.json": {
+      "sha256": "6d27fc809b46865ba85aa4c336538aa67a9b1d665538ac2a10872ab18c80c9ac",
+      "bytes": 144549
+    },
+    "Documentation\\Phase3B\\Phase3BHeightNormalisationRetargeting.md": {
+      "sha256": "53aa05b60381aafacf2c30a4c8c9d7245297d9dcc0e1db63027b1e1b1ca58d5d",
+      "bytes": 34433
+    },
+    "Documentation\\Phase3B\\pose_height_comparison.json": {
+      "sha256": "d67a0bc84ce312f092e25c248421360158368a9ec99ba1a67667b88bdb3edb84",
+      "bytes": 10285
+    },
+    "Documentation\\Phase3B\\pose_offsets.json": {
+      "sha256": "f3fb55e6c06c178c8b36e1fb75587bec976218282935a5952fe13966180e600e",
+      "bytes": 79625
+    },
+    "Documentation\\Phase3B\\pre_goal_quantitative_summary.json": {
+      "sha256": "1169ba51072949f1e2651f17033f6ebd5d95dcdf87477c990c25b02e716d1073",
+      "bytes": 365346
+    },
+    "Documentation\\Phase3B\\pre_goal_runtime_samples.json": {
+      "sha256": "cfe61c91f3dc56b2c5846cd0409c8b11895a38a6a40148093e2b4aedd33fd062",
+      "bytes": 168105454
+    },
+    "Documentation\\Phase3B\\protected_after_verification.json": {
+      "sha256": "f9204702e9916a7c877afd57301b414e266542e6658e424c9883572df3326682",
+      "bytes": 160
+    },
+    "Documentation\\Phase3B\\protected_before.json": {
+      "sha256": "2fa81f96717512640449ffa1572b699c688fe463141d1c1e8b0b3d0f32115952",
+      "bytes": 18417
+    },
+    "Documentation\\Phase3B\\quantitative_metrics.json": {
+      "sha256": "84b05620eb0d292b8f937b3d25d7efcfd4c60c1e5e7bb2baa1ab65000a4e0dd5",
+      "bytes": 18623456
+    },
+    "Documentation\\Phase3B\\quantitative_summary.json": {
+      "sha256": "8baf1063a871238690f4cae26671fd968b24a39eac5250f90427c4c635750575",
+      "bytes": 383701
+    },
+    "Documentation\\Phase3B\\reference_validation.json": {
+      "sha256": "d72fb793df002430be1f8c17c259fa51cd23a73c27d40e8b9d790208ac6025e0",
+      "bytes": 28634
+    },
+    "Documentation\\Phase3B\\retargeter_results.json": {
+      "sha256": "f445c53760a9e0857f93511b1e93331c27949b5bf0ccd728d7d7e99096b34dee",
+      "bytes": 215340
+    },
+    "Documentation\\Phase3B\\root_motion_final.json": {
+      "sha256": "963a50cc2e167a412405963575067e75a16ae8656df31ed9ddf76f7c9ef42a1f",
+      "bytes": 1778
+    },
+    "Documentation\\Phase3B\\root_motion_final_samples.json": {
+      "sha256": "92101aa64b8e5ab4cf72d6262b16c64c9e6a3763105aac70c62b88c2b224a9b5",
+      "bytes": 3211769
+    },
+    "Documentation\\Phase3B\\root_reference_transforms.json": {
+      "sha256": "f02b22ab095492c270727853b9b27da2afc1f42c44ca76438da783aae8ce3e44",
+      "bytes": 26027
+    },
+    "Documentation\\Phase3B\\runtime_samples.json": {
+      "sha256": "11ee0181affbe8f9f66595523b54ad20131c9c09359726f529c9403ce4a35f9c",
+      "bytes": 177809614
+    },
+    "Documentation\\Phase3B\\saved_asset_verification.json": {
+      "sha256": "169701ffb8e67ca7b33f657c0bafb3674de245f2b99dda2a3dcbb89907a541ee",
+      "bytes": 6453
+    },
+    "Documentation\\Phase3B\\scaled_candidates.json": {
+      "sha256": "6dbd35658de19014d4f3b42232ee47e2b54930adad8195e19bfe0e11deee6590",
+      "bytes": 717190
+    },
+    "Documentation\\Phase3B\\solver_isolation.json": {
+      "sha256": "f7f897fefc6d54e72c62e45a50806356323bec5cd19cadfd9438d19bb56f43f3",
+      "bytes": 42763
+    },
+    "Documentation\\Phase3B\\source_animation_inventory.json": {
+      "sha256": "523d74f760bd93ab8cfa22885b71559f2a16acb67520e955d7f371e481f93bf8",
+      "bytes": 2084
+    },
+    "Documentation\\Phase3B\\trajectory_runtime_samples.json": {
+      "sha256": "4025bbb51ff8b50fb64362db8f4e6163d019305b05ffa2ed4c40b6d801aeeda7",
+      "bytes": 180406112
+    },
+    "Documentation\\Phase3B\\trajectory_solver_isolation.json": {
+      "sha256": "2c1e11b0becc3ec124d277fb51fd49c7766bd7c0f87b98e92289f437c7887c3f",
+      "bytes": 41982
+    },
+    "Documentation\\Phase3B\\ue5_run_cycle.png": {
+      "sha256": "fe035217c6202922b8c914c306483a8c399e1bf0bb7cf5ae96955ac8e1026d73",
+      "bytes": 187616
+    },
+    "Documentation\\Phase3B\\viewport_observation.json": {
+      "sha256": "898ed68d1ddfc788cb50b78f67f58040a817f03224c81e9c1dbc1c0f247368c5",
+      "bytes": 249
+    },
+    "Documentation\\Phase4A\\acceptance_self_review.json": {
+      "sha256": "cc51179c58115eb8bae2ab3dc84ad1dc308ffbb32034110667c0fe5da9fd9b9a",
+      "bytes": 5575
+    },
+    "Documentation\\Phase4A\\additional_python_apis.json": {
+      "sha256": "9ad6bd83dfaaf5b8a7a714d4fc34daa3f0367e7ff2295ecf69e6b368b192e971",
+      "bytes": 179566
+    },
+    "Documentation\\Phase4A\\animation_results.json": {
+      "sha256": "9575c7a0b2d6f8141dee14d2a5eea1cb208f01c058450c6b67f00940438ba65f",
+      "bytes": 5902
+    },
+    "Documentation\\Phase4A\\animation_resultsr.json": {
+      "sha256": "22be9deeec6d3e0e7351e899e6706a602215393c45d04f7d2405d944fade2795",
+      "bytes": 6298
+    },
+    "Documentation\\Phase4A\\animation_results_ball_forward.json": {
+      "sha256": "22be9deeec6d3e0e7351e899e6706a602215393c45d04f7d2405d944fade2795",
+      "bytes": 6298
+    },
+    "Documentation\\Phase4A\\assisted_candidates.json": {
+      "sha256": "554ca82f78c832b64362b16b7c452d90ab236d539eb6c59a79d808843d1c80c0",
+      "bytes": 118004
+    },
+    "Documentation\\Phase4A\\assisted_candidates_ball_forward.json": {
+      "sha256": "2232fbdd204a5f3a0784887d06cae2ee6324d8b568f4ce5eee46b0dce486e0c0",
+      "bytes": 117980
+    },
+    "Documentation\\Phase4A\\autorig_api_inventory.json": {
+      "sha256": "98cf26d53e2e2278bc09c81c2b842a3ee4b80a2f4c21fdc15e94367bbc18f38a",
+      "bytes": 37485
+    },
+    "Documentation\\Phase4A\\autoskin_api_inventory.json": {
+      "sha256": "a7571a2c015ee2f398b39b92cff95c2eae6fa359e755ab618a66c5520d7ba870",
+      "bytes": 12457
+    },
+    "Documentation\\Phase4A\\bake_dependencies.json": {
+      "sha256": "5d4ef7e1184bedc08ae7fa0bca646ecc47c26b21dc60ad595f245ff44fc69269",
+      "bytes": 14007
+    },
+    "Documentation\\Phase4A\\bake_dependencies_ball_forward.json": {
+      "sha256": "9c7a2a6fff17eaf68b12199aaadf3a4d71cb43e41c1a2cd14b459befb096aef7",
+      "bytes": 14865
+    },
+    "Documentation\\Phase4A\\deformation_contact_sheet.png": {
+      "sha256": "898d97125bc7e4a4d8748df44590df4415e38c779e90c2af94d4bb9d53d7823d",
+      "bytes": 74285
+    },
+    "Documentation\\Phase4A\\deformation_contact_sheet_ball_forward.png": {
+      "sha256": "1cd6f8828e408a3b42d244b11f44a14d51e9602540cb5d35bb48b2c623853d39",
+      "bytes": 84005
+    },
+    "Documentation\\Phase4A\\deformation_metrics.json": {
+      "sha256": "a42550a8cdb3e1503540f158b0f32b1600e80f8b9754e76f51f2d92ff203ebf9",
+      "bytes": 855024
+    },
+    "Documentation\\Phase4A\\deformation_metrics_ball_forward.json": {
+      "sha256": "6ff814897e969f8440ab3eb80819c627b26f55d9e8068bde6407c709175e5bcb",
+      "bytes": 855494
+    },
+    "Documentation\\Phase4A\\disk_reload_validation.json": {
+      "sha256": "878351124ae3891dc6d1f869183f81d579bc6cfb5d9da7e904b7a61cd0d05f4c",
+      "bytes": 100092
+    },
+    "Documentation\\Phase4A\\disk_reload_validation_ball_forward.json": {
+      "sha256": "7368e66a03d78d6f6a70747d7703fb2ef7280829a2d2f1e8148416f71ab2d605",
+      "bytes": 100068
+    },
+    "Documentation\\Phase4A\\fbx_inspection.json": {
+      "sha256": "13ae1e2f58e4ca5df4deb930c2ca64aea447aa3a385d32b5e5a81b340c03e8b0",
+      "bytes": 93498
+    },
+    "Documentation\\Phase4A\\final_material_preservation.json": {
+      "sha256": "4c1603e4c01380a7ed05026e6320b902c196f48371cacd4e598559f1344ef4c2",
+      "bytes": 895
+    },
+    "Documentation\\Phase4A\\foot_comparison.json": {
+      "sha256": "d867fece700c2bcfd288d9a0961e37ab5e4e3acb6aba5de5d0a84852c7d2ccc8",
+      "bytes": 15759
+    },
+    "Documentation\\Phase4A\\foot_comparison_ball_forward.json": {
+      "sha256": "af7d32f530fba76dd794454dec45015bade937c59cd38e4acb70525b2307d8b5",
+      "bytes": 15709
+    },
+    "Documentation\\Phase4A\\geometry_comparison.json": {
+      "sha256": "fec2d2870eae0bd2857adec0efcb3e72b40e86799df9659a67fd294e9c542061",
+      "bytes": 3367
+    },
+    "Documentation\\Phase4A\\geometry_landmark_view.png": {
+      "sha256": "367b9c08d1dcd6ed30540f68022f4c195b2c59212fef000c989a2a56e8d7117d",
+      "bytes": 38807
+    },
+    "Documentation\\Phase4A\\height_ik_results.json": {
+      "sha256": "bb466991b8bf5b2251acdba3afdd1c4b592bfff1873f576ed0a351004285a68c",
+      "bytes": 279263
+    },
+    "Documentation\\Phase4A\\height_ordering_results.json": {
+      "sha256": "5665340b63bedbe1069fd514b3cdf5cb70668e4f4ad7516d839309126fc2faa3",
+      "bytes": 200597
+    },
+    "Documentation\\Phase4A\\ik_rig_results.json": {
+      "sha256": "e84be8d83c844e1e7a587166477af28f2889954c6a8f9db0ae8d5d5b4a58faae",
+      "bytes": 138997
+    },
+    "Documentation\\Phase4A\\ik_rig_resultsr.json": {
+      "sha256": "247224467064ef72132b04f813f42420b8b3b4d338565172e2c28efcbe3944dc",
+      "bytes": 139101
+    },
+    "Documentation\\Phase4A\\ik_rig_results_ball_forward.json": {
+      "sha256": "247224467064ef72132b04f813f42420b8b3b4d338565172e2c28efcbe3944dc",
+      "bytes": 139101
+    },
+    "Documentation\\Phase4A\\import_results.json": {
+      "sha256": "f577049414b2041080c4957796ae5d1e0731d9173b224e22e8a26a0ec2800e21",
+      "bytes": 1671
+    },
+    "Documentation\\Phase4A\\independence_live.json": {
+      "sha256": "72c941104778ba84206bb20d54650641c277cd5938c8d7829b007de7cfdeee60",
+      "bytes": 19671158
+    },
+    "Documentation\\Phase4A\\independence_live_ball_forward.json": {
+      "sha256": "58b8144e04e45b2e58a6319472b8aa5de2e692a9fe25e85a075c1966628a0fc3",
+      "bytes": 19670198
+    },
+    "Documentation\\Phase4A\\live_scene.json": {
+      "sha256": "63ca60ca10aa1db8aad296621009f468446b992bc43b9d19dd2eadc406bc781a",
+      "bytes": 121
+    },
+    "Documentation\\Phase4A\\material_assignment_final.json": {
+      "sha256": "2a4d81571541963ffb348c98f217737a3fbe4f73811e1bdaeb1a344c5616e9f5",
+      "bytes": 4947
+    },
+    "Documentation\\Phase4A\\material_import_results.json": {
+      "sha256": "faf4c70f1c4211b27b7b4e0f2dcaab0f332a124e0cfd40e6e22e59c577f111b8",
+      "bytes": 1657
+    },
+    "Documentation\\Phase4A\\material_render_probe.json": {
+      "sha256": "180926cf7d19c334d64174dcc708a144526279e602188535685895a29fa3c314",
+      "bytes": 199
+    },
+    "Documentation\\Phase4A\\material_uv_validation.json": {
+      "sha256": "affdc89e2ed5c71848818d680f3a4417743f39e36e1d9df3067ecbec20550fa7",
+      "bytes": 115353
+    },
+    "Documentation\\Phase4A\\medial_trials.json": {
+      "sha256": "54b6ba92bd29e8436ffe4104298f024fec5ede479e098abdf4d41530ddac07c2",
+      "bytes": 581716
+    },
+    "Documentation\\Phase4A\\migration_manifest.json": {
+      "sha256": "fa86f8e2929e442176f82c44cdb3dd139d8b914cf2265e2ae3073419b5ec3bef",
+      "bytes": 3677
+    },
+    "Documentation\\Phase4A\\Phase4AAutoRigInvestigation.md": {
+      "sha256": "088bcd9a23bd6100f0059498df1356beff014158e7954409e05438832414bd32",
+      "bytes": 38947
+    },
+    "Documentation\\Phase4A\\phase4a_result.json": {
+      "sha256": "52f31c54d8900411ec7e8fb6d22601d9b9b5f12bd293abef5ea334c49f334606",
+      "bytes": 14865
+    },
+    "Documentation\\Phase4A\\protected_before.json": {
+      "sha256": "4e607416315a2c5d715289fba67871f305ab047bf2c5bacffe126de237b15150",
+      "bytes": 102172
+    },
+    "Documentation\\Phase4A\\protected_validation.json": {
+      "sha256": "cc2a48ed010c8f91de742761e5420f53c25f8d0abb0a1f295a92c5ef04abe6f3",
+      "bytes": 305
+    },
+    "Documentation\\Phase4A\\python_api_probe.json": {
+      "sha256": "0a992aa0ee56957e8dcce20763f07ea8b020db0d4b65aad176b133699e6ca005",
+      "bytes": 56397
+    },
+    "Documentation\\Phase4A\\retargeter_results.json": {
+      "sha256": "6f8216fb9466a694bc08a59611741295c1029ae41337a8a6bf38b6e05a5987a2",
+      "bytes": 40143
+    },
+    "Documentation\\Phase4A\\retargeter_resultsr.json": {
+      "sha256": "872cba1c21ca2da1ca58fe11e799b02dbc4596ade7e96b8ab62865602ced135a",
+      "bytes": 40263
+    },
+    "Documentation\\Phase4A\\retargeter_results_ball_forward.json": {
+      "sha256": "872cba1c21ca2da1ca58fe11e799b02dbc4596ade7e96b8ab62865602ced135a",
+      "bytes": 40263
+    },
+    "Documentation\\Phase4A\\runtime_samples.json": {
+      "sha256": "9b13bbb5c27626450e8cb82988a01abd254d708b63af126affe8a078bfda8235",
+      "bytes": 20943869
+    },
+    "Documentation\\Phase4A\\runtime_samplesr.json": {
+      "sha256": "88ef30e279a1cbf7f8d1301aa125e7558be07a7840693c2a0de6b348f46346e0",
+      "bytes": 20943459
+    },
+    "Documentation\\Phase4A\\runtime_samples_ball_forward.json": {
+      "sha256": "88ef30e279a1cbf7f8d1301aa125e7558be07a7840693c2a0de6b348f46346e0",
+      "bytes": 20943459
+    },
+    "Documentation\\Phase4A\\skeleton_analysis.json": {
+      "sha256": "68a563a2ceec86d79a01892549f4c179d725ad8c61a6c55b4980aa6d906812ec",
+      "bytes": 55900
+    },
+    "Documentation\\Phase4A\\skeleton_comparison.png": {
+      "sha256": "e1d13bd6ac0808a6a413c053617492262ac6e334d9d03a044270aa0df0ebb1f8",
+      "bytes": 66670
+    },
+    "Documentation\\Phase4A\\skin_weight_analysis.json": {
+      "sha256": "a24a2e2b18454470c21071fb4e143327f195c6ee21da7d54df2de3e9646ae94e",
+      "bytes": 4920
+    },
+    "Documentation\\Phase4A\\texture_reference_correction.json": {
+      "sha256": "2d7ce1da0f5559a0f2ecf0713b8b1f0bb0763bd655a4fee947bca40e47b3e66e",
+      "bytes": 650
+    },
+    "Documentation\\Phase4A\\uv_import_validation.json": {
+      "sha256": "2d8faee241fe0bcc6523d408a2e17bb6f2bdaf6588c103e541cf421c06a6b460",
+      "bytes": 577
+    },
+    "Documentation\\Phase4A\\zip_inventory.json": {
+      "sha256": "1e6abacf20a8e46f63a239ea2e9d50ef1901ceb29f87e2b1d0663752dd0aa5bc",
+      "bytes": 1354
+    },
+    "Documentation\\RetargetingInvestigation\\AssetInventory.csv": {
+      "sha256": "5e0cad59269f601bfde6b5041abfd63cb2c629225d7a1488ba32c772e6be9b50",
+      "bytes": 29709
+    },
+    "Documentation\\RetargetingInvestigation\\InvestigationReport.md": {
+      "sha256": "d32a06759c65e73f7e65ceaeaee0fffdf91ff1c60f8e3fc5b9c590a862c5ca5b",
+      "bytes": 50968
+    },
+    "Documentation\\RetargetingInvestigation\\ReferenceClosure.csv": {
+      "sha256": "c95f3a7a70133ea5849efedc9f02e49251258529459c8f7a5058ecb74d10f85e",
+      "bytes": 94821
+    },
+    "Documentation\\RetargetingInvestigation\\SupplementalIKConfiguration.md": {
+      "sha256": "981af90c410bf3a5f89e5a82e47e895e6bccc1494d5942a1b312bb0a7886df7f",
+      "bytes": 174409
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_CopyPoseFromMesh.t3d": {
+      "sha256": "0278266b9f2e091f4b4ba8cbd3b80b81b46eebe3ab35ffd7143e7adaa467e73e",
+      "bytes": 19505
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_CopyPoseFromMesh.t3d.connected.json": {
+      "sha256": "f9fe08d740fe603e3997524c6096400863fdca53b3bfe0e5515c95aaaa3d966b",
+      "bytes": 1483
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_CopyPoseFromMesh_CDO.t3d": {
+      "sha256": "3b389a5b4bc6c38cff8057e0d3c5771f87124d10b8d57d294fc0951a73c92540",
+      "bytes": 1479
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_CurveRemap_Retargeting.t3d": {
+      "sha256": "a4b619e956a61ff12d39bfa7e22ae830d4920cc12c8bcd04efa04fe20b6a6f88",
+      "bytes": 45059
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_CurveRemap_Retargeting_CDO.t3d": {
+      "sha256": "efb5f5e5ff9ebf0dee4981f0758c9b331952ad76bae28e27f88b96f2a0a5b90a",
+      "bytes": 2749
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Mannequin_Retargeting.t3d": {
+      "sha256": "f403e196c8cb1fe78c42f2605229b05720165620e31748160a04a2c8ff084d89",
+      "bytes": 18494
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Mannequin_Retargeting_CDO.t3d": {
+      "sha256": "7fba4dec6c3231e32282aaac662ae3cd7acb17de874989e63dd68505e6f6a21c",
+      "bytes": 2686
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Manny_PostProcess.t3d": {
+      "sha256": "639f171ee8ad664d4a5b8169ca6c3a08e3339bfa7b86a7bd16b5130fe78a6241",
+      "bytes": 321985
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Manny_PostProcess_CDO.t3d": {
+      "sha256": "15f0394a1edeb8dba63310a7ba7d0551b639c2be6f391a5c8d7932a521ad248b",
+      "bytes": 35037
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_NoPinBone_PostRetargetPhase.t3d": {
+      "sha256": "284ee34e218bb1c9ea435a28e970a5fdc6dad77570a79652b7d2ef894b1b93fd",
+      "bytes": 24443
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_NoPinBone_PostRetargetPhase_CDO.t3d": {
+      "sha256": "c04e20667188b3bc8a871c5a64bbdd59c15f92713a28585cff1cd3f78bb0fcd2",
+      "bytes": 2769
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Quinn_PostProcess.t3d": {
+      "sha256": "169e8ffdc9a633bffabc7004845874c0ca0034822033883f8efe00444845e69d",
+      "bytes": 322030
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Quinn_PostProcess_CDO.t3d": {
+      "sha256": "70ef7388e9a7d16a0f72e4d69dd3d9bc02f7ea271452221ec99293a2a8002aeb",
+      "bytes": 35037
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_RetargetPhases.t3d": {
+      "sha256": "a39df5f6b3c9c67799b00aa124c7d450e2baa19f670b2c6042cf4cf5c7994d4f",
+      "bytes": 60689
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_RetargetPhases_CDO.t3d": {
+      "sha256": "0c72da4baca93378c28b2e9a5ca892176c939d3b9d3a179f5ba24e5ccf81a437",
+      "bytes": 6158
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_RootMotionGenerator_PostRetargetPhase.t3d": {
+      "sha256": "255b4dedfa2eeea54481c88596d619cb9fbf71a0a8b7bb01bc8847104380229b",
+      "bytes": 27408
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_RootMotionGenerator_PostRetargetPhase_CDO.t3d": {
+      "sha256": "7cf51f81b42a414b9d0ab7c74f597bb221b8404bce2d50677a0ff30442a2c5c0",
+      "bytes": 2859
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Spelunkle_Retargeting.t3d": {
+      "sha256": "6d97b97641518716aecbb24f659f6c6a3f889a4cde9a663df675f49da5166754",
+      "bytes": 32474
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Spelunkle_Retargeting_CDO.t3d": {
+      "sha256": "1ef4d8707281ae1a0bafa6e3e8eb96b2b8ab590410d479bc156eaa43bce99a33",
+      "bytes": 3627
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_StackOBot_Retargeting.t3d": {
+      "sha256": "c050bc934d6d2d84266d9e23fc1860c7aa478f7bbf82ef71953ea061aa47e473",
+      "bytes": 33537
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_StackOBot_Retargeting_CDO.t3d": {
+      "sha256": "42222865ac73f9201d6860a6ed353839cf650248c91680635037daeafa8c4ac6",
+      "bytes": 3627
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Starfish_Retargeting.t3d": {
+      "sha256": "f87d7450fae0ea271def7686646cbbdbc19576d7f6b461f158ac981e0dc083ad",
+      "bytes": 34700
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\ABP_Starfish_Retargeting_CDO.t3d": {
+      "sha256": "a8234796bdb5001b371c0d12f606ac152e48915c9419dca5dd29086ef9fe330a",
+      "bytes": 3618
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\analyse_exports.py": {
+      "sha256": "0cac4b0b2134c2c90787d23585403d7315397adbda8a09441b4a2df2e495caf7",
+      "bytes": 3927
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\assets.json": {
+      "sha256": "739effde6d9ea05558358c4d7192c50f7df16f86796fbf3821e2daa3d23006fc",
+      "bytes": 367170
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\AuthoritativeActor.t3d": {
+      "sha256": "abfa6f49adab3fbe2d309b421ad8cf885449fe964d1df7e3b021fbf837e6d8f9",
+      "bytes": 16349
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\baseline.json": {
+      "sha256": "6214d3e83d17180b7f7afa47d6f9c2dd70362faf6328e67b3a21f27dc93a0c08",
+      "bytes": 204673
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\bone_mapping.csv": {
+      "sha256": "a187c79491310b0c27dcb602e1b4e23ec8ba913829c52f0a08e3a790baa09e63",
+      "bytes": 6017
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\bone_summary.json": {
+      "sha256": "9ecb32fd59c65fa826537a325457e516e2817cef74569955c458321649ffa718",
+      "bytes": 1873
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BPInterface_Button.t3d": {
+      "sha256": "26ee5b4bf4660dae3785292ac4f3cbc9d23ff3c8537d895ba771eebe0b92d80b",
+      "bytes": 7094
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BPInterface_Button_CDO.t3d": {
+      "sha256": "4d484bf70f58cb6308457bcd9acf8551e5ad3fa4198ae02a779fe5b2bd4a47a4",
+      "bytes": 290
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BPI_PlayerInteraction.t3d": {
+      "sha256": "340833a119b5e90115ab52d187ca4b9595e99f92d45e29365c8c723b1802c61e",
+      "bytes": 13458
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BPI_PlayerInteraction_CDO.t3d": {
+      "sha256": "b167920e44112802a51ac27cc9577a63154f1ee80521b9431820069166c57617",
+      "bytes": 341
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_AdjustingStrides.t3d": {
+      "sha256": "502a7ed4be7e4a0c1d4b066684d4b0395efed0976206d646282afad49baf7d76",
+      "bytes": 198885
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_AdjustingStrides_CDO.t3d": {
+      "sha256": "c34ed8a9941fac6bad7cddb4100a173da55931bf5f6585b2a66386a004ee728d",
+      "bytes": 4305
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_CopyPoseFromMesh.t3d": {
+      "sha256": "bf9e965b6925a2c027f02a23cfc1f68bdaeeec634021ce9deb99ec9cb7f1d298",
+      "bytes": 54957
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_CopyPoseFromMesh_CDO.t3d": {
+      "sha256": "05a502e950fc9f098851f02ab0b8888195c6a8a7b5244ebd2e0ce52678cfc744",
+      "bytes": 3441
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_EditingRetargetRoot.t3d": {
+      "sha256": "d3c67aa0e1a237e26223ba4618709ba02703334d815c00bf061dafd37b7658b2",
+      "bytes": 130653
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_EditingRetargetRoot_CDO.t3d": {
+      "sha256": "32cdf49e1a14491d8accc50b100ad7beea74d305e2fb40864b7d9d19c974c01f",
+      "bytes": 4321
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_MaintainingContactPoints.t3d": {
+      "sha256": "db9a3c08331e856a24950723f6ad80cd9ef35a21b0c2f351e373ad648ddcb22f",
+      "bytes": 238971
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_MaintainingContactPoints_CDO.t3d": {
+      "sha256": "a0ee183c1b7c2a412039834cd46c9cc36e44c0eea5a6f14fae05a0d30c1a3461",
+      "bytes": 4362
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_MannequinRetargeting.t3d": {
+      "sha256": "08370be8cd18b1840f47070b6202ccc33d4a6af3545c2e03a326b2eaae26e9bd",
+      "bytes": 12871
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_MannequinRetargeting_CDO.t3d": {
+      "sha256": "4be14e604c5231e28519bba477eab1453becbdc6a0225ce8f33151e368bd7e07",
+      "bytes": 3385
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_PinBone_PostRetargetPhase.t3d": {
+      "sha256": "ed47c73d1f5f4cdb5fcb33e6edf97cf6b5ac53f68c6dba591246d24b897b3c3a",
+      "bytes": 80471
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_PinBone_PostRetargetPhase_CDO.t3d": {
+      "sha256": "0224f412a2c7c4a0149812c0fdb565cfae6b267b4570a8cfc676143e486984bc",
+      "bytes": 3440
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RemapCurve_PostRetargetPhase.t3d": {
+      "sha256": "f6d17a0c28d3ddc885dcd4427515288b58ad8f1b7a8a909b54faee9da8fbc865",
+      "bytes": 5062
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RemapCurve_PostRetargetPhase_CDO.t3d": {
+      "sha256": "619d5e6f8e59d0f63e3f27f0969a230ed6c13417ad1320646d670fc38a546049",
+      "bytes": 3439
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetingDifferentCharacters.t3d": {
+      "sha256": "ae444dcd908a9c911784445d18cf101f041e68202b02cb07d7c08f62ce897913",
+      "bytes": 4829
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetingDifferentCharacters_CDO.t3d": {
+      "sha256": "8a43c8ceefb6a07993c4454a808b4d27f93d77d517b1e35fa4c2fbc00391f952",
+      "bytes": 3485
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetPhases.t3d": {
+      "sha256": "e5e32f3232a702f677e3aacefcc3c90c5aa30f40a920a3abdad3a81e85633b54",
+      "bytes": 44607
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetPhases_CDO.t3d": {
+      "sha256": "e8cada0a5a7fab8cf5ca6f70148087a535deaefe81f1c936675c78a5b6d49e85",
+      "bytes": 3352
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetPoses.t3d": {
+      "sha256": "9536c1105395140a0c43c213f0523f409028ca2a1c9da9fa596e1b780eeb7c30",
+      "bytes": 171751
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RetargetPoses_CDO.t3d": {
+      "sha256": "5f36bbb47569d2768231c93e56e04ced57cf0723de20c2101edad3f146104dbd",
+      "bytes": 3376
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RootMotionGenerator_PostRetargetPhase.t3d": {
+      "sha256": "4fa686725b99106c001d74503705a39512051156c4348be450d82660bbc4f6c7",
+      "bytes": 73404
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_RootMotionGenerator_PostRetargetPhase_CDO.t3d": {
+      "sha256": "d5cbe5ec5ee5ab69321453329811b5113f53cf49986d692dcfaf0e634f55a05b",
+      "bytes": 3539
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_Slider.t3d": {
+      "sha256": "21b54115fbdc325ba35e8cf7d1029d3ae01000b05ec4865459accc08eb35492d",
+      "bytes": 762567
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_Slider_CDO.t3d": {
+      "sha256": "38c447cd0782382bad3ee02033f6072c9b763e796ed516566c44ee359af40a39",
+      "bytes": 3911
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_SpeedPlanting.t3d": {
+      "sha256": "a244413d847ea5f56846d8b7f425f4426483f7f2e3d50e7b039f3750ea9dd397",
+      "bytes": 263600
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_SpeedPlanting_CDO.t3d": {
+      "sha256": "c19e540e9fa6f9a2cf9a7417477036be6d658731f70ec162b398a41ab64c5764",
+      "bytes": 4274
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_TranslationRetargeting.t3d": {
+      "sha256": "380a8a1a7da11757999b17acf21d4a232e4aa0bec55b06f784f669461ebc6b0a",
+      "bytes": 4675
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\BP_TranslationRetargeting_CDO.t3d": {
+      "sha256": "a245d8df80d871172d295e8df7833c519818e2f703ba6cf88f3e78239b3e4314",
+      "bytes": 3429
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\build_appendices.py": {
+      "sha256": "656ec18d34a6edba009a52fbb48da577338d0ca79c68967adcd866e5e024a5b6",
+      "bytes": 6920
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\calf_l_AnimSeq.t3d": {
+      "sha256": "900c34e51df84ce4d4cea729a59b025009157cfbed96723cb27f6e7201eb3efc",
+      "bytes": 166095
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\calf_r_AnimSeq.t3d": {
+      "sha256": "c77708399ef92de5dc366875e9c697c82534348817c5368fae913fce8e947a8a",
+      "bytes": 166056
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\CR_Mannequin_Body.t3d": {
+      "sha256": "27c135315fd1805c2458105eba839f938046eeea18723baa3ea7c1edc5a8288b",
+      "bytes": 29404037
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\CR_Mannequin_Procedural.t3d": {
+      "sha256": "e017c4257f30292eac359a9be6892b78450e7ed5b6c5eee4ac690ecdc244fc93",
+      "bytes": 4323229
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\dependencies.json": {
+      "sha256": "e46e5d33f6884e361ad06024712d232a771668f41c973d1ed2a0bb93e2188367",
+      "bytes": 107884
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\detail.json": {
+      "sha256": "348e5fa5e5077c0a421b572fbf3b5d1a50159ef319ad76f2f02be3a39009834a",
+      "bytes": 88776
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo.t3d": {
+      "sha256": "3d0fac4df56cd6ca144256ccda47c83ce00ecd7d5e74f549225dcd65813e2ab1",
+      "bytes": 183483
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Hair.t3d": {
+      "sha256": "4d9b94490665c18f8efd62dc14d54a1e0fce8ff56f9cc929b83099dab53a2e9e",
+      "bytes": 3865
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Hair_AnimBP.t3d": {
+      "sha256": "78a9cbf5b8ee73a6401a252a66779908caabdc1ca50315cfd35082d061effb34",
+      "bytes": 114652
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Hair_AnimBP_CDO.t3d": {
+      "sha256": "1a5d68c7367e3e0241d1d06a3ade009ef0555885987be2fe71414f4e090556c5",
+      "bytes": 4123
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Helpers_CtrlRig.t3d": {
+      "sha256": "4eed2218fb72a7a9d50f8ac7791164f4b4a0818d9e755f0a137ef60c59db0921",
+      "bytes": 613994
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_PostProcess_AnimBP.t3d": {
+      "sha256": "1e22265174accabc9e5647a80e6cde18ffed0c9177d29305a00550618b0afcf7",
+      "bytes": 348864
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_PostProcess_AnimBP.t3d.connected.json": {
+      "sha256": "1eddfb6afaec097784d1384bdcec7ec3ef7818516a87643e935f251eab041ff0",
+      "bytes": 76732
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_PostProcess_AnimBP_CDO.t3d": {
+      "sha256": "ac0792e7f64c9c82033003b9e413bfa792872aed7c1b57104c10316153e13e0e",
+      "bytes": 40788
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Skeleton.t3d": {
+      "sha256": "b3b1233a4de1963a08e108ed3283563f2ad01ac39f7c8d34763059458f07b287",
+      "bytes": 14155
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Echo_Twist_CtrlRig.t3d": {
+      "sha256": "0ebf590de8f6686ed2db4c01eabe1d7b9b3dd25077f7f5822c23154a327829d2",
+      "bytes": 1503028
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\final_queries.json": {
+      "sha256": "d4646700c1386df197a4977346c2b5ec569e1d4123da6e8c3264d66c1f74604d",
+      "bytes": 208651
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\graphs.json": {
+      "sha256": "77c9b054d28f1e11ac8244eb2ffc97eface59c5c80d32ab0fcbc71fa1c64a881",
+      "bytes": 532397
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\hand_l_AnimSeq.t3d": {
+      "sha256": "3b6398c53dd5d4022f9621018ace803b64c8cc481399edb71302e8763e585334",
+      "bytes": 169080
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\hand_r_AnimSeq.t3d": {
+      "sha256": "13ce968a5470e97587eea18d20deb254f66645c4b50b244da1f9d3be93ff352e",
+      "bytes": 169359
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_CurveRemap.t3d": {
+      "sha256": "b7c8b64dcdaee528863a6e2175718c12dab22c3d364cea35b8db178222b9f672",
+      "bytes": 1720
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_Mannequin.t3d": {
+      "sha256": "d1397c46b8449ce2deaba2d6aa2d3ef5d4588921b1da54b5a1fc5d029e13c1ea",
+      "bytes": 63291
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_Spelunkle_Retargeting.t3d": {
+      "sha256": "815758180a6ca33469bc80612457881d7e720fb7de4ae784f6be93747750ae9c",
+      "bytes": 36328
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_StackOBot_Retargeting.t3d": {
+      "sha256": "afc1ca54653d48559503eef594dee266e4f1a5821ff30587ae495fd69c38a175",
+      "bytes": 32046
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_Starfish_Retargeting.t3d": {
+      "sha256": "f67fad230f53d4d65571a7e57788f532ca54e3acf6ca09de11059aab4b7aafb3",
+      "bytes": 16207
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\IK_UE4_Mannequin.t3d": {
+      "sha256": "423ee84d11995a99c24a38b982a948f7688bf4ecab9497ea8977fb0ae9b52bbe",
+      "bytes": 29799
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_assets.py": {
+      "sha256": "b9961b6cd924735591af0be8fac17c5ab52426b0ee06e9223f4496b7db8daaf2",
+      "bytes": 3754
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_detail.py": {
+      "sha256": "83f7a921f5c1a6b7c7003c32af5dedc68e27f15e1257fffeba20025f748f8a75",
+      "bytes": 3334
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_final.py": {
+      "sha256": "71eaf9276d69f8c9ac8b348f4ccce53df2e0c95b1f9a7c338adfae075454145d",
+      "bytes": 2788
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_runtime.py": {
+      "sha256": "4afa2115ec69106633133389c37c92d4e348f7fc9b8e8310d090543f9b3592a8",
+      "bytes": 2936
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_scene.py": {
+      "sha256": "a6e96a9c3df6acb1384586b73adc9f57d1c349205ab0b73a63696ac194cc4424",
+      "bytes": 2137
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inspect_support.py": {
+      "sha256": "60495854d4a393910c9c8af4133588b6bb4c9b4d213664314e84fdbd94cb4c82",
+      "bytes": 6036
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\inventory.json": {
+      "sha256": "ebee0e57d80a83d51220268521d817592cd08a061dd875048f612b46287b8ce2",
+      "bytes": 59168
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Jog_Fwd.t3d": {
+      "sha256": "1dc15d359e46c6d5ae4ca9db509423f5e28c8a4e86f11c25113fdd07b64ac916",
+      "bytes": 500432
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\JumpingJacks.t3d": {
+      "sha256": "2e11242bb0ae777ef8e64be0fa550698ea55b0875ed985911be4a91f40d6b5b5",
+      "bytes": 3298882
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\lowerarm_l_AnimSeq.t3d": {
+      "sha256": "6d25fefe616b169815019ffaf99b100e964ffd1a53b112150884fe78f16654ff",
+      "bytes": 162023
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\lowerarm_r_AnimSeq.t3d": {
+      "sha256": "183589f364537ebe1e7cdd7b8923604794190e8d7a755d891c03273bedd581e1",
+      "bytes": 161523
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_calf_l_anim.t3d": {
+      "sha256": "77590cf393d6d6115e2fc15bbbd2d541268ab5afe1dc93e06a76756bd9951b2f",
+      "bytes": 166502
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_calf_r_anim.t3d": {
+      "sha256": "2b78c3cecf0eff6541a516da517d4470288a28337139a627ad01fecf803d8fcd",
+      "bytes": 166580
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_clavicle_l_anim.t3d": {
+      "sha256": "ea8f1f10a3c8308754b96a5e231f94c39a9044046a79e5d66e8ad485d7b40f6b",
+      "bytes": 166294
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_clavicle_r_anim.t3d": {
+      "sha256": "57d5dc3b227b5138c628f11687faa11895c0d6402e307d5fecd3385c79bc62af",
+      "bytes": 166067
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_foot_l_anim.t3d": {
+      "sha256": "69688b3f32aaaece12e415a9d7a8f6828094e3c01793d64c655ca067e2814dbe",
+      "bytes": 160396
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_foot_r_anim.t3d": {
+      "sha256": "f8e3a69799d6f571135ca5968af4a08d94ba6c07218b9d2535efd9e382035078",
+      "bytes": 160512
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_hand_l_anim.t3d": {
+      "sha256": "4d3b19dfde2d9a2948eca199f8d0f46a413372e394c208b449e40b7c058b3a9f",
+      "bytes": 162234
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_hand_r_anim.t3d": {
+      "sha256": "7433a3b22e8917ab254542f104ce2377c33110b69ab18c62134970525eb31c06",
+      "bytes": 162230
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_lowerarm_l_anim.t3d": {
+      "sha256": "deb6717f60d613e92ce96f7d18015cc7e4633fb96426ea480de0755f62e2aadb",
+      "bytes": 199166
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_lowerarm_r_anim.t3d": {
+      "sha256": "54128d71b27b904643757fcd4629ba95e8a9bfd0c05581e5959fba4acbc6ff09",
+      "bytes": 175608
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_thigh_l_anim.t3d": {
+      "sha256": "0c8004404e54a22b8f9abd5d6f1ed34e904928d371f8a14c32121e33fe4750c2",
+      "bytes": 201488
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_thigh_r_anim.t3d": {
+      "sha256": "3f8830eaef0aec57fb5596ad91353de81adbd5da45925bc0fae17a4f8d60b304",
+      "bytes": 201463
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_upperarm_l_anim.t3d": {
+      "sha256": "5235da3679e86ba4779ca91e3db3e1f0156fcd5b5cad079400f1a02b60650236",
+      "bytes": 209301
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Manny_upperarm_r_anim.t3d": {
+      "sha256": "86a2718d7f79a8b6983c43cfac9b8cbd871b2854a91f5be437f560a7275cb729",
+      "bytes": 210090
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MF_Run_Fwd.t3d": {
+      "sha256": "2aeeaf72be25f13164301ccb2947bddff9bad8ce871abd0674c5ca5b2cc6edc4",
+      "bytes": 705573
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MF_Run_Fwd_Speed_Curves.t3d": {
+      "sha256": "6f284fd93971e99db6eba19b28403247f362cc46ee9b582d1253254becfe0964",
+      "bytes": 733137
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MF_Walk_Fwd.t3d": {
+      "sha256": "24ecfe8be80986195b9e2ed4bbd7f7c407a51d5ba09c2a244eaae087f5eb77b2",
+      "bytes": 733522
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MidBulge.t3d": {
+      "sha256": "d7c88cc6aba9349b0a2f5e47989c26aded7b9f5dcccd997c2e067601be370387",
+      "bytes": 4212
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MidBulge_Skeleton.t3d": {
+      "sha256": "f09909c6702d1567c9fe2be44ab668507f98ce5b613c162ad0d973b28902fb34",
+      "bytes": 1115
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MM_Death_Front_01.t3d": {
+      "sha256": "c6eb874a8c72668588ce9dd353cb7ba1ec86a1bf07cde021577465efde6425a9",
+      "bytes": 536651
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\MM_Run_Fwd.t3d": {
+      "sha256": "0153193539e8ef12a61300bd290fc40df9c135494104b3bc81b3f4d64b99bb74",
+      "bytes": 666811
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\M_Jog_NoWep_N.t3d": {
+      "sha256": "a976be1a878fde1ec59c25730eaba8a3251bd7a89df710323c8a7ee0b7de56f2",
+      "bytes": 224331
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\M_MALE_Base_Skeleton.t3d": {
+      "sha256": "2fa0f13f6b9833b693a429c12535b5bf0aaa1b7a3807c0a23312777865642599",
+      "bytes": 34185
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\neck_02_AnimSeq.t3d": {
+      "sha256": "1ebd4b44b793868a1d3d8cb8902bfce77faac76d76827cd03d4b649934236d14",
+      "bytes": 180102
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\preservation.json": {
+      "sha256": "29abd7c1957959e74e7831ab594928bcd51a793748683822780cb83c87f2d3d5",
+      "bytes": 259
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\python_api.json": {
+      "sha256": "f5dd098e4ca1f838abac20280a25e6b3e228fec4a7076b1520ba5305d11c0395",
+      "bytes": 13169
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_calf_l_anim.t3d": {
+      "sha256": "bd2c2b45d19878cbbdcaccca791ec57d5bc5c7982295042be0bbf1c92f988fa9",
+      "bytes": 168794
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_calf_r_anim.t3d": {
+      "sha256": "39c6368885893657c2a876d5dfff475e600df2f3b3a7d6ab7bdae93a0486686b",
+      "bytes": 192411
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_clavicle_l_anim.t3d": {
+      "sha256": "a07a654031bf1a41d933d6f3d80c296e64450fcd9a7cb8f9f9109cd7f76ec4ed",
+      "bytes": 190388
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_clavicle_r_anim.t3d": {
+      "sha256": "ce22b611406607a7c538690a32c795f293c5ab2f45eeab3992d175dcd57aad7f",
+      "bytes": 166317
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_foot_l_anim.t3d": {
+      "sha256": "958b6b3668522be034f7a8fbdd7ffd1793ffdb9654b08eac70e2f476e19564e4",
+      "bytes": 160692
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_foot_r_anim.t3d": {
+      "sha256": "998206bcafbcf0b3b26ed2e69928bfbec624d7937915c10a2f05d4e7cd56f7ff",
+      "bytes": 160690
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_hand_l_anim.t3d": {
+      "sha256": "bbf8fe3032c420f1c12268f92d05106652507fdc1c3b402df63a509b93cd6a1f",
+      "bytes": 162418
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_hand_r_anim.t3d": {
+      "sha256": "fe2dca1c06c452254e0d4df49a0fcdf7e2771dd3202929e29c2cbdf0e58154e7",
+      "bytes": 162411
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_lowerarm_l_anim.t3d": {
+      "sha256": "a9df49717d6f82d1bb8d580703c7da585c25248fcd415000aa130d47e3f8ad29",
+      "bytes": 174629
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_lowerarm_r_anim.t3d": {
+      "sha256": "735a6e18702859daae43f0caec27f55252b799a48f4b5fff46a0e6b74c7835c8",
+      "bytes": 174183
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_thigh_l_anim.t3d": {
+      "sha256": "e11f7c3df6b260e5c290c594de7f1f1c20fac47ac4e8faa0b118cdd749fcf681",
+      "bytes": 196835
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_thigh_r_anim.t3d": {
+      "sha256": "f6c13aba0d8e2caf98f7f2012a5e1dcbe91be36b121626e6ebd834bf55416ee8",
+      "bytes": 196826
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_upperarm_l_anim.t3d": {
+      "sha256": "b73b53397e5231046a851a4dccec3ffb8306b6126ae2c50d2dacac54be7728ee",
+      "bytes": 189192
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Quinn_upperarm_r_anim.t3d": {
+      "sha256": "93d62d517b14a06f2e5f14519c188d440958e59f9a6dadc16722a0c9da6febe8",
+      "bytes": 183406
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\report_validation.json": {
+      "sha256": "775494ce3cdc85588ebf8d8fcb5a368fb730d95cebe6842ae42efe97b1198d6c",
+      "bytes": 1069
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_CurveRemap.t3d": {
+      "sha256": "0f4f09755cbb3a2f3dc8cc3741ea6554a22e838a41ed8b53bc2b97149e844fc2",
+      "bytes": 6767
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_Mannequin_Spelunkle.t3d": {
+      "sha256": "c0db1ac533da60e695be18a4e6fa01474b4eeb355ef011c8278ce48322713342",
+      "bytes": 8283
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_Mannequin_StackOBot.t3d": {
+      "sha256": "41061bcbd89c9beca858de7cc1f39073f8449186918f29f982556349b152ebaf",
+      "bytes": 12373
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_Mannequin_Starfish.t3d": {
+      "sha256": "3a5cd3172c2dcf0ac96258a8cc1b473bf399c87bf83fd0fb3b4e8e5ad382f8cb",
+      "bytes": 10465
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_NoPinBone_PostRetargetPhase.t3d": {
+      "sha256": "1fdc210e0ac18561c6994c455a6ac227ef0999c91c43e398e9e7f259501a00c0",
+      "bytes": 19989
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_RetargetPhases_FK.t3d": {
+      "sha256": "5ca9cca07c0eb3833849d2247055b07c2cb191bccec175e6701b903dedf894e2",
+      "bytes": 10332
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_RetargetPhases_Root.t3d": {
+      "sha256": "cae98bcf3daea2f9095dbadadaca14624304ea86f3fc4fa2a742473b545b8649",
+      "bytes": 10363
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_RootMotionGenerator_PostRetargetPhase.t3d": {
+      "sha256": "ae4d4eb7f4b5b77ad7f0d3f79a9d8c784bfa70c4fff70c06563961eace366812",
+      "bytes": 13210
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\RTG_UE4Manny_UE5Manny.t3d": {
+      "sha256": "524d20d5837544c4593b03b73a3cf65750d361e63a3ee055b9a0e7d8db49795c",
+      "bytes": 19691
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\runtime.json": {
+      "sha256": "bbc208a7cd65df4544525c9032186d3eb36fb3ebfcee643fca8b225c132656b1",
+      "bytes": 10981
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\runtime_comparison.json": {
+      "sha256": "8a3e9f31a37cd0f60f808b90ed0fcc9fb609df2249ce639bc42a54f0a2eaabe4",
+      "bytes": 2495
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\scene.json": {
+      "sha256": "236bacfd8a8f8e303b2a5dab3f4601d71c88963a502ffc6415c96d201b9343be",
+      "bytes": 167035
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Skeleton_Meshes_Echo_Skeleton.t3d": {
+      "sha256": "b3b1233a4de1963a08e108ed3283563f2ad01ac39f7c8d34763059458f07b287",
+      "bytes": 14155
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Skeleton_Meshes_SK_Mannequin.t3d": {
+      "sha256": "2a4e843c5b51b54fe3d0ff8bf3592fe635a9d86981f462f4b22170fbd2f8c3e2",
+      "bytes": 68084
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SKM_Bot.t3d": {
+      "sha256": "f5b09ee7db405bf86b8b3c5dcaa4688d07357f7f0dbc759a5a1d18982190a6f5",
+      "bytes": 4160
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SKM_Manny.t3d": {
+      "sha256": "569713a4e43488a5c7e5e870ee1f188726b3c5beb37084a4ce9fdd9bf1bfa170",
+      "bytes": 16697
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SKM_Manny_Simple.t3d": {
+      "sha256": "c153c2939ba46bbeaf89de40a6a9e13698532ab9c863baf5f65e00e9dc9e7323",
+      "bytes": 7536
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SKM_Quinn.t3d": {
+      "sha256": "a05e37a82c62f5f97101afa4e59ff55c11244b1c0c1943a46d087dbb6788f881",
+      "bytes": 15920
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SKM_Quinn_Simple.t3d": {
+      "sha256": "1586ad4d668aa0094ec743875307f445a198fd2fd1eba17929e2d5c291757c51",
+      "bytes": 6853
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_Bot.t3d": {
+      "sha256": "1e26417aa82e3a8785d5fa84c270ef41308950c04c2d08a4e32da31fd9c8f9de",
+      "bytes": 1644
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_L_Male_Base.t3d": {
+      "sha256": "df5fb2a28733b6cd38d31a73ee6f316dad8bd93296d1a5568caf68763f30ca62",
+      "bytes": 3456
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_Mannequin.t3d": {
+      "sha256": "2a4e843c5b51b54fe3d0ff8bf3592fe635a9d86981f462f4b22170fbd2f8c3e2",
+      "bytes": 68084
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_Mannequin_Skeleton.t3d": {
+      "sha256": "cfad75b6907f0674448702e8dd87330d775d1dda50ce8378369deaeff1606400",
+      "bytes": 6447
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_M_MALE_Base.t3d": {
+      "sha256": "3e05a4b6f7af610429976ca4bfd63fda8f1de29b8fd0087687dc44ea0c1f3051",
+      "bytes": 3455
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_Spelunkle.t3d": {
+      "sha256": "d35acc6a9f5370328c26ff3055a19ac91f55423c0d2df42283024ec2c3d067c4",
+      "bytes": 3728
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_Spelunkle_Skeleton.t3d": {
+      "sha256": "6b33617d1ce3550dfbb3dfe663f0355b0f4046fc374321a7a138e0bed28b8163",
+      "bytes": 863
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\SK_S_MALE_Base.t3d": {
+      "sha256": "b7b0c6d8ddd172f4809b6e7f7ff1aabe89f59f470919bae51e71101244535de1",
+      "bytes": 3456
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Starfish.t3d": {
+      "sha256": "abdfb6aa2b593c92a192b542fadad2d2967463afd9c01abbf4af4fce1728a085",
+      "bytes": 3646
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Starfish_Fixed_Pose.t3d": {
+      "sha256": "b2106f0583130301437ee77fb7861c274c13a569f4bfc8c215231440e4a5c4e8",
+      "bytes": 32452
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\Starfish_Skeleton.t3d": {
+      "sha256": "2e90dacf79a6b154f0b267f4ab455dba1d66f963b288ca6bf092d7546419a0ca",
+      "bytes": 823
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\support.json": {
+      "sha256": "025ef661bed661bdb499b21cd2428fd52a51833391d6de2b9aa88984d645c05a",
+      "bytes": 267092
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\TopBulge.t3d": {
+      "sha256": "a2bba9f1fa019a91891b081460d54feea10b7668c9185264af621bc0978a1242",
+      "bytes": 4171
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\TopBulge_Skeleton.t3d": {
+      "sha256": "371484ad33f396a160e52f5c1b9545e285aaff2c49791d386f93fd1119326816",
+      "bytes": 918
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\TurnWithCurve.t3d": {
+      "sha256": "873c40742c9a3a97bd9b69d508fbaf2e22e706c259f5d68c810d5c05ef381b05",
+      "bytes": 55919
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\upperarm_l_AnimSeq.t3d": {
+      "sha256": "c7135366a18bf792582082d5cfef8e1f345c3a439d81de62b3c801446e837df0",
+      "bytes": 198266
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\upperarm_r_AnimSeq.t3d": {
+      "sha256": "88707061ad23d6db31697471f071b671394ca1225e2d095f5b83e9b2dbcf6c3d",
+      "bytes": 202919
+    },
+    "Documentation\\RetargetingInvestigation\\Evidence\\validate_report.py": {
+      "sha256": "13a4c8e2ab05a231c989c70d41533138c45ac05b0bd33f9b2a9442a8d2c1a20f",
+      "bytes": 3806
+    },
+    "Documentation\\Phase3\\Evidence\\api_inventory.json": {
+      "sha256": "bea74bd6b9cb2b4213a9681e5c4f6776a7933040a9133e46ca2b5b8581c8e0dc",
+      "bytes": 14063
+    },
+    "Documentation\\Phase3\\Evidence\\collect_evidence.py": {
+      "sha256": "e39092f5ebd7e6fc9015c7d82991afc27a33b3acd42f228d957c256796ec3eb4",
+      "bytes": 5605
+    },
+    "Documentation\\Phase3\\Evidence\\fbx_inspection.json": {
+      "sha256": "a36779ef9dbaab9d8542b2953adb294ae0c4227a0aa6639842be9eb9431c78c7",
+      "bytes": 189590
+    },
+    "Documentation\\Phase3\\Evidence\\fit_search.txt": {
+      "sha256": "daf7613da90a2e89d1c027e4c48eba16c9c6a5a50f4067feecaffeb422ab73e2",
+      "bytes": 9562506
+    },
+    "Documentation\\Phase3\\Evidence\\identity_search.txt": {
+      "sha256": "2a178524b9e2a5955e220bebbfc8517bf69938187d24d82f65d3ab55bcabf942",
+      "bytes": 3171519
+    },
+    "Documentation\\Phase3\\Evidence\\index_findings.py": {
+      "sha256": "df0369071755ecb9be8229df7d5df412f70e5a6d7f033166fe6d0672aeb1d637",
+      "bytes": 13466
+    },
+    "Documentation\\Phase3\\Evidence\\pipeline_presets_structure.json": {
+      "sha256": "f1e7c2cff62d2a6e9e0c4e16790cf5c8c6a93bfa718276188f6bff9db000e485",
+      "bytes": 58330
+    },
+    "Documentation\\Phase3\\Evidence\\proportions_scale_search.txt": {
+      "sha256": "af143c76546d625af0b746472944297cbc0808f12a54869928c18c541e396bdb",
+      "bytes": 140061
+    },
+    "Documentation\\Phase3\\Evidence\\protected_after.json": {
+      "sha256": "3a58ff0071bfaebe5b104c400f36416f21debc285a1a4b12623fe560b5f56e1b",
+      "bytes": 12082
+    },
+    "Documentation\\Phase3\\Evidence\\protected_before.json": {
+      "sha256": "3a58ff0071bfaebe5b104c400f36416f21debc285a1a4b12623fe560b5f56e1b",
+      "bytes": 12082
+    },
+    "Documentation\\Phase3\\Evidence\\reference_inventory.json": {
+      "sha256": "825db71f0a7d69f5e1e83294dd95f73ce568bdb9f3287f44bd6746484161afda",
+      "bytes": 2042
+    },
+    "Documentation\\Phase3\\Evidence\\reference_texture_contact_sheet.jpg": {
+      "sha256": "87f24293d97a040fdfff5e2c6171f85c9343504cfd96cf1062b5e6782dc888b0",
+      "bytes": 172576
+    },
+    "Documentation\\Phase3\\Evidence\\relevant_file_inventory.json": {
+      "sha256": "31244cd63145c9950e577cdc6e41d8bbcdb22bbf32f0118d014bd5d74986f2ab",
+      "bytes": 497328
+    },
+    "Documentation\\Phase3\\Evidence\\resize_search.txt": {
+      "sha256": "4bb681fe7dd8b37fe5e85debc41aa4bfba8a40148081f3d448dbf3939141b4ef",
+      "bytes": 3534470
+    },
+    "Documentation\\Phase3\\Evidence\\search_engine.py": {
+      "sha256": "a476e5187c02701ef80f75a31fa92164f6bfe182e4c7a5ffeeaf73901323983d",
+      "bytes": 1972
+    },
+    "Documentation\\Phase3\\Evidence\\search_manifest.json": {
+      "sha256": "671a08c51a42cc7b2bff09e4fb36c665d70ec0b63299151064066caf046e4523",
+      "bytes": 1474
+    },
+    "Documentation\\Phase3\\Evidence\\source_evidence.json": {
+      "sha256": "407a7951ba7799f1090104bc3cb22a1a468884e4562ec26042f23d13804e7af0",
+      "bytes": 161999
+    },
+    "Documentation\\Phase3\\Evidence\\source_evidence.md": {
+      "sha256": "88794352d3e5ed0d37c24618a2340b5cee3cf4ad436b137a77fad12454e94ebb",
+      "bytes": 143392
+    },
+    "Documentation\\Phase3\\Evidence\\systems_inventory.json": {
+      "sha256": "6a79d14366963a31055cb747d543bfd74e11aa37dc684284871fd0c7cc878765",
+      "bytes": 11016
+    },
+    "Documentation\\Phase3\\Evidence\\validation.json": {
+      "sha256": "83ebf269ab50dfd0358f4b8f49edd16f6b54ca2e1baf435756a9960c3857b693",
+      "bytes": 537
+    },
+    "Documentation\\Phase3\\Evidence\\web_sources.json": {
+      "sha256": "aeca9c6645141f4b35e8c604a8bbfe42aaaca4076ce632c2667970d30c87a178",
+      "bytes": 890
+    },
+    "Working\\Phase4A\\analyse_quality.py": {
+      "sha256": "40df9787395da391c431e998e6c20f044539c0e3fee14eb87d54a936b343b9ff",
+      "bytes": 5399
+    },
+    "Working\\Phase4A\\apply_source_materials_live.py": {
+      "sha256": "6d45bf8ab38db7f86bd03d8b93b2e93b614e7a56915324da9838df3dcc552695",
+      "bytes": 1366
+    },
+    "Working\\Phase4A\\assisted2_stdout.log": {
+      "sha256": "3b63e661883c7b55c98af660dc3ffeb034fe0b66ce43f0c76a64eca27d5a333c",
+      "bytes": 17567
+    },
+    "Working\\Phase4A\\assisted_forward_stdout.log": {
+      "sha256": "5ec85bb3c366a4435b7b3ce20e0eaa5fb54d44a26325c548eb63008311dc6fa6",
+      "bytes": 17491
+    },
+    "Working\\Phase4A\\assisted_stdout.log": {
+      "sha256": "044a375631e13a86083e1c463591a3f125f04cf6b239a3b469757d326d556b38",
+      "bytes": 17230
+    },
+    "Working\\Phase4A\\audit2_stdout.log": {
+      "sha256": "f0a8c29245f6a708ed1d5193df0bee529afb9852814912df45d3dc3ced120f02",
+      "bytes": 16989
+    },
+    "Working\\Phase4A\\audit_assets.py": {
+      "sha256": "dcca6ebbdfd67c2368beec4a84d0ac6385906dd5934ec813a0470fd0a822ba04",
+      "bytes": 3958
+    },
+    "Working\\Phase4A\\audit_final_stdout.log": {
+      "sha256": "8a36e29301e3e0a5e8c3051d176d3f875b9529da37f15d71e6d8ca4c19cd769e",
+      "bytes": 17331
+    },
+    "Working\\Phase4A\\audit_forward_corrected_material_stdout.log": {
+      "sha256": "cca7284312456066ed12f8ca741920adeac52abdb25b9981784cfedda10c00ea",
+      "bytes": 16989
+    },
+    "Working\\Phase4A\\audit_forward_final_stdout.log": {
+      "sha256": "80db156fdcaa789bd620da67f66deb07b25a2e0df7eafe10e2c57936969ae095",
+      "bytes": 17331
+    },
+    "Working\\Phase4A\\audit_forward_stdout.log": {
+      "sha256": "45acaf5d4e87e34e796b3aaef6523688a2e7a23eae8d11c051dcc5e131989b16",
+      "bytes": 17103
+    },
+    "Working\\Phase4A\\audit_original_corrected_material_stdout.log": {
+      "sha256": "74b05d732805875dc84f4df25086adb795d85267950d51469f36c32321ddcffb",
+      "bytes": 17103
+    },
+    "Working\\Phase4A\\audit_stdout.log": {
+      "sha256": "4745661f26dfa5e436ba3ae9e5307f4cd42fd6718d3501e97d29a00f48d0d746",
+      "bytes": 16874
+    },
+    "Working\\Phase4A\\build_assisted.py": {
+      "sha256": "2ce0ec9906672226f2945b78e30700835ea3eea303a2920caee8365ce730d2fd",
+      "bytes": 5560
+    },
+    "Working\\Phase4A\\build_live_scene.py": {
+      "sha256": "e1c89897349de29536cac48a25c8b466f50a13b29cad7e97b988bb0a27b781ef",
+      "bytes": 3721
+    },
+    "Working\\Phase4A\\capture_and_close.py": {
+      "sha256": "2e702dadc1e0fb3fe2c384a7d53edd16dc0ab643af54fce5e3053548a30e6b99",
+      "bytes": 1070
+    },
+    "Working\\Phase4A\\capture_materials.py": {
+      "sha256": "9b1da7baae4e4bbbdcc6a36f3dd7b4e4ed4850fc75b494307d99f1306f60759d",
+      "bytes": 1444
+    },
+    "Working\\Phase4A\\capture_views.py": {
+      "sha256": "2e702dadc1e0fb3fe2c384a7d53edd16dc0ab643af54fce5e3053548a30e6b99",
+      "bytes": 1070
+    },
+    "Working\\Phase4A\\check_height_ik.py": {
+      "sha256": "d6a9b3e586482cd16ceea08173cb6ce0d4c31fd72aa3a2756d5476a4179c8871",
+      "bytes": 1619
+    },
+    "Working\\Phase4A\\collect_api_inventory.py": {
+      "sha256": "e826a5dec321260522a8824c0f309b8f3f5301d3bbd6d83478f6f461347deb9e",
+      "bytes": 7148
+    },
+    "Working\\Phase4A\\compare_geometry.log": {
+      "sha256": "775477823ed4cdf7d98dde3d178964dba96e7b17d199eebe5afe581c4b2de4a2",
+      "bytes": 824
+    },
+    "Working\\Phase4A\\compare_geometry.py": {
+      "sha256": "3f67a7dc6aa3143aadeb87eb300defb98a05d906dc04401ef0f83fcb3dddd7a2",
+      "bytes": 1267
+    },
+    "Working\\Phase4A\\final_evidence.py": {
+      "sha256": "9bd794c5b5028d57f337d1d2385c989c0a265e6a2edc54393c9da019aded2650",
+      "bytes": 7494
+    },
+    "Working\\Phase4A\\final_preservation.py": {
+      "sha256": "4b4917c596d65e5ed7149ad573c965387daa8f0314b8b1369d42865f1bdd1c23",
+      "bytes": 4046
+    },
+    "Working\\Phase4A\\height2_stdout.log": {
+      "sha256": "ec65015bb3a675f28999db623d7f3c8f82e8f952e60e5390262ecddcf33e7b85",
+      "bytes": 18304
+    },
+    "Working\\Phase4A\\height3_stdout.log": {
+      "sha256": "50cc58217cd5791b728994591ba13cc9a9745be09fd0225c194feb3fb30e690b",
+      "bytes": 18338
+    },
+    "Working\\Phase4A\\height_attempt1.json": {
+      "sha256": "1745d51d6f0d9df1d96928d71063509c71d7a6b6552e1c6515c889d9c75e13fa",
+      "bytes": 2461
+    },
+    "Working\\Phase4A\\height_attempt2.json": {
+      "sha256": "27150367629244441743d5b6cb6aa8a60abb32d30db63d1006ee7f7468968643",
+      "bytes": 199401
+    },
+    "Working\\Phase4A\\height_ik_stdout.log": {
+      "sha256": "da87bbfb05a6a8ad9d67375372c8f434a153a8a6c896a3374be4d822422d24ba",
+      "bytes": 16964
+    },
+    "Working\\Phase4A\\height_stdout.log": {
+      "sha256": "49094cf5e144e30c16e622c0b8980f0a0ba5d82eb28254bd6893b745dccba3fa",
+      "bytes": 16460
+    },
+    "Working\\Phase4A\\import2_stdout.log": {
+      "sha256": "6db4239a13cf979a9a99297ce786be062d54deb31491b62b6311b4cc654e7c70",
+      "bytes": 18801
+    },
+    "Working\\Phase4A\\import_assets.py": {
+      "sha256": "f4ed440c30779071b0502eb391149eac127922ccb325cfe04190b0a109fe7fd7",
+      "bytes": 2961
+    },
+    "Working\\Phase4A\\import_attempt1.json": {
+      "sha256": "336b662feb865adabc5ed9d842926cce391c59b1bd190f187091f08f0b25ab1a",
+      "bytes": 3351
+    },
+    "Working\\Phase4A\\import_stdout.log": {
+      "sha256": "46d4a228a3f79104ec693a3f3b1f938d0b7874ec73657c966915d83f7416bf8f",
+      "bytes": 19578
+    },
+    "Working\\Phase4A\\inspect_inputs.py": {
+      "sha256": "a549c6cb56e4ff68a63def4f7831dce415e894e73a3802c74452c7555885dd9a",
+      "bytes": 1936
+    },
+    "Working\\Phase4A\\live_verify.py": {
+      "sha256": "3e81f487fe2b9fb0eb12b0aebe0f9bb0f5288ed009ab5deb1392cb022760988d",
+      "bytes": 4141
+    },
+    "Working\\Phase4A\\live_verify_forward.py": {
+      "sha256": "db59100eb03313dadc1b34cc7121bd07ea3c78038afa5142296c39f465ed30ca",
+      "bytes": 4623
+    },
+    "Working\\Phase4A\\materials_stdout.log": {
+      "sha256": "e6400b1004f2e61b74564686152b6a7c9673e00434a16a05d6853865e1cd9140",
+      "bytes": 21185
+    },
+    "Working\\Phase4A\\medial2_stdout.log": {
+      "sha256": "24e84dd4975855cf2f50ec469c1820d68ff47f66c45b0afaa263a7265cb49460",
+      "bytes": 18032
+    },
+    "Working\\Phase4A\\medial3_stdout.log": {
+      "sha256": "2411d214e302cb2be0165aaa3cbf651164da352001b49864ed2cfbf07d83f13b",
+      "bytes": 16834
+    },
+    "Working\\Phase4A\\medial4_stdout.log": {
+      "sha256": "d92d91effa9621b1ad69b19544dd53b3d6991f7c153cd6876964c4926ec07b5d",
+      "bytes": 18105
+    },
+    "Working\\Phase4A\\medial_attempt2.json": {
+      "sha256": "9ad0739cc23262e8fde927ecc5a1ffdfccccb11111730d4e9b656daa66a4eff2",
+      "bytes": 225345
+    },
+    "Working\\Phase4A\\medial_stdout.log": {
+      "sha256": "65a6af719af89d30ad28a55e919a54281b632ffbb04276ed7bc15cff5fae9580",
+      "bytes": 16439
+    },
+    "Working\\Phase4A\\MixamoRecovered_assisted_ball_forward_skin.json": {
+      "sha256": "51523baafdb4000b90502ba46f55f643cd9c85a761309d5e02f444ae12d2fb54",
+      "bytes": 6563111
+    },
+    "Working\\Phase4A\\MixamoRecovered_assisted_skin.json": {
+      "sha256": "35a5522a81853241989a8735568d8b682417ea9d3be032fee5d7abfaecac08a2",
+      "bytes": 6562067
+    },
+    "Working\\Phase4A\\MixamoRecovered_geometry.json": {
+      "sha256": "3de2a00d8eb86bdff303f0707ec89028b2cf95269550be3c37e31deac6985451",
+      "bytes": 2464968
+    },
+    "Working\\Phase4A\\MixamoRecovered_Medial128_skin.json": {
+      "sha256": "a60b942c689ec82122026112571162a47d060fc9f449add974ec5522b09cb676",
+      "bytes": 6497444
+    },
+    "Working\\Phase4A\\MixamoRecovered_Medial128_weights.json": {
+      "sha256": "541f550ecc2330e666668412090cb371beeef87fc2548bc7fd1c6b9c43736c27",
+      "bytes": 4997616
+    },
+    "Working\\Phase4A\\MixamoRecovered_Medial64_skin.json": {
+      "sha256": "760e89ec6c30299cd343f051ff2e7cf4f1bf9662dee77c9a3f93154603701600",
+      "bytes": 6274395
+    },
+    "Working\\Phase4A\\MixamoRecovered_Medial64_weights.json": {
+      "sha256": "5cbe3c5dbabe180a7a9cd82017a7596678cd3a9aabd077a68af2923968b0acff",
+      "bytes": 4731814
+    },
+    "Working\\Phase4A\\mixamo_to_unrigged_vertex_mapping.json": {
+      "sha256": "1189e9ba5518ad533f103841fedce7a6806ed9dfa4cc3b963d072df6a985e858",
+      "bytes": 182965
+    },
+    "Working\\Phase4A\\native_actions.json": {
+      "sha256": "20567be0b975b0598f0fdbcd4bc03caa2da54150092a982612362d602c171579",
+      "bytes": 19572
+    },
+    "Working\\Phase4A\\native_build-backup-2026.09.30-16.13.04.json": {
+      "sha256": "064abb5d374fa4067f65ffb2fe428c978cc7542b31e6730d0eefc87a2b67a02e",
+      "bytes": 715308
+    },
+    "Working\\Phase4A\\native_build-backup-2026.09.30-16.13.04.log": {
+      "sha256": "9fdd19b095977199785a62ad84e68c975f9a13cdd82a1a608af2fddf426f4d7c",
+      "bytes": 203061
+    },
+    "Working\\Phase4A\\native_build-backup-2026.09.30-16.14.14.json": {
+      "sha256": "c3b0b251441c2a35e512632084fd48106143883e9b597f6121e035b25f04fe96",
+      "bytes": 712105
+    },
+    "Working\\Phase4A\\native_build-backup-2026.09.30-16.14.14.log": {
+      "sha256": "d3328f5de4b94fad016a4c3943e8c0f8cf1cc4c5f3da6ab3552f1501955186ff",
+      "bytes": 202410
+    },
+    "Working\\Phase4A\\native_build.json": {
+      "sha256": "dd23db47a999707d19e501e94d6fb807726c1249aeff34a9d2202305b0591e1e",
+      "bytes": 716482
+    },
+    "Working\\Phase4A\\native_build.log": {
+      "sha256": "f884c2572f4b1771e12f087fcf344d63b1d93e7bfbba6e04450e410754aeeda8",
+      "bytes": 203811
+    },
+    "Working\\Phase4A\\native_build2_stdout.log": {
+      "sha256": "4749aa17488a40c53aadd4ddcc09095374ce61be0e341a80160e4a54aaa8ad35",
+      "bytes": 3484
+    },
+    "Working\\Phase4A\\native_build3_stdout.log": {
+      "sha256": "2a91314fb4f1b8fc829c2461562f77ba87c81bb304b6dd62e3ca280d8bbef8c0",
+      "bytes": 3455
+    },
+    "Working\\Phase4A\\native_build4_stdout.log": {
+      "sha256": "61d591433ab5ebc1874f6ddb281bc8483095ce615b221cbd24890bc6dbda1dd4",
+      "bytes": 3699
+    },
+    "Working\\Phase4A\\native_build_stdout.log": {
+      "sha256": "84bff43598fb8688bf3d31398246d346f3b8d76afdafecfe1ec7568cef5b78fd",
+      "bytes": 430
+    },
+    "Working\\Phase4A\\native_direct.log": {
+      "sha256": "d6027d5a4ebf89d7456bb7256003041e2396cd3aaa716cd0411826fa27f58a71",
+      "bytes": 15278
+    },
+    "Working\\Phase4A\\native_direct2.log": {
+      "sha256": "13fbcdef937d7620031c3943887319cf5119b1c0a507bde39513c609469535f4",
+      "bytes": 518
+    },
+    "Working\\Phase4A\\native_direct3.log": {
+      "sha256": "4c383a3d754877a127e46834e767ba849afdc12968a4f5765e9507cc4d6b4997",
+      "bytes": 543
+    },
+    "Working\\Phase4A\\native_direct4.log": {
+      "sha256": "2f39fd3b4580d160826aa31a75521be9ffb505ef86dc87fadf91de454b31285d",
+      "bytes": 500
+    },
+    "Working\\Phase4A\\native_direct5.log": {
+      "sha256": "2f39fd3b4580d160826aa31a75521be9ffb505ef86dc87fadf91de454b31285d",
+      "bytes": 500
+    },
+    "Working\\Phase4A\\native_direct6.log": {
+      "sha256": "2f39fd3b4580d160826aa31a75521be9ffb505ef86dc87fadf91de454b31285d",
+      "bytes": 500
+    },
+    "Working\\Phase4A\\native_direct7.log": {
+      "sha256": "cdc287d2cc956c1b3a5f8845114c0129062995d959cef8b605909d0319cf0afe",
+      "bytes": 525
+    },
+    "Working\\Phase4A\\native_export.json": {
+      "sha256": "34fd9001d20271950939ef0a87d1bc88ec8825373ea266b556fd7200124b9695",
+      "bytes": 710824
+    },
+    "Working\\Phase4A\\native_export.log": {
+      "sha256": "d9f20e3c566d9d140dc392d63f055840695278c8de46a84986a5c3c560fbe791",
+      "bytes": 202602
+    },
+    "Working\\Phase4A\\native_export2.json": {
+      "sha256": "94641c6265010c2e295331bb246cca73df51ffa3f4e7d36c0dee6cef3d926540",
+      "bytes": 719422
+    },
+    "Working\\Phase4A\\native_export2.log": {
+      "sha256": "1c065c4f3c3709e39e105211a19ff558c46dd41174f4dcc7c895c943126226c8",
+      "bytes": 205319
+    },
+    "Working\\Phase4A\\native_export2_stdout.log": {
+      "sha256": "b3eeac12294ad9ab4cb898659fa86f5b8632f2fcef7e7618efb0fc3efe575daa",
+      "bytes": 2934
+    },
+    "Working\\Phase4A\\native_export3.json": {
+      "sha256": "6c368535485b6f190f547dffd34fdc9ccd472a98662a593ff72062f5574beefd",
+      "bytes": 701950
+    },
+    "Working\\Phase4A\\native_export3.log": {
+      "sha256": "85ee7ea1876cfa2b089342a21bfd183abf3a4a02bf789ffec85b1543a41e8623",
+      "bytes": 200153
+    },
+    "Working\\Phase4A\\native_export3_stdout.log": {
+      "sha256": "ba4292bf172c65ac045b2a469621aa51b8964231c7effb577d7a456c0020593c",
+      "bytes": 2582
+    },
+    "Working\\Phase4A\\native_export5.json": {
+      "sha256": "65637250545d24260d84ccb8a4ccf37d00ee04c76182cf86efa2b90134586c1d",
+      "bytes": 701054
+    },
+    "Working\\Phase4A\\native_export5.log": {
+      "sha256": "58fb6ce93331b7952478c2404c76f8e5432f5b5f8427117553dd440aff5c2e21",
+      "bytes": 199767
+    },
+    "Working\\Phase4A\\native_export5_stdout.log": {
+      "sha256": "4a61573c39d7e8158b308ee813f8c589b674ea4554e6d656708cb4368802014a",
+      "bytes": 1892
+    },
+    "Working\\Phase4A\\native_export6.json": {
+      "sha256": "4b81e1505dd6603358ce5379e5933e67dc0ec28894e487a42a53b5f31837afbb",
+      "bytes": 697792
+    },
+    "Working\\Phase4A\\native_export6.log": {
+      "sha256": "7d1d1e31d5f45cd1841a98db062eb8b48ff3322c82ce1236ac00e7afef82846e",
+      "bytes": 198915
+    },
+    "Working\\Phase4A\\native_export6_stdout.log": {
+      "sha256": "61548ca67bec7abd9c3dc6869b66c13123d1349a614b865438c2b31551d0223e",
+      "bytes": 1853
+    },
+    "Working\\Phase4A\\native_export7.json": {
+      "sha256": "9809898f64322c7be0ce0f872faf62a03750cb5a522dfa37ba3bf4fefea92346",
+      "bytes": 697806
+    },
+    "Working\\Phase4A\\native_export7.log": {
+      "sha256": "7fb2654f91605d49ba799535b732b3f3d576629365a98d975c0c3514f7dd4e30",
+      "bytes": 198922
+    },
+    "Working\\Phase4A\\native_export7_stdout.log": {
+      "sha256": "e57ffe29004df1e5081ab3916567fc19bbcb91827699515ec56b3bba5eb95f83",
+      "bytes": 1853
+    },
+    "Working\\Phase4A\\native_export_stdout.log": {
+      "sha256": "9e69882b78a941545ef762ede9b75f36d882c9f313a902fc23aa5c81b00da954",
+      "bytes": 2894
+    },
+    "Working\\Phase4A\\native_playback.png": {
+      "sha256": "244083c55abf2a9b20d9e7cfb22365b4d16d65eb0968cfbd2ef58f3a851751fc",
+      "bytes": 39892
+    },
+    "Working\\Phase4A\\native_playback_ball_forward.png": {
+      "sha256": "cfeef84d0fe4cf8a34012ad66d61e323b6d4070c2620024f360c6efa62063ac1",
+      "bytes": 497042
+    },
+    "Working\\Phase4A\\prepare_final_checks.py": {
+      "sha256": "7092bfea73a5e9aa7775d6e283963d00a687444b539c26a870785d425b62073e",
+      "bytes": 1016
+    },
+    "Working\\Phase4A\\prepare_geometry.log": {
+      "sha256": "a0c7130c1fe99111df7b8167c40bb1a41c28d4ebc7109d130f85c822a7cd30b0",
+      "bytes": 234489
+    },
+    "Working\\Phase4A\\prepare_geometry.py": {
+      "sha256": "669b302cba10d3033be6f1abd67448f7fb3937660ecc38b4261e45d996f5da80",
+      "bytes": 3853
+    },
+    "Working\\Phase4A\\preservation_stdout.log": {
+      "sha256": "e3bfb914678f3b3fd116fdea88471033d4865e9e8f895c438b69ad4137f9944b",
+      "bytes": 24322
+    },
+    "Working\\Phase4A\\preserve_materials.py": {
+      "sha256": "a5be6afa38cde3d0b074cb4296077b38c37a269ffee289111e7f430946512fea",
+      "bytes": 2467
+    },
+    "Working\\Phase4A\\probe2_stdout.log": {
+      "sha256": "f220614ad1af6d9fa865eca1d5ca7bf31beed054ed90a917ab30e7771be6f533",
+      "bytes": 16286
+    },
+    "Working\\Phase4A\\probe_stdout.log": {
+      "sha256": "cd72462d06d5c283242105ff3b57131f9cedebb35c4393695976701cd24f4964",
+      "bytes": 18742
+    },
+    "Working\\Phase4A\\probe_ue.py": {
+      "sha256": "657638a9f3a0734e1fb4f99630ec45bc5712c357c137eef7edbd2e420a1e5e44",
+      "bytes": 1153
+    },
+    "Working\\Phase4A\\quantify.py": {
+      "sha256": "225030bb825e1db6b9dc4f34653c408add35931a63a2ebae60f714e8b1fe8c2d",
+      "bytes": 5710
+    },
+    "Working\\Phase4A\\repair_texture_reference.py": {
+      "sha256": "b2f02f8742c5c95aad83a973858dc3219abc247a76eae67ca4b77f4d69b8788f",
+      "bytes": 1785
+    },
+    "Working\\Phase4A\\retarget2_stdout.log": {
+      "sha256": "fcca8693b4a68749fd96e06514378711d4dd5cb2a0a3562ff53080d77ee227ed",
+      "bytes": 41887
+    },
+    "Working\\Phase4A\\retarget_and_test.py": {
+      "sha256": "488c112dc955f6da895588f11f96a89975c200039c9fc22e1183997685b72595",
+      "bytes": 5946
+    },
+    "Working\\Phase4A\\retarget_forward_stdout.log": {
+      "sha256": "220d9d090429d5489e819fc3005c4cfa72735ecba7e200a2c93901fbdc1fb561",
+      "bytes": 50950
+    },
+    "Working\\Phase4A\\retarget_stdout.log": {
+      "sha256": "38f4172bb842ca2b9742296a85e1288c1bf9b3b4f436ca83251149467d0889a8",
+      "bytes": 37586
+    },
+    "Working\\Phase4A\\run_native_actions.py": {
+      "sha256": "b567d977445b3d0e2130f2c682a5fe6281e9b10e33dfaa4f43c7c9f4667d32b3",
+      "bytes": 1189
+    },
+    "Working\\Phase4A\\scene_stdout.log": {
+      "sha256": "2d92e8e55f94c14c76263a2e7eec84e8a64b2948264013ac757f6bab07c83400",
+      "bytes": 17897
+    },
+    "Working\\Phase4A\\self_review.py": {
+      "sha256": "305468a579fc3d2daa039afac0df7173315ea2eef609eb3b8109722f801e2807",
+      "bytes": 6675
+    },
+    "Working\\Phase4A\\test_height_routes.py": {
+      "sha256": "8cacd8d48995cec5602d8b668c4d43b7b0536e485b04ea7d91222b640743f6ac",
+      "bytes": 3955
+    },
+    "Working\\Phase4A\\test_medial.py": {
+      "sha256": "44fb4ffdafe620150d677eb325abd44566377e13f9cc6f56d1235187f78e0f78",
+      "bytes": 4148
+    },
+    "Working\\Phase4A\\texture_before_after.png": {
+      "sha256": "76c8c3b429c6260e2830c4bbb30cc5c9c7bf671ab6782f4f37b8e99d4c6ef7cb",
+      "bytes": 1228072
+    },
+    "Working\\Phase4A\\texture_before_after_unlit.png": {
+      "sha256": "5452de4d43a1210205e0e0c07f7a1a6b253de036ffe297f7d0d27554d8a62951",
+      "bytes": 767574
+    },
+    "Working\\Phase4A\\texture_front_unlit.png": {
+      "sha256": "2af97bee11f7fa22e0b7efc190cb6cd7e5941c4b045d4e5592546fb7a87cd7a6",
+      "bytes": 791575
+    },
+    "Working\\Phase4A\\texture_stdout.log": {
+      "sha256": "b269682f104e7ffc40783905d82a0a19acc74383576760194b85b1e0d0058737",
+      "bytes": 16909
+    },
+    "Working\\Phase4A\\ue_common.py": {
+      "sha256": "8d9a3b5f4f866a0c0fd84f358ff66eca65fe829f21e91a60d79b4eb82e4429e2",
+      "bytes": 2005
+    },
+    "Working\\Phase4A\\uht5_stdout.log": {
+      "sha256": "4e579dcc34d1bea849e23c5436c29e4e069bd5bed2183cbbbb93154be25ae0cb",
+      "bytes": 172
+    },
+    "Working\\Phase4A\\Unrigged_assisted_ball_forward_skin.json": {
+      "sha256": "b63675ae270ef26081c773e24f9b31af31c58e95e68e25879796ca8f1b37b3b0",
+      "bytes": 6560717
+    },
+    "Working\\Phase4A\\Unrigged_assisted_skin.json": {
+      "sha256": "29a424f73c3ad3200161293691f4176145988a39f504532896d25b6fa0c941e7",
+      "bytes": 6559700
+    },
+    "Working\\Phase4A\\Unrigged_geometry.json": {
+      "sha256": "5657f04782ce21ad600cd0a07a4cf34d15e8077fa374fe55b7da99d1f7cd39c1",
+      "bytes": 6984176
+    },
+    "Working\\Phase4A\\Unrigged_Medial128_skin.json": {
+      "sha256": "450f51888cb13d261c3013c6e20cf5d22b3ae86fa924b60d84a9a20b19cc0864",
+      "bytes": 6491676
+    },
+    "Working\\Phase4A\\Unrigged_Medial128_weights.json": {
+      "sha256": "435114a724a73717c1f568673ce2aa9bdc338d6e05980a1c0189253b7bfb8008",
+      "bytes": 4990308
+    },
+    "Working\\Phase4A\\Unrigged_Medial64_skin.json": {
+      "sha256": "9eb37744db7f7db8b0e4935fdee3d55b61ec4647d5e3fa59ca3d0369b2536df9",
+      "bytes": 6145728
+    },
+    "Working\\Phase4A\\Unrigged_Medial64_weights.json": {
+      "sha256": "c8600b516346f464d4f0d0fcf7227aa51fc643ab9ae7fb293d4e422fa63dbcd4",
+      "bytes": 4559049
+    },
+    "Working\\Phase4A\\uv_validate2_stdout.log": {
+      "sha256": "4e7ec668e1ccac7746f11a614b3c453f1413881a94deb3a46ed0b611c0b2a1cd",
+      "bytes": 16398
+    },
+    "Working\\Phase4A\\uv_validate_stdout.log": {
+      "sha256": "121f33f9cb77c560639049e62b3a177fd62baf1d6270264a5f625da692a0d2a7",
+      "bytes": 16969
+    },
+    "Working\\Phase4A\\validate_uv_import.py": {
+      "sha256": "a778b5b2f375d2419fad9d299096952f8f0322605cbfbeeca7d0eaddeecfaf57",
+      "bytes": 1910
+    },
+    "Working\\Phase4A\\visual_skin_samples.json": {
+      "sha256": "1130c3abe8d92b3e5bc4e7c433bfaf3e888df729c3c7bc15119356e24980c3e1",
+      "bytes": 55433129
+    },
+    "Working\\Phase4A\\visual_skin_samples_ball_forward.json": {
+      "sha256": "2a50e54a21185fe69ef2546822f753aadb5c50c2d3da3dc2e1b95025f556225d",
+      "bytes": 55416714
+    },
+    "Working\\Phase4A\\NativeHost\\Phase4AHost.uproject": {
+      "sha256": "2c430b78a454103862f1c530410cdf44a3dd60f774ccdff6e7b18faea22b71de",
+      "bytes": 95
+    },
+    "Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Phase4ATools.uplugin": {
+      "sha256": "df92848176d244eddcf88cecc2d3f89de64e5ac1510d609112d47883b13a1aba",
+      "bytes": 301
+    },
+    "Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Source\\Phase4ATools\\Phase4ATools.Build.cs": {
+      "sha256": "c44e1d2f3f7a1420d37c4ffacf5e54d9fd5e2b46f2ec14139d13be6903ab3704",
+      "bytes": 402
+    },
+    "Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Source\\Phase4ATools\\Private\\Phase4ALibrary.cpp": {
+      "sha256": "36b3032eb91ff93f826a0c079430189250a45afa313174b01eebd56b6bbc9e61",
+      "bytes": 3135
+    },
+    "Working\\Phase4A\\NativeHost\\Plugins\\Phase4ATools\\Source\\Phase4ATools\\Public\\Phase4ALibrary.h": {
+      "sha256": "503b4e4570ff765740f0b0a18973357a1873470f4d216f9540d74b712dd196d3",
+      "bytes": 631
+    },
+    "Working\\Phase4A\\Inputs\\MixamoRecovered\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx": {
+      "sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a",
+      "bytes": 1621724
+    },
+    "Working\\Phase4A\\Inputs\\Unrigged\\Lara_UnRigged_Textured.fbx": {
+      "sha256": "d73f4bbb1e0701deedf1ab002d7b35c1328c73740f0ac7db70b1b6408fb504ab",
+      "bytes": 1759072
+    },
+    "Working\\Phase4A\\Inputs\\Unrigged\\Lara_UnRigged_Textured.fbm\\Lara_UnRigged_Textured_basecolor.jpg": {
+      "sha256": "e54248a0d64cc4e4b40ade553e679f2b6919b87e79dbdb66adcf73e253a6b585",
+      "bytes": 4026618
+    },
+    "Working\\Phase4A\\Geometry\\MixamoRecovered\\Lara_Geometry.blend": {
+      "sha256": "2ba893356db0d3619789562581015874efa57e1c2d85f62c42625d7fc88ee966",
+      "bytes": 1302489
+    },
+    "Working\\Phase4A\\Geometry\\MixamoRecovered\\Lara_Geometry.fbx": {
+      "sha256": "c3b678e10a8530f456d079ce891d38306126b162f2859771751b724eedd07be7",
+      "bytes": 1040188
+    },
+    "Working\\Phase4A\\Geometry\\Unrigged\\Lara_Geometry.blend": {
+      "sha256": "1b3e0baea7397d55f5ae1aa0f23575c214988bf5eb16053544950042f4a2d0ad",
+      "bytes": 1880658
+    },
+    "Working\\Phase4A\\Geometry\\Unrigged\\Lara_Geometry.fbx": {
+      "sha256": "e3276f63f24c4b3f3dd25081f68d160c6c8fcf5c0b2719086b8276b725ab0246",
+      "bytes": 1670188
+    },
+    "MHTo3DCharacter.uproject": {
+      "sha256": "4542a149e0ece87886d84d7505f257e231737a6d22805fdff3c21210635bd143",
+      "bytes": 374
+    }
+  }
+}

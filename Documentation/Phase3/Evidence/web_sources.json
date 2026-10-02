@@ -1,0 +1,13 @@
+{
+  "review_date_local": "2026-09-30",
+  "purpose": "Epic primary-source corroboration; installed 5.8.3 source remains main evidence",
+  "urls": [
+    "https://dev.epicgames.com/documentation/metahuman/metahuman-5-8-release-notes-in-unreal-engine",
+    "https://dev.epicgames.com/documentation/metahuman/metahuman-creator-from-custom-mesh-tool-in-unreal-engine",
+    "https://dev.epicgames.com/documentation/metahuman/metahuman-creator-python-scripting-in-unreal-engine",
+    "https://dev.epicgames.com/documentation/en-us/metahuman/from-template-mesh",
+    "https://forums.unrealengine.com/t/metahuman-conform-topology-asset-pack-released/2609293",
+    "https://dev.epicgames.com/documentation/metahuman/metahuman-creator-body-params-tool-in-unreal-engine",
+    "https://www.metahuman.com/news/metahuman-5-7-brings-major-improvements-to-body-conforming-with-more-to-come"
+  ]
+}

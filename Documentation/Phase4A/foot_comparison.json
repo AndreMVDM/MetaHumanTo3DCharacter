@@ -1,0 +1,605 @@
+{
+  "method": "Same four in-place clips, 25 uniformly spaced poses, 180cm, weighted-foot surface minima; CPU LBS estimate. No world-speed or contact solver proof.",
+  "comparison": [
+    {
+      "role": "idle",
+      "Phase3B_Mixamo_min_sole_z_cm": {
+        "l": -0.620452479862674,
+        "r": -0.6455320147838812
+      },
+      "Phase4A_assisted_min_sole_z_cm": {
+        "Unrigged": {
+          "l": 5.287310635659415,
+          "r": 4.978222998476614
+        },
+        "MixamoRecovered": {
+          "l": 5.287307876587156,
+          "r": 4.978222198880017
+        }
+      }
+    },
+    {
+      "role": "walk",
+      "Phase3B_Mixamo_min_sole_z_cm": {
+        "l": -2.2809240417386794,
+        "r": -2.043556026613145
+      },
+      "Phase4A_assisted_min_sole_z_cm": {
+        "Unrigged": {
+          "l": 4.410381893115081,
+          "r": 4.161329759906567
+        },
+        "MixamoRecovered": {
+          "l": 4.410379159675745,
+          "r": 4.16132895724477
+        }
+      }
+    },
+    {
+      "role": "run",
+      "Phase3B_Mixamo_min_sole_z_cm": {
+        "l": -0.6652302149269523,
+        "r": -0.5240877384641874
+      },
+      "Phase4A_assisted_min_sole_z_cm": {
+        "Unrigged": {
+          "l": 4.459260084377738,
+          "r": 4.411936038602997
+        },
+        "MixamoRecovered": {
+          "l": 4.459257268237283,
+          "r": 4.411935243387634
+        }
+      }
+    },
+    {
+      "role": "reach",
+      "Phase3B_Mixamo_min_sole_z_cm": {
+        "l": 0.5048699294932659,
+        "r": -2.2803348534340713
+      },
+      "Phase4A_assisted_min_sole_z_cm": {
+        "Unrigged": {
+          "l": 4.132952895497218,
+          "r": 3.9685919227080375
+        },
+        "MixamoRecovered": {
+          "l": 4.132949907583004,
+          "r": 3.9685911438399315
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "case": "Unrigged",
+      "mode": "FK",
+      "role": "idle",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 57,
+      "max_stretched_triangle_count": 28,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            5.177979231344837,
+            5.324785431469755
+          ],
+          "toe_pitch_range_deg": [
+            -29.020823079878706,
+            -28.638066674538017
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.919142101206598,
+            5.047291678663107
+          ],
+          "toe_pitch_range_deg": [
+            -28.69109337474144,
+            -28.237013210979395
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "FK",
+      "role": "walk",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.7737259428460845e-08,
+      "max_collapsed_triangle_count": 138,
+      "max_stretched_triangle_count": 63,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.665867256035597,
+            16.09653646762559
+          ],
+          "toe_pitch_range_deg": [
+            -89.16105550764759,
+            2.290517139318846
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.679255325764103,
+            17.197448650783727
+          ],
+          "toe_pitch_range_deg": [
+            -85.65002441124511,
+            2.0272101382802146
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "FK",
+      "role": "run",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725976152775e-08,
+      "max_collapsed_triangle_count": 265,
+      "max_stretched_triangle_count": 171,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.63492572224743,
+            45.44122186466302
+          ],
+          "toe_pitch_range_deg": [
+            -79.12063979600036,
+            -12.166940158698715
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.7878181358227865,
+            44.80264056237845
+          ],
+          "toe_pitch_range_deg": [
+            -88.16949300118858,
+            2.173077712732286
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "FK",
+      "role": "reach",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725965050545e-08,
+      "max_collapsed_triangle_count": 135,
+      "max_stretched_triangle_count": 308,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.870087878168268,
+            18.138051440238783
+          ],
+          "toe_pitch_range_deg": [
+            -52.45163144411808,
+            -26.7854919145361
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.4090848415853126,
+            18.089671366543442
+          ],
+          "toe_pitch_range_deg": [
+            -48.665471973643804,
+            -23.873561178422605
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "Full",
+      "role": "idle",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725998357236e-08,
+      "max_collapsed_triangle_count": 54,
+      "max_stretched_triangle_count": 28,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            5.287310635659415,
+            5.455548987137413
+          ],
+          "toe_pitch_range_deg": [
+            -27.261313867658426,
+            -26.935235300075124
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.978222998476614,
+            5.104678734736875
+          ],
+          "toe_pitch_range_deg": [
+            -26.23979067309046,
+            -25.790773898849864
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "Full",
+      "role": "walk",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 128,
+      "max_stretched_triangle_count": 61,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.410381893115081,
+            13.279143634963244
+          ],
+          "toe_pitch_range_deg": [
+            -88.44972256678626,
+            3.0837276101039204
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.161329759906567,
+            14.54529594816101
+          ],
+          "toe_pitch_range_deg": [
+            -85.27177093802992,
+            3.199480150415812
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "Full",
+      "role": "run",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725976152775e-08,
+      "max_collapsed_triangle_count": 262,
+      "max_stretched_triangle_count": 174,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.459260084377738,
+            42.816097193308366
+          ],
+          "toe_pitch_range_deg": [
+            -80.76137491225482,
+            -10.500901196964952
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.411936038602997,
+            41.95473494615908
+          ],
+          "toe_pitch_range_deg": [
+            -88.20227265431006,
+            3.094722226453072
+          ]
+        }
+      }
+    },
+    {
+      "case": "Unrigged",
+      "mode": "Full",
+      "role": "reach",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 124,
+      "max_stretched_triangle_count": 307,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.132952895497218,
+            17.080410715140616
+          ],
+          "toe_pitch_range_deg": [
+            -50.842241868169914,
+            -24.37888680299174
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            3.9685919227080375,
+            17.07004992745058
+          ],
+          "toe_pitch_range_deg": [
+            -46.9522477634265,
+            -21.326914287391734
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "FK",
+      "role": "idle",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 57,
+      "max_stretched_triangle_count": 31,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            5.17797646260237,
+            5.324782663023047
+          ],
+          "toe_pitch_range_deg": [
+            -29.020823079878706,
+            -28.638066674538017
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.919141291128197,
+            5.047290867123641
+          ],
+          "toe_pitch_range_deg": [
+            -28.69109337474144,
+            -28.237013210979395
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "FK",
+      "role": "walk",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.7737259428460845e-08,
+      "max_collapsed_triangle_count": 138,
+      "max_stretched_triangle_count": 68,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.6658645218595085,
+            16.096534192174232
+          ],
+          "toe_pitch_range_deg": [
+            -89.16105550764759,
+            2.290517139318846
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.67925451790922,
+            17.19744819540992
+          ],
+          "toe_pitch_range_deg": [
+            -85.65002441124511,
+            2.0272101382802146
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "FK",
+      "role": "run",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725976152775e-08,
+      "max_collapsed_triangle_count": 269,
+      "max_stretched_triangle_count": 175,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.634922937588909,
+            45.44122380334303
+          ],
+          "toe_pitch_range_deg": [
+            -79.12063979600036,
+            -12.166940158698715
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.787817329512835,
+            44.802641184129136
+          ],
+          "toe_pitch_range_deg": [
+            -88.16949300118858,
+            2.173077712732286
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "FK",
+      "role": "reach",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725965050545e-08,
+      "max_collapsed_triangle_count": 134,
+      "max_stretched_triangle_count": 313,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.870083820330651,
+            18.138047612985957
+          ],
+          "toe_pitch_range_deg": [
+            -52.45163144411808,
+            -26.7854919145361
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.409084052173377,
+            18.089670490160316
+          ],
+          "toe_pitch_range_deg": [
+            -48.665471973643804,
+            -23.873561178422605
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "Full",
+      "role": "idle",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725998357236e-08,
+      "max_collapsed_triangle_count": 54,
+      "max_stretched_triangle_count": 31,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            5.287307876587156,
+            5.455546228041374
+          ],
+          "toe_pitch_range_deg": [
+            -27.261313867658426,
+            -26.935235300075124
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.978222198880017,
+            5.10467793511995
+          ],
+          "toe_pitch_range_deg": [
+            -26.23979067309046,
+            -25.790773898849864
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "Full",
+      "role": "walk",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 128,
+      "max_stretched_triangle_count": 66,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.410379159675745,
+            13.279141330185727
+          ],
+          "toe_pitch_range_deg": [
+            -88.44972256678626,
+            3.0837276101039204
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.16132895724477,
+            14.545295486353979
+          ],
+          "toe_pitch_range_deg": [
+            -85.27177093802992,
+            3.199480150415812
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "Full",
+      "role": "run",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773725976152775e-08,
+      "max_collapsed_triangle_count": 261,
+      "max_stretched_triangle_count": 178,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.459257268237283,
+            42.816099153599865
+          ],
+          "toe_pitch_range_deg": [
+            -80.76137491225482,
+            -10.500901196964952
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            4.411935243387634,
+            41.9547355084312
+          ],
+          "toe_pitch_range_deg": [
+            -88.20227265431006,
+            3.094722226453072
+          ]
+        }
+      }
+    },
+    {
+      "case": "MixamoRecovered",
+      "mode": "Full",
+      "role": "reach",
+      "samples": 25,
+      "finite": true,
+      "max_bone_scale_error": 0.0,
+      "max_limb_length_error": 3.773726020561696e-08,
+      "max_collapsed_triangle_count": 123,
+      "max_stretched_triangle_count": 312,
+      "feet": {
+        "l": {
+          "surface_floor_range_cm": [
+            4.132949907583004,
+            17.080406867311506
+          ],
+          "toe_pitch_range_deg": [
+            -50.842241868169914,
+            -24.37888680299174
+          ]
+        },
+        "r": {
+          "surface_floor_range_cm": [
+            3.9685911438399315,
+            17.07004903769215
+          ],
+          "toe_pitch_range_deg": [
+            -46.9522477634265,
+            -21.326914287391734
+          ]
+        }
+      }
+    }
+  ],
+  "latest_corrected_evidence": "foot_comparison_ball_forward.json",
+  "profile": "Original assisted toe landmark, retained for failure comparison"
+}

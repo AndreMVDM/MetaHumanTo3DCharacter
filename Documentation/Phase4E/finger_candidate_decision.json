@@ -1,0 +1,5 @@
+{
+  "accepted": false,
+  "reason": "Requires no previously passing support-screen regression plus right-ring improvement",
+  "limitations": "Sparse support is not natural flexion/volume/collision acceptance"
+}

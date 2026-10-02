@@ -1,0 +1,43 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_RemapCurve_PostRetargetPhase" ExportPath="/Script/Engine.Blueprint'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:EventGraph'"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:UserConstructionScript'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:UserConstructionScript.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:EventGraph'"
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      bAllowDeletion=False
+      GraphGuid=19A29B524DF8CAA7E9B3DFAB226E476E
+   End Object
+   Begin Object Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:UserConstructionScript'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:UserConstructionScript.K2Node_FunctionEntry_0'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="UserConstructionScript")
+         NodeGuid=6542490F4BD0A3E005A1A0B8DF5506C0
+         CustomProperties Pin (PinId=FD2C298947063DB8C10A9EA4823D16FC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      bAllowDeletion=False
+      GraphGuid=E6914D8B405338FA86610BB957FBC197
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:SceneThumbnailInfo_0'"
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.Actor'"
+   BlueprintSystemVersion=2
+   SimpleConstructionScript="/Script/Engine.SimpleConstructionScript'BP_RemapCurve_PostRetargetPhase_C:SimpleConstructionScript_0'"
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/Engine.EdGraph'UserConstructionScript'"
+   NewVariables(0)=(VarName="useGroomAssets",VarGuid=52D2240D42D8F0F09C731E9498D98580,VarType=(PinCategory="bool"),FriendlyName="Use Groom Assets",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541,MetaDataArray=((DataKey="MultiLine",DataValue="true")))
+   CategorySorting(0)="Default"
+   CategorySorting(1)=""
+   CategorySorting(2)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:UserConstructionScript",SavedViewOffset=(X=-1770.321899,Y=-1234.494141),SavedZoomAmount=0.175000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase:EventGraph",SavedZoomAmount=1.000000)
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BP_RemapCurve_PostRetargetPhase_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=385974154BC3B3133CAC2DB3E264516B
+End Object

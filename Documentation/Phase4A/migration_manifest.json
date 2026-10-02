@@ -1,0 +1,67 @@
+{
+  "status": "Dependency readiness verified; no clean-project migration or packaged/cooked executable test performed",
+  "profile": "Assisted180BallForward diagnostic only",
+  "cases": [
+    {
+      "case": "Unrigged",
+      "game_packages": [
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SKEL_Lara",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SK_Lara",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/SK_Lara_Authoring",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/T_Lara_BaseColor",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/f9dcb69f_c978_4517_86d5_c509f2f721f9"
+      ],
+      "engine_script_packages": [
+        "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+        "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/AnimationData",
+        "/Script/AnimationModifiers",
+        "/Script/ControlRig",
+        "/Script/Engine",
+        "/Script/MovieScene"
+      ],
+      "preview_reference_note": "SK_Lara_Authoring is in the current hard/soft closure via Skeleton preview metadata; include it, or explicitly clear and re-audit that editor preview reference before a minimal migration."
+    },
+    {
+      "case": "MixamoRecovered",
+      "game_packages": [
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SKEL_Lara",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SK_Lara",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/SK_Lara_Authoring",
+        "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/PreservedSource/tripo_mat_c86468c2"
+      ],
+      "engine_script_packages": [
+        "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+        "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/AnimationData",
+        "/Script/AnimationModifiers",
+        "/Script/ControlRig",
+        "/Script/Engine",
+        "/Script/MovieScene"
+      ],
+      "preview_reference_note": "SK_Lara_Authoring is in the current hard/soft closure via Skeleton preview metadata; include it, or explicitly clear and re-audit that editor preview reference before a minimal migration."
+    }
+  ],
+  "not_created": [
+    "PhysicsAsset",
+    "destination AnimBP",
+    "playable Character pawn"
+  ],
+  "authoring_not_runtime_dependencies": [
+    "Manny",
+    "source IK Rig",
+    "IK Retargeter",
+    "Phase4ATools native helper"
+  ],
+  "diagnostic_map_excluded": true
+}

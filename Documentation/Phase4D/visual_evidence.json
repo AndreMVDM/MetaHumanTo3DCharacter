@@ -1,0 +1,170 @@
+{
+  "available": [
+    {
+      "file": "original_automatic_proposal.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": false,
+      "baseline": true
+    },
+    {
+      "file": "pre_correction_front.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": false,
+      "baseline": true
+    },
+    {
+      "file": "pre_correction_side.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": false,
+      "baseline": true
+    },
+    {
+      "file": "pelvis_hips.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "shoulders_elbows_wrists.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "knees.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "ankles_feet_balls.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "left_hand_tracks.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "right_hand_tracks.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "automatic_current_overlay.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "correction_control_design.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "accepted_front.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "accepted_side.png",
+      "kind": "actual-source numerical debug projection",
+      "post_correction": true,
+      "baseline": false
+    },
+    {
+      "file": "ue_pre_arms.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_feet.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_front.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_knees.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_left_hand.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_pelvis.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_right_hand.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "ue_pre_side.png",
+      "kind": "actual UE static proposal viewport capture",
+      "post_correction": false
+    },
+    {
+      "file": "native_reference_pose.png",
+      "kind": "Actual UE native viewport capture",
+      "post_correction": true
+    },
+    {
+      "file": "native_representative_poses.png",
+      "kind": "Actual UE native viewport capture",
+      "post_correction": true
+    },
+    {
+      "file": "native_shoulders_reach.png",
+      "kind": "Actual UE native viewport capture",
+      "post_correction": true
+    },
+    {
+      "file": "native_walk_feet.png",
+      "kind": "Actual UE native viewport capture",
+      "post_correction": true
+    },
+    {
+      "file": "animated_body_front.png",
+      "kind": "Actual UE baked poses driving CPU LBS",
+      "post_correction": true
+    },
+    {
+      "file": "animated_body_side.png",
+      "kind": "Actual UE baked poses driving CPU LBS",
+      "post_correction": true
+    },
+    {
+      "file": "animated_feet_side.png",
+      "kind": "Actual UE baked poses driving CPU LBS",
+      "post_correction": true
+    },
+    {
+      "file": "animated_finger_validation.png",
+      "kind": "Actual UE baked poses driving CPU LBS",
+      "post_correction": true
+    }
+  ],
+  "separate_downstream_evidence": [
+    "native_playback.png",
+    "animated_finger_validation.png",
+    "deformation_contact_results.json"
+  ],
+  "pending": [],
+  "no_synthetic_corrections_presented_as_real": true,
+  "quality_acceptance": false
+}

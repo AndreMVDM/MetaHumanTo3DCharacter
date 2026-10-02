@@ -1,0 +1,47 @@
+{
+  "body_roles_requiring_review": 19,
+  "body_review_roles": [
+    "pelvis",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "finger_phalange_roles_requiring_review": 30,
+  "finger_chains_requiring_review": 10,
+  "total_required_review_roles_excluding_optional_metacarpals": 49,
+  "actual_corrections_applied": 0,
+  "total_moved_distance_cm": 0,
+  "maximum_moved_distance_cm": 0,
+  "minimal_correction_proven": false,
+  "real_correction_effort": "unmeasured; zero performed is not zero needed",
+  "correction_framework": "4B recompose imported read-only; empty SHA-bound patch replay leaves donor positions unchanged",
+  "grouped_opportunities": [
+    "pelvis/hips as a coupled group",
+    "spine convention and neck/head",
+    "paired shoulder girdles",
+    "paired elbow/wrist pose",
+    "knee/ankle/ball placement",
+    "each hand: wrist plus five independent digit assignments"
+  ],
+  "categories": [
+    "internal articulation review",
+    "semantic pivot convention review",
+    "target/donor pose alignment",
+    "digit correspondence and collision resolution"
+  ]
+}

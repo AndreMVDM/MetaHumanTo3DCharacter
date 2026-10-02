@@ -1,0 +1,38 @@
+{
+  "errors": [
+    {
+      "stage": "create map",
+      "traceback": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase2/build_scene.py\", line 73, in <module>\n    camera.set_editor_property(\"auto_activate_for_player\", unreal.PlayerIndex.PLAYER0)\n                                                           ^^^^^^^^^^^^^^^^^^\nAttributeError: module 'unreal' has no attribute 'PlayerIndex'\n"
+    }
+  ],
+  "components": [
+    {
+      "name": "Manny_Source",
+      "template": "/Game/MetaHumanTo3DCharacter/Phase2/BP_Phase2_RetargetTest.BP_Phase2_RetargetTest_C:Manny_Source_GEN_VARIABLE",
+      "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+      "animation": "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd",
+      "relative_y": -250
+    },
+    {
+      "name": "Lara_UE5_Target",
+      "template": "/Game/MetaHumanTo3DCharacter/Phase2/BP_Phase2_RetargetTest.BP_Phase2_RetargetTest_C:Lara_UE5_Target_GEN_VARIABLE",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/ABP_Lara_UE5_Retarget.ABP_Lara_UE5_Retarget",
+      "relative_y": 250
+    },
+    {
+      "name": "Lara_Mixamo_Target",
+      "template": "/Game/MetaHumanTo3DCharacter/Phase2/BP_Phase2_RetargetTest.BP_Phase2_RetargetTest_C:Lara_Mixamo_Target_GEN_VARIABLE",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "animation": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/ABP_Lara_Mixamo_Retarget.ABP_Lara_Mixamo_Retarget",
+      "relative_y": 500
+    }
+  ],
+  "actor_blueprint": "/Game/MetaHumanTo3DCharacter/Phase2/BP_Phase2_RetargetTest.BP_Phase2_RetargetTest",
+  "initial_handles": [
+    "BP_Phase2_RetargetTest",
+    "DefaultSceneRoot_GEN_VARIABLE"
+  ],
+  "actor_status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+  "actor_instance": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.BP_Phase2_RetargetTest_C_0"
+}

@@ -1,0 +1,10 @@
+{
+  "pelvis": "retain original donor hip offsets; shift hips by delta; blend 3 spine points by .75/.5/.25; explicit hip overrides win",
+  "shoulder": "clavicle root delta .48 * shoulder delta, preserving inherited correction-framework rule; convention remains reviewed",
+  "arms_legs": "recompute segment aims, local transforms and elbow/knee bend planes from corrected shoulder/elbow/wrist and hip/knee/ankle",
+  "feet": "corrected ankle and independent ball define new aim; forward/ground/side/envelope checks retained; ball is not invented from hidden 4A coordinates",
+  "fingers": "arc-length path through actual 4B track centres; root/tip offsets blended; donor segment length ratios sample three target phalanges; no direct donor phalange projection",
+  "override": "replay all explicit placements from immutable baseline, canonical role order; independent overrides win",
+  "approval_invalidation": "any position/chain signature change requires fresh explicit review",
+  "limits": "coarse contour tracks may be partial; root/tip extension can leave actual geometry and must fail validation"
+}

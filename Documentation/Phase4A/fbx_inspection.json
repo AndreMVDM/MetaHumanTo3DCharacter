@@ -1,0 +1,4366 @@
+[
+  {
+    "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Inputs\\MixamoRecovered\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+    "version": 7400,
+    "global_settings": {
+      "UpAxis": [
+        1
+      ],
+      "UpAxisSign": [
+        1
+      ],
+      "FrontAxis": [
+        2
+      ],
+      "FrontAxisSign": [
+        1
+      ],
+      "CoordAxis": [
+        0
+      ],
+      "CoordAxisSign": [
+        1
+      ],
+      "OriginalUpAxis": [
+        -1
+      ],
+      "OriginalUpAxisSign": [
+        1
+      ],
+      "UnitScaleFactor": [
+        100.0
+      ],
+      "OriginalUnitScaleFactor": [
+        100.0
+      ],
+      "AmbientColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DefaultCamera": [
+        "Producer Perspective"
+      ],
+      "TimeMode": [
+        11
+      ],
+      "TimeSpanStart": [
+        0
+      ],
+      "TimeSpanStop": [
+        46186158000
+      ],
+      "CustomFrameRate": [
+        24.0
+      ]
+    },
+    "object_counts": {
+      "NodeAttribute": 66,
+      "Geometry": 1,
+      "Model": 67,
+      "Pose": 1,
+      "Deformer": 66,
+      "Material": 1
+    },
+    "models": [
+      {
+        "id": 126117213,
+        "name": "Armature",
+        "kind": "Null",
+        "properties": {
+          "Lcl Rotation": [
+            -90.00000250447816,
+            0.0,
+            0.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 737895073,
+        "name": "tripo_node_c86468c2",
+        "kind": "Mesh",
+        "properties": {
+          "Lcl Translation": [
+            2.9802322387695312e-08,
+            2.938044829647879e-08,
+            3.725290298461914e-09
+          ],
+          "Lcl Rotation": [
+            -90.00000250447816,
+            0.0,
+            0.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 588123350,
+        "name": "mixamorig:Hips",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.005856572650372982,
+            -0.017569541931152344,
+            0.5641774535179138
+          ],
+          "Lcl Rotation": [
+            89.999995674289,
+            -0.0,
+            -89.99998884409983
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 454962193,
+        "name": "mixamorig:LeftUpLeg",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            7.029622217658016e-09,
+            -0.027330396696925163,
+            -0.058565132319927216
+          ],
+          "Lcl Rotation": [
+            -177.03906336224244,
+            -5.377976196670956e-06,
+            3.8795813149099354e-07
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0,
+            1.0000016689300537
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 342256902,
+        "name": "mixamorig:LeftLeg",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            2.7552486958626332e-09,
+            0.22675460577011108,
+            -4.165718436865973e-09
+          ],
+          "Lcl Rotation": [
+            1.8021131825527184,
+            -4.515518741905001,
+            4.607678484375983
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 876199605,
+        "name": "mixamorig:LeftFoot",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.9354047253727913e-09,
+            0.23588167130947113,
+            1.1641532182693481e-09
+          ],
+          "Lcl Rotation": [
+            0.3253663330777389,
+            45.91152073282855,
+            -50.92377309297237
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0000001192092896,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 812714678,
+        "name": "mixamorig:LeftToeBase",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            2.0023435354232788e-08,
+            0.09737405180931091,
+            -1.7229467630386353e-08
+          ],
+          "Lcl Rotation": [
+            42.97200880463558,
+            36.88240338594897,
+            0.00033628679107906183
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            0.9999998211860657,
+            0.9999997615814209
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 893898335,
+        "name": "mixamorig:LeftToe_End",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.3920384844823275e-09,
+            0.04784299060702324,
+            -2.5022046656886232e-08
+          ],
+          "Lcl Rotation": [
+            8.670150332792126e-07,
+            -0.0004174843177631623,
+            1.4941084405834806e-05
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999998807907104,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 382209146,
+        "name": "mixamorig:RightUpLeg",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -9.984790771966345e-09,
+            -0.02733040042221546,
+            0.05856514349579811
+          ],
+          "Lcl Rotation": [
+            176.05481944246526,
+            -1.8148041049820213e-05,
+            8.346922010511842e-07
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0,
+            1.0000056028366089
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 608684383,
+        "name": "mixamorig:RightLeg",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -3.7005287722990943e-10,
+            0.22698979079723358,
+            -9.546203827426325e-09
+          ],
+          "Lcl Rotation": [
+            -1.766727573288469,
+            -6.1001580609542785,
+            5.872924924343947
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999998211860657
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 773736967,
+        "name": "mixamorig:RightFoot",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -3.725290298461914e-09,
+            0.23659154772758484,
+            -2.3283064365386963e-09
+          ],
+          "Lcl Rotation": [
+            -14.05068266995671,
+            55.39346937639622,
+            -64.78985624023115
+          ],
+          "Lcl Scaling": [
+            0.9999997019767761,
+            1.0,
+            0.9999998211860657
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 606801900,
+        "name": "mixamorig:RightToeBase",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            4.1443854570388794e-08,
+            0.10022832453250885,
+            8.149072527885437e-08
+          ],
+          "Lcl Rotation": [
+            41.4704770929729,
+            47.790259886688936,
+            0.0008258278797379771
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.000000238418579,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 939118405,
+        "name": "mixamorig:RightToe_End",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.9562790498639515e-08,
+            0.05043091997504234,
+            3.8938026136747794e-08
+          ],
+          "Lcl Rotation": [
+            5.344554826300387e-06,
+            -0.0008659409629148371,
+            2.5612672001028836e-06
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 355298113,
+        "name": "mixamorig:Spine",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.003904343117028475,
+            0.04294776916503906,
+            1.937852101008275e-10
+          ],
+          "Lcl Rotation": [
+            -4.795808281997872e-07,
+            3.3664587289174186,
+            3.3664612902383575
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 419570742,
+        "name": "mixamorig:Spine1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -2.1827872842550278e-09,
+            0.06648854166269302,
+            -1.7462298274040222e-09
+          ],
+          "Lcl Rotation": [
+            -3.88893901567155e-07,
+            -8.433515537824993e-07,
+            -6.530050249831394e-07
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 503211124,
+        "name": "mixamorig:Spine2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.6880221664905548e-09,
+            0.06648857891559601,
+            -1.1641532182693481e-10
+          ],
+          "Lcl Rotation": [
+            -0.1435709098589986,
+            2.446474296068779,
+            2.433096943692486
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 451726534,
+        "name": "mixamorig:LeftShoulder",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.0013291023205965757,
+            0.06293901801109314,
+            -0.027336271479725838
+          ],
+          "Lcl Rotation": [
+            -112.0297531439788,
+            -5.779945986059387,
+            -5.839685381861257
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.000000238418579,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 930802797,
+        "name": "mixamorig:LeftArm",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.5517912288487423e-08,
+            0.050756439566612244,
+            9.139818502035268e-08
+          ],
+          "Lcl Rotation": [
+            -46.19350850780711,
+            -0.42670326179185286,
+            -2.044701011304061
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            0.9999999403953552,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 936033776,
+        "name": "mixamorig:LeftForeArm",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.5133991837501526e-09,
+            0.12984493374824524,
+            -2.190063241869211e-09
+          ],
+          "Lcl Rotation": [
+            2.0081874603314076,
+            8.393818400288247,
+            -11.69501701956372
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 927014860,
+        "name": "mixamorig:LeftHand",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -2.9802322387695312e-08,
+            0.12054683268070221,
+            1.019798219203949e-07
+          ],
+          "Lcl Rotation": [
+            -6.780197734816959,
+            -2.0722134401676957,
+            1.6755690938611285
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999998807907104,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 616722333,
+        "name": "mixamorig:LeftHandIndex1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.014662623405456543,
+            0.06182850897312164,
+            -0.0010021775960922241
+          ],
+          "Lcl Rotation": [
+            -19.072647559100286,
+            -6.001489575091097,
+            6.807695222641783
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            1.000000238418579,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 394180272,
+        "name": "mixamorig:LeftHandIndex2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.0,
+            0.017601285129785538,
+            8.381903171539307e-09
+          ],
+          "Lcl Rotation": [
+            -2.2979146934132397,
+            -1.5388440746031058,
+            1.41610877686915
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            0.9999998807907104,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 903726223,
+        "name": "mixamorig:LeftHandIndex3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            9.313225746154785e-09,
+            0.015478230081498623,
+            -1.0011717677116394e-08
+          ],
+          "Lcl Rotation": [
+            -1.1742721875043088e-05,
+            -1.3787108737196976e-05,
+            7.890736935437902e-06
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 666604706,
+        "name": "mixamorig:LeftHandIndex4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.862645149230957e-09,
+            0.015070300549268723,
+            -1.0244548320770264e-08
+          ],
+          "Lcl Rotation": [
+            1.2039544469024738e-06,
+            -1.1339182511500853e-07,
+            -8.004129205830565e-08
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999998211860657,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 380849551,
+        "name": "mixamorig:LeftHandMiddle1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.0015725940465927124,
+            0.061574339866638184,
+            0.0025949603877961636
+          ],
+          "Lcl Rotation": [
+            -27.573979113340055,
+            -10.275299021326747,
+            16.392201291031313
+          ],
+          "Lcl Scaling": [
+            0.9999995827674866,
+            0.9999999403953552,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 134592933,
+        "name": "mixamorig:LeftHandMiddle2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.210719347000122e-08,
+            0.017268218100070953,
+            -3.166496753692627e-08
+          ],
+          "Lcl Rotation": [
+            -2.0571588494633413,
+            -0.13042060791175553,
+            0.24659779012437505
+          ],
+          "Lcl Scaling": [
+            1.0,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 675451710,
+        "name": "mixamorig:LeftHandMiddle3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.3969838619232178e-08,
+            0.016836542636156082,
+            4.889443516731262e-08
+          ],
+          "Lcl Rotation": [
+            -4.958557254870585e-05,
+            -3.1749729861086105e-06,
+            -6.323259031995871e-06
+          ],
+          "Lcl Scaling": [
+            1.000000238418579,
+            1.0,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 698881596,
+        "name": "mixamorig:LeftHandMiddle4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.3969838619232178e-08,
+            0.016853010281920433,
+            -3.073364496231079e-08
+          ],
+          "Lcl Rotation": [
+            -4.790469916887204e-05,
+            -1.120576892927719e-06,
+            2.3745583607482446e-06
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 117933114,
+        "name": "mixamorig:LeftHandPinky1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.02124062366783619,
+            0.05189486965537071,
+            -0.004349937662482262
+          ],
+          "Lcl Rotation": [
+            -23.495089178751407,
+            -18.213945931362527,
+            33.762803275004856
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            1.0,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 949363274,
+        "name": "mixamorig:LeftHandPinky2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            2.2351741790771484e-08,
+            0.011124389246106148,
+            6.51925802230835e-09
+          ],
+          "Lcl Rotation": [
+            -13.132368858690374,
+            4.663125960058146,
+            -1.4010055210669594
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            1.0,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 694735566,
+        "name": "mixamorig:LeftHandPinky3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            9.313225746154785e-10,
+            0.010166734457015991,
+            -2.3283064365386963e-09
+          ],
+          "Lcl Rotation": [
+            -7.161025806557645e-05,
+            2.177121983719566e-05,
+            -8.431026970064466e-06
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 477487242,
+        "name": "mixamorig:LeftHandPinky4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.210719347000122e-08,
+            0.010290177538990974,
+            7.450580596923828e-09
+          ],
+          "Lcl Rotation": [
+            3.201651682332226e-07,
+            -7.470520422478945e-07,
+            -3.6285388107912724e-06
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999997615814209,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 606721163,
+        "name": "mixamorig:LeftHandRing1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.010904712602496147,
+            0.05719795823097229,
+            0.00017928378656506538
+          ],
+          "Lcl Rotation": [
+            -23.515741963254232,
+            -13.112564725191922,
+            22.315414763799946
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 348834368,
+        "name": "mixamorig:LeftHandRing2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            9.313225746154785e-09,
+            0.015089163556694984,
+            -1.7229467630386353e-08
+          ],
+          "Lcl Rotation": [
+            -8.629537620055496,
+            -0.560362966855568,
+            1.9411828776867595
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            1.0,
+            0.9999998211860657
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 178416566,
+        "name": "mixamorig:LeftHandRing3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -5.587935447692871e-09,
+            0.014358198270201683,
+            -2.7939677238464355e-08
+          ],
+          "Lcl Rotation": [
+            0.00013126769811118257,
+            1.8142761634382234e-05,
+            -6.168513291412569e-05
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 520563410,
+        "name": "mixamorig:LeftHandRing4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            3.725290298461914e-09,
+            0.01287031453102827,
+            1.1175870895385742e-08
+          ],
+          "Lcl Rotation": [
+            -5.965742050427815e-05,
+            -8.964607815423764e-06,
+            2.529304264175947e-05
+          ],
+          "Lcl Scaling": [
+            1.000000238418579,
+            1.000000238418579,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 481955917,
+        "name": "mixamorig:LeftHandThumb1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.013183988630771637,
+            0.026065047830343246,
+            -0.009461122564971447
+          ],
+          "Lcl Rotation": [
+            -21.022883425645073,
+            23.87385390407988,
+            -49.384467020104935
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999997615814209,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 613682816,
+        "name": "mixamorig:LeftHandThumb2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -9.313225746154785e-09,
+            0.020876340568065643,
+            4.0978193283081055e-08
+          ],
+          "Lcl Rotation": [
+            -17.111618286119583,
+            -22.403503713525602,
+            18.129955095138882
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            1.0,
+            0.9999997019767761
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 442927760,
+        "name": "mixamorig:LeftHandThumb3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -4.470348358154297e-08,
+            0.019545210525393486,
+            -5.960464477539063e-08
+          ],
+          "Lcl Rotation": [
+            3.372405902693796e-05,
+            6.563375542006145e-06,
+            2.8601417149428396e-05
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 116965062,
+        "name": "mixamorig:LeftHandThumb4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.0,
+            0.014754923060536385,
+            2.0489096641540527e-08
+          ],
+          "Lcl Rotation": [
+            -3.8953416096452986e-05,
+            1.0458748336353985e-05,
+            6.168513942790167e-05
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 846703362,
+        "name": "mixamorig:Neck",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.0005285101942718029,
+            0.0823604092001915,
+            5.3778450819663703e-05
+          ],
+          "Lcl Rotation": [
+            -0.13315069588799044,
+            1.3166494831661284,
+            1.3053111557004957
+          ],
+          "Lcl Scaling": [
+            1.0000003576278687,
+            1.0000001192092896,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 90554544,
+        "name": "mixamorig:Head",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -3.6670826375484467e-09,
+            0.03147776052355766,
+            -1.1059455573558807e-09
+          ],
+          "Lcl Rotation": [
+            9.898528004649183e-08,
+            -6.470004430777858e-07,
+            -3.439407660991231e-06
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999998211860657,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 875243124,
+        "name": "mixamorig:HeadTop_End",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -8.149072527885437e-10,
+            0.07504554092884064,
+            1.1641532182693481e-09
+          ],
+          "Lcl Rotation": [
+            7.935280883640609e-07,
+            -2.4345889131393104e-07,
+            -5.120168271078258e-06
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 346785737,
+        "name": "mixamorig:RightShoulder",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.0042040967382490635,
+            0.06293907761573792,
+            0.027043743059039116
+          ],
+          "Lcl Rotation": [
+            113.21003032312451,
+            -5.77993275256787,
+            -5.839713983278406
+          ],
+          "Lcl Scaling": [
+            1.000000238418579,
+            1.0,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 460865218,
+        "name": "mixamorig:RightArm",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.6414430703548533e-08,
+            0.050756439566612244,
+            2.897828865755514e-09
+          ],
+          "Lcl Rotation": [
+            44.68277311623784,
+            3.019804430424469,
+            0.5888351973801479
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.0000001192092896
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 436135639,
+        "name": "mixamorig:RightForeArm",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            4.656612873077393e-10,
+            0.1313043236732483,
+            -5.326000973582268e-09
+          ],
+          "Lcl Rotation": [
+            -3.593915340779656,
+            17.08694081264833,
+            -12.262716730165792
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            1.0,
+            0.9999998211860657
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 518473578,
+        "name": "mixamorig:RightHand",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -2.421438694000244e-08,
+            0.12490952014923096,
+            3.632158041000366e-08
+          ],
+          "Lcl Rotation": [
+            8.921538452357295,
+            -3.747293641894639,
+            4.2018670637079065
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999997615814209
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 494826795,
+        "name": "mixamorig:RightHandIndex1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.014809653162956238,
+            0.06032572314143181,
+            0.01107883919030428
+          ],
+          "Lcl Rotation": [
+            8.570682733751141,
+            -9.126218731215067,
+            7.764973128688927
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 150925260,
+        "name": "mixamorig:RightHandIndex2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.955777406692505e-08,
+            0.02105395682156086,
+            -3.213062882423401e-08
+          ],
+          "Lcl Rotation": [
+            8.344056203316471,
+            -4.970716272253677,
+            4.5062753615238575
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            0.9999998211860657,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 846684771,
+        "name": "mixamorig:RightHandIndex3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.0255135407533089e-08,
+            0.011548750102519989,
+            -2.771566087744759e-08
+          ],
+          "Lcl Rotation": [
+            -6.307251508928452e-05,
+            1.4412673870165694e-05,
+            -3.712889207387556e-07
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.000000238418579,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 299644344,
+        "name": "mixamorig:RightHandIndex4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -3.371182444311671e-09,
+            0.011233551427721977,
+            1.3369256812723052e-08
+          ],
+          "Lcl Rotation": [
+            7.555897420704205e-05,
+            5.982240671493602e-07,
+            9.701352776308599e-13
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999998807907104,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 520233872,
+        "name": "mixamorig:RightHandMiddle1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.005270298570394516,
+            0.05857985466718674,
+            0.00040845852345228195
+          ],
+          "Lcl Rotation": [
+            14.315281637082066,
+            -20.54214909865019,
+            15.278779711028976
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 969482401,
+        "name": "mixamorig:RightHandMiddle2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -5.587935447692871e-09,
+            0.019304346293210983,
+            -1.30385160446167e-08
+          ],
+          "Lcl Rotation": [
+            5.438487753977524,
+            0.15309199345879804,
+            -0.5884994508937594
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 821155201,
+        "name": "mixamorig:RightHandMiddle3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            4.656612873077393e-10,
+            0.01333157904446125,
+            -4.889443516731262e-09
+          ],
+          "Lcl Rotation": [
+            -1.4487474816719727e-05,
+            -1.3286851555568431e-05,
+            1.099233650971127e-05
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0,
+            0.9999997615814209
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 804726116,
+        "name": "mixamorig:RightHandMiddle4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            6.05359673500061e-09,
+            0.013316120021045208,
+            1.3737007975578308e-08
+          ],
+          "Lcl Rotation": [
+            9.338150273654306e-07,
+            8.804540726969562e-07,
+            1.0672174394810541e-07
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999998211860657,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 628036139,
+        "name": "mixamorig:RightHandPinky1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.018321571871638298,
+            0.04829217493534088,
+            -0.00752811087295413
+          ],
+          "Lcl Rotation": [
+            16.112979742666607,
+            -32.460586728606906,
+            22.765543013124006
+          ],
+          "Lcl Scaling": [
+            1.000000238418579,
+            0.9999998211860657,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 221142622,
+        "name": "mixamorig:RightHandPinky2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -2.7939677238464355e-08,
+            0.012574359774589539,
+            3.725290298461914e-09
+          ],
+          "Lcl Rotation": [
+            5.6433669620948725,
+            5.255547113474257,
+            -6.923288490381433
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 4656310,
+        "name": "mixamorig:RightHandPinky3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            6.51925802230835e-09,
+            0.010262079536914825,
+            -5.157198756933212e-08
+          ],
+          "Lcl Rotation": [
+            -5.1599951259106694e-05,
+            1.1365869807944328e-05,
+            1.5474642452978147e-05
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999998807907104,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 752784736,
+        "name": "mixamorig:RightHandPinky4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            1.0244548320770264e-08,
+            0.0103393429890275,
+            4.575122147798538e-08
+          ],
+          "Lcl Rotation": [
+            8.302949361174349e-05,
+            -4.2687702701737803e-07,
+            -1.36603799684695e-05
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            1.0,
+            0.9999999403953552
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 941752358,
+        "name": "mixamorig:RightHandRing1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -0.006344778463244438,
+            0.054413530975580215,
+            -0.004984354600310326
+          ],
+          "Lcl Rotation": [
+            11.652029516474952,
+            -26.36765671534179,
+            19.46591619113128
+          ],
+          "Lcl Scaling": [
+            1.0000001192092896,
+            1.0000003576278687,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 699177075,
+        "name": "mixamorig:RightHandRing2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -7.450580596923828e-09,
+            0.016165148466825485,
+            7.450580596923828e-09
+          ],
+          "Lcl Rotation": [
+            13.593713132405238,
+            0.5878328137585956,
+            -2.571959171830488
+          ],
+          "Lcl Scaling": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 463935510,
+        "name": "mixamorig:RightHandRing3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -5.587935447692871e-09,
+            0.013765760697424412,
+            1.0710209608078003e-08
+          ],
+          "Lcl Rotation": [
+            -3.676562112793327e-05,
+            3.415083796564896e-06,
+            -3.308372879224926e-05
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 158604772,
+        "name": "mixamorig:RightHandRing4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -1.30385160446167e-08,
+            0.012570556253194809,
+            -2.0256265997886658e-08
+          ],
+          "Lcl Rotation": [
+            6.734140937564644e-05,
+            5.2293611406250175e-06,
+            7.04363746690764e-06
+          ],
+          "Lcl Scaling": [
+            0.9999998211860657,
+            0.9999998807907104,
+            0.9999997615814209
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 478975355,
+        "name": "mixamorig:RightHandThumb1",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            0.00924563780426979,
+            0.02429572306573391,
+            0.01615116372704506
+          ],
+          "Lcl Rotation": [
+            45.546539329245164,
+            33.771296615237766,
+            -1.5181237352605201
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 263956795,
+        "name": "mixamorig:RightHandThumb2",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            6.705522537231445e-08,
+            0.025118883699178696,
+            2.7939677238464355e-08
+          ],
+          "Lcl Rotation": [
+            -17.381666890428964,
+            -14.53841281820898,
+            21.049234295462984
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999997615814209
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 787164503,
+        "name": "mixamorig:RightHandThumb3",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -4.0978193283081055e-08,
+            0.017595207318663597,
+            0.0
+          ],
+          "Lcl Rotation": [
+            -4.268866602813972e-06,
+            1.0672219431464831e-06,
+            0.00013382901904993735
+          ],
+          "Lcl Scaling": [
+            1.0,
+            0.9999999403953552,
+            1.000000238418579
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      },
+      {
+        "id": 352144932,
+        "name": "mixamorig:RightHandThumb4",
+        "kind": "LimbNode",
+        "properties": {
+          "Lcl Translation": [
+            -3.725290298461914e-09,
+            0.013262338936328888,
+            -9.313225746154785e-09
+          ],
+          "Lcl Rotation": [
+            2.3905673494152608e-05,
+            -1.3660362055585532e-05,
+            -8.537737113893537e-05
+          ],
+          "Lcl Scaling": [
+            0.9999999403953552,
+            1.0,
+            0.9999998807907104
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ]
+        }
+      }
+    ],
+    "geometries": [
+      {
+        "id": 553760401,
+        "name": "tripo_mesh_c86468c2",
+        "kind": "Mesh",
+        "control_points": 27725,
+        "polygon_count": 28636,
+        "polygon_vertices": 106780,
+        "raw_local_bounds": {
+          "min": [
+            -0.1999511569738388,
+            -0.1042480617761612,
+            -2.938044829647879e-08
+          ],
+          "max": [
+            0.1999512016773224,
+            0.104248046875,
+            0.99951171875
+          ]
+        },
+        "layers": [
+          "LayerElementSmoothing",
+          "LayerElementNormal",
+          "LayerElementMaterial"
+        ],
+        "uv_layers": []
+      }
+    ],
+    "deformers": [
+      {
+        "id": 599442860,
+        "name": "Armature",
+        "kind": "Skin",
+        "arrays": {}
+      },
+      {
+        "id": 426533879,
+        "name": "mixamorig:Hips",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 1870,
+          "Weights": 1870,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 442391364,
+        "name": "mixamorig:LeftUpLeg",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 3550,
+          "Weights": 3550,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 351206611,
+        "name": "mixamorig:LeftLeg",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2606,
+          "Weights": 2606,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 606477517,
+        "name": "mixamorig:LeftFoot",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2050,
+          "Weights": 2050,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 202877080,
+        "name": "mixamorig:LeftToeBase",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 1237,
+          "Weights": 1237,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 827456149,
+        "name": "mixamorig:LeftToe_End",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 807661228,
+        "name": "mixamorig:RightUpLeg",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 5011,
+          "Weights": 5011,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 721451280,
+        "name": "mixamorig:RightLeg",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2741,
+          "Weights": 2741,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 888268225,
+        "name": "mixamorig:RightFoot",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2068,
+          "Weights": 2068,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 480638513,
+        "name": "mixamorig:RightToeBase",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 1557,
+          "Weights": 1557,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 775441738,
+        "name": "mixamorig:RightToe_End",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 224449769,
+        "name": "mixamorig:Spine",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2107,
+          "Weights": 2107,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 552257376,
+        "name": "mixamorig:Spine1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 2848,
+          "Weights": 2848,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 870198792,
+        "name": "mixamorig:Spine2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 12433,
+          "Weights": 12433,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 668388032,
+        "name": "mixamorig:LeftShoulder",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 3487,
+          "Weights": 3487,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 463439434,
+        "name": "mixamorig:LeftArm",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 1608,
+          "Weights": 1608,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 846651232,
+        "name": "mixamorig:LeftForeArm",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 683,
+          "Weights": 683,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 429859877,
+        "name": "mixamorig:LeftHand",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 847,
+          "Weights": 847,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 251311887,
+        "name": "mixamorig:LeftHandIndex1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 278,
+          "Weights": 278,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 513698756,
+        "name": "mixamorig:LeftHandIndex2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 78,
+          "Weights": 78,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 421534858,
+        "name": "mixamorig:LeftHandIndex3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 74,
+          "Weights": 74,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 65524291,
+        "name": "mixamorig:LeftHandIndex4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 800250393,
+        "name": "mixamorig:LeftHandMiddle1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 360,
+          "Weights": 360,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 45057732,
+        "name": "mixamorig:LeftHandMiddle2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 84,
+          "Weights": 84,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 282879625,
+        "name": "mixamorig:LeftHandMiddle3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 64,
+          "Weights": 64,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 942035758,
+        "name": "mixamorig:LeftHandMiddle4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 958075456,
+        "name": "mixamorig:LeftHandPinky1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 448,
+          "Weights": 448,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 934905018,
+        "name": "mixamorig:LeftHandPinky2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 74,
+          "Weights": 74,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 46890667,
+        "name": "mixamorig:LeftHandPinky3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 64,
+          "Weights": 64,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 756174613,
+        "name": "mixamorig:LeftHandPinky4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 708959833,
+        "name": "mixamorig:LeftHandRing1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 463,
+          "Weights": 463,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 571760066,
+        "name": "mixamorig:LeftHandRing2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 81,
+          "Weights": 81,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 823368645,
+        "name": "mixamorig:LeftHandRing3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 72,
+          "Weights": 72,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 539390782,
+        "name": "mixamorig:LeftHandRing4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 489434029,
+        "name": "mixamorig:LeftHandThumb1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 296,
+          "Weights": 296,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 302049790,
+        "name": "mixamorig:LeftHandThumb2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 179,
+          "Weights": 179,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 719270850,
+        "name": "mixamorig:LeftHandThumb3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 80,
+          "Weights": 80,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 56943579,
+        "name": "mixamorig:LeftHandThumb4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 144820809,
+        "name": "mixamorig:Neck",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 11085,
+          "Weights": 11085,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 846693373,
+        "name": "mixamorig:Head",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 11154,
+          "Weights": 11154,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 963775070,
+        "name": "mixamorig:HeadTop_End",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 307079079,
+        "name": "mixamorig:RightShoulder",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 9522,
+          "Weights": 9522,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 648235216,
+        "name": "mixamorig:RightArm",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 1361,
+          "Weights": 1361,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 136068620,
+        "name": "mixamorig:RightForeArm",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 540,
+          "Weights": 540,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 239155901,
+        "name": "mixamorig:RightHand",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 609,
+          "Weights": 609,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 603273890,
+        "name": "mixamorig:RightHandIndex1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 287,
+          "Weights": 287,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 791499020,
+        "name": "mixamorig:RightHandIndex2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 79,
+          "Weights": 79,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 613092388,
+        "name": "mixamorig:RightHandIndex3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 77,
+          "Weights": 77,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 214431977,
+        "name": "mixamorig:RightHandIndex4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 200499028,
+        "name": "mixamorig:RightHandMiddle1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 280,
+          "Weights": 280,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 377231463,
+        "name": "mixamorig:RightHandMiddle2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 83,
+          "Weights": 83,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 539986718,
+        "name": "mixamorig:RightHandMiddle3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 70,
+          "Weights": 70,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 819988691,
+        "name": "mixamorig:RightHandMiddle4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 349186803,
+        "name": "mixamorig:RightHandPinky1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 312,
+          "Weights": 312,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 966877585,
+        "name": "mixamorig:RightHandPinky2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 98,
+          "Weights": 98,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 805546261,
+        "name": "mixamorig:RightHandPinky3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 74,
+          "Weights": 74,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 756878487,
+        "name": "mixamorig:RightHandPinky4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 901277633,
+        "name": "mixamorig:RightHandRing1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 313,
+          "Weights": 313,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 693248160,
+        "name": "mixamorig:RightHandRing2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 80,
+          "Weights": 80,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 387451407,
+        "name": "mixamorig:RightHandRing3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 72,
+          "Weights": 72,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 832264992,
+        "name": "mixamorig:RightHandRing4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 615636570,
+        "name": "mixamorig:RightHandThumb1",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 320,
+          "Weights": 320,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 831499971,
+        "name": "mixamorig:RightHandThumb2",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 177,
+          "Weights": 177,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 922987866,
+        "name": "mixamorig:RightHandThumb3",
+        "kind": "Cluster",
+        "arrays": {
+          "Indexes": 270,
+          "Weights": 270,
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      },
+      {
+        "id": 339896783,
+        "name": "mixamorig:RightHandThumb4",
+        "kind": "Cluster",
+        "arrays": {
+          "Transform": 16,
+          "TransformLink": 16,
+          "TransformAssociateModel": 16
+        }
+      }
+    ],
+    "materials": [
+      {
+        "id": 389088265,
+        "name": "tripo_mat_c86468c2",
+        "kind": "",
+        "properties": {
+          "DiffuseColor": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "EmissiveFactor": [
+            0.0
+          ],
+          "AmbientColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "AmbientFactor": [
+            0.0
+          ],
+          "BumpFactor": [
+            0.0
+          ],
+          "SpecularColor": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "SpecularFactor": [
+            0.25
+          ],
+          "Shininess": [
+            25.0
+          ],
+          "ShininessExponent": [
+            25.0
+          ],
+          "ReflectionColor": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "ReflectionFactor": [
+            0.0
+          ]
+        },
+        "fields": {}
+      }
+    ],
+    "textures": [],
+    "connections": [
+      [
+        "OO",
+        126117213,
+        0
+      ],
+      [
+        "OO",
+        737895073,
+        0
+      ],
+      [
+        "OO",
+        588123350,
+        126117213
+      ],
+      [
+        "OO",
+        454962193,
+        588123350
+      ],
+      [
+        "OO",
+        342256902,
+        454962193
+      ],
+      [
+        "OO",
+        876199605,
+        342256902
+      ],
+      [
+        "OO",
+        812714678,
+        876199605
+      ],
+      [
+        "OO",
+        893898335,
+        812714678
+      ],
+      [
+        "OO",
+        382209146,
+        588123350
+      ],
+      [
+        "OO",
+        608684383,
+        382209146
+      ],
+      [
+        "OO",
+        773736967,
+        608684383
+      ],
+      [
+        "OO",
+        606801900,
+        773736967
+      ],
+      [
+        "OO",
+        939118405,
+        606801900
+      ],
+      [
+        "OO",
+        355298113,
+        588123350
+      ],
+      [
+        "OO",
+        419570742,
+        355298113
+      ],
+      [
+        "OO",
+        503211124,
+        419570742
+      ],
+      [
+        "OO",
+        451726534,
+        503211124
+      ],
+      [
+        "OO",
+        930802797,
+        451726534
+      ],
+      [
+        "OO",
+        936033776,
+        930802797
+      ],
+      [
+        "OO",
+        927014860,
+        936033776
+      ],
+      [
+        "OO",
+        616722333,
+        927014860
+      ],
+      [
+        "OO",
+        394180272,
+        616722333
+      ],
+      [
+        "OO",
+        903726223,
+        394180272
+      ],
+      [
+        "OO",
+        666604706,
+        903726223
+      ],
+      [
+        "OO",
+        380849551,
+        927014860
+      ],
+      [
+        "OO",
+        134592933,
+        380849551
+      ],
+      [
+        "OO",
+        675451710,
+        134592933
+      ],
+      [
+        "OO",
+        698881596,
+        675451710
+      ],
+      [
+        "OO",
+        117933114,
+        927014860
+      ],
+      [
+        "OO",
+        949363274,
+        117933114
+      ],
+      [
+        "OO",
+        694735566,
+        949363274
+      ],
+      [
+        "OO",
+        477487242,
+        694735566
+      ],
+      [
+        "OO",
+        606721163,
+        927014860
+      ],
+      [
+        "OO",
+        348834368,
+        606721163
+      ],
+      [
+        "OO",
+        178416566,
+        348834368
+      ],
+      [
+        "OO",
+        520563410,
+        178416566
+      ],
+      [
+        "OO",
+        481955917,
+        927014860
+      ],
+      [
+        "OO",
+        613682816,
+        481955917
+      ],
+      [
+        "OO",
+        442927760,
+        613682816
+      ],
+      [
+        "OO",
+        116965062,
+        442927760
+      ],
+      [
+        "OO",
+        846703362,
+        503211124
+      ],
+      [
+        "OO",
+        90554544,
+        846703362
+      ],
+      [
+        "OO",
+        875243124,
+        90554544
+      ],
+      [
+        "OO",
+        346785737,
+        503211124
+      ],
+      [
+        "OO",
+        460865218,
+        346785737
+      ],
+      [
+        "OO",
+        436135639,
+        460865218
+      ],
+      [
+        "OO",
+        518473578,
+        436135639
+      ],
+      [
+        "OO",
+        494826795,
+        518473578
+      ],
+      [
+        "OO",
+        150925260,
+        494826795
+      ],
+      [
+        "OO",
+        846684771,
+        150925260
+      ],
+      [
+        "OO",
+        299644344,
+        846684771
+      ],
+      [
+        "OO",
+        520233872,
+        518473578
+      ],
+      [
+        "OO",
+        969482401,
+        520233872
+      ],
+      [
+        "OO",
+        821155201,
+        969482401
+      ],
+      [
+        "OO",
+        804726116,
+        821155201
+      ],
+      [
+        "OO",
+        628036139,
+        518473578
+      ],
+      [
+        "OO",
+        221142622,
+        628036139
+      ],
+      [
+        "OO",
+        4656310,
+        221142622
+      ],
+      [
+        "OO",
+        752784736,
+        4656310
+      ],
+      [
+        "OO",
+        941752358,
+        518473578
+      ],
+      [
+        "OO",
+        699177075,
+        941752358
+      ],
+      [
+        "OO",
+        463935510,
+        699177075
+      ],
+      [
+        "OO",
+        158604772,
+        463935510
+      ],
+      [
+        "OO",
+        478975355,
+        518473578
+      ],
+      [
+        "OO",
+        263956795,
+        478975355
+      ],
+      [
+        "OO",
+        787164503,
+        263956795
+      ],
+      [
+        "OO",
+        352144932,
+        787164503
+      ],
+      [
+        "OO",
+        621436852,
+        126117213
+      ],
+      [
+        "OO",
+        553760401,
+        737895073
+      ],
+      [
+        "OO",
+        835139568,
+        588123350
+      ],
+      [
+        "OO",
+        466883173,
+        454962193
+      ],
+      [
+        "OO",
+        265238487,
+        342256902
+      ],
+      [
+        "OO",
+        16358750,
+        876199605
+      ],
+      [
+        "OO",
+        132901191,
+        812714678
+      ],
+      [
+        "OO",
+        947200666,
+        893898335
+      ],
+      [
+        "OO",
+        220317522,
+        382209146
+      ],
+      [
+        "OO",
+        957206977,
+        608684383
+      ],
+      [
+        "OO",
+        931344242,
+        773736967
+      ],
+      [
+        "OO",
+        935747086,
+        606801900
+      ],
+      [
+        "OO",
+        804290953,
+        939118405
+      ],
+      [
+        "OO",
+        153044076,
+        355298113
+      ],
+      [
+        "OO",
+        298555659,
+        419570742
+      ],
+      [
+        "OO",
+        871338618,
+        503211124
+      ],
+      [
+        "OO",
+        36871672,
+        451726534
+      ],
+      [
+        "OO",
+        356304065,
+        930802797
+      ],
+      [
+        "OO",
+        944921509,
+        936033776
+      ],
+      [
+        "OO",
+        298581261,
+        927014860
+      ],
+      [
+        "OO",
+        550647244,
+        616722333
+      ],
+      [
+        "OO",
+        67416806,
+        394180272
+      ],
+      [
+        "OO",
+        310814992,
+        903726223
+      ],
+      [
+        "OO",
+        612392887,
+        666604706
+      ],
+      [
+        "OO",
+        553612692,
+        380849551
+      ],
+      [
+        "OO",
+        330122115,
+        134592933
+      ],
+      [
+        "OO",
+        207756713,
+        675451710
+      ],
+      [
+        "OO",
+        180956135,
+        698881596
+      ],
+      [
+        "OO",
+        395441710,
+        117933114
+      ],
+      [
+        "OO",
+        901590291,
+        949363274
+      ],
+      [
+        "OO",
+        638708276,
+        694735566
+      ],
+      [
+        "OO",
+        412563571,
+        477487242
+      ],
+      [
+        "OO",
+        818222438,
+        606721163
+      ],
+      [
+        "OO",
+        990552787,
+        348834368
+      ],
+      [
+        "OO",
+        435259847,
+        178416566
+      ],
+      [
+        "OO",
+        12628204,
+        520563410
+      ],
+      [
+        "OO",
+        942464358,
+        481955917
+      ],
+      [
+        "OO",
+        164409894,
+        613682816
+      ],
+      [
+        "OO",
+        580275131,
+        442927760
+      ],
+      [
+        "OO",
+        398123465,
+        116965062
+      ],
+      [
+        "OO",
+        776050614,
+        846703362
+      ],
+      [
+        "OO",
+        438298039,
+        90554544
+      ],
+      [
+        "OO",
+        433760593,
+        875243124
+      ],
+      [
+        "OO",
+        65739758,
+        346785737
+      ],
+      [
+        "OO",
+        627568732,
+        460865218
+      ],
+      [
+        "OO",
+        368767350,
+        436135639
+      ],
+      [
+        "OO",
+        625435023,
+        518473578
+      ],
+      [
+        "OO",
+        512563543,
+        494826795
+      ],
+      [
+        "OO",
+        665427343,
+        150925260
+      ],
+      [
+        "OO",
+        632313977,
+        846684771
+      ],
+      [
+        "OO",
+        116988758,
+        299644344
+      ],
+      [
+        "OO",
+        206120758,
+        520233872
+      ],
+      [
+        "OO",
+        897930691,
+        969482401
+      ],
+      [
+        "OO",
+        765733584,
+        821155201
+      ],
+      [
+        "OO",
+        467078090,
+        804726116
+      ],
+      [
+        "OO",
+        753843909,
+        628036139
+      ],
+      [
+        "OO",
+        741914900,
+        221142622
+      ],
+      [
+        "OO",
+        106855160,
+        4656310
+      ],
+      [
+        "OO",
+        239571163,
+        752784736
+      ],
+      [
+        "OO",
+        748423834,
+        941752358
+      ],
+      [
+        "OO",
+        424369421,
+        699177075
+      ],
+      [
+        "OO",
+        646997946,
+        463935510
+      ],
+      [
+        "OO",
+        970297634,
+        158604772
+      ],
+      [
+        "OO",
+        751432725,
+        478975355
+      ],
+      [
+        "OO",
+        375777226,
+        263956795
+      ],
+      [
+        "OO",
+        627987275,
+        787164503
+      ],
+      [
+        "OO",
+        616380225,
+        352144932
+      ],
+      [
+        "OO",
+        599442860,
+        553760401
+      ],
+      [
+        "OO",
+        426533879,
+        599442860
+      ],
+      [
+        "OO",
+        588123350,
+        426533879
+      ],
+      [
+        "OO",
+        442391364,
+        599442860
+      ],
+      [
+        "OO",
+        454962193,
+        442391364
+      ],
+      [
+        "OO",
+        351206611,
+        599442860
+      ],
+      [
+        "OO",
+        342256902,
+        351206611
+      ],
+      [
+        "OO",
+        606477517,
+        599442860
+      ],
+      [
+        "OO",
+        876199605,
+        606477517
+      ],
+      [
+        "OO",
+        202877080,
+        599442860
+      ],
+      [
+        "OO",
+        812714678,
+        202877080
+      ],
+      [
+        "OO",
+        827456149,
+        599442860
+      ],
+      [
+        "OO",
+        893898335,
+        827456149
+      ],
+      [
+        "OO",
+        807661228,
+        599442860
+      ],
+      [
+        "OO",
+        382209146,
+        807661228
+      ],
+      [
+        "OO",
+        721451280,
+        599442860
+      ],
+      [
+        "OO",
+        608684383,
+        721451280
+      ],
+      [
+        "OO",
+        888268225,
+        599442860
+      ],
+      [
+        "OO",
+        773736967,
+        888268225
+      ],
+      [
+        "OO",
+        480638513,
+        599442860
+      ],
+      [
+        "OO",
+        606801900,
+        480638513
+      ],
+      [
+        "OO",
+        775441738,
+        599442860
+      ],
+      [
+        "OO",
+        939118405,
+        775441738
+      ],
+      [
+        "OO",
+        224449769,
+        599442860
+      ],
+      [
+        "OO",
+        355298113,
+        224449769
+      ],
+      [
+        "OO",
+        552257376,
+        599442860
+      ],
+      [
+        "OO",
+        419570742,
+        552257376
+      ],
+      [
+        "OO",
+        870198792,
+        599442860
+      ],
+      [
+        "OO",
+        503211124,
+        870198792
+      ],
+      [
+        "OO",
+        668388032,
+        599442860
+      ],
+      [
+        "OO",
+        451726534,
+        668388032
+      ],
+      [
+        "OO",
+        463439434,
+        599442860
+      ],
+      [
+        "OO",
+        930802797,
+        463439434
+      ],
+      [
+        "OO",
+        846651232,
+        599442860
+      ],
+      [
+        "OO",
+        936033776,
+        846651232
+      ],
+      [
+        "OO",
+        429859877,
+        599442860
+      ],
+      [
+        "OO",
+        927014860,
+        429859877
+      ],
+      [
+        "OO",
+        251311887,
+        599442860
+      ],
+      [
+        "OO",
+        616722333,
+        251311887
+      ],
+      [
+        "OO",
+        513698756,
+        599442860
+      ],
+      [
+        "OO",
+        394180272,
+        513698756
+      ],
+      [
+        "OO",
+        421534858,
+        599442860
+      ],
+      [
+        "OO",
+        903726223,
+        421534858
+      ],
+      [
+        "OO",
+        65524291,
+        599442860
+      ],
+      [
+        "OO",
+        666604706,
+        65524291
+      ],
+      [
+        "OO",
+        800250393,
+        599442860
+      ],
+      [
+        "OO",
+        380849551,
+        800250393
+      ],
+      [
+        "OO",
+        45057732,
+        599442860
+      ],
+      [
+        "OO",
+        134592933,
+        45057732
+      ],
+      [
+        "OO",
+        282879625,
+        599442860
+      ],
+      [
+        "OO",
+        675451710,
+        282879625
+      ],
+      [
+        "OO",
+        942035758,
+        599442860
+      ],
+      [
+        "OO",
+        698881596,
+        942035758
+      ],
+      [
+        "OO",
+        958075456,
+        599442860
+      ],
+      [
+        "OO",
+        117933114,
+        958075456
+      ],
+      [
+        "OO",
+        934905018,
+        599442860
+      ],
+      [
+        "OO",
+        949363274,
+        934905018
+      ],
+      [
+        "OO",
+        46890667,
+        599442860
+      ],
+      [
+        "OO",
+        694735566,
+        46890667
+      ],
+      [
+        "OO",
+        756174613,
+        599442860
+      ],
+      [
+        "OO",
+        477487242,
+        756174613
+      ],
+      [
+        "OO",
+        708959833,
+        599442860
+      ],
+      [
+        "OO",
+        606721163,
+        708959833
+      ],
+      [
+        "OO",
+        571760066,
+        599442860
+      ],
+      [
+        "OO",
+        348834368,
+        571760066
+      ],
+      [
+        "OO",
+        823368645,
+        599442860
+      ],
+      [
+        "OO",
+        178416566,
+        823368645
+      ],
+      [
+        "OO",
+        539390782,
+        599442860
+      ],
+      [
+        "OO",
+        520563410,
+        539390782
+      ],
+      [
+        "OO",
+        489434029,
+        599442860
+      ],
+      [
+        "OO",
+        481955917,
+        489434029
+      ],
+      [
+        "OO",
+        302049790,
+        599442860
+      ],
+      [
+        "OO",
+        613682816,
+        302049790
+      ],
+      [
+        "OO",
+        719270850,
+        599442860
+      ],
+      [
+        "OO",
+        442927760,
+        719270850
+      ],
+      [
+        "OO",
+        56943579,
+        599442860
+      ],
+      [
+        "OO",
+        116965062,
+        56943579
+      ],
+      [
+        "OO",
+        144820809,
+        599442860
+      ],
+      [
+        "OO",
+        846703362,
+        144820809
+      ],
+      [
+        "OO",
+        846693373,
+        599442860
+      ],
+      [
+        "OO",
+        90554544,
+        846693373
+      ],
+      [
+        "OO",
+        963775070,
+        599442860
+      ],
+      [
+        "OO",
+        875243124,
+        963775070
+      ],
+      [
+        "OO",
+        307079079,
+        599442860
+      ],
+      [
+        "OO",
+        346785737,
+        307079079
+      ],
+      [
+        "OO",
+        648235216,
+        599442860
+      ],
+      [
+        "OO",
+        460865218,
+        648235216
+      ],
+      [
+        "OO",
+        136068620,
+        599442860
+      ],
+      [
+        "OO",
+        436135639,
+        136068620
+      ],
+      [
+        "OO",
+        239155901,
+        599442860
+      ],
+      [
+        "OO",
+        518473578,
+        239155901
+      ],
+      [
+        "OO",
+        603273890,
+        599442860
+      ],
+      [
+        "OO",
+        494826795,
+        603273890
+      ],
+      [
+        "OO",
+        791499020,
+        599442860
+      ],
+      [
+        "OO",
+        150925260,
+        791499020
+      ],
+      [
+        "OO",
+        613092388,
+        599442860
+      ],
+      [
+        "OO",
+        846684771,
+        613092388
+      ],
+      [
+        "OO",
+        214431977,
+        599442860
+      ],
+      [
+        "OO",
+        299644344,
+        214431977
+      ],
+      [
+        "OO",
+        200499028,
+        599442860
+      ],
+      [
+        "OO",
+        520233872,
+        200499028
+      ],
+      [
+        "OO",
+        377231463,
+        599442860
+      ],
+      [
+        "OO",
+        969482401,
+        377231463
+      ],
+      [
+        "OO",
+        539986718,
+        599442860
+      ],
+      [
+        "OO",
+        821155201,
+        539986718
+      ],
+      [
+        "OO",
+        819988691,
+        599442860
+      ],
+      [
+        "OO",
+        804726116,
+        819988691
+      ],
+      [
+        "OO",
+        349186803,
+        599442860
+      ],
+      [
+        "OO",
+        628036139,
+        349186803
+      ],
+      [
+        "OO",
+        966877585,
+        599442860
+      ],
+      [
+        "OO",
+        221142622,
+        966877585
+      ],
+      [
+        "OO",
+        805546261,
+        599442860
+      ],
+      [
+        "OO",
+        4656310,
+        805546261
+      ],
+      [
+        "OO",
+        756878487,
+        599442860
+      ],
+      [
+        "OO",
+        752784736,
+        756878487
+      ],
+      [
+        "OO",
+        901277633,
+        599442860
+      ],
+      [
+        "OO",
+        941752358,
+        901277633
+      ],
+      [
+        "OO",
+        693248160,
+        599442860
+      ],
+      [
+        "OO",
+        699177075,
+        693248160
+      ],
+      [
+        "OO",
+        387451407,
+        599442860
+      ],
+      [
+        "OO",
+        463935510,
+        387451407
+      ],
+      [
+        "OO",
+        832264992,
+        599442860
+      ],
+      [
+        "OO",
+        158604772,
+        832264992
+      ],
+      [
+        "OO",
+        615636570,
+        599442860
+      ],
+      [
+        "OO",
+        478975355,
+        615636570
+      ],
+      [
+        "OO",
+        831499971,
+        599442860
+      ],
+      [
+        "OO",
+        263956795,
+        831499971
+      ],
+      [
+        "OO",
+        922987866,
+        599442860
+      ],
+      [
+        "OO",
+        787164503,
+        922987866
+      ],
+      [
+        "OO",
+        339896783,
+        599442860
+      ],
+      [
+        "OO",
+        352144932,
+        339896783
+      ],
+      [
+        "OO",
+        389088265,
+        737895073
+      ]
+    ]
+  },
+  {
+    "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Inputs\\Unrigged\\Lara_UnRigged_Textured.fbx",
+    "version": 7400,
+    "global_settings": {
+      "UpAxis": [
+        1
+      ],
+      "UpAxisSign": [
+        1
+      ],
+      "FrontAxis": [
+        2
+      ],
+      "FrontAxisSign": [
+        1
+      ],
+      "CoordAxis": [
+        0
+      ],
+      "CoordAxisSign": [
+        1
+      ],
+      "OriginalUpAxis": [
+        -1
+      ],
+      "OriginalUpAxisSign": [
+        1
+      ],
+      "UnitScaleFactor": [
+        100.0
+      ],
+      "OriginalUnitScaleFactor": [
+        100.0
+      ],
+      "AmbientColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DefaultCamera": [
+        "Producer Perspective"
+      ],
+      "TimeMode": [
+        11
+      ],
+      "TimeProtocol": [
+        2
+      ],
+      "SnapOnFrameMode": [
+        0
+      ],
+      "TimeSpanStart": [
+        0
+      ],
+      "TimeSpanStop": [
+        46186158000
+      ],
+      "CustomFrameRate": [
+        24.0
+      ],
+      "TimeMarker": [],
+      "CurrentTimeMarker": [
+        -1
+      ]
+    },
+    "object_counts": {
+      "Geometry": 1,
+      "Material": 1,
+      "Video": 1,
+      "Texture": 1,
+      "Model": 1
+    },
+    "models": [
+      {
+        "id": 1000005,
+        "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+        "kind": "Mesh",
+        "properties": {
+          "RotationActive": [
+            1
+          ],
+          "DefaultAttributeIndex": [
+            0
+          ],
+          "InheritType": [
+            1
+          ],
+          "UserProperties": [
+            ""
+          ],
+          "IsNull": [
+            0
+          ]
+        }
+      }
+    ],
+    "geometries": [
+      {
+        "id": 1000001,
+        "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+        "kind": "Mesh",
+        "control_points": 27725,
+        "polygon_count": 28636,
+        "polygon_vertices": 106780,
+        "raw_local_bounds": {
+          "min": [
+            -0.199951171875,
+            0.0,
+            -0.10424807667732239
+          ],
+          "max": [
+            0.199951171875,
+            0.99951171875,
+            0.10424807667732239
+          ]
+        },
+        "layers": [
+          "LayerElementNormal",
+          "LayerElementUV",
+          "LayerElementMaterial"
+        ],
+        "uv_layers": [
+          {
+            "name": "LayerElementUV",
+            "uv_pairs": 56329
+          }
+        ]
+      }
+    ],
+    "deformers": [],
+    "materials": [
+      {
+        "id": 1000002,
+        "name": "f9dcb69f_c978_4517_86d5_c509f2f721f9",
+        "kind": "",
+        "properties": {
+          "AmbientColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "DiffuseColor": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "TransparentColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TransparencyFactor": [
+            1.0
+          ],
+          "ReflectionColor": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "ReflectionFactor": [
+            0.0
+          ],
+          "SpecularColor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ShininessFactor": [
+            0.25
+          ],
+          "ShininessExponent": [
+            25.0
+          ],
+          "Emissive": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Ambient": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "Opacity": [
+            1.0
+          ],
+          "Specular": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Shininess": [
+            25.0
+          ],
+          "Reflectivity": [
+            0.0
+          ]
+        },
+        "fields": {}
+      }
+    ],
+    "textures": [
+      {
+        "id": 1000004,
+        "name": "base_color_texture",
+        "kind": "",
+        "properties": {
+          "Translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scaling": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "CurrentTextureBlendMode": [
+            0
+          ],
+          "UseMaterial": [
+            1
+          ]
+        },
+        "fields": {
+          "FileName": [
+            "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg"
+          ],
+          "RelativeFilename": [
+            "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg"
+          ]
+        }
+      }
+    ],
+    "connections": [
+      [
+        "OP",
+        1000004,
+        1000002,
+        "DiffuseColor"
+      ],
+      [
+        "OO",
+        1000003,
+        1000004
+      ],
+      [
+        "OO",
+        1000005,
+        0
+      ],
+      [
+        "OO",
+        1000001,
+        1000005
+      ],
+      [
+        "OO",
+        1000002,
+        1000005
+      ]
+    ]
+  }
+]

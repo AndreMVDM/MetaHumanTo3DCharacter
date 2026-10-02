@@ -1,0 +1,399 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "installed_public_boundaries": [
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\MetaHumanCharacter.uplugin",
+      "exists": true,
+      "sha256": "8bbb0999550e17f333454f2548203e3da3b4152f7dd807bece72ba78e1c54eb9",
+      "bytes": 2720,
+      "descriptor": {
+        "FileVersion": 3,
+        "Version": 1,
+        "VersionName": "1.0.0",
+        "FriendlyName": "MetaHuman Creator",
+        "Description": "MetaHuman Character Asset Creator and Editor.",
+        "Category": "MetaHuman",
+        "CreatedBy": "Epic Games, Inc.",
+        "CreatedByURL": "http://epicgames.com",
+        "DocsURL": "",
+        "MarketplaceURL": "",
+        "SupportURL": "",
+        "CanContainContent": true,
+        "IsBetaVersion": true,
+        "IsExperimentalVersion": false,
+        "Installed": false,
+        "EnabledByDefault": false,
+        "Modules": [
+          {
+            "Name": "MetaHumanCharacterEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCharacter",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCharacterPaletteEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCharacterPalette",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanDefaultPipeline",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanDefaultEditorPipeline",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCharacterMigrationEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          }
+        ],
+        "Plugins": [
+          {
+            "Name": "MeshModelingToolset",
+            "Enabled": true
+          },
+          {
+            "Name": "EditorScriptingUtilities",
+            "Enabled": true
+          },
+          {
+            "Name": "AppleARKit",
+            "Enabled": true,
+            "TargetAllowList": [
+              "Editor"
+            ]
+          },
+          {
+            "Name": "AppleARKitFaceSupport",
+            "Enabled": true,
+            "TargetAllowList": [
+              "Editor"
+            ]
+          },
+          {
+            "Name": "LiveLink",
+            "Enabled": true
+          },
+          {
+            "Name": "LiveLinkControlRig",
+            "Enabled": true
+          },
+          {
+            "Name": "RigLogic",
+            "Enabled": true
+          },
+          {
+            "Name": "MetaHumanSDK",
+            "Enabled": true
+          },
+          {
+            "Name": "HairStrands",
+            "Enabled": true
+          },
+          {
+            "Name": "Dataflow",
+            "Enabled": true
+          },
+          {
+            "Name": "MetaHuman",
+            "Enabled": true,
+            "TargetAllowList": [
+              "Editor"
+            ]
+          },
+          {
+            "Name": "TextureGraph",
+            "Enabled": true,
+            "TargetAllowList": [
+              "Editor"
+            ]
+          },
+          {
+            "Name": "ChaosClothAsset",
+            "Enabled": true
+          },
+          {
+            "Name": "ChaosClothAssetEditorCore",
+            "Enabled": true
+          },
+          {
+            "Name": "ChaosOutfitAsset",
+            "Enabled": true
+          },
+          {
+            "Name": "PerformanceCaptureCore",
+            "Enabled": true
+          },
+          {
+            "Name": "IKRig",
+            "Enabled": true
+          },
+          {
+            "Name": "PluginUtils",
+            "Enabled": true
+          },
+          {
+            "Name": "ScriptableToolsFramework",
+            "Enabled": true
+          },
+          {
+            "Name": "GeometryScripting",
+            "Enabled": true,
+            "TargetAllowList": [
+              "Editor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\MetaHumanCoreTech.uplugin",
+      "exists": true,
+      "sha256": "5c98f04d1be2bf173b3da5d5fecd6b82abb023e6d54158f372640d40fd83bdd5",
+      "bytes": 1674,
+      "descriptor": {
+        "FileVersion": 3,
+        "Version": 1,
+        "VersionName": "1.0.0",
+        "FriendlyName": "MetaHuman Core Tech",
+        "Description": "The core technology behind the MetaHuman Creator and MetaHuman Animator plugins.",
+        "Category": "MetaHuman",
+        "CreatedBy": "Epic Games, Inc.",
+        "CreatedByURL": "http://epicgames.com",
+        "DocsURL": "",
+        "MarketplaceURL": "",
+        "SupportURL": "",
+        "CanContainContent": true,
+        "IsBetaVersion": false,
+        "IsExperimentalVersion": false,
+        "Installed": false,
+        "EnabledByDefault": false,
+        "Modules": [
+          {
+            "Name": "MetaHumanCoreTechLib",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCoreTech",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanImageViewer",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanCaptureData",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanPipelineCore",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "MetaHumanBodyTrackerInterface",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          }
+        ],
+        "Plugins": [
+          {
+            "Name": "MeshModelingToolset",
+            "Enabled": true
+          },
+          {
+            "Name": "EditorScriptingUtilities",
+            "Enabled": true
+          },
+          {
+            "Name": "RigLogic",
+            "Enabled": true
+          },
+          {
+            "Name": "MetaHumanSDK",
+            "Enabled": true
+          },
+          {
+            "Name": "CaptureData",
+            "Enabled": true
+          },
+          {
+            "Name": "StreamingADA",
+            "Enabled": true
+          },
+          {
+            "Name": "MetaHumanCoreML",
+            "Enabled": true,
+            "PlatformAllowList": [
+              "Mac",
+              "IOS",
+              "TVOS",
+              "VisionOS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\RigLogic\\RigLogic.uplugin",
+      "exists": true,
+      "sha256": "8a05054eef27d511e7c4a6e9112616b9f62590f1834da0d5ddd6b04760e036a6",
+      "bytes": 1087,
+      "descriptor": {
+        "FileVersion": 3,
+        "Version": 13.2,
+        "VersionName": "13.2.5",
+        "FriendlyName": "RigLogic Plugin",
+        "Description": "RigLogic Plugin for Facial Animation",
+        "Category": "Animation",
+        "CreatedBy": "Epic Games, Inc.",
+        "CreatedByURL": "https://epicgames.com",
+        "DocsURL": "",
+        "MarketplaceURL": "",
+        "SupportURL": "",
+        "CanContainContent": true,
+        "IsBetaVersion": false,
+        "Installed": false,
+        "Modules": [
+          {
+            "Name": "RigLogicLib",
+            "Type": "Runtime",
+            "LoadingPhase": "PreDefault"
+          },
+          {
+            "Name": "RigLogicLibTest",
+            "Type": "UncookedOnly",
+            "LoadingPhase": "PreDefault",
+            "PlatformAllowList": [
+              "Win64"
+            ]
+          },
+          {
+            "Name": "RigLogicModule",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+          },
+          {
+            "Name": "RigLogicDeveloper",
+            "Type": "UncookedOnly",
+            "LoadingPhase": "PreDefault"
+          },
+          {
+            "Name": "RigLogicEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+              "Win64"
+            ]
+          }
+        ],
+        "Plugins": [
+          {
+            "Name": "ControlRig",
+            "Enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Public\\MetaHumanCharacterEditorSubsystem.h",
+      "exists": true,
+      "sha256": "0121fc08fb29bd32fb11c18293b2e4fdee7b45ce4446f63e6878a6613101bc39",
+      "bytes": 107970
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Source\\MetaHumanCharacterEditor\\Public\\MetaHumanCharacterExportBlueprintLibrary.h",
+      "exists": true,
+      "sha256": "765864548b323f6a21d830a4fc24bcd956666c586eefb1992e9ff4c4297c9b3a",
+      "bytes": 9767
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Public\\MetaHumanCoreTechMeshUtils.h",
+      "exists": true,
+      "sha256": "572acc434b89db408eb733505d39b5b550594b0fb8c38746e6f702379cfac21e",
+      "bytes": 1036
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCoreTechLib\\Source\\MetaHumanCoreTechLib\\Public\\MetaHumanConformTargetParams.h",
+      "exists": true,
+      "sha256": "a3c5ddf8a5c2d0cbd1ba495826cab4d669258f3bd5eb93f38859792182a8dcae",
+      "bytes": 3208
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\RigLogic\\Source\\RigLogicModule\\Public\\DNAUtils.h",
+      "exists": true,
+      "sha256": "95f6ee60afe97ed38a3fb77b0a8ba78fc3972a2fec1fdfd949381dcc5d2a7e6e",
+      "bytes": 2863
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\Animation\\RigLogic\\Source\\RigLogicModule\\Public\\DNAReader.h",
+      "exists": true,
+      "sha256": "5f814cc7dda0ae918448fa563f868441f7f44a6adc4aa148ab3579e3fe41433b",
+      "bytes": 16058
+    }
+  ],
+  "installed_model_resources": [
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\body_model.dna",
+      "exists": true,
+      "bytes": 65123071,
+      "copied": false,
+      "reverse_engineered": false
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\skin_model.binary",
+      "exists": true,
+      "bytes": 27795897,
+      "copied": false,
+      "reverse_engineered": false
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\rbf_model.binary",
+      "exists": true,
+      "bytes": 676805,
+      "copied": false,
+      "reverse_engineered": false
+    },
+    {
+      "path": "D:\\Epic Games\\UE_5.8\\Engine\\Plugins\\MetaHuman\\MetaHumanCharacter\\Content\\Body\\IdentityTemplate\\pipeline_presets.json",
+      "exists": true,
+      "bytes": 42333,
+      "copied": false,
+      "reverse_engineered": false
+    }
+  ],
+  "explicit_plugin_loads": [
+    "MetaHumanCharacter",
+    "Phase4CTools (extraction only)"
+  ],
+  "helper_dependencies": [
+    "RigLogicModule",
+    "MetaHumanCoreTechLib"
+  ],
+  "project_configuration_changes": [],
+  "engine_source_changes": [],
+  "python_execution": "PythonScriptPlugin already enabled in unchanged project",
+  "access": {
+    "python": "executed conform_to_target_meshes and joint readback",
+    "blueprint": "public reflected Blueprint-callable export/subsystem declarations inspected; graph not executed",
+    "cpp": "compiled public DNA reader and world joint helper executed"
+  },
+  "private_boundary_policy": "Installed implementation inspected to understand basis/pipeline. No private source copied, no model matrices read directly, no binary reverse engineering."
+}

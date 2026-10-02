@@ -1,0 +1,108 @@
+{
+  "method": "Euclidean norm of adjacent-vertex weight difference / reference edge length; descriptive review flag only",
+  "results": {
+    "baseline": {
+      "front_pants": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.016402898617855783,
+          0.07431973611783428,
+          0.13201689208351597
+        ]
+      },
+      "back_hips": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.020044652787925624,
+          0.10000442395627074,
+          0.30516493645893145
+        ]
+      },
+      "waistband": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.018281656352990013,
+          0.09638405642536575,
+          0.3066818145795464
+        ]
+      },
+      "shoulders": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.03585086820601947,
+          0.1960550872306107,
+          0.3551508681460778
+        ]
+      },
+      "upper_torso": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.03674543796352332,
+          0.19633812863909134,
+          0.37669017898702406
+        ]
+      },
+      "left_sole": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.008185833391443367,
+          0.05666947890755246,
+          0.10081316671614317
+        ]
+      },
+      "right_sole": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.009594211582075456,
+          0.05653806533677914,
+          0.09329949617848955
+        ]
+      }
+    },
+    "refined": {
+      "front_pants": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.011561594367385535,
+          0.0680876855407132,
+          0.1396696315589713
+        ]
+      },
+      "back_hips": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.0170421495124659,
+          0.0962587527856417,
+          0.34166645354281927
+        ]
+      },
+      "waistband": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.014442686675669494,
+          0.10529954263318429,
+          0.34134198521907444
+        ]
+      },
+      "shoulders": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.03299729334770901,
+          0.0859297883639223,
+          0.1502314979415945
+        ]
+      },
+      "upper_torso": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.034410708164722546,
+          0.1179392838148481,
+          0.3183128610794471
+        ]
+      },
+      "left_sole": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.008185833391443367,
+          0.05666947890755246,
+          0.10081316671614317
+        ]
+      },
+      "right_sole": {
+        "weight_gradient_per_cm_p50_p95_p99": [
+          0.009594211582075456,
+          0.05653806533677914,
+          0.09329949617848955
+        ]
+      }
+    }
+  },
+  "full_surface_self_intersection_and_volume": "Not measured; open multi-shell mesh is unsuitable for a global enclosed-volume acceptance"
+}

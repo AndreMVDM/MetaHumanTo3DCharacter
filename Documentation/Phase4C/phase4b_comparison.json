@@ -1,0 +1,1316 @@
+{
+  "A_4B_vs_B_4C": {
+    "comparison": "4B geometry vs 4C donor",
+    "joint_count": 23,
+    "mean_difference_cm": 5.296570003263577,
+    "max_difference_cm": 13.360850519011917,
+    "canonical_hierarchy_equivalent": true,
+    "native_hierarchy_equivalent": false,
+    "native_hierarchy_limit": "MetaHuman five spines, two neck joints, extra metacarpals/helpers differ from 4B/4A; explicit contraction required, no retained positions moved.",
+    "joints": [
+      {
+        "role": "root",
+        "a_cm": [
+          0,
+          0,
+          0
+        ],
+        "b_cm": [
+          0,
+          0,
+          0
+        ],
+        "absolute_difference_cm": 0.0,
+        "difference_percent_180cm": 0.0,
+        "parent_segment_axis_difference_deg": null,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "pelvis",
+        "a_cm": [
+          0.0,
+          4.668354559250324,
+          102.5
+        ],
+        "b_cm": [
+          0.5840033292770386,
+          3.9870738983154297,
+          101.38363647460938
+        ],
+        "absolute_difference_cm": 1.43229562185784,
+        "difference_percent_180cm": 0.7957197899210222,
+        "parent_segment_axis_difference_deg": 0.48501274371664077,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_01",
+        "a_cm": [
+          0.0,
+          5.321728269579018,
+          114.53333333333333
+        ],
+        "b_cm": [
+          0.5644272565841675,
+          4.776899814605713,
+          109.12647247314453
+        ],
+        "absolute_difference_cm": 5.463475133535916,
+        "difference_percent_180cm": 3.035263963075509,
+        "parent_segment_axis_difference_deg": 2.7203232054924573,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_02",
+        "a_cm": [
+          0.0,
+          4.428229611949732,
+          126.56666666666666
+        ],
+        "b_cm": [
+          0.6436465978622437,
+          5.475666522979736,
+          124.43170166015625
+        ],
+        "absolute_difference_cm": 2.4636315886413955,
+        "difference_percent_180cm": 1.3686842159118864,
+        "parent_segment_axis_difference_deg": 6.866941987176136,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_03",
+        "a_cm": [
+          0.0,
+          -0.41819147740446105,
+          138.6
+        ],
+        "b_cm": [
+          0.6902815699577332,
+          -1.3419198989868164,
+          137.43939208984375
+        ],
+        "absolute_difference_cm": 1.636084827806794,
+        "difference_percent_180cm": 0.9089360154482189,
+        "parent_segment_axis_difference_deg": 5.725704468815618,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "neck_01",
+        "a_cm": [
+          0.0,
+          3.8021034989995415,
+          153.6
+        ],
+        "b_cm": [
+          0.7336481809616089,
+          -9.163066864013672,
+          150.45700073242188
+        ],
+        "absolute_difference_cm": 13.360850519011917,
+        "difference_percent_180cm": 7.422694732784398,
+        "parent_segment_axis_difference_deg": 46.71231687431434,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "head",
+        "a_cm": [
+          0.0,
+          1.8747791121823303,
+          166.8
+        ],
+        "b_cm": [
+          1.011353850364685,
+          -2.6623544692993164,
+          159.3494110107422
+        ],
+        "absolute_difference_cm": 8.781781939544267,
+        "difference_percent_180cm": 4.87876774419126,
+        "parent_segment_axis_difference_deg": 44.49387465766221,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_l",
+        "a_cm": [
+          8.70217430811581,
+          -3.152341540444544,
+          141.6
+        ],
+        "b_cm": [
+          1.4538447856903076,
+          -6.639039993286133,
+          144.8472442626953
+        ],
+        "absolute_difference_cm": 8.674096049060138,
+        "difference_percent_180cm": 4.818942249477854,
+        "parent_segment_axis_difference_deg": 60.39542154481606,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_l",
+        "a_cm": [
+          18.129529808574603,
+          -3.152341540444544,
+          140.6
+        ],
+        "b_cm": [
+          13.896257400512695,
+          -2.6705265045166016,
+          139.10354614257812
+        ],
+        "absolute_difference_cm": 4.5157629651142335,
+        "difference_percent_180cm": 2.508757202841241,
+        "parent_segment_axis_difference_deg": 24.536145820300693,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_l",
+        "a_cm": [
+          21.43482283041007,
+          -0.4854843149263076,
+          121.8
+        ],
+        "b_cm": [
+          24.909408569335938,
+          0.33635807037353516,
+          116.10186004638672
+        ],
+        "absolute_difference_cm": 6.724356466933195,
+        "difference_percent_180cm": 3.735753592740664,
+        "parent_segment_axis_difference_deg": 15.533203300138416,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_l",
+        "a_cm": [
+          29.306981816542404,
+          3.7785553926618305,
+          103.8
+        ],
+        "b_cm": [
+          33.100791931152344,
+          8.833699226379395,
+          93.41477966308594
+        ],
+        "absolute_difference_cm": 12.15731367578968,
+        "difference_percent_180cm": 6.754063153216489,
+        "parent_segment_axis_difference_deg": 8.025469873717718,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_l",
+        "a_cm": [
+          7.989295194138082,
+          3.580961204282466,
+          100.5
+        ],
+        "b_cm": [
+          9.579394340515137,
+          3.3339929580688477,
+          98.52506256103516
+        ],
+        "absolute_difference_cm": 2.5475059367490953,
+        "difference_percent_180cm": 1.4152810759717196,
+        "parent_segment_axis_difference_deg": 5.034440622643375,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_l",
+        "a_cm": [
+          13.518970869735476,
+          3.7456021013020093,
+          54.599999999999994
+        ],
+        "b_cm": [
+          14.78506851196289,
+          3.2449066638946533,
+          53.752235412597656
+        ],
+        "absolute_difference_cm": 1.6038715523220113,
+        "difference_percent_180cm": 0.8910397512900062,
+        "parent_segment_axis_difference_deg": 0.3963382826477739,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_l",
+        "a_cm": [
+          17.745956110526013,
+          -0.11411840893576986,
+          17.1
+        ],
+        "b_cm": [
+          18.0073299407959,
+          -0.5429706573486328,
+          11.492603302001953
+        ],
+        "absolute_difference_cm": 5.629842649562964,
+        "difference_percent_180cm": 3.1276903608683133,
+        "parent_segment_axis_difference_deg": 2.1877485353591264,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_l",
+        "a_cm": [
+          21.52088366626552,
+          10.709634986078996,
+          5.5166203799100675
+        ],
+        "b_cm": [
+          19.7733211517334,
+          12.408879280090332,
+          6.606729507446289
+        ],
+        "absolute_difference_cm": 2.6701580145874693,
+        "difference_percent_180cm": 1.4834211192152607,
+        "parent_segment_axis_difference_deg": 26.54242585894808,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_r",
+        "a_cm": [
+          -8.70217430811581,
+          -3.152341540444544,
+          141.6
+        ],
+        "b_cm": [
+          0.0670352578163147,
+          -6.709756851196289,
+          144.8093719482422
+        ],
+        "absolute_difference_cm": 9.992712765138918,
+        "difference_percent_180cm": 5.551507091743844,
+        "parent_segment_axis_difference_deg": 61.2489059394518,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_r",
+        "a_cm": [
+          -18.129529808574603,
+          -3.152341540444544,
+          140.6
+        ],
+        "b_cm": [
+          -12.390768051147461,
+          -2.542405605316162,
+          139.24256896972656
+        ],
+        "absolute_difference_cm": 5.92857717799291,
+        "difference_percent_180cm": 3.2936539877738387,
+        "parent_segment_axis_difference_deg": 24.568620285617673,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_r",
+        "a_cm": [
+          -21.43482283041007,
+          -0.4854843149263076,
+          121.8
+        ],
+        "b_cm": [
+          -24.6092472076416,
+          0.3557889461517334,
+          116.51264953613281
+        ],
+        "absolute_difference_cm": 6.224209648969354,
+        "difference_percent_180cm": 3.4578942494274187,
+        "parent_segment_axis_difference_deg": 18.20928184490279,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_r",
+        "a_cm": [
+          -29.306981816542404,
+          3.7785553926618305,
+          103.8
+        ],
+        "b_cm": [
+          -32.69942092895508,
+          8.31151294708252,
+          94.62911224365234
+        ],
+        "absolute_difference_cm": 10.777825827184914,
+        "difference_percent_180cm": 5.98768101510273,
+        "parent_segment_axis_difference_deg": 7.323697068315275,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_r",
+        "a_cm": [
+          -7.989295194138082,
+          3.580961204282466,
+          100.5
+        ],
+        "b_cm": [
+          -8.440633773803711,
+          3.649487257003784,
+          98.56282043457031
+        ],
+        "absolute_difference_cm": 1.990242950525012,
+        "difference_percent_180cm": 1.1056905280694511,
+        "parent_segment_axis_difference_deg": 6.389071032132976,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_r",
+        "a_cm": [
+          -13.518970869735476,
+          3.7456021013020093,
+          54.599999999999994
+        ],
+        "b_cm": [
+          -13.629362106323242,
+          3.3528661727905273,
+          53.68055725097656
+        ],
+        "absolute_difference_cm": 1.0058840407278153,
+        "difference_percent_180cm": 0.5588244670710085,
+        "parent_segment_axis_difference_deg": 0.6420184067928895,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_r",
+        "a_cm": [
+          -17.745956110526013,
+          -0.11411840893576986,
+          17.1
+        ],
+        "b_cm": [
+          -18.15096664428711,
+          -0.5614097118377686,
+          11.49612045288086
+        ],
+        "absolute_difference_cm": 5.636272617672912,
+        "difference_percent_180cm": 3.1312625653738397,
+        "parent_segment_axis_difference_deg": 0.6484182507677053,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_r",
+        "a_cm": [
+          -21.52088366626552,
+          10.709634986078996,
+          5.5166203799100675
+        ],
+        "b_cm": [
+          -19.947315216064453,
+          12.48759651184082,
+          6.586861610412598
+        ],
+        "absolute_difference_cm": 2.6043581063335104,
+        "difference_percent_180cm": 1.446865614629728,
+        "parent_segment_axis_difference_deg": 26.57216750402415,
+        "same_canonical_parent_role": true
+      }
+    ]
+  },
+  "B_4C_vs_C_4A": {
+    "comparison": "4C donor vs approximate 4A authored control",
+    "joint_count": 23,
+    "mean_difference_cm": 5.242654117922331,
+    "max_difference_cm": 12.523897796012776,
+    "canonical_hierarchy_equivalent": true,
+    "native_hierarchy_equivalent": false,
+    "native_hierarchy_limit": "MetaHuman five spines, two neck joints, extra metacarpals/helpers differ from 4B/4A; explicit contraction required, no retained positions moved.",
+    "joints": [
+      {
+        "role": "root",
+        "a_cm": [
+          0,
+          0,
+          0
+        ],
+        "b_cm": [
+          0.034516707666404876,
+          2.2411021814403638,
+          -0.1601028225219023
+        ],
+        "absolute_difference_cm": 2.247078838079422,
+        "difference_percent_180cm": 1.2483771322663455,
+        "parent_segment_axis_difference_deg": null,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "pelvis",
+        "a_cm": [
+          0.5840033292770386,
+          3.9870738983154297,
+          101.38363647460938
+        ],
+        "b_cm": [
+          -0.006773621986462537,
+          0.03824974575542558,
+          100.01918519849333
+        ],
+        "absolute_difference_cm": 4.219473531008356,
+        "difference_percent_180cm": 2.344151961671309,
+        "parent_segment_axis_difference_deg": 3.5294858505663558,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_01",
+        "a_cm": [
+          0.5644272565841675,
+          4.776899814605713,
+          109.12647247314453
+        ],
+        "b_cm": [
+          -0.01172846154480662,
+          -0.2260925465267667,
+          112.04069976101515
+        ],
+        "absolute_difference_cm": 5.81847133381719,
+        "difference_percent_180cm": 3.232484074342883,
+        "parent_segment_axis_difference_deg": 7.0851379201168685,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_02",
+        "a_cm": [
+          0.6436465978622437,
+          5.475666522979736,
+          124.43170166015625
+        ],
+        "b_cm": [
+          -0.017096204399679387,
+          -0.5124633631658089,
+          125.06400720374714
+        ],
+        "absolute_difference_cm": 6.057564765196173,
+        "difference_percent_180cm": 3.3653137584423183,
+        "parent_segment_axis_difference_deg": 3.886894689284,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_03",
+        "a_cm": [
+          0.6902815699577332,
+          -1.3419198989868164,
+          137.43939208984375
+        ],
+        "b_cm": [
+          -0.02246394725455216,
+          -0.798834179804851,
+          138.08731464647914
+        ],
+        "absolute_difference_cm": 1.1057811311839902,
+        "difference_percent_180cm": 0.6143228506577724,
+        "parent_segment_axis_difference_deg": 26.400998401904793,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "neck_01",
+        "a_cm": [
+          0.7336481809616089,
+          -9.163066864013672,
+          150.45700073242188
+        ],
+        "b_cm": [
+          -0.027418786812896234,
+          -1.063176472087043,
+          150.10882920900093
+        ],
+        "absolute_difference_cm": 8.143013612931275,
+        "difference_percent_180cm": 4.523896451628486,
+        "parent_segment_axis_difference_deg": 29.738864052545885,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "head",
+        "a_cm": [
+          1.011353850364685,
+          -2.6623544692993164,
+          159.3494110107422
+        ],
+        "b_cm": [
+          -0.03196072307471165,
+          -1.3054902400123864,
+          161.1285508913126
+        ],
+        "absolute_difference_cm": 2.4687900985109277,
+        "difference_percent_180cm": 1.371550054728293,
+        "parent_segment_axis_difference_deg": 37.45275608023746,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_l",
+        "a_cm": [
+          1.4538447856903076,
+          -6.639039993286133,
+          144.8472442626953
+        ],
+        "b_cm": [
+          8.994612089898878,
+          -0.8684374760467208,
+          141.0963329632439
+        ],
+        "absolute_difference_cm": 10.209425082958548,
+        "difference_percent_180cm": 5.67190282386586,
+        "parent_segment_axis_difference_deg": 70.11851988969218,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_l",
+        "a_cm": [
+          13.896257400512695,
+          -2.6705265045166016,
+          139.10354614257812
+        ],
+        "b_cm": [
+          18.013752643534954,
+          -0.8278981505043436,
+          139.09638687895793
+        ],
+        "absolute_difference_cm": 4.510997404385912,
+        "difference_percent_180cm": 2.5061096691032843,
+        "parent_segment_axis_difference_deg": 19.984848685383177,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_l",
+        "a_cm": [
+          24.909408569335938,
+          0.33635807037353516,
+          116.10186004638672
+        ],
+        "b_cm": [
+          25.03542970612815,
+          -0.43412071899208277,
+          121.06694589439074
+        ],
+        "absolute_difference_cm": 5.02609156003256,
+        "difference_percent_180cm": 2.7922730889069776,
+        "parent_segment_axis_difference_deg": 7.0241818618603,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_l",
+        "a_cm": [
+          33.100791931152344,
+          8.833699226379395,
+          93.41477966308594
+        ],
+        "b_cm": [
+          31.055484700124204,
+          -0.017923904992825607,
+          102.03530762115405
+        ],
+        "absolute_difference_cm": 12.523897796012776,
+        "difference_percent_180cm": 6.957720997784875,
+        "parent_segment_axis_difference_deg": 18.350868721306608,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_l",
+        "a_cm": [
+          9.579394340515137,
+          3.3339929580688477,
+          98.52506256103516
+        ],
+        "b_cm": [
+          11.016849778733478,
+          0.10003587939435821,
+          97.01825505091593
+        ],
+        "absolute_difference_cm": 3.84645621268773,
+        "difference_percent_180cm": 2.13692011815985,
+        "parent_segment_axis_difference_deg": 4.896037399408338,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_l",
+        "a_cm": [
+          14.78506851196289,
+          3.2449066638946533,
+          53.752235412597656
+        ],
+        "b_cm": [
+          16.044748449864862,
+          2.025072500785122,
+          54.96700480633219
+        ],
+        "absolute_difference_cm": 2.133179226271439,
+        "difference_percent_180cm": 1.1850995701507994,
+        "parent_segment_axis_difference_deg": 2.722185918698782,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_l",
+        "a_cm": [
+          18.0073299407959,
+          -0.5429706573486328,
+          11.492603302001953
+        ],
+        "b_cm": [
+          18.066191362194093,
+          1.9697244428155276,
+          11.868691092268554
+        ],
+        "absolute_difference_cm": 2.5413664354645142,
+        "difference_percent_180cm": 1.4118702419247302,
+        "parent_segment_axis_difference_deg": 5.3043253077314265,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_l",
+        "a_cm": [
+          19.7733211517334,
+          12.408879280090332,
+          6.606729507446289
+        ],
+        "b_cm": [
+          18.07331332065468,
+          12.16388152820856,
+          4.074634870045647
+        ],
+        "absolute_difference_cm": 3.0596656315534183,
+        "difference_percent_180cm": 1.699814239751899,
+        "parent_segment_axis_difference_deg": 18.188844682210032,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_r",
+        "a_cm": [
+          0.0670352578163147,
+          -6.709756851196289,
+          144.8093719482422
+        ],
+        "b_cm": [
+          -9.042017404187156,
+          -0.8614020297040774,
+          141.0890536109753
+        ],
+        "absolute_difference_cm": 11.446347148668346,
+        "difference_percent_180cm": 6.359081749260192,
+        "parent_segment_axis_difference_deg": 71.14209652734704,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_r",
+        "a_cm": [
+          -12.390768051147461,
+          -2.542405605316162,
+          139.24256896972656
+        ],
+        "b_cm": [
+          -18.059506344637114,
+          -0.8138272578190566,
+          139.08182817442065
+        ],
+        "absolute_difference_cm": 5.928609832565083,
+        "difference_percent_180cm": 3.293672129202824,
+        "parent_segment_axis_difference_deg": 20.18446797397495,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_r",
+        "a_cm": [
+          -24.6092472076416,
+          0.3557889461517334,
+          116.51264953613281
+        ],
+        "b_cm": [
+          -25.066318888555283,
+          -0.41457781248473985,
+          121.04672547142233
+        ],
+        "absolute_difference_cm": 4.621712242370449,
+        "difference_percent_180cm": 2.567617912428027,
+        "parent_segment_axis_difference_deg": 8.744111126911324,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_r",
+        "a_cm": [
+          -32.69942092895508,
+          8.31151294708252,
+          94.62911224365234
+        ],
+        "b_cm": [
+          -31.070683557283253,
+          0.006309299076279603,
+          102.0102342966732
+        ],
+        "absolute_difference_cm": 11.22987781867316,
+        "difference_percent_180cm": 6.238821010373977,
+        "parent_segment_axis_difference_deg": 17.831069723632215,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_r",
+        "a_cm": [
+          -8.440633773803711,
+          3.649487257003784,
+          98.56282043457031
+        ],
+        "b_cm": [
+          -11.02791960292723,
+          0.10863475825758909,
+          97.00935806480982
+        ],
+        "absolute_difference_cm": 4.652411172039983,
+        "difference_percent_180cm": 2.584672873355546,
+        "parent_segment_axis_difference_deg": 3.1758436909739496,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_r",
+        "a_cm": [
+          -13.629362106323242,
+          3.3528661727905273,
+          53.68055725097656
+        ],
+        "b_cm": [
+          -16.020370650732534,
+          2.0375799609498215,
+          54.9540637356324
+        ],
+        "absolute_difference_cm": 3.0114312950749835,
+        "difference_percent_180cm": 1.6730173861527686,
+        "parent_segment_axis_difference_deg": 2.9891520004801526,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_r",
+        "a_cm": [
+          -18.15096664428711,
+          -0.5614097118377686,
+          11.49612045288086
+        ],
+        "b_cm": [
+          -18.007067625977975,
+          1.9837953355008144,
+          11.854132387731296
+        ],
+        "absolute_difference_cm": 2.574285960409893,
+        "difference_percent_180cm": 1.430158866894385,
+        "parent_segment_axis_difference_deg": 6.253440886177547,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_r",
+        "a_cm": [
+          -19.947315216064453,
+          12.48759651184082,
+          6.586861610412598
+        ],
+        "b_cm": [
+          -17.99994566751739,
+          12.177952420893847,
+          4.060076165508389
+        ],
+        "absolute_difference_cm": 3.2051165823174865,
+        "difference_percent_180cm": 1.7806203235097147,
+        "parent_segment_axis_difference_deg": 18.2891458748683,
+        "same_canonical_parent_role": true
+      }
+    ]
+  },
+  "A_4B_vs_C_4A": {
+    "comparison": "4B geometry vs approximate 4A authored control",
+    "joint_count": 23,
+    "mean_difference_cm": 4.160896830124891,
+    "max_difference_cm": 6.50234339548132,
+    "canonical_hierarchy_equivalent": true,
+    "native_hierarchy_equivalent": false,
+    "native_hierarchy_limit": "MetaHuman five spines, two neck joints, extra metacarpals/helpers differ from 4B/4A; explicit contraction required, no retained positions moved.",
+    "joints": [
+      {
+        "role": "root",
+        "a_cm": [
+          0,
+          0,
+          0
+        ],
+        "b_cm": [
+          0.034516707666404876,
+          2.2411021814403638,
+          -0.1601028225219023
+        ],
+        "absolute_difference_cm": 2.247078838079422,
+        "difference_percent_180cm": 1.2483771322663455,
+        "parent_segment_axis_difference_deg": null,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "pelvis",
+        "a_cm": [
+          0.0,
+          4.668354559250324,
+          102.5
+        ],
+        "b_cm": [
+          -0.006773621986462537,
+          0.03824974575542558,
+          100.01918519849333
+        ],
+        "absolute_difference_cm": 5.252842901256234,
+        "difference_percent_180cm": 2.9182460562534636,
+        "parent_segment_axis_difference_deg": 3.867481339648166,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_01",
+        "a_cm": [
+          0.0,
+          5.321728269579018,
+          114.53333333333333
+        ],
+        "b_cm": [
+          -0.01172846154480662,
+          -0.2260925465267667,
+          112.04069976101515
+        ],
+        "absolute_difference_cm": 6.082078221321605,
+        "difference_percent_180cm": 3.378932345178669,
+        "parent_segment_axis_difference_deg": 4.367679543759589,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_02",
+        "a_cm": [
+          0.0,
+          4.428229611949732,
+          126.56666666666666
+        ],
+        "b_cm": [
+          -0.017096204399679387,
+          -0.5124633631658089,
+          125.06400720374714
+        ],
+        "absolute_difference_cm": 5.1641770705565975,
+        "difference_percent_180cm": 2.868987261420332,
+        "parent_segment_axis_difference_deg": 2.986945072497842,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "spine_03",
+        "a_cm": [
+          0.0,
+          -0.41819147740446105,
+          138.6
+        ],
+        "b_cm": [
+          -0.02246394725455216,
+          -0.798834179804851,
+          138.08731464647914
+        ],
+        "absolute_difference_cm": 0.638936434656631,
+        "difference_percent_180cm": 0.3549646859203505,
+        "parent_segment_axis_difference_deg": 20.677428273584752,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "neck_01",
+        "a_cm": [
+          0.0,
+          3.8021034989995415,
+          153.6
+        ],
+        "b_cm": [
+          -0.027418786812896234,
+          -1.063176472087043,
+          150.10882920900093
+        ],
+        "absolute_difference_cm": 5.988319837721729,
+        "difference_percent_180cm": 3.3268443542898494,
+        "parent_segment_axis_difference_deg": 16.973802059494666,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "head",
+        "a_cm": [
+          0.0,
+          1.8747791121823303,
+          166.8
+        ],
+        "b_cm": [
+          -0.03196072307471165,
+          -1.3054902400123864,
+          161.1285508913126
+        ],
+        "absolute_difference_cm": 6.50234339548132,
+        "difference_percent_180cm": 3.6124129974896224,
+        "parent_segment_axis_difference_deg": 7.0473835203508735,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_l",
+        "a_cm": [
+          8.70217430811581,
+          -3.152341540444544,
+          141.6
+        ],
+        "b_cm": [
+          8.994612089898878,
+          -0.8684374760467208,
+          141.0963329632439
+        ],
+        "absolute_difference_cm": 2.3569934483366235,
+        "difference_percent_180cm": 1.3094408046314574,
+        "parent_segment_axis_difference_deg": 16.133491132074287,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_l",
+        "a_cm": [
+          18.129529808574603,
+          -3.152341540444544,
+          140.6
+        ],
+        "b_cm": [
+          18.013752643534954,
+          -0.8278981505043436,
+          139.09638687895793
+        ],
+        "absolute_difference_cm": 2.7707929988996236,
+        "difference_percent_180cm": 1.5393294438331242,
+        "parent_segment_axis_difference_deg": 6.452641906435158,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_l",
+        "a_cm": [
+          21.43482283041007,
+          -0.4854843149263076,
+          121.8
+        ],
+        "b_cm": [
+          25.03542970612815,
+          -0.43412071899208277,
+          121.06694589439074
+        ],
+        "absolute_difference_cm": 3.674830120455391,
+        "difference_percent_180cm": 2.0415722891418837,
+        "parent_segment_axis_difference_deg": 13.15150123193295,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_l",
+        "a_cm": [
+          29.306981816542404,
+          3.7785553926618305,
+          103.8
+        ],
+        "b_cm": [
+          31.055484700124204,
+          -0.017923904992825607,
+          102.03530762115405
+        ],
+        "absolute_difference_cm": 4.537031693009345,
+        "difference_percent_180cm": 2.5205731627829695,
+        "parent_segment_axis_difference_deg": 12.58314673619649,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_l",
+        "a_cm": [
+          7.989295194138082,
+          3.580961204282466,
+          100.5
+        ],
+        "b_cm": [
+          11.016849778733478,
+          0.10003587939435821,
+          97.01825505091593
+        ],
+        "absolute_difference_cm": 5.779747033445707,
+        "difference_percent_180cm": 3.2109705741365038,
+        "parent_segment_axis_difference_deg": 7.918283855379927,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_l",
+        "a_cm": [
+          13.518970869735476,
+          3.7456021013020093,
+          54.599999999999994
+        ],
+        "b_cm": [
+          16.044748449864862,
+          2.025072500785122,
+          54.96700480633219
+        ],
+        "absolute_difference_cm": 3.078062218086241,
+        "difference_percent_180cm": 1.7100345656034672,
+        "parent_segment_axis_difference_deg": 2.39906960450718,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_l",
+        "a_cm": [
+          17.745956110526013,
+          -0.11411840893576986,
+          17.1
+        ],
+        "b_cm": [
+          18.066191362194093,
+          1.9697244428155276,
+          11.868691092268554
+        ],
+        "absolute_difference_cm": 5.640172385248193,
+        "difference_percent_180cm": 3.1334291029156627,
+        "parent_segment_axis_difference_deg": 6.872571135009334,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_l",
+        "a_cm": [
+          21.52088366626552,
+          10.709634986078996,
+          5.5166203799100675
+        ],
+        "b_cm": [
+          18.07331332065468,
+          12.16388152820856,
+          4.074634870045647
+        ],
+        "absolute_difference_cm": 4.00997462633992,
+        "difference_percent_180cm": 2.2277636812999555,
+        "parent_segment_axis_difference_deg": 16.367869630946625,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "clavicle_r",
+        "a_cm": [
+          -8.70217430811581,
+          -3.152341540444544,
+          141.6
+        ],
+        "b_cm": [
+          -9.042017404187156,
+          -0.8614020297040774,
+          141.0890536109753
+        ],
+        "absolute_difference_cm": 2.371700525841427,
+        "difference_percent_180cm": 1.3176114032452373,
+        "parent_segment_axis_difference_deg": 16.17751494184421,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "upperarm_r",
+        "a_cm": [
+          -18.129529808574603,
+          -3.152341540444544,
+          140.6
+        ],
+        "b_cm": [
+          -18.059506344637114,
+          -0.8138272578190566,
+          139.08182817442065
+        ],
+        "absolute_difference_cm": 2.7889779539336845,
+        "difference_percent_180cm": 1.5494321966298248,
+        "parent_segment_axis_difference_deg": 6.500727214255375,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "lowerarm_r",
+        "a_cm": [
+          -21.43482283041007,
+          -0.4854843149263076,
+          121.8
+        ],
+        "b_cm": [
+          -25.066318888555283,
+          -0.41457781248473985,
+          121.04672547142233
+        ],
+        "absolute_difference_cm": 3.7094762255359743,
+        "difference_percent_180cm": 2.0608201252977634,
+        "parent_segment_axis_difference_deg": 13.102869893335495,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "hand_r",
+        "a_cm": [
+          -29.306981816542404,
+          3.7785553926618305,
+          103.8
+        ],
+        "b_cm": [
+          -31.070683557283253,
+          0.006309299076279603,
+          102.0102342966732
+        ],
+        "absolute_difference_cm": 4.532520898315705,
+        "difference_percent_180cm": 2.5180671657309475,
+        "parent_segment_axis_difference_deg": 12.593734270003743,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "thigh_r",
+        "a_cm": [
+          -7.989295194138082,
+          3.580961204282466,
+          100.5
+        ],
+        "b_cm": [
+          -11.02791960292723,
+          0.10863475825758909,
+          97.00935806480982
+        ],
+        "absolute_difference_cm": 5.785747174320809,
+        "difference_percent_180cm": 3.2143039857337827,
+        "parent_segment_axis_difference_deg": 7.967863165383864,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "calf_r",
+        "a_cm": [
+          -13.518970869735476,
+          3.7456021013020093,
+          54.599999999999994
+        ],
+        "b_cm": [
+          -16.020370650732534,
+          2.0375799609498215,
+          54.9540637356324
+        ],
+        "absolute_difference_cm": 3.0495412155265873,
+        "difference_percent_180cm": 1.6941895641814373,
+        "parent_segment_axis_difference_deg": 2.405866741544209,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "foot_r",
+        "a_cm": [
+          -17.745956110526013,
+          -0.11411840893576986,
+          17.1
+        ],
+        "b_cm": [
+          -18.007067625977975,
+          1.9837953355008144,
+          11.854132387731296
+        ],
+        "absolute_difference_cm": 5.655841962789212,
+        "difference_percent_180cm": 3.1421344237717843,
+        "parent_segment_axis_difference_deg": 6.899504348743072,
+        "same_canonical_parent_role": true
+      },
+      {
+        "role": "ball_r",
+        "a_cm": [
+          -21.52088366626552,
+          10.709634986078996,
+          5.5166203799100675
+        ],
+        "b_cm": [
+          -17.99994566751739,
+          12.177952420893847,
+          4.060076165508389
+        ],
+        "absolute_difference_cm": 4.083439913714507,
+        "difference_percent_180cm": 2.2685777298413927,
+        "parent_segment_axis_difference_deg": 16.4200659873923,
+        "same_canonical_parent_role": true
+      }
+    ]
+  },
+  "evaluation_only": true,
+  "proposal_sha256_before_and_after": "0324a9f4796865ff9ac350c7d8b03136d6ff54bbe4b532dce4b8af71325572fe",
+  "manual_control_is_ground_truth": false,
+  "frame_identical_to_4B": true,
+  "bilateral_consistency": {
+    "4B": [
+      {
+        "left_role": "clavicle_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "upperarm_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "lowerarm_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "hand_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "thigh_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "calf_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "foot_l",
+        "mirrored_difference_cm": 0.0
+      },
+      {
+        "left_role": "ball_l",
+        "mirrored_difference_cm": 0.0
+      }
+    ],
+    "4C": [
+      {
+        "left_role": "clavicle_l",
+        "mirrored_difference_cm": 1.5229941867687569
+      },
+      {
+        "left_role": "upperarm_l",
+        "mirrored_difference_cm": 1.5173135774560347
+      },
+      {
+        "left_role": "lowerarm_l",
+        "mirrored_difference_cm": 0.5091388876068708
+      },
+      {
+        "left_role": "hand_l",
+        "mirrored_difference_cm": 1.3814415687664168
+      },
+      {
+        "left_role": "thigh_l",
+        "mirrored_difference_cm": 1.1822596745094842
+      },
+      {
+        "left_role": "calf_l",
+        "mirrored_difference_cm": 1.162948971559343
+      },
+      {
+        "left_role": "foot_l",
+        "mirrored_difference_cm": 0.1448581087498396
+      },
+      {
+        "left_role": "ball_l",
+        "mirrored_difference_cm": 0.19200278729601986
+      }
+    ],
+    "4A_control": [
+      {
+        "left_role": "clavicle_l",
+        "mirrored_difference_cm": 0.0484742230207045
+      },
+      {
+        "left_role": "upperarm_l",
+        "mirrored_difference_cm": 0.05003345943776543
+      },
+      {
+        "left_role": "lowerarm_l",
+        "mirrored_difference_cm": 0.04177238670213674
+      },
+      {
+        "left_role": "hand_l",
+        "mirrored_difference_cm": 0.038038467883416686
+      },
+      {
+        "left_role": "thigh_l",
+        "mirrored_difference_cm": 0.016602351856209903
+      },
+      {
+        "left_role": "calf_l",
+        "mirrored_difference_cm": 0.030301566975399073
+      },
+      {
+        "left_role": "foot_l",
+        "mirrored_difference_cm": 0.06249449642102277
+      },
+      {
+        "left_role": "ball_l",
+        "mirrored_difference_cm": 0.07611017294447345
+      }
+    ]
+  }
+}

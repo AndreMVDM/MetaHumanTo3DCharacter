@@ -1,0 +1,18 @@
+{
+  "solve_executed": true,
+  "public_extraction_proven": true,
+  "joint_count": 342,
+  "target_height_cm": 180,
+  "body_classification": "experimental assisted",
+  "finger_classification": "automatic mapping rejected for Lara, correction effort unmeasured",
+  "anatomy_passed": false,
+  "failed_gate_count": 22,
+  "actual_corrections_applied": 0,
+  "minimal_correction_proven": false,
+  "downstream_authorised": false,
+  "downstream_assets_created": [],
+  "protected_file_audit_passed": true,
+  "proven_for_lara": "Temporary semantic donor extraction and deterministic inverse mapping; not anatomically accepted automation",
+  "likely_reusable": "Editor-only public posed-DNA bridge to independent joint data, subject to version and licence review",
+  "generalisation": "unproven"
+}

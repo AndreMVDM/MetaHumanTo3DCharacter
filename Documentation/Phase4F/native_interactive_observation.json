@@ -1,0 +1,11 @@
+{
+  "status": "observed",
+  "map": "/Game/MetaHumanTo3DCharacter/Phase4F/Bill/Maps/L_BillReview",
+  "tool": "@oai/sky via node_repl",
+  "visible_window_id": 140840234,
+  "source_texture_visible": true,
+  "review_surface_and_controls_visible": true,
+  "human_events": 0,
+  "anatomical_approval": false,
+  "limitation": "Static authoring scene observation only; no anatomy judgement, deformation or native runtime playback acceptance."
+}

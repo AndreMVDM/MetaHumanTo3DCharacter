@@ -1,0 +1,27 @@
+{
+  "investigated_after_geometry_failure": true,
+  "installed_or_executed": false,
+  "cloud_dependency": false,
+  "runtime_dependency": false,
+  "candidates": [
+    {
+      "name": "RigNet",
+      "primary_repository": "https://github.com/zhan-xu/rignet",
+      "paper": "https://arxiv.org/abs/2005.00559",
+      "input": "3D mesh, offline learned rig prediction",
+      "output": "Skeleton/connectivity and skin weights",
+      "semantic_limit": "Variable topology prediction does not guarantee required named humanoid articulations",
+      "dependency_class": "Optional local authoring dependency only; model and code licences must be checked before adoption"
+    },
+    {
+      "name": "UniRig",
+      "primary_repository": "https://github.com/VAST-AI-Research/UniRig",
+      "paper": "https://arxiv.org/abs/2504.12451",
+      "input": "3D object mesh, local checkpoint inference",
+      "output": "Skeleton hierarchy and skin prediction",
+      "semantic_limit": "General object rigging does not certify human anatomical roles",
+      "requirements_observed": "Official repository calls for CUDA and at least 8GB GPU memory for inference; environment/checkpoints not installed here",
+      "dependency_class": "Optional local authoring dependency only; deployment and model-licence validation outstanding"
+    }
+  ]
+}

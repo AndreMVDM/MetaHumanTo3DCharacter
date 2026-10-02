@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "recorded_vs_disk_weight_max_delta": 0.0,
+  "recorded_vs_disk_weight_first_mismatch": {
+    "vertex": 1,
+    "disk": [
+      [
+        22,
+        0.45445945858955383
+      ],
+      [
+        21,
+        0.45445945858955383
+      ],
+      [
+        20,
+        0.07382314652204514
+      ],
+      [
+        19,
+        0.012237736023962498
+      ],
+      [
+        0,
+        0.005020218435674906
+      ]
+    ],
+    "recorded": [
+      [
+        21,
+        0.45445945858955383
+      ],
+      [
+        22,
+        0.45445945858955383
+      ],
+      [
+        20,
+        0.07382314652204514
+      ],
+      [
+        19,
+        0.012237736023962498
+      ],
+      [
+        0,
+        0.005020218435674906
+      ]
+    ]
+  },
+  "source_assets": [
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/JumpingJacks.JumpingJacks",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MannyFingerIdentity.MannyFingerIdentity",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Idle.MM_Idle",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Run_Fwd.MM_Run_Fwd",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/BP_LaraNativePlayback.BP_LaraNativePlayback",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/IK_Lara.IK_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/RTG_Manny_Lara.RTG_Manny_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara.SK_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SK_Lara_Authoring.SK_Lara_Authoring",
+    "/Game/MetaHumanTo3DCharacter/Phase4D/Character/SKEL_Lara.SKEL_Lara"
+  ],
+  "baseline": {
+    "geometry_identical": true,
+    "weights_identical": true,
+    "reference_identical": true,
+    "statistics": {
+      "vertices": 28189,
+      "influences": {
+        "5": 28189
+      },
+      "normalisation_error_max": 4.540197551250458e-08,
+      "unweighted": 0
+    },
+    "bone_count": 53
+  },
+  "apis": {
+    "Skeleton": [
+      "add_compatible_skeleton",
+      "add_compatible_skeleton_soft",
+      "compatible_skeletons",
+      "copy_bones_from_skeleton",
+      "get_reference_pose",
+      "get_skeleton_additional_preview_meshes",
+      "get_skeleton_preview_mesh",
+      "set_skeleton_additional_preview_meshes",
+      "set_skeleton_preview_mesh"
+    ],
+    "AnimSequence": [
+      "get_anim_pose_at_frame",
+      "get_anim_pose_at_time",
+      "get_skeleton",
+      "set_preview_skeletal_mesh"
+    ],
+    "SkinWeightModifier": [
+      "commit_weights_to_skeletal_mesh",
+      "get_vertex_weights",
+      "normalize_all_weights",
+      "normalize_vertex_weights",
+      "prune_all_weights",
+      "prune_vertex_weights",
+      "set_vertex_weights"
+    ],
+    "AnimationLibrary": [
+      "copy_animation_curve_names_to_skeleton",
+      "get_additive_base_pose_type",
+      "get_bone_pose_for_frame",
+      "get_bone_pose_for_time",
+      "get_bone_poses_for_frame",
+      "get_bone_poses_for_time",
+      "get_skeleton_additional_preview_meshes",
+      "get_skeleton_preview_mesh",
+      "set_additive_base_pose_type",
+      "set_skeleton_additional_preview_meshes",
+      "set_skeleton_preview_mesh"
+    ],
+    "skeleton_preview_property": "USkeleton : that links between mesh and animation\n        - Bone hierarchy for animations\n        - Bone/track linkup between mesh and animation\n        - Retargetting related\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: Skeleton.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``asset_user_data`` (Array[AssetUserData]):  [Read-Write] Array of user data stored with the asset\r\n- ``asset_user_data_editor_only`` (Array[AssetUserData]):  [Read-Write] Array of user data stored with the asset\r\n- ``bone_tree`` (Array[BoneNode]):  [Read-Only] Skeleton bone tree - each contains name and parent index*\r\n- ``compatible_skeletons`` (Array[Skeleton]):  [Read-Write] The list of compatible skeletons. This skeleton will be able to use animation data originating from skeletons within this array, such as animation sequences.\r\n  This property is not bi-directional.\r\n  \r\n  This is an array of TSoftObjectPtr in order to prevent all skeletons to be loaded, as we only want to load things on demand.\r\n  As this is EditAnywhere and an array of TSoftObjectPtr, checking validity of pointers is needed.\r\n- ``preview_forward_axis`` (AxisType):  [Read-Write] Preview axis to consider as \"forward\" for the skeleton. Only used for preview purposes.\r\n- ``use_retarget_modes_from_compatible_skeleton`` (bool):  [Read-Write] Should we use the per bone translational retarget mode from the source (compatible) skeleton's instead of from this skeleton? On default this is disabled.\r\n  Enabling this would allow you to have one shared set of animations. You would configure the retarget settings on the animation skeleton.\r\n  Then every character that plays animations from this source skeleton will use the translational retarget settings from the source skeleton, which saves you from\r\n  having to configure the retarget modes for every bone in every character as they can be setup just once now on the animation skeleton.",
+    "factory": "Anim Sequence Factory\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: UnrealEd\r\n- **File**: AnimSequenceFactory.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``asset_import_task`` (AssetImportTask):  [Read-Write] Task for importing file via script interfaces\r\n- ``automated_import_data`` (AutomatedAssetImportData):  [Read-Write] Data for how to import files via the automated command line importing interface\r\n- ``context_class`` (type(Class)):  [Read-Write] Class of the context object used to help create the object.\r\n- ``create_new`` (bool):  [Read-Write] The default value to return from CanCreateNew()\r\n- ``edit_after_new`` (bool):  [Read-Write] true if the associated editor should be opened after creating a new object.\r\n- ``editor_import`` (bool):  [Read-Write] true if the factory imports objects from files.\r\n- ``formats`` (Array[str]):  [Read-Write] List of formats supported by the factory. Each entry is of the form \"ext;Description\" where ext is the file extension.\r\n- ``preview_skeletal_mesh`` (SkeletalMesh):  [Read-Write] The preview mesh to use with this animation\r\n- ``supported_class`` (type(Class)):  [Read-Write] The class manufactured by this factory.\r\n- ``supported_workflows`` (uint8):  [Read-Write] Which workflows are supported.\r\n- ``target_skeleton`` (Skeleton):  [Read-Write]\r\n- ``text`` (bool):  [Read-Write] true if the factory imports objects from text."
+  },
+  "native_clips": [
+    {
+      "source": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Idle.MM_Idle",
+      "destination": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Idle.MM_Idle",
+      "frames": 227,
+      "duration_s": 7.566666603088379,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "source": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "destination": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "frames": 56,
+      "duration_s": 1.8666666746139526,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "source": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "destination": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MM_Run_Fwd.MM_Run_Fwd",
+      "frames": 57,
+      "duration_s": 1.899999976158142,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "source": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/JumpingJacks.JumpingJacks",
+      "destination": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/JumpingJacks.JumpingJacks",
+      "frames": 284,
+      "duration_s": 9.466666221618652,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    },
+    {
+      "source": "/Game/MetaHumanTo3DCharacter/Phase4D/Character/Animations/MannyFingerIdentity.MannyFingerIdentity",
+      "destination": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/NativeAnimations/MannyFingerIdentity.MannyFingerIdentity",
+      "frames": 330,
+      "duration_s": 11.0,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+    }
+  ],
+  "copies": [
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Automatic.M_Automatic",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Baseline.M_Baseline",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Dependent.M_Dependent",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Ghost.M_Ghost",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_LaraOriginal.M_LaraOriginal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Moved.M_Moved",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Review.M_Review",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Reviewed.M_Reviewed",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/M_Track.M_Track",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Materials/T_LaraOriginal.T_LaraOriginal",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Geometry/SM_Lara180.SM_Lara180",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/IK_Lara.IK_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/RTG_Manny_Lara.RTG_Manny_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara",
+    "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara.SK_Lara"
+  ],
+  "working_mesh": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SK_Lara.SK_Lara",
+  "working_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/SKEL_Lara.SKEL_Lara"
+}

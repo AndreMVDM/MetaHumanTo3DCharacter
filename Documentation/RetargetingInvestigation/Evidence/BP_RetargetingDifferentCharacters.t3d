@@ -1,0 +1,44 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_RetargetingDifferentCharacters" ExportPath="/Script/Engine.Blueprint'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:EventGraph'"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:UserConstructionScript'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:UserConstructionScript.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:EventGraph'"
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      bAllowDeletion=False
+      GraphGuid=19A29B524DF8CAA7E9B3DFAB226E476E
+   End Object
+   Begin Object Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:UserConstructionScript'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:UserConstructionScript.K2Node_FunctionEntry_0'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="UserConstructionScript")
+         NodePosX=-48
+         NodePosY=112
+         NodeGuid=4313733C46C427EA5620D0B7DC452E0D
+         CustomProperties Pin (PinId=FD2C298947063DB8C10A9EA4823D16FC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      bAllowDeletion=False
+      GraphGuid=E6914D8B405338FA86610BB957FBC197
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:SceneThumbnailInfo_0'"
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.Actor'"
+   BlueprintSystemVersion=2
+   SimpleConstructionScript="/Script/Engine.SimpleConstructionScript'BP_RetargetingDifferentCharacters_C:SimpleConstructionScript_0'"
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/Engine.EdGraph'UserConstructionScript'"
+   CategorySorting(0)="Default"
+   CategorySorting(1)=""
+   CategorySorting(2)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:UserConstructionScript",SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters.BP_RetargetingDifferentCharacters:EventGraph",SavedZoomAmount=1.000000)
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BP_RetargetingDifferentCharacters_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=759BC17B464C65A71328A0A87442F065
+End Object

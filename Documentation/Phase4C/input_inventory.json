@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+  "entries": [
+    {
+      "name": "Lara_UnRigged_Textured.fbx",
+      "sha256": "d73f4bbb1e0701deedf1ab002d7b35c1328c73740f0ac7db70b1b6408fb504ab",
+      "bytes": 1759072
+    },
+    {
+      "name": "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg",
+      "sha256": "e54248a0d64cc4e4b40ade553e679f2b6919b87e79dbdb66adcf73e253a6b585",
+      "bytes": 4026618
+    }
+  ]
+}

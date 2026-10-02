@@ -1,0 +1,1272 @@
+[
+  {
+    "rig": "UE5",
+    "label": "OriginalHeight",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 83.96877800499524,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 276.7758202456016,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 612.8456212075276,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 108.52804617340142,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 110.45899881276729,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "OriginalHeight",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 612.8887090857598,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "OriginalHeight",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/OriginalHeight/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 78.18505003780433,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 277.46402717631645,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 612.8887090857598,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 104.95525352095082,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 105.31540438145508,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height160",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 134.415675934106,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 443.05759985527754,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 981.031937200147,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 173.7296840645212,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 176.82073670243793,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height160",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 981.322385843139,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height160",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height160/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 125.31061715539674,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 444.1345729173711,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 981.322385843139,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 168.6635928876495,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 168.81131026879802,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height175",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 147.01710372267385,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 484.5942548926397,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1073.0037482939078,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 190.0168461295674,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 193.39766839430388,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height175",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1073.3457093306065,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height175",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height175/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 137.08666181638682,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 485.72642037734033,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1073.3457093306065,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 184.59116113138475,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 184.69369908970177,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height180",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 151.21762333948445,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 498.4398101244105,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1103.661034951512,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 195.44591365366315,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 198.92336479414183,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height180",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1104.0191769064606,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height180",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 141.0117606925379,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 499.5876354831533,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1104.0191769064606,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 189.90120269585805,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 189.98926777137976,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height200",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 168.01955424643612,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 553.822041651269,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1226.2900450707293,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 217.16211741954402,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 221.0259342799878,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height200",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1226.7083166782113,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "UE5",
+    "label": "Height200",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height200/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 156.7124923143339,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 555.0204397908586,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1226.7083166782113,
+        "samples": 25,
+        "stable_envelope": false
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 211.14723807473257,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 211.1804484299478,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "OriginalHeight",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 92.69702112342328,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 92.57224492146838,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 92.20975245542053,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 111.56303079085853,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 111.63752725070253,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "OriginalHeight",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 87.44922495961751,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "OriginalHeight",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/OriginalHeight/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 86.52740432760073,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 87.33615422547336,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 87.44922495961751,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 106.07158688065138,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 106.7453348239616,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height160",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 148.3876598416735,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 148.187920120079,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 147.60764814275103,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 178.5880494065974,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 178.7073018320989,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height160",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 140.23361385960004,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height160",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height160/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 138.5451465855851,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 139.74314046043236,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 140.23361385960004,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 170.4301970961448,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 171.2761794640135,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height175",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 162.29898957404524,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 162.08052421523567,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 161.44585197090086,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 195.3306923369737,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 195.46113176633236,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height175",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 153.4368290594875,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height175",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height175/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 151.5384141560928,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 152.82261258163504,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 153.4368290594875,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 186.5805231392479,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 187.42752429971912,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height180",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 166.9361383190622,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 166.71143098779262,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 166.05862524001012,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 200.91156926781414,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 201.0457090087161,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height180",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 157.83922453542883,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height180",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 155.86922271533626,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 157.18135415843378,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 157.83922453542883,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 191.96956990325182,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 192.8136443418259,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height200",
+    "state": "FK",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/FK/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/FK/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/FK/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/FK/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/FK/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 185.48458445574,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 185.2349097176066,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 184.50957047805412,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 223.23506954148462,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 223.38409333730755,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      false
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height200",
+    "state": "Solver0",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Solver0/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 175.4542000744589,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  },
+  {
+    "rig": "Mixamo",
+    "label": "Height200",
+    "state": "Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Full/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Full/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Full/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Full/JumpingJacks",
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height200/Tests/Full/Manny_upperarm_r_anim"
+    ],
+    "clips": {
+      "idle": {
+        "duration_s": 7.566666603088379,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 173.1900173827807,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "walk": {
+        "duration_s": 1.8666666746139526,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 174.6806910326212,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "run": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 175.4542000744589,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "reach": {
+        "duration_s": 9.466666221618652,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 213.55156577957283,
+        "samples": 25,
+        "stable_envelope": true
+      },
+      "arm_sweep": {
+        "duration_s": 0.625,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 214.36885222534616,
+        "samples": 25,
+        "stable_envelope": true
+      }
+    },
+    "solver_enabled": [
+      true
+    ]
+  }
+]

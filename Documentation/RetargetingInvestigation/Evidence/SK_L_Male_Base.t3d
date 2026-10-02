@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="SK_L_Male_Base" ExportPath="/Script/Engine.SkeletalMesh'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base'"
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData" ExportPath="/Script/Engine.AssetImportData'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:AssetImportData'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AssetImportData" ExportPath="/Script/Engine.AssetImportData'/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base.SK_L_Male_Base:AssetImportData'"
+   End Object
+   SourceModels(0)=(TriangleCount=11310,VertexCount=5749,Bounds=(Origin=(X=0.047249,Y=-1.363253,Z=82.279922),BoxExtent=(X=48.525017,Y=18.468309,Z=82.279922),SphereRadius=87.665379),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=5D4F0AED5D4F0AED5D4F0AED5D4F0AED,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bRecomputeNormals=False,bUseBackwardsCompatibleF16TruncUVs=True),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000,ReductionMethod=SMOT_MaxDeviation))
+   Skeleton="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton.M_MALE_Base_Skeleton'"
+   bHasVertexColors=True
+   VertexColorGuid=500BC607500BC607500BC607500BC607
+   AssetImportData="/Script/Engine.AssetImportData'AssetImportData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object

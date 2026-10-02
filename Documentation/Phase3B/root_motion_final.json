@@ -1,0 +1,58 @@
+[
+  {
+    "rig": "UE5",
+    "label": "RootMotionFinal180",
+    "state": "RootMotionFinal_Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/RootMotionFinal/RTG_RootMotion_Final.RTG_RootMotion_Final",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/InPlaceRootMotionFinal_Full/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run_original": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1104.1580860317351,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "initial_root_selectors": {
+      "source_root": "pelvis",
+      "target_root": "root",
+      "target_pelvis": "pelvis"
+    },
+    "final_root_selectors": {
+      "source_root": "root",
+      "target_root": "root",
+      "target_pelvis": "pelvis"
+    }
+  },
+  {
+    "rig": "Mixamo",
+    "label": "RootMotionFinal180",
+    "state": "RootMotionFinal_Full",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/RootMotionFinal/RTG_RootMotion_Final.RTG_RootMotion_Final",
+    "baked_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase3B/Mixamo/Height180/Tests/InPlaceRootMotionFinal_Full/MM_Run_Fwd"
+    ],
+    "clips": {
+      "run_original": {
+        "duration_s": 1.899999976158142,
+        "finite": true,
+        "max_bone_distance_from_origin_cm": 1104.1925304250685,
+        "samples": 25,
+        "stable_envelope": false
+      }
+    },
+    "initial_root_selectors": {
+      "source_root": "pelvis",
+      "target_root": "Hips",
+      "target_pelvis": "Hips"
+    },
+    "final_root_selectors": {
+      "source_root": "root",
+      "target_root": "Hips",
+      "target_pelvis": "Hips"
+    }
+  }
+]

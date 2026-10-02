@@ -1,0 +1,544 @@
+[
+  {
+    "name": "surface_envelope_spine_02",
+    "kind": "hard",
+    "classification": "Branched source section; no unambiguous valid enclosing polygon",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        0.00919637456536293,
+        -0.9700655937194824,
+        115.40631103515625
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [],
+      "unsupported_fragments": [
+        {
+          "part": 0,
+          "reason": "branched_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_spine_03",
+    "kind": "hard",
+    "classification": "Invalid reconstructed shirt polygon: non-adjacent source-section edges self-intersect",
+    "legacy_pass": false,
+    "measured": {
+      "position_cm": [
+        0.23274096846580505,
+        -3.6841256618499756,
+        129.21142578125
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [
+        {
+          "a_cm": [
+            -20.560255035690453,
+            0.6247821242927473,
+            129.21142578125
+          ],
+          "b_cm": [
+            -20.532276144457263,
+            0.5648274540107592,
+            129.21142578125
+          ],
+          "gap_cm": 0.06616177781212167,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -20.191332091498516,
+            -17.92357836941297,
+            129.21142578125
+          ],
+          "b_cm": [
+            -20.075850406479294,
+            -17.81658155514271,
+            129.21142578125
+          ],
+          "gap_cm": 0.15743042221522127,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            20.118966016642652,
+            -17.902823509546764,
+            129.21142578125
+          ],
+          "b_cm": [
+            20.16620553326056,
+            -18.253830480971846,
+            129.21142578125
+          ],
+          "gap_cm": 0.35417152048026423,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            20.855043708528225,
+            0.8575894535073433,
+            129.21142578125
+          ],
+          "b_cm": [
+            20.67040333472323,
+            0.9857672567011027,
+            129.21142578125
+          ],
+          "gap_cm": 0.2247701423019229,
+          "garment_group": "shirt_region"
+        }
+      ],
+      "unsupported_fragments": [
+        {
+          "reason": "invalid_polygon"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_clavicle_l",
+    "kind": "hard",
+    "classification": "Invalid reconstructed shirt polygon: non-adjacent source-section edges self-intersect",
+    "legacy_pass": false,
+    "measured": {
+      "position_cm": [
+        1.555513858795166,
+        -7.228282928466797,
+        141.70518493652344
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [
+        {
+          "a_cm": [
+            15.852770651285148,
+            1.526081001692272,
+            141.70518493652344
+          ],
+          "b_cm": [
+            15.990952153917553,
+            1.676824202084029,
+            141.70518493652344
+          ],
+          "gap_cm": 0.20449361881021771,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -24.542941579926094,
+            -17.57699682705725,
+            141.70518493652344
+          ],
+          "b_cm": [
+            -24.6544377374322,
+            -17.956504884074604,
+            141.70518493652344
+          ],
+          "gap_cm": 0.39554741622176437,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -24.012214969860327,
+            -3.6872850070293657,
+            141.70518493652344
+          ],
+          "b_cm": [
+            -23.987091095141707,
+            -3.36384497649829,
+            141.70518493652344
+          ],
+          "gap_cm": 0.3244143375851629,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -16.036568638871145,
+            1.621107110679852,
+            141.70518493652344
+          ],
+          "b_cm": [
+            -15.92665185469714,
+            1.5661486347328695,
+            141.70518493652344
+          ],
+          "gap_cm": 0.12289073814397099,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            24.360826658465655,
+            -4.337580781273338,
+            141.70518493652344
+          ],
+          "b_cm": [
+            24.152501888295603,
+            -3.876964393766555,
+            141.70518493652344
+          ],
+          "gap_cm": 0.5055360188020268,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            24.477836650623598,
+            -16.669003805776114,
+            141.70518493652344
+          ],
+          "b_cm": [
+            24.36105313974476,
+            -16.92697571640496,
+            141.70518493652344
+          ],
+          "gap_cm": 0.2831746723961816,
+          "garment_group": "shirt_region"
+        }
+      ],
+      "unsupported_fragments": [
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "reason": "invalid_polygon"
+        },
+        {
+          "reason": "invalid_polygon"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_upperarm_l",
+    "kind": "hard",
+    "classification": "Branched source section; no unambiguous valid enclosing polygon",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        23.37337875366211,
+        -8.953336715698242,
+        138.05743408203125
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [
+        {
+          "a_cm": [
+            23.376250060854748,
+            -19.45708138120234,
+            138.05743408203125
+          ],
+          "b_cm": [
+            23.245090487985276,
+            -19.141121888135785,
+            138.05743408203125
+          ],
+          "gap_cm": 0.3421012055140642,
+          "garment_group": "shirt_region"
+        }
+      ],
+      "unsupported_fragments": [
+        {
+          "part": 0,
+          "reason": "branched_section"
+        },
+        {
+          "part": 1,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 3,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 4,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 5,
+          "reason": "unclosed_or_ambiguous_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_thigh_l",
+    "kind": "hard",
+    "classification": "Branched source section; no unambiguous valid enclosing polygon",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        9.064400672912598,
+        -1.9173508882522583,
+        90.33855438232422
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [],
+      "unsupported_fragments": [
+        {
+          "part": 2,
+          "reason": "branched_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_foot_l",
+    "kind": "hard",
+    "classification": "Open boot outlines; corresponding endpoint gaps exceed 0.8 cm and no compatible garment anchor is available",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        16.222156524658203,
+        -11.182873725891113,
+        9.819072723388672
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [],
+      "unsupported_fragments": [
+        {
+          "part": 0,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 1,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 3,
+          "reason": "unclosed_or_ambiguous_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_clavicle_r",
+    "kind": "hard",
+    "classification": "Invalid reconstructed shirt polygon: non-adjacent source-section edges self-intersect",
+    "legacy_pass": false,
+    "measured": {
+      "position_cm": [
+        -1.5769591331481934,
+        -7.197674751281738,
+        141.65269470214844
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [
+        {
+          "a_cm": [
+            15.935255419722639,
+            1.5635739976409373,
+            141.65269470214844
+          ],
+          "b_cm": [
+            16.07343692235504,
+            1.7143171980326923,
+            141.65269470214844
+          ],
+          "gap_cm": 0.20449361881021383,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -24.531693672560024,
+            -17.64073496879832,
+            141.65269470214844
+          ],
+          "b_cm": [
+            -24.64131517883845,
+            -18.013369304647522,
+            141.65269470214844
+          ],
+          "gap_cm": 0.3884240246078081,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -23.997217760038897,
+            -3.614798490508719,
+            141.65269470214844
+          ],
+          "b_cm": [
+            -23.972093885320277,
+            -3.285109613315047,
+            141.65269470214844
+          ],
+          "gap_cm": 0.33064477135757186,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            -16.10218133172272,
+            1.653913507164227,
+            141.65269470214844
+          ],
+          "b_cm": [
+            -15.992264547548713,
+            1.5989550312172447,
+            141.65269470214844
+          ],
+          "gap_cm": 0.12289073814397088,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            24.34208014618887,
+            -4.221352392642619,
+            141.65269470214844
+          ],
+          "b_cm": [
+            24.135399070991323,
+            -3.7693414199564215,
+            141.65269470214844
+          ],
+          "gap_cm": 0.4970221184952808,
+          "garment_group": "shirt_region"
+        },
+        {
+          "a_cm": [
+            24.463839254790265,
+            -16.728492738067782,
+            141.65269470214844
+          ],
+          "b_cm": [
+            24.34490229839861,
+            -16.97946595077996,
+            141.65269470214844
+          ],
+          "gap_cm": 0.27772928022587645,
+          "garment_group": "shirt_region"
+        }
+      ],
+      "unsupported_fragments": [
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "reason": "invalid_polygon"
+        },
+        {
+          "reason": "invalid_polygon"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_upperarm_r",
+    "kind": "hard",
+    "classification": "Branched source section; no unambiguous valid enclosing polygon",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        -23.43759536743164,
+        -8.665414810180664,
+        138.15135192871094
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [
+        {
+          "a_cm": [
+            23.407556009747974,
+            -19.42055777416024,
+            138.15135192871094
+          ],
+          "b_cm": [
+            23.27474875535781,
+            -19.106520576201163,
+            138.15135192871094
+          ],
+          "gap_cm": 0.34096499603426,
+          "garment_group": "shirt_region"
+        }
+      ],
+      "unsupported_fragments": [
+        {
+          "part": 0,
+          "reason": "branched_section"
+        },
+        {
+          "part": 1,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 3,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 4,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 5,
+          "reason": "unclosed_or_ambiguous_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_thigh_r",
+    "kind": "hard",
+    "classification": "Branched source section; no unambiguous valid enclosing polygon",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        -8.898444175720215,
+        -1.8754589557647705,
+        90.40269470214844
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [],
+      "unsupported_fragments": [
+        {
+          "part": 2,
+          "reason": "branched_section"
+        }
+      ]
+    }
+  },
+  {
+    "name": "surface_envelope_foot_r",
+    "kind": "hard",
+    "classification": "Open boot outlines; corresponding endpoint gaps exceed 0.8 cm and no compatible garment anchor is available",
+    "legacy_pass": true,
+    "measured": {
+      "position_cm": [
+        -16.0981388092041,
+        -11.1641845703125,
+        9.603378295898438
+      ],
+      "containing_polygons": [],
+      "seam_bridges": [],
+      "unsupported_fragments": [
+        {
+          "part": 0,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 1,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 2,
+          "reason": "unclosed_or_ambiguous_section"
+        },
+        {
+          "part": 3,
+          "reason": "unclosed_or_ambiguous_section"
+        }
+      ]
+    }
+  }
+]

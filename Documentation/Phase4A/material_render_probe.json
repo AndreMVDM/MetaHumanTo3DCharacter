@@ -1,0 +1,6 @@
+{
+  "used_textures": [
+    "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/PreservedSource/T_Lara_BaseColor.T_Lara_BaseColor"
+  ],
+  "camera": "x=-40,y=-400,z=100; explicit yaw90,pitch0; Unlit"
+}

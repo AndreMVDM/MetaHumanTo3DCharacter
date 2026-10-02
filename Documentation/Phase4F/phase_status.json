@@ -1,0 +1,46 @@
+{
+  "phase": "Phase4F",
+  "status": "awaiting_apose_human_review",
+  "decision_complete": false,
+  "phase5_authorised": false,
+  "current_phase5_recommendation": "WITHHOLD_PENDING_EVIDENCE",
+  "stop_reason": "John/Jane ambiguous body anatomy and independent digit identities require real human judgement; full gates rejected.",
+  "completed": [
+    "fresh John/Jane archive/FBX/DCC inventory",
+    "pre-solve pose validation",
+    "clothing connectivity classification",
+    "character-local donor extraction",
+    "23-role proposals and five tracks per hand",
+    "retained full anatomy gates",
+    "T-control comparison",
+    "native review scenes and fresh-process readback",
+    "self-review and preservation audit"
+  ],
+  "pending": [
+    "real John/Jane review",
+    "full anatomy acceptance and numeric-flag diagnosis",
+    "fresh native build/binding",
+    "relative bounded refinements",
+    "same full stress suite incl Lara",
+    "shoulder/pelvis/finger/thumb/contact acceptance",
+    "source-free native closure/playback",
+    "clean-host/cooked tests",
+    "definitive GO/HOLD/NO-GO"
+  ],
+  "human_actions_recorded": {
+    "John": 0,
+    "Jane": 0,
+    "Bill": 0,
+    "Jill": 0
+  },
+  "no_positive_or_negative_generalisation_inferred_from_unperformed_tests": true,
+  "primary_subjects": [
+    "John",
+    "Jane"
+  ],
+  "retained_controls": [
+    "Bill",
+    "Jill"
+  ],
+  "supported_input": "Clean unrigged humanoid in neutral A-pose"
+}

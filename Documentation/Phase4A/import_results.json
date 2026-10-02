@@ -1,0 +1,66 @@
+[
+  {
+    "case": "MixamoRecovered",
+    "imported_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara.SM_Lara"
+    ],
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara.SM_Lara",
+    "bounds_cm": {
+      "origin": [
+        9.5367431640625e-06,
+        -2.86102294921875e-06,
+        90.0
+      ],
+      "extent": [
+        36.0087947845459,
+        18.77382183074951,
+        90.0
+      ]
+    },
+    "height_cm": 180.0,
+    "material_slots": [
+      "tripo_mat_c86468c2"
+    ],
+    "materials": [
+      null
+    ],
+    "copy_outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+    "triangles": 49508,
+    "uv_channel_count": 1,
+    "saved_assets": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Geometry/SM_Lara.SM_Lara"
+    ]
+  },
+  {
+    "case": "Unrigged",
+    "imported_paths": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara"
+    ],
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara",
+    "bounds_cm": {
+      "origin": [
+        0.0,
+        -4.76837158203125e-06,
+        90.0
+      ],
+      "extent": [
+        36.008792877197266,
+        18.77382755279541,
+        90.0
+      ]
+    },
+    "height_cm": 180.0,
+    "material_slots": [
+      "f9dcb69f_c978_4517_86d5_c509f2f721f9"
+    ],
+    "materials": [
+      null
+    ],
+    "copy_outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+    "triangles": 49508,
+    "uv_channel_count": 1,
+    "saved_assets": [
+      "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara.SM_Lara"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "primary_body": {
+    "pelvis": "Pelvis centre",
+    "upperarm_l": "Left shoulder pivot",
+    "upperarm_r": "Right shoulder pivot",
+    "lowerarm_l": "Left elbow",
+    "lowerarm_r": "Right elbow",
+    "hand_l": "Left wrist",
+    "hand_r": "Right wrist",
+    "calf_l": "Left knee",
+    "calf_r": "Right knee",
+    "foot_l": "Left ankle",
+    "foot_r": "Right ankle",
+    "ball_l": "Left ball / toe",
+    "ball_r": "Right ball / toe"
+  },
+  "optional_review_controls": {
+    "neck_01": "Neck base",
+    "head": "Head pivot",
+    "thigh_l": "Left hip (optional)",
+    "thigh_r": "Right hip (optional)",
+    "clavicle_l": "Left clavicle root (advanced)",
+    "clavicle_r": "Right clavicle root (advanced)"
+  },
+  "generated_body_points": [
+    "root",
+    "spine_01",
+    "spine_02",
+    "spine_03"
+  ],
+  "finger_model": "five target tracks per hand -> user digit identity -> optional root/tip -> three donor-proportioned samples along corrected target track",
+  "groups": {
+    "Pelvis / hips / lower spine": [
+      "pelvis",
+      "thigh_l",
+      "thigh_r",
+      "spine_01",
+      "spine_02",
+      "spine_03"
+    ],
+    "Left shoulder / clavicle": [
+      "upperarm_l",
+      "clavicle_l"
+    ],
+    "Right shoulder / clavicle": [
+      "upperarm_r",
+      "clavicle_r"
+    ],
+    "Neck / head": [
+      "neck_01",
+      "head"
+    ]
+  },
+  "visual_states": {
+    "green": "automatic provisional",
+    "amber": "review required",
+    "blue": "recorded manual placement",
+    "cyan": "reviewed without movement",
+    "purple": "procedural dependent/generated"
+  },
+  "candidate_count_limit": "13 primary body controls, 6 optional; no assertion that 13 edits or any fixed count is required",
+  "prototype": "UE StaticMeshActor gizmos plus local button panel, no polished final UI"
+}

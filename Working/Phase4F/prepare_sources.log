@@ -1,0 +1,31 @@
+00:01.453  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\Lara\source_working.blend"
+E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\prepare_sources.py:37: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=scene.world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs['Color'].default_value=(.75,.75,.75,1)
+00:03.344  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\lara_source_front.png'
+00:04.437  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\lara_source_side.png'
+00:05.500  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\lara_source_back.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Lara\\Target180.fbx'
+export finished in 0.0464 sec.
+PREPARED Lara {'rotation_columns_world': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, 1.586911641061306, 3.373074708434842e-07], 'source_height_cm': 99.95117153769253, 'target_height_cm': 180, 'factor': 1.8008793416905604, 'ground_plane_points': 66, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': -1.5869103372097015, 'negative_extension_cm': 8.496097475290298, 'positive_extension_cm': 6.7871058806777}, {'side_source_x_sign': -1, 'shank_y_cm': -1.5380856581032276, 'negative_extension_cm': 8.544925134629011, 'positive_extension_cm': 6.738278362900019}], 'facing_source_y_sign': -1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.4323167916492475e-14}
+00:05.641  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\Bill\source_working.blend"
+00:06.719  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_front.png'
+00:07.781  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_side.png'
+00:08.844  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_back.png'
+00:09.906  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_hand.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Bill\\Target180.fbx'
+export finished in 0.0500 sec.
+PREPARED Bill {'rotation_columns_world': [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, -1.3427723199129105, 8.29448232320118e-08], 'source_height_cm': 99.56054679205518, 'target_height_cm': 180, 'factor': 1.8079450726195068, 'ground_plane_points': 176, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': -1.0009758174419403, 'negative_extension_cm': 7.758303016424179, 'positive_extension_cm': 8.691404014825821}, {'side_source_x_sign': -1, 'shank_y_cm': -1.8798839300870895, 'negative_extension_cm': 6.747073665261269, 'positive_extension_cm': 9.521481022238731}], 'facing_source_y_sign': 1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.591302455776226e-14}
+00:10.031  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\Jill\source_working.blend"
+00:11.187  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\jill_source_front.png'
+00:12.219  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\jill_source_side.png'
+00:13.266  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\jill_source_back.png'
+00:14.281  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\jill_source_hand.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Jill\\Target180.fbx'
+export finished in 0.0494 sec.
+PREPARED Jill {'rotation_columns_world': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, -2.3193374276161194, -5.437468253433053e-07], 'source_height_cm': 99.95117241874682, 'target_height_cm': 180, 'factor': 1.8008793258160845, 'ground_plane_points': 340, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': 2.172853611409664, 'negative_extension_cm': 8.886721543967724, 'positive_extension_cm': 4.931637831032276}, {'side_source_x_sign': -1, 'shank_y_cm': 2.36816368997097, 'negative_extension_cm': 8.544925600290298, 'positive_extension_cm': 4.931637272238731}], 'facing_source_y_sign': -1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.5889770088874795e-14}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

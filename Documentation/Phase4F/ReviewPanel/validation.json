@@ -1,0 +1,159 @@
+{
+  "verified_at_utc_epoch": 1790864607.594495,
+  "preserved_file_count": 91,
+  "changed_files": [],
+  "john_session_id": "806685f8-75ef-4cc9-8134-cb203e56e766",
+  "john_event_count": 7,
+  "jane_event_count": 0,
+  "john_pelvis_approval": {
+    "signature": "cfb218dc0fda0c280aaac7b009a9b65f34431baa46399ae48c22c2f23b797d1a",
+    "category": "anatomical_front_side_review",
+    "event_id": 7,
+    "provenance": "human_editor_action"
+  },
+  "john_metrics": {
+    "trial_status": "in_progress",
+    "recorded_user_commands": 7,
+    "placement_commands": 0,
+    "digit_identification_commands": 0,
+    "review_commands": 1,
+    "landmarks_reviewed": 1,
+    "navigation_commands": 5,
+    "automatically_accepted_roles": [
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03"
+    ],
+    "currently_accepted_human_roles": [
+      "pelvis"
+    ],
+    "reviewed_without_movement": [
+      "pelvis"
+    ],
+    "landmarks_actually_moved": 0,
+    "body_landmarks_moved": [],
+    "finger_landmarks_moved": [],
+    "total_moved_distance_cm": 0,
+    "maximum_individual_move_cm": 0,
+    "grouped_correction_commands": 0,
+    "unresolved_body_roles": [
+      "neck_01",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "unresolved_finger_chains": [
+      "thumb_l",
+      "index_l",
+      "middle_l",
+      "ring_l",
+      "pinky_l",
+      "thumb_r",
+      "index_r",
+      "middle_r",
+      "ring_r",
+      "pinky_r"
+    ],
+    "elapsed_trial_seconds": null,
+    "raw_mouse_clicks_or_drag_gestures": null,
+    "metric_definition": "Explicit panel commands and recorded placements; navigation clicks and unrecorded exploratory drags are not measured. Zero performed is not zero required; time is measured only Start to Finish and includes pauses."
+  },
+  "final_character": "John",
+  "selected_controls": [
+    "neck_01"
+  ],
+  "pending": {},
+  "python_syntax": "passed",
+  "isolated_checks": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\ReviewPanel\\check_panel.py"
+      ],
+      "exit_code": 0,
+      "output": "test_attachment_is_read_only (__main__.WrapperChecks.test_attachment_is_read_only) ... ok\ntest_duplicate_start_and_finished_finish_rejected (__main__.WrapperChecks.test_duplicate_start_and_finished_finish_rejected) ... ok\ntest_guided_step_selects_and_views (__main__.WrapperChecks.test_guided_step_selects_and_views) ... ok\ntest_identity_must_be_explicit_and_track_valid (__main__.WrapperChecks.test_identity_must_be_explicit_and_track_valid) ... ok\ntest_mutations_delegate_without_rebuilding_model (__main__.WrapperChecks.test_mutations_delegate_without_rebuilding_model) ... ok\ntest_pending_positions_never_discarded_on_switch_or_unsure (__main__.WrapperChecks.test_pending_positions_never_discarded_on_switch_or_unsure) ... ok\ntest_transport_context_expiry_and_validation_boundary (__main__.WrapperChecks.test_transport_context_expiry_and_validation_boundary) ... ok\ntest_unidentified_finger_does_not_infer_or_select (__main__.WrapperChecks.test_unidentified_finger_does_not_infer_or_select) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.054s\n\nOK\n"
+    },
+    {
+      "command": [
+        "node",
+        "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\ReviewPanel\\check_ui.cjs"
+      ],
+      "exit_code": 0,
+      "output": "UI checks passed: passive resume, accept/advance, refresh counts, adjust help, summary stability, explicit identity, theme persistence, disconnect guards. No real command submitted.\n"
+    }
+  ],
+  "live_navigation_results": [
+    {
+      "id": "06e223bb5bab4072b7872572f475d104",
+      "action": "open",
+      "ok": true,
+      "message": "Completed",
+      "character": "Jane"
+    },
+    {
+      "id": "1fc0c1710cf4439c80788a2d60809758",
+      "action": "step",
+      "ok": true,
+      "message": "Completed",
+      "character": "John"
+    },
+    {
+      "id": "666dba4a0f7741358865c31dd14688ce",
+      "action": "step",
+      "ok": true,
+      "message": "Completed",
+      "character": "Jane"
+    },
+    {
+      "id": "6794f8cd1f6f44718b7000435efd2324",
+      "action": "open",
+      "ok": true,
+      "message": "Completed",
+      "character": "John"
+    },
+    {
+      "id": "72e6eb9500ae4985af45ce3684ec2522",
+      "action": "track",
+      "ok": true,
+      "message": "Completed",
+      "character": "Jane"
+    },
+    {
+      "id": "7807d97f100e4659a2a17e445f58d60b",
+      "action": "refresh",
+      "ok": true,
+      "message": "Completed",
+      "character": "John"
+    },
+    {
+      "id": "78f2f2366dc045d693479c045e5cc7c6",
+      "action": "view",
+      "ok": true,
+      "message": "Completed",
+      "character": "Jane"
+    }
+  ],
+  "real_anatomical_actions_performed_by_agent": 0,
+  "gate_rerun": false,
+  "downstream_assets_generated": false,
+  "browser_evidence": "panel_john.png",
+  "theme_checks": "theme_checks.json",
+  "manual": "../ChatGPTPlannerReviewManual.md",
+  "final_self_review": "passed; final hip/spine display labels simplified without changing roles or gates"
+}

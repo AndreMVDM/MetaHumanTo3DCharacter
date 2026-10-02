@@ -1,0 +1,71 @@
+{
+  "status": "partial",
+  "source": "Fresh disk final candidate weights and preserved original finger fixture",
+  "support_pass_count": 9,
+  "digit_count": 10,
+  "results": [
+    {
+      "digit": "thumb_l",
+      "support_cm": 0.6439044123879518,
+      "support_under_1_2": true,
+      "vertices": 23
+    },
+    {
+      "digit": "index_l",
+      "support_cm": 0.6561643643348043,
+      "support_under_1_2": true,
+      "vertices": 63
+    },
+    {
+      "digit": "middle_l",
+      "support_cm": 0.7911827148674003,
+      "support_under_1_2": true,
+      "vertices": 40
+    },
+    {
+      "digit": "ring_l",
+      "support_cm": 0.9551593564243697,
+      "support_under_1_2": true,
+      "vertices": 83
+    },
+    {
+      "digit": "pinky_l",
+      "support_cm": 0.43458565224428314,
+      "support_under_1_2": true,
+      "vertices": 89
+    },
+    {
+      "digit": "thumb_r",
+      "support_cm": 0.8420492622972917,
+      "support_under_1_2": true,
+      "vertices": 15
+    },
+    {
+      "digit": "index_r",
+      "support_cm": 0.6601873995262804,
+      "support_under_1_2": true,
+      "vertices": 61
+    },
+    {
+      "digit": "middle_r",
+      "support_cm": 1.0814024919872123,
+      "support_under_1_2": true,
+      "vertices": 39
+    },
+    {
+      "digit": "ring_r",
+      "support_cm": 1.251734847722227,
+      "support_under_1_2": false,
+      "vertices": 77
+    },
+    {
+      "digit": "pinky_r",
+      "support_cm": 0.25706872008613846,
+      "support_under_1_2": true,
+      "vertices": 89
+    }
+  ],
+  "semantic_identity_preserved": true,
+  "natural_thumb_quality": "unproven",
+  "deformed_surface_collision": "not exhaustively measured"
+}

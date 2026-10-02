@@ -1,0 +1,399 @@
+{
+  "bridge_id": "b380898437f0411ca42a431ebfaef4b6",
+  "heartbeat": 1790864492.0630262,
+  "character": "John",
+  "session_id": "806685f8-75ef-4cc9-8134-cb203e56e766",
+  "revision": "0e88d832043c73e2cfeadd9503745a532eccd8a8349266bb7da1f743c6872398",
+  "metrics": {
+    "trial_status": "in_progress",
+    "recorded_user_commands": 7,
+    "placement_commands": 0,
+    "digit_identification_commands": 0,
+    "review_commands": 1,
+    "landmarks_reviewed": 1,
+    "navigation_commands": 5,
+    "automatically_accepted_roles": [
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03"
+    ],
+    "currently_accepted_human_roles": [
+      "pelvis"
+    ],
+    "reviewed_without_movement": [
+      "pelvis"
+    ],
+    "landmarks_actually_moved": 0,
+    "body_landmarks_moved": [],
+    "finger_landmarks_moved": [],
+    "total_moved_distance_cm": 0,
+    "maximum_individual_move_cm": 0,
+    "grouped_correction_commands": 0,
+    "unresolved_body_roles": [
+      "neck_01",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "unresolved_finger_chains": [
+      "thumb_l",
+      "index_l",
+      "middle_l",
+      "ring_l",
+      "pinky_l",
+      "thumb_r",
+      "index_r",
+      "middle_r",
+      "ring_r",
+      "pinky_r"
+    ],
+    "elapsed_trial_seconds": null,
+    "raw_mouse_clicks_or_drag_gestures": null,
+    "metric_definition": "Explicit panel commands and recorded placements; navigation clicks and unrecorded exploratory drags are not measured. Zero performed is not zero required; time is measured only Start to Finish and includes pauses."
+  },
+  "pending": {},
+  "fingers": {},
+  "controls": [
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "selected_controls": [
+    "neck_01"
+  ],
+  "labels": {
+    "pelvis": "Pelvis centre",
+    "upperarm_l": "Left shoulder pivot",
+    "upperarm_r": "Right shoulder pivot",
+    "lowerarm_l": "Left elbow",
+    "lowerarm_r": "Right elbow",
+    "hand_l": "Left wrist",
+    "hand_r": "Right wrist",
+    "calf_l": "Left knee",
+    "calf_r": "Right knee",
+    "foot_l": "Left ankle",
+    "foot_r": "Right ankle",
+    "ball_l": "Left ball / toe",
+    "ball_r": "Right ball / toe",
+    "neck_01": "Neck base",
+    "head": "Head pivot",
+    "thigh_l": "Left hip (optional)",
+    "thigh_r": "Right hip (optional)",
+    "clavicle_l": "Left clavicle root (advanced)",
+    "clavicle_r": "Right clavicle root (advanced)"
+  },
+  "groups": {
+    "Pelvis / hips / lower spine": [
+      "pelvis",
+      "thigh_l",
+      "thigh_r",
+      "spine_01",
+      "spine_02",
+      "spine_03"
+    ],
+    "Left shoulder / clavicle": [
+      "upperarm_l",
+      "clavicle_l"
+    ],
+    "Right shoulder / clavicle": [
+      "upperarm_r",
+      "clavicle_r"
+    ],
+    "Neck / head": [
+      "neck_01",
+      "head"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "body",
+      "role": "pelvis",
+      "group": "Pelvis / hips",
+      "view": "pelvis",
+      "label": "Pelvis centre"
+    },
+    {
+      "kind": "body",
+      "role": "spine_01",
+      "group": "Spine / neck / head",
+      "view": "side",
+      "label": "Spine 01"
+    },
+    {
+      "kind": "body",
+      "role": "spine_02",
+      "group": "Spine / neck / head",
+      "view": "side",
+      "label": "Spine 02"
+    },
+    {
+      "kind": "body",
+      "role": "spine_03",
+      "group": "Spine / neck / head",
+      "view": "side",
+      "label": "Spine 03"
+    },
+    {
+      "kind": "body",
+      "role": "neck_01",
+      "group": "Spine / neck / head",
+      "view": "side",
+      "label": "Neck base"
+    },
+    {
+      "kind": "body",
+      "role": "head",
+      "group": "Spine / neck / head",
+      "view": "side",
+      "label": "Head pivot"
+    },
+    {
+      "kind": "body",
+      "role": "upperarm_l",
+      "group": "Left arm",
+      "view": "arms",
+      "label": "Left shoulder pivot"
+    },
+    {
+      "kind": "body",
+      "role": "clavicle_l",
+      "group": "Left arm",
+      "view": "arms",
+      "label": "Left clavicle root (advanced)"
+    },
+    {
+      "kind": "body",
+      "role": "lowerarm_l",
+      "group": "Left arm",
+      "view": "arms",
+      "label": "Left elbow"
+    },
+    {
+      "kind": "body",
+      "role": "hand_l",
+      "group": "Left arm",
+      "view": "arms",
+      "label": "Left wrist"
+    },
+    {
+      "kind": "body",
+      "role": "upperarm_r",
+      "group": "Right arm",
+      "view": "arms",
+      "label": "Right shoulder pivot"
+    },
+    {
+      "kind": "body",
+      "role": "clavicle_r",
+      "group": "Right arm",
+      "view": "arms",
+      "label": "Right clavicle root (advanced)"
+    },
+    {
+      "kind": "body",
+      "role": "lowerarm_r",
+      "group": "Right arm",
+      "view": "arms",
+      "label": "Right elbow"
+    },
+    {
+      "kind": "body",
+      "role": "hand_r",
+      "group": "Right arm",
+      "view": "arms",
+      "label": "Right wrist"
+    },
+    {
+      "kind": "body",
+      "role": "thigh_l",
+      "group": "Left leg",
+      "view": "front",
+      "label": "Left hip (optional)"
+    },
+    {
+      "kind": "body",
+      "role": "calf_l",
+      "group": "Left leg",
+      "view": "front",
+      "label": "Left knee"
+    },
+    {
+      "kind": "body",
+      "role": "foot_l",
+      "group": "Left leg",
+      "view": "feet",
+      "label": "Left ankle"
+    },
+    {
+      "kind": "body",
+      "role": "ball_l",
+      "group": "Left leg",
+      "view": "feet",
+      "label": "Left ball / toe"
+    },
+    {
+      "kind": "body",
+      "role": "thigh_r",
+      "group": "Right leg",
+      "view": "front",
+      "label": "Right hip (optional)"
+    },
+    {
+      "kind": "body",
+      "role": "calf_r",
+      "group": "Right leg",
+      "view": "front",
+      "label": "Right knee"
+    },
+    {
+      "kind": "body",
+      "role": "foot_r",
+      "group": "Right leg",
+      "view": "feet",
+      "label": "Right ankle"
+    },
+    {
+      "kind": "body",
+      "role": "ball_r",
+      "group": "Right leg",
+      "view": "feet",
+      "label": "Right ball / toe"
+    },
+    {
+      "kind": "finger",
+      "role": "thumb_l",
+      "side": "l",
+      "digit": "thumb",
+      "group": "Left fingers",
+      "label": "Left thumb",
+      "view": "hand_l_top"
+    },
+    {
+      "kind": "finger",
+      "role": "index_l",
+      "side": "l",
+      "digit": "index",
+      "group": "Left fingers",
+      "label": "Left index",
+      "view": "hand_l_top"
+    },
+    {
+      "kind": "finger",
+      "role": "middle_l",
+      "side": "l",
+      "digit": "middle",
+      "group": "Left fingers",
+      "label": "Left middle",
+      "view": "hand_l_top"
+    },
+    {
+      "kind": "finger",
+      "role": "ring_l",
+      "side": "l",
+      "digit": "ring",
+      "group": "Left fingers",
+      "label": "Left ring",
+      "view": "hand_l_top"
+    },
+    {
+      "kind": "finger",
+      "role": "pinky_l",
+      "side": "l",
+      "digit": "pinky",
+      "group": "Left fingers",
+      "label": "Left pinky",
+      "view": "hand_l_top"
+    },
+    {
+      "kind": "finger",
+      "role": "thumb_r",
+      "side": "r",
+      "digit": "thumb",
+      "group": "Right fingers",
+      "label": "Right thumb",
+      "view": "hand_r_top"
+    },
+    {
+      "kind": "finger",
+      "role": "index_r",
+      "side": "r",
+      "digit": "index",
+      "group": "Right fingers",
+      "label": "Right index",
+      "view": "hand_r_top"
+    },
+    {
+      "kind": "finger",
+      "role": "middle_r",
+      "side": "r",
+      "digit": "middle",
+      "group": "Right fingers",
+      "label": "Right middle",
+      "view": "hand_r_top"
+    },
+    {
+      "kind": "finger",
+      "role": "ring_r",
+      "side": "r",
+      "digit": "ring",
+      "group": "Right fingers",
+      "label": "Right ring",
+      "view": "hand_r_top"
+    },
+    {
+      "kind": "finger",
+      "role": "pinky_r",
+      "side": "r",
+      "digit": "pinky",
+      "group": "Right fingers",
+      "label": "Right pinky",
+      "view": "hand_r_top"
+    },
+    {
+      "kind": "summary",
+      "label": "Review summary",
+      "group": "Summary"
+    },
+    {
+      "kind": "validation",
+      "label": "Anatomy validation",
+      "group": "Validation"
+    }
+  ],
+  "selected_step": "neck_01",
+  "map": "/Game/MetaHumanTo3DCharacter/Phase4F/John/Maps/L_JohnReview"
+}

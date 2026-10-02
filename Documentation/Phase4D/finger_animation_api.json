@@ -1,0 +1,21 @@
+{
+  "AnimationDataController": {
+    "set_number_of_frames": "x.set_number_of_frames(new_length_in_frames, should_transact=True) -> None\r\nSets the total play-able length in seconds. Broadcasts a EAnimDataModelNotifyType::SequenceLengthChanged notify if successful.\nThe number of frames and keys for the provided length is recalculated according to the current value of UAnimDataModel::FrameRate.\r\n\r\nArgs:\r\n    new_length_in_frames (FrameNumber): Total new play-able number of frames value (according to frame rate), has to be positive and non-zero\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "set_frame_rate": "x.set_frame_rate(frame_rate, should_transact=True) -> None\r\nSets the frame rate according to which the bone animation is expected to be sampled. Broadcasts a EAnimDataModelNotifyType::FrameRateChanged notify if successful.\nThe number of frames and keys for the provided frame rate is recalculated according to the current value of UAnimDataModel::PlayLength.\r\n\r\nArgs:\r\n    frame_rate (FrameRate): The new sampling frame rate, has to be positive and non-zero\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "add_bone_track": "x.add_bone_track(bone_name, should_transact=True) -> int32\r\nAdd Bone Track\r\ndeprecated: AddBoneTrack returning index is deprecated use AddBoneCurve returning bool instead.\r\n\r\nArgs:\r\n    bone_name (Name): \r\n    should_transact (bool): \r\n\r\nReturns:\r\n    int32:",
+    "set_bone_track_keys": "x.set_bone_track_keys(bone_name, positional_keys, rotational_keys, scaling_keys, should_transact=True) -> bool\r\nSets keys for an existing bone animation track with the provided name. Broadcasts a EAnimDataModelNotifyType::TrackChanged notify if successful.\nThe provided number of keys provided is expected to match for each component, and be non-zero.\r\n\r\nArgs:\r\n    bone_name (Name): Bone name of the track for which the keys should be set\r\n    positional_keys (Array[Vector]): Array of keys for the translation component\r\n    rotational_keys (Array[Quat]): Array of keys for the rotation component\r\n    scaling_keys (Array[Vector]): Array of keys for the scale component\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated\r\n\r\nReturns:\r\n    bool: Whether or not the keys were successfully set",
+    "remove_all_bone_tracks": "x.remove_all_bone_tracks(should_transact=True) -> None\r\nRemoves all existing Bone Animation tracks. Broadcasts a EAnimDataModelNotifyType::TrackRemoved for each removed track, wrapped within BracketOpened/BracketClosed notifies.\r\n\r\nArgs:\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "open_bracket": "x.open_bracket(title, should_transact=True) -> None\r\nOpens an interaction bracket, used for combining a set of controller actions. Broadcasts a EAnimDataModelNotifyType::BracketOpened notify,\nthis can be used by any Views or dependent systems to halt any unnecessary or invalid operations until the (last) bracket is closed.\r\n\r\nArgs:\r\n    title (Text): Description of the bracket, e.g. \"Generating Curve Data\"\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated",
+    "close_bracket": "x.close_bracket(should_transact=True) -> None\r\nCloses a previously opened interaction bracket, used for combining a set of controller actions. Broadcasts a EAnimDataModelNotifyType::BracketClosed notify.\r\n\r\nArgs:\r\n    should_transact (bool): Whether or not any undo-redo changes should be generated"
+  },
+  "AnimSequence": {
+    "get_controller": null
+  },
+  "Quat": {
+    "multiply": "x.multiply(b) -> Quat\r\nGets the result of multiplying two quaternions (A * B).\n\nOrder matters when composing quaternions: C = A * B will yield a quaternion C that logically\nfirst applies B then A to any subsequent transformation (right first, then left).\r\n\r\nArgs:\r\n    b (Quat): The Quaternion to multiply by.\r\n\r\nReturns:\r\n    Quat: The result of multiplication (A * B).",
+    "rotator": "x.rotator() -> Rotator\r\nConverts to Rotator representation of this Quaternion.\r\n\r\nReturns:\r\n    Rotator:"
+  },
+  "AnimationBlueprintLibrary": {
+    "get_num_frames": null
+  }
+}

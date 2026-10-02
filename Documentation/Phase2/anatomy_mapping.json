@@ -1,0 +1,413 @@
+{
+  "UE5": {
+    "source_bone_count": 61,
+    "imported_bone_count": 61,
+    "roles": {
+      "root": {
+        "bone": "root",
+        "parent": "Armature",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "pelvis": {
+        "bone": "pelvis",
+        "parent": "root",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "spine_start": {
+        "bone": "spine_01",
+        "parent": "pelvis",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "spine_end": {
+        "bone": "spine_03",
+        "parent": "spine_02",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "neck": {
+        "bone": "neck_01",
+        "parent": "spine_03",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "head": {
+        "bone": "head",
+        "parent": "neck_01",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "left_clavicle": {
+        "bone": "clavicle_l",
+        "parent": "spine_03",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_upper_arm": {
+        "bone": "upperarm_l",
+        "parent": "clavicle_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_lower_arm": {
+        "bone": "lowerarm_l",
+        "parent": "upperarm_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_hand": {
+        "bone": "hand_l",
+        "parent": "lowerarm_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_thigh": {
+        "bone": "thigh_l",
+        "parent": "pelvis",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_calf": {
+        "bone": "calf_l",
+        "parent": "thigh_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_foot": {
+        "bone": "foot_l",
+        "parent": "calf_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_toe": {
+        "bone": "ball_l",
+        "parent": "foot_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_clavicle": {
+        "bone": "clavicle_r",
+        "parent": "spine_03",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_upper_arm": {
+        "bone": "upperarm_r",
+        "parent": "clavicle_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_lower_arm": {
+        "bone": "lowerarm_r",
+        "parent": "upperarm_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_hand": {
+        "bone": "hand_r",
+        "parent": "lowerarm_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_thigh": {
+        "bone": "thigh_r",
+        "parent": "pelvis",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_calf": {
+        "bone": "calf_r",
+        "parent": "thigh_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_foot": {
+        "bone": "foot_r",
+        "parent": "calf_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_toe": {
+        "bone": "ball_r",
+        "parent": "foot_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_thumb": {
+        "bone": "thumb_01_l",
+        "parent": "hand_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_index": {
+        "bone": "index_01_l",
+        "parent": "hand_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_middle": {
+        "bone": "middle_01_l",
+        "parent": "hand_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_ring": {
+        "bone": "ring_01_l",
+        "parent": "hand_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_pinky": {
+        "bone": "pinky_01_l",
+        "parent": "hand_l",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_thumb": {
+        "bone": "thumb_01_r",
+        "parent": "hand_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_index": {
+        "bone": "index_01_r",
+        "parent": "hand_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_middle": {
+        "bone": "middle_01_r",
+        "parent": "hand_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_ring": {
+        "bone": "ring_01_r",
+        "parent": "hand_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_pinky": {
+        "bone": "pinky_01_r",
+        "parent": "hand_r",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      }
+    },
+    "twist_bones": [
+      "lowerarm_twist_01_l",
+      "upperarm_twist_01_l",
+      "lowerarm_twist_01_r",
+      "upperarm_twist_01_r",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "calf_twist_01_r",
+      "thigh_twist_01_r"
+    ],
+    "ik_helper_bones": [],
+    "pose_classification": "Unresolved: A/T arm angle was not measured numerically; automatic pose alignment was used."
+  },
+  "Mixamo": {
+    "source_bone_count": 65,
+    "imported_bone_count": 65,
+    "roles": {
+      "root": {
+        "bone": "Hips",
+        "parent": "Armature",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "pelvis": {
+        "bone": "Hips",
+        "parent": "Armature",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "spine_start": {
+        "bone": "Spine",
+        "parent": "Hips",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "spine_end": {
+        "bone": "Spine2",
+        "parent": "Spine1",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "neck": {
+        "bone": "Neck",
+        "parent": "Spine2",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "head": {
+        "bone": "Head",
+        "parent": "Neck",
+        "confidence": "High",
+        "basis": "name and axial hierarchy"
+      },
+      "left_clavicle": {
+        "bone": "LeftShoulder",
+        "parent": "Spine2",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_upper_arm": {
+        "bone": "LeftArm",
+        "parent": "LeftShoulder",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_lower_arm": {
+        "bone": "LeftForeArm",
+        "parent": "LeftArm",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_hand": {
+        "bone": "LeftHand",
+        "parent": "LeftForeArm",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_thigh": {
+        "bone": "LeftUpLeg",
+        "parent": "Hips",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_calf": {
+        "bone": "LeftLeg",
+        "parent": "LeftUpLeg",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_foot": {
+        "bone": "LeftFoot",
+        "parent": "LeftLeg",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_toe": {
+        "bone": "LeftToeBase",
+        "parent": "LeftFoot",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_clavicle": {
+        "bone": "RightShoulder",
+        "parent": "Spine2",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_upper_arm": {
+        "bone": "RightArm",
+        "parent": "RightShoulder",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_lower_arm": {
+        "bone": "RightForeArm",
+        "parent": "RightArm",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_hand": {
+        "bone": "RightHand",
+        "parent": "RightForeArm",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_thigh": {
+        "bone": "RightUpLeg",
+        "parent": "Hips",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_calf": {
+        "bone": "RightLeg",
+        "parent": "RightUpLeg",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_foot": {
+        "bone": "RightFoot",
+        "parent": "RightLeg",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_toe": {
+        "bone": "RightToeBase",
+        "parent": "RightFoot",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_thumb": {
+        "bone": "LeftHandThumb1",
+        "parent": "LeftHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_index": {
+        "bone": "LeftHandIndex1",
+        "parent": "LeftHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_middle": {
+        "bone": "LeftHandMiddle1",
+        "parent": "LeftHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_ring": {
+        "bone": "LeftHandRing1",
+        "parent": "LeftHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "left_pinky": {
+        "bone": "LeftHandPinky1",
+        "parent": "LeftHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_thumb": {
+        "bone": "RightHandThumb1",
+        "parent": "RightHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_index": {
+        "bone": "RightHandIndex1",
+        "parent": "RightHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_middle": {
+        "bone": "RightHandMiddle1",
+        "parent": "RightHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_ring": {
+        "bone": "RightHandRing1",
+        "parent": "RightHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      },
+      "right_pinky": {
+        "bone": "RightHandPinky1",
+        "parent": "RightHand",
+        "confidence": "High",
+        "basis": "name, parent/child hierarchy and bilateral counterpart"
+      }
+    },
+    "twist_bones": [],
+    "ik_helper_bones": [],
+    "pose_classification": "Unresolved: A/T arm angle was not measured numerically; automatic pose alignment was used."
+  }
+}

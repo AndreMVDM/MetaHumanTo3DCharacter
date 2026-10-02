@@ -1,0 +1,268 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.09.30-17.21.47:081][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.09.30-17.21.47:081][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.30-17.21.47:081][  0]LogTrace: Display: Control listening on port 37391
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:\Repo\UE\Projects\MetaHumanTo3DCharacter\MHTo3DCharacter.uproject -run=pythonscript -script=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\retarget_and_test.py -unattended -nosplash -nullrhi -DDC=InstalledNoZenLocalFallback -LocalDataCachePath=E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\DDC""
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.30-17.21.47:081][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading Mac ini files took 0.05 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+[2026.09.30-17.21.47:081][  0]LogConfig: Display: Loading Linux ini files took 0.06 seconds
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-17.21.47:081][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=352MiB, MaxMemoryAvailable=102390MiB
+[2026.09.30-17.21.47:081][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.30-17.21.47:081][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-17.21.47:081][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.30-17.21.47:081][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.30-17.21.47:081][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.30-17.21.47:081][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-17.21.47:547][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.09.30-17.21.47:642][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.09.30-17.21.47:650][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.30-17.21.47:650][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.30-17.21.47:650][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.30-17.21.47:650][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.30-17.21.47:673][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.30-17.21.47:683][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.09.30-17.21.47:699][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.30-17.21.47:711][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.09.30-17.21.47:713][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.09.30-17.21.47:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.30-17.21.47:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.30-17.21.47:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.30-17.21.47:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.30-17.21.47:726][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.30-17.21.47:730][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.30-17.21.48:053][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.09.30-17.21.48:059][  0]LogDerivedDataCache: Display: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/DDC: Performance: Latency=0.02ms. RandomReadSpeed=837.41MBs, RandomWriteSpeed=224.01MBs. Assigned SpeedClass 'Local'
+[2026.09.30-17.21.48:063][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.30-17.21.48:063][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.30-17.21.48:063][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.09.30-17.21.48:073][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.09.30-17.21.48:073][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-17.21.48:430][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.30-17.21.48:664][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.30-17.21.48:664][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.30-17.21.48:699][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.30-17.21.48:702][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.30-17.21.48:718][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.30-17.21.48:718][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.30-17.21.48:718][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.30-17.21.48:736][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.30-17.21.48:736][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.30-17.21.48:736][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.30-17.21.48:736][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.30-17.21.48:868][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.30-17.21.48:869][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-17.21.48:869][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.30-17.21.48:869][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.30-17.21.48:950][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.30-17.21.48:952][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.150 ms
+[2026.09.30-17.21.49:360][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.30-17.21.49:364][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.30-17.21.49:950][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-17.21.49:950][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-17.21.50:512][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.09.30-17.21.50:517][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.09.30-17.21.50:517][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-17.21.50:517][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.09.30-17.21.50:517][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.09.30-17.21.50:625][  0]LogAssetRegistry: Display: Asset registry cache read as 118.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_B798602142F513F85BBD1DBCDA9941D9.bin (memory-mapped=yes)
+[2026.09.30-17.21.50:625][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.108s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.09.30-17.21.50:729][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.30-17.21.50:779][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.30-17.21.51:152][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.30-17.21.51:376][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.30-17.21.51:384][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 9.753 ms
+[2026.09.30-17.21.51:384][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.30-17.21.51:410][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 25.866 ms (total: 35.620 ms)
+[2026.09.30-17.21.51:410][  0]LogPythonScriptCommandlet: Display: Running Python script: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4A\retarget_and_test.py
+[2026.09.30-17.21.51:581][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara) ...
+[2026.09.30-17.21.51:856][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.51:868][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.51:879][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.51:892][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.51:900][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:908][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:910][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:914][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:915][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:916][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.51:916][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:916][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.51:916][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:916][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.51:917][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.51:917][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.51:917][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/95dbda9d37ead840a55497effa9137413e5f8113
+[2026.09.30-17.21.51:917][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/c481ecc1fce529767a543b36cf0e6cc9a28fdf4d
+[2026.09.30-17.21.51:918][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle, at AnimationSequence/ced8aec1a8c40b509715911c62461eea7b767234
+[2026.09.30-17.21.51:922][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks, at AnimationSequence/001dddfc50d02381b9238bfc82c20a4de0ddc597
+[2026.09.30-17.21.51:952][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.09.30-17.21.51:966][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.09.30-17.21.51:982][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.09.30-17.21.52:021][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/9e17c7f96041da2071fbdbcedefaea5457242278
+[2026.09.30-17.21.52:038][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.09.30-17.21.52:038][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.09.30-17.21.52:038][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.09.30-17.21.52:038][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.09.30-17.21.52:038][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.09.30-17.21.52:041][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/425e08916b29db26feae10b8b8c85fb9360dd5a9
+[2026.09.30-17.21.52:157][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle, at AnimationSequence/2b83e465a194ed203611911d0ca2ae33f81780c9
+[2026.09.30-17.21.52:297][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks, at AnimationSequence/d67aa63e07e7d78e882d8ff87160fbe1c29b2f68
+[2026.09.30-17.21.52:312][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.30-17.21.52:547][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.52:566][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.52:576][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.52:587][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.52:593][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:599][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:602][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:607][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:608][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:608][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:609][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:609][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.52:660][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.09.30-17.21.52:680][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.09.30-17.21.52:699][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.09.30-17.21.52:740][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/fba906b57f0b1601fc53d38d45ce8fdef246a35c
+[2026.09.30-17.21.52:753][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/cdb8728154ebc665a76644275e6da392c197c78f
+[2026.09.30-17.21.52:774][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.09.30-17.21.52:774][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.09.30-17.21.52:774][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.09.30-17.21.52:774][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.09.30-17.21.52:774][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.09.30-17.21.52:868][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle, at AnimationSequence/315e7182cb56908c21c10869273b6cbdad164c35
+[2026.09.30-17.21.53:022][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks, at AnimationSequence/c4c736a49f6a5707e198a6f3a5e1fc8030f424aa
+[2026.09.30-17.21.53:718][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.53:732][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.53:741][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.53:754][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.53:760][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:767][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:773][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:777][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:778][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:778][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.53:778][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:779][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.53:779][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:779][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.53:779][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.53:779][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks (Required Memory Estimate: 0.00 MB)
+[2026.09.30-17.21.53:780][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/81f88d70cec87a42e4769dc47476757bb8feff4d
+[2026.09.30-17.21.53:780][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/4f851138a175031f83c3d3b11b105d79bcb736af
+[2026.09.30-17.21.53:781][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle, at AnimationSequence/2ba6340c4a3cb7e25d9215da9b7a7c6eb3657454
+[2026.09.30-17.21.53:784][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks, at AnimationSequence/6fbdf8e03b348f0f51cf13a592ebe79ab097f87d
+[2026.09.30-17.21.53:818][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.09.30-17.21.53:838][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.09.30-17.21.53:853][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.09.30-17.21.53:897][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/fcb47019b5b158f724782bda078012c9a7ebbb21
+[2026.09.30-17.21.53:906][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.09.30-17.21.53:906][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.09.30-17.21.53:906][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.09.30-17.21.53:906][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.09.30-17.21.53:906][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.09.30-17.21.53:908][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/3df3ffa8f7092db1d1310977327a306e54b14e0a
+[2026.09.30-17.21.54:034][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle, at AnimationSequence/06113c2d7e6ad2f1aa6209aa7da4386455908d22
+[2026.09.30-17.21.54:169][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks, at AnimationSequence/0658af1ad578eadc9718ba9b4c1196b6869180ea
+[2026.09.30-17.21.54:338][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.54:350][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.54:360][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.54:373][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.54:379][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:386][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:388][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:392][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:394][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:394][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:394][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:395][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.09.30-17.21.54:450][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle (Required Memory Estimate: 36.36 MB)
+[2026.09.30-17.21.54:470][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 9.12 MB)
+[2026.09.30-17.21.54:490][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 9.27 MB)
+[2026.09.30-17.21.54:523][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/eb5c354a3bca4b6e5477992f39265a2a176e2358
+[2026.09.30-17.21.54:544][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/52318f147bb92d930c0b68a2b8c3700315c0974c
+[2026.09.30-17.21.54:565][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.09.30-17.21.54:565][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.09.30-17.21.54:565][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.09.30-17.21.54:565][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.09.30-17.21.54:565][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks (Required Memory Estimate: 45.44 MB)
+[2026.09.30-17.21.54:662][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle, at AnimationSequence/6fc44629d086e081e33724b0cc9e4d609777780b
+[2026.09.30-17.21.54:807][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks, at AnimationSequence/4bc44b8e9164855193680ea5164c24ba14fbd613
+[2026.09.30-17.21.55:945][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.30-17.21.55:945][  0]LogInit: Display: 
+[2026.09.30-17.21.55:945][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.30-17.21.55:945][  0]LogInit: Display: -----------------------------------
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:945][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/FK/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.09.30-17.21.55:946][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4A/MixamoRecovered/Assisted180BallForward/Diagnostics/Full/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.09.30-17.21.55:946][  0]LogInit: Display: 
+[2026.09.30-17.21.55:946][  0]LogInit: Display: Success - 0 error(s), 33 warning(s)
+[2026.09.30-17.21.55:946][  0]LogInit: Display: 
+
+Execution of commandlet took:  4.57 seconds, PeakPhysMemoryMB=2036 MB, PeakVirtMemoryMB=1963 MB
+[2026.09.30-17.21.56:152][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-17.21.56:156][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.09.30-17.21.56:156][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-17.21.56:347][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.09.30-17.21.56:376][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json

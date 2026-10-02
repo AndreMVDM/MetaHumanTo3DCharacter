@@ -1,0 +1,717 @@
+{
+  "version": "phase4f.geometry-support/2.0.0",
+  "policy_sha256": "77ac6d06ef583b28d828526b431ee4daf2bdc1041374aefd2b42200a58c87c00",
+  "baseline_numeric_thresholds_unchanged": false,
+  "placement_allowance_unchanged_cm": 0.8,
+  "source_provenance": {
+    "normalised_geometry_sha256": "ad6d03cf03993f3d2065e834a9121f60f766393ae83ff4e7d3bb413d041bb00a",
+    "source_geometry_sha256": "3f688abd762339884aee6f1907aef0f3cb12796742155d21dc96ec99578d8bd0",
+    "geometry_summary_sha256": "b9770b4120f8eb8aca7c34bd1b82c4dcb0f21681958341a679177e45b73c4058",
+    "garment_classification_sha256": "2a16b24eb064b8a5dd5ba9c6b6261ea8d6080769da40ca78ab6348c7039155b7",
+    "garment_anchors": {
+      "25": "trouser_region",
+      "34": "shirt_region",
+      "24": "belt_region"
+    },
+    "provenance_tokens": {
+      "0": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "1": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "2": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "3": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "4": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "5": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "6": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "7": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "8": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "9": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "10": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "11": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "12": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "13": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "14": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "15": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "16": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "17": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "18": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "19": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "20": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "21": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "22": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "23": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "24": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "25": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "26": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "27": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "28": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "29": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "30": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "31": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "32": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "33": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "34": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "35": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ],
+      "36": [
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+        "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a"
+      ]
+    }
+  },
+  "legacy_results": [
+    {
+      "name": "surface_envelope_pelvis",
+      "legacy": {
+        "name": "surface_envelope_pelvis",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            0.10307380557060242,
+            -1.628673791885376,
+            95.82306671142578
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_spine_01",
+      "legacy": {
+        "name": "surface_envelope_spine_01",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            0.06651336699724197,
+            -1.0418047904968262,
+            99.3708267211914
+          ],
+          "enclosing_contour_count": 2
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_spine_02",
+      "legacy": {
+        "name": "surface_envelope_spine_02",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            0.00919637456536293,
+            -0.9700655937194824,
+            115.40631103515625
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_spine_03",
+      "legacy": {
+        "name": "surface_envelope_spine_03",
+        "pass": false,
+        "measured": {
+          "position_cm": [
+            0.23274096846580505,
+            -3.6841256618499756,
+            129.21142578125
+          ],
+          "enclosing_contour_count": 0
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_neck_01",
+      "legacy": {
+        "name": "surface_envelope_neck_01",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -0.11290943622589111,
+            -6.310903549194336,
+            148.3011932373047
+          ],
+          "enclosing_contour_count": 2
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_head",
+      "legacy": {
+        "name": "surface_envelope_head",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            0.10363438725471497,
+            -4.275839328765869,
+            157.67886352539062
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_clavicle_l",
+      "legacy": {
+        "name": "surface_envelope_clavicle_l",
+        "pass": false,
+        "measured": {
+          "position_cm": [
+            1.555513858795166,
+            -7.228282928466797,
+            141.70518493652344
+          ],
+          "enclosing_contour_count": 0
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_upperarm_l",
+      "legacy": {
+        "name": "surface_envelope_upperarm_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            23.37337875366211,
+            -8.953336715698242,
+            138.05743408203125
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_lowerarm_l",
+      "legacy": {
+        "name": "surface_envelope_lowerarm_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            34.438514709472656,
+            -10.179544448852539,
+            111.53286743164062
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_hand_l",
+      "legacy": {
+        "name": "surface_envelope_hand_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            42.01698684692383,
+            -3.2924795150756836,
+            88.38768768310547
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_thigh_l",
+      "legacy": {
+        "name": "surface_envelope_thigh_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            9.064400672912598,
+            -1.9173508882522583,
+            90.33855438232422
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_calf_l",
+      "legacy": {
+        "name": "surface_envelope_calf_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            15.017048835754395,
+            -4.284300327301025,
+            49.55315399169922
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_foot_l",
+      "legacy": {
+        "name": "surface_envelope_foot_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            16.222156524658203,
+            -11.182873725891113,
+            9.819072723388672
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_ball_l",
+      "legacy": {
+        "name": "surface_envelope_ball_l",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            18.89809226989746,
+            4.2567291259765625,
+            1.713231086730957
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_clavicle_r",
+      "legacy": {
+        "name": "surface_envelope_clavicle_r",
+        "pass": false,
+        "measured": {
+          "position_cm": [
+            -1.5769591331481934,
+            -7.197674751281738,
+            141.65269470214844
+          ],
+          "enclosing_contour_count": 0
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_upperarm_r",
+      "legacy": {
+        "name": "surface_envelope_upperarm_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -23.43759536743164,
+            -8.665414810180664,
+            138.15135192871094
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_lowerarm_r",
+      "legacy": {
+        "name": "surface_envelope_lowerarm_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -34.37824630737305,
+            -10.039040565490723,
+            111.62554168701172
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_hand_r",
+      "legacy": {
+        "name": "surface_envelope_hand_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -42.050960540771484,
+            -3.3462963104248047,
+            88.26927947998047
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_thigh_r",
+      "legacy": {
+        "name": "surface_envelope_thigh_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -8.898444175720215,
+            -1.8754589557647705,
+            90.40269470214844
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_calf_r",
+      "legacy": {
+        "name": "surface_envelope_calf_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -15.047327995300293,
+            -4.365208148956299,
+            49.012508392333984
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "surface_envelope_foot_r",
+      "legacy": {
+        "name": "surface_envelope_foot_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -16.0981388092041,
+            -11.1641845703125,
+            9.603378295898438
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": false
+    },
+    {
+      "name": "surface_envelope_ball_r",
+      "legacy": {
+        "name": "surface_envelope_ball_r",
+        "pass": true,
+        "measured": {
+          "position_cm": [
+            -20.44864273071289,
+            3.932969093322754,
+            1.9024138450622559
+          ],
+          "enclosing_contour_count": 1
+        },
+        "threshold": "inside at least one actual section bounding envelope +/- .8cm; does not certify concave volume",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_thumb_l",
+      "legacy": {
+        "name": "finger_surface_thumb_l",
+        "pass": false,
+        "measured": [
+          1.6067345097024843,
+          1.5686263927097517,
+          1.2222072343439123
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_index_l",
+      "legacy": {
+        "name": "finger_surface_index_l",
+        "pass": false,
+        "measured": [
+          1.766498180240302,
+          1.3318044900163954,
+          1.2931906939711078
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_middle_l",
+      "legacy": {
+        "name": "finger_surface_middle_l",
+        "pass": false,
+        "measured": [
+          1.6926590007730005,
+          1.371394568292956,
+          1.3749265986654917
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_ring_l",
+      "legacy": {
+        "name": "finger_surface_ring_l",
+        "pass": false,
+        "measured": [
+          1.677371415482353,
+          1.474419212945623,
+          1.2510593437012343
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_pinky_l",
+      "legacy": {
+        "name": "finger_surface_pinky_l",
+        "pass": false,
+        "measured": [
+          1.4703717133693652,
+          1.1531680405173148,
+          1.0559419258332203
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_thumb_r",
+      "legacy": {
+        "name": "finger_surface_thumb_r",
+        "pass": false,
+        "measured": [
+          1.6067345097024843,
+          1.5626715727642546,
+          1.2234120042094807
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_index_r",
+      "legacy": {
+        "name": "finger_surface_index_r",
+        "pass": false,
+        "measured": [
+          1.7664983219303074,
+          1.3716176449551036,
+          1.2903601295544782
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_middle_r",
+      "legacy": {
+        "name": "finger_surface_middle_r",
+        "pass": false,
+        "measured": [
+          1.6907683019465545,
+          1.4396232778713258,
+          1.3776711606345984
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_ring_r",
+      "legacy": {
+        "name": "finger_surface_ring_r",
+        "pass": false,
+        "measured": [
+          1.6773712807314096,
+          1.4735088776305783,
+          1.2527114725034276
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    },
+    {
+      "name": "finger_surface_pinky_r",
+      "legacy": {
+        "name": "finger_surface_pinky_r",
+        "pass": false,
+        "measured": [
+          1.4703717133693643,
+          1.1963718360430275,
+          1.0660979559317019
+        ],
+        "threshold": "nearest target vertex <1.2cm; coarse track support, independent review still required",
+        "kind": "hard"
+      },
+      "corrected_pass": true
+    }
+  ],
+  "source_tracks_sha256": "676ede80699c56913cbc0fb28f153526043c88f6e96c49aee3d120fda65e23ab",
+  "source_tracks_error": null
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "solve_returned",
+  "solve_success": true,
+  "temporary_only": true,
+  "downstream_authorised": false,
+  "subsystem": "<Object '/Engine/Transient.EditorEngine_0:MetaHumanCharacterEditorSubsystem_0' (0x0000016E23ADDAC0) Class 'MetaHumanCharacterEditorSubsystem'>",
+  "target_mesh": "/Game/MetaHumanTo3DCharacter/Phase4C/Geometry/SM_Lara180",
+  "target_vertex_count": 27725,
+  "target_triangles": 49508,
+  "character": "/Game/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor.MHC_LaraDonor",
+  "config": {
+    "target_parts_type": "BODY_ONLY",
+    "pipeline": "body_only",
+    "auto_solve": true,
+    "estimate_body_joints_from_mesh": true,
+    "face_iterations": 0,
+    "keypoints": 0,
+    "face_tracking_curves": 0,
+    "input_space": "UE cm +X left +Y forward +Z up",
+    "settings": "<Struct 'BodyConformSolveSettings' (0x0000016EB12AEC00) {pipeline_name: \"body_only\", solve_pose: True, symmetrical_solve: False, iterations: 13, icp_geometry_weight: {start: 70.000000, end: 70.000000, curve: Static}, icp_search_tolerance: {start: 50.000000, end: 50.000000, curve: Static}, icp_normal_compatibility: {start: 0.800000, end: 0.800000, curve: Static}, icp_key_point_weight: {start: 1.000000, end: 1.000000, curve: Static}, icp_landmarks_weight: {start: 0.557000, end: 0.000000, curve: Linear}, regularization_global_controls: {start: 0.682000, end: 0.682000, curve: Static}, regularization_local_controls: {start: 1.000000, end: 1.000000, curve: Static}, regularization_proportions: {start: 1.000000, end: 1.000000, curve: Static}, regularization_pose: {start: 2.000000, end: 0.500000, curve: Linear}, curve_resampling: 5, face_iterations: 0, face_icp_weight: {start: 30.000000, end: 30.000000, curve: Static}, face_icp_search_tolerance: {start: 30.000000, end: 30.000000, curve: Static}, face_normal_compatibility: {start: 0.800000, end: 0.800000, curve: Static}, face_keypoint_weight: {start: 10.000000, end: 10.000000, curve: Static}, face_landmark2d_weight: {start: 0.200000, end: 0.200000, curve: Static}, model_regularization: {start: 10.000000, end: 10.000000, curve: Static}, patch_smoothness: {start: 1.000000, end: 1.000000, curve: Static}, landmark_damping: 0.010000, apply_neck_seam_smoothing: True, seam_iterations: 3, seam_laplacian: 1.500000, seam_rings: 12}>"
+  },
+  "solve_seconds": 24.531999999999243
+}

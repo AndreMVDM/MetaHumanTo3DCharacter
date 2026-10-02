@@ -1,0 +1,18 @@
+{
+  "status": "investigation_complete_acceptance_partial",
+  "selected_mesh": "/Game/MetaHumanTo3DCharacter/Phase4E/Character/Candidates/SK_Lara_Refined",
+  "product_go": false,
+  "skeleton_refit": false,
+  "pants": "material_repair_observed",
+  "shoulders": "partial_with_area_collapse_regression",
+  "finger_support": "9/10_no_accepted_refinement",
+  "natural_thumb": "unproven",
+  "contact_max_penetration_cm": {
+    "idle": 0,
+    "walk": 0.15787007522582255,
+    "run": 0.3375530771187668
+  },
+  "protected_audit": "passed",
+  "runtime_closure": "passed",
+  "report": "Documentation/Phase4E/Phase4ECharacterQualityRefinement.md"
+}

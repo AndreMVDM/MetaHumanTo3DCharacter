@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "case": "MixamoRecovered",
+      "source": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Inputs\\MixamoRecovered\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+      "vertices": 27725,
+      "polygons": 28636,
+      "triangles": 49508,
+      "uv_layers": 0,
+      "uv_loop_count": 0,
+      "uv_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "face_index_sha256": "56c608ba406ea8d269453ff0097b59437461e7e4c5b13b9819dd34b4c154cb32",
+      "materials": [
+        "tripo_mat_c86468c2"
+      ],
+      "bounds_metres": {
+        "min": [
+          -0.19995112717151642,
+          -0.1042480617761612,
+          -6.272677488539102e-09
+        ],
+        "max": [
+          0.19995123147964478,
+          0.10424809902906418,
+          0.99951171875
+        ]
+      },
+      "armatures": 1,
+      "vertex_groups_before": 52,
+      "modifiers_before": [
+        "ARMATURE"
+      ],
+      "source_height_cm": 99.95117250226775,
+      "height_requested_cm": 180.0,
+      "uniform_factor": 1.8008793243112386,
+      "export": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Geometry\\MixamoRecovered\\Lara_Geometry.fbx",
+      "height_output_cm": 180.0,
+      "uv_sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vertex_groups_after": 0,
+      "modifiers_after": []
+    },
+    {
+      "case": "Unrigged",
+      "source": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Inputs\\Unrigged\\Lara_UnRigged_Textured.fbx",
+      "vertices": 27725,
+      "polygons": 28636,
+      "triangles": 49508,
+      "uv_layers": 1,
+      "uv_loop_count": 106780,
+      "uv_sha256": "17b2f20dd461baa3f55e5fdd3bea249a881311a9f16934839e58595b1da72cac",
+      "face_index_sha256": "6b835f4af5e0c342122b476d04810264f158410a7b894addd737f2566e22daa3",
+      "materials": [
+        "f9dcb69f_c978_4517_86d5_c509f2f721f9"
+      ],
+      "bounds_metres": {
+        "min": [
+          -0.199951171875,
+          -0.10424807667732239,
+          3.3730747084348423e-09
+        ],
+        "max": [
+          0.199951171875,
+          0.10424814373254776,
+          0.99951171875
+        ]
+      },
+      "armatures": 0,
+      "vertex_groups_before": 0,
+      "modifiers_before": [],
+      "source_height_cm": 99.95117153769253,
+      "height_requested_cm": 180.0,
+      "uniform_factor": 1.8008793416905604,
+      "export": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4A\\Geometry\\Unrigged\\Lara_Geometry.fbx",
+      "height_output_cm": 180.0,
+      "uv_sha256_after": "17b2f20dd461baa3f55e5fdd3bea249a881311a9f16934839e58595b1da72cac",
+      "vertex_groups_after": 0,
+      "modifiers_after": []
+    }
+  ],
+  "vertex_count_equal": true,
+  "face_indices_identical": false,
+  "index_matched_max_world_distance_cm": 96.15057533244237,
+  "nearest_vertex_max_cm": 2.554085040173959e-05,
+  "nearest_vertex_mean_cm": 1.2851863917177989e-05,
+  "bijective_nearest_mapping": true,
+  "faces_equal_after_bijective_remap": true,
+  "uv_equivalence": false,
+  "material_equivalence": false,
+  "comparison_note": "Nearest-position correspondence after independent ground alignment and uniform 180 cm scaling; face comparison ignores winding."
+}

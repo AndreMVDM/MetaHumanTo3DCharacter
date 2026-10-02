@@ -1,0 +1,47 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="SKM_Quinn_Simple" ExportPath="/Script/Engine.SkeletalMesh'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple'"
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_1" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_1'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_1.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_2" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_2'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_2.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:FbxSkeletalMeshImportData_0'"
+      ThresholdUV=0.000977
+      ImportMaterialOriginalNameData(0)="Quinn_01"
+      ImportMaterialOriginalNameData(1)="Quinn_02"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("Quinn_01","Quinn_02"))
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_1" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_1'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_1.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_2" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_2'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple:SkeletalMeshDescriptionBulkData_2.MeshDescription'"
+      End Object
+   End Object
+   SourceModels(0)=(TriangleCount=87280,VertexCount=43761,Bounds=(Origin=(X=0.000000,Y=7.110690,Z=90.053179),BoxExtent=(X=51.937191,Y=18.293386,Z=90.084363),SphereRadius=92.470010),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=FB3EB518FB3EB518FB3EB518933EB518,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000,MaxBonesPerVertex=8))
+   SourceModels(1)=(MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_1'",ScreenSize=(Default=0.300000),ReductionSettings=(TerminationCriterion=SMTC_AbsNumOfTriangles,NumOfTrianglesPercentage=0.125000,MaxNumOfTriangles=27000,MaxBonesPerVertex=8),bHasBeenSimplified=True)
+   SourceModels(2)=(MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_2'",ScreenSize=(Default=0.150000),ReductionSettings=(TerminationCriterion=SMTC_AbsNumOfTriangles,NumOfTrianglesPercentage=0.060000,MaxNumOfTriangles=13000),bHasBeenSimplified=True)
+   Skeleton="/Script/Engine.Skeleton'/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin'"
+   DefaultAnimatingRig="/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body.CR_Mannequin_Body"
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/Characters/Mannequins/Rigs/PA_Mannequin.PA_Mannequin'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=((),(),())))
+End Object

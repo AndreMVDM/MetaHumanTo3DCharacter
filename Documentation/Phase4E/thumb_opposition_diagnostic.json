@@ -1,0 +1,50 @@
+{
+  "status": "diagnostic_only",
+  "method": "Accepted thumb chain; 30 degree swing towards index base plus 20 degree hand-axis rotation and 20 degree interphalangeal flexion",
+  "bone_positions_and_identity_unchanged": true,
+  "samples": [
+    {
+      "side": "l",
+      "fraction": 0,
+      "support_cm": 0.8722055539771969,
+      "thumb_tip_bone_displacement_cm": 0.0,
+      "finite": true
+    },
+    {
+      "side": "l",
+      "fraction": 0.5,
+      "support_cm": 0.9019509605671644,
+      "thumb_tip_bone_displacement_cm": 0.7852526460683775,
+      "finite": true
+    },
+    {
+      "side": "l",
+      "fraction": 1,
+      "support_cm": 0.8431379332793384,
+      "thumb_tip_bone_displacement_cm": 1.5083046211138402,
+      "finite": true
+    },
+    {
+      "side": "r",
+      "fraction": 0,
+      "support_cm": 0.9648602370788142,
+      "thumb_tip_bone_displacement_cm": 0.0,
+      "finite": true
+    },
+    {
+      "side": "r",
+      "fraction": 0.5,
+      "support_cm": 0.9006882149267895,
+      "thumb_tip_bone_displacement_cm": 1.0766315957516115,
+      "finite": true
+    },
+    {
+      "side": "r",
+      "fraction": 1,
+      "support_cm": 0.8362415572391941,
+      "thumb_tip_bone_displacement_cm": 2.1008566419938375,
+      "finite": true
+    }
+  ],
+  "acceptance": "Natural thumb opposition remains unproven: angles/sign/axis are synthetic, no validated task motion, anatomical joint limits, collision or human acceptance."
+}

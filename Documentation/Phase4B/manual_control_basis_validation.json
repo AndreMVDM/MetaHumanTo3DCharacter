@@ -1,0 +1,93 @@
+{
+  "read_only_phase4a_asset": "/Game/MetaHumanTo3DCharacter/Phase4A/Unrigged/Geometry/SM_Lara",
+  "dcc_geometry_sha256": "5657f04782ce21ad600cd0a07a4cf34d15e8077fa374fe55b7da99d1f7cd39c1",
+  "tested_axis_signs": [
+    {
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "sample_count": 161,
+      "max_cm": 178.9275325145667,
+      "mean_cm": 110.4783906539914
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "sample_count": 161,
+      "max_cm": 3.2972153930750197,
+      "mean_cm": 0.6922361770859146
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "sample_count": 161,
+      "max_cm": 178.82819836860548,
+      "mean_cm": 110.67377472921062
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "sample_count": 161,
+      "max_cm": 15.192401158317814,
+      "mean_cm": 2.8157909834364765
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "sample_count": 161,
+      "max_cm": 178.91456736451724,
+      "mean_cm": 110.47850553076725
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "sample_count": 161,
+      "max_cm": 7.74507750021688e-06,
+      "mean_cm": 3.187233400502228e-06
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "sample_count": 161,
+      "max_cm": 178.81315089738916,
+      "mean_cm": 110.67336928460806
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "sample_count": 161,
+      "max_cm": 15.196713389744192,
+      "mean_cm": 2.712632953693698
+    }
+  ],
+  "verified_dcc_to_ue_signs": [
+    1,
+    -1,
+    1
+  ],
+  "max_sample_error_cm": 7.74507750021688e-06,
+  "source_asset_modified": false
+}

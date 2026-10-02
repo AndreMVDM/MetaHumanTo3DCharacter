@@ -1,0 +1,90 @@
+{
+  "map": "/Game/MetaHumanTo3DCharacter/Phase4D/Maps/L_GuidedCorrection",
+  "height_cm": 180.0,
+  "triangles": 49508,
+  "vertex_count": 28189,
+  "uv_sets": 1,
+  "assets": [
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Geometry/SM_Lara180.SM_Lara180",
+      "class": "StaticMesh"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Maps/L_GuidedCorrection.L_GuidedCorrection",
+      "class": "World"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Automatic.M_Automatic",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Baseline.M_Baseline",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Dependent.M_Dependent",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Ghost.M_Ghost",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_LaraOriginal.M_LaraOriginal",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Moved.M_Moved",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Review.M_Review",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Reviewed.M_Reviewed",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/M_Track.M_Track",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4D/Materials/T_LaraOriginal.T_LaraOriginal",
+      "class": "Texture2D"
+    }
+  ],
+  "skeletal_asset_count": 0,
+  "display_scale": [
+    1,
+    1,
+    1
+  ],
+  "controls": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "panel": "Working/Phase4D/panel.py",
+  "anatomical_approvals_created": 0
+}

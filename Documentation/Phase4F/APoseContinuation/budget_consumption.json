@@ -1,0 +1,18 @@
+{
+  "semantic_passes": {
+    "John": 1,
+    "Jane": 1,
+    "Lara": 0
+  },
+  "John_pass1": "Source-verified actual solve and two-API extraction",
+  "Jane_pass1": "Source-verified actual solve and two-API extraction",
+  "skin_candidates": {
+    "Lara": 0,
+    "John": 0,
+    "Jane": 0
+  },
+  "remaining_semantic_passes": {
+    "John": 2,
+    "Jane": 2
+  }
+}

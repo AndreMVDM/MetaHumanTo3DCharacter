@@ -1,0 +1,13 @@
+{
+  "selected_attempt": "combined Auto Solve, full Lara surface, zero keypoints",
+  "semantic_body_roles_exposed": 23,
+  "provisional_body_roles_accepted": 4,
+  "body_roles_requiring_review": 19,
+  "phase4b_provisional_accepted": 6,
+  "phase4b_ambiguous": 17,
+  "body_classification": "experimental assisted",
+  "finger_classification": "unsuitable for automatic Lara fingers in this zero-keypoint solve; assisted correction extent unmeasured",
+  "mean_4C_vs_4A_cm": 5.242654117922331,
+  "mean_4B_vs_4A_cm": 4.160896830124891,
+  "count_limit": "Provisional counts are gate-policy outputs, not independent ground-truth accuracy; whole-body acceptance still requires all gates."
+}

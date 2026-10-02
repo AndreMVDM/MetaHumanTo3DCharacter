@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "captures": [
+    {
+      "label": "Baseline",
+      "name": "native_baseline_feet_front",
+      "camera": [
+        0,
+        70,
+        15
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "MF_Walk_Fwd",
+      "fraction": 0.13333333333333333,
+      "file": "native_baseline_feet_front.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_feet_side",
+      "camera": [
+        80,
+        0,
+        15
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "clip": "MF_Walk_Fwd",
+      "fraction": 0.13333333333333333,
+      "file": "native_baseline_feet_side.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_feet_front",
+      "camera": [
+        0,
+        70,
+        15
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "MF_Walk_Fwd",
+      "fraction": 0.13333333333333333,
+      "file": "native_refined_feet_front.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_feet_side",
+      "camera": [
+        80,
+        0,
+        15
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "clip": "MF_Walk_Fwd",
+      "fraction": 0.13333333333333333,
+      "file": "native_refined_feet_side.png",
+      "file_verified": true
+    }
+  ]
+}

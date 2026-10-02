@@ -1,0 +1,28 @@
+{
+  "id": 82,
+  "utc_epoch": 1790835325.364452,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "upperarm_l",
+      "clavicle_l"
+    ],
+    "judgement": "accept",
+    "category": "actual anatomical misplacement",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113",
+    "reviewed_positions": {
+      "upperarm_l": [
+        13.896257400512695,
+        -2.6705265045166016,
+        139.10354614257812
+      ],
+      "clavicle_l": [
+        1.4538447856903076,
+        -6.639039993286133,
+        144.8472442626953
+      ]
+    }
+  }
+}

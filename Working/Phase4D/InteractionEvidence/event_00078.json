@@ -1,0 +1,28 @@
+{
+  "id": 78,
+  "utc_epoch": 1790835243.8978257,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "neck_01",
+      "head"
+    ],
+    "judgement": "accept",
+    "category": "actual anatomical misplacement",
+    "session_id": "b4e57640-116c-4f16-816a-b85647064113",
+    "reviewed_positions": {
+      "neck_01": [
+        0.7336483209043365,
+        -0.7638249224990512,
+        150.02043073097894
+      ],
+      "head": [
+        1.011353850364685,
+        -2.6623544692993164,
+        159.3494110107422
+      ]
+    }
+  }
+}

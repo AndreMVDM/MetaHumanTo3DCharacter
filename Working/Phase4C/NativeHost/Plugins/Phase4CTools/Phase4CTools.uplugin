@@ -1,0 +1,1 @@
+{"FileVersion":3,"Version":1,"VersionName":"0.1","FriendlyName":"Phase4C public donor DNA inspection","CanContainContent":false,"Modules":[{"Name":"Phase4CTools","Type":"Editor","LoadingPhase":"Default"}],"Plugins":[{"Name":"RigLogic","Enabled":true},{"Name":"MetaHumanCoreTech","Enabled":true}]}

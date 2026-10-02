@@ -1,0 +1,23 @@
+00:01.437  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\John\source_working.blend"
+E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\apose_prepare_sources.py:41: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=scene.world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs['Color'].default_value=(.75,.75,.75,1)
+00:02.703  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\John\source_front.png'
+00:03.734  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\John\source_side.png'
+00:04.844  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\John\source_back.png'
+00:05.922  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\John\source_hand.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\Target180.fbx'
+export finished in 0.0455 sec.
+PREPARED John {'rotation_columns_world': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, 1.8798835575580597, 2.3408783800249466e-07], 'source_height_cm': 99.95117164091216, 'target_height_cm': 180, 'factor': 1.8008793398307912, 'ground_plane_points': 264, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': -2.3193342611193657, 'negative_extension_cm': 7.763675041496754, 'positive_extension_cm': 10.009762428700924}, {'side_source_x_sign': -1, 'shank_y_cm': -2.3193372413516045, 'negative_extension_cm': 7.528323478996754, 'positive_extension_cm': 10.009762458503246}], 'facing_source_y_sign': -1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.432144669219779e-14, 'toe_heuristic_facing_source_y_sign': 1, 'facing_validation': 'A-pose continuation: -Y facing must be verified from source front/back renders BEFORE fitting. No anatomical approval.'}
+00:06.062  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\Jane\source_working.blend"
+00:07.156  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\Jane\source_front.png'
+00:08.219  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\Jane\source_side.png'
+00:09.281  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\Jane\source_back.png'
+00:10.344  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\Jane\source_hand.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Jane\\Target180.fbx'
+export finished in 0.0511 sec.
+PREPARED Jane {'rotation_columns_world': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, -0.6103507010266185, -2.3961391204530003e-08], 'source_height_cm': 99.95117189896139, 'target_height_cm': 180, 'factor': 1.800879335181366, 'ground_plane_points': 26, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': 0.854495819658041, 'negative_extension_cm': 7.289552923291922, 'positive_extension_cm': 5.761715117841959}, {'side_source_x_sign': -1, 'shank_y_cm': 0.26855410542339087, 'negative_extension_cm': 6.038578107021749, 'positive_extension_cm': 7.861324236728251}], 'facing_source_y_sign': -1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.434896150467636e-14, 'toe_heuristic_facing_source_y_sign': 1, 'facing_validation': 'A-pose continuation: -Y facing must be verified from source front/back renders BEFORE fitting. No anatomical approval.'}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

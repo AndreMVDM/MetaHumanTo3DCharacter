@@ -1,0 +1,1882 @@
+[
+  {
+    "package": "/Game/Characters/Echo/Hair/Eyebrows_L_Echo",
+    "class": "GroomAsset",
+    "asset_name": "Eyebrows_L_Echo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Hair/Eyebrows_L_Echo_Echo_M3D_LOD0_Binding",
+    "class": "GroomBindingAsset",
+    "asset_name": "Eyebrows_L_Echo_Echo_M3D_LOD0_Binding"
+  },
+  {
+    "package": "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns",
+    "class": "GroomAsset",
+    "asset_name": "Hair_S_UpdoBuns"
+  },
+  {
+    "package": "/Game/Characters/Echo/Hair/Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding",
+    "class": "GroomBindingAsset",
+    "asset_name": "Hair_S_UpdoBuns_Echo_M3D_LOD0_Binding"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/EyeMaterials/Functions/ML_EyeRefraction",
+    "class": "MaterialFunction",
+    "asset_name": "ML_EyeRefraction"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeBlend",
+    "class": "Material",
+    "asset_name": "M_EyeBlend"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/EyeMaterials/M_EyeRefractive",
+    "class": "Material",
+    "asset_name": "M_EyeRefractive"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/EyeMaterials/SSProfile/SSP_Eye_Inner",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SSP_Eye_Inner"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/EyeMaterials/Textures/T_eye_sclera_right_D",
+    "class": "Texture2D",
+    "asset_name": "T_eye_sclera_right_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/Function/MF_Absorbing",
+    "class": "MaterialFunction",
+    "asset_name": "MF_Absorbing"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/Function/MPC_Absorbtion",
+    "class": "MaterialParameterCollection",
+    "asset_name": "MPC_Absorbtion"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/HairMaterials/M_EyeLashes",
+    "class": "Material",
+    "asset_name": "M_EyeLashes"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MF_CharacterMaterialOverrides",
+    "class": "MaterialFunction",
+    "asset_name": "MF_CharacterMaterialOverrides"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MF_FacePart",
+    "class": "MaterialFunction",
+    "asset_name": "MF_FacePart"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MF_PerPartRoughnessModulation",
+    "class": "MaterialFunction",
+    "asset_name": "MF_PerPartRoughnessModulation"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_EchoGroom",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_EchoGroom"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_EchoGroom_eyebrow",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_EchoGroom_eyebrow"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Cloth_Accessories",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Cloth_Accessories"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_GoldBuckle",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_GoldBuckle"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Leather",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Leather"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_LeatherCanteen",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_LeatherCanteen"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Pants",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Pants"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Scarf",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Scarf"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Shirt",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Shirt"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Echo_Skin",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Echo_Skin"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_EyeBlend",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_EyeBlend"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_EyeRefractive",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_EyeRefractive"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Hair_Cards_Blonde",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Hair_Cards_Blonde"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Head_Echo",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Head_Echo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MI_Lashes",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Lashes"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MPC_CharacterAlbedo",
+    "class": "MaterialParameterCollection",
+    "asset_name": "MPC_CharacterAlbedo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/MPC_EyeHighlight",
+    "class": "MaterialParameterCollection",
+    "asset_name": "MPC_EyeHighlight"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Cloth_Scarf",
+    "class": "Material",
+    "asset_name": "M_Cloth_Scarf"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Cloth_Skirt",
+    "class": "Material",
+    "asset_name": "M_Cloth_Skirt"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Echo_ClothGold",
+    "class": "Material",
+    "asset_name": "M_Echo_ClothGold"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Echo_ClothScarf",
+    "class": "Material",
+    "asset_name": "M_Echo_ClothScarf"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Echo_ClothShirtMaterial",
+    "class": "Material",
+    "asset_name": "M_Echo_ClothShirtMaterial"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Echo_ClothSimple",
+    "class": "Material",
+    "asset_name": "M_Echo_ClothSimple"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Echo_Skin",
+    "class": "Material",
+    "asset_name": "M_Echo_Skin"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_GroomMaster",
+    "class": "Material",
+    "asset_name": "M_GroomMaster"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Hair_Cards_Blonde",
+    "class": "Material",
+    "asset_name": "M_Hair_Cards_Blonde"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Head_Echo",
+    "class": "Material",
+    "asset_name": "M_Head_Echo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_Lacrimal",
+    "class": "Material",
+    "asset_name": "M_Lacrimal"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_TeethNew",
+    "class": "Material",
+    "asset_name": "M_TeethNew"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/M_hide",
+    "class": "Material",
+    "asset_name": "M_hide"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SP_Head",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SP_Head"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/SP_Clothing",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SP_Clothing"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/SP_Scarf",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SP_Scarf"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/SP_Shirt",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SP_Shirt"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/SP_Teeth1",
+    "class": "SubsurfaceProfile",
+    "asset_name": "SP_Teeth1"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_H",
+    "class": "Texture2D",
+    "asset_name": "T_skin_H"
+  },
+  {
+    "package": "/Game/Characters/Echo/Materials/SkinMaterials/T_skin_N",
+    "class": "Texture2D",
+    "asset_name": "T_skin_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Meshes/Echo",
+    "class": "SkeletalMesh",
+    "asset_name": "Echo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Meshes/Echo_Hair",
+    "class": "SkeletalMesh",
+    "asset_name": "Echo_Hair"
+  },
+  {
+    "package": "/Game/Characters/Echo/Meshes/Echo_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "Echo_Skeleton"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Echo_Hair_AnimBP",
+    "class": "AnimBlueprint",
+    "asset_name": "Echo_Hair_AnimBP"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Echo_Helpers_CtrlRig",
+    "class": "ControlRigBlueprint",
+    "asset_name": "Echo_Helpers_CtrlRig"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP",
+    "class": "AnimBlueprint",
+    "asset_name": "Echo_PostProcess_AnimBP"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Echo_Twist_CtrlRig",
+    "class": "ControlRigBlueprint",
+    "asset_name": "Echo_Twist_CtrlRig"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_Canister",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_Canister"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_Cloth_Scarf",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_Cloth_Scarf"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_Ponytail"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_Pouch",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_Pouch"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_ShoulderPad",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_ShoulderPad"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/Physics/PA_Echo_Skirt",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Echo_Skirt"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/calf_l_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "calf_l_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/calf_l_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "calf_l_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/calf_r_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "calf_r_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/calf_r_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "calf_r_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/hand_l_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "hand_l_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/hand_l_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "hand_l_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/hand_r_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "hand_r_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/hand_r_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "hand_r_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "lowerarm_l_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_l_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "lowerarm_l_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "lowerarm_r_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/lowerarm_r_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "lowerarm_r_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/neck_02_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "neck_02_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/neck_02_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "neck_02_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "upperarm_l_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/upperarm_l_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "upperarm_l_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_AnimSeq",
+    "class": "AnimSequence",
+    "asset_name": "upperarm_r_AnimSeq"
+  },
+  {
+    "package": "/Game/Characters/Echo/Rig/PoseAssets/upperarm_r_PoseAsset",
+    "class": "PoseAsset",
+    "asset_name": "upperarm_r_PoseAsset"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_AO",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_O",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_O"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume1_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume1_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_AO",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_MatID",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_MatID"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume2_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume2_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_AO",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_Gold_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_Gold_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume3_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume3_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_AO",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume4_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume4_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume4_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume4_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume4_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume4_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_AO",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_MatID",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_MatID"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Costume/T_echo_Costume5_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Costume5_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Hair/T_Hair_AO",
+    "class": "Texture2D",
+    "asset_name": "T_Hair_AO"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Hair/T_Hair_Bent_N",
+    "class": "Texture2D",
+    "asset_name": "T_Hair_Bent_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Hair/T_Hair_Depth",
+    "class": "Texture2D",
+    "asset_name": "T_Hair_Depth"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Hair/T_Hair_M",
+    "class": "Texture2D",
+    "asset_name": "T_Hair_M"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Hair/T_Hair_MatID",
+    "class": "Texture2D",
+    "asset_name": "T_Hair_MatID"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_Head_NM",
+    "class": "Texture2D",
+    "asset_name": "T_Head_NM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_Head_additional_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_additional_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_Head_highpass_S",
+    "class": "Texture2D",
+    "asset_name": "T_Head_highpass_S"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_Head_thickness_M",
+    "class": "Texture2D",
+    "asset_name": "T_Head_thickness_M"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_HeadBrows_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_HeadBrows_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_HeadBrows_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_HeadBrows_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_BN",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_BN"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_Brow_M",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_Brow_M"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_MatID",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_MatID"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_O",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_O"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_ORM",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_ORM"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_micro_N",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_micro_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_echo_Head_noBrows_D",
+    "class": "Texture2D",
+    "asset_name": "T_echo_Head_noBrows_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/Head/T_toksvig_macro",
+    "class": "Texture2D",
+    "asset_name": "T_toksvig_macro"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_EyeIrisBaseColor_D",
+    "class": "Texture2D",
+    "asset_name": "T_EyeIrisBaseColor_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_EyeMidPlane_DP",
+    "class": "Texture2D",
+    "asset_name": "T_EyeMidPlane_DP"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Eye_N",
+    "class": "Texture2D",
+    "asset_name": "T_Eye_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Eye_Sphere_N",
+    "class": "Texture2D",
+    "asset_name": "T_Eye_Sphere_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Eye_Wet_N",
+    "class": "Texture2D",
+    "asset_name": "T_Eye_Wet_N"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Head_Skin_001_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_Skin_001_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Head_Skin_004_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_Skin_004_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Head_Skin_007_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_Skin_007_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Head_Skin_008_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_Skin_008_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Head_Skin_009_R",
+    "class": "Texture2D",
+    "asset_name": "T_Head_Skin_009_R"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_Pisa_HDR",
+    "class": "TextureCube",
+    "asset_name": "T_Pisa_HDR"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_ScleraBase_001_D",
+    "class": "Texture2D",
+    "asset_name": "T_ScleraBase_001_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_ScleraVeins_001_D",
+    "class": "Texture2D",
+    "asset_name": "T_ScleraVeins_001_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_ScleraVessels_002_D",
+    "class": "Texture2D",
+    "asset_name": "T_ScleraVessels_002_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_eyes_sclera_D",
+    "class": "Texture2D",
+    "asset_name": "T_eyes_sclera_D"
+  },
+  {
+    "package": "/Game/Characters/Echo/Textures/T_iris08_leftEye_N",
+    "class": "Texture2D",
+    "asset_name": "T_iris08_leftEye_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Animations/Jog_Fwd",
+    "class": "AnimSequence",
+    "asset_name": "Jog_Fwd"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black",
+    "class": "MaterialFunction",
+    "asset_name": "ML_Latex_Black"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige",
+    "class": "MaterialFunction",
+    "asset_name": "ML_ShinyPlastic_Beige"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo",
+    "class": "MaterialFunction",
+    "asset_name": "ML_ShinyPlastic_Beige_Logo"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal",
+    "class": "MaterialFunction",
+    "asset_name": "ML_SoftMetal"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body",
+    "class": "Material",
+    "asset_name": "M_MannequinUE4_Body"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "M_MannequinUE4_ChestLogo"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin",
+    "class": "SkeletalMesh",
+    "asset_name": "SK_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset",
+    "class": "PhysicsAsset",
+    "asset_name": "SK_Mannequin_PhysicsAsset"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "SK_Mannequin_Skeleton"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_UE4_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_UE4Manny_UE5Manny"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01",
+    "class": "Texture2D",
+    "asset_name": "T_ML_Aluminum01"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N",
+    "class": "Texture2D",
+    "asset_name": "T_ML_Aluminum01_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D",
+    "class": "Texture2D",
+    "asset_name": "T_ML_Rubber_Blue_01_D"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N",
+    "class": "Texture2D",
+    "asset_name": "T_ML_Rubber_Blue_01_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA",
+    "class": "Texture2D",
+    "asset_name": "T_UE4_Mannequin_MAT_MASKA"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals",
+    "class": "Texture2D",
+    "asset_name": "T_UE4_Mannequin__normals"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask",
+    "class": "Texture2D",
+    "asset_name": "T_UELogo_Mask"
+  },
+  {
+    "package": "/Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA",
+    "class": "Texture2D",
+    "asset_name": "T_UELogo_N_TGA"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Animations/Manny/MM_Death_Front_01",
+    "class": "AnimSequence",
+    "asset_name": "MM_Death_Front_01"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd",
+    "class": "AnimSequence",
+    "asset_name": "MM_Run_Fwd"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd",
+    "class": "AnimSequence",
+    "asset_name": "MF_Run_Fwd"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd",
+    "class": "AnimSequence",
+    "asset_name": "MF_Walk_Fwd"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Functions/CA_Mannequin",
+    "class": "CurveLinearColorAtlas",
+    "asset_name": "CA_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Functions/ChromaticCurve",
+    "class": "CurveLinearColor",
+    "asset_name": "ChromaticCurve"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Functions/MF_Diffraction",
+    "class": "MaterialFunction",
+    "asset_name": "MF_Diffraction"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Functions/MF_logo3layers",
+    "class": "MaterialFunction",
+    "asset_name": "MF_logo3layers"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff",
+    "class": "MaterialFunction",
+    "asset_name": "ML_BaseColorFallOff"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Manny_01"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Manny_02"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Quinn_01"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_Quinn_02"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Materials/M_Mannequin",
+    "class": "Material",
+    "asset_name": "M_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Meshes/SKM_Manny",
+    "class": "SkeletalMesh",
+    "asset_name": "SKM_Manny"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "class": "SkeletalMesh",
+    "asset_name": "SKM_Manny_Simple"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Meshes/SKM_Quinn",
+    "class": "SkeletalMesh",
+    "asset_name": "SKM_Quinn"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "class": "SkeletalMesh",
+    "asset_name": "SKM_Quinn_Simple"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "class": "Skeleton",
+    "asset_name": "SK_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/ABP_Manny_PostProcess",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_Manny_PostProcess"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_Quinn_PostProcess"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "class": "ControlRigBlueprint",
+    "asset_name": "CR_Mannequin_Body"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural",
+    "class": "ControlRigBlueprint",
+    "asset_name": "CR_Mannequin_Procedural"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "class": "PhysicsAsset",
+    "asset_name": "PA_Mannequin"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_calf_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_calf_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_calf_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_calf_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_clavicle_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_clavicle_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_clavicle_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_clavicle_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_foot_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_foot_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_foot_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_foot_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_hand_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_hand_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_hand_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_hand_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_lowerarm_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_lowerarm_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_lowerarm_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_lowerarm_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_thigh_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_thigh_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_thigh_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_thigh_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_upperarm_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_upperarm_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Manny_upperarm_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Manny_upperarm_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_calf_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_calf_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_calf_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_calf_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_clavicle_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_clavicle_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_clavicle_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_clavicle_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_foot_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_foot_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_foot_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_foot_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_hand_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_hand_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_hand_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_hand_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_lowerarm_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_lowerarm_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_lowerarm_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_lowerarm_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_thigh_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_thigh_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_thigh_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_thigh_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_upperarm_l_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_upperarm_l_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim",
+    "class": "AnimSequence",
+    "asset_name": "Quinn_upperarm_r_anim"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose",
+    "class": "PoseAsset",
+    "asset_name": "Quinn_upperarm_r_pose"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_ASAOPMASK_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_BN"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_CCRCCPlastic_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_D"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_MSR_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_N",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_01_Tan"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_ASAOPMASK_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_BN",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_BN"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_CCRCCPlastic_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_D",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_D"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_MSR_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_N",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan",
+    "class": "Texture2D",
+    "asset_name": "T_Manny_02_Tan"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01ID_BN"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01ID_D"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01ID_MSR_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01ID_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01ID_Tan"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01_ASAOMASK_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_01_CCRCCPlastic_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02ID_BN"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02ID_D"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02ID_MSR_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02ID_N"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02ID_Tan"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02_ASAOMASK_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK",
+    "class": "Texture2D",
+    "asset_name": "T_Quinn_02_CCRCCPlastic_MSK"
+  },
+  {
+    "package": "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "class": "Texture2D",
+    "asset_name": "T_UE_Logo_M"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Materials/MF_SpawnEffect",
+    "class": "MaterialFunction",
+    "asset_name": "MF_SpawnEffect"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Materials/MI_BotFace",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_BotFace"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Materials/M_BotBase",
+    "class": "Material",
+    "asset_name": "M_BotBase"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Materials/M_BotFace",
+    "class": "Material",
+    "asset_name": "M_BotFace"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Mesh/SKM_Bot",
+    "class": "SkeletalMesh",
+    "asset_name": "SKM_Bot"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Mesh/SK_Bot",
+    "class": "Skeleton",
+    "asset_name": "SK_Bot"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Bot_Albedo",
+    "class": "Texture2D",
+    "asset_name": "T_Bot_Albedo"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Bot_FaceBG",
+    "class": "Texture2D",
+    "asset_name": "T_Bot_FaceBG"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Bot_M_R_AO",
+    "class": "Texture2D",
+    "asset_name": "T_Bot_M_R_AO"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Bot_Masks",
+    "class": "Texture2D",
+    "asset_name": "T_Bot_Masks"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Bot_Normal",
+    "class": "Texture2D",
+    "asset_name": "T_Bot_Normal"
+  },
+  {
+    "package": "/Game/Characters/StackOBot/Textures/T_Eyes_Atlas",
+    "class": "Texture2D",
+    "asset_name": "T_Eyes_Atlas"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DA_MeshDesformerCollections",
+    "class": "MeshDeformerCollection",
+    "asset_name": "DA_MeshDesformerCollections"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DeltaMushDeformerDemo",
+    "class": "OptimusDeformer",
+    "asset_name": "DG_DeltaMushDeformerDemo"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_DualQuatDeformerDemo",
+    "class": "OptimusDeformer",
+    "asset_name": "DG_DualQuatDeformerDemo"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_RigDrivenDeformerDemo",
+    "class": "OptimusDeformer",
+    "asset_name": "DG_RigDrivenDeformerDemo"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationDeformer/AnimBlueprints/DG_SimpleDeformer",
+    "class": "OptimusDeformer",
+    "asset_name": "DG_SimpleDeformer"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_CurveRemap_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Mannequin_Retargeting",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_Mannequin_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_NoPinBone_PostRetargetPhase",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_NoPinBone_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RetargetPhases",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_RetargetPhases"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_RootMotionGenerator_PostRetargetPhase",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_RootMotionGenerator_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Spelunkle_Retargeting",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_Spelunkle_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_StackOBot_Retargeting",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_StackOBot_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_Starfish_Retargeting",
+    "class": "AnimBlueprint",
+    "asset_name": "ABP_Starfish_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_CurveRemap",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_CurveRemap"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Spelunkle_Retargeting",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_Spelunkle_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_StackOBot_Retargeting",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_StackOBot_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting",
+    "class": "IKRigDefinition",
+    "asset_name": "IK_Starfish_Retargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_CurveRemap"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Spelunkle",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_Mannequin_Spelunkle"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_Mannequin_StackOBot"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_Mannequin_Starfish"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_NoPinBone_PostRetargetPhase",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_NoPinBone_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_FK",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_RetargetPhases_FK"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_Root",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_RetargetPhases_Root"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RootMotionGenerator_PostRetargetPhase",
+    "class": "IKRetargeter",
+    "asset_name": "RTG_RootMotionGenerator_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Animations/MF_Run_Fwd_Speed_Curves",
+    "class": "AnimSequence",
+    "asset_name": "MF_Run_Fwd_Speed_Curves"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Animations/M_Jog_NoWep_N",
+    "class": "AnimSequence",
+    "asset_name": "M_Jog_NoWep_N"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Animations/Starfish_Fixed_Pose",
+    "class": "AnimSequence",
+    "asset_name": "Starfish_Fixed_Pose"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Animations/TurnWithCurve",
+    "class": "AnimSequence",
+    "asset_name": "TurnWithCurve"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_AdjustingStrides",
+    "class": "Blueprint",
+    "asset_name": "BP_AdjustingStrides"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_CopyPoseFromMesh",
+    "class": "Blueprint",
+    "asset_name": "BP_CopyPoseFromMesh"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_EditingRetargetRoot",
+    "class": "Blueprint",
+    "asset_name": "BP_EditingRetargetRoot"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MaintainingContactPoints",
+    "class": "Blueprint",
+    "asset_name": "BP_MaintainingContactPoints"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_MannequinRetargeting",
+    "class": "Blueprint",
+    "asset_name": "BP_MannequinRetargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_PinBone_PostRetargetPhase",
+    "class": "Blueprint",
+    "asset_name": "BP_PinBone_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase",
+    "class": "Blueprint",
+    "asset_name": "BP_RemapCurve_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPhases",
+    "class": "Blueprint",
+    "asset_name": "BP_RetargetPhases"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetPoses",
+    "class": "Blueprint",
+    "asset_name": "BP_RetargetPoses"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RetargetingDifferentCharacters",
+    "class": "Blueprint",
+    "asset_name": "BP_RetargetingDifferentCharacters"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RootMotionGenerator_PostRetargetPhase",
+    "class": "Blueprint",
+    "asset_name": "BP_RootMotionGenerator_PostRetargetPhase"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_SpeedPlanting",
+    "class": "Blueprint",
+    "asset_name": "BP_SpeedPlanting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_TranslationRetargeting",
+    "class": "Blueprint",
+    "asset_name": "BP_TranslationRetargeting"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MALE_Base_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "M_MALE_Base_Skeleton"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/M_MidBulge",
+    "class": "Material",
+    "asset_name": "M_MidBulge"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/M_TopBulge",
+    "class": "Material",
+    "asset_name": "M_TopBulge"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge",
+    "class": "SkeletalMesh",
+    "asset_name": "MidBulge"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_PhysicsAsset",
+    "class": "PhysicsAsset",
+    "asset_name": "MidBulge_PhysicsAsset"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "MidBulge_Skeleton"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_L_Male_Base",
+    "class": "SkeletalMesh",
+    "asset_name": "SK_L_Male_Base"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_M_MALE_Base",
+    "class": "SkeletalMesh",
+    "asset_name": "SK_M_MALE_Base"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/SK_S_MALE_Base",
+    "class": "SkeletalMesh",
+    "asset_name": "SK_S_MALE_Base"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge",
+    "class": "SkeletalMesh",
+    "asset_name": "TopBulge"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_PhysicsAsset",
+    "class": "PhysicsAsset",
+    "asset_name": "TopBulge_PhysicsAsset"
+  },
+  {
+    "package": "/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "TopBulge_Skeleton"
+  },
+  {
+    "package": "/Game/ExampleContent/Audio/Physical_Materials/Concrete",
+    "class": "PhysicalMaterial",
+    "asset_name": "Concrete"
+  },
+  {
+    "package": "/Game/ExampleContent/ControlRig/Animations/JumpingJacks",
+    "class": "AnimSequence",
+    "asset_name": "JumpingJacks"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle",
+    "class": "SkeletalMesh",
+    "asset_name": "SK_Spelunkle"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/SK_Spelunkle_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "SK_Spelunkle_Skeleton"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/Spelunkle_Secondary_Physics",
+    "class": "PhysicsAsset",
+    "asset_name": "Spelunkle_Secondary_Physics"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/lambert2",
+    "class": "Material",
+    "asset_name": "lambert2"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Spelunkle/phong1",
+    "class": "Material",
+    "asset_name": "phong1"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Blue",
+    "class": "Material",
+    "asset_name": "M_Blue"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Grey",
+    "class": "Material",
+    "asset_name": "M_Grey"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Starfish/M_Red",
+    "class": "Material",
+    "asset_name": "M_Red"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish",
+    "class": "SkeletalMesh",
+    "asset_name": "Starfish"
+  },
+  {
+    "package": "/Game/ExampleContent/IKRig/Mesh/Starfish/Starfish_Skeleton",
+    "class": "Skeleton",
+    "asset_name": "Starfish_Skeleton"
+  },
+  {
+    "package": "/Game/Global/Blueprints/BP_Slider",
+    "class": "Blueprint",
+    "asset_name": "BP_Slider"
+  },
+  {
+    "package": "/Game/Global/Blueprints/Interactive/BPI_PlayerInteraction",
+    "class": "Blueprint",
+    "asset_name": "BPI_PlayerInteraction"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Materials/MI_TileBlack",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "MI_TileBlack"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Materials/M_Metal",
+    "class": "Material",
+    "asset_name": "M_Metal"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Materials/M_Tile",
+    "class": "Material",
+    "asset_name": "M_Tile"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Materials/M_UELogo",
+    "class": "Material",
+    "asset_name": "M_UELogo"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR",
+    "class": "Texture2D",
+    "asset_name": "T_GrungySurface_slnneipc_4K_MR"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Meshes/SM_SliderBase",
+    "class": "StaticMesh",
+    "asset_name": "SM_SliderBase"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Meshes/SM_SliderBase_Cap",
+    "class": "StaticMesh",
+    "asset_name": "SM_SliderBase_Cap"
+  },
+  {
+    "package": "/Game/Global/DemoRoom/Meshes/Slider_Button",
+    "class": "StaticMesh",
+    "asset_name": "Slider_Button"
+  },
+  {
+    "package": "/Game/Global/Interactable/BPInterface_Button",
+    "class": "Blueprint",
+    "asset_name": "BPInterface_Button"
+  },
+  {
+    "package": "/Game/Global/Materials/M_DemoRoomTiles",
+    "class": "Material",
+    "asset_name": "M_DemoRoomTiles"
+  },
+  {
+    "package": "/Game/Global/Materials/M_DemoRoomTiles_Inst",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "M_DemoRoomTiles_Inst"
+  },
+  {
+    "package": "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color1",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "M_DemoRoomTiles_Inst_Color1"
+  },
+  {
+    "package": "/Game/Global/Materials/M_DemoRoomTiles_Inst_Color2",
+    "class": "MaterialInstanceConstant",
+    "asset_name": "M_DemoRoomTiles_Inst_Color2"
+  },
+  {
+    "package": "/Game/Global/Textures/T_RoomTiles_M",
+    "class": "Texture2D",
+    "asset_name": "T_RoomTiles_M"
+  },
+  {
+    "package": "/Game/Global/Textures/T_RoomTiles_N",
+    "class": "Texture2D",
+    "asset_name": "T_RoomTiles_N"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "required_report_sections": 23,
+  "broken_report_links": [],
+  "human_counts": {
+    "Bill": {
+      "actual_events": 0,
+      "actual_approvals": 0
+    },
+    "Jill": {
+      "actual_events": 0,
+      "actual_approvals": 0
+    }
+  },
+  "fresh_native_authoring_readback": "passed",
+  "decision_complete": false,
+  "phase5_authorised": false
+}

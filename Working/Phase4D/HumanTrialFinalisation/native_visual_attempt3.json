@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "captures": [],
+  "runtime_changes_only": true,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/capture_native_evidence.py\", line 36, in tick\n    if frame==1:setup()\n                ^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4D/capture_native_evidence.py\", line 25, in setup\n    reference_actor=unreal.GameplayStatics.begin_deferred_actor_spawn_from_class(world,unreal.SkeletalMeshActor,unreal.Transform(),unreal.SpawnActorCollisionHandlingMethod.ALWAYS_SPAWN,None)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'GameplayStatics' has no attribute 'begin_deferred_actor_spawn_from_class'\n"
+}

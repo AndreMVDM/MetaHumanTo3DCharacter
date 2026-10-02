@@ -1,0 +1,1197 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="Echo" ExportPath="/Script/Engine.SkeletalMesh'/Game/Characters/Echo/Meshes/Echo.Echo'"
+   Begin Object Class=/Script/ClothingSystemRuntimeCommon.ClothingAssetCommon Name="Echo_Cloth_Scarf" ExportPath="/Script/ClothingSystemRuntimeCommon.ClothingAssetCommon'/Game/Characters/Echo/Meshes/Echo.Echo:Echo_Cloth_Scarf'"
+      Begin Object Class=/Script/ChaosCloth.ChaosClothConfig Name="ChaosClothConfig" ExportPath="/Script/ChaosCloth.ChaosClothConfig'/Game/Characters/Echo/Meshes/Echo.Echo:Echo_Cloth_Scarf.ChaosClothConfig'"
+      End Object
+   End Object
+   Begin Object Class=/Script/ChaosCloth.ChaosClothSharedSimConfig Name="ChaosClothSharedSimConfig" ExportPath="/Script/ChaosCloth.ChaosClothSharedSimConfig'/Game/Characters/Echo/Meshes/Echo.Echo:ChaosClothSharedSimConfig'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Echo/Meshes/Echo.Echo:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browDown_innerRaise_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDown_innerRaise_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browDown_innerRaise_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDown_innerRaise_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDownLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDownRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browInnerUp" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browInnerUp'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browOuterUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browOuterUpLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browOuterUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browOuterUpRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browRaise_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browRaise_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="browRaise_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browRaise_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="cheekPuff" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekPuff'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="cheekSquintLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekSquintLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="cheekSquintRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekSquintRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDown_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDown_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDown_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDown_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDownLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownLeft_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDownLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownLeft_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDownRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownRight_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookDownRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownRight_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookLeft_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookLeft_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookRight_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookRight_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUp_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUp_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUp_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUp_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUpLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpLeft_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUpLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpLeft_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUpRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpRight_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_blinkElookUpRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpRight_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEblink_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEblink_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEsquintInner_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInner_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEsquintInner_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInner_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEsquintInnerEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInnerEblink_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseEsquintInnerEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInnerEblink_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseNwrinkle_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseNwrinkle_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_cheekRaiseNwrinkle_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseNwrinkle_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookDownLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownLeft_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookDownLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownLeft_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookDownRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownRight_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookDownRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownRight_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookUpLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpLeft_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookUpLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpLeft_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookUpRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpRight_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_lookUpRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpRight_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_squintInnerEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_squintInnerEblink_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_squintInnerEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_squintInnerEblink_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_widenElookDown_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_widenElookDown_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eye_widenElookDown_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_widenElookDown_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeBlinkLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeBlinkLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeBlinkRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeBlinkRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookDownLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookDownRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookInLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookInLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookInRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookInRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookOutLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookOutLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookOutRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookOutRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookUpLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeLookUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookUpRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeSquintLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeSquintLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeSquintRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeSquintRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeWideLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeWideLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="eyeWideRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeWideRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jaw_leftJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jaw_leftJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jaw_rightJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jaw_rightJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jawForward" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawForward'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jawLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jawOpen" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawOpen'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="jawRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Elbow_Jnt_0_0_30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_30'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Elbow_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Elbow_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Elbow_Jnt_0_0_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_45'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_30_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_35_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_35_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n15_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n45_n150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n45_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n55_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Shoulder_Jnt_0_n90_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Wrist_Jnt_0_0_60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_0_60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Wrist_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Wrist_Jnt_0_60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_60_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Wrist_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_n120_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedArm_A_Wrist_Jnt_0_n60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_n60_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedLeg_A_Knee_Jnt_0_0_120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedLeg_A_Knee_Jnt_0_0_150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_150'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedLeg_A_Knee_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_45'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedLeg_A_Knee_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="L_BipedLeg_A_Knee_Jnt_0_0_n30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_n30'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cheekRaiseCornerPull_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cheekRaiseCornerPull_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cheekRaiseCornerPull_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cheekRaiseCornerPull_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullJopen_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullJopen_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullLowerLipDepress_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullLowerLipDepress_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullLowerLipDepress_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullLowerLipDepress_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullMstretch_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretch_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullMstretch_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretch_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullMstretchJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretchJopen_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_cornerPullMstretchJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretchJopen_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_dimpleJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleJopen_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_dimpleJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleJopen_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_dimpleLowerLipDepress_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleLowerLipDepress_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_dimpleLowerLipDepress_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleLowerLipDepress_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_funnelJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_funnelJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_lipsTogetherJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_lipsTogetherPucker_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherPucker_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_lipsTogetherPuckerJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherPuckerJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_oh_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_oh_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_ohJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_ohJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_puckerJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_puckerJopen_cor'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_stretchJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_stretchJopen_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_stretchJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_stretchJopen_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseCornerPull_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseCornerPull_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseCornerPull_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseCornerPull_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseDimple_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseDimple_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseDimple_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseDimple_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseJopen_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseJopen_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseNwrinkle_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseNwrinkle_L'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouth_upperLipRaiseNwrinkle_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseNwrinkle_R'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthClose" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthClose'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthClose_inv" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthClose_inv'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthDimpleLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthDimpleLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthDimpleRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthDimpleRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthFrownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFrownLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthFrownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFrownRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthFunnel" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFunnel'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthLowerDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLowerDownLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthLowerDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLowerDownRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthPressLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPressLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthPressRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPressRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthPucker" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPucker'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthRollLower" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRollLower'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthRollUpper" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRollUpper'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthShrugLower" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthShrugLower'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthShrugUpper" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthShrugUpper'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthSmileLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthSmileLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthSmileRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthSmileRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthStretchLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthStretchLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthStretchRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthStretchRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthUpperUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthUpperUpLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="mouthUpperUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthUpperUpRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="noseSneerLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:noseSneerLeft'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="noseSneerRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:noseSneerRight'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Elbow_Jnt_0_0_30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_30'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Elbow_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Elbow_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Elbow_Jnt_0_0_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_45'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_30_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_35_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_35_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n15_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n45_n150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n45_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n55_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Shoulder_Jnt_0_n90_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Wrist_Jnt_0_0_60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_0_60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Wrist_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_0_n60'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Wrist_Jnt_0_60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_60_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Wrist_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_n120_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedArm_A_Wrist_Jnt_0_n60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_n60_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedLeg_A_Knee_Jnt_0_0_120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_120'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedLeg_A_Knee_Jnt_0_0_150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_150'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedLeg_A_Knee_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_45'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedLeg_A_Knee_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_90'"
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="R_BipedLeg_A_Knee_Jnt_0_0_n30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_n30'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Echo/Meshes/Echo.Echo:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Echo/Meshes/Echo.Echo:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Echo/Meshes/Echo.Echo:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="Echo_Cloth_Scarf" ExportPath="/Script/ClothingSystemRuntimeCommon.ClothingAssetCommon'/Game/Characters/Echo/Meshes/Echo.Echo:Echo_Cloth_Scarf'"
+      Begin Object Name="ChaosClothConfig" ExportPath="/Script/ChaosCloth.ChaosClothConfig'/Game/Characters/Echo/Meshes/Echo.Echo:Echo_Cloth_Scarf.ChaosClothConfig'"
+         TetherStiffness=(Low=0.899657)
+         DampingCoefficient=0.000000
+         LocalDampingCoefficient=0.010000
+         Drag=(Low=0.070000,High=0.070000)
+         Lift=(High=0.035000)
+         AnimDriveStiffness=(High=0.000000)
+         FictitiousForcesModel=Legacy
+         FictitiousAngularScale=0.000000
+      End Object
+      PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/Characters/Echo/Rig/Physics/PA_Echo_Cloth_Scarf.PA_Echo_Cloth_Scarf'"
+      ClothConfigs=(("ChaosClothConfig", "/Script/ChaosCloth.ChaosClothConfig'ChaosClothConfig'"),("ChaosClothSharedSimConfig", "/Script/ChaosCloth.ChaosClothSharedSimConfig'Echo:ChaosClothSharedSimConfig'"))
+      LodData(0)=(PhysicalMeshData=(Vertices=((X=9.987999,Y=-3.103800,Z=142.753677),(X=11.543907,Y=-3.576920,Z=141.551239),(X=10.936426,Y=-2.665010,Z=142.102386),(X=10.653569,Y=-4.080608,Z=142.187836),(X=9.337449,Y=-3.733048,Z=142.864624),(X=12.141397,Y=-4.429842,Z=140.817017),(X=9.884639,Y=-4.654263,Z=142.256836),(X=7.852452,Y=-4.607610,Z=143.117859),(X=11.246148,Y=-4.889882,Z=141.313187),(X=12.738252,Y=-5.244316,Z=139.927856),(X=8.175178,Y=-5.428873,Z=142.335114),(X=6.590403,Y=-5.697973,Z=143.287109),(X=10.244704,Y=-5.457003,Z=141.445206),(X=11.821881,Y=-5.694334,Z=140.293289),(X=13.207401,Y=-5.842092,Z=139.051285),(X=6.816628,Y=-6.644014,Z=142.511597),(X=5.495795,Y=-6.296251,Z=143.317459),(X=5.682379,Y=-7.248207,Z=142.525833),(X=12.263058,Y=-6.270733,Z=139.224121),(X=13.735057,Y=-6.567316,Z=137.866241),(X=6.988730,Y=-7.433416,Z=141.491608),(X=5.820578,Y=-8.020916,Z=141.549896),(X=8.461940,Y=-6.153100,Z=141.353256),(X=7.144972,Y=-7.977655,Z=140.413300),(X=5.774727,Y=-8.553252,Z=140.455124),(X=8.717112,Y=-6.802083,Z=140.293121),(X=10.591125,Y=-6.124810,Z=140.393295),(X=10.780937,Y=-6.559484,Z=139.236359),(X=8.886759,Y=-7.257821,Z=139.284546),(X=7.231088,Y=-8.311955,Z=139.380493),(X=5.654636,Y=-8.900508,Z=139.403976),(X=12.586884,Y=-6.912419,Z=137.870621),(X=14.098497,Y=-6.949603,Z=135.990845),(X=10.937967,Y=-7.149051,Z=137.871246),(X=12.869051,Y=-7.332900,Z=136.007065),(X=14.432833,Y=-7.031390,Z=134.102142),(X=9.068317,Y=-7.828340,Z=137.927490),(X=10.940578,Y=-7.563390,Z=136.038513),(X=13.000325,Y=-7.449200,Z=134.123047),(X=14.692173,Y=-7.366312,Z=130.583176),(X=7.250942,Y=-8.664206,Z=137.933685),(X=5.467981,Y=-9.363198,Z=137.987854),(X=12.928291,Y=-7.911367,Z=130.583115),(X=14.775007,Y=-7.452566,Z=127.443954),(X=7.151359,Y=-8.801751,Z=135.999390),(X=5.203209,Y=-9.495914,Z=136.102417),(X=9.017063,Y=-8.010452,Z=135.982635),(X=7.083497,Y=-9.075148,Z=134.202805),(X=4.970383,Y=-9.768134,Z=134.317108),(X=8.988256,Y=-8.175417,Z=134.152267),(X=10.940729,Y=-7.549523,Z=134.120041),(X=10.879967,Y=-7.975068,Z=130.552155),(X=8.988871,Y=-8.590514,Z=130.570160),(X=7.120543,Y=-9.475221,Z=130.619293),(X=4.594955,Y=-10.317713,Z=130.654083),(X=12.913997,Y=-7.879987,Z=127.439148),(X=14.865440,Y=-7.500319,Z=124.351562),(X=7.109190,Y=-9.566703,Z=127.441818),(X=4.656768,Y=-10.379993,Z=127.450142),(X=12.951622,Y=-7.920786,Z=124.342186),(X=14.927295,Y=-7.495867,Z=121.293564),(X=10.903649,Y=-8.144996,Z=127.430542),(X=12.999899,Y=-7.906569,Z=121.285164),(X=14.989833,Y=-7.492582,Z=118.249809),(X=10.947145,Y=-8.260049,Z=124.327553),(X=8.957010,Y=-8.699005,Z=127.431870),(X=8.992949,Y=-8.869954,Z=124.329002),(X=11.010216,Y=-8.311486,Z=121.272591),(X=13.050257,Y=-7.896274,Z=118.226463),(X=14.961725,Y=-7.512264,Z=115.205215),(X=7.127495,Y=-9.565145,Z=124.345337),(X=4.646111,Y=-10.466043,Z=124.361320),(X=13.037189,Y=-7.914849,Z=115.189323),(X=14.961503,Y=-7.556089,Z=112.168022),(X=7.172015,Y=-9.581203,Z=121.291931),(X=4.653996,Y=-10.501982,Z=121.311264),(X=9.056437,Y=-8.829129,Z=121.274826),(X=7.193806,Y=-9.603715,Z=118.252777),(X=4.654943,Y=-10.533325,Z=118.311821),(X=9.099762,Y=-8.872828,Z=118.201332),(X=11.062106,Y=-8.351713,Z=118.192940),(X=11.072260,Y=-8.405952,Z=115.166924),(X=9.126880,Y=-8.932526,Z=115.177452),(X=7.227015,Y=-9.645711,Z=115.222275),(X=4.701878,Y=-10.575416,Z=115.274536),(X=13.034333,Y=-7.959782,Z=112.159042),(X=14.950333,Y=-7.612738,Z=109.136597),(X=7.219626,Y=-9.705201,Z=112.198708),(X=4.688568,Y=-10.627859,Z=112.245567),(X=13.022429,Y=-8.019875,Z=109.133148),(X=14.937240,Y=-7.674644,Z=106.109077),(X=11.072518,Y=-8.475998,Z=112.145981),(X=13.009581,Y=-8.086987,Z=106.109825),(X=14.950686,Y=-7.737921,Z=103.084007),(X=11.064290,Y=-8.554097,Z=109.127243),(X=9.127043,Y=-9.007410,Z=112.158836),(X=9.120693,Y=-9.089350,Z=109.141670),(X=11.054438,Y=-8.634864,Z=106.109428),(X=13.013108,Y=-8.155813,Z=103.088364),(X=14.934875,Y=-7.797429,Z=100.061195),(X=7.209218,Y=-9.774439,Z=109.177399),(X=4.673943,Y=-10.687770,Z=109.219925),(X=12.998178,Y=-8.220777,Z=100.068642),(X=14.916090,Y=-7.849324,Z=97.040337),(X=7.198076,Y=-9.849028,Z=106.157471),(X=4.658723,Y=-10.752485,Z=106.196419),(X=9.112513,Y=-9.173666,Z=106.125069),(X=7.171495,Y=-9.923693,Z=103.139336),(X=4.614347,Y=-10.817222,Z=103.175636),(X=9.098561,Y=-9.255803,Z=103.109299),(X=11.049753,Y=-8.714223,Z=103.092453),(X=11.036882,Y=-8.787446,Z=100.076485),(X=9.086841,Y=-9.331341,Z=100.094513),(X=7.157922,Y=-9.992789,Z=100.122910),(X=4.597114,Y=-10.876899,Z=100.157394),(X=12.980418,Y=-8.277892,Z=97.050552),(X=14.895015,Y=-7.891882,Z=94.021286),(X=7.141354,Y=-10.052938,Z=97.108078),(X=4.577053,Y=-10.927988,Z=97.141457),(X=12.960439,Y=-8.325436,Z=94.033951),(X=14.871610,Y=-7.925163,Z=91.011726),(X=11.020865,Y=-8.851095,Z=97.061554),(X=12.938124,Y=-8.363403,Z=91.024460),(X=14.845797,Y=-7.949929,Z=87.998634),(X=11.002402,Y=-8.904000,Z=94.047653),(X=9.071745,Y=-9.396761,Z=97.080765),(X=9.053981,Y=-9.450887,Z=94.068031),(X=10.981442,Y=-8.946659,Z=91.038330),(X=12.913381,Y=-8.392719,Z=88.012421),(X=14.817501,Y=-7.967316,Z=84.989655),(X=7.122443,Y=-10.102818,Z=94.094826),(X=4.554861,Y=-10.969223,Z=94.127609),(X=12.886150,Y=-8.414634,Z=85.003571),(X=14.788292,Y=-7.978369,Z=81.976151),(X=7.100989,Y=-10.142505,Z=91.079826),(X=4.530375,Y=-11.000899,Z=91.108040),(X=9.033650,Y=-9.494649,Z=91.056900),(X=7.077024,Y=-10.173285,Z=88.068153),(X=4.503584,Y=-11.024130,Z=88.095390),(X=9.010668,Y=-9.529040,Z=88.046135),(X=10.957945,Y=-8.980175,Z=88.027420),(X=10.931855,Y=-9.005892,Z=85.018600),(X=8.985008,Y=-9.555464,Z=85.036446),(X=7.050459,Y=-10.196373,Z=85.056709),(X=4.474397,Y=-11.040090,Z=85.081917),(X=12.857880,Y=-8.430174,Z=81.991898),(X=14.754757,Y=-7.983955,Z=78.962120),(X=7.022430,Y=-10.213025,Z=82.049446),(X=4.443755,Y=-11.049913,Z=82.076218),(X=12.825366,Y=-8.440166,Z=78.980316),(X=14.718445,Y=-7.984252,Z=75.983337),(X=10.904521,Y=-9.025006,Z=82.008759),(X=12.789999,Y=-8.444859,Z=75.992805),(X=14.717788,Y=-7.938933,Z=73.020020),(X=10.872999,Y=-9.038457,Z=78.999657),(X=8.957934,Y=-9.575191,Z=82.028084),(X=8.926719,Y=-9.589216,Z=79.021278),(X=10.838548,Y=-9.046476,Z=76.002792),(X=12.844329,Y=-8.422483,Z=73.030975),(X=14.675920,Y=-7.927171,Z=70.067062),(X=6.990409,Y=-10.224129,Z=79.044716),(X=4.409472,Y=-11.054607,Z=79.074303),(X=12.834198,Y=-8.378618,Z=70.073181),(X=14.633464,Y=-7.878935,Z=67.368904),(X=6.955450,Y=-10.229923,Z=76.025467),(X=4.372369,Y=-11.054187,Z=76.040390),(X=8.892518,Y=-9.597774,Z=76.013756),(X=6.930814,Y=-10.230354,Z=73.066055),(X=4.385928,Y=-11.054185,Z=73.075584),(X=8.903049,Y=-9.600554,Z=73.054199),(X=10.895109,Y=-9.021740,Z=73.042862),(X=10.781185,Y=-9.025829,Z=70.083649),(X=8.861898,Y=-9.560365,Z=70.163101),(X=6.885173,Y=-10.224688,Z=70.082993),(X=4.397152,Y=-11.054183,Z=70.100487),(X=12.763459,Y=-8.378641,Z=67.369781),(X=14.628343,Y=-7.864624,Z=64.939110),(X=6.778592,Y=-10.253267,Z=67.377457),(X=4.443525,Y=-11.054170,Z=67.379982),(X=12.766972,Y=-8.378641,Z=64.937378),(X=14.620779,Y=-7.848562,Z=62.321869),(X=10.685746,Y=-9.025860,Z=67.375931),(X=12.696647,Y=-8.378664,Z=62.342697),(X=14.596981,Y=-7.828128,Z=59.811653),(X=10.686786,Y=-9.025861,Z=64.940804),(X=8.893470,Y=-9.560357,Z=67.463623),(X=8.866565,Y=-9.560367,Z=65.025749),(X=6.749516,Y=-10.253277,Z=64.936813),(X=10.655239,Y=-9.025871,Z=62.368649),(X=8.839530,Y=-9.560375,Z=62.476486),(X=12.675210,Y=-8.258591,Z=59.812870),(X=10.655354,Y=-9.025872,Z=59.816925),(X=14.569283,Y=-7.783823,Z=57.178471),(X=12.659941,Y=-8.258596,Z=57.175869)),Normals=((X=-0.499093,Y=0.160358,Z=-0.851582),(X=-0.624245,Y=0.143224,Z=-0.767988),(X=-0.591741,Y=0.089974,Z=-0.801091),(X=-0.521802,Y=0.267665,Z=-0.809986),(X=-0.363892,Y=0.334173,Z=-0.869431),(X=-0.598207,Y=0.329531,Z=-0.730451),(X=-0.349657,Y=0.505944,Z=-0.788518),(X=-0.408024,Y=0.500675,Z=-0.763440),(X=-0.499085,Y=0.478525,Z=-0.722447),(X=-0.538237,Y=0.501671,Z=-0.677220),(X=-0.419494,Y=0.591377,Z=-0.688693),(X=-0.447866,Y=0.502675,Z=-0.739414),(X=-0.322937,Y=0.682013,Z=-0.656178),(X=-0.417682,Y=0.657161,Z=-0.627440),(X=-0.437625,Y=0.667875,Z=-0.602020),(X=-0.471348,Y=0.583078,Z=-0.661704),(X=-0.318113,Y=0.561653,Z=-0.763773),(X=-0.353971,Y=0.647584,Z=-0.674788),(X=-0.282446,Y=0.818190,Z=-0.500789),(X=-0.295886,Y=0.889388,Z=-0.348482),(X=-0.503851,Y=0.686597,Z=-0.524136),(X=-0.387239,Y=0.771590,Z=-0.504673),(X=-0.427343,Y=0.693778,Z=-0.579699),(X=-0.482249,Y=0.787490,Z=-0.383789),(X=-0.359494,Y=0.872772,Z=-0.330200),(X=-0.432145,Y=0.764611,Z=-0.478143),(X=-0.280663,Y=0.823143,Z=-0.493623),(X=-0.248732,Y=0.880621,Z=-0.403286),(X=-0.426871,Y=0.808520,Z=-0.405063),(X=-0.424617,Y=0.861826,Z=-0.277411),(X=-0.349436,Y=0.904115,Z=-0.245906),(X=-0.199757,Y=0.922725,Z=-0.329660),(X=-0.293765,Y=0.941625,Z=-0.164453),(X=-0.237906,Y=0.922732,Z=-0.303259),(X=-0.195092,Y=0.968525,Z=-0.154589),(X=-0.281745,Y=0.953939,Z=-0.103053),(X=-0.374306,Y=0.899920,Z=-0.223694),(X=-0.180449,Y=0.978770,Z=-0.097198),(X=-0.160489,Y=0.982064,Z=-0.098962),(X=-0.292883,Y=0.953116,Z=-0.076090),(X=-0.385125,Y=0.914041,Z=-0.127307),(X=-0.355926,Y=0.927706,Z=-0.112595),(X=-0.151164,Y=0.986309,Z=-0.065908),(X=-0.235591,Y=0.971766,Z=-0.012924),(X=-0.373658,Y=0.924384,Z=-0.076772),(X=-0.330738,Y=0.941140,Z=-0.069774),(X=-0.323356,Y=0.944067,Z=-0.064633),(X=-0.371777,Y=0.921717,Z=-0.110547),(X=-0.315314,Y=0.942932,Z=-0.107038),(X=-0.364431,Y=0.925776,Z=-0.100642),(X=-0.166513,Y=0.982650,Z=-0.081685),(X=-0.179503,Y=0.980742,Z=-0.076964),(X=-0.368152,Y=0.926811,Z=-0.074067),(X=-0.365904,Y=0.928094,Z=-0.068962),(X=-0.316150,Y=0.946185,Z=-0.069162),(X=-0.165539,Y=0.986106,Z=-0.013815),(X=-0.216122,Y=0.976313,Z=-0.010183),(X=-0.357782,Y=0.933574,Z=-0.020795),(X=-0.320735,Y=0.946990,Z=-0.018406),(X=-0.186301,Y=0.982427,Z=-0.011346),(X=-0.209509,Y=0.977805,Z=-0.001754),(X=-0.209213,Y=0.977079,Z=-0.039339),(X=-0.200345,Y=0.979720,Z=-0.003252),(X=-0.204583,Y=0.978845,Z=-0.002820),(X=-0.233850,Y=0.971823,Z=-0.029573),(X=-0.353700,Y=0.934543,Z=-0.039048),(X=-0.327213,Y=0.944714,Z=-0.021140),(X=-0.233959,Y=0.972173,Z=-0.011930),(X=-0.211391,Y=0.977388,Z=-0.005078),(X=-0.204483,Y=0.978825,Z=-0.009434),(X=-0.343202,Y=0.939232,Z=-0.007456),(X=-0.341817,Y=0.939595,Z=-0.017943),(X=-0.221964,Y=0.974985,Z=-0.011708),(X=-0.204869,Y=0.978661,Z=-0.015877),(X=-0.354075,Y=0.935149,Z=-0.011286),(X=-0.343609,Y=0.939050,Z=-0.010809),(X=-0.311812,Y=0.950109,Z=-0.008168),(X=-0.349639,Y=0.936782,Z=-0.013840),(X=-0.344450,Y=0.938705,Z=-0.013668),(X=-0.309512,Y=0.950728,Z=-0.017862),(X=-0.241526,Y=0.970272,Z=-0.015434),(X=-0.252470,Y=0.967408,Z=-0.019500),(X=-0.307797,Y=0.951207,Z=-0.021597),(X=-0.347513,Y=0.937499,Z=-0.018188),(X=-0.345073,Y=0.938416,Z=-0.017330),(X=-0.228991,Y=0.973272,Z=-0.017474),(X=-0.206252,Y=0.978321,Z=-0.018661),(X=-0.343118,Y=0.939097,Z=-0.019138),(X=-0.341886,Y=0.939592,Z=-0.016761),(X=-0.234694,Y=0.971860,Z=-0.020178),(X=-0.208662,Y=0.977767,Z=-0.020782),(X=-0.259534,Y=0.965469,Z=-0.022614),(X=-0.239538,Y=0.970637,Z=-0.022025),(X=-0.210520,Y=0.977383,Z=-0.020117),(X=-0.264775,Y=0.964010,Z=-0.024060),(X=-0.305056,Y=0.952049,Z=-0.023324),(X=-0.302756,Y=0.952750,Z=-0.024629),(X=-0.268798,Y=0.962880,Z=-0.024685),(X=-0.242576,Y=0.969902,Z=-0.021150),(X=-0.213072,Y=0.976882,Z=-0.017375),(X=-0.338613,Y=0.940689,Z=-0.021119),(X=-0.338278,Y=0.940861,Z=-0.018662),(X=-0.246024,Y=0.969088,Z=-0.018435),(X=-0.215731,Y=0.976347,Z=-0.014410),(X=-0.334411,Y=0.942190,Z=-0.021159),(X=-0.334142,Y=0.942346,Z=-0.018249),(X=-0.300936,Y=0.953325,Z=-0.024659),(X=-0.329492,Y=0.943951,Z=-0.019812),(X=-0.329210,Y=0.944104,Z=-0.016987),(X=-0.298504,Y=0.954132,Z=-0.022958),(X=-0.270947,Y=0.962317,Z=-0.023110),(X=-0.273400,Y=0.961686,Z=-0.020291),(X=-0.297291,Y=0.954566,Z=-0.020545),(X=-0.325936,Y=0.945214,Z=-0.018357),(X=-0.325707,Y=0.945332,Z=-0.016200),(X=-0.249032,Y=0.968374,Z=-0.015329),(X=-0.218270,Y=0.975824,Z=-0.011206),(X=-0.322907,Y=0.946311,Z=-0.015076),(X=-0.322329,Y=0.946538,Z=-0.013053),(X=-0.251655,Y=0.967743,Z=-0.012012),(X=-0.220655,Y=0.975318,Z=-0.008104),(X=-0.275446,Y=0.961169,Z=-0.016814),(X=-0.254004,Y=0.967163,Z=-0.008836),(X=-0.222955,Y=0.974814,Z=-0.005313),(X=-0.277081,Y=0.960755,Z=-0.013245),(X=-0.296368,Y=0.954923,Z=-0.016970),(X=-0.295583,Y=0.955224,Z=-0.013362),(X=-0.278491,Y=0.960387,Z=-0.009929),(X=-0.256190,Y=0.966608,Z=-0.006003),(X=-0.225231,Y=0.974301,Z=-0.002940),(X=-0.320143,Y=0.947298,Z=-0.011653),(X=-0.319123,Y=0.947663,Z=-0.009745),(X=-0.258266,Y=0.966067,Z=-0.003600),(X=-0.227476,Y=0.973783,Z=-0.000802),(X=-0.317539,Y=0.948208,Z=-0.008425),(X=-0.316135,Y=0.948691,Z=-0.006661),(X=-0.294826,Y=0.955498,Z=-0.010008),(X=-0.315144,Y=0.949027,Z=-0.005590),(X=-0.313327,Y=0.949637,Z=-0.003938),(X=-0.294121,Y=0.955742,Z=-0.007043),(X=-0.279737,Y=0.960051,Z=-0.006986),(X=-0.280842,Y=0.959743,Z=-0.004504),(X=-0.293455,Y=0.955962,Z=-0.004546),(X=-0.312902,Y=0.949780,Z=-0.003191),(X=-0.310669,Y=0.950517,Z=-0.001629),(X=-0.260234,Y=0.965544,Z=-0.001426),(X=-0.229682,Y=0.973265,Z=0.001245),(X=-0.310773,Y=0.950483,Z=-0.001049),(X=-0.308131,Y=0.951344,Z=0.000429),(X=-0.262191,Y=0.965016,Z=0.000648),(X=-0.231853,Y=0.972715,Z=0.008329),(X=-0.281863,Y=0.959452,Z=-0.002281),(X=-0.265797,Y=0.964022,Z=0.003609),(X=-0.246498,Y=0.969115,Z=0.007394),(X=-0.282834,Y=0.959169,Z=-0.000176),(X=-0.292814,Y=0.956166,Z=-0.002328),(X=-0.292237,Y=0.956346,Z=-0.000225),(X=-0.283434,Y=0.958990,Z=0.001528),(X=-0.271459,Y=0.962420,Z=0.007602),(X=-0.240317,Y=0.970555,Z=0.016463),(X=-0.308767,Y=0.951137,Z=0.000982),(X=-0.305745,Y=0.952110,Z=0.002363),(X=-0.272100,Y=0.962187,Z=0.012548),(X=-0.254090,Y=0.967135,Z=0.009403),(X=-0.306470,Y=0.951879,Z=0.001825),(X=-0.304897,Y=0.952383,Z=0.002264),(X=-0.292340,Y=0.956315,Z=0.000190),(X=-0.307068,Y=0.951673,Z=0.005321),(X=-0.309853,Y=0.950784,Z=0.000791),(X=-0.291074,Y=0.956674,Z=0.007071),(X=-0.286674,Y=0.958008,Z=0.006274),(X=-0.285643,Y=0.958276,Z=0.010685),(X=-0.294224,Y=0.955707,Z=0.007558),(X=-0.315460,Y=0.948935,Z=0.002602),(X=-0.318017,Y=0.948084,Z=-0.001198),(X=-0.280290,Y=0.959903,Z=0.004936),(X=-0.264531,Y=0.964366,Z=0.004642),(X=-0.314839,Y=0.949144,Z=0.001189),(X=-0.324436,Y=0.945891,Z=-0.005526),(X=-0.282356,Y=0.959302,Z=0.003729),(X=-0.265641,Y=0.964033,Z=0.008663),(X=-0.290070,Y=0.957000,Z=0.003300),(X=-0.279380,Y=0.959934,Z=0.021775),(X=-0.228386,Y=0.973242,Z=0.025290),(X=-0.290907,Y=0.956747,Z=0.002899),(X=-0.300029,Y=0.953930,Z=0.000248),(X=-0.292763,Y=0.956179,Z=0.003331),(X=-0.311201,Y=0.950337,Z=0.003704),(X=-0.304405,Y=0.952476,Z=0.011306),(X=-0.282231,Y=0.959342,Z=0.002990),(X=-0.261291,Y=0.964893,Z=0.026607),(X=-0.355111,Y=0.934824,Z=-0.000016),(X=-0.232038,Y=0.972670,Z=0.008463),(X=-0.241311,Y=0.970447,Z=0.001395)),VertexColors=((B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255),(B=255,G=255,R=255,A=255)),Indices=(0,1,2,0,3,1,4,3,0,1,3,5,4,6,3,7,6,4,5,3,8,3,6,8,8,9,5,7,10,6,11,10,7,8,6,12,6,10,12,13,9,8,12,13,8,13,14,9,11,15,10,16,15,11,16,17,15,18,14,13,19,14,18,15,17,20,20,17,21,10,15,22,22,15,20,12,10,22,21,23,20,21,24,23,20,25,22,23,25,20,22,26,12,25,26,22,12,26,13,13,26,18,25,27,26,18,26,27,25,23,28,28,27,25,23,24,29,28,23,29,29,24,30,18,27,31,19,18,31,31,32,19,33,27,28,31,27,33,34,32,31,33,34,31,35,32,34,33,28,36,28,29,36,37,34,33,36,37,33,35,34,38,38,34,37,38,39,35,36,29,40,29,30,40,40,30,41,42,39,38,42,43,39,41,44,40,45,44,41,40,46,36,40,44,46,36,46,37,47,44,45,47,45,48,46,44,49,49,44,47,37,46,50,50,46,49,38,37,50,38,50,42,50,49,51,42,50,51,47,52,49,51,49,52,48,53,47,53,52,47,54,53,48,42,51,55,55,43,42,55,56,43,54,57,53,58,57,54,59,56,55,59,60,56,55,51,61,55,61,59,52,61,51,62,60,59,62,63,60,59,61,64,59,64,62,65,61,52,65,64,61,53,65,52,57,65,53,66,64,65,57,66,65,62,64,67,66,67,64,68,63,62,62,67,68,68,69,63,70,66,57,58,70,57,71,70,58,72,69,68,72,73,69,71,74,70,75,74,71,70,76,66,74,76,70,76,67,66,75,77,74,78,77,75,74,79,76,77,79,74,76,80,67,79,80,76,68,67,80,68,80,72,79,81,80,72,80,81,77,82,79,82,81,79,78,83,77,83,82,77,84,83,78,72,81,85,85,73,72,85,86,73,84,87,83,88,87,84,89,86,85,89,90,86,85,81,91,85,91,89,82,91,81,92,90,89,92,93,90,89,91,94,89,94,92,95,91,82,91,95,94,83,95,82,87,95,83,94,95,96,87,96,95,92,94,97,94,96,97,98,93,92,92,97,98,98,99,93,100,96,87,88,100,87,101,100,88,102,99,98,102,103,99,101,104,100,105,104,101,100,106,96,104,106,100,97,96,106,105,107,104,108,107,105,104,109,106,107,109,104,97,106,110,110,106,109,98,97,110,98,110,102,110,109,111,102,110,111,107,112,109,111,109,112,108,113,107,113,112,107,114,113,108,102,111,115,115,103,102,115,116,103,114,117,113,118,117,114,119,116,115,119,120,116,115,111,121,115,121,119,111,112,121,122,120,119,122,123,120,119,121,124,119,124,122,121,112,125,121,125,124,113,125,112,117,125,113,124,125,126,117,126,125,122,124,127,126,127,124,128,123,122,122,127,128,128,129,123,130,126,117,118,130,117,131,130,118,132,129,128,132,133,129,131,134,130,135,134,131,130,136,126,134,136,130,136,127,126,135,137,134,138,137,135,134,139,136,137,139,134,136,140,127,139,140,136,128,127,140,128,140,132,139,141,140,132,140,141,137,142,139,142,141,139,138,143,137,143,142,137,144,143,138,141,145,132,145,133,132,145,146,133,144,147,143,148,147,144,149,146,145,149,150,146,151,145,141,151,149,145,142,151,141,152,150,149,152,153,150,154,149,151,154,152,149,155,151,142,155,154,151,143,155,142,147,155,143,156,154,155,147,156,155,157,152,154,156,157,154,158,153,152,157,158,152,158,159,153,160,156,147,148,160,147,161,160,148,162,159,158,162,163,159,161,164,160,165,164,161,160,166,156,164,166,160,166,157,156,165,167,164,168,167,165,164,169,166,167,169,164,166,170,157,169,170,166,170,158,157,158,170,162,170,169,171,162,170,171,167,172,169,171,169,172,173,167,168,173,172,167,174,173,168,171,175,162,162,175,163,175,176,163,174,177,173,174,178,177,175,179,176,180,176,179,171,181,175,181,179,175,172,181,171,180,179,182,182,183,180,181,184,179,182,179,184,172,185,181,173,185,172,185,184,181,173,177,185,177,186,185,185,186,184,177,187,186,188,184,186,188,186,189,182,184,188,188,190,182,188,191,190,182,190,183,190,192,183,190,193,192),WeightMaps=((1, (Values=(0.032961,0.050274,0.031125,0.060327,0.035556,0.104896,0.064599,0.036686,0.124953,0.207198,0.066107,0.038544,0.132594,0.242928,0.382942,0.069424,0.046246,0.085568,0.441785,0.665686,0.141282,0.170784,0.135198,0.270875,0.321040,0.260229,0.255879,0.462628,0.470039,0.487532,0.568353,0.761884,1.168888,0.799879,1.359283,2.250997,0.814083,1.441121,2.667338,4.480312,0.843764,0.991408,5.271811,8.132996,1.530768,1.851565,1.470517,3.016963,3.664764,2.890086,2.835627,5.535923,5.614442,5.842268,6.855124,9.196782,11.894694,9.828228,10.797598,12.723439,14.083775,9.463331,14.424718,14.843858,12.878647,9.546014,12.940193,14.477387,14.939240,15.085979,13.149837,13.652951,15.154753,15.351751,14.605943,14.775425,14.511370,15.061663,15.200400,14.998043,14.966356,15.221771,15.308846,15.455606,15.757180,15.503094,15.850713,16.233501,16.779861,16.142836,16.672104,15.675505,17.147760,17.881731,16.480993,15.897158,16.907360,17.699303,18.576904,19.551144,17.489943,18.285782,20.489603,21.739712,19.210697,20.252031,18.369413,21.401012,22.696104,20.298901,19.369648,21.539633,22.736454,24.106623,25.674879,22.939852,24.433321,27.371895,29.191717,25.894705,27.656788,24.259769,29.418982,31.522343,27.506191,25.733620,29.263308,31.346565,33.599407,35.997482,31.142828,33.197559,38.318295,40.935230,35.436913,37.748154,33.348770,40.303158,42.845318,37.973507,35.761196,40.679390,43.095913,45.614376,48.282879,43.451172,46.249142,51.149979,53.846035,48.926197,51.864788,45.987705,54.651505,57.730877,51.573566,48.545513,54.179859,57.335609,60.588188,63.859573,56.763180,59.376343,66.751541,70.323158,62.293018,64.662560,59.880119,67.538925,69.398819,65.532921,63.217415,69.182793,70.997536,72.203247,73.051010,73.195732,77.210602,75.851959,74.519463,79.930656,84.312126,75.188034,86.534081,90.435478,81.094391,76.070320,80.482285,78.281097,86.454597,83.841110,91.700943,90.500015,93.569031,94.086594))),(2, ()),(3, ()),(4, ())),InverseMasses=(6.412505,6.063667,18.667521,3.313196,5.843745,6.304969,2.522653,4.184740,3.104986,6.606269,1.990219,4.678629,2.232265,2.976291,6.613871,2.262218,8.520906,5.443721,2.518215,4.657904,2.164593,5.276498,1.803964,2.251870,5.033324,1.840265,2.076406,1.826468,1.703724,1.886806,3.683894,1.805539,3.645075,1.384785,1.445157,2.502191,1.297736,1.164362,0.888911,1.492884,1.329386,2.519606,0.666678,1.488810,1.152367,2.249597,1.148510,0.760032,1.204834,0.788425,0.784740,0.644723,0.638589,0.563864,0.992156,0.711760,1.467309,0.602749,1.078868,0.714575,1.463428,0.697662,0.718085,1.457395,0.700524,0.687880,0.705374,0.705830,0.717377,1.466811,0.618091,1.080736,0.724875,1.472201,0.612837,1.078910,0.709701,0.613435,1.077150,0.710746,0.708388,0.717863,0.717860,0.614197,1.077298,0.726195,1.472984,0.615221,1.077857,0.726398,1.473573,0.719043,0.725929,1.469007,0.719249,0.719037,0.719384,0.718863,0.723669,1.467186,0.615448,1.078361,0.723356,1.467973,0.615313,1.077186,0.719173,0.613707,1.074439,0.717249,0.716737,0.716480,0.717135,0.613541,1.075139,0.723694,1.470055,0.613905,1.075768,0.724808,1.472235,0.716838,0.725240,1.471962,0.717696,0.717577,0.718180,0.717975,0.725403,1.472445,0.614046,1.075051,0.725341,1.471112,0.613960,1.075506,0.718337,0.614505,1.076165,0.718772,0.718221,0.718279,0.719013,0.614806,1.077385,0.725024,1.476738,0.615579,1.078936,0.728373,1.489073,0.718314,0.736491,1.522243,0.720381,0.719475,0.720171,0.725613,0.749678,1.603625,0.614873,1.073784,0.771277,1.751405,0.616758,1.090302,0.721923,0.623786,1.111859,0.728583,0.718307,0.744980,0.774364,0.647144,1.219723,0.833288,1.824038,0.859293,3.925866,0.845516,1.729478,0.837147,0.830031,1.736252,0.863569,0.842499,1.046467,4.851709,1.007996,5.461022,1.002492,4.782015,2.541266,5.081782),BoneData=((NumInfluences=2,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.592157,BoneWeights[1]=0.407843),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.623529,BoneWeights[1]=0.309804,BoneWeights[2]=0.066667),(NumInfluences=2,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.654902,BoneWeights[1]=0.345098),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.596078,BoneWeights[1]=0.360784,BoneWeights[2]=0.043137),(NumInfluences=2,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=3,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.478431,BoneWeights[1]=0.282353,BoneWeights[2]=0.239216),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.533333,BoneWeights[1]=0.419608,BoneWeights[2]=0.047059),(NumInfluences=2,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.627451,BoneWeights[1]=0.372549),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.470588,BoneWeights[1]=0.278431,BoneWeights[2]=0.250980),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.588235,BoneWeights[1]=0.274510,BoneWeights[2]=0.137255),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.564706,BoneWeights[1]=0.396078,BoneWeights[2]=0.039216),(NumInfluences=2,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.745098,BoneWeights[1]=0.254902),(NumInfluences=3,BoneIndices[0]=0,BoneIndices[1]=1,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.447059,BoneWeights[1]=0.337255,BoneWeights[2]=0.215686),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.545098,BoneWeights[1]=0.286275,BoneWeights[2]=0.168627),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.819608,BoneWeights[1]=0.121569,BoneWeights[2]=0.058824),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.678431,BoneWeights[1]=0.266667,BoneWeights[2]=0.054902),(NumInfluences=2,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.815686,BoneWeights[1]=0.184314),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.729412,BoneWeights[1]=0.207843,BoneWeights[2]=0.062745),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.815686,BoneWeights[1]=0.117647,BoneWeights[2]=0.066667),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.980392,BoneWeights[1]=0.019608),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=3,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.478431,BoneWeights[1]=0.309804,BoneWeights[2]=0.211765),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=3,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.333333,BoneWeights[2]=0.164706),(NumInfluences=3,BoneIndices[0]=1,BoneIndices[1]=0,BoneIndices[2]=3,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.431373,BoneWeights[1]=0.329412,BoneWeights[2]=0.239216),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.603922,BoneWeights[1]=0.270588,BoneWeights[2]=0.125490),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.635294,BoneWeights[1]=0.266667,BoneWeights[2]=0.098039),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.537255,BoneWeights[1]=0.254902,BoneWeights[2]=0.207843),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.525490,BoneWeights[1]=0.270588,BoneWeights[2]=0.203922),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.796079,BoneWeights[1]=0.117647,BoneWeights[2]=0.086275),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.784314,BoneWeights[1]=0.117647,BoneWeights[2]=0.098039),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.827451,BoneWeights[1]=0.117647,BoneWeights[2]=0.054902),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.847059,BoneWeights[1]=0.109804,BoneWeights[2]=0.043137),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.988235,BoneWeights[1]=0.011765),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.564706,BoneWeights[1]=0.435294),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=0,BoneIndices[2]=1,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.980392,BoneWeights[1]=0.011765,BoneWeights[2]=0.007843),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.592157,BoneWeights[1]=0.407843),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=3,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=0,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.976471,BoneWeights[1]=0.011765,BoneWeights[2]=0.011765),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.733333,BoneWeights[1]=0.266667),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.988235,BoneWeights[1]=0.011765),(NumInfluences=2,BoneIndices[0]=3,BoneIndices[1]=1,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.988235,BoneWeights[1]=0.011765),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.541176,BoneWeights[1]=0.458824),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=3,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.803922,BoneWeights[1]=0.196078),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=2,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.607843,BoneWeights[1]=0.392157),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.607843,BoneWeights[1]=0.392157),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.556863,BoneWeights[1]=0.443137),(NumInfluences=2,BoneIndices[0]=2,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.517647,BoneWeights[1]=0.482353),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.513726,BoneWeights[1]=0.486275),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=4,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.517647,BoneWeights[1]=0.482353),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=4,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.560784,BoneWeights[1]=0.439216),(NumInfluences=1,BoneIndices[0]=4,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=4,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.560784,BoneWeights[1]=0.439216),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=4,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.517647,BoneWeights[1]=0.482353),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=4,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.529412,BoneWeights[1]=0.470588),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=5,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.498039),(NumInfluences=2,BoneIndices[0]=5,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=6,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.498039),(NumInfluences=2,BoneIndices[0]=6,BoneIndices[1]=5,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=6,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=6,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=8,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=8,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=6,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=8,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=7,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=8,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=7,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=8,BoneIndices[1]=7,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=8,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=9,BoneIndices[1]=8,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.498039),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.498039),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=9,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=10,BoneIndices[1]=9,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=12,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=10,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.513726,BoneWeights[1]=0.486275),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.517647,BoneWeights[1]=0.482353),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=2,BoneIndices[0]=11,BoneIndices[1]=10,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=11,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=11,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.501961,BoneWeights[1]=0.498039),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=11,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.517647,BoneWeights[1]=0.482353),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=11,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.521569,BoneWeights[1]=0.478431),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=13,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.533333,BoneWeights[1]=0.466667),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=11,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=13,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.521569,BoneWeights[1]=0.478431),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=11,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.509804,BoneWeights[1]=0.490196),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=12,BoneIndices[1]=13,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.505882,BoneWeights[1]=0.494118),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=14,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.631373,BoneWeights[1]=0.368627),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=12,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=14,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.611765,BoneWeights[1]=0.388235),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=12,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.529412,BoneWeights[1]=0.470588),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=12,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.556863,BoneWeights[1]=0.443137),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=12,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.513726,BoneWeights[1]=0.486275),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=14,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.596078,BoneWeights[1]=0.403922),(NumInfluences=2,BoneIndices[0]=13,BoneIndices[1]=14,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.650980,BoneWeights[1]=0.349020),(NumInfluences=2,BoneIndices[0]=14,BoneIndices[1]=13,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=0.827451,BoneWeights[1]=0.172549),(NumInfluences=1,BoneIndices[0]=13,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000),(NumInfluences=1,BoneIndices[0]=14,BoneIndices[1]=2,BoneIndices[2]=2,BoneIndices[3]=2,BoneIndices[4]=2,BoneIndices[5]=2,BoneIndices[6]=2,BoneIndices[7]=2,BoneIndices[8]=2,BoneIndices[9]=2,BoneIndices[10]=2,BoneIndices[11]=2,BoneWeights[0]=1.000000)),MaxBoneWeights=3),PointWeightMaps=((Values=(0.032961,0.050274,0.031125,0.060327,0.035556,0.104896,0.064599,0.036686,0.124953,0.207198,0.066107,0.038544,0.132594,0.242928,0.382942,0.069424,0.046246,0.085568,0.441785,0.665686,0.141282,0.170784,0.135198,0.270875,0.321040,0.260229,0.255879,0.462628,0.470039,0.487532,0.568353,0.761884,1.168888,0.799879,1.359283,2.250997,0.814083,1.441121,2.667338,4.480312,0.843764,0.991408,5.271811,8.132996,1.530768,1.851565,1.470517,3.016963,3.664764,2.890086,2.835627,5.535923,5.614442,5.842268,6.855124,9.196782,11.894694,9.828228,10.797598,12.723439,14.083775,9.463331,14.424718,14.843858,12.878647,9.546014,12.940193,14.477387,14.939240,15.085979,13.149837,13.652951,15.154753,15.351751,14.605943,14.775425,14.511370,15.061663,15.200400,14.998043,14.966356,15.221771,15.308846,15.455606,15.757180,15.503094,15.850713,16.233501,16.779861,16.142836,16.672104,15.675505,17.147760,17.881731,16.480993,15.897158,16.907360,17.699303,18.576904,19.551144,17.489943,18.285782,20.489603,21.739712,19.210697,20.252031,18.369413,21.401012,22.696104,20.298901,19.369648,21.539633,22.736454,24.106623,25.674879,22.939852,24.433321,27.371895,29.191717,25.894705,27.656788,24.259769,29.418982,31.522343,27.506191,25.733620,29.263308,31.346565,33.599407,35.997482,31.142828,33.197559,38.318295,40.935230,35.436913,37.748154,33.348770,40.303158,42.845318,37.973507,35.761196,40.679390,43.095913,45.614376,48.282879,43.451172,46.249142,51.149979,53.846035,48.926197,51.864788,45.987705,54.651505,57.730877,51.573566,48.545513,54.179859,57.335609,60.588188,63.859573,56.763180,59.376343,66.751541,70.323158,62.293018,64.662560,59.880119,67.538925,69.398819,65.532921,63.217415,69.182793,70.997536,72.203247,73.051010,73.195732,77.210602,75.851959,74.519463,79.930656,84.312126,75.188034,86.534081,90.435478,81.094391,76.070320,80.482285,78.281097,86.454597,83.841110,91.700943,90.500015,93.569031,94.086594),CurrentTarget=1,bEnabled=True)))
+      LodMap(0)=0
+      UsedBoneNames(0)="clavicle_l"
+      UsedBoneNames(1)="spine_04"
+      UsedBoneNames(2)="C_Scarf_A_Joint2_Jnt"
+      UsedBoneNames(3)="C_Scarf_A_Root_Jnt"
+      UsedBoneNames(4)="C_Scarf_A_Joint3_Jnt"
+      UsedBoneNames(5)="C_Scarf_A_Joint4_Jnt"
+      UsedBoneNames(6)="C_Scarf_A_Joint5_Jnt"
+      UsedBoneNames(7)="C_Scarf_A_Joint6_Jnt"
+      UsedBoneNames(8)="C_Scarf_A_Joint7_Jnt"
+      UsedBoneNames(9)="C_Scarf_A_Joint8_Jnt"
+      UsedBoneNames(10)="C_Scarf_A_Joint9_Jnt"
+      UsedBoneNames(11)="C_Scarf_A_Joint10_Jnt"
+      UsedBoneNames(12)="C_Scarf_A_Joint11_Jnt"
+      UsedBoneNames(13)="C_Scarf_A_Joint12_Jnt"
+      UsedBoneNames(14)="C_Scarf_A_Joint13_Jnt"
+      UsedBoneIndices(0)=7
+      UsedBoneIndices(1)=5
+      UsedBoneIndices(2)=36
+      UsedBoneIndices(3)=34
+      UsedBoneIndices(4)=37
+      UsedBoneIndices(5)=38
+      UsedBoneIndices(6)=39
+      UsedBoneIndices(7)=40
+      UsedBoneIndices(8)=41
+      UsedBoneIndices(9)=42
+      UsedBoneIndices(10)=43
+      UsedBoneIndices(11)=44
+      UsedBoneIndices(12)=45
+      UsedBoneIndices(13)=46
+      UsedBoneIndices(14)=47
+      ReferenceBoneIndex=5
+      AssetGuid=D5639EC04BEDE35DC46D45A02F7B7152
+   End Object
+   Begin Object Name="ChaosClothSharedSimConfig" ExportPath="/Script/ChaosCloth.ChaosClothSharedSimConfig'/Game/Characters/Echo/Meshes/Echo.Echo:ChaosClothSharedSimConfig'"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Echo/Meshes/Echo.Echo:FbxSkeletalMeshImportData_0'"
+      bUpdateSkeletonReferencePose=True
+      bUseT0AsRefPose=True
+      bImportMorphTargets=True
+      ThresholdUV=0.000977
+      bImportMeshLODs=True
+      ImportMaterialOriginalNameData(0)="M_Hardware"
+      ImportMaterialOriginalNameData(1)="M_Leather"
+      ImportMaterialOriginalNameData(2)="M_ScarfEnd"
+      ImportMaterialOriginalNameData(3)="M_ShadowOnly"
+      ImportMaterialOriginalNameData(4)="M_Shirt"
+      ImportMaterialOriginalNameData(5)="M_Body"
+      ImportMaterialOriginalNameData(6)="M_Pants"
+      ImportMaterialOriginalNameData(7)="M_EyeL"
+      ImportMaterialOriginalNameData(8)="M_Teeth"
+      ImportMaterialOriginalNameData(9)="M_Head"
+      ImportMaterialOriginalNameData(10)="M_ClothMESH_Scarf"
+      ImportMaterialOriginalNameData(11)="M_Skirt"
+      ImportMaterialOriginalNameData(12)="M_ClothMESH_Skirt"
+      ImportMaterialOriginalNameData(13)="M_Canister"
+      ImportMaterialOriginalNameData(14)="M_EyeBrows"
+      ImportMaterialOriginalNameData(15)="M_EyeR"
+      ImportMaterialOriginalNameData(16)="M_EyeLashes"
+      ImportMaterialOriginalNameData(17)="M_EyeBlend"
+      ImportMaterialOriginalNameData(18)="M_EyeWet"
+      ImportMaterialOriginalNameData(19)="M_EyeOverlay"
+      ImportMaterialOriginalNameData(20)="M_Scarf"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("M_Hardware","M_Leather","M_ScarfEnd","M_ShadowOnly","M_Shirt","M_Body","M_Pants","M_EyeL","M_Teeth","M_Head","M_ClothMESH_Scarf","M_Skirt","M_ClothMESH_Skirt","M_Canister","M_EyeBrows","M_EyeR","M_EyeLashes","M_EyeBlend","M_EyeWet","M_EyeOverlay","M_Scarf"))
+   End Object
+   Begin Object Name="browDown_innerRaise_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDown_innerRaise_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browDown_innerRaise_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDown_innerRaise_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDownLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browDownRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browInnerUp" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browInnerUp'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browOuterUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browOuterUpLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browOuterUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browOuterUpRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browRaise_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browRaise_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="browRaise_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:browRaise_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="cheekPuff" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekPuff'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="cheekSquintLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekSquintLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="cheekSquintRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:cheekSquintRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDown_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDown_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDown_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDown_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDownLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownLeft_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDownLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownLeft_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDownRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownRight_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookDownRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookDownRight_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookLeft_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookLeft_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookRight_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookRight_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUp_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUp_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUp_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUp_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUpLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpLeft_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUpLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpLeft_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUpRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpRight_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_blinkElookUpRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_blinkElookUpRight_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEblink_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEblink_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEsquintInner_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInner_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEsquintInner_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInner_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEsquintInnerEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInnerEblink_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseEsquintInnerEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseEsquintInnerEblink_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseNwrinkle_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseNwrinkle_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_cheekRaiseNwrinkle_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_cheekRaiseNwrinkle_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookDownLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownLeft_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookDownLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownLeft_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookDownRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownRight_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookDownRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookDownRight_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookUpLeft_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpLeft_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookUpLeft_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpLeft_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookUpRight_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpRight_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_lookUpRight_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_lookUpRight_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_squintInnerEblink_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_squintInnerEblink_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_squintInnerEblink_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_squintInnerEblink_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_widenElookDown_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_widenElookDown_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eye_widenElookDown_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eye_widenElookDown_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeBlinkLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeBlinkLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeBlinkRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeBlinkRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookDownLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookDownRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookInLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookInLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookInRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookInRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookOutLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookOutLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookOutRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookOutRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookUpLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeLookUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeLookUpRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeSquintLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeSquintLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeSquintRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeSquintRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeWideLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeWideLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="eyeWideRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:eyeWideRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jaw_leftJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jaw_leftJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jaw_rightJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jaw_rightJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jawForward" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawForward'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jawLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jawOpen" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawOpen'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="jawRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:jawRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Elbow_Jnt_0_0_30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_30'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Elbow_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Elbow_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Elbow_Jnt_0_0_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Elbow_Jnt_0_0_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_45'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_30_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_35_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_35_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n15_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n45_n150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n45_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n55_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Shoulder_Jnt_0_n90_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Wrist_Jnt_0_0_60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_0_60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Wrist_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Wrist_Jnt_0_60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_60_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Wrist_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_n120_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedArm_A_Wrist_Jnt_0_n60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedArm_A_Wrist_Jnt_0_n60_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedLeg_A_Knee_Jnt_0_0_120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedLeg_A_Knee_Jnt_0_0_150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_150'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedLeg_A_Knee_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_45'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedLeg_A_Knee_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="L_BipedLeg_A_Knee_Jnt_0_0_n30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:L_BipedLeg_A_Knee_Jnt_0_0_n30'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cheekRaiseCornerPull_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cheekRaiseCornerPull_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cheekRaiseCornerPull_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cheekRaiseCornerPull_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullJopen_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullJopen_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullLowerLipDepress_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullLowerLipDepress_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullLowerLipDepress_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullLowerLipDepress_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullMstretch_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretch_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullMstretch_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretch_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullMstretchJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretchJopen_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_cornerPullMstretchJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_cornerPullMstretchJopen_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_dimpleJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleJopen_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_dimpleJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleJopen_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_dimpleLowerLipDepress_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleLowerLipDepress_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_dimpleLowerLipDepress_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_dimpleLowerLipDepress_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_funnelJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_funnelJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_lipsTogetherJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_lipsTogetherPucker_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherPucker_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_lipsTogetherPuckerJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_lipsTogetherPuckerJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_oh_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_oh_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_ohJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_ohJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_puckerJopen_cor" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_puckerJopen_cor'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_stretchJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_stretchJopen_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_stretchJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_stretchJopen_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseCornerPull_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseCornerPull_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseCornerPull_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseCornerPull_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseDimple_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseDimple_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseDimple_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseDimple_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseJopen_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseJopen_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseJopen_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseJopen_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseNwrinkle_L" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseNwrinkle_L'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouth_upperLipRaiseNwrinkle_R" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouth_upperLipRaiseNwrinkle_R'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthClose" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthClose'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthClose_inv" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthClose_inv'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthDimpleLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthDimpleLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthDimpleRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthDimpleRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthFrownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFrownLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthFrownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFrownRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthFunnel" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthFunnel'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthLowerDownLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLowerDownLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthLowerDownRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthLowerDownRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthPressLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPressLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthPressRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPressRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthPucker" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthPucker'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthRollLower" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRollLower'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthRollUpper" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthRollUpper'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthShrugLower" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthShrugLower'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthShrugUpper" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthShrugUpper'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthSmileLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthSmileLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthSmileRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthSmileRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthStretchLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthStretchLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthStretchRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthStretchRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthUpperUpLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthUpperUpLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="mouthUpperUpRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:mouthUpperUpRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="noseSneerLeft" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:noseSneerLeft'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="noseSneerRight" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:noseSneerRight'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Elbow_Jnt_0_0_30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_30'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Elbow_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Elbow_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Elbow_Jnt_0_0_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Elbow_Jnt_0_0_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_45'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_0_n120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_30_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_35_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_35_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n15_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n45_n150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n45_n90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n55_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Shoulder_Jnt_0_n90_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Wrist_Jnt_0_0_60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_0_60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Wrist_Jnt_0_0_n60" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_0_n60'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Wrist_Jnt_0_60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_60_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Wrist_Jnt_0_n120_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_n120_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedArm_A_Wrist_Jnt_0_n60_0" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedArm_A_Wrist_Jnt_0_n60_0'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedLeg_A_Knee_Jnt_0_0_120" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_120'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedLeg_A_Knee_Jnt_0_0_150" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_150'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedLeg_A_Knee_Jnt_0_0_45" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_45'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedLeg_A_Knee_Jnt_0_0_90" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_90'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="R_BipedLeg_A_Knee_Jnt_0_0_n30" ExportPath="/Script/Engine.MorphTarget'/Game/Characters/Echo/Meshes/Echo.Echo:R_BipedLeg_A_Knee_Jnt_0_0_n30'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'Echo'"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Echo/Meshes/Echo.Echo:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Echo/Meshes/Echo.Echo:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Echo/Meshes/Echo.Echo:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   SourceModels(0)=(TriangleCount=174008,VertexCount=91533,Bounds=(Origin=(X=-0.001692,Y=3.824776,Z=84.125160),BoxExtent=(X=48.557055,Y=20.035072,Z=84.044411),SphereRadius=86.514945),CachedSkinWeightProfileNames=,CachedMorphTargetNames=("L_BipedLeg_A_Knee_Jnt_0_0_0","L_BipedLeg_A_Knee_Jnt_0_0_45","L_BipedLeg_A_Knee_Jnt_0_0_90","L_BipedLeg_A_Knee_Jnt_0_0_120","L_BipedLeg_A_Knee_Jnt_0_0_n30","R_BipedLeg_A_Knee_Jnt_0_0_0","R_BipedLeg_A_Knee_Jnt_0_0_45","R_BipedLeg_A_Knee_Jnt_0_0_90","R_BipedLeg_A_Knee_Jnt_0_0_120","R_BipedLeg_A_Knee_Jnt_0_0_n30","L_BipedLeg_A_Knee_Jnt_0_0_150","R_BipedLeg_A_Knee_Jnt_0_0_150","L_BipedArm_A_Elbow_Jnt_0_0_0","L_BipedArm_A_Elbow_Jnt_0_0_n60","L_BipedArm_A_Elbow_Jnt_0_0_n90","R_BipedArm_A_Elbow_Jnt_0_0_0","R_BipedArm_A_Elbow_Jnt_0_0_n60","R_BipedArm_A_Elbow_Jnt_0_0_n90","L_BipedArm_A_Elbow_Jnt_0_0_30","R_BipedArm_A_Elbow_Jnt_0_0_30","L_BipedArm_A_Wrist_Jnt_0_0_0","L_BipedArm_A_Wrist_Jnt_0_n60_0","L_BipedArm_A_Wrist_Jnt_0_n120_0","L_BipedArm_A_Wrist_Jnt_0_0_n60","L_BipedArm_A_Wrist_Jnt_0_0_60","L_BipedArm_A_Wrist_Jnt_0_60_0","R_BipedArm_A_Wrist_Jnt_0_0_0","R_BipedArm_A_Wrist_Jnt_0_n60_0","R_BipedArm_A_Wrist_Jnt_0_n120_0","R_BipedArm_A_Wrist_Jnt_0_0_n60","R_BipedArm_A_Wrist_Jnt_0_0_60","R_BipedArm_A_Wrist_Jnt_0_60_0","L_BipedArm_A_Elbow_Jnt_0_0_n120","R_BipedArm_A_Elbow_Jnt_0_0_n120","L_BipedArm_A_Shoulder_Jnt_0_0_0","L_BipedArm_A_Shoulder_Jnt_0_35_0","L_BipedArm_A_Shoulder_Jnt_0_n55_0","L_BipedArm_A_Shoulder_Jnt_0_0_n60","L_BipedArm_A_Shoulder_Jnt_0_0_n120","L_BipedArm_A_Shoulder_Jnt_0_0_45","L_BipedArm_A_Shoulder_Jnt_0_0_90","L_BipedArm_A_Shoulder_Jnt_0_n45_n90","L_BipedArm_A_Shoulder_Jnt_0_n45_n150","R_BipedArm_A_Shoulder_Jnt_0_0_0","R_BipedArm_A_Shoulder_Jnt_0_35_0","R_BipedArm_A_Shoulder_Jnt_0_n55_0","R_BipedArm_A_Shoulder_Jnt_0_0_n60","R_BipedArm_A_Shoulder_Jnt_0_0_n120","R_BipedArm_A_Shoulder_Jnt_0_0_45","R_BipedArm_A_Shoulder_Jnt_0_0_90","R_BipedArm_A_Shoulder_Jnt_0_n45_n90","R_BipedArm_A_Shoulder_Jnt_0_n45_n150","L_BipedArm_A_Shoulder_Jnt_0_n120_0","R_BipedArm_A_Shoulder_Jnt_0_n120_0","L_BipedArm_A_Shoulder_Jnt_0_30_n90","L_BipedArm_A_Shoulder_Jnt_0_n15_n90","R_BipedArm_A_Shoulder_Jnt_0_30_n90","R_BipedArm_A_Shoulder_Jnt_0_n15_n90","L_BipedArm_A_Shoulder_Jnt_0_n90_0","R_BipedArm_A_Shoulder_Jnt_0_n90_0","C_BipedHeadNeck_A_NeckMid_Jnt_0_0_4","C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1","C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1","C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49","C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41","browDownLeft","browDownRight","browInnerUp","browOuterUpLeft","browOuterUpRight","eyeBlinkLeft","eyeBlinkRight","eyeSquintLeft","eyeSquintRight","cheekSquintLeft","cheekSquintRight","eyeWideLeft","eyeWideRight","eyeLookUpLeft","eyeLookUpRight","eyeLookDownLeft","eyeLookDownRight","eyeLookOutLeft","eyeLookInRight","eyeLookInLeft","eyeLookOutRight","noseSneerLeft","noseSneerRight","mouthLeft","mouthRight","mouthUpperUpLeft","mouthUpperUpRight","mouthSmileLeft","mouthSmileRight","mouthDimpleLeft","mouthDimpleRight","mouthFrownLeft","mouthFrownRight","mouthStretchLeft","mouthStretchRight","mouthLowerDownLeft","mouthLowerDownRight","mouthFunnel","mouthClose","mouthPucker","jawOpen","jawLeft","jawRight","jawForward","mouthShrugLower","mouthShrugUpper","mouthRollLower","mouthRollUpper","mouthPressLeft","mouthPressRight","cheekPuff","browRaise_L","browRaise_R","browDown_innerRaise_L","browDown_innerRaise_R","eye_blinkElookUp_L","eye_blinkElookUp_R","eye_blinkElookDown_L","eye_blinkElookDown_R","eye_blinkElookLeft_L","eye_blinkElookLeft_R","eye_blinkElookRight_L","eye_blinkElookRight_R","eye_lookUpLeft_L","eye_lookUpLeft_R","eye_lookUpRight_L","eye_lookUpRight_R","eye_lookDownLeft_L","eye_lookDownLeft_R","eye_lookDownRight_L","eye_lookDownRight_R","eye_blinkElookUpLeft_L","eye_blinkElookUpLeft_R","eye_blinkElookUpRight_L","eye_blinkElookUpRight_R","eye_blinkElookDownLeft_L","eye_blinkElookDownLeft_R","eye_blinkElookDownRight_L","eye_blinkElookDownRight_R","eye_widenElookDown_L","eye_widenElookDown_R","eye_squintInnerEblink_L","eye_squintInnerEblink_R","eye_cheekRaiseEsquintInner_L","eye_cheekRaiseEsquintInner_R","eye_cheekRaiseEblink_L","eye_cheekRaiseEblink_R","eye_cheekRaiseEsquintInnerEblink_L","eye_cheekRaiseEsquintInnerEblink_R","eye_cheekRaiseNwrinkle_L","eye_cheekRaiseNwrinkle_R","mouth_upperLipRaiseNwrinkle_L","mouth_upperLipRaiseNwrinkle_R","mouth_upperLipRaiseJopen_L","mouth_upperLipRaiseJopen_R","mouth_upperLipRaiseDimple_L","mouth_upperLipRaiseDimple_R","mouth_cornerPullLowerLipDepress_L","mouth_cornerPullLowerLipDepress_R","mouth_upperLipRaiseCornerPull_L","mouth_upperLipRaiseCornerPull_R","mouth_cheekRaiseCornerPull_L","mouth_cheekRaiseCornerPull_R","mouth_cornerPull_cor","mouth_cornerPullJopen_L","mouth_cornerPullJopen_R","mouth_dimpleJopen_L","mouth_dimpleJopen_R","mouth_stretch_cor","mouth_stretchJopen_L","mouth_stretchJopen_R","mouth_cornerPullMstretch_L","mouth_cornerPullMstretch_R","mouth_cornerPullMstretchJopen_L","mouth_cornerPullMstretchJopen_R","mouth_dimpleLowerLipDepress_L","mouth_dimpleLowerLipDepress_R","mouth_lipsTogetherJopen_cor","mouth_funnelJopen_cor","mouth_puckerJopen_cor","mouth_oh_cor","mouth_ohJopen_cor","jaw_leftJopen_cor","jaw_rightJopen_cor","mouth_lipsTogetherPucker_cor","mouth_lipsTogetherPuckerJopen_cor","mouthClose_inv"),CachedHasVertexColors=(True),CachedVertexColorGuid=5A11661B6410764C4D64797625631F8C,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,bUseBackwardsCompatibleF16TruncUVs=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000),SkinCacheUsage=Enabled)
+   Skeleton="/Script/Engine.Skeleton'/Game/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   bHasVertexColors=True
+   VertexColorGuid=BB261C5746F3A01B627FBE95C4E4732F
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/Characters/Echo/Rig/Physics/PA_Echo.PA_Echo'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   MorphTargets(0)="/Script/Engine.MorphTarget'L_BipedLeg_A_Knee_Jnt_0_0_45'"
+   MorphTargets(1)="/Script/Engine.MorphTarget'L_BipedLeg_A_Knee_Jnt_0_0_90'"
+   MorphTargets(2)="/Script/Engine.MorphTarget'L_BipedLeg_A_Knee_Jnt_0_0_120'"
+   MorphTargets(3)="/Script/Engine.MorphTarget'L_BipedLeg_A_Knee_Jnt_0_0_n30'"
+   MorphTargets(4)="/Script/Engine.MorphTarget'R_BipedLeg_A_Knee_Jnt_0_0_45'"
+   MorphTargets(5)="/Script/Engine.MorphTarget'R_BipedLeg_A_Knee_Jnt_0_0_90'"
+   MorphTargets(6)="/Script/Engine.MorphTarget'R_BipedLeg_A_Knee_Jnt_0_0_120'"
+   MorphTargets(7)="/Script/Engine.MorphTarget'R_BipedLeg_A_Knee_Jnt_0_0_n30'"
+   MorphTargets(8)="/Script/Engine.MorphTarget'L_BipedLeg_A_Knee_Jnt_0_0_150'"
+   MorphTargets(9)="/Script/Engine.MorphTarget'R_BipedLeg_A_Knee_Jnt_0_0_150'"
+   MorphTargets(10)="/Script/Engine.MorphTarget'L_BipedArm_A_Elbow_Jnt_0_0_n60'"
+   MorphTargets(11)="/Script/Engine.MorphTarget'L_BipedArm_A_Elbow_Jnt_0_0_n90'"
+   MorphTargets(12)="/Script/Engine.MorphTarget'R_BipedArm_A_Elbow_Jnt_0_0_n60'"
+   MorphTargets(13)="/Script/Engine.MorphTarget'R_BipedArm_A_Elbow_Jnt_0_0_n90'"
+   MorphTargets(14)="/Script/Engine.MorphTarget'L_BipedArm_A_Elbow_Jnt_0_0_30'"
+   MorphTargets(15)="/Script/Engine.MorphTarget'R_BipedArm_A_Elbow_Jnt_0_0_30'"
+   MorphTargets(16)="/Script/Engine.MorphTarget'L_BipedArm_A_Wrist_Jnt_0_n60_0'"
+   MorphTargets(17)="/Script/Engine.MorphTarget'L_BipedArm_A_Wrist_Jnt_0_n120_0'"
+   MorphTargets(18)="/Script/Engine.MorphTarget'L_BipedArm_A_Wrist_Jnt_0_0_n60'"
+   MorphTargets(19)="/Script/Engine.MorphTarget'L_BipedArm_A_Wrist_Jnt_0_0_60'"
+   MorphTargets(20)="/Script/Engine.MorphTarget'L_BipedArm_A_Wrist_Jnt_0_60_0'"
+   MorphTargets(21)="/Script/Engine.MorphTarget'R_BipedArm_A_Wrist_Jnt_0_n60_0'"
+   MorphTargets(22)="/Script/Engine.MorphTarget'R_BipedArm_A_Wrist_Jnt_0_n120_0'"
+   MorphTargets(23)="/Script/Engine.MorphTarget'R_BipedArm_A_Wrist_Jnt_0_0_n60'"
+   MorphTargets(24)="/Script/Engine.MorphTarget'R_BipedArm_A_Wrist_Jnt_0_0_60'"
+   MorphTargets(25)="/Script/Engine.MorphTarget'R_BipedArm_A_Wrist_Jnt_0_60_0'"
+   MorphTargets(26)="/Script/Engine.MorphTarget'L_BipedArm_A_Elbow_Jnt_0_0_n120'"
+   MorphTargets(27)="/Script/Engine.MorphTarget'R_BipedArm_A_Elbow_Jnt_0_0_n120'"
+   MorphTargets(28)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_35_0'"
+   MorphTargets(29)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+   MorphTargets(30)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+   MorphTargets(31)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+   MorphTargets(32)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_0_45'"
+   MorphTargets(33)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_0_90'"
+   MorphTargets(34)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+   MorphTargets(35)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+   MorphTargets(36)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_35_0'"
+   MorphTargets(37)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n55_0'"
+   MorphTargets(38)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_0_n60'"
+   MorphTargets(39)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_0_n120'"
+   MorphTargets(40)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_0_45'"
+   MorphTargets(41)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_0_90'"
+   MorphTargets(42)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n45_n90'"
+   MorphTargets(43)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n45_n150'"
+   MorphTargets(44)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+   MorphTargets(45)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n120_0'"
+   MorphTargets(46)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+   MorphTargets(47)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+   MorphTargets(48)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_30_n90'"
+   MorphTargets(49)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n15_n90'"
+   MorphTargets(50)="/Script/Engine.MorphTarget'L_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+   MorphTargets(51)="/Script/Engine.MorphTarget'R_BipedArm_A_Shoulder_Jnt_0_n90_0'"
+   MorphTargets(52)="/Script/Engine.MorphTarget'C_BipedHeadNeck_A_NeckMid_Jnt_n11_44_n1'"
+   MorphTargets(53)="/Script/Engine.MorphTarget'C_BipedHeadNeck_A_NeckMid_Jnt_11_n44_n1'"
+   MorphTargets(54)="/Script/Engine.MorphTarget'C_BipedHeadNeck_A_NeckMid_Jnt_0_0_49'"
+   MorphTargets(55)="/Script/Engine.MorphTarget'C_BipedHeadNeck_A_NeckMid_Jnt_0_0_n41'"
+   MorphTargets(56)="/Script/Engine.MorphTarget'browDownLeft'"
+   MorphTargets(57)="/Script/Engine.MorphTarget'browDownRight'"
+   MorphTargets(58)="/Script/Engine.MorphTarget'browInnerUp'"
+   MorphTargets(59)="/Script/Engine.MorphTarget'browOuterUpLeft'"
+   MorphTargets(60)="/Script/Engine.MorphTarget'browOuterUpRight'"
+   MorphTargets(61)="/Script/Engine.MorphTarget'eyeBlinkLeft'"
+   MorphTargets(62)="/Script/Engine.MorphTarget'eyeBlinkRight'"
+   MorphTargets(63)="/Script/Engine.MorphTarget'eyeSquintLeft'"
+   MorphTargets(64)="/Script/Engine.MorphTarget'eyeSquintRight'"
+   MorphTargets(65)="/Script/Engine.MorphTarget'cheekSquintLeft'"
+   MorphTargets(66)="/Script/Engine.MorphTarget'cheekSquintRight'"
+   MorphTargets(67)="/Script/Engine.MorphTarget'eyeWideLeft'"
+   MorphTargets(68)="/Script/Engine.MorphTarget'eyeWideRight'"
+   MorphTargets(69)="/Script/Engine.MorphTarget'eyeLookUpLeft'"
+   MorphTargets(70)="/Script/Engine.MorphTarget'eyeLookUpRight'"
+   MorphTargets(71)="/Script/Engine.MorphTarget'eyeLookDownLeft'"
+   MorphTargets(72)="/Script/Engine.MorphTarget'eyeLookDownRight'"
+   MorphTargets(73)="/Script/Engine.MorphTarget'eyeLookOutLeft'"
+   MorphTargets(74)="/Script/Engine.MorphTarget'eyeLookInRight'"
+   MorphTargets(75)="/Script/Engine.MorphTarget'eyeLookInLeft'"
+   MorphTargets(76)="/Script/Engine.MorphTarget'eyeLookOutRight'"
+   MorphTargets(77)="/Script/Engine.MorphTarget'noseSneerLeft'"
+   MorphTargets(78)="/Script/Engine.MorphTarget'noseSneerRight'"
+   MorphTargets(79)="/Script/Engine.MorphTarget'mouthLeft'"
+   MorphTargets(80)="/Script/Engine.MorphTarget'mouthRight'"
+   MorphTargets(81)="/Script/Engine.MorphTarget'mouthUpperUpLeft'"
+   MorphTargets(82)="/Script/Engine.MorphTarget'mouthUpperUpRight'"
+   MorphTargets(83)="/Script/Engine.MorphTarget'mouthSmileLeft'"
+   MorphTargets(84)="/Script/Engine.MorphTarget'mouthSmileRight'"
+   MorphTargets(85)="/Script/Engine.MorphTarget'mouthDimpleLeft'"
+   MorphTargets(86)="/Script/Engine.MorphTarget'mouthDimpleRight'"
+   MorphTargets(87)="/Script/Engine.MorphTarget'mouthFrownLeft'"
+   MorphTargets(88)="/Script/Engine.MorphTarget'mouthFrownRight'"
+   MorphTargets(89)="/Script/Engine.MorphTarget'mouthStretchLeft'"
+   MorphTargets(90)="/Script/Engine.MorphTarget'mouthStretchRight'"
+   MorphTargets(91)="/Script/Engine.MorphTarget'mouthLowerDownLeft'"
+   MorphTargets(92)="/Script/Engine.MorphTarget'mouthLowerDownRight'"
+   MorphTargets(93)="/Script/Engine.MorphTarget'mouthFunnel'"
+   MorphTargets(94)="/Script/Engine.MorphTarget'mouthClose'"
+   MorphTargets(95)="/Script/Engine.MorphTarget'mouthPucker'"
+   MorphTargets(96)="/Script/Engine.MorphTarget'jawOpen'"
+   MorphTargets(97)="/Script/Engine.MorphTarget'jawLeft'"
+   MorphTargets(98)="/Script/Engine.MorphTarget'jawRight'"
+   MorphTargets(99)="/Script/Engine.MorphTarget'jawForward'"
+   MorphTargets(100)="/Script/Engine.MorphTarget'mouthShrugLower'"
+   MorphTargets(101)="/Script/Engine.MorphTarget'mouthShrugUpper'"
+   MorphTargets(102)="/Script/Engine.MorphTarget'mouthRollLower'"
+   MorphTargets(103)="/Script/Engine.MorphTarget'mouthRollUpper'"
+   MorphTargets(104)="/Script/Engine.MorphTarget'mouthPressLeft'"
+   MorphTargets(105)="/Script/Engine.MorphTarget'mouthPressRight'"
+   MorphTargets(106)="/Script/Engine.MorphTarget'cheekPuff'"
+   MorphTargets(107)="/Script/Engine.MorphTarget'browRaise_L'"
+   MorphTargets(108)="/Script/Engine.MorphTarget'browRaise_R'"
+   MorphTargets(109)="/Script/Engine.MorphTarget'browDown_innerRaise_L'"
+   MorphTargets(110)="/Script/Engine.MorphTarget'browDown_innerRaise_R'"
+   MorphTargets(111)="/Script/Engine.MorphTarget'eye_blinkElookUp_L'"
+   MorphTargets(112)="/Script/Engine.MorphTarget'eye_blinkElookUp_R'"
+   MorphTargets(113)="/Script/Engine.MorphTarget'eye_blinkElookDown_L'"
+   MorphTargets(114)="/Script/Engine.MorphTarget'eye_blinkElookDown_R'"
+   MorphTargets(115)="/Script/Engine.MorphTarget'eye_blinkElookLeft_L'"
+   MorphTargets(116)="/Script/Engine.MorphTarget'eye_blinkElookLeft_R'"
+   MorphTargets(117)="/Script/Engine.MorphTarget'eye_blinkElookRight_L'"
+   MorphTargets(118)="/Script/Engine.MorphTarget'eye_blinkElookRight_R'"
+   MorphTargets(119)="/Script/Engine.MorphTarget'eye_lookUpLeft_L'"
+   MorphTargets(120)="/Script/Engine.MorphTarget'eye_lookUpLeft_R'"
+   MorphTargets(121)="/Script/Engine.MorphTarget'eye_lookUpRight_L'"
+   MorphTargets(122)="/Script/Engine.MorphTarget'eye_lookUpRight_R'"
+   MorphTargets(123)="/Script/Engine.MorphTarget'eye_lookDownLeft_L'"
+   MorphTargets(124)="/Script/Engine.MorphTarget'eye_lookDownLeft_R'"
+   MorphTargets(125)="/Script/Engine.MorphTarget'eye_lookDownRight_L'"
+   MorphTargets(126)="/Script/Engine.MorphTarget'eye_lookDownRight_R'"
+   MorphTargets(127)="/Script/Engine.MorphTarget'eye_blinkElookUpLeft_L'"
+   MorphTargets(128)="/Script/Engine.MorphTarget'eye_blinkElookUpLeft_R'"
+   MorphTargets(129)="/Script/Engine.MorphTarget'eye_blinkElookUpRight_L'"
+   MorphTargets(130)="/Script/Engine.MorphTarget'eye_blinkElookUpRight_R'"
+   MorphTargets(131)="/Script/Engine.MorphTarget'eye_blinkElookDownLeft_L'"
+   MorphTargets(132)="/Script/Engine.MorphTarget'eye_blinkElookDownLeft_R'"
+   MorphTargets(133)="/Script/Engine.MorphTarget'eye_blinkElookDownRight_L'"
+   MorphTargets(134)="/Script/Engine.MorphTarget'eye_blinkElookDownRight_R'"
+   MorphTargets(135)="/Script/Engine.MorphTarget'eye_widenElookDown_L'"
+   MorphTargets(136)="/Script/Engine.MorphTarget'eye_widenElookDown_R'"
+   MorphTargets(137)="/Script/Engine.MorphTarget'eye_squintInnerEblink_L'"
+   MorphTargets(138)="/Script/Engine.MorphTarget'eye_squintInnerEblink_R'"
+   MorphTargets(139)="/Script/Engine.MorphTarget'eye_cheekRaiseEsquintInner_L'"
+   MorphTargets(140)="/Script/Engine.MorphTarget'eye_cheekRaiseEsquintInner_R'"
+   MorphTargets(141)="/Script/Engine.MorphTarget'eye_cheekRaiseEblink_L'"
+   MorphTargets(142)="/Script/Engine.MorphTarget'eye_cheekRaiseEblink_R'"
+   MorphTargets(143)="/Script/Engine.MorphTarget'eye_cheekRaiseEsquintInnerEblink_L'"
+   MorphTargets(144)="/Script/Engine.MorphTarget'eye_cheekRaiseEsquintInnerEblink_R'"
+   MorphTargets(145)="/Script/Engine.MorphTarget'eye_cheekRaiseNwrinkle_L'"
+   MorphTargets(146)="/Script/Engine.MorphTarget'eye_cheekRaiseNwrinkle_R'"
+   MorphTargets(147)="/Script/Engine.MorphTarget'mouth_upperLipRaiseNwrinkle_L'"
+   MorphTargets(148)="/Script/Engine.MorphTarget'mouth_upperLipRaiseNwrinkle_R'"
+   MorphTargets(149)="/Script/Engine.MorphTarget'mouth_upperLipRaiseJopen_L'"
+   MorphTargets(150)="/Script/Engine.MorphTarget'mouth_upperLipRaiseJopen_R'"
+   MorphTargets(151)="/Script/Engine.MorphTarget'mouth_upperLipRaiseDimple_L'"
+   MorphTargets(152)="/Script/Engine.MorphTarget'mouth_upperLipRaiseDimple_R'"
+   MorphTargets(153)="/Script/Engine.MorphTarget'mouth_cornerPullLowerLipDepress_L'"
+   MorphTargets(154)="/Script/Engine.MorphTarget'mouth_cornerPullLowerLipDepress_R'"
+   MorphTargets(155)="/Script/Engine.MorphTarget'mouth_upperLipRaiseCornerPull_L'"
+   MorphTargets(156)="/Script/Engine.MorphTarget'mouth_upperLipRaiseCornerPull_R'"
+   MorphTargets(157)="/Script/Engine.MorphTarget'mouth_cheekRaiseCornerPull_L'"
+   MorphTargets(158)="/Script/Engine.MorphTarget'mouth_cheekRaiseCornerPull_R'"
+   MorphTargets(159)="/Script/Engine.MorphTarget'mouth_cornerPullJopen_L'"
+   MorphTargets(160)="/Script/Engine.MorphTarget'mouth_cornerPullJopen_R'"
+   MorphTargets(161)="/Script/Engine.MorphTarget'mouth_dimpleJopen_L'"
+   MorphTargets(162)="/Script/Engine.MorphTarget'mouth_dimpleJopen_R'"
+   MorphTargets(163)="/Script/Engine.MorphTarget'mouth_stretchJopen_L'"
+   MorphTargets(164)="/Script/Engine.MorphTarget'mouth_stretchJopen_R'"
+   MorphTargets(165)="/Script/Engine.MorphTarget'mouth_cornerPullMstretch_L'"
+   MorphTargets(166)="/Script/Engine.MorphTarget'mouth_cornerPullMstretch_R'"
+   MorphTargets(167)="/Script/Engine.MorphTarget'mouth_cornerPullMstretchJopen_L'"
+   MorphTargets(168)="/Script/Engine.MorphTarget'mouth_cornerPullMstretchJopen_R'"
+   MorphTargets(169)="/Script/Engine.MorphTarget'mouth_dimpleLowerLipDepress_L'"
+   MorphTargets(170)="/Script/Engine.MorphTarget'mouth_dimpleLowerLipDepress_R'"
+   MorphTargets(171)="/Script/Engine.MorphTarget'mouth_lipsTogetherJopen_cor'"
+   MorphTargets(172)="/Script/Engine.MorphTarget'mouth_funnelJopen_cor'"
+   MorphTargets(173)="/Script/Engine.MorphTarget'mouth_puckerJopen_cor'"
+   MorphTargets(174)="/Script/Engine.MorphTarget'mouth_oh_cor'"
+   MorphTargets(175)="/Script/Engine.MorphTarget'mouth_ohJopen_cor'"
+   MorphTargets(176)="/Script/Engine.MorphTarget'jaw_leftJopen_cor'"
+   MorphTargets(177)="/Script/Engine.MorphTarget'jaw_rightJopen_cor'"
+   MorphTargets(178)="/Script/Engine.MorphTarget'mouth_lipsTogetherPucker_cor'"
+   MorphTargets(179)="/Script/Engine.MorphTarget'mouth_lipsTogetherPuckerJopen_cor'"
+   MorphTargets(180)="/Script/Engine.MorphTarget'mouthClose_inv'"
+   PostProcessAnimBlueprint="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Characters/Echo/Rig/Echo_PostProcess_AnimBP.Echo_PostProcess_AnimBP_C'"
+   MeshClothingAssets(0)="/Script/ClothingSystemRuntimeCommon.ClothingAssetCommon'Echo_Cloth_Scarf'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object

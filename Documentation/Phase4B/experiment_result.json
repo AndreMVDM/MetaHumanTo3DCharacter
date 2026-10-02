@@ -1,0 +1,136 @@
+{
+  "phase": "4B",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "primary_input": "Characters/Lara_UnRigged_Textured.zip",
+  "final_authoritative_proposal": "automatic_fit_v2.json",
+  "classification": "experimental assisted",
+  "classification_limit": "Usefulness of proposals observed; practical correction effort and general humanoid support not established",
+  "height_cm": 180,
+  "source_height_in_inferred_frame_cm": 99.74817106917645,
+  "scale_factor": 1.8045443647800623,
+  "body_roles": 23,
+  "automatically_accepted_candidate_count": 6,
+  "ambiguous_body_role_count": 17,
+  "accepted_role_limit": "Prototype score acceptance, not independent anatomical certification",
+  "actual_user_corrections": 0,
+  "pending_review_roles": [
+    "pelvis",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "fingers": {
+    "surface_tracks_per_hand": 5,
+    "accepted_semantic_chains": 0,
+    "classification": "experimental unresolved"
+  },
+  "validation": {
+    "numeric_checks": 61,
+    "failed_checks": [
+      "anatomical_role_resolved_pelvis",
+      "anatomical_role_resolved_neck_01",
+      "anatomical_role_resolved_head",
+      "anatomical_role_resolved_clavicle_l",
+      "anatomical_role_resolved_upperarm_l",
+      "anatomical_role_resolved_lowerarm_l",
+      "anatomical_role_resolved_thigh_l",
+      "anatomical_role_resolved_calf_l",
+      "anatomical_role_resolved_foot_l",
+      "anatomical_role_resolved_ball_l",
+      "anatomical_role_resolved_clavicle_r",
+      "anatomical_role_resolved_upperarm_r",
+      "anatomical_role_resolved_lowerarm_r",
+      "anatomical_role_resolved_thigh_r",
+      "anatomical_role_resolved_calf_r",
+      "anatomical_role_resolved_foot_r",
+      "anatomical_role_resolved_ball_r"
+    ],
+    "structural_geometric_passed": true,
+    "anatomical_passed": false,
+    "downstream_authorised": false
+  },
+  "manual_control": {
+    "mean_cm": 4.160896830124891,
+    "max_cm": 6.50234339548132,
+    "ground_truth": false
+  },
+  "auto_skin": {
+    "status": "not_run_anatomical_gate_rejected",
+    "weight_coverage": null,
+    "max_influences": null,
+    "targeted_weight_edits": 0
+  },
+  "ik_retarget": {
+    "status": "not_run_anatomical_gate_rejected",
+    "mappings": [],
+    "auto_characterisation_attempted": false
+  },
+  "bake": {
+    "status": "not_run_anatomical_gate_rejected",
+    "animations": [],
+    "requested_diagnostics": [
+      "idle",
+      "walk",
+      "run",
+      "upper_body_arm_motion"
+    ]
+  },
+  "runtime_source_independence": {
+    "status": "not_tested_no_accepted_phase4b_character",
+    "verified": false
+  },
+  "preservation": {
+    "audit": "protected_file_audit.json",
+    "passed": true,
+    "protected_baseline_files": 980
+  },
+  "debug_assets": [
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Geometry/SM_Lara180.SM_Lara180",
+      "class": "StaticMesh"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Maps/L_SemanticFitDebug.L_SemanticFitDebug",
+      "class": "World"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Accepted.M_Accepted",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Ambiguous.M_Ambiguous",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Edges.M_Edges",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_Ghost.M_Ghost",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/M_LaraOriginal.M_LaraOriginal",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4B/Materials/T_LaraOriginal.T_LaraOriginal",
+      "class": "Texture2D"
+    }
+  ],
+  "no_cloud_or_runtime_inference_dependency": true,
+  "external_inference_executed": false
+}

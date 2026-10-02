@@ -1,0 +1,21 @@
+{
+  "id": 40,
+  "utc_epoch": 1790865867.0368516,
+  "kind": "review",
+  "provenance": "human_editor_action",
+  "details": {
+    "action": "review",
+    "roles": [
+      "clavicle_r"
+    ],
+    "judgement": "accept",
+    "category": "anatomical_front_side_review",
+    "reviewed_positions": {
+      "clavicle_r": [
+        -1.5769591331481934,
+        -7.197674751281738,
+        141.65269470214844
+      ]
+    }
+  }
+}

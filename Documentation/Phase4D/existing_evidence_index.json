@@ -1,0 +1,1400 @@
+{
+  "reports": [
+    {
+      "path": "RetargetingInvestigation/InvestigationReport.md",
+      "sha256": "d32a06759c65e73f7e65ceaeaee0fffdf91ff1c60f8e3fc5b9c590a862c5ca5b",
+      "characters": 50875,
+      "headings": [
+        "# AnimationRetargeting investigation",
+        "## 1. Executive summary",
+        "## 2. Exact demonstration located",
+        "## 3. Asset inventory",
+        "### Active body-animation assets",
+        "### Echo corrective Pose Assets",
+        "### Physics, cloth and grooming",
+        "## 4. Dependency graph",
+        "## 5. Runtime and complete deformation flow",
+        "### Source animation",
+        "### Pose acquisition and copying",
+        "### Echo post-process",
+        "### Runtime evidence",
+        "## 6. Actual retarget and procedural configuration",
+        "### Authoritative demonstration",
+        "### Destination accessory constraints",
+        "### Destination accessory simulation",
+        "### Actor initialisation",
+        "### Wider map: verified IK comparison",
+        "## 7. Source versus destination requirements",
+        "## 8. Manual versus reusable configuration",
+        "## 9. Automation opportunities",
+        "## 10. Unreal APIs and systems",
+        "## 11. Limitations and evidence boundaries",
+        "## 12. Recommended next experiment",
+        "### Reproduce the exact Manny \u2192 Echo exhibit in a clean project",
+        "## Evidence index and verification"
+      ]
+    },
+    {
+      "path": "RetargetingInvestigation/SupplementalIKConfiguration.md",
+      "sha256": "981af90c410bf3a5f89e5a82e47e895e6bccc1494d5942a1b312bb0a7886df7f",
+      "characters": 173585,
+      "headings": [
+        "# Supplemental IK configuration evidence",
+        "## Scene assignments",
+        "## IK Rig `/Game/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin`",
+        "## IK Rig `/Game/Characters/Mannequins/Rigs/IK_Mannequin`",
+        "## IK Rig `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_CurveRemap`",
+        "## IK Rig `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Spelunkle_Retargeting`",
+        "## IK Rig `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_StackOBot_Retargeting`",
+        "## IK Rig `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/IK_Starfish_Retargeting`",
+        "## IK Retargeter `/Game/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Spelunkle`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_StackOBot`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_Mannequin_Starfish`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_NoPinBone_PostRetargetPhase`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_FK`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RetargetPhases_Root`",
+        "## IK Retargeter `/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_RootMotionGenerator_PostRetargetPhase`"
+      ]
+    },
+    {
+      "path": "Phase2/Phase2RetargetingReport.md",
+      "sha256": "5440f5a0332b3414559c089ca731bc85911e67aba782fdf4c4534f2d47e79e84",
+      "characters": 23356,
+      "headings": [
+        "# Phase 2 \u2014 Manny to Tripo Lara runtime body retargeting",
+        "## 1. Objective and result",
+        "## 2. Input ZIP inventory",
+        "## 3. FBX comparison before import",
+        "## 4. Unreal import results",
+        "## 5. UE5 Lara skeleton analysis",
+        "## 6. Mixamo Lara skeleton analysis",
+        "## 7. Manny source configuration and route choice",
+        "## 8. Generated IK Rig configuration",
+        "## 9. Generated IK Retargeter configuration",
+        "## 10. Retarget pose differences",
+        "## 11. Runtime Animation Blueprints",
+        "## 12. Test actor and map",
+        "## 13. Runtime validation",
+        "## 14. UE5 versus Mixamo comparison",
+        "## 15. Automation findings",
+        "## 16. Failures and corrections",
+        "## 17. Plugin architecture implications",
+        "## 18. Recommended Phase 3",
+        "### Evidence index"
+      ]
+    },
+    {
+      "path": "Phase3/MetaHumanResizeConformInvestigation.md",
+      "sha256": "50c4ced1bb973fc4e2ba6eda9a1a9bc0fae621b6584628608ddb319e5735b99d",
+      "characters": 47923,
+      "headings": [
+        "# Phase 3A \u2014 MetaHuman resize, conform and proportion investigation",
+        "## 1. Executive summary",
+        "### Direct answers to the 13 questions",
+        "## 2. Reference package contents",
+        "## 3. What MetaHuman Conform Topology actually does",
+        "## 4. UE 5.8 resize/conform capabilities found",
+        "### Actual custom-conform call chain",
+        "## 5. Scale normalisation options",
+        "## 6. Proportion normalisation options",
+        "## 7. MetaHuman body-size model",
+        "## 8. Applicability to the Tripo UE5 rig",
+        "## 9. Applicability to the Tripo Mixamo rig",
+        "## 10. Relevant Unreal APIs",
+        "## 11. Pipeline ordering and dependency consequences",
+        "## 12. Relationship to the Phase 2 root-scale failure",
+        "### Verified observations",
+        "### Source-level mechanism and remaining uncertainty",
+        "## 13. Automation feasibility",
+        "## 14. Recommended implementation approach",
+        "## 15. Recommended next experiment",
+        "### Evidence, validation and limits"
+      ]
+    },
+    {
+      "path": "Phase3B/Phase3BHeightNormalisationRetargeting.md",
+      "sha256": "53aa05b60381aafacf2c30a4c8c9d7245297d9dcc0e1db63027b1e1b1ca58d5d",
+      "characters": 34091,
+      "headings": [
+        "# Phase 3B \u2014 Generic Height Normalisation and Stable Retargeting",
+        "## 1. Executive summary",
+        "## 2. Baseline Phase 2 import representation",
+        "## 3. Clean import candidate methodology",
+        "## 4. Height measurement method",
+        "## 5. Generic target-height implementation",
+        "## 6. Height-normalised asset results",
+        "## 7. Root/reference-scale findings",
+        "## 8. IK Rig regeneration",
+        "## 9. IK Retargeter regeneration",
+        "## 10. Retarget pose regeneration",
+        "## 11. UE5 solver isolation",
+        "## 12. Mixamo foot investigation",
+        "## 13. Height test matrix",
+        "## 14. Multi-animation validation",
+        "## 15. Quantitative runtime results",
+        "## 16. Solver sanity gate",
+        "## 17. Bake-readiness findings",
+        "## 18. Migration/independence implications",
+        "## 19. Automation requirements",
+        "## 20. Recommended next phase"
+      ]
+    },
+    {
+      "path": "Phase4A/Phase4AAutoRigInvestigation.md",
+      "sha256": "088bcd9a23bd6100f0059498df1356beff014158e7954409e05438832414bd32",
+      "characters": 38844,
+      "headings": [
+        "# Phase 4A \u2014 UE auto-rig investigation",
+        "## 1. Executive summary",
+        "## 2. Input ZIP inventories",
+        "## 3. Geometry comparison",
+        "## 4. UE 5.8 auto-rig systems found",
+        "## 5. UE 5.8 auto-skin systems found",
+        "## 6. Case A Mixamo recovery method",
+        "## 7. Case B unrigged import method",
+        "## 8. Texture/material preservation",
+        "## 9. Height-ordering decision",
+        "## 10. Generated skeleton analysis",
+        "## 11. Generated skin-weight analysis",
+        "## 12. IK Rig generation",
+        "## 13. Retargeter generation",
+        "## 14. Animation validation",
+        "## 15. Mixamo foot comparison",
+        "## 16. Baked-animation independence",
+        "## 17. Migration readiness",
+        "## 18. Automation requirements",
+        "## 19. Supported input modes",
+        "## 20. Recommended Phase 4B",
+        "### Completion criteria and evidence"
+      ]
+    },
+    {
+      "path": "Phase4B/Phase4BSemanticJointFitting.md",
+      "sha256": "07f2d898423703e3d083557a321a5f8f7e74105680e1619c95effaebcca05bab",
+      "characters": 36550,
+      "headings": [
+        "# Phase 4B \u2014 Semantic Humanoid Joint Fitting",
+        "## 1. Executive summary",
+        "## 2. Existing-evidence recap",
+        "## 3. Exhaustive UE semantic-fitting/API investigation",
+        "## 4. Candidate solution comparison",
+        "## 5. Selected architecture and justification",
+        "## 6. Geometry analysis",
+        "## 7. Coordinate-frame/symmetry method",
+        "## 8. Landmark inference method",
+        "## 9. Skeleton-template/hierarchy method",
+        "## 10. Confidence and ambiguity model",
+        "## 11. Automatic Lara fitting results",
+        "## 12. Automatic-versus-manual-control comparison",
+        "## 13. User corrections required, if any",
+        "## 14. UE skeleton creation",
+        "## 15. Auto-skin results",
+        "## 16. Deformation review",
+        "## 17. IK/retarget setup",
+        "## 18. Baked animation results",
+        "## 19. Source-independent playback verification",
+        "## 20. Limitations",
+        "## 21. Product implications for Mode A",
+        "## 22. Recommended Phase 4C or production next step",
+        "## 23. Preservation/protected-file audit"
+      ]
+    },
+    {
+      "path": "Phase4C/Phase4CMetaHumanSemanticDonor.md",
+      "sha256": "ae09fe24b6d8a16f6ebbb7fedec47eab02354d36dcaf04231c0d0edec18dfd36",
+      "characters": 31432,
+      "headings": [
+        "# MetaHumanTo3DCharacter \u2014 Phase 4C MetaHuman Semantic Donor",
+        "## 1. Executive summary",
+        "## 2. Phase 4B starting point",
+        "## 3. MetaHuman plugin/API verification",
+        "## 4. Actual fitting path",
+        "## 5. Temporary donor construction",
+        "## 6. Solve results",
+        "## 7. Semantic donor data exposed",
+        "## 8. Donor-to-Lara transform",
+        "## 9. Joint mapping",
+        "## 10. Phase 4B comparison",
+        "## 11. Phase 4A control comparison",
+        "## 12. Anatomy validation",
+        "## 13. Actual user-review/correction count",
+        "## 14. Finger results",
+        "## 15. UE skeleton/skinning results",
+        "## 16. IK/retarget results",
+        "## 17. Baked animation results",
+        "## 18. Manny-removed playback",
+        "## 19. Runtime/dependency implications",
+        "## 20. Licence/redistribution boundaries",
+        "## 21. Limitations and visual evidence",
+        "## 22. Mode A product implication",
+        "## 23. Recommended next phase",
+        "## 24. Protected-file audit and verification"
+      ]
+    }
+  ],
+  "machine_evidence": {
+    "Documentation\\Phase4B\\anatomical_validation.json": {
+      "sha256": "9b121d858ca9e4f11e06e9d0c4710771b6da7ef086d884c5e649754b56366923",
+      "keys": [
+        "checks",
+        "passed",
+        "failed",
+        "structural_geometric_passed",
+        "automatic_anatomical_passed",
+        "manual_anatomical_review_roles",
+        "proposal_sha256",
+        "downstream_authorised",
+        "numeric_screen_limit",
+        "skin",
+        "retarget_bake"
+      ]
+    },
+    "Documentation\\Phase4B\\anatomical_validation_corrected.json": {
+      "sha256": "8758307714ba62276593998b7e58568d0ec801923a178ea6f9dccf1c93e63812",
+      "keys": [
+        "checks",
+        "passed",
+        "failed",
+        "structural_geometric_passed",
+        "automatic_anatomical_passed",
+        "manual_anatomical_review_roles",
+        "proposal_sha256",
+        "downstream_authorised",
+        "numeric_screen_limit",
+        "skin",
+        "retarget_bake"
+      ]
+    },
+    "Documentation\\Phase4B\\anatomical_validation_v2.json": {
+      "sha256": "9605cc4f3970efe3f015b57b7e2e2b6f1b40d47809c7c3578f154b7fa02ff6ce",
+      "keys": [
+        "checks",
+        "passed",
+        "failed",
+        "structural_geometric_passed",
+        "automatic_anatomical_passed",
+        "manual_anatomical_review_roles",
+        "proposal_sha256",
+        "downstream_authorised",
+        "numeric_screen_limit",
+        "skin",
+        "retarget_bake"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit.json": {
+      "sha256": "b761fd264c630f1442902ebf2f7dbcd380e912f55ffe549a0ac74a0b1a640425",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_attempt1.json": {
+      "sha256": "9892ca7b2b5b554b829bccb81956f26a6fcc903f3380e74719afba99f8915806",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_before_axis_repair.json": {
+      "sha256": "66055b75a025ff6ca73d42b9689db2b5d2573d8bce7ced86ceba4c10c09ed0f5",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_before_top_spine_repair.json": {
+      "sha256": "54e4e839d337cfaa8c5c12c54a61952a1a70028a8db446e0ed7884723925c67a",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_before_torso_shell_repair.json": {
+      "sha256": "da31f69b67ddddca70bf2cbec55a5345b9f05ece8860a9ce1c0719d190b132ad",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_v2.json": {
+      "sha256": "2e65549fe654ad94f8c91045ec0dfdd9fe4a44367450118e70ed12c4ccd2b0fb",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers",
+        "refinement_changes",
+        "independence"
+      ]
+    },
+    "Documentation\\Phase4B\\automatic_fit_v2_before_axis_repair.json": {
+      "sha256": "0e14526f89fced3179c1bf9fa076465a61863996346289c0c25b3e991b220ed5",
+      "keys": [
+        "method",
+        "input_geometry_sha256",
+        "height_cm",
+        "joints",
+        "features",
+        "confidence_model",
+        "manual_corrections_applied",
+        "unresolved_fingers",
+        "refinement_changes",
+        "independence"
+      ]
+    },
+    "Documentation\\Phase4B\\coordinate_frame.json": {
+      "sha256": "571d5a16652a4a5a649ab7256a4f9dc5db30e5bd274d4689a2fdf09ef47f3ce0",
+      "keys": [
+        "rotation_columns_world",
+        "origin_body_coordinates_cm",
+        "source_height_cm",
+        "target_height_cm",
+        "factor",
+        "up_world",
+        "left_world",
+        "forward_world",
+        "ground_endpoint_support",
+        "ground_plane_points",
+        "ground_pitch_refinement_rad",
+        "symmetry_search_mean_cm",
+        "symmetry_refined_mean_p95_cm",
+        "symmetry_angle_candidates",
+        "shoe_forward_extents_cm",
+        "facing_rule",
+        "left_rule",
+        "probability"
+      ]
+    },
+    "Documentation\\Phase4B\\coordinate_frame_attempt1.json": {
+      "sha256": "61d62c10da62b153efe42f89809092384df970b2d9deb18aed0f4f51e2721ed0",
+      "keys": [
+        "rotation_columns_world",
+        "origin_body_coordinates_cm",
+        "source_height_cm",
+        "target_height_cm",
+        "factor",
+        "up_world",
+        "left_world",
+        "forward_world",
+        "ground_endpoint_support",
+        "ground_plane_points",
+        "symmetry_search_mean_cm",
+        "symmetry_angle_candidates",
+        "shoe_forward_extents_cm",
+        "facing_rule",
+        "left_rule",
+        "probability"
+      ]
+    },
+    "Documentation\\Phase4B\\coordinate_frame_attempt2.json": {
+      "sha256": "b0b8d2b64829f1077e7478f6ea30e6ef8261d614283b3242a370a4167470273f",
+      "keys": [
+        "rotation_columns_world",
+        "origin_body_coordinates_cm",
+        "source_height_cm",
+        "target_height_cm",
+        "factor",
+        "up_world",
+        "left_world",
+        "forward_world",
+        "ground_endpoint_support",
+        "ground_plane_points",
+        "ground_pitch_refinement_rad",
+        "symmetry_search_mean_cm",
+        "symmetry_refined_mean_p95_cm",
+        "symmetry_angle_candidates",
+        "shoe_forward_extents_cm",
+        "facing_rule",
+        "left_rule",
+        "probability"
+      ]
+    },
+    "Documentation\\Phase4B\\coordinate_frame_before_axis_repair.json": {
+      "sha256": "8ec6292117a5f4463672885a28bc45d70f523d0d28b761c99e808605aa44b905",
+      "keys": [
+        "rotation_columns_world",
+        "origin_body_coordinates_cm",
+        "source_height_cm",
+        "target_height_cm",
+        "factor",
+        "up_world",
+        "left_world",
+        "forward_world",
+        "ground_endpoint_support",
+        "ground_plane_points",
+        "ground_pitch_refinement_rad",
+        "symmetry_search_mean_cm",
+        "symmetry_refined_mean_p95_cm",
+        "symmetry_angle_candidates",
+        "shoe_forward_extents_cm",
+        "facing_rule",
+        "left_rule",
+        "probability"
+      ]
+    },
+    "Documentation\\Phase4B\\coordinate_frame_validation.json": {
+      "sha256": "7c9148859bd26c96cc53a0e47a65879f54b0084fa27db67c0a9ac7e7373dbb12",
+      "keys": [
+        "rigid_reorientation_tests",
+        "tolerance_cm",
+        "passed",
+        "limit"
+      ]
+    },
+    "Documentation\\Phase4B\\correction_model_validation.json": {
+      "sha256": "6ef608ac7961694bf6a807adfcd4808185fe43276d435349b4ddc9500450e8ce",
+      "keys": [
+        "deterministic_replay_pass",
+        "dependency_spine_01_delta_cm",
+        "changed_dependents",
+        "local_transform_axes_recomputed",
+        "negative_cases_rejected",
+        "actual_user_corrections",
+        "synthetic_fixture_used_for_binding",
+        "pending_review_roles",
+        "parent_frame_roundtrip_max_error_cm",
+        "patch_order_independence_pass",
+        "explicit_child_correction_preserved",
+        "fit_hash_binding_pass",
+        "dependency_anatomical_acceptance_invalidated"
+      ]
+    },
+    "Documentation\\Phase4B\\cross_sections.json": {
+      "sha256": "71746dfc23c5cb8e1808fd6a23f9d35183ca53ebdda65e846039407179feb245",
+      "keys": 88
+    },
+    "Documentation\\Phase4B\\evidence_manifest.json": {
+      "sha256": "510158784ef622086b38174aef2b9e7af6950e6b38f66beba4b68f3a88e6f5ad",
+      "keys": [
+        "Working\\Phase4B\\api_inventory.py",
+        "Working\\Phase4B\\compare_control.py",
+        "Working\\Phase4B\\corrections.json",
+        "Working\\Phase4B\\correction_model.py",
+        "Working\\Phase4B\\correction_replay_fixture.json",
+        "Working\\Phase4B\\export_debug_geometry.py",
+        "Working\\Phase4B\\export_geometry.log",
+        "Working\\Phase4B\\fit_semantic.py",
+        "Working\\Phase4B\\geometry_analysis.log",
+        "Working\\Phase4B\\geometry_tools.py",
+        "Working\\Phase4B\\inspect_geometry.py",
+        "Working\\Phase4B\\investigate.py",
+        "Working\\Phase4B\\Lara_180_DebugGeometry.fbx",
+        "Working\\Phase4B\\limb_curves.json",
+        "Working\\Phase4B\\normalised_geometry.npz",
+        "Working\\Phase4B\\normalised_source_uv_corners.json",
+        "Working\\Phase4B\\phase4a_ue_vertices_readonly.json",
+        "Working\\Phase4B\\prepare_geometry.py",
+        "Working\\Phase4B\\protected_audit.py",
+        "Working\\Phase4B\\refine_template.py",
+        "Working\\Phase4B\\render_fit.py",
+        "Working\\Phase4B\\self_review.py",
+        "Working\\Phase4B\\source_geometry.npz",
+        "Working\\Phase4B\\source_uv.py",
+        "Working\\Phase4B\\source_working.blend",
+        "Working\\Phase4B\\supplement_api.py",
+        "Working\\Phase4B\\supplement_search.py",
+        "Working\\Phase4B\\ue_basis.py",
+        "Working\\Phase4B\\ue_capture.py",
+        "Working\\Phase4B\\ue_debug_scene.py",
+        "Working\\Phase4B\\ue_debug_vertices.json",
+        "Working\\Phase4B\\ue_probe.py",
+        "Working\\Phase4B\\ue_uv.py",
+        "Working\\Phase4B\\ue_uv_corners.json",
+        "Working\\Phase4B\\validate_control_basis.py",
+        "Working\\Phase4B\\validate_fit.py",
+        "Working\\Phase4B\\validate_frame.py",
+        "Working\\Phase4B\\validate_import.py",
+        "Working\\Phase4B\\write_report.py",
+        "Working\\Phase4B\\Inputs\\Lara_UnRigged_Textured.fbx",
+        "Working\\Phase4B\\Search\\exact_concepts.txt",
+        "Working\\Phase4B\\Search\\geometry.txt",
+        "Working\\Phase4B\\Search\\metahuman.txt",
+        "Working\\Phase4B\\Search\\ml.txt",
+        "Working\\Phase4B\\Search\\predictors_including_vendor.txt",
+        "Working\\Phase4B\\Search\\semantic.txt",
+        "Working\\Phase4B\\Search\\templates.txt",
+        "Working\\Phase4B\\Inputs\\Lara_UnRigged_Textured.fbm\\Lara_UnRigged_Textured_basecolor.jpg",
+        "Documentation\\Phase4B\\anatomical_validation.json",
+        "Documentation\\Phase4B\\anatomical_validation_corrected.json",
+        "Documentation\\Phase4B\\anatomical_validation_v2.json",
+        "Documentation\\Phase4B\\automatic_fit.json",
+        "Documentation\\Phase4B\\automatic_fit_attempt1.json",
+        "Documentation\\Phase4B\\automatic_fit_before_axis_repair.json",
+        "Documentation\\Phase4B\\automatic_fit_before_top_spine_repair.json",
+        "Documentation\\Phase4B\\automatic_fit_before_torso_shell_repair.json",
+        "Documentation\\Phase4B\\automatic_fit_v2.json",
+        "Documentation\\Phase4B\\automatic_fit_v2_before_axis_repair.json",
+        "Documentation\\Phase4B\\automatic_major_landmarks.png",
+        "Documentation\\Phase4B\\coordinate_frame.json",
+        "Documentation\\Phase4B\\coordinate_frame_attempt1.json",
+        "Documentation\\Phase4B\\coordinate_frame_attempt2.json",
+        "Documentation\\Phase4B\\coordinate_frame_before_axis_repair.json",
+        "Documentation\\Phase4B\\coordinate_frame_validation.json",
+        "Documentation\\Phase4B\\correction_model_validation.json",
+        "Documentation\\Phase4B\\cross_sections.json",
+        "Documentation\\Phase4B\\existing_evidence_index.json",
+        "Documentation\\Phase4B\\experiment_result.json",
+        "Documentation\\Phase4B\\external_inference_inventory.json",
+        "Documentation\\Phase4B\\finger_branch_prototype.json",
+        "Documentation\\Phase4B\\fitted_skeleton_front.png",
+        "Documentation\\Phase4B\\fitted_skeleton_side.png",
+        "Documentation\\Phase4B\\foot_ankle_ball.png",
+        "Documentation\\Phase4B\\geometry_export_validation.json",
+        "Documentation\\Phase4B\\geometry_input.json",
+        "Documentation\\Phase4B\\hand_finger_evidence.png",
+        "Documentation\\Phase4B\\input_inventory.json",
+        "Documentation\\Phase4B\\installed_resources.json",
+        "Documentation\\Phase4B\\manual_control_basis_validation.json",
+        "Documentation\\Phase4B\\manual_control_comparison.json",
+        "Documentation\\Phase4B\\manual_control_comparison_v2.json",
+        "Documentation\\Phase4B\\Phase4BSemanticJointFitting.md",
+        "Documentation\\Phase4B\\protected_before.json",
+        "Documentation\\Phase4B\\protected_file_audit.json",
+        "Documentation\\Phase4B\\python_api_probe.json",
+        "Documentation\\Phase4B\\raw_geometry_sections.png",
+        "Documentation\\Phase4B\\raw_geometry_sections_attempt1.png",
+        "Documentation\\Phase4B\\search_manifest.json",
+        "Documentation\\Phase4B\\self_review.json",
+        "Documentation\\Phase4B\\semantic_api_inventory.json",
+        "Documentation\\Phase4B\\supplemental_search.json",
+        "Documentation\\Phase4B\\ue_debug_scene.json",
+        "Documentation\\Phase4B\\ue_fit_front.png",
+        "Documentation\\Phase4B\\ue_fit_side.png",
+        "Documentation\\Phase4B\\ue_import_validation.json",
+        "Documentation\\Phase4B\\ue_import_validation_before_axis_repair.json",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Geometry\\SM_Lara180.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Maps\\L_SemanticFitDebug.umap",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Accepted.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Ambiguous.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Edges.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_Ghost.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\M_LaraOriginal.uasset",
+        "Content\\MetaHumanTo3DCharacter\\Phase4B\\Materials\\T_LaraOriginal.uasset"
+      ]
+    },
+    "Documentation\\Phase4B\\existing_evidence_index.json": {
+      "sha256": "00ffd3a8f515a112558cae24b1b8451bd4d4dd596eb3988c845267ef7e15c462",
+      "keys": 6
+    },
+    "Documentation\\Phase4B\\experiment_result.json": {
+      "sha256": "0b7ddf962db65f57869a19c41df99c873c80c58bd3907984c029f34d786fb1cd",
+      "keys": [
+        "phase",
+        "engine",
+        "primary_input",
+        "final_authoritative_proposal",
+        "classification",
+        "classification_limit",
+        "height_cm",
+        "source_height_in_inferred_frame_cm",
+        "scale_factor",
+        "body_roles",
+        "automatically_accepted_candidate_count",
+        "ambiguous_body_role_count",
+        "accepted_role_limit",
+        "actual_user_corrections",
+        "pending_review_roles",
+        "fingers",
+        "validation",
+        "manual_control",
+        "auto_skin",
+        "ik_retarget",
+        "bake",
+        "runtime_source_independence",
+        "preservation",
+        "debug_assets",
+        "no_cloud_or_runtime_inference_dependency",
+        "external_inference_executed"
+      ]
+    },
+    "Documentation\\Phase4B\\external_inference_inventory.json": {
+      "sha256": "433c165e9721b5205f14bec0652b59e912ef0dacb9139de645714f4f6621f818",
+      "keys": [
+        "investigated_after_geometry_failure",
+        "installed_or_executed",
+        "cloud_dependency",
+        "runtime_dependency",
+        "candidates"
+      ]
+    },
+    "Documentation\\Phase4B\\finger_branch_prototype.json": {
+      "sha256": "bdf4513536fcb5d5f1be91c15b0728c6612889ca48962c8f239ce54ebc2aea2f",
+      "keys": [
+        "method",
+        "sides",
+        "automatically_accepted_finger_chains"
+      ]
+    },
+    "Documentation\\Phase4B\\geometry_export_validation.json": {
+      "sha256": "9f17b890fd9d78f35d4a594f3be5166eb0be76e25a323d1637f1943ed68514b3",
+      "keys": [
+        "uv_identical",
+        "polygon_indices_identical",
+        "geometry_transform",
+        "uv_sha256",
+        "raw_geometry_replacement",
+        "skeletal_export"
+      ]
+    },
+    "Documentation\\Phase4B\\geometry_input.json": {
+      "sha256": "d5ae21b8d5777553e59a47c9eb1a65d6898dc4a470bfb46e2edf972a7b994480",
+      "keys": [
+        "source",
+        "archive_sha256",
+        "vertices",
+        "triangles",
+        "polygons",
+        "uv_loops",
+        "vertex_sha256",
+        "uv_sha256",
+        "faces_sha256",
+        "raw_world_bounds_cm",
+        "coordinate_semantics",
+        "materials"
+      ]
+    },
+    "Documentation\\Phase4B\\input_inventory.json": {
+      "sha256": "862300dce2e8d7350bc2212b6645797fe8857e8bf9c8c12c7fd55471e57748b7",
+      "keys": [
+        "archive",
+        "archive_sha256",
+        "bytes",
+        "entries"
+      ]
+    },
+    "Documentation\\Phase4B\\installed_resources.json": {
+      "sha256": "4edf44739ff04be3d737dd1e872066d5764afca6abf97188b5f65958660fb5c2",
+      "keys": 90
+    },
+    "Documentation\\Phase4B\\manual_control_basis_validation.json": {
+      "sha256": "271faaeda21eb1ce9f15767dafb67ce44adde01f3083e3daa81ff637607e980c",
+      "keys": [
+        "read_only_phase4a_asset",
+        "dcc_geometry_sha256",
+        "tested_axis_signs",
+        "verified_dcc_to_ue_signs",
+        "max_sample_error_cm",
+        "source_asset_modified"
+      ]
+    },
+    "Documentation\\Phase4B\\manual_control_comparison.json": {
+      "sha256": "12929c14ee783496c421decbffa84c1009a3250a173483d6d1e54023133af3e8",
+      "keys": [
+        "evaluation_only",
+        "automatic_proposal_unchanged_sha256",
+        "control",
+        "control_sha256",
+        "alignment",
+        "manual_control_limit",
+        "joint_count",
+        "mean_difference_cm",
+        "max_difference_cm",
+        "hierarchy_equivalent_for_body",
+        "joints"
+      ]
+    },
+    "Documentation\\Phase4B\\manual_control_comparison_v2.json": {
+      "sha256": "11ca7a68c15b69fdf1b848c46404d3509c8211970eb9919655a0d79e458d8ae7",
+      "keys": [
+        "evaluation_only",
+        "automatic_proposal_unchanged_sha256",
+        "control",
+        "control_sha256",
+        "alignment",
+        "manual_control_limit",
+        "joint_count",
+        "mean_difference_cm",
+        "max_difference_cm",
+        "hierarchy_equivalent_for_body",
+        "joints"
+      ]
+    },
+    "Documentation\\Phase4B\\protected_before.json": {
+      "sha256": "b99236c4a3cf0feb95b193b52f9ad5c3518ce9142a5bc223ffeed7b569250982",
+      "keys": [
+        "scope",
+        "files"
+      ]
+    },
+    "Documentation\\Phase4B\\protected_file_audit.json": {
+      "sha256": "a33efc3ad479f7820e43493596d637921aecee49bbe93528e0c659d9cf66342f",
+      "keys": [
+        "protected_baseline_files",
+        "changed_files",
+        "missing_files",
+        "new_files_outside_phase4b_in_protected_scopes",
+        "engine_inventory_source_hash_changes",
+        "working_input_entries",
+        "original_lara_archive_sha256",
+        "passed",
+        "audit_scope",
+        "audit_limit"
+      ]
+    },
+    "Documentation\\Phase4B\\python_api_probe.json": {
+      "sha256": "760e23c91c8a8a46cd030667b1f35eb50f2cb6141fe627a87e0bc306c6d706fc",
+      "keys": [
+        "engine_version",
+        "classes",
+        "relevant_names",
+        "editor_world"
+      ]
+    },
+    "Documentation\\Phase4B\\search_manifest.json": {
+      "sha256": "b183fca4de6f644465dd9771e547f265b45bda7e94113ef8a4b6d031cd07a5ef",
+      "keys": [
+        "engine_root",
+        "engine_version",
+        "scope",
+        "excluded",
+        "queries",
+        "enumerated_files",
+        "resource_candidates"
+      ]
+    },
+    "Documentation\\Phase4B\\self_review.json": {
+      "sha256": "c1b1d8279443490f8919490d5562375e472f95b3cabacd614e50d45486ceb2c0",
+      "keys": [
+        "passed",
+        "checks",
+        "review_level",
+        "independent_review",
+        "actual_human_anatomical_review_count",
+        "report_sha256"
+      ]
+    },
+    "Documentation\\Phase4B\\semantic_api_inventory.json": {
+      "sha256": "8ae2a2ef169185652f52c05f94be72bdbf8feea5612b1e87781ef4c9bc5d1caf",
+      "keys": [
+        "systems",
+        "investigation_complete_for_recorded_scope",
+        "negative_conclusion",
+        "web_sources",
+        "supplemental_search",
+        "technical_legal_limit"
+      ]
+    },
+    "Documentation\\Phase4B\\supplemental_search.json": {
+      "sha256": "f9bba8111ef552c8b5545a78591a2654a98b70b231ee755c163c1dc84c02f16c",
+      "keys": [
+        "queries",
+        "thirdparty_text_included",
+        "resource_candidates",
+        "limit"
+      ]
+    },
+    "Documentation\\Phase4B\\ue_debug_scene.json": {
+      "sha256": "b43eab13382420ce7fac9c38d9e82c49a13702c3784c45f775d5fa8de1e64e2a",
+      "keys": [
+        "map",
+        "assets",
+        "skeletal_assets_authored",
+        "height_cm",
+        "actor_count",
+        "errors",
+        "proposal",
+        "mesh",
+        "material",
+        "geometry_scale_baked",
+        "display_mesh_actor_scales",
+        "import_warnings",
+        "triangles",
+        "uv_sets",
+        "vertex_count"
+      ]
+    },
+    "Documentation\\Phase4B\\ue_import_validation.json": {
+      "sha256": "efc617177e66c74fce88667c95a5400f7e391ff743e78076cc0cf4693902d813",
+      "keys": [
+        "source_vertex_count",
+        "ue_dynamic_vertex_count",
+        "source_to_ue_max_cm",
+        "ue_to_source_max_cm",
+        "geometry_vertex_positions_pass",
+        "source_triangles",
+        "ue_triangles",
+        "triangle_count_difference",
+        "source_triangles_area_below_1e_minus_8_cm2",
+        "triangle_connectivity_identical",
+        "topology_limit",
+        "uv_corner_count",
+        "uv_at_position_unmatched_corners",
+        "uv_at_position_max_difference",
+        "uv_at_position_pass",
+        "uv_conversion",
+        "uv_check_limit"
+      ]
+    },
+    "Documentation\\Phase4B\\ue_import_validation_before_axis_repair.json": {
+      "sha256": "f6e395131f7e1b4933990beb706075aa40bb40b58974bb01cf4cf301a94e332d",
+      "keys": [
+        "source_vertex_count",
+        "ue_dynamic_vertex_count",
+        "source_to_ue_max_cm",
+        "ue_to_source_max_cm",
+        "geometry_vertex_positions_pass",
+        "source_triangles",
+        "ue_triangles",
+        "triangle_count_difference",
+        "source_triangles_area_below_1e_minus_8_cm2",
+        "triangle_connectivity_identical",
+        "topology_limit",
+        "uv_corner_count",
+        "uv_at_position_unmatched_corners",
+        "uv_at_position_max_difference",
+        "uv_at_position_pass",
+        "uv_conversion",
+        "uv_check_limit"
+      ]
+    },
+    "Documentation\\Phase4C\\analysis_summary.json": {
+      "sha256": "78881af2376286edee3c1728bc3fbf16a0eada393b660553418cdf619a3b371d",
+      "keys": [
+        "selected_attempt",
+        "semantic_body_roles_exposed",
+        "provisional_body_roles_accepted",
+        "body_roles_requiring_review",
+        "phase4b_provisional_accepted",
+        "phase4b_ambiguous",
+        "body_classification",
+        "finger_classification",
+        "mean_4C_vs_4A_cm",
+        "mean_4B_vs_4A_cm",
+        "count_limit"
+      ]
+    },
+    "Documentation\\Phase4C\\anatomical_validation.json": {
+      "sha256": "9394e8a16afcef0b2d2414776de868eba3b0ebceaacef698ad2cabb2b3bb8a20",
+      "keys": [
+        "checks",
+        "passed",
+        "failed",
+        "structural_geometric_passed",
+        "automatic_anatomical_passed",
+        "manual_anatomical_review_roles",
+        "proposal_sha256",
+        "downstream_authorised",
+        "numeric_screen_limit",
+        "skin",
+        "retarget_bake",
+        "extension_checks",
+        "clavicle_sign_limit"
+      ]
+    },
+    "Documentation\\Phase4C\\anatomical_validation_v2.json": {
+      "sha256": "86c4c0188fcbcbcd8c90ef7f3707609313da9430fe9302f50138fd1bfafe8c40",
+      "keys": [
+        "checks",
+        "passed",
+        "failed",
+        "structural_geometric_passed",
+        "automatic_anatomical_passed",
+        "manual_anatomical_review_roles",
+        "proposal_sha256",
+        "downstream_authorised",
+        "numeric_screen_limit",
+        "skin",
+        "retarget_bake"
+      ]
+    },
+    "Documentation\\Phase4C\\animation_bake_results.json": {
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "keys": [
+        "status",
+        "anatomical_gate_passed",
+        "authorised",
+        "created_assets",
+        "reason"
+      ]
+    },
+    "Documentation\\Phase4C\\automatic_fit_v2.json": {
+      "sha256": "0324a9f4796865ff9ac350c7d8b03136d6ff54bbe4b532dce4b8af71325572fe",
+      "keys": [
+        "method",
+        "height_cm",
+        "joints",
+        "mapping_policy",
+        "acceptance_policy",
+        "input_geometry_sha256",
+        "donor_sha256",
+        "control_used_for_initialisation",
+        "downstream_authorised"
+      ]
+    },
+    "Documentation\\Phase4C\\coordinate_frame.json": {
+      "sha256": "571d5a16652a4a5a649ab7256a4f9dc5db30e5bd274d4689a2fdf09ef47f3ce0",
+      "keys": [
+        "rotation_columns_world",
+        "origin_body_coordinates_cm",
+        "source_height_cm",
+        "target_height_cm",
+        "factor",
+        "up_world",
+        "left_world",
+        "forward_world",
+        "ground_endpoint_support",
+        "ground_plane_points",
+        "ground_pitch_refinement_rad",
+        "symmetry_search_mean_cm",
+        "symmetry_refined_mean_p95_cm",
+        "symmetry_angle_candidates",
+        "shoe_forward_extents_cm",
+        "facing_rule",
+        "left_rule",
+        "probability"
+      ]
+    },
+    "Documentation\\Phase4C\\correction_measurements.json": {
+      "sha256": "9ced8f1861651fcb9af3f2be93011e9ef67c815b51874a64e758be20719f6278",
+      "keys": [
+        "body_roles_requiring_review",
+        "body_review_roles",
+        "finger_phalange_roles_requiring_review",
+        "finger_chains_requiring_review",
+        "total_required_review_roles_excluding_optional_metacarpals",
+        "actual_corrections_applied",
+        "total_moved_distance_cm",
+        "maximum_moved_distance_cm",
+        "minimal_correction_proven",
+        "real_correction_effort",
+        "correction_framework",
+        "grouped_opportunities",
+        "categories"
+      ]
+    },
+    "Documentation\\Phase4C\\dependency_evidence.json": {
+      "sha256": "91d41be9fc51ea474b279c1bcf110405ab43b24746890370ee669d1de3b4656d",
+      "keys": [
+        "authoring_only",
+        "final_lara_package_created",
+        "runtime_dependency_closure_status",
+        "no_cloud_solve_call_in_phase4c_script",
+        "offline_disconnect_test_performed",
+        "saved_donor_fresh_process_reload",
+        "saved_donor_class",
+        "authoring_package_dependency_edges",
+        "authoring_dependencies_traversal_scope",
+        "phase4c_assets",
+        "commandlet_exit_code",
+        "commandlet_exit_reason"
+      ]
+    },
+    "Documentation\\Phase4C\\donor_extraction.json": {
+      "sha256": "09c10ba76cbc53383e0cf797c0d857eb5c695f806e14fe3b195ed0e841b542e5",
+      "keys": [
+        "posed_dna_exists",
+        "posed_dna_sha256",
+        "source",
+        "joint_count",
+        "mesh_count",
+        "extraction_success",
+        "python_joint_api_code",
+        "python_joint_count",
+        "python_native_joint_max_cm",
+        "assets"
+      ]
+    },
+    "Documentation\\Phase4C\\donor_joints_bodyonly_fullsurface.json": {
+      "sha256": "14cee4930db2feff71218b90386209580241533e64b3f55bac8204d07ac2794b",
+      "keys": [
+        "api",
+        "space",
+        "translation_unit_enum",
+        "rotation_unit_enum",
+        "joints"
+      ]
+    },
+    "Documentation\\Phase4C\\donor_to_lara_mapping.json": {
+      "sha256": "8e385f4dec410b7018d226ab9d25c0bd6b8af35cd6175bd3d86084ae52edef99",
+      "keys": [
+        "proposal_sha256",
+        "transform",
+        "all_donor_joints",
+        "canonical_body_mapping",
+        "missing_roles",
+        "finger_and_toe_names"
+      ]
+    },
+    "Documentation\\Phase4C\\execution_manifest.json": {
+      "sha256": "d574c23051f48e718eb6fb6d3aab5fcb4992633a7c4e5fcdd5a6332c0b17098c",
+      "keys": [
+        "date",
+        "engine",
+        "temporary_namespace",
+        "configuration_changes",
+        "execution_phases",
+        "commandlet_load_flags",
+        "extraction_additional_flags",
+        "rerun_limit",
+        "document_sha256",
+        "evidence_files",
+        "script_hashes",
+        "native_helper_source"
+      ]
+    },
+    "Documentation\\Phase4C\\existing_evidence_index.json": {
+      "sha256": "c0e8495b5f46c35d1ff92910c9a5e8c550120a2627f1546a9766ce14c452ce3c",
+      "keys": [
+        "reports",
+        "phase4b"
+      ]
+    },
+    "Documentation\\Phase4C\\experiment_result.json": {
+      "sha256": "af5f9b96771d4d7a0f50eda562f743fcef2f6814254aeca7b964216dc863f6d5",
+      "keys": [
+        "solve_executed",
+        "public_extraction_proven",
+        "joint_count",
+        "target_height_cm",
+        "body_classification",
+        "finger_classification",
+        "anatomy_passed",
+        "failed_gate_count",
+        "actual_corrections_applied",
+        "minimal_correction_proven",
+        "downstream_authorised",
+        "downstream_assets_created",
+        "protected_file_audit_passed",
+        "proven_for_lara",
+        "likely_reusable",
+        "generalisation"
+      ]
+    },
+    "Documentation\\Phase4C\\finger_validation.json": {
+      "sha256": "cc11757edacdb3a3a12d40e13601a7e21d5afc2bac8c24643ade96c861209e1f",
+      "keys": [
+        "exposed_phalange_joints",
+        "named_chains_exposed",
+        "named_chains_accepted_for_lara",
+        "phalange_roles_requiring_review",
+        "metacarpals_exposed",
+        "palm_centre_missing",
+        "collision_screen_passed",
+        "checks",
+        "classification",
+        "control_evaluation_only"
+      ]
+    },
+    "Documentation\\Phase4C\\geometry_input.json": {
+      "sha256": "55ed7e4670b984d9fd5e3b1ea5b9b549e1c0a77c34e4b93beb884e3c22059432",
+      "keys": [
+        "source",
+        "archive_sha256",
+        "vertices",
+        "triangles",
+        "polygons",
+        "uv_loops",
+        "vertex_sha256",
+        "uv_sha256",
+        "faces_sha256",
+        "raw_world_bounds_cm",
+        "coordinate_semantics",
+        "materials"
+      ]
+    },
+    "Documentation\\Phase4C\\ik_retarget_configuration.json": {
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "keys": [
+        "status",
+        "anatomical_gate_passed",
+        "authorised",
+        "created_assets",
+        "reason"
+      ]
+    },
+    "Documentation\\Phase4C\\input_inventory.json": {
+      "sha256": "dbede9525eb61d284b1654d3ca5af60a1c8a5c559e099188911e3ea31186231f",
+      "keys": [
+        "archive_sha256",
+        "entries"
+      ]
+    },
+    "Documentation\\Phase4C\\manual_control_comparison.json": {
+      "sha256": "ac27f5c0afc0a35180fdf283c58def17de8124515d8786d228064b1123b2d577",
+      "keys": [
+        "comparison",
+        "joint_count",
+        "mean_difference_cm",
+        "max_difference_cm",
+        "canonical_hierarchy_equivalent",
+        "native_hierarchy_equivalent",
+        "native_hierarchy_limit",
+        "joints"
+      ]
+    },
+    "Documentation\\Phase4C\\phase4b_comparison.json": {
+      "sha256": "0a23b8bb2c07b32f9fad6989ed71ec5faebe463c3444a5d9ef63a9d7caa4475e",
+      "keys": [
+        "A_4B_vs_B_4C",
+        "B_4C_vs_C_4A",
+        "A_4B_vs_C_4A",
+        "evaluation_only",
+        "proposal_sha256_before_and_after",
+        "manual_control_is_ground_truth",
+        "frame_identical_to_4B",
+        "bilateral_consistency"
+      ]
+    },
+    "Documentation\\Phase4C\\protected_before.json": {
+      "sha256": "151597dd6a0f031f28b4086bee8266fde70218764eab0a076d1aceda55c1f179",
+      "keys": [
+        "scope",
+        "files"
+      ]
+    },
+    "Documentation\\Phase4C\\protected_file_audit.json": {
+      "sha256": "03d5a947e1e138edb47e1d6cb6380dc05ea40a1dcbdcd991b64ec279830501e4",
+      "keys": [
+        "protected_file_count",
+        "changed",
+        "missing",
+        "new_authored_files_outside_phase4c",
+        "passed",
+        "archive_sha256_after",
+        "archive_sha256_before",
+        "scope",
+        "configuration_byte_identical",
+        "engine_reference_limit",
+        "expected_execution_caches",
+        "git_actions",
+        "archive_byte_identical"
+      ]
+    },
+    "Documentation\\Phase4C\\python_api_probe.json": {
+      "sha256": "c1f0e654a72098c90fac43684efdde21bd4030d9a02310de682efe09bdd1b5f4",
+      "keys": [
+        "engine",
+        "names",
+        "subsystem",
+        "methods",
+        "exports",
+        "template",
+        "params"
+      ]
+    },
+    "Documentation\\Phase4C\\self_review.json": {
+      "sha256": "a0b8e484221b8eb8ecb2d9719afcfe6bb79e613a6bc1a38f475b29ddb8065c57",
+      "keys": [
+        "passed",
+        "workflow",
+        "checks",
+        "visual_inspection",
+        "anatomical_quality"
+      ]
+    },
+    "Documentation\\Phase4C\\semantic_api_inventory.json": {
+      "sha256": "f2789796b722a088d91ffe47d17f55c934c1f33e93ed4ff3a97cea9de01c0a7f",
+      "keys": [
+        "engine",
+        "installed_public_boundaries",
+        "installed_model_resources",
+        "explicit_plugin_loads",
+        "helper_dependencies",
+        "project_configuration_changes",
+        "engine_source_changes",
+        "python_execution",
+        "access",
+        "private_boundary_policy"
+      ]
+    },
+    "Documentation\\Phase4C\\skinning_results.json": {
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "keys": [
+        "status",
+        "anatomical_gate_passed",
+        "authorised",
+        "created_assets",
+        "reason"
+      ]
+    },
+    "Documentation\\Phase4C\\solved_donor_joints.json": {
+      "sha256": "5b8d1f629417e5d9c1d0a26f1bcca62057753d1f00ff862d8ff3a8c1dc3d4316",
+      "keys": [
+        "api",
+        "space",
+        "translation_unit_enum",
+        "rotation_unit_enum",
+        "joints"
+      ]
+    },
+    "Documentation\\Phase4C\\solved_donor_joints_raw.json": {
+      "sha256": "235de99a06c34bda953bf4e4c399b359d9a53d9e02084d3619139a6cdd3e6b01",
+      "keys": [
+        "api",
+        "error_code",
+        "world_translations",
+        "rotations",
+        "name_order_status"
+      ]
+    },
+    "Documentation\\Phase4C\\solve_configuration.json": {
+      "sha256": "5492cf730e40f50a2a1e13cbac14dc8365d20e48ec2e222883d7c68a0b7b4c9e",
+      "keys": [
+        "target_parts_type",
+        "pipeline",
+        "auto_solve",
+        "estimate_body_joints_from_mesh",
+        "face_iterations",
+        "keypoints",
+        "face_tracking_curves",
+        "input_space",
+        "settings"
+      ]
+    },
+    "Documentation\\Phase4C\\solve_configuration_combined.json": {
+      "sha256": "780c1948f7ad05ccf2ebbcb7505c435d08ea2975667108b0164433b19f1814f7",
+      "keys": [
+        "target_parts_type",
+        "pipeline",
+        "auto_solve",
+        "estimate_body_joints_from_mesh",
+        "face_iterations",
+        "keypoints",
+        "face_tracking_curves",
+        "input_space",
+        "settings"
+      ]
+    },
+    "Documentation\\Phase4C\\solve_result.json": {
+      "sha256": "c61210c5f8c2a2b827c64c170eb4bb096a0876a0e9cf52e463ead9c94df1c59b",
+      "keys": [
+        "stage",
+        "solve_success",
+        "temporary_only",
+        "downstream_authorised",
+        "subsystem",
+        "target_mesh",
+        "target_vertex_count",
+        "target_triangles",
+        "character",
+        "config",
+        "solve_seconds"
+      ]
+    },
+    "Documentation\\Phase4C\\solve_result_bodyonly_fullsurface.json": {
+      "sha256": "c61210c5f8c2a2b827c64c170eb4bb096a0876a0e9cf52e463ead9c94df1c59b",
+      "keys": [
+        "stage",
+        "solve_success",
+        "temporary_only",
+        "downstream_authorised",
+        "subsystem",
+        "target_mesh",
+        "target_vertex_count",
+        "target_triangles",
+        "character",
+        "config",
+        "solve_seconds"
+      ]
+    },
+    "Documentation\\Phase4C\\solve_result_combined.json": {
+      "sha256": "078d1f8c053b3994aa8c87a138cf1d2184ca571117af25c917508206178ef12c",
+      "keys": [
+        "stage",
+        "solve_success",
+        "temporary_only",
+        "downstream_authorised",
+        "subsystem",
+        "target_mesh",
+        "target_vertex_count",
+        "target_triangles",
+        "character",
+        "config",
+        "solve_seconds",
+        "posed_dna_exists",
+        "posed_dna_sha256",
+        "joint_read_code",
+        "joint_count"
+      ]
+    },
+    "Documentation\\Phase4C\\source_independent_playback.json": {
+      "sha256": "5de993bd7dcc20c0f2857efc709b5fea3ebbabcc8b5bb1fd23ccf4b1bb55b881",
+      "keys": [
+        "status",
+        "anatomical_gate_passed",
+        "authorised",
+        "created_assets",
+        "reason"
+      ]
+    },
+    "Documentation\\Phase4C\\source_preservation.json": {
+      "sha256": "a590977ce44739151b99a5e30c1c8daf17b442f3a40fdcfdf9e6a658e6ae5a2f",
+      "keys": [
+        "verified_by",
+        "vertices_unchanged",
+        "uv_unchanged",
+        "polygon_topology_unchanged",
+        "armature_count",
+        "vertex_group_count",
+        "material_names",
+        "archive_entries_byte_identical",
+        "passed"
+      ]
+    },
+    "Documentation\\Phase4C\\transform_mapping.json": {
+      "sha256": "272e5175dbe4f38f684084e96cc45e26bdc2340f1dc9ef1d3ee7c2123a71a005",
+      "keys": [
+        "row_vector_forward",
+        "row_vector_inverse",
+        "R",
+        "origin",
+        "scale",
+        "determinant",
+        "round_trip_max_cm",
+        "height_cm",
+        "source_geometry_changed",
+        "donor_mapping_status",
+        "donor_round_trip_max_cm",
+        "ue_target_indexwise_vertex_max_difference_cm",
+        "ue_target_triangle_indices_identical",
+        "basis",
+        "model_offset_policy",
+        "model_pose",
+        "ue_triangle_connectivity_limit"
+      ]
+    },
+    "Documentation\\Phase4C\\web_sources.json": {
+      "sha256": "9c22bae26fcd6d653860f8fcf1cc2812cef50da1ee0ae3b5319534407fedaed8",
+      "keys": [
+        "checked_date",
+        "sources"
+      ]
+    }
+  }
+}

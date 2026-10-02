@@ -1,0 +1,5288 @@
+{
+  "rig": {
+    "path": "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/IK_Lara_UE5.IK_Lara_UE5",
+    "retarget_root": "pelvis",
+    "root_motion_bone": "root",
+    "chains": [
+      {
+        "name": "Spine",
+        "start": "spine_01",
+        "end": "spine_03",
+        "goal": "None"
+      },
+      {
+        "name": "Neck",
+        "start": "neck_01",
+        "end": "neck_01",
+        "goal": "None"
+      },
+      {
+        "name": "Head",
+        "start": "Head",
+        "end": "Head",
+        "goal": "None"
+      },
+      {
+        "name": "LeftLeg",
+        "start": "thigh_l",
+        "end": "ball_l",
+        "goal": "LeftFootIK"
+      },
+      {
+        "name": "LeftFoot",
+        "start": "ball_l",
+        "end": "ball_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftClavicle",
+        "start": "clavicle_l",
+        "end": "clavicle_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftArm",
+        "start": "upperarm_l",
+        "end": "hand_l",
+        "goal": "LeftHandIK"
+      },
+      {
+        "name": "LeftThumb",
+        "start": "thumb_01_l",
+        "end": "thumb_03_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftIndex",
+        "start": "index_01_l",
+        "end": "index_03_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftMiddle",
+        "start": "middle_01_l",
+        "end": "middle_03_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftRing",
+        "start": "ring_01_l",
+        "end": "ring_03_l",
+        "goal": "None"
+      },
+      {
+        "name": "LeftPinky",
+        "start": "pinky_01_l",
+        "end": "pinky_03_l",
+        "goal": "None"
+      },
+      {
+        "name": "RightLeg",
+        "start": "thigh_r",
+        "end": "ball_r",
+        "goal": "RightFootIK"
+      },
+      {
+        "name": "RightFoot",
+        "start": "ball_r",
+        "end": "ball_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightClavicle",
+        "start": "clavicle_r",
+        "end": "clavicle_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightArm",
+        "start": "upperarm_r",
+        "end": "hand_r",
+        "goal": "RightHandIK"
+      },
+      {
+        "name": "RightThumb",
+        "start": "thumb_01_r",
+        "end": "thumb_03_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightIndex",
+        "start": "index_01_r",
+        "end": "index_03_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightMiddle",
+        "start": "middle_01_r",
+        "end": "middle_03_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightRing",
+        "start": "ring_01_r",
+        "end": "ring_03_r",
+        "goal": "None"
+      },
+      {
+        "name": "RightPinky",
+        "start": "pinky_01_r",
+        "end": "pinky_03_r",
+        "goal": "None"
+      },
+      {
+        "name": "Root",
+        "start": "Root",
+        "end": "Root",
+        "goal": "None"
+      }
+    ],
+    "solvers": [
+      {
+        "index": 0,
+        "enabled": true,
+        "start": "pelvis",
+        "controller": {
+          "type": "IKRigFBIKController",
+          "text": "<Object '/Engine/Transient.IKRigController_0:IKRigFBIKController_0' (0x000001A75304B880) Class 'IKRigFBIKController'>"
+        },
+        "settings": null
+      }
+    ],
+    "goals": [
+      {
+        "type": "IKRigEffectorGoal",
+        "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/IK_Lara_UE5.IK_Lara_UE5:IKRigEffectorGoal_0' (0x000001A6D7DDADC0) Class 'IKRigEffectorGoal'>",
+        "bone_name": "foot_l",
+        "current_transform": "<Struct 'Transform' (0x000001A6D7DDAE10) {rotation: {x: 0.322005, y: 0.322001, z: 0.870161, w: 0.188277}, translation: {x: 17.226605, y: -0.351523, z: 13.710915}, scale3d: {x: 0.999995, y: 1.000000, z: 0.999998}}>",
+        "expose_position": "False",
+        "expose_rotation": "False",
+        "goal_name": "LeftFootIK",
+        "initial_transform": "<Struct 'Transform' (0x000001A6D7DDAE70) {rotation: {x: 0.322005, y: 0.322001, z: 0.870161, w: 0.188277}, translation: {x: 17.226605, y: -0.351523, z: 13.710915}, scale3d: {x: 0.999995, y: 1.000000, z: 0.999998}}>",
+        "position_alpha": "1.0",
+        "preview_mode": "<IKRigGoalPreviewMode.ADDITIVE: 0>",
+        "rotation_alpha": "1.0",
+        "size_multiplier": "1.0",
+        "thickness_multiplier": "0.699999988079071"
+      },
+      {
+        "type": "IKRigEffectorGoal",
+        "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/IK_Lara_UE5.IK_Lara_UE5:IKRigEffectorGoal_1' (0x000001A6D7DDA280) Class 'IKRigEffectorGoal'>",
+        "bone_name": "hand_l",
+        "current_transform": "<Struct 'Transform' (0x000001A6D7DDA2D0) {rotation: {x: -0.416574, y: -0.416575, z: -0.650700, w: -0.479084}, translation: {x: 31.075372, y: 5.508740, z: 99.761776}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000001}}>",
+        "expose_position": "False",
+        "expose_rotation": "False",
+        "goal_name": "LeftHandIK",
+        "initial_transform": "<Struct 'Transform' (0x000001A6D7DDA330) {rotation: {x: -0.416574, y: -0.416575, z: -0.650700, w: -0.479084}, translation: {x: 31.075372, y: 5.508740, z: 99.761776}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000001}}>",
+        "position_alpha": "1.0",
+        "preview_mode": "<IKRigGoalPreviewMode.ADDITIVE: 0>",
+        "rotation_alpha": "1.0",
+        "size_multiplier": "1.0",
+        "thickness_multiplier": "0.699999988079071"
+      },
+      {
+        "type": "IKRigEffectorGoal",
+        "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/IK_Lara_UE5.IK_Lara_UE5:IKRigEffectorGoal_2' (0x000001A6D7DD2580) Class 'IKRigEffectorGoal'>",
+        "bone_name": "foot_r",
+        "current_transform": "<Struct 'Transform' (0x000001A6D7DD25D0) {rotation: {x: 0.352343, y: 0.352339, z: 0.863668, w: 0.076083}, translation: {x: -16.523442, y: -1.054659, z: 13.710926}, scale3d: {x: 0.999990, y: 0.999999, z: 0.999997}}>",
+        "expose_position": "False",
+        "expose_rotation": "False",
+        "goal_name": "RightFootIK",
+        "initial_transform": "<Struct 'Transform' (0x000001A6D7DD2630) {rotation: {x: 0.352343, y: 0.352339, z: 0.863668, w: 0.076083}, translation: {x: -16.523442, y: -1.054659, z: 13.710926}, scale3d: {x: 0.999990, y: 0.999999, z: 0.999997}}>",
+        "position_alpha": "1.0",
+        "preview_mode": "<IKRigGoalPreviewMode.ADDITIVE: 0>",
+        "rotation_alpha": "1.0",
+        "size_multiplier": "1.0",
+        "thickness_multiplier": "0.699999988079071"
+      },
+      {
+        "type": "IKRigEffectorGoal",
+        "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/IK_Lara_UE5.IK_Lara_UE5:IKRigEffectorGoal_3' (0x000001A6D7DD5140) Class 'IKRigEffectorGoal'>",
+        "bone_name": "hand_r",
+        "current_transform": "<Struct 'Transform' (0x000001A6D7DD5190) {rotation: {x: 0.553931, y: 0.553930, z: 0.538803, w: 0.309860}, translation: {x: -31.331823, y: 5.303500, z: 99.590233}, scale3d: {x: 1.000000, y: 0.999999, z: 1.000000}}>",
+        "expose_position": "False",
+        "expose_rotation": "False",
+        "goal_name": "RightHandIK",
+        "initial_transform": "<Struct 'Transform' (0x000001A6D7DD51F0) {rotation: {x: 0.553931, y: 0.553930, z: 0.538803, w: 0.309860}, translation: {x: -31.331823, y: 5.303500, z: 99.590233}, scale3d: {x: 1.000000, y: 0.999999, z: 1.000000}}>",
+        "position_alpha": "1.0",
+        "preview_mode": "<IKRigGoalPreviewMode.ADDITIVE: 0>",
+        "rotation_alpha": "1.0",
+        "size_multiplier": "1.0",
+        "thickness_multiplier": "0.699999988079071"
+      }
+    ]
+  },
+  "skeleton_doc": "IKRig Definition\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: IKRig\r\n- **Module**: IKRig\r\n- **File**: IKRigDefinition.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``draw_goals`` (bool):  [Read-Write] Draw bones in the viewport.\r\n- ``goal_size`` (float):  [Read-Write] The size of the Goals in the editor viewport.\r\n- ``goal_thickness`` (float):  [Read-Write] The thickness of the Goals in the editor viewport.\r\n- ``preview_skeletal_mesh`` (SkeletalMesh):  [Read-Write] The skeletal mesh to run the IK solve on (loaded into viewport).\r\n  NOTE: you can assign ANY Skeletal Mesh to apply the IK Rig to. Compatibility is determined when a new mesh is assigned\r\n  by comparing it's hierarchy with the goals, solvers and bone settings required by the rig. See output log for details.\r\n- ``solvers`` (Array[IKRigSolver]):  [Read-Write]\r\n  deprecated: The pre 5.6 stack of UObject based solvers. Use SolverStack instead.",
+  "solver_methods": {
+    "get_bone_settings": "x.get_bone_settings(bone_name) -> IKRigFBIKBoneSettings\r\nGet the settings associated with a particular bone.\nNote that you must AddBoneSettings() using the IK Rig controller before a bone will have settings on it.\r\n\r\nArgs:\r\n    bone_name (Name): the name of the bone to get settings for\r\n\r\nReturns:\r\n    IKRigFBIKBoneSettings: FIKRigFBIKBoneSettings struct holding all the settings for the specified bone (or empty if the bone did not have settings)",
+    "get_goal_settings": "x.get_goal_settings(goal_name) -> IKRigFBIKGoalSettings\r\nGet the settings for the specified goal.\r\n\r\nArgs:\r\n    goal_name (Name): the name of the goal to get settings for\r\n\r\nReturns:\r\n    IKRigFBIKGoalSettings: FIKRigFBIKGoalSettings struct (empty if the specified goal does not belong to this solver)",
+    "get_solver_settings": "x.get_solver_settings() -> IKRigFBIKSettings\r\nGet the current solver settings as a struct.\r\n\r\nReturns:\r\n    IKRigFBIKSettings: FIKRigFBIKSettings struct with the current settings used by the solver.",
+    "set_bone_settings": "x.set_bone_settings(bone_name, settings) -> None\r\nApply settings to a given bone\r\n\r\nArgs:\r\n    bone_name (Name): the name of the bone to apply the settings to\r\n    settings (IKRigFBIKBoneSettings): a FIKRigFBIKBoneSettings struct containing the settings",
+    "set_goal_settings": "x.set_goal_settings(goal_name, settings) -> None\r\nSet the settings for the specified goal.\r\n\r\nArgs:\r\n    goal_name (Name): \r\n    settings (IKRigFBIKGoalSettings):",
+    "set_solver_settings": "x.set_solver_settings(settings) -> None\r\nSet the solver settings. Input is a custom struct type for this solver.\r\n\r\nArgs:\r\n    settings (IKRigFBIKSettings): a FIKRigFBIKSettings struct containing all the settings to apply to this solver"
+  },
+  "solver_settings": {
+    "type": "IKRigFBIKSettings",
+    "text": "<Struct 'IKRigFBIKSettings' (0x000001A7531D2E40) {root_bone: \"pelvis\", iterations: 20, sub_iterations: 10, mass_multiplier: 1.000000, allow_stretch: False, root_behavior: Free, pre_pull_root_settings: {rotation_alpha: 0.000000, rotation_alpha_x: 1.000000, rotation_alpha_y: 1.000000, rotation_alpha_z: 1.000000, position_alpha: 1.000000, position_alpha_x: 1.000000, position_alpha_y: 1.000000, position_alpha_z: 1.000000}, global_pull_chain_alpha: 0.000000, max_angle: 30.000000, over_relaxation: 1.300000}>",
+    "allow_stretch": "False",
+    "global_pull_chain_alpha": "0.0",
+    "iterations": "20",
+    "mass_multiplier": "1.0",
+    "max_angle": "30.0",
+    "over_relaxation": "1.2999999523162842",
+    "pre_pull_root_settings": "<Struct 'RootPrePullSettings' (0x000001A7531D2E64) {rotation_alpha: 0.000000, rotation_alpha_x: 1.000000, rotation_alpha_y: 1.000000, rotation_alpha_z: 1.000000, position_alpha: 1.000000, position_alpha_x: 1.000000, position_alpha_y: 1.000000, position_alpha_z: 1.000000}>",
+    "root_behavior": "<PBIKRootBehavior.FREE: 2>",
+    "root_bone": "pelvis",
+    "sub_iterations": "10"
+  },
+  "UE5_import": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton",
+    "bounds": {
+      "origin": [
+        0.0,
+        -4.291534423828125e-06,
+        49.97558727622163
+      ],
+      "extent": [
+        19.99512481689453,
+        10.424803256988525,
+        49.975569339989306
+      ],
+      "height_cm": 99.95113867997861
+    },
+    "bones": {
+      "root": {
+        "local": {
+          "translation": [
+            0.5856567993760108,
+            1.75695642828946,
+            -1.0236950880906239e-06
+          ],
+          "rotation_xyzw": [
+            0.5000000188744687,
+            0.4999999433765738,
+            -0.49999995926982704,
+            -0.5000000784791192
+          ],
+          "scale": [
+            99.99999999999997,
+            100.00000000000001,
+            100.00000000000001
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856567993760108,
+            1.75695642828946,
+            -1.0236950880906239e-06
+          ],
+          "rotation_xyzw": [
+            0.5000000188744687,
+            0.4999999433765738,
+            -0.49999995926982704,
+            -0.5000000784791192
+          ],
+          "scale": [
+            99.99999999999997,
+            100.00000000000001,
+            100.00000000000001
+          ]
+        }
+      },
+      "pelvis": {
+        "local": {
+          "translation": [
+            -5.365735078477485e-10,
+            -0.5641775131225586,
+            -4.2650682985367894e-10
+          ],
+          "rotation_xyzw": [
+            -0.0028850239060417356,
+            -0.05363474600196925,
+            0.0536348586826663,
+            -0.9971149846394127
+          ],
+          "scale": [
+            0.9999998807907102,
+            0.9999998807907102,
+            0.9999999999999999
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856611014484051,
+            1.7569539085329464,
+            56.417750288560555
+          ],
+          "rotation_xyzw": [
+            -0.49711494347237534,
+            -0.49711497716759656,
+            0.44636515593283993,
+            0.5536348797006638
+          ],
+          "scale": [
+            99.99998807907099,
+            99.99998807907103,
+            100.0
+          ]
+        }
+      },
+      "spine_01": {
+        "local": {
+          "translation": [
+            0.0007209926261566579,
+            -0.043118707835674286,
+            7.778918370604428e-05
+          ],
+          "rotation_xyzw": [
+            0.0020222074838666354,
+            0.024350730092111826,
+            -0.024273832738315227,
+            -0.9994066908246441
+          ],
+          "scale": [
+            1.00000011920929,
+            1.0000000000000002,
+            0.9999999403953553
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856614399674113,
+            1.3665198650096548,
+            60.71251981591694
+          ],
+          "rotation_xyzw": [
+            0.49913713358510065,
+            0.499137205784905,
+            -0.4706390060442977,
+            -0.5293610277186284
+          ],
+          "scale": [
+            99.99999999999856,
+            99.99998807907106,
+            99.99999403953554
+          ]
+        }
+      },
+      "spine_02": {
+        "local": {
+          "translation": [
+            -2.182787277316134e-09,
+            -0.0664886012673378,
+            -9.895302346615842e-10
+          ],
+          "rotation_xyzw": [
+            -1.7690239252800748e-09,
+            -7.559719984319848e-09,
+            -1.49744074801829e-08,
+            -0.9999999999999999
+          ],
+          "scale": [
+            0.9999998807907107,
+            0.9999998807907108,
+            1.0000002384185793
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856619749018542,
+            0.9760846873545375,
+            67.34990565802893
+          ],
+          "rotation_xyzw": [
+            -0.4991371436808313,
+            -0.4991371934762293,
+            0.4706390110808141,
+            0.5293610253274111
+          ],
+          "scale": [
+            99.99998807906964,
+            99.99997615814355,
+            100.00001788139205
+          ]
+        }
+      },
+      "spine_03": {
+        "local": {
+          "translation": [
+            5.005858838558197e-09,
+            -0.06648869812488545,
+            -5.529727786779404e-10
+          ],
+          "rotation_xyzw": [
+            -0.0017055634198263143,
+            -0.021316573335682657,
+            0.02125310928516324,
+            -0.9995453967181073
+          ],
+          "scale": [
+            1.0000001192092893,
+            0.9999999999999998,
+            1.0000002384185789
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856625436461113,
+            0.5856499034801366,
+            73.98730043182398
+          ],
+          "rotation_xyzw": [
+            0.4974315691696166,
+            0.49743163253420664,
+            -0.4493859059300327,
+            -0.5506141230473943
+          ],
+          "scale": [
+            99.99999999999714,
+            99.99997615814353,
+            100.0000417232542
+          ]
+        }
+      },
+      "clavicle_l": {
+        "local": {
+          "translation": [
+            0.0013291066279634695,
+            -0.06293889135122299,
+            -0.027336278930306435
+          ],
+          "rotation_xyzw": [
+            -0.8284886701302763,
+            -0.014037862930831473,
+            -0.07018911752134914,
+            -0.5554124140237376
+          ],
+          "scale": [
+            0.9999999999999999,
+            1.000000238418579,
+            1.0000003576278687
+          ]
+        },
+        "component": {
+          "translation": [
+            3.3187042388174866,
+            -0.19521959195476013,
+            80.23423091145675
+          ],
+          "rotation_xyzw": [
+            0.13867518884909813,
+            0.13867515619606435,
+            0.6933752257658575,
+            0.6933752154106827
+          ],
+          "scale": [
+            99.99999999999713,
+            99.99999999999575,
+            100.00007748605599
+          ]
+        }
+      },
+      "upperarm_l": {
+        "local": {
+          "translation": [
+            9.823715174661629e-09,
+            -0.05075645446777349,
+            2.2343922267964444e-08
+          ],
+          "rotation_xyzw": [
+            -0.39228101392893894,
+            -0.0035744240298988543,
+            -0.017872605207078333,
+            -0.9196648300260536
+          ],
+          "scale": [
+            1.0,
+            0.9999998211860658,
+            0.9999999403953554
+          ]
+        },
+        "component": {
+          "translation": [
+            8.003915584611542,
+            -0.19521849073012598,
+            78.28205997974077
+          ],
+          "rotation_xyzw": [
+            -0.3995326957662439,
+            -0.3995325306779107,
+            -0.5961612836816688,
+            -0.5703850504552934
+          ],
+          "scale": [
+            99.99999999999713,
+            99.99998211860233,
+            100.00007152558692
+          ]
+        }
+      },
+      "lowerarm_l": {
+        "local": {
+          "translation": [
+            4.656612855730158e-10,
+            -0.12984511256217957,
+            -3.202876541763544e-08
+          ],
+          "rotation_xyzw": [
+            0.02484091081617873,
+            -0.0710120378818799,
+            -0.1028681356770363,
+            -0.9918459387868744
+          ],
+          "scale": [
+            0.9999999403953553,
+            1.0000000000000004,
+            0.9999999403953553
+          ]
+        },
+        "component": {
+          "translation": [
+            12.689117496992658,
+            0.19521661412976377,
+            66.17859288403676
+          ],
+          "rotation_xyzw": [
+            0.38087053645173147,
+            0.3808705499408283,
+            0.6882709777295555,
+            0.48596123288380083
+          ],
+          "scale": [
+            99.99999403953267,
+            99.99998211860238,
+            100.00006556511819
+          ]
+        }
+      },
+      "hand_l": {
+        "local": {
+          "translation": [
+            1.4901161193847656e-08,
+            -0.12054685503244394,
+            -8.568167680911287e-08
+          ],
+          "rotation_xyzw": [
+            -0.05885403549421156,
+            0.018913499886982595,
+            0.013524479869172197,
+            -0.9979957767808136
+          ],
+          "scale": [
+            1.0000000000000002,
+            1.0000000000000004,
+            1.0000001192092896
+          ]
+        },
+        "component": {
+          "translation": [
+            17.255680108422336,
+            3.058910526554365,
+            55.39614632932657
+          ],
+          "rotation_xyzw": [
+            -0.416574503502091,
+            -0.4165745730738401,
+            -0.6506997924305106,
+            -0.47908359211230084
+          ],
+          "scale": [
+            99.9999940395327,
+            99.99998211860242,
+            100.00007748605496
+          ]
+        }
+      },
+      "index_01_l": {
+        "local": {
+          "translation": [
+            0.014662645757198334,
+            -0.061828609555959646,
+            -0.0010022986680269241
+          ],
+          "rotation_xyzw": [
+            -0.1620885835569034,
+            0.06135754237370833,
+            0.04981515956517339,
+            -0.983606116772294
+          ],
+          "scale": [
+            0.9999998211860653,
+            0.9999999403953549,
+            0.9999998807907101
+          ]
+        },
+        "component": {
+          "translation": [
+            18.586050393989055,
+            5.666448312230555,
+            49.755348946335914
+          ],
+          "rotation_xyzw": [
+            0.5065728218450252,
+            0.5065726394022292,
+            0.523084700185185,
+            0.4616822864364663
+          ],
+          "scale": [
+            99.9999761581403,
+            99.99997615813898,
+            100.00006556511674
+          ]
+        }
+      },
+      "index_02_l": {
+        "local": {
+          "translation": [
+            8.381903171539307e-09,
+            -0.01760134100914007,
+            4.936009645462036e-08
+          ],
+          "rotation_xyzw": [
+            -0.019882658990464097,
+            0.013672587555282625,
+            0.012084710537480543,
+            -0.9996357836693509
+          ],
+          "scale": [
+            0.9999998807907103,
+            0.9999996423721313,
+            0.9999998211860655
+          ]
+        },
+        "component": {
+          "translation": [
+            18.532839417883935,
+            5.772879906113491,
+            47.99924203507025
+          ],
+          "rotation_xyzw": [
+            -0.5165979288625275,
+            -0.5165978465253362,
+            -0.5003167151002615,
+            -0.46468960549125327
+          ],
+          "scale": [
+            99.99996423721417,
+            99.99994039536064,
+            100.00004768371156
+          ]
+        }
+      },
+      "index_03_l": {
+        "local": {
+          "translation": [
+            7.916241898109355e-09,
+            -0.01547813974320894,
+            -1.7927959533592386e-08
+          ],
+          "rotation_xyzw": [
+            8.381902279783232e-09,
+            6.984918103983343e-10,
+            -5.122273266352126e-09,
+            -1.0
+          ],
+          "scale": [
+            1.00000011920929,
+            1.0000002384185793,
+            1.0000000000000002
+          ]
+        },
+        "component": {
+          "translation": [
+            18.426405641975823,
+            5.8260951725220895,
+            46.456009962456235
+          ],
+          "rotation_xyzw": [
+            0.5165979279631671,
+            0.5165978393609928,
+            0.5003167214497619,
+            0.46468960761940703
+          ],
+          "scale": [
+            99.9999761581389,
+            99.99996423720437,
+            100.00004768371159
+          ]
+        }
+      },
+      "middle_01_l": {
+        "local": {
+          "translation": [
+            0.0015726275742053986,
+            -0.06157433241605753,
+            0.0025948854163289625
+          ],
+          "rotation_xyzw": [
+            -0.22253257361762968,
+            0.11991795979734236,
+            0.11677523417129226,
+            -0.9604491039515823
+          ],
+          "scale": [
+            0.9999998807907101,
+            0.9999998211860652,
+            0.9999998807907103
+          ]
+        },
+        "component": {
+          "translation": [
+            19.171418471030808,
+            4.442502575548449,
+            49.702144563148906
+          ],
+          "rotation_xyzw": [
+            0.5360953115767049,
+            0.5360954331575589,
+            0.4263627575114781,
+            0.4933744039371061
+          ],
+          "scale": [
+            99.99998211860442,
+            99.99996423721214,
+            100.00006556511676
+          ]
+        }
+      },
+      "middle_02_l": {
+        "local": {
+          "translation": [
+            1.8626451499248464e-08,
+            -0.01726827397942543,
+            1.4668330536315999e-08
+          ],
+          "rotation_xyzw": [
+            -0.017949022297767576,
+            0.0011766588637567384,
+            0.0021311254251883552,
+            -0.9998359397305614
+          ],
+          "scale": [
+            1.0,
+            1.00000011920929,
+            0.999999940395355
+          ]
+        },
+        "component": {
+          "translation": [
+            18.90534442512028,
+            4.336074409160689,
+            47.999262189953825
+          ],
+          "rotation_xyzw": [
+            -0.5442221447227299,
+            -0.5442222288211436,
+            -0.4149881754025731,
+            -0.4852105080543736
+          ],
+          "scale": [
+            99.99998211860442,
+            99.99997615813687,
+            100.00005960464834
+          ]
+        }
+      },
+      "middle_03_l": {
+        "local": {
+          "translation": [
+            3.725290298461914e-09,
+            -0.016836464405059814,
+            3.026798368888084e-08
+          ],
+          "rotation_xyzw": [
+            -4.448229671498238e-07,
+            -7.078051053172721e-08,
+            -8.428468284112878e-08,
+            -0.999999999999895
+          ],
+          "scale": [
+            1.0000002384185798,
+            0.9999999403953556,
+            1.0000000000000002
+          ]
+        },
+        "component": {
+          "translation": [
+            18.586056856119132,
+            4.229644307131439,
+            46.34959796150391
+          ],
+          "rotation_xyzw": [
+            0.5442223770519735,
+            0.5442224018912145,
+            0.41498801273611796,
+            0.4852101924743395
+          ],
+          "scale": [
+            100.00000596045814,
+            99.99997019767385,
+            100.00005960464837
+          ]
+        }
+      },
+      "pinky_01_l": {
+        "local": {
+          "translation": [
+            -0.021240582689642892,
+            -0.05189488455653185,
+            -0.004350039642304182
+          ],
+          "rotation_xyzw": [
+            -0.14737037281477763,
+            0.20666386849542717,
+            0.24988761069845106,
+            -0.9344132922290638
+          ],
+          "scale": [
+            0.999999701976776,
+            0.9999999403953552,
+            0.9999998807907107
+          ]
+        },
+        "component": {
+          "translation": [
+            18.692480875398605,
+            1.941397563042695,
+            50.07464270094949
+          ],
+          "rotation_xyzw": [
+            0.4902347924448207,
+            0.4902342281652441,
+            0.34082383259063503,
+            0.6349640658730561
+          ],
+          "scale": [
+            99.99996423721207,
+            99.999976158139,
+            100.0000655651168
+          ]
+        }
+      },
+      "pinky_02_l": {
+        "local": {
+          "translation": [
+            6.519258008430562e-09,
+            -0.011124321259558145,
+            4.889443516731262e-08
+          ],
+          "rotation_xyzw": [
+            -0.11375283564092349,
+            -0.0418095726208373,
+            -0.0074833513509545875,
+            -0.9926007512960436
+          ],
+          "scale": [
+            0.9999998211860663,
+            0.9999996423721318,
+            0.9999998807907108
+          ]
+        },
+        "component": {
+          "translation": [
+            18.639269250389244,
+            1.622108862061764,
+            49.01034580008761
+          ],
+          "rotation_xyzw": [
+            -0.5482552825093536,
+            -0.5482555176264642,
+            -0.3077846250631669,
+            -0.5514532230093986
+          ],
+          "scale": [
+            99.9999463558251,
+            99.99994039536071,
+            100.00005364418006
+          ]
+        }
+      },
+      "pinky_03_l": {
+        "local": {
+          "translation": [
+            2.048909668317389e-08,
+            -0.010166667401790619,
+            -1.862645149230957e-09
+          ],
+          "rotation_xyzw": [
+            -7.180494780436778e-07,
+            7.450579485488513e-08,
+            -5.587935600321923e-09,
+            -0.9999999999997394
+          ],
+          "scale": [
+            0.999999940395355,
+            1.000000238418579,
+            1.0000003576278687
+          ]
+        },
+        "component": {
+          "translation": [
+            18.37319748411433,
+            1.4092519186909036,
+            48.052479543619334
+          ],
+          "rotation_xyzw": [
+            0.5482557044752643,
+            0.5482556944808348,
+            0.3077841936217879,
+            0.551452868463168
+          ],
+          "scale": [
+            99.9999403953638,
+            99.99996423720441,
+            100.0000894069861
+          ]
+        }
+      },
+      "ring_01_l": {
+        "local": {
+          "translation": [
+            -0.010904677212238312,
+            -0.057198032736778204,
+            0.00017916597425932101
+          ],
+          "rotation_xyzw": [
+            -0.1769858845518605,
+            0.14884518584975143,
+            0.1653835822239662,
+            -0.9587332152635148
+          ],
+          "scale": [
+            0.999999701976776,
+            0.999999761581421,
+            0.9999998211860659
+          ]
+        },
+        "component": {
+          "translation": [
+            19.064987887255473,
+            3.1121283670072244,
+            49.86178532497239
+          ],
+          "rotation_xyzw": [
+            0.5121337828419833,
+            0.5121338555279588,
+            0.4088820148286234,
+            0.5552057280357564
+          ],
+          "scale": [
+            99.99996423721207,
+            99.99995827674879,
+            100.0000596046477
+          ]
+        }
+      },
+      "ring_02_l": {
+        "local": {
+          "translation": [
+            1.490116120078655e-08,
+            -0.01508902944624424,
+            1.0989606380462646e-07
+          ],
+          "rotation_xyzw": [
+            -0.07514141625482688,
+            0.0061499989727714305,
+            0.016523210843332033,
+            -0.9970170151904533
+          ],
+          "scale": [
+            0.9999998807907103,
+            0.9999998807907106,
+            0.9999998807907107
+          ]
+        },
+        "component": {
+          "translation": [
+            18.958568790215473,
+            2.899268878448414,
+            48.3717678719084
+          ],
+          "rotation_xyzw": [
+            -0.5463775685609927,
+            -0.5463777215086087,
+            -0.35685645922891684,
+            -0.524972766454642
+          ],
+          "scale": [
+            99.99995231628736,
+            99.99994635582482,
+            100.00004768371167
+          ]
+        }
+      },
+      "ring_03_l": {
+        "local": {
+          "translation": [
+            1.4901161186908762e-08,
+            -0.014358237385749817,
+            -4.842877390776046e-08
+          ],
+          "rotation_xyzw": [
+            9.313227609279597e-07,
+            6.984920745288734e-08,
+            -5.876646500886105e-07,
+            -0.9999999999993912
+          ],
+          "scale": [
+            0.9999998211860661,
+            0.999999880790711,
+            0.9999998211860658
+          ]
+        },
+        "component": {
+          "translation": [
+            18.63927002899486,
+            2.6864104034143805,
+            46.98817574735537
+          ],
+          "rotation_xyzw": [
+            0.5463774256545872,
+            0.5463770314040189,
+            0.35685723842660466,
+            0.5249731037603126
+          ],
+          "scale": [
+            99.9999344349025,
+            99.99993443490231,
+            100.00002980230973
+          ]
+        }
+      },
+      "thumb_01_l": {
+        "local": {
+          "translation": [
+            0.013184022158384295,
+            -0.026065006852149908,
+            -0.00946118496358389
+          ],
+          "rotation_xyzw": [
+            -0.07721252123499998,
+            -0.2593314444414315,
+            -0.36756915162749043,
+            -0.8897630849053597
+          ],
+          "scale": [
+            0.9999997019767758,
+            0.99999988079071,
+            0.9999997615814205
+          ]
+        },
+        "component": {
+          "translation": [
+            16.829959015600416,
+            4.70857685921256,
+            52.84183003601687
+          ],
+          "rotation_xyzw": [
+            0.39201691270384154,
+            0.39201635188073,
+            0.8309310988128619,
+            0.04689807072708854
+          ],
+          "scale": [
+            99.99996423721205,
+            99.99997019767555,
+            100.00005364417854
+          ]
+        }
+      },
+      "thumb_02_l": {
+        "local": {
+          "translation": [
+            -5.029141902923584e-08,
+            -0.020876392722129766,
+            7.450580596923828e-08
+          ],
+          "rotation_xyzw": [
+            -0.11384973883859062,
+            0.21269682042675733,
+            0.12429383948453336,
+            -0.9624704364358032
+          ],
+          "scale": [
+            0.9999997615814208,
+            0.9999997019767758,
+            0.9999998211860655
+          ]
+        },
+        "component": {
+          "translation": [
+            16.351030002448923,
+            6.14539158667759,
+            51.40501913246827
+          ],
+          "rotation_xyzw": [
+            -0.510655207359827,
+            -0.5106556545723577,
+            -0.6659057658797107,
+            -0.18716723168793606
+          ],
+          "scale": [
+            99.99994039536266,
+            99.99994039536202,
+            100.00003576277548
+          ]
+        }
+      },
+      "thumb_03_l": {
+        "local": {
+          "translation": [
+            -2.2351741790771484e-08,
+            -0.01954516582190985,
+            -5.587935447692871e-09
+          ],
+          "rotation_xyzw": [
+            -1.0244548277381256e-08,
+            -2.859160385429084e-07,
+            -7.953495894796668e-07,
+            -0.999999999999643
+          ],
+          "scale": [
+            0.9999999403953552,
+            0.9999999403953549,
+            1.0000001192092896
+          ]
+        },
+        "component": {
+          "translation": [
+            15.818881433178726,
+            6.943610676359361,
+            49.70214077474505
+          ],
+          "rotation_xyzw": [
+            0.5106554250337151,
+            0.5106553087587832,
+            0.6659060555159313,
+            0.18716655082391795
+          ],
+          "scale": [
+            99.99993443490173,
+            99.99993443490106,
+            100.0000476837087
+          ]
+        }
+      },
+      "lowerarm_twist_01_l": {
+        "local": {
+          "translation": [
+            9.313225746154785e-09,
+            -0.06256328523159016,
+            -3.4691765904426575e-08
+          ],
+          "rotation_xyzw": [
+            5.5879333035754265e-09,
+            -3.725289941108971e-09,
+            -2.0489093081888368e-08,
+            -0.9999999999999998
+          ],
+          "scale": [
+            1.0000001192092898,
+            1.000000357627869,
+            1.0000001192092898
+          ]
+        },
+        "component": {
+          "translation": [
+            15.059144155943262,
+            1.6814614061248787,
+            60.58255118961639
+          ],
+          "rotation_xyzw": [
+            -0.38087053897589557,
+            -0.3808705401014705,
+            -0.6882709912335927,
+            -0.48596121949117854
+          ],
+          "scale": [
+            100.00000596046094,
+            100.00001788138289,
+            100.00007748605499
+          ]
+        }
+      },
+      "upperarm_twist_01_l": {
+        "local": {
+          "translation": [
+            5.820766091346741e-10,
+            -0.0021398633252830424,
+            -2.805609256029129e-08
+          ],
+          "rotation_xyzw": [
+            -1.70839487155432e-08,
+            -1.6554258762546244e-07,
+            9.313225716678562e-10,
+            -0.9999999999999861
+          ],
+          "scale": [
+            0.9999999999999998,
+            0.9999999999999999,
+            1.0
+          ]
+        },
+        "component": {
+          "translation": [
+            8.08112571700826,
+            -0.18878407177836318,
+            78.08259236871335
+          ],
+          "rotation_xyzw": [
+            0.39953260644849203,
+            0.399532635657805,
+            0.596161342464531,
+            0.5703849780452589
+          ],
+          "scale": [
+            99.9999999999971,
+            99.99998211860232,
+            100.00007152558692
+          ]
+        }
+      },
+      "clavicle_r": {
+        "local": {
+          "translation": [
+            -0.004204099997878102,
+            -0.06293889135122299,
+            0.02704374305903911
+          ],
+          "rotation_xyzw": [
+            0.8313379583071744,
+            0.07018925672885867,
+            0.014037470000111033,
+            -0.55113847330186
+          ],
+          "scale": [
+            1.0000000000000002,
+            1.0,
+            0.9999998807907107
+          ]
+        },
+        "component": {
+          "translation": [
+            -2.1473781195041752,
+            -0.19521884340011608,
+            80.23423130604459
+          ],
+          "rotation_xyzw": [
+            -0.6933753521331482,
+            -0.6933751488252834,
+            -0.13867481279117044,
+            -0.13867523334425283
+          ],
+          "scale": [
+            99.99999999999717,
+            99.99997615814353,
+            100.0000298023203
+          ]
+        }
+      },
+      "upperarm_r": {
+        "local": {
+          "translation": [
+            1.1076386030595131e-08,
+            -0.050756402313709315,
+            1.2503019064524779e-08
+          ],
+          "rotation_xyzw": [
+            0.3798621552990053,
+            -0.0263242445801437,
+            -0.005264861305380234,
+            -0.9246534801504368
+          ],
+          "scale": [
+            1.0000000000000004,
+            0.9999998807907106,
+            0.9999999403953554
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.832583035336847,
+            -0.19521689677508514,
+            78.28206164880886
+          ],
+          "rotation_xyzw": [
+            0.5884544736778519,
+            0.5884544268367976,
+            0.41059581494555175,
+            0.3726309121555763
+          ],
+          "scale": [
+            99.99999999999721,
+            99.99996423721743,
+            100.00002384185407
+          ]
+        }
+      },
+      "lowerarm_r": {
+        "local": {
+          "translation": [
+            -7.799826555465739e-09,
+            -0.13130441308021557,
+            1.8189894035458565e-08
+          ],
+          "rotation_xyzw": [
+            -0.014972598436508378,
+            -0.15094955288104256,
+            -0.10093923269032855,
+            -0.9832605580846617
+          ],
+          "scale": [
+            0.999999821186066,
+            1.0000000000000004,
+            0.9999998807907107
+          ]
+        },
+        "component": {
+          "translation": [
+            -11.908228998068981,
+            0.19521832390277316,
+            66.17860164653125
+          ],
+          "rotation_xyzw": [
+            -0.581602210845911,
+            -0.5816020409291358,
+            -0.5213519963615787,
+            -0.22731042698479428
+          ],
+          "scale": [
+            99.99998211860381,
+            99.99996423721747,
+            100.0000119209223
+          ]
+        }
+      },
+      "hand_r": {
+        "local": {
+          "translation": [
+            -4.284083843231201e-08,
+            -0.12490949779748917,
+            -1.0617077350616455e-07
+          ],
+          "rotation_xyzw": [
+            0.07887746293368289,
+            0.029724890665240762,
+            0.03907058989084938,
+            -0.9956747790928854
+          ],
+          "scale": [
+            0.9999999403953554,
+            0.9999998211860656,
+            0.999999821186066
+          ]
+        },
+        "component": {
+          "translation": [
+            -17.398064922670876,
+            2.944943391723116,
+            55.300898379030876
+          ],
+          "rotation_xyzw": [
+            0.5539305792941331,
+            0.5539303247240562,
+            0.5388031126337981,
+            0.3098601531176592
+          ],
+          "scale": [
+            99.99997615814043,
+            99.99994635583042,
+            99.99999403952677
+          ]
+        }
+      },
+      "index_01_r": {
+        "local": {
+          "translation": [
+            0.014809641987085342,
+            -0.06032568961381907,
+            0.011078950017690659
+          ],
+          "rotation_xyzw": [
+            0.0796875538501916,
+            0.07410934813007851,
+            0.07323823948957582,
+            -0.9913596010316212
+          ],
+          "scale": [
+            0.999999642372131,
+            0.999999940395355,
+            0.9999996423721312
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.331900160506603,
+            5.801387507330489,
+            49.752816449820635
+          ],
+          "rotation_xyzw": [
+            -0.5238138661157237,
+            -0.5238136101330073,
+            -0.5145439451128274,
+            -0.43183661731267425
+          ],
+          "scale": [
+            99.99994039536206,
+            99.99994039536911,
+            99.99995827674202
+          ]
+        }
+      },
+      "index_02_r": {
+        "local": {
+          "translation": [
+            -1.862645149230957e-08,
+            -0.021053940057754517,
+            -2.1886080503463745e-08
+          ],
+          "rotation_xyzw": [
+            0.07432694292204482,
+            0.04035798378772874,
+            0.042325744299362165,
+            -0.9955175890309309
+          ],
+          "scale": [
+            1.0000000000000002,
+            1.0000000000000009,
+            0.9999999403953556
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.551629037989667,
+            5.966180612617604,
+            47.66541589213049
+          ],
+          "rotation_xyzw": [
+            0.48796397676177006,
+            0.4879639403791364,
+            0.5117531342313683,
+            0.5117529480881153
+          ],
+          "scale": [
+            99.99994039536209,
+            99.9999403953692,
+            99.99995231628006
+          ]
+        }
+      },
+      "index_03_r": {
+        "local": {
+          "translation": [
+            1.6261786590920924e-08,
+            -0.011548832058906555,
+            2.700851101100632e-08
+          ],
+          "rotation_xyzw": [
+            1.1175874425087294e-08,
+            -9.716117706674094e-09,
+            1.6543291205754487e-09,
+            -0.9999999999999999
+          ],
+          "scale": [
+            0.9999999999999999,
+            0.9999998807907106,
+            0.9999998211860656
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.496694699086245,
+            5.966182499828675,
+            46.51184064633825
+          ],
+          "rotation_xyzw": [
+            -0.4879639652629767,
+            -0.48796394043935243,
+            -0.5117531435792995,
+            -0.5117529496470324
+          ],
+          "scale": [
+            99.99994039536207,
+            99.99992847444736,
+            99.99993443489514
+          ]
+        }
+      },
+      "middle_01_r": {
+        "local": {
+          "translation": [
+            0.005270279943943079,
+            -0.058579824864864294,
+            0.0004085572436451912
+          ],
+          "rotation_xyzw": [
+            0.14503365154191225,
+            0.15904718576597052,
+            0.15180783623539337,
+            -0.9646883504416709
+          ],
+          "scale": [
+            0.9999996423721315,
+            0.9999999403953553,
+            0.9999998211860659
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.10094207495547,
+            4.592890229485414,
+            49.91760661807737
+          ],
+          "rotation_xyzw": [
+            -0.4910343820492893,
+            -0.49103416566312497,
+            -0.4649753245072584,
+            -0.5491526485380562
+          ],
+          "scale": [
+            99.9999403953621,
+            99.99994039536915,
+            99.99997615813443
+          ]
+        }
+      },
+      "middle_02_r": {
+        "local": {
+          "translation": [
+            3.725290298461914e-09,
+            -0.019304489716887474,
+            3.399327400122054e-08
+          ],
+          "rotation_xyzw": [
+            0.047448598315369406,
+            -0.0010907535523703548,
+            -0.005193338606950955,
+            -0.9988595847308611
+          ],
+          "scale": [
+            0.9999999999999997,
+            0.9999999403953554,
+            0.9999999403953553
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.046006711399205,
+            4.4280950021774865,
+            47.994990320241875
+          ],
+          "rotation_xyzw": [
+            0.46646080871092405,
+            0.46646063779238,
+            0.49113147558040804,
+            0.5688749080608922
+          ],
+          "scale": [
+            99.99994039536207,
+            99.99993443490825,
+            99.99997019767139
+          ]
+        }
+      },
+      "middle_03_r": {
+        "local": {
+          "translation": [
+            -9.313225746154785e-09,
+            -0.013331509195268154,
+            9.080395102500916e-09
+          ],
+          "rotation_xyzw": [
+            -1.3038516919513751e-08,
+            -2.32830720415371e-10,
+            2.5611368611837556e-09,
+            -0.9999999999999999
+          ],
+          "scale": [
+            1.0000001192092893,
+            0.9999998807907103,
+            0.9999998807907106
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.88121050256883,
+            4.318231281400015,
+            46.67663482338821
+          ],
+          "rotation_xyzw": [
+            -0.4664608148191891,
+            -0.46646064552312755,
+            -0.49113146815009295,
+            -0.5688749031281836
+          ],
+          "scale": [
+            99.9999523162839,
+            99.9999225139871,
+            99.999958276746
+          ]
+        }
+      },
+      "pinky_01_r": {
+        "local": {
+          "translation": [
+            -0.01832159236073494,
+            -0.048292212188243866,
+            -0.007528035901486818
+          ],
+          "rotation_xyzw": [
+            0.1865352223613582,
+            0.24473902893720684,
+            0.22602728189411164,
+            -0.9242397342535277
+          ],
+          "scale": [
+            0.9999997615814207,
+            0.9999996423721313,
+            0.9999998807907102
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.100945535244392,
+            1.9561750499886386,
+            50.46691385398337
+          ],
+          "rotation_xyzw": [
+            -0.4608276037572244,
+            -0.46082720790932796,
+            -0.39570548167918795,
+            -0.6470652021511513
+          ],
+          "scale": [
+            99.99995231628817,
+            99.99991059306274,
+            99.9999821185985
+          ]
+        }
+      },
+      "pinky_02_r": {
+        "local": {
+          "translation": [
+            -4.284083843231201e-08,
+            -0.01257438957691187,
+            2.0489096613784952e-08
+          ],
+          "rotation_xyzw": [
+            0.05185115024379279,
+            -0.04273873121049817,
+            -0.06249592781297529,
+            -0.9957806576147722
+          ],
+          "scale": [
+            0.999999940395355,
+            0.9999998807907101,
+            0.9999999999999998
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.99108146646598,
+            1.626583301570197,
+            49.2584234440964
+          ],
+          "rotation_xyzw": [
+            0.4372200130018879,
+            0.4372199328476568,
+            0.4780644128172906,
+            0.6238043024450695
+          ],
+          "scale": [
+            99.99994635582651,
+            99.99989867214441,
+            99.99998211859847
+          ]
+        }
+      },
+      "pinky_03_r": {
+        "local": {
+          "translation": [
+            1.210719347000122e-08,
+            -0.010262147523462772,
+            3.492459627052469e-09
+          ],
+          "rotation_xyzw": [
+            -1.5832481406204358e-08,
+            -3.306195071797104e-08,
+            -1.797452279764517e-07,
+            -0.9999999999999831
+          ],
+          "scale": [
+            1.000000238418579,
+            1.0000001192092896,
+            0.9999999403953552
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.771353529573453,
+            1.4617887279126385,
+            48.269647955941174
+          ],
+          "rotation_xyzw": [
+            -0.43722008566070497,
+            -0.43721988245257154,
+            -0.4780645324761992,
+            -0.6238041951376404
+          ],
+          "scale": [
+            99.99997019767163,
+            99.99991059306129,
+            99.99997615813506
+          ]
+        }
+      },
+      "ring_01_r": {
+        "local": {
+          "translation": [
+            -0.00634479895234108,
+            -0.05441358685493469,
+            -0.004984243772923946
+          ],
+          "rotation_xyzw": [
+            0.13576867266005702,
+            0.20692380167397895,
+            0.1865684303200445,
+            -0.9507584491514282
+          ],
+          "scale": [
+            0.9999998211860658,
+            0.9999998211860656,
+            0.9999998807907104
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.2657392826247,
+            3.274533464354825,
+            50.137323374945375
+          ],
+          "rotation_xyzw": [
+            -0.4927301540377345,
+            -0.4927298708599849,
+            -0.41504645298270987,
+            -0.5849535977585958
+          ],
+          "scale": [
+            99.99995827675127,
+            99.99992847444656,
+            99.99998211859852
+          ]
+        }
+      },
+      "ring_02_r": {
+        "local": {
+          "translation": [
+            0.0,
+            -0.016165154054760933,
+            2.7939677238464355e-08
+          ],
+          "rotation_xyzw": [
+            0.11843251220430212,
+            -0.0024362837654975113,
+            -0.022891270562434216,
+            -0.9926952172275382
+          ],
+          "scale": [
+            1.0000001192092896,
+            0.9999998807907106,
+            1.0000000000000002
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.265736365233465,
+            2.999876113129583,
+            48.54431312467701
+          ],
+          "rotation_xyzw": [
+            0.43012138504427194,
+            0.43012148576306336,
+            0.4849606267950543,
+            0.6283345383401431
+          ],
+          "scale": [
+            99.99997019767525,
+            99.99991655352615,
+            99.99998211859855
+          ]
+        }
+      },
+      "ring_03_r": {
+        "local": {
+          "translation": [
+            3.72529029152302e-09,
+            -0.013765938580036163,
+            2.70083546360933e-08
+          ],
+          "rotation_xyzw": [
+            -2.5611377834497516e-08,
+            1.7695132742758807e-08,
+            -1.9744042889731498e-07,
+            -0.99999999999998
+          ],
+          "scale": [
+            0.9999998211860657,
+            0.9999997615814206,
+            0.9999998211860653
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.936141461477497,
+            2.7801477628935443,
+            47.225945141607205
+          ],
+          "rotation_xyzw": [
+            -0.4301214946415899,
+            -0.4301214021417508,
+            -0.48496073222662645,
+            -0.6283344391843518
+          ],
+          "scale": [
+            99.99995231628715,
+            99.9998927116881,
+            99.99996423720829
+          ]
+        }
+      },
+      "thumb_01_r": {
+        "local": {
+          "translation": [
+            0.009245596826076535,
+            -0.02429573982954014,
+            0.01615126244723797
+          ],
+          "rotation_xyzw": [
+            0.37391202796180806,
+            -0.26288806037723583,
+            -0.12411228230135563,
+            -0.8807245905721786
+          ],
+          "scale": [
+            0.9999996423721311,
+            0.9999998211860657,
+            0.999999701976776
+          ]
+        },
+        "component": {
+          "translation": [
+            -16.7388824652462,
+            4.7027531841136145,
+            52.88390659134925
+          ],
+          "rotation_xyzw": [
+            -0.29910449604937195,
+            -0.29910404013965824,
+            -0.8657375482124854,
+            -0.26752901007221674
+          ],
+          "scale": [
+            99.99994039536206,
+            99.99992847444658,
+            99.99996423720614
+          ]
+        }
+      },
+      "thumb_02_r": {
+        "local": {
+          "translation": [
+            -5.21540641784668e-08,
+            -0.02511883527040476,
+            -3.166496753692627e-08
+          ],
+          "rotation_xyzw": [
+            -0.12452030452623987,
+            0.1503522638806721,
+            0.16031184689143646,
+            -0.9675686033831946
+          ],
+          "scale": [
+            0.9999997615814213,
+            0.999999701976776,
+            1.0000000000000002
+          ]
+        },
+        "component": {
+          "translation": [
+            -16.02477045204062,
+            6.405628693167705,
+            51.181024076076035
+          ],
+          "rotation_xyzw": [
+            0.4049325925246917,
+            0.40493198338451336,
+            0.7125568364375013,
+            0.40536704255488865
+          ],
+          "scale": [
+            99.9999165535184,
+            99.99989867214549,
+            99.99996423720617
+          ]
+        }
+      },
+      "thumb_03_r": {
+        "local": {
+          "translation": [
+            -3.725290298461914e-09,
+            -0.01759525761008257,
+            2.793967726621993e-08
+          ],
+          "rotation_xyzw": [
+            9.350481722797498e-07,
+            5.2154079534108854e-08,
+            4.4330965114108924e-07,
+            -0.9999999999994632
+          ],
+          "scale": [
+            0.9999998211860658,
+            0.9999998211860658,
+            0.9999996423721313
+          ]
+        },
+        "component": {
+          "translation": [
+            -15.585319996186376,
+            7.009876504424994,
+            49.5880104198187
+          ],
+          "rotation_xyzw": [
+            -0.4049320711392518,
+            -0.4049314754783098,
+            -0.712557014246021,
+            -0.40536775818832904
+          ],
+          "scale": [
+            99.9998986721399,
+            99.99988079077019,
+            99.9999284744321
+          ]
+        }
+      },
+      "lowerarm_twist_01_r": {
+        "local": {
+          "translation": [
+            -6.239861249923706e-08,
+            -0.0648275837302208,
+            -1.1082738637924194e-07
+          ],
+          "rotation_xyzw": [
+            -7.823111066938179e-08,
+            1.6205010287818547e-07,
+            4.2840839938048985e-08,
+            -0.9999999999999829
+          ],
+          "scale": [
+            1.0000002384185789,
+            0.9999997615814207,
+            1.0
+          ]
+        },
+        "component": {
+          "translation": [
+            -14.757438226058625,
+            1.622310249050297,
+            60.53311305155323
+          ],
+          "rotation_xyzw": [
+            0.581602288197473,
+            0.5816020697957207,
+            0.5213518468753284,
+            0.22731049806923145
+          ],
+          "scale": [
+            100.00000596045743,
+            99.99994039536806,
+            100.0000119209223
+          ]
+        }
+      },
+      "upperarm_twist_01_r": {
+        "local": {
+          "translation": [
+            -8.731149130081217e-09,
+            -0.0021638968028129257,
+            1.3707904145121574e-08
+          ],
+          "rotation_xyzw": [
+            -7.319613331690153e-08,
+            8.149072543743976e-08,
+            2.0954758128748274e-09,
+            -0.999999999999994
+          ],
+          "scale": [
+            1.0000000000000002,
+            1.0000000000000004,
+            1.0000001192092896
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.916228422187565,
+            -0.18878332322626704,
+            78.08259606623034
+          ],
+          "rotation_xyzw": [
+            -0.588454533179649,
+            -0.5884544277579489,
+            -0.41059572313853965,
+            -0.3726309178969537
+          ],
+          "scale": [
+            99.99999999999724,
+            99.99996423721747,
+            100.00003576278587
+          ]
+        }
+      },
+      "neck_01": {
+        "local": {
+          "translation": [
+            0.0005285032675601403,
+            -0.0823604092001915,
+            5.377594789024269e-05
+          ],
+          "rotation_xyzw": [
+            -0.0012926769410034724,
+            -0.011475706757201267,
+            0.011403293313493964,
+            -0.9998682923477249
+          ],
+          "scale": [
+            1.0000001192092896,
+            0.9999999999999996,
+            1.0000001192092893
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856629885485781,
+            -0.1952198501803628,
+            82.18641027342552
+          ],
+          "rotation_xyzw": [
+            -0.4961389495132941,
+            -0.49613887805767776,
+            0.4379825436012731,
+            0.5620174801161198
+          ],
+          "scale": [
+            100.0000119209261,
+            99.99997615814348,
+            100.0000536441881
+          ]
+        }
+      },
+      "head": {
+        "local": {
+          "translation": [
+            4.889443516731262e-09,
+            -0.03147781640291214,
+            -6.402842700481415e-10
+          ],
+          "rotation_xyzw": [
+            -4.087487317930267e-09,
+            5.209586018686853e-09,
+            -1.5295682951409027e-08,
+            -0.9999999999999999
+          ],
+          "scale": [
+            1.0000001192092896,
+            0.9999998807907109,
+            0.9999998807907108
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856632620431556,
+            -0.5856539655382274,
+            85.30988361759948
+          ],
+          "rotation_xyzw": [
+            0.49613895252313,
+            0.4961388716065239,
+            -0.43798255681035414,
+            -0.5620174728601611
+          ],
+          "scale": [
+            100.00002384185647,
+            99.99996423721741,
+            100.00004172325278
+          ]
+        }
+      },
+      "thigh_l": {
+        "local": {
+          "translation": [
+            0.0033674435690045357,
+            0.027172725647687912,
+            -0.05854170396924019
+          ],
+          "rotation_xyzw": [
+            0.9967078154690857,
+            0.05223134580503362,
+            0.05499855630442133,
+            0.028645696058352533
+          ],
+          "scale": [
+            1.0000075101852421,
+            1.000000238418579,
+            1.0000027418136597
+          ]
+        },
+        "component": {
+          "translation": [
+            6.442174965348798,
+            1.7569529448921548,
+            53.68470774152686
+          ],
+          "rotation_xyzw": [
+            0.48691714906079475,
+            0.4869131339890491,
+            0.512748960103524,
+            0.512753150952995
+          ],
+          "scale": [
+            100.00073909750567,
+            100.0000119209261,
+            100.00027418136597
+          ]
+        }
+      },
+      "calf_l": {
+        "local": {
+          "translation": [
+            -7.288143422101712e-10,
+            -0.22675460577011097,
+            1.6480186090794824e-08
+          ],
+          "rotation_xyzw": [
+            0.017284845029063384,
+            0.03872669276649495,
+            0.0407812551048235,
+            -0.9982676828545368
+          ],
+          "scale": [
+            1.0000001192092893,
+            0.9999998807907101,
+            0.9999999999999997
+          ]
+        },
+        "component": {
+          "translation": [
+            7.6134681386202505,
+            1.756944080118088,
+            31.03951603840878
+          ],
+          "rotation_xyzw": [
+            -0.4772109380958427,
+            -0.47720671843323864,
+            -0.4805095264630034,
+            -0.5600482688323979
+          ],
+          "scale": [
+            100.0007510185227,
+            99.9999999999957,
+            100.00027418136594
+          ]
+        }
+      },
+      "calf_twist_01_l": {
+        "local": {
+          "translation": [
+            -7.712515088381666e-10,
+            -0.12016144394874576,
+            7.0431269566517685e-09
+          ],
+          "rotation_xyzw": [
+            -2.3050233618002054e-08,
+            -1.5133991984763293e-08,
+            -5.937181515359731e-09,
+            -0.9999999999999996
+          ],
+          "scale": [
+            1.0,
+            0.9999999403953553,
+            0.9999999999999999
+          ]
+        },
+        "component": {
+          "translation": [
+            8.607931254725607,
+            0.7624802567425855,
+            19.10595785431435
+          ],
+          "rotation_xyzw": [
+            0.4772109465663215,
+            0.4772067351515733,
+            0.48050952601049157,
+            0.5600482477576592
+          ],
+          "scale": [
+            100.0007510185227,
+            99.99999403953123,
+            100.00027418136592
+          ]
+        }
+      },
+      "foot_l": {
+        "local": {
+          "translation": [
+            7.421476783814329e-10,
+            -0.23588177561759954,
+            6.242771619091592e-09
+          ],
+          "rotation_xyzw": [
+            0.17002926727224954,
+            -0.35101511255198964,
+            -0.39686277847108914,
+            -0.8308901095182101
+          ],
+          "scale": [
+            0.9999997019767763,
+            0.9999998807907107,
+            1.0
+          ]
+        },
+        "component": {
+          "translation": [
+            9.565638732231653,
+            -0.19522835456744492,
+            7.6134584647631165
+          ],
+          "rotation_xyzw": [
+            0.32200473049984946,
+            0.3220038071492193,
+            0.8701602849334881,
+            0.18827527782903025
+          ],
+          "scale": [
+            100.00072121597653,
+            99.99998807906677,
+            100.00027418136594
+          ]
+        }
+      },
+      "ball_l": {
+        "local": {
+          "translation": [
+            2.235174176301591e-08,
+            -0.09737348556518557,
+            5.308538676696006e-08
+          ],
+          "rotation_xyzw": [
+            8.38190574725761e-08,
+            -4.470348954551891e-08,
+            -9.872021800028496e-08,
+            -0.9999999999999906
+          ],
+          "scale": [
+            0.9999999403953551,
+            0.9999997019767762,
+            0.9999998211860658
+          ]
+        },
+        "component": {
+          "translation": [
+            10.736905753503418,
+            6.832529758781125,
+            0.9760882196721274
+          ],
+          "rotation_xyzw": [
+            -0.3220047076078749,
+            -0.322003710841386,
+            -0.8701603449048471,
+            -0.18827520452205465
+          ],
+          "scale": [
+            100.00071525546905,
+            99.99995827674795,
+            100.00025629992349
+          ]
+        }
+      },
+      "thigh_twist_01_l": {
+        "local": {
+          "translation": [
+            8.029974907231008e-09,
+            -0.11768223345279688,
+            -4.009095291857001e-09
+          ],
+          "rotation_xyzw": [
+            5.401616074103521e-08,
+            -4.33189076142189e-08,
+            3.3664634960113765e-08,
+            -0.999999999999997
+          ],
+          "scale": [
+            1.000000119209289,
+            0.9999999403953553,
+            1.0
+          ]
+        },
+        "component": {
+          "translation": [
+            7.050057269308737,
+            1.7569491850459782,
+            41.932193422125
+          ],
+          "rotation_xyzw": [
+            -0.48691708276035894,
+            -0.48691314489611187,
+            -0.5127489902357719,
+            -0.5127531734233499
+          ],
+          "scale": [
+            100.00075101852269,
+            100.00000596046092,
+            100.00027418136597
+          ]
+        }
+      },
+      "thigh_r": {
+        "local": {
+          "translation": [
+            -0.009197076782584176,
+            0.02717272937297821,
+            0.05791273713111878
+          ],
+          "rotation_xyzw": [
+            0.9966237561696558,
+            0.05544955502557225,
+            0.05175005292967524,
+            -0.031438312733481466
+          ],
+          "scale": [
+            1.0000023841857912,
+            1.0,
+            1.0000004768371582
+          ]
+        },
+        "component": {
+          "translation": [
+            -5.270853672037806,
+            1.7569540087245366,
+            53.684708321212256
+          ],
+          "rotation_xyzw": [
+            0.5169176527552292,
+            0.5169111068085994,
+            0.48248946034353496,
+            0.4824965995583156
+          ],
+          "scale": [
+            100.0002264976217,
+            99.99998807907103,
+            100.00004768371582
+          ]
+        }
+      },
+      "calf_r": {
+        "local": {
+          "translation": [
+            -4.1085854718403425e-09,
+            -0.2269898205995559,
+            -1.3904042361900792e-09
+          ],
+          "rotation_xyzw": [
+            -0.012648931875214446,
+            0.05392117587910785,
+            0.050330709385549,
+            -0.9971957335483229
+          ],
+          "scale": [
+            0.9999999403953552,
+            1.0000001192092902,
+            0.9999999403953554
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.832586812624095,
+            1.7569508318860714,
+            31.039517809492416
+          ],
+          "rotation_xyzw": [
+            -0.5215710408972173,
+            -0.5215645747988993,
+            -0.42244085415992666,
+            -0.5267615858705609
+          ],
+          "scale": [
+            100.00022053714372,
+            99.99999999999864,
+            100.00004172324853
+          ]
+        }
+      },
+      "calf_twist_01_r": {
+        "local": {
+          "translation": [
+            3.259629011154175e-09,
+            -0.12052302807569507,
+            4.831235855817795e-09
+          ],
+          "rotation_xyzw": [
+            5.518087305102075e-08,
+            2.4912882733759924e-08,
+            -5.587936307302235e-09,
+            -0.9999999999999981
+          ],
+          "scale": [
+            0.999999940395355,
+            0.9999998211860659,
+            0.9999998807907106
+          ]
+        },
+        "component": {
+          "translation": [
+            -8.02594178381618,
+            0.5635953755941423,
+            19.10595967987267
+          ],
+          "rotation_xyzw": [
+            0.5215710252687412,
+            0.5215645354505877,
+            0.4224408728899865,
+            0.5267616252844097
+          ],
+          "scale": [
+            100.00021457666607,
+            99.99998211860523,
+            100.00002980231461
+          ]
+        }
+      },
+      "foot_r": {
+        "local": {
+          "translation": [
+            3.259629011154175e-09,
+            -0.23659154772758484,
+            8.032657178302927e-09
+          ],
+          "rotation_xyzw": [
+            0.15569895601579226,
+            -0.4475348416062384,
+            -0.42280411435036314,
+            -0.7724681750936258
+          ],
+          "scale": [
+            1.0000000000000002,
+            0.9999997019767758,
+            0.9999995827674865
+          ]
+        },
+        "component": {
+          "translation": [
+            -9.175190754757542,
+            -0.5856541824422314,
+            7.613463658644243
+          ],
+          "rotation_xyzw": [
+            0.3523434485241923,
+            0.3523402161967559,
+            0.8636673544510525,
+            0.07608657692407406
+          ],
+          "scale": [
+            100.00022053714375,
+            99.99997019767622,
+            99.99999999997976
+          ]
+        }
+      },
+      "ball_r": {
+        "local": {
+          "translation": [
+            1.1641532182693481e-08,
+            -0.1002282202243805,
+            6.519258015369456e-09
+          ],
+          "rotation_xyzw": [
+            -2.6077028592031963e-08,
+            2.1606683621445107e-07,
+            -4.097819897297429e-08,
+            -0.9999999999999755
+          ],
+          "scale": [
+            0.9999999403953553,
+            0.9999999403953551,
+            1.000000238418579
+          ]
+        },
+        "component": {
+          "translation": [
+            -10.346483359834068,
+            6.832579871968093,
+            0.9760862726775503
+          ],
+          "rotation_xyzw": [
+            -0.35234365155643577,
+            -0.3523402078404396,
+            -0.8636672722512021,
+            -0.0760866084735051
+          ],
+          "scale": [
+            100.00021457666614,
+            99.9999642372135,
+            100.00002384183767
+          ]
+        }
+      },
+      "thigh_twist_01_r": {
+        "local": {
+          "translation": [
+            3.346940505993823e-09,
+            -0.11780434846878046,
+            -2.5604919087762745e-08
+          ],
+          "rotation_xyzw": [
+            -7.451839446158812e-09,
+            7.898137269315023e-08,
+            1.8775078680505634e-08,
+            -0.9999999999999967
+          ],
+          "scale": [
+            1.0000001192092898,
+            1.0000000000000004,
+            1.0000001192092898
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.0813724790445525,
+            1.7569529079513804,
+            41.93219066082872
+          ],
+          "rotation_xyzw": [
+            -0.5169176847533479,
+            -0.5169110820009575,
+            -0.48248940660581735,
+            -0.482496645591453
+          ],
+          "scale": [
+            100.00023841857768,
+            99.99998807907107,
+            100.00005960465049
+          ]
+        }
+      }
+    },
+    "import_data": {
+      "type": "InterchangeAssetImportData",
+      "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5:InterchangeAssetImportData_0' (0x000001A7534F2300) Class 'InterchangeAssetImportData'>",
+      "node_unique_id": "Factory_\\RootNode.tripo_node_d5fc96b7Factory_RootNode.Armature.root",
+      "scene_import_asset": "<Struct 'SoftObjectPath' (0x000001A7534F2360) {}>",
+      "source_data": "<Struct 'AssetImportInfo' (0x000001A7534F2350) {}>"
+    },
+    "import_data_methods": [
+      "get_number_of_pipelines",
+      "get_pipelines",
+      "get_translator_settings",
+      "pipelines",
+      "set_pipelines",
+      "set_translator_settings"
+    ],
+    "stored_pipelines": [
+      {
+        "type": "InterchangeGenericAssetsPipeline",
+        "text": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0' (0x000001A7226AA500) Class 'InterchangeGenericAssetsPipeline'>",
+        "animation_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericAnimationPipeline_0' (0x000001A74457EE00) Class 'InterchangeGenericAnimationPipeline'>",
+        "asset_name": "",
+        "asset_type_sub_folders": "False",
+        "common_meshes_properties": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericCommonMeshesProperties_0' (0x000001A7445F78C0) Class 'InterchangeGenericCommonMeshesProperties'>",
+        "common_skeletal_meshes_and_animations_properties": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericCommonSkeletalMeshesAndAnimationsProperties_0' (0x000001A7445F7700) Class 'InterchangeGenericCommonSkeletalMeshesAndAnimationsProperties'>",
+        "groom_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericGroomPipeline_0' (0x000001A74457EA00) Class 'InterchangeGenericGroomPipeline'>",
+        "import_offset_rotation": "<Struct 'Rotator' (0x000001A7226AA698) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "import_offset_translation": "<Struct 'Vector' (0x000001A7226AA680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "import_offset_uniform_scale": "1.0",
+        "material_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericMaterialPipeline_0' (0x000001A74457EC00) Class 'InterchangeGenericMaterialPipeline'>",
+        "mesh_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_0:InterchangeGenericMeshPipeline_0' (0x000001A7530ACE80) Class 'InterchangeGenericMeshPipeline'>",
+        "pipeline_display_name": "Default Assets Pipeline",
+        "reimport_strategy": "<ReimportStrategyFlags.APPLY_NO_PROPERTIES: 0>",
+        "scene_name_sub_folder": "False",
+        "use_source_name_for_asset": "True"
+      }
+    ],
+    "translator_settings": null
+  },
+  "Mixamo_import": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton",
+    "bounds": {
+      "origin": [
+        4.76837158203125e-06,
+        -9.5367431640625e-07,
+        49.97558603514623
+      ],
+      "extent": [
+        19.995118141174316,
+        10.42480754852295,
+        49.97558583985377
+      ],
+      "height_cm": 99.95117167970754
+    },
+    "bones": {
+      "Hips": {
+        "local": {
+          "translation": [
+            0.5856572650372981,
+            1.7569541931152342,
+            56.41774535179137
+          ],
+          "rotation_xyzw": [
+            0.5000000339070185,
+            0.4999999215208806,
+            -0.49999996609297975,
+            -0.5000000784791064
+          ],
+          "scale": [
+            100.00000000000249,
+            100.00000000000038,
+            100.00000000000294
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856572650372981,
+            1.7569541931152342,
+            56.41774535179137
+          ],
+          "rotation_xyzw": [
+            0.5000000339070185,
+            0.4999999215208806,
+            -0.49999996609297975,
+            -0.5000000784791064
+          ],
+          "scale": [
+            100.00000000000249,
+            100.00000000000038,
+            100.00000000000294
+          ]
+        }
+      },
+      "LeftUpLeg": {
+        "local": {
+          "translation": [
+            7.575885248994885e-09,
+            0.02733039333882814,
+            -0.05856514313817459
+          ],
+          "rotation_xyzw": [
+            0.9996661903950458,
+            -4.596982127033682e-09,
+            4.682873726198029e-08,
+            0.025836171950464004
+          ],
+          "scale": [
+            0.9999999999999833,
+            0.9999999861170252,
+            1.0000016528190256
+          ]
+        },
+        "component": {
+          "translation": [
+            6.442171335220358,
+            1.7569536343217704,
+            53.68470549583434
+          ],
+          "rotation_xyzw": [
+            -0.4869150656832986,
+            -0.486914998470068,
+            -0.5127511275566685,
+            -0.5127511913831969
+          ],
+          "scale": [
+            100.00000000000082,
+            99.9999986117029,
+            100.00016528190551
+          ]
+        }
+      },
+      "LeftLeg": {
+        "local": {
+          "translation": [
+            1.862646387823519e-09,
+            -0.22675459657095165,
+            -4.373599440943288e-09
+          ],
+          "rotation_xyzw": [
+            0.01728427993859153,
+            0.0387267555107019,
+            0.040781577093724,
+            -0.9982676770507837
+          ],
+          "scale": [
+            0.9999999664028972,
+            0.999999926895929,
+            0.9999998915189351
+          ]
+        },
+        "component": {
+          "translation": [
+            7.613471890247503,
+            1.756953820586733,
+            31.039518117635197
+          ],
+          "rotation_xyzw": [
+            0.477209062416509,
+            0.47720894467912367,
+            0.4805114092065339,
+            0.5600463547673039
+          ],
+          "scale": [
+            99.99999664029055,
+            99.9999913012959,
+            100.00015443378109
+          ]
+        }
+      },
+      "LeftFoot": {
+        "local": {
+          "translation": [
+            -1.1926806825143799e-09,
+            -0.23588173164758355,
+            -7.82117136333138e-09
+          ],
+          "rotation_xyzw": [
+            0.17003369078361358,
+            -0.35101278079634857,
+            -0.39686261516854043,
+            -0.8308902673624864
+          ],
+          "scale": [
+            1.0000001265957896,
+            1.000000234541929,
+            1.0000000978482666
+          ]
+        },
+        "component": {
+          "translation": [
+            9.565638999417079,
+            -0.1952172615076906,
+            7.613466634399053
+          ],
+          "rotation_xyzw": [
+            -0.3220023605652796,
+            -0.3220021311301715,
+            -0.8701617923936842,
+            -0.18827523043732208
+          ],
+          "scale": [
+            100.00000929986909,
+            100.00001475548676,
+            100.00016421862286
+          ]
+        }
+      },
+      "LeftToeBase": {
+        "local": {
+          "translation": [
+            1.6380371024860008e-08,
+            -0.09737404741975597,
+            -3.8204673716291104e-08
+          ],
+          "rotation_xyzw": [
+            0.3474642808498181,
+            -0.29434947042590026,
+            -0.11586129880531304,
+            -0.8827248281501188
+          ],
+          "scale": [
+            0.9999999347082235,
+            0.9999999253182505,
+            0.9999998909841389
+          ]
+        },
+        "component": {
+          "translation": [
+            10.736937395882231,
+            6.832600317023098,
+            0.9760786511759125
+          ],
+          "rotation_xyzw": [
+            -3.516796931668509e-06,
+            2.371088625441331e-07,
+            0.9965926946183856,
+            0.08248030686679914
+          ],
+          "scale": [
+            100.00000277069083,
+            100.00000728731071,
+            100.00015331701884
+          ]
+        }
+      },
+      "LeftToe_End": {
+        "local": {
+          "translation": [
+            -1.1228267177143536e-08,
+            -0.04784300636503337,
+            -1.9005645841840835e-08
+          ],
+          "rotation_xyzw": [
+            3.496972263285201e-08,
+            3.621327071801359e-06,
+            1.3963552262572103e-07,
+            -0.9999999999934328
+          ],
+          "scale": [
+            1.0000000465204077,
+            0.9999999853014585,
+            1.0000000595802758
+          ]
+        },
+        "component": {
+          "translation": [
+            11.52347061251631,
+            11.551805908607692,
+            0.9760772650772841
+          ],
+          "rotation_xyzw": [
+            -8.930682637298643e-08,
+            9.643036678315629e-08,
+            -0.9965926831074039,
+            -0.08248044602673489
+          ],
+          "scale": [
+            100.00000742273173,
+            100.00000581745645,
+            100.00015927505557
+          ]
+        }
+      },
+      "RightUpLeg": {
+        "local": {
+          "translation": [
+            -9.438529718214239e-09,
+            0.02733040378031204,
+            0.05856514012812659
+          ],
+          "rotation_xyzw": [
+            0.9994074067112187,
+            -1.8283755810277215e-09,
+            1.585286977791793e-07,
+            -0.03442143824322096
+          ],
+          "scale": [
+            0.9999999999999792,
+            1.000000094650227,
+            1.0000056247465745
+          ]
+        },
+        "component": {
+          "translation": [
+            -5.270856991410236,
+            1.756954565644176,
+            53.68470549583434
+          ],
+          "rotation_xyzw": [
+            -0.5169144237267997,
+            -0.5169144642390948,
+            -0.48249298714706323,
+            -0.48249293524102943
+          ],
+          "scale": [
+            100.00000000000041,
+            100.00000946502308,
+            100.0005624746604
+          ]
+        }
+      },
+      "RightLeg": {
+        "local": {
+          "translation": [
+            -1.8626463219040268e-09,
+            -0.22698983396563155,
+            5.720969240008422e-09
+          ],
+          "rotation_xyzw": [
+            -0.012649464414580664,
+            0.05392124984795077,
+            0.05033059969384309,
+            -0.9971957283298586
+          ],
+          "scale": [
+            1.0000000257490227,
+            1.0000001264423666,
+            0.9999999213941676
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.8325958737192565,
+            1.7569545656431849,
+            31.039509174388215
+          ],
+          "rotation_xyzw": [
+            0.5215681424013389,
+            0.5215681643479088,
+            0.4224444240408845,
+            0.5267580387308153
+          ],
+          "scale": [
+            100.00000257490268,
+            100.00002210926094,
+            100.00055461403295
+          ]
+        }
+      },
+      "RightFoot": {
+        "local": {
+          "translation": [
+            -1.0207651737759171e-09,
+            -0.23659152809049472,
+            3.22721037393503e-09
+          ],
+          "rotation_xyzw": [
+            0.155702452257283,
+            -0.4475309366187998,
+            -0.42280315892998227,
+            -0.7724702556920858
+          ],
+          "scale": [
+            1.0000000134764457,
+            1.0000001393126752,
+            0.999999999647588
+          ]
+        },
+        "component": {
+          "translation": [
+            -9.175199637118814,
+            -0.5856514931707857,
+            7.6134518104503215
+          ],
+          "rotation_xyzw": [
+            -0.3523420766681852,
+            -0.3523401207492545,
+            -0.8636680365094063,
+            -0.0760856295994082
+          ],
+          "scale": [
+            100.0000039225473,
+            100.00003604053154,
+            100.00055457879155
+          ]
+        }
+      },
+      "RightToeBase": {
+        "local": {
+          "translation": [
+            4.6541951653766844e-08,
+            -0.10022832169338726,
+            8.643915313036321e-08
+          ],
+          "rotation_xyzw": [
+            0.32370127144181476,
+            -0.37882880220432585,
+            -0.14340680336462422,
+            -0.8550676664663027
+          ],
+          "scale": [
+            0.9999999581919204,
+            1.0000001509433052,
+            0.9999999616205587
+          ]
+        },
+        "component": {
+          "translation": [
+            -10.346496486886755,
+            6.832604954418646,
+            0.9760749134408959
+          ],
+          "rotation_xyzw": [
+            -7.055104487285746e-06,
+            -6.196499620636509e-07,
+            0.9969360814393571,
+            -0.07822051824285678
+          ],
+          "scale": [
+            99.99999974173917,
+            100.0000511348675,
+            100.00055074082614
+          ]
+        }
+      },
+      "RightToe_End": {
+        "local": {
+          "translation": [
+            2.0305902515005414e-08,
+            -0.05043090529846045,
+            3.112571684595056e-08
+          ],
+          "rotation_xyzw": [
+            3.158591000519035e-08,
+            7.537491933168006e-06,
+            7.3594521244176935e-09,
+            -0.9999999999715926
+          ],
+          "scale": [
+            0.9999999975711332,
+            0.9999998915454883,
+            0.9999998806910694
+          ]
+        },
+        "component": {
+          "translation": [
+            -11.133027937246162,
+            11.813985925579452,
+            0.9760786906551734
+          ],
+          "rotation_xyzw": [
+            -4.617638554580096e-07,
+            6.155262205326879e-08,
+            -0.9969360820398551,
+            0.07822051090862482
+          ],
+          "scale": [
+            99.9999994988525,
+            100.00004028941079,
+            100.00053880986736
+          ]
+        }
+      },
+      "Spine": {
+        "local": {
+          "translation": [
+            -0.003904343582689691,
+            -0.04294776916503895,
+            -3.086728832604746e-10
+          ],
+          "rotation_xyzw": [
+            -0.000862816621936817,
+            -0.029360979414391898,
+            0.029361011490234835,
+            -0.9991371874970799
+          ],
+          "scale": [
+            1.0000000376351033,
+            1.0000000722908153,
+            1.0000000225406833
+          ]
+        },
+        "component": {
+          "translation": [
+            0.585657591000169,
+            1.3665198348462642,
+            60.71252226829527
+          ],
+          "rotation_xyzw": [
+            -0.4991372045183831,
+            -0.49913712178466285,
+            0.4706389693619478,
+            0.5293610726527027
+          ],
+          "scale": [
+            100.00000376351281,
+            100.00000722908192,
+            100.00000225407128
+          ]
+        }
+      },
+      "Spine1": {
+        "local": {
+          "translation": [
+            2.6759717913771297e-09,
+            -0.06648855454451819,
+            -1.70940315288165e-09
+          ],
+          "rotation_xyzw": [
+            -3.2172330313597932e-09,
+            5.559023294811208e-09,
+            -5.5782928493877435e-09,
+            -1.0
+          ],
+          "scale": [
+            0.9999999986885914,
+            0.9999999993437308,
+            0.9999999993657361
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856583360581736,
+            0.9760858192449049,
+            67.34990477386293
+          ],
+          "rotation_xyzw": [
+            0.49913720298334524,
+            0.4991371204289046,
+            -0.4706389766954347,
+            -0.5293610688584665
+          ],
+          "scale": [
+            100.00000363237194,
+            100.000007163455,
+            100.00000219064489
+          ]
+        }
+      },
+      "Spine2": {
+        "local": {
+          "translation": [
+            -6.772970455315441e-09,
+            -0.06648849538715751,
+            -3.9282284976932536e-10
+          ],
+          "rotation_xyzw": [
+            -0.0017055634932565391,
+            -0.021316445580540733,
+            0.02125304308435843,
+            -0.9995454008501249
+          ],
+          "scale": [
+            1.0000001615874694,
+            0.9999998984645435,
+            1.0000000096509216
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856589412624852,
+            0.5856512887804743,
+            73.98728131881107
+          ],
+          "rotation_xyzw": [
+            -0.49743160413073323,
+            -0.497431596524364,
+            0.44938597003921477,
+            0.550614071671858
+          ],
+          "scale": [
+            100.00001979111947,
+            99.99999700990863,
+            100.00000315573708
+          ]
+        }
+      },
+      "LeftShoulder": {
+        "local": {
+          "translation": [
+            0.001329089415483209,
+            -0.06293899755786958,
+            -0.027336266439160005
+          ],
+          "rotation_xyzw": [
+            -0.8284886282005532,
+            -0.014037824528412032,
+            -0.070189014451848,
+            -0.5554124905645833
+          ],
+          "scale": [
+            0.9999999233058336,
+            0.9999999176452483,
+            1.0000000626432077
+          ]
+        },
+        "component": {
+          "translation": [
+            3.318698339902931,
+            -0.19521957363433207,
+            80.2342236110343
+          ],
+          "rotation_xyzw": [
+            -0.13867513586135727,
+            -0.138675101711392,
+            -0.693375203332636,
+            -0.6933752593384012
+          ],
+          "scale": [
+            100.00001212170132,
+            99.9999887744337,
+            100.00000942005805
+          ]
+        }
+      },
+      "LeftArm": {
+        "local": {
+          "translation": [
+            2.1782278898565405e-08,
+            -0.05075643800694346,
+            5.645247147523236e-08
+          ],
+          "rotation_xyzw": [
+            -0.39228089005457134,
+            -0.0035746169702161024,
+            -0.017872651224617116,
+            -0.9196648812201719
+          ],
+          "scale": [
+            1.0000000041333825,
+            1.0000000630055694,
+            1.0000000863086835
+          ]
+        },
+        "component": {
+          "translation": [
+            8.003909254746771,
+            -0.19521774153758487,
+            78.28205740625255
+          ],
+          "rotation_xyzw": [
+            0.39953245718307967,
+            0.399532521480681,
+            0.5961613963580988,
+            0.5703851062474387
+          ],
+          "scale": [
+            100.00001253503962,
+            99.99999507498994,
+            100.00001805092721
+          ]
+        }
+      },
+      "LeftForeArm": {
+        "local": {
+          "translation": [
+            1.9056544519474583e-09,
+            -0.12984501385196467,
+            -1.1753745865483722e-08
+          ],
+          "rotation_xyzw": [
+            0.0248408675792858,
+            -0.07101186534196063,
+            -0.10286817541353209,
+            -0.9918459481016468
+          ],
+          "scale": [
+            0.9999998980087991,
+            0.9999999495262608,
+            0.999999914140584
+          ]
+        },
+        "component": {
+          "translation": [
+            12.689115201593,
+            0.19521584078463383,
+            66.1786006079351
+          ],
+          "rotation_xyzw": [
+            -0.3808704366014717,
+            -0.3808704817316285,
+            -0.6882710200640751,
+            -0.4859613046410997
+          ],
+          "scale": [
+            100.00000233591824,
+            99.99999002761626,
+            100.00000946498406
+          ]
+        }
+      },
+      "LeftHand": {
+        "local": {
+          "translation": [
+            -4.701914177451805e-09,
+            -0.1205467927425915,
+            9.801637851358791e-08
+          ],
+          "rotation_xyzw": [
+            -0.05885394339719602,
+            0.01891340244828491,
+            0.013524432923976015,
+            -0.997995784694762
+          ],
+          "scale": [
+            0.9999999869103511,
+            1.000000010339339,
+            1.000000167429225
+          ]
+        },
+        "component": {
+          "translation": [
+            17.255695941224836,
+            3.058909022025457,
+            55.39616743472728
+          ],
+          "rotation_xyzw": [
+            0.41657431887275875,
+            0.4165744738831814,
+            0.6506999400616509,
+            0.4790836383852118
+          ],
+          "scale": [
+            100.00000102695331,
+            99.99999106155005,
+            100.00002620790814
+          ]
+        }
+      },
+      "LeftHandIndex1": {
+        "local": {
+          "translation": [
+            0.014662627437578346,
+            -0.06182840974868514,
+            -0.0010022813979082557
+          ],
+          "rotation_xyzw": [
+            -0.16208861406500202,
+            0.061357501923863765,
+            0.049815119546281095,
+            -0.9836061162949018
+          ],
+          "scale": [
+            0.9999999746333562,
+            1.000000055700878,
+            0.9999999872118827
+          ]
+        },
+        "component": {
+          "translation": [
+            18.586065271343525,
+            5.666442025954972,
+            49.75538939187924
+          ],
+          "rotation_xyzw": [
+            -0.5065726665094767,
+            -0.5065725760912457,
+            -0.5230848935002894,
+            -0.46168230731700055
+          ],
+          "scale": [
+            99.9999984902889,
+            99.99999663163734,
+            100.00002492909607
+          ]
+        }
+      },
+      "LeftHandIndex2": {
+        "local": {
+          "translation": [
+            6.412904679509168e-09,
+            -0.01760128637136621,
+            3.049192748294516e-08
+          ],
+          "rotation_xyzw": [
+            -0.019882501192048496,
+            0.01367258950435309,
+            0.012084727798923839,
+            -0.9996357865725994
+          ],
+          "scale": [
+            1.0000000939162246,
+            1.0000001278674233,
+            1.0000001514248649
+          ]
+        },
+        "component": {
+          "translation": [
+            18.532853321475695,
+            5.772873155642758,
+            47.99928759710894
+          ],
+          "rotation_xyzw": [
+            0.5165976983002533,
+            0.5165977116914167,
+            0.5003169839735983,
+            0.4646897222164869
+          ],
+          "scale": [
+            100.00000788191122,
+            100.00000941837925,
+            100.00004007158633
+          ]
+        }
+      },
+      "LeftHandIndex3": {
+        "local": {
+          "translation": [
+            1.0969806216176714e-08,
+            -0.015478287089271459,
+            -5.4822961254030744e-08
+          ],
+          "rotation_xyzw": [
+            -1.0020492204819537e-07,
+            1.2219389605800056e-07,
+            7.146752818504731e-08,
+            -0.9999999999999851
+          ],
+          "scale": [
+            0.9999998667114872,
+            0.999999768947256,
+            0.9999998267450643
+          ]
+        },
+        "component": {
+          "translation": [
+            18.42641592174115,
+            5.826089229955155,
+            46.456039952409945
+          ],
+          "rotation_xyzw": [
+            -0.516597769080163,
+            -0.5165977419633463,
+            -0.5003168358726461,
+            -0.4646897693323531
+          ],
+          "scale": [
+            99.99999455305888,
+            99.99998631310267,
+            100.0000227460858
+          ]
+        }
+      },
+      "LeftHandIndex4": {
+        "local": {
+          "translation": [
+            1.4940461368073699e-10,
+            -0.015070305464113698,
+            2.7449633621667857e-08
+          ],
+          "rotation_xyzw": [
+            -5.485643500663754e-09,
+            1.982847835830127e-09,
+            1.7290534108546294e-09,
+            -1.0
+          ],
+          "scale": [
+            0.9999999997347963,
+            1.000000060324809,
+            0.9999999998628734
+          ]
+        },
+        "component": {
+          "translation": [
+            18.322791858181542,
+            5.877901625530284,
+            44.95346949641023
+          ],
+          "rotation_xyzw": [
+            0.5165977717281124,
+            0.5165977446797221,
+            0.5003168312109668,
+            0.46468976838789117
+          ],
+          "scale": [
+            99.99999452653852,
+            99.99999234558274,
+            100.00002273237314
+          ]
+        }
+      },
+      "LeftHandMiddle1": {
+        "local": {
+          "translation": [
+            0.0015726136774449062,
+            -0.06157424429953645,
+            0.0025948883958824
+          ],
+          "rotation_xyzw": [
+            -0.222532675175606,
+            0.11991819059758188,
+            0.11677522329933127,
+            -0.9604490529259642
+          ],
+          "scale": [
+            1.000000007768458,
+            1.0000000171764916,
+            0.999999854580588
+          ]
+        },
+        "component": {
+          "translation": [
+            19.17143506121391,
+            4.442498655348723,
+            49.70217430029814
+          ],
+          "rotation_xyzw": [
+            -0.5360953559429819,
+            -0.5360952733598314,
+            -0.42636277166796877,
+            -0.49337451712996233
+          ],
+          "scale": [
+            100.00000180379914,
+            99.99999277919905,
+            100.00001166596313
+          ]
+        }
+      },
+      "LeftHandMiddle2": {
+        "local": {
+          "translation": [
+            1.1020297688291159e-08,
+            -0.017268288863377168,
+            -2.6022877852582837e-08
+          ],
+          "rotation_xyzw": [
+            -0.017948625197570248,
+            0.0011765900749016816,
+            0.0021311924241022005,
+            -0.9998359467973555
+          ],
+          "scale": [
+            1.0000001361352677,
+            1.0000001916794352,
+            1.0000001741949345
+          ]
+        },
+        "component": {
+          "translation": [
+            18.905357054965638,
+            4.336070107992001,
+            47.99929056059151
+          ],
+          "rotation_xyzw": [
+            0.5442219340931851,
+            0.5442219736012973,
+            0.4149884118499078,
+            0.48521082833308027
+          ],
+          "scale": [
+            100.00001541732615,
+            100.00001194714119,
+            100.0000290854586
+          ]
+        }
+      },
+      "LeftHandMiddle3": {
+        "local": {
+          "translation": [
+            -6.67883929411639e-09,
+            -0.01683656088933927,
+            3.86419684306194e-08
+          ],
+          "rotation_xyzw": [
+            -4.379487574802874e-07,
+            3.5073463024592276e-08,
+            -5.510471406163378e-08,
+            -0.999999999999902
+          ],
+          "scale": [
+            0.9999998785867821,
+            0.9999999128683643,
+            0.9999999318226451
+          ]
+        },
+        "component": {
+          "translation": [
+            18.58606998424739,
+            4.229638147503308,
+            46.3496158934498
+          ],
+          "rotation_xyzw": [
+            -0.544222191134888,
+            -0.5442221083376851,
+            -0.4149881811581861,
+            -0.48521058621164437
+          ],
+          "scale": [
+            100.00000327600249,
+            100.00000323397659,
+            100.00002226772114
+          ]
+        }
+      },
+      "LeftHandMiddle4": {
+        "local": {
+          "translation": [
+            1.8046547520245149e-09,
+            -0.016853032312775906,
+            -2.9287691785673253e-08
+          ],
+          "rotation_xyzw": [
+            -4.1859484905468043e-07,
+            -3.3891541311719028e-09,
+            2.2489319598267553e-08,
+            -0.9999999999999123
+          ],
+          "scale": [
+            1.0000001221367558,
+            0.9999999792773745,
+            0.9999999791203684
+          ]
+        },
+        "component": {
+          "translation": [
+            18.26646253822746,
+            4.123103734506207,
+            44.69832892130803
+          ],
+          "rotation_xyzw": [
+            0.5442223805958485,
+            0.5442222959331927,
+            0.41498794428197533,
+            0.4852103658913451
+          ],
+          "scale": [
+            100.00001548967847,
+            100.00000116171397,
+            100.00002017975751
+          ]
+        }
+      },
+      "LeftHandPinky1": {
+        "local": {
+          "translation": [
+            -0.02124061846518356,
+            -0.05189474771711772,
+            -0.004350038280056867
+          ],
+          "rotation_xyzw": [
+            -0.14737041923431948,
+            0.2066636638793467,
+            0.24988851408943624,
+            -0.9344130885710232
+          ],
+          "scale": [
+            1.0000000513139933,
+            1.000000120154104,
+            0.9999999984741985
+          ]
+        },
+        "component": {
+          "translation": [
+            18.69249692912457,
+            1.94139034437627,
+            50.07467650001653
+          ],
+          "rotation_xyzw": [
+            -0.4902341099673518,
+            -0.49023452126126144,
+            -0.34082351233057745,
+            -0.63496453840424
+          ],
+          "scale": [
+            100.00000615835269,
+            100.00000307695937,
+            100.00002605532795
+          ]
+        }
+      },
+      "LeftHandPinky2": {
+        "local": {
+          "translation": [
+            5.188883009377143e-08,
+            -0.011124408435560729,
+            1.479382727431755e-09
+          ],
+          "rotation_xyzw": [
+            -0.11375352726272892,
+            -0.041809228203602396,
+            -0.007483811852508289,
+            -0.9926006830707215
+          ],
+          "scale": [
+            0.9999999500400242,
+            1.000000018407308,
+            1.0000000038664718
+          ]
+        },
+        "component": {
+          "translation": [
+            18.63928196919088,
+            1.6221025927190775,
+            49.01037005623452
+          ],
+          "rotation_xyzw": [
+            0.5482554232649347,
+            0.548255554815112,
+            0.30778401008171685,
+            0.5514533893385543
+          ],
+          "scale": [
+            100.0000011623548,
+            100.00000491769022,
+            100.00002644197524
+          ]
+        }
+      },
+      "LeftHandPinky3": {
+        "local": {
+          "translation": [
+            -1.0388037832709252e-08,
+            -0.010166777400009486,
+            1.0767195135485963e-08
+          ],
+          "rotation_xyzw": [
+            -6.112588715332111e-07,
+            -1.802534339223753e-07,
+            -9.63254272991362e-08,
+            -0.9999999999997923
+          ],
+          "scale": [
+            1.0000001715513764,
+            0.9999999578814207,
+            1.0000001200768676
+          ]
+        },
+        "component": {
+          "translation": [
+            18.373206912082072,
+            1.4092395112206066,
+            48.052493706595904
+          ],
+          "rotation_xyzw": [
+            -0.5482557576774232,
+            -0.548255789541134,
+            -0.30778382689948725,
+            -0.5514529257400757
+          ],
+          "scale": [
+            100.00001831749265,
+            100.00000070583208,
+            100.00003844966517
+          ]
+        }
+      },
+      "LeftHandPinky4": {
+        "local": {
+          "translation": [
+            2.2121127804530794e-08,
+            -0.010290165141975172,
+            1.6791263143800528e-08
+          ],
+          "rotation_xyzw": [
+            -2.1071674039299615e-16,
+            5.937227700749224e-09,
+            -3.782818169033145e-08,
+            -0.9999999999999994
+          ],
+          "scale": [
+            0.9999999231659391,
+            1.0,
+            1.0000000129104614
+          ]
+        },
+        "component": {
+          "translation": [
+            18.10390277657648,
+            1.1937964891920902,
+            47.08299146920525
+          ],
+          "rotation_xyzw": [
+            0.5482557802443253,
+            0.5482557655275138,
+            0.30778384450482915,
+            0.5514529173522922
+          ],
+          "scale": [
+            100.00001063408514,
+            100.00000070583208,
+            100.0000397407118
+          ]
+        }
+      },
+      "LeftHandRing1": {
+        "local": {
+          "translation": [
+            -0.010904703632320156,
+            -0.05719783853128141,
+            0.0001791851852088744
+          ],
+          "rotation_xyzw": [
+            -0.176985801423009,
+            0.14884537994924224,
+            0.1653837462123831,
+            -0.9587331721867034
+          ],
+          "scale": [
+            1.0000001113536354,
+            0.9999999158239585,
+            0.9999998894900025
+          ]
+        },
+        "component": {
+          "translation": [
+            19.065003561802584,
+            3.1121213099270255,
+            49.86182532609026
+          ],
+          "rotation_xyzw": [
+            -0.5121336526168255,
+            -0.5121336524238812,
+            -0.40888204092950364,
+            -0.555206016283729
+          ],
+          "scale": [
+            100.00001216231696,
+            99.99998264394665,
+            100.00001515690549
+          ]
+        }
+      },
+      "LeftHandRing2": {
+        "local": {
+          "translation": [
+            2.8233236429309194e-08,
+            -0.015089122485088757,
+            -4.273932791010182e-09
+          ],
+          "rotation_xyzw": [
+            -0.07514146092813541,
+            0.0061499369925547285,
+            0.0165231348022737,
+            -0.9970170134661088
+          ],
+          "scale": [
+            0.9999998582127291,
+            1.0000000943709715,
+            1.0000000305415948
+          ]
+        },
+        "component": {
+          "translation": [
+            18.95857361112776,
+            2.8992631346734843,
+            48.371798666528576
+          ],
+          "rotation_xyzw": [
+            0.5463775014204897,
+            0.5463775298988052,
+            0.35685654692841884,
+            0.5249729761402097
+          ],
+          "scale": [
+            99.99999798358814,
+            99.99999208104217,
+            100.00001821106544
+          ]
+        }
+      },
+      "LeftHandRing3": {
+        "local": {
+          "translation": [
+            -9.735216618955711e-09,
+            -0.014358331824701365,
+            -2.0104359843564623e-10
+          ],
+          "rotation_xyzw": [
+            1.1378061270825658e-06,
+            -1.6626653439578021e-07,
+            -5.47855479703152e-07,
+            -0.9999999999991888
+          ],
+          "scale": [
+            1.0000000153232376,
+            0.9999999480850521,
+            0.9999999111068355
+          ]
+        },
+        "component": {
+          "translation": [
+            18.639277638982357,
+            2.686399851307627,
+            46.98819615636442
+          ],
+          "rotation_xyzw": [
+            -0.5463771441052,
+            -0.5463769118143257,
+            -0.35685754705344586,
+            -0.5249733114613395
+          ],
+          "scale": [
+            99.99999951591187,
+            99.99998688954778,
+            100.00000932174737
+          ]
+        }
+      },
+      "LeftHandRing4": {
+        "local": {
+          "translation": [
+            1.2828943608822474e-08,
+            -0.012870249048101245,
+            5.918938436599852e-09
+          ],
+          "rotation_xyzw": [
+            -5.068050481210192e-07,
+            8.853056558979484e-08,
+            2.2201406909489477e-07,
+            -0.999999999999843
+          ],
+          "scale": [
+            0.9999999172006853,
+            0.9999998586176279,
+            0.99999989783301
+          ]
+        },
+        "component": {
+          "translation": [
+            18.353077127184577,
+            2.495600324966608,
+            45.74798751300374
+          ],
+          "rotation_xyzw": [
+            0.5463773204536776,
+            0.546377167498675,
+            0.3568571052242741,
+            0.5249731621530155
+          ],
+          "scale": [
+            99.99999123598043,
+            99.99997275131243,
+            99.99999910504742
+          ]
+        }
+      },
+      "LeftHandThumb1": {
+        "local": {
+          "translation": [
+            0.01318400756651561,
+            -0.026064917709785806,
+            -0.009461217980849423
+          ],
+          "rotation_xyzw": [
+            -0.07721298373275005,
+            -0.2593309264965241,
+            -0.3675686414038579,
+            -0.8897634065087542
+          ],
+          "scale": [
+            0.9999999124845046,
+            0.9999999870264275,
+            0.9999999294880547
+          ]
+        },
+        "component": {
+          "translation": [
+            16.829971080440597,
+            4.70857197065404,
+            52.84185810472424
+          ],
+          "rotation_xyzw": [
+            -0.3920171572829012,
+            -0.3920167542137385,
+            -0.8309307633568761,
+            -0.04689860678867008
+          ],
+          "scale": [
+            99.99999227540368,
+            99.9999897641929,
+            100.00001915671176
+          ]
+        }
+      },
+      "LeftHandThumb2": {
+        "local": {
+          "translation": [
+            -3.0334988382341166e-08,
+            -0.020876373370513013,
+            3.5327795910866655e-08
+          ],
+          "rotation_xyzw": [
+            -0.11384910054452207,
+            0.21269635146843158,
+            0.1242926839090104,
+            -0.9624707648047892
+          ],
+          "scale": [
+            0.9999999973711227,
+            1.000000097925384,
+            1.0000000488521112
+          ]
+        },
+        "component": {
+          "translation": [
+            16.351039082876746,
+            6.14538248098577,
+            51.405046197068195
+          ],
+          "rotation_xyzw": [
+            0.5106555445567165,
+            0.5106550873315111,
+            0.6659060396658462,
+            0.18716688524543962
+          ],
+          "scale": [
+            99.99999201251597,
+            99.9999995567303,
+            100.00002404192382
+          ]
+        }
+      },
+      "LeftHandThumb3": {
+        "local": {
+          "translation": [
+            -4.5370447898651634e-08,
+            -0.01954522461677277,
+            -7.722974737500721e-08
+          ],
+          "rotation_xyzw": [
+            2.83162862165007e-07,
+            -6.826802169256035e-08,
+            2.190825716777167e-07,
+            -0.9999999999999336
+          ],
+          "scale": [
+            0.9999998544534374,
+            1.0000000365139339,
+            0.9999999980104114
+          ]
+        },
+        "component": {
+          "translation": [
+            15.818883053973087,
+            6.943601938484495,
+            49.702162267381276
+          ],
+          "rotation_xyzw": [
+            -0.510655334222254,
+            -0.51065502342486,
+            -0.6659061781207993,
+            -0.18716714087110783
+          ],
+          "scale": [
+            99.99997745786088,
+            100.00000320812367,
+            100.00002384296491
+          ]
+        }
+      },
+      "LeftHandThumb4": {
+        "local": {
+          "translation": [
+            -4.3385128933870476e-08,
+            -0.014754929323505528,
+            3.320372865545096e-08
+          ],
+          "rotation_xyzw": [
+            -3.5623350536043805e-07,
+            -8.518192749978552e-08,
+            5.655575673425966e-07,
+            -0.999999999999773
+          ],
+          "scale": [
+            1.0000000500560826,
+            0.9999998726079532,
+            0.9999999456312013
+          ]
+        },
+        "component": {
+          "translation": [
+            15.417161276313013,
+            7.546191280466516,
+            48.41663310341167
+          ],
+          "rotation_xyzw": [
+            0.5106550553693601,
+            0.5106555653910826,
+            0.6659059338530319,
+            0.18716729206822458
+          ],
+          "scale": [
+            99.99998246346802,
+            99.99999046891858,
+            100.00001840608374
+          ]
+        }
+      },
+      "Neck": {
+        "local": {
+          "translation": [
+            0.0005284956531980967,
+            -0.08236054904415202,
+            5.378075461121446e-05
+          ],
+          "rotation_xyzw": [
+            -0.00129268062514046,
+            -0.011475690109561761,
+            0.011403339790042405,
+            -0.9998682920039736
+          ],
+          "scale": [
+            0.9999999527867282,
+            0.9999999601116513,
+            0.9999999211871836
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856590414286645,
+            -0.19521922638515865,
+            82.18640685583823
+          ],
+          "rotation_xyzw": [
+            0.49613895288289733,
+            0.4961388734166843,
+            -0.4379825922086588,
+            -0.5620174433585398
+          ],
+          "scale": [
+            100.00001506979135,
+            99.99999302107388,
+            99.99999527445519
+          ]
+        }
+      },
+      "Head": {
+        "local": {
+          "translation": [
+            8.454047573103196e-09,
+            -0.03147775811293041,
+            -2.3447764693415585e-09
+          ],
+          "rotation_xyzw": [
+            1.0238082326465935e-09,
+            1.4126883033127447e-08,
+            -4.0661760440538765e-08,
+            -0.9999999999999992
+          ],
+          "scale": [
+            0.999999925687766,
+            1.0000000480548057,
+            0.9999999962317195
+          ]
+        },
+        "component": {
+          "translation": [
+            0.5856596028705111,
+            -0.585652065480663,
+            85.30987502012374
+          ],
+          "rotation_xyzw": [
+            -0.49613896744484615,
+            -0.49613886163076554,
+            0.437982621562223,
+            0.5620174180325491
+          ],
+          "scale": [
+            100.00000763856683,
+            99.99999782655411,
+            99.99999489762716
+          ]
+        }
+      },
+      "HeadTop_End": {
+        "local": {
+          "translation": [
+            -4.848020374037532e-09,
+            -0.07504556254824357,
+            7.699083271958673e-10
+          ],
+          "rotation_xyzw": [
+            6.4678782889128694e-09,
+            -6.589775726794909e-10,
+            -4.4358275226701815e-08,
+            -0.999999999999999
+          ],
+          "scale": [
+            1.000000049524846,
+            1.0000000489789402,
+            1.0000000608064261
+          ]
+        },
+        "component": {
+          "translation": [
+            0.585660060624306,
+            -1.5164778696849008,
+            92.75647998184641
+          ],
+          "rotation_xyzw": [
+            0.49613899337639084,
+            0.49613884208535763,
+            -0.43798264295643563,
+            -0.5620173957223729
+          ],
+          "scale": [
+            100.0000125910518,
+            100.00000272444802,
+            100.00000097826947
+          ]
+        }
+      },
+      "RightShoulder": {
+        "local": {
+          "translation": [
+            -0.004204116179935782,
+            -0.06293899269035963,
+            0.027043746232950125
+          ],
+          "rotation_xyzw": [
+            0.8313380070281332,
+            0.07018915824645301,
+            0.014037561925312057,
+            -0.5511384100118037
+          ],
+          "scale": [
+            1.0000000425152553,
+            0.9999999167969797,
+            1.0000000061794276
+          ]
+        },
+        "component": {
+          "translation": [
+            -2.1473810056067135,
+            -0.1952193396085058,
+            80.23422360392888
+          ],
+          "rotation_xyzw": [
+            0.6933753185709256,
+            0.6933751610727685,
+            0.13867489662728524,
+            0.13867525608194034
+          ],
+          "scale": [
+            100.00002404264585,
+            99.99998868960685,
+            100.00000377367986
+          ]
+        }
+      },
+      "RightArm": {
+        "local": {
+          "translation": [
+            2.281958399606883e-08,
+            -0.05075644144568561,
+            -5.7885292892301266e-08
+          ],
+          "rotation_xyzw": [
+            0.379862130989626,
+            -0.026324074873651963,
+            -0.005264870075784058,
+            -0.924653494918584
+          ],
+          "scale": [
+            0.9999999625527778,
+            1.00000016743379,
+            1.0000001120429767
+          ]
+        },
+        "component": {
+          "translation": [
+            -6.832592527935251,
+            -0.1952164550871205,
+            78.28205797423456
+          ],
+          "rotation_xyzw": [
+            -0.5884544750909863,
+            -0.5884543910862574,
+            -0.4105957650918705,
+            -0.3726310213137329
+          ],
+          "scale": [
+            100.00002029792273,
+            100.00000543298395,
+            100.00001497797795
+          ]
+        }
+      },
+      "RightForeArm": {
+        "local": {
+          "translation": [
+            9.286150938481175e-09,
+            -0.1313042677913242,
+            -3.116893737553639e-08
+          ],
+          "rotation_xyzw": [
+            -0.014972726026914983,
+            -0.15094936016761423,
+            -0.10093921071415426,
+            -0.9832605879830201
+          ],
+          "scale": [
+            0.99999996097309,
+            0.9999999130621372,
+            0.9999998064336163
+          ]
+        },
+        "component": {
+          "translation": [
+            -11.908238346242015,
+            0.19521894858042343,
+            66.17860781080402
+          ],
+          "rotation_xyzw": [
+            0.5816023491198379,
+            0.5816020324682121,
+            0.521351774712272,
+            0.22731060320956362
+          ],
+          "scale": [
+            100.00001639523093,
+            99.9999967391972,
+            99.99999562133668
+          ]
+        }
+      },
+      "RightHand": {
+        "local": {
+          "translation": [
+            -8.238199844523564e-08,
+            -0.12490959026943638,
+            7.578294869414748e-08
+          ],
+          "rotation_xyzw": [
+            0.07887760522200836,
+            0.029724774434934615,
+            0.039070633853746733,
+            -0.9956747695655945
+          ],
+          "scale": [
+            1.0000000997369172,
+            0.9999999984697485,
+            1.0000001869440278
+          ]
+        },
+        "component": {
+          "translation": [
+            -17.398064253066885,
+            2.944947801325494,
+            55.300885163725155
+          ],
+          "rotation_xyzw": [
+            -0.5539305727613772,
+            -0.5539303062129873,
+            -0.53880301567511,
+            -0.30986036648536713
+          ],
+          "scale": [
+            100.00002636892428,
+            99.99999658617206,
+            100.00001431573864
+          ]
+        }
+      },
+      "RightHandIndex1": {
+        "local": {
+          "translation": [
+            0.01480971858322852,
+            -0.06032557177950548,
+            0.01107891155634877
+          ],
+          "rotation_xyzw": [
+            0.07968757491574573,
+            0.07410911994946501,
+            0.07323814264323128,
+            -0.9913596235506734
+          ],
+          "scale": [
+            1.0000000015298076,
+            0.9999999666021847,
+            1.0000000087296252
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.331900395114243,
+            5.80139572444408,
+            49.75281334471882
+          ],
+          "rotation_xyzw": [
+            0.5238137734551694,
+            0.5238136013990716,
+            0.5145440125815061,
+            0.4318366599126505
+          ],
+          "scale": [
+            100.00002652190508,
+            99.99999324639064,
+            100.00001518870128
+          ]
+        }
+      },
+      "RightHandIndex2": {
+        "local": {
+          "translation": [
+            -3.0243275758734534e-08,
+            -0.02105395020895623,
+            -7.653012479291732e-08
+          ],
+          "rotation_xyzw": [
+            0.07432700807312999,
+            0.04035824312810871,
+            0.04232581913371212,
+            -0.9955175704713451
+          ],
+          "scale": [
+            1.0000000804512803,
+            1.0000000614806952,
+            0.9999999131584225
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.551634382823803,
+            5.966187252677784,
+            47.66541105425955
+          ],
+          "rotation_xyzw": [
+            -0.4879639408291983,
+            -0.4879638049901488,
+            -0.5117530590999972,
+            -0.5117531865770547
+          ],
+          "scale": [
+            100.00003456703524,
+            99.99999939445975,
+            100.00000650454221
+          ]
+        }
+      },
+      "RightHandIndex3": {
+        "local": {
+          "translation": [
+            7.472089065541088e-09,
+            -0.011548745567957652,
+            -2.593094072800284e-10
+          ],
+          "rotation_xyzw": [
+            -5.516934345101339e-07,
+            -1.2100960236623792e-07,
+            -1.2640142799753398e-09,
+            -0.9999999999998405
+          ],
+          "scale": [
+            0.9999999999999611,
+            1.0000000668029179,
+            1.0000001263400016
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.496702760412578,
+            5.9661880023070335,
+            46.51184365586409
+          ],
+          "rotation_xyzw": [
+            0.48796416184975266,
+            0.48796414863112997,
+            0.511752849588674,
+            0.5117528576753014
+          ],
+          "scale": [
+            100.00003456703136,
+            100.0000060747515,
+            100.0000191385432
+          ]
+        }
+      },
+      "RightHandIndex4": {
+        "local": {
+          "translation": [
+            7.450578140555386e-09,
+            -0.01123355640921836,
+            1.3521591263332411e-08
+          ],
+          "rotation_xyzw": [
+            6.666036976462219e-07,
+            -5.220471124090277e-09,
+            3.974323710172482e-15,
+            -0.9999999999997778
+          ],
+          "scale": [
+            0.9999999999999993,
+            0.9999998844687301,
+            0.9999998842916255
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.443270194320267,
+            5.966188752559157,
+            45.38975942988482
+          ],
+          "rotation_xyzw": [
+            -0.48796381804170413,
+            -0.48796381016627266,
+            -0.5117531774146669,
+            -0.5117531804065016
+          ],
+          "scale": [
+            100.00003456703129,
+            99.9999945216238,
+            100.00000756770352
+          ]
+        }
+      },
+      "RightHandMiddle1": {
+        "local": {
+          "translation": [
+            0.005270358542262099,
+            -0.05857971717004978,
+            0.00040854734955120264
+          ],
+          "rotation_xyzw": [
+            0.14503362055406938,
+            0.1590471285052555,
+            0.15180773766318106,
+            -0.9646883800527494
+          ],
+          "scale": [
+            0.9999998886780106,
+            1.0000001012313933,
+            0.9999999484360184
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.1009404228817,
+            4.59289931938277,
+            49.917602253952786
+          ],
+          "rotation_xyzw": [
+            0.4910343819451126,
+            0.491034123180209,
+            0.46497525798725553,
+            0.5491527429414425
+          ],
+          "scale": [
+            100.0000152367224,
+            100.00000670931104,
+            100.00000915933974
+          ]
+        }
+      },
+      "RightHandMiddle2": {
+        "local": {
+          "translation": [
+            -2.9727301002757667e-08,
+            -0.019304357722933152,
+            -2.776770444135046e-08
+          ],
+          "rotation_xyzw": [
+            0.04744810677037758,
+            -0.0010907886859965136,
+            -0.005193171471609786,
+            -0.9988596089110902
+          ],
+          "scale": [
+            1.0000001295081422,
+            0.9999999649236456,
+            0.9999999795312664
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.04601172593527,
+            4.428102059358805,
+            47.99499790766554
+          ],
+          "rotation_xyzw": [
+            -0.4664609873806683,
+            -0.4664609404102081,
+            -0.4911311029574974,
+            -0.5688748351186127
+          ],
+          "scale": [
+            100.0000281875386,
+            100.00000320167537,
+            100.00000711246619
+          ]
+        }
+      },
+      "RightHandMiddle3": {
+        "local": {
+          "translation": [
+            1.0920382560036801e-08,
+            -0.013331473917053582,
+            -4.4543161936694275e-09
+          ],
+          "rotation_xyzw": [
+            -1.3377569097348785e-07,
+            1.095778633658961e-07,
+            1.0637403382988214e-07,
+            -0.9999999999999793
+          ],
+          "scale": [
+            0.9999998537294723,
+            0.9999999791244333,
+            0.9999998073072285
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.88121827087122,
+            4.318240131582165,
+            46.67664455753097
+          ],
+          "rotation_xyzw": [
+            0.46646106768004786,
+            0.466460993394849,
+            0.4911309289290433,
+            0.5688748760748498
+          ],
+          "scale": [
+            100.0000135604817,
+            100.00000111411863,
+            99.99998784318767
+          ]
+        }
+      },
+      "RightHandMiddle4": {
+        "local": {
+          "translation": [
+            2.3889941934418513e-09,
+            -0.013316286191628168,
+            -8.509296045566828e-11
+          ],
+          "rotation_xyzw": [
+            7.638093261061102e-09,
+            1.5224143504081436e-09,
+            -1.9954846740980522e-09,
+            -1.0
+          ],
+          "scale": [
+            1.0000000598583745,
+            1.0000000024559612,
+            1.0000001212100986
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.716612572559534,
+            4.208502230862756,
+            45.35979324621506
+          ],
+          "rotation_xyzw": [
+            -0.466461065013449,
+            -0.46646098784666595,
+            -0.4911309329169499,
+            -0.5688748793678255
+          ],
+          "scale": [
+            100.00001954631996,
+            100.00000135971476,
+            99.99999996419605
+          ]
+        }
+      },
+      "RightHandPinky1": {
+        "local": {
+          "translation": [
+            -0.018321528109065677,
+            -0.04829207104496597,
+            -0.0075280151716100585
+          ],
+          "rotation_xyzw": [
+            0.18653518355422083,
+            0.24473906339897292,
+            0.22602770285698479,
+            -0.9242396300117093
+          ],
+          "scale": [
+            1.0000000555568334,
+            0.9999999358347512,
+            0.9999999707170674
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.10094044662141,
+            1.9561818236876407,
+            50.46691266111164
+          ],
+          "rotation_xyzw": [
+            0.4608272780393043,
+            0.46082734086345656,
+            0.39570511479365517,
+            0.6470655637984004
+          ],
+          "scale": [
+            100.00003192460908,
+            99.9999901696474,
+            100.00001138744496
+          ]
+        }
+      },
+      "RightHandPinky2": {
+        "local": {
+          "translation": [
+            -4.468999725837364e-08,
+            -0.012574402878807844,
+            -3.577841735380449e-08
+          ],
+          "rotation_xyzw": [
+            0.05185120793660186,
+            -0.04273883520469662,
+            -0.0624965235780977,
+            -0.995780612756401
+          ],
+          "scale": [
+            0.9999999028467276,
+            0.9999999443544939,
+            0.9999999081808498
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.99108164413322,
+            1.62658910945996,
+            49.258419610657505
+          ],
+          "rotation_xyzw": [
+            -0.4372198692866009,
+            -0.43721986932157286,
+            -0.4780645053125029,
+            -0.6238043768135542
+          ],
+          "scale": [
+            100.00002220927873,
+            99.99998460509734,
+            100.0000022055289
+          ]
+        }
+      },
+      "RightHandPinky3": {
+        "local": {
+          "translation": [
+            5.939315331215944e-09,
+            -0.010262102911948512,
+            -2.1577348255363837e-08
+          ],
+          "rotation_xyzw": [
+            -4.5741581256445474e-07,
+            -8.152394345227919e-08,
+            1.3719429595724127e-07,
+            -0.9999999999998826
+          ],
+          "scale": [
+            0.9999999628912626,
+            1.000000056633076,
+            1.0000001373734873
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.771356610826718,
+            1.4617947499747679,
+            48.269647156384124
+          ],
+          "rotation_xyzw": [
+            0.43722005566675964,
+            0.4372201988348506,
+            0.47806425538265057,
+            0.6238042067660345
+          ],
+          "scale": [
+            100.00001849840416,
+            99.99999026840406,
+            100.00001594287792
+          ]
+        }
+      },
+      "RightHandPinky4": {
+        "local": {
+          "translation": [
+            2.5006483744816066e-08,
+            -0.010339403903803612,
+            1.996193972619853e-08
+          ],
+          "rotation_xyzw": [
+            7.201050612896419e-07,
+            2.7221657647564218e-09,
+            -1.2443198014983348e-07,
+            -0.999999999999733
+          ],
+          "scale": [
+            1.0000000207756001,
+            0.9999998883297618,
+            0.9999999422785425
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.549973083146426,
+            1.2957602135037294,
+            47.273427105806476
+          ],
+          "rotation_xyzw": [
+            -0.4372196621676216,
+            -0.4372197984759882,
+            -0.47806464665800824,
+            -0.6238044633139469
+          ],
+          "scale": [
+            100.00002057596456,
+            99.99997910138133,
+            100.00001017073126
+          ]
+        }
+      },
+      "RightHandRing1": {
+        "local": {
+          "translation": [
+            -0.006344744086851983,
+            -0.05441343844067742,
+            -0.004984258532060526
+          ],
+          "rotation_xyzw": [
+            0.13576856240946888,
+            0.20692379308308873,
+            0.18656861399188468,
+            -0.9507584307228205
+          ],
+          "scale": [
+            1.0000000040133832,
+            1.0000000290907525,
+            1.0000000814461345
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.265736850821142,
+            3.2745388918049168,
+            50.13732282960441
+          ],
+          "rotation_xyzw": [
+            0.49273001983245407,
+            0.4927299746533279,
+            0.4150461966749006,
+            0.5849538052357127
+          ],
+          "scale": [
+            100.0000267702627,
+            99.99999949524721,
+            100.00002246035325
+          ]
+        }
+      },
+      "RightHandRing2": {
+        "local": {
+          "translation": [
+            -1.6783828049593552e-08,
+            -0.01616515891358683,
+            -2.734826071160157e-08
+          ],
+          "rotation_xyzw": [
+            0.11843243452028435,
+            -0.0024364038893863564,
+            -0.022891593810069808,
+            -0.9926952187466812
+          ],
+          "scale": [
+            0.999999759185122,
+            1.0000000295853095,
+            0.999999891163331
+          ]
+        },
+        "component": {
+          "translation": [
+            -19.2657398248765,
+            2.9998794433170968,
+            48.54431128288124
+          ],
+          "rotation_xyzw": [
+            -0.43012138585462106,
+            -0.4301215667150942,
+            -0.484960599701328,
+            -0.6283345032817961
+          ],
+          "scale": [
+            100.00000268876846,
+            100.00000245377815,
+            100.0000115766839
+          ]
+        }
+      },
+      "RightHandRing3": {
+        "local": {
+          "translation": [
+            2.029217925636484e-09,
+            -0.013765795729930086,
+            -7.139589183746686e-09
+          ],
+          "rotation_xyzw": [
+            -3.2024692201496885e-07,
+            -3.1564216801557336e-08,
+            -2.937427452664301e-07,
+            -0.9999999999999051
+          ],
+          "scale": [
+            1.0000001397320633,
+            1.0000000011895547,
+            1.000000088472751
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.936151546140486,
+            2.780153369089185,
+            47.22595494539005
+          ],
+          "rotation_xyzw": [
+            0.43012169811445916,
+            0.4301216155100425,
+            0.4849606601013208,
+            0.6283342095065783
+          ],
+          "scale": [
+            100.00001666197517,
+            100.00000257273362,
+            100.00002042396002
+          ]
+        }
+      },
+      "RightHandRing4": {
+        "local": {
+          "translation": [
+            -1.0193612148823306e-08,
+            -0.012570622321394442,
+            -2.0347674142828787e-08
+          ],
+          "rotation_xyzw": [
+            5.898273033201141e-07,
+            -5.560165644276099e-08,
+            5.470513078152674e-08,
+            -0.9999999999998231
+          ],
+          "scale": [
+            0.9999999429714473,
+            0.9999998989142788,
+            0.999999890085769
+          ]
+        },
+        "component": {
+          "translation": [
+            -18.635180938216003,
+            2.5795041570003505,
+            46.02206038038893
+          ],
+          "rotation_xyzw": [
+            -0.43012127701123554,
+            -0.4301213879332147,
+            -0.4849609033410814,
+            -0.6283344658183505
+          ],
+          "scale": [
+            100.00001095911895,
+            99.99999246416124,
+            100.00000943253467
+          ]
+        }
+      },
+      "RightHandThumb1": {
+        "local": {
+          "translation": [
+            0.009245668699846499,
+            -0.024295624766869472,
+            0.016151238825860448
+          ],
+          "rotation_xyzw": [
+            0.3739122784361407,
+            -0.26288864005979196,
+            -0.1241122646657613,
+            -0.8807243136883092
+          ],
+          "scale": [
+            0.9999997850006993,
+            0.9999998284202165,
+            1.0000000091938648
+          ]
+        },
+        "component": {
+          "translation": [
+            -16.73888142804162,
+            4.702761337253917,
+            52.88390497098889
+          ],
+          "rotation_xyzw": [
+            0.2991038806167828,
+            0.2991040180519943,
+            0.8657377858600215,
+            0.26752895379625996
+          ],
+          "scale": [
+            100.00000486898854,
+            99.9999794281943,
+            100.00001523512525
+          ]
+        }
+      },
+      "RightHandThumb2": {
+        "local": {
+          "translation": [
+            3.880566251668327e-08,
+            -0.02511886049028844,
+            -2.4777036727874346e-08
+          ],
+          "rotation_xyzw": [
+            -0.12451991415323511,
+            0.15035257483627787,
+            0.16031181933795427,
+            -0.9675686098669838
+          ],
+          "scale": [
+            0.9999999508632627,
+            0.9999999940096482,
+            0.9999999425988837
+          ]
+        },
+        "component": {
+          "translation": [
+            -16.024773000862698,
+            6.4056457287995885,
+            51.18102422630833
+          ],
+          "rotation_xyzw": [
+            -0.4049322042663207,
+            -0.4049314739528945,
+            -0.7125572074202656,
+            -0.40536728716534076
+          ],
+          "scale": [
+            99.99999995531456,
+            99.99997882915925,
+            100.00000949501275
+          ]
+        }
+      },
+      "RightHandThumb3": {
+        "local": {
+          "translation": [
+            -2.1553986928601887e-09,
+            -0.017595174669458313,
+            -3.1294084948396694e-08
+          ],
+          "rotation_xyzw": [
+            -2.915537278614144e-08,
+            -3.944850448785824e-09,
+            1.1718570459911498e-06,
+            -0.9999999999993131
+          ],
+          "scale": [
+            1.0000000348506415,
+            0.9999999823221046,
+            1.0000000250841097
+          ]
+        },
+        "component": {
+          "translation": [
+            -15.585327259220989,
+            7.00989059862034,
+            49.58801575706252
+          ],
+          "rotation_xyzw": [
+            0.4049317387519444,
+            0.4049319708492574,
+            0.7125567221787333,
+            0.405368108776903
+          ],
+          "scale": [
+            100.0000034403787,
+            99.99997706137009,
+            100.00001200342395
+          ]
+        }
+      },
+      "RightHandThumb4": {
+        "local": {
+          "translation": [
+            -5.7402716191479186e-08,
+            -0.013262345298567624,
+            1.2325549150760118e-08
+          ],
+          "rotation_xyzw": [
+            2.1675007078151095e-07,
+            1.110021535572512e-07,
+            -7.652660065739887e-07,
+            -0.9999999999996775
+          ],
+          "scale": [
+            0.9999999928657998,
+            0.9999999246356137,
+            0.9999999735836824
+          ]
+        },
+        "component": {
+          "translation": [
+            -15.254089312689242,
+            7.465332564255115,
+            48.38728628711482
+          ],
+          "rotation_xyzw": [
+            -0.40493203986425047,
+            -0.4049314615251791,
+            -0.7125570752136756,
+            -0.4053676961986388
+          ],
+          "scale": [
+            100.00000272695866,
+            99.99996952493319,
+            100.00000936179187
+          ]
+        }
+      }
+    },
+    "import_data": {
+      "type": "InterchangeAssetImportData",
+      "text": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo:InterchangeAssetImportData_0' (0x000001A7534F3FC0) Class 'InterchangeAssetImportData'>",
+      "node_unique_id": "Factory_\\RootNode.tripo_node_c86468c2Factory_RootNode.Armature.mixamorig_Hips",
+      "scene_import_asset": "<Struct 'SoftObjectPath' (0x000001A7534F4020) {}>",
+      "source_data": "<Struct 'AssetImportInfo' (0x000001A7534F4010) {}>"
+    },
+    "import_data_methods": [
+      "get_number_of_pipelines",
+      "get_pipelines",
+      "get_translator_settings",
+      "pipelines",
+      "set_pipelines",
+      "set_translator_settings"
+    ],
+    "stored_pipelines": [
+      {
+        "type": "InterchangeGenericAssetsPipeline",
+        "text": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1' (0x000001A7298ECF00) Class 'InterchangeGenericAssetsPipeline'>",
+        "animation_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericAnimationPipeline_0' (0x000001A74457E800) Class 'InterchangeGenericAnimationPipeline'>",
+        "asset_name": "",
+        "asset_type_sub_folders": "False",
+        "common_meshes_properties": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericCommonMeshesProperties_0' (0x000001A6D7DEAB00) Class 'InterchangeGenericCommonMeshesProperties'>",
+        "common_skeletal_meshes_and_animations_properties": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericCommonSkeletalMeshesAndAnimationsProperties_0' (0x000001A7445F6E40) Class 'InterchangeGenericCommonSkeletalMeshesAndAnimationsProperties'>",
+        "groom_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericGroomPipeline_0' (0x000001A74457F800) Class 'InterchangeGenericGroomPipeline'>",
+        "import_offset_rotation": "<Struct 'Rotator' (0x000001A7298ED098) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "import_offset_translation": "<Struct 'Vector' (0x000001A7298ED080) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "import_offset_uniform_scale": "1.0",
+        "material_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericMaterialPipeline_0' (0x000001A74457F600) Class 'InterchangeGenericMaterialPipeline'>",
+        "mesh_pipeline": "<Object '/Engine/Transient.InterchangeGenericAssetsPipeline_1:InterchangeGenericMeshPipeline_0' (0x000001A7530AD580) Class 'InterchangeGenericMeshPipeline'>",
+        "pipeline_display_name": "Default Assets Pipeline",
+        "reimport_strategy": "<ReimportStrategyFlags.APPLY_NO_PROPERTIES: 0>",
+        "scene_name_sub_folder": "False",
+        "use_source_name_for_asset": "True"
+      }
+    ],
+    "translator_settings": null
+  },
+  "animations": {
+    "MM_Idle": {
+      "loaded": true,
+      "skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+      "length": 7.566666603088379,
+      "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+      "root_motion": false
+    },
+    "MF_Walk_Fwd": {
+      "loaded": true,
+      "skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+      "length": 1.8666666746139526,
+      "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+      "root_motion": false
+    },
+    "JumpingJacks": {
+      "loaded": true,
+      "skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+      "length": 9.466666221618652,
+      "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+      "root_motion": false
+    },
+    "Manny_upperarm_r_anim": {
+      "loaded": true,
+      "skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+      "length": 0.625,
+      "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+      "root_motion": false
+    },
+    "MM_Death_Front_01": {
+      "loaded": true,
+      "skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+      "length": 1.100000023841858,
+      "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+      "root_motion": false
+    }
+  },
+  "baked": [
+    "/Game/MetaHumanTo3DCharacter/Phase3B/UE5/Height180/Tests/Full/MM_Run_Fwd"
+  ],
+  "pose": {
+    "root": {
+      "translation": [
+        1.0546974325639233,
+        3.164066222492696,
+        -1.8435512174619362e-06
+      ],
+      "rotation_xyzw": [
+        0.5000000665591777,
+        0.4999999552965109,
+        -0.499999963243146,
+        -0.5000000149011575
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "pelvis": {
+      "translation": [
+        -0.28621488361421044,
+        97.7949688578517,
+        82.1231614027057
+      ],
+      "rotation_xyzw": [
+        0.5626410827841345,
+        0.45661573788552406,
+        -0.48127268306659354,
+        -0.4932683695643148
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "head": {
+      "translation": [
+        2.429346299201227,
+        114.4313244126959,
+        131.19127005898835
+      ],
+      "rotation_xyzw": [
+        0.5445158355754961,
+        0.4541580646572882,
+        -0.5492885596408402,
+        -0.44218212917525096
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "hand_l": {
+      "translation": [
+        15.211781516107674,
+        113.91736823363449,
+        98.0071998760284
+      ],
+      "rotation_xyzw": [
+        -0.8084998789449339,
+        -0.04267743368737199,
+        -0.5798188719936932,
+        -0.09119571305631559
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "foot_l": {
+      "translation": [
+        11.980742569456254,
+        137.85364165363595,
+        6.025231405170366
+      ],
+      "rotation_xyzw": [
+        0.47315710009753464,
+        0.17030448790568442,
+        0.8401385345423436,
+        0.20318952434492937
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "ball_l": {
+      "translation": [
+        15.14164277604627,
+        152.9243391328909,
+        -2.364618226297047
+      ],
+      "rotation_xyzw": [
+        0.4716853015761339,
+        0.14363195898236616,
+        0.8473738403662788,
+        0.19707970798340704
+      ],
+      "scale": [
+        1.0,
+        0.9999999999999999,
+        1.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "case": "MixamoRecovered",
+    "archive": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Characters\\Lara_Rigged_Mixamo.zip",
+    "bytes": 1386256,
+    "sha256": "be9036cf870c5209d284420ef542cac086d67cafc9ccdb01a829e5fe0fe05c21",
+    "entries": [
+      {
+        "name": "tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+        "bytes": 1621724,
+        "compressed_bytes": 1386050,
+        "crc32": 366104814,
+        "sha256": "ccbbbe0accae7f70cd850d398fbe670a3bd5e7cd8a1be3372d3fb6702064337a"
+      }
+    ]
+  },
+  {
+    "case": "Unrigged",
+    "archive": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Characters\\Lara_UnRigged_Textured.zip",
+    "bytes": 5739330,
+    "sha256": "45fa309b7b9114ff71618feac8d0951dd55596d091d4f03e2434b6cc1384f959",
+    "entries": [
+      {
+        "name": "Lara_UnRigged_Textured.fbx",
+        "bytes": 1759072,
+        "compressed_bytes": 1711922,
+        "crc32": 1261093116,
+        "sha256": "d73f4bbb1e0701deedf1ab002d7b35c1328c73740f0ac7db70b1b6408fb504ab"
+      },
+      {
+        "name": "Lara_UnRigged_Textured.fbm/Lara_UnRigged_Textured_basecolor.jpg",
+        "bytes": 4026618,
+        "compressed_bytes": 4026992,
+        "crc32": 723579702,
+        "sha256": "e54248a0d64cc4e4b40ade553e679f2b6919b87e79dbdb66adcf73e253a6b585"
+      }
+    ]
+  }
+]

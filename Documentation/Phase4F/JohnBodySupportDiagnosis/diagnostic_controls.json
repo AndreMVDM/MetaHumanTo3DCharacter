@@ -1,0 +1,62 @@
+[
+  {
+    "control": "closed square",
+    "expected_enclosing_arrangement": true,
+    "observed": true
+  },
+  {
+    "control": "outside point",
+    "expected_enclosing_arrangement": false,
+    "observed": false
+  },
+  {
+    "control": "open three sides",
+    "expected_enclosing_arrangement": false,
+    "observed": false
+  },
+  {
+    "control": "small real gap is not numerical closure",
+    "expected_enclosing_arrangement": false,
+    "observed": false
+  },
+  {
+    "control": "dangling external tail does not destroy closed face",
+    "expected_enclosing_arrangement": true,
+    "observed": true
+  },
+  {
+    "control": "exact endpoint-on-edge T contact",
+    "expected_enclosing_arrangement": true,
+    "observed": true
+  },
+  {
+    "control": "concave outside point",
+    "expected_enclosing_arrangement": false,
+    "observed": false
+  },
+  {
+    "control": "overlapping closed loops",
+    "expected_enclosing_arrangement": true,
+    "observed": true
+  },
+  {
+    "control": "disconnected nested boundaries need shell semantics",
+    "candidate_enclosure_count": 2,
+    "limitation": "An oriented cavity must reject this point; a filled nested garment layer may support it. Arrangement-only containment cannot decide."
+  },
+  {
+    "control": "closed cube interior",
+    "winding": 1.0000000000000002,
+    "expected": 1
+  },
+  {
+    "control": "closed cube exterior",
+    "winding": 0.0,
+    "expected": 0
+  },
+  {
+    "control": "open cube is not an integer volume certificate",
+    "interior_winding": 0.8333333333333335,
+    "limitation": "A large winding value on an open surface is corroboration, not watertight enclosure proof."
+  }
+]

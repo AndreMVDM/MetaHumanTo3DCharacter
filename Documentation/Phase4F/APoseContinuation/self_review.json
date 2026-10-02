@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "name": "John_zero_real_actions",
+      "passed": true
+    },
+    {
+      "name": "John_synthetic_review_not_counted",
+      "passed": true
+    },
+    {
+      "name": "John_move_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "John_l_five_tracks",
+      "passed": true
+    },
+    {
+      "name": "John_l_duplicate_rejected",
+      "passed": true
+    },
+    {
+      "name": "John_l_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "John_r_five_tracks",
+      "passed": true
+    },
+    {
+      "name": "John_r_duplicate_rejected",
+      "passed": true
+    },
+    {
+      "name": "John_r_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "John_real_session_untouched",
+      "passed": true
+    },
+    {
+      "name": "John_no_downstream_before_gate",
+      "passed": true
+    },
+    {
+      "name": "Jane_zero_real_actions",
+      "passed": true
+    },
+    {
+      "name": "Jane_synthetic_review_not_counted",
+      "passed": true
+    },
+    {
+      "name": "Jane_move_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jane_l_five_tracks",
+      "passed": true
+    },
+    {
+      "name": "Jane_l_duplicate_rejected",
+      "passed": true
+    },
+    {
+      "name": "Jane_l_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jane_r_five_tracks",
+      "passed": true
+    },
+    {
+      "name": "Jane_r_duplicate_rejected",
+      "passed": true
+    },
+    {
+      "name": "Jane_r_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jane_real_session_untouched",
+      "passed": true
+    },
+    {
+      "name": "Jane_no_downstream_before_gate",
+      "passed": true
+    },
+    {
+      "name": "python_syntax",
+      "passed": true
+    },
+    {
+      "name": "budget",
+      "passed": true
+    },
+    {
+      "name": "zero_skin_candidates",
+      "passed": true
+    },
+    {
+      "name": "Phase4FQualityGeneralisationGate.md_historical_prefix",
+      "passed": true
+    },
+    {
+      "name": "HumanReviewInstructions.md_historical_prefix",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic in-memory states, real zero-event invariants, gate blocking, budget, syntax and byte-preserved historical report prefixes. Native maps/readback verified separately."
+}

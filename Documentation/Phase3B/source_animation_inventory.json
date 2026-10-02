@@ -1,0 +1,32 @@
+[
+  {
+    "source": "E:\\Repo\\UE\\Projects\\AnimationRetargeting\\Content\\Characters\\Mannequins\\Anims\\Unarmed\\MM_Idle.uasset",
+    "candidate_copy": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MM_Idle.uasset",
+    "sha256": "11ee7fdeb84db89c1a66785b43b9bfc1415782122b8ac229517f4c5125d9cb0d",
+    "source_unchanged": true
+  },
+  {
+    "source": "E:\\Repo\\UE\\Projects\\AnimationRetargeting\\Content\\Characters\\Mannequins\\Animations\\Quinn\\MF_Walk_Fwd.uasset",
+    "candidate_copy": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MF_Walk_Fwd.uasset",
+    "sha256": "d25f99d65123f89d8cf3870731129cd5eb5a72d738e6e732ce8b08525eb9baee",
+    "source_unchanged": true
+  },
+  {
+    "source": "E:\\Repo\\UE\\Projects\\AnimationRetargeting\\Content\\ExampleContent\\ControlRig\\Animations\\JumpingJacks.uasset",
+    "candidate_copy": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\JumpingJacks.uasset",
+    "sha256": "a1cde4e9347e5b75e12164b65739e22e2f478e5c676cccc1e15b051b9356b56f",
+    "source_unchanged": true
+  },
+  {
+    "source": "E:\\Repo\\UE\\Projects\\AnimationRetargeting\\Content\\Characters\\Mannequins\\Rigs\\Poses\\Manny\\Manny_upperarm_r_anim.uasset",
+    "candidate_copy": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\Manny_upperarm_r_anim.uasset",
+    "sha256": "cfccfe3d0af088cf292e08ff3ee52193cd08597dd5bf7dd4cb4ffcbb2836aed4",
+    "source_unchanged": true
+  },
+  {
+    "source": "E:\\Repo\\UE\\Projects\\AnimationRetargeting\\Content\\Characters\\Mannequins\\Animations\\Manny\\MM_Death_Front_01.uasset",
+    "candidate_copy": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Content\\MetaHumanTo3DCharacter\\Phase3B\\SourceAnimations\\MM_Death_Front_01.uasset",
+    "sha256": "3547c83646bd2ca3a750fc79440d00722c10e17cbb95d2720c7273e84ac067a2",
+    "source_unchanged": true
+  }
+]

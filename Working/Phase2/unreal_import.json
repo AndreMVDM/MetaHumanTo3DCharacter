@@ -1,0 +1,77 @@
+{
+  "variants": {
+    "UE5": {
+      "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\UE5\\tripo_convert_d5fc96b7-496c-4293-922d-2da2b1716bc5.fbx",
+      "imported_paths": [
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/tripo_mat_d5fc96b7.tripo_mat_d5fc96b7",
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton",
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5"
+      ],
+      "assets": {
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/tripo_mat_d5fc96b7.tripo_mat_d5fc96b7": {
+          "class": "MaterialInstanceConstant"
+        },
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton": {
+          "class": "Skeleton"
+        },
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5": {
+          "class": "SkeletalMesh",
+          "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton",
+          "mesh_members": [
+            "get_bone_children",
+            "get_bone_parent",
+            "skeleton"
+          ],
+          "skeleton_members": [
+            "add_compatible_skeleton",
+            "add_compatible_skeleton_soft",
+            "compatible_skeletons",
+            "copy_bones_from_skeleton",
+            "get_reference_pose",
+            "get_skeleton_additional_preview_meshes",
+            "get_skeleton_preview_mesh",
+            "set_skeleton_additional_preview_meshes",
+            "set_skeleton_preview_mesh"
+          ]
+        }
+      }
+    },
+    "Mixamo": {
+      "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase2\\Mixamo\\tripo_convert_c86468c2-b692-4f02-a7aa-d0b57cca6741.fbx",
+      "imported_paths": [
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/tripo_mat_c86468c2.tripo_mat_c86468c2",
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton",
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo"
+      ],
+      "assets": {
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/tripo_mat_c86468c2.tripo_mat_c86468c2": {
+          "class": "MaterialInstanceConstant"
+        },
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton": {
+          "class": "Skeleton"
+        },
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo": {
+          "class": "SkeletalMesh",
+          "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton",
+          "mesh_members": [
+            "get_bone_children",
+            "get_bone_parent",
+            "skeleton"
+          ],
+          "skeleton_members": [
+            "add_compatible_skeleton",
+            "add_compatible_skeleton_soft",
+            "compatible_skeletons",
+            "copy_bones_from_skeleton",
+            "get_reference_pose",
+            "get_skeleton_additional_preview_meshes",
+            "get_skeleton_preview_mesh",
+            "set_skeleton_additional_preview_meshes",
+            "set_skeleton_preview_mesh"
+          ]
+        }
+      }
+    }
+  },
+  "errors": []
+}

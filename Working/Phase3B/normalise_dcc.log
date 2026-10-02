@@ -1,0 +1,64 @@
+00:02.219  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_958f80a90c48e6e909700d4752ecb3bd.png.png"
+00:02.969  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_e512424da6b8b4ad1606645376a4fc96.png.png"
+00:03.765  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_89c0a2ff66dc3d4ece7444da371f9545.png.png"
+00:04.547  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_8300089b22fbcf334000d173ec271585.png.png"
+00:05.297  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_6a9f34fb34c6745b134fc8cb7a159fb1.png.png"
+00:06.078  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_997861609afb8da7a68524e637c6c586.png.png"
+00:06.828  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_1887a0a32b8fef3bbbb1f9b71f05cf80.png.png"
+00:07.625  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_6ef51c32510bca678aeeec3a6c8a5e2a.png.png"
+00:08.422  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_d079e35b549fd0e3f315af2cec213c4f.png.png"
+00:09.172  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_21984_554c10e16b2e488ae96db4d833823d25.png.png"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\OriginalHeight\\Lara_UE5_OriginalHeight.fbx'
+export finished in 0.1213 sec.
+Info: Saved as "Lara_UE5_OriginalHeight.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height160\\Lara_UE5_Height160.fbx'
+export finished in 0.0807 sec.
+Info: Saved as "Lara_UE5_Height160.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height175\\Lara_UE5_Height175.fbx'
+export finished in 0.0803 sec.
+Info: Saved as "Lara_UE5_Height175.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height180\\Lara_UE5_Height180.fbx'
+export finished in 0.1112 sec.
+Info: Saved as "Lara_UE5_Height180.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\UE5\\Height200\\Lara_UE5_Height200.fbx'
+export finished in 0.0802 sec.
+Info: Saved as "Lara_UE5_Height200.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\OriginalHeight\\Lara_Mixamo_OriginalHeight.fbx'
+export finished in 0.0778 sec.
+Info: Saved as "Lara_Mixamo_OriginalHeight.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height160\\Lara_Mixamo_Height160.fbx'
+export finished in 0.0807 sec.
+Info: Saved as "Lara_Mixamo_Height160.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height175\\Lara_Mixamo_Height175.fbx'
+export finished in 0.0799 sec.
+Info: Saved as "Lara_Mixamo_Height175.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height180\\Lara_Mixamo_Height180.fbx'
+export finished in 0.1258 sec.
+Info: Saved as "Lara_Mixamo_Height180.blend"
+FBX version: 7400
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase3B\\Mixamo\\Height200\\Lara_Mixamo_Height200.fbx'
+export finished in 0.0799 sec.
+Info: Saved as "Lara_Mixamo_Height200.blend"
+PHASE3B_DCC_DONE 10
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

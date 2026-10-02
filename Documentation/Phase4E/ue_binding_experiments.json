@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "candidates": [
+    {
+      "name": "direct_02_5",
+      "seconds": 0.28100000000267755,
+      "method": "DIRECT_DISTANCE",
+      "resolution": 128,
+      "stiffness": 0.2,
+      "max_influences": 5,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "5": 28189
+        },
+        "normalisation_error_max": 4.470348358154297e-08,
+        "unweighted": 0
+      }
+    },
+    {
+      "name": "direct_08_4",
+      "seconds": 0.2649999999994179,
+      "method": "DIRECT_DISTANCE",
+      "resolution": 128,
+      "stiffness": 0.8,
+      "max_influences": 4,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "4": 28189
+        },
+        "normalisation_error_max": 4.470348358154297e-08,
+        "unweighted": 0
+      }
+    },
+    {
+      "name": "geo128_08_4",
+      "seconds": 0.3440000000045984,
+      "method": "GEODESIC_VOXEL",
+      "resolution": 128,
+      "stiffness": 0.8,
+      "max_influences": 4,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "4": 28189
+        },
+        "normalisation_error_max": 4.470348358154297e-08,
+        "unweighted": 0
+      }
+    },
+    {
+      "name": "geo256_02_5",
+      "seconds": 0.6719999999986612,
+      "method": "GEODESIC_VOXEL",
+      "resolution": 256,
+      "stiffness": 0.2,
+      "max_influences": 5,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "5": 28189
+        },
+        "normalisation_error_max": 4.842877388000488e-08,
+        "unweighted": 0
+      }
+    },
+    {
+      "name": "geo256_06_4",
+      "seconds": 0.6399999999994179,
+      "method": "GEODESIC_VOXEL",
+      "resolution": 256,
+      "stiffness": 0.6,
+      "max_influences": 4,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "4": 28189
+        },
+        "normalisation_error_max": 4.6566128730773926e-08,
+        "unweighted": 0
+      }
+    },
+    {
+      "name": "geo128_02_8",
+      "seconds": 0.5159999999959837,
+      "method": "GEODESIC_VOXEL",
+      "resolution": 128,
+      "stiffness": 0.2,
+      "max_influences": 8,
+      "stats": {
+        "vertices": 28189,
+        "influences": {
+          "8": 28189
+        },
+        "normalisation_error_max": 4.6798959374427795e-08,
+        "unweighted": 0
+      }
+    }
+  ]
+}

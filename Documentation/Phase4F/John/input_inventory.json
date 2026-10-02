@@ -1,0 +1,297 @@
+{
+  "character": "John",
+  "archive": "Characters\\John_Textured_Unrigged.zip",
+  "sha256": "f52193505c74f5200fa252db260769bad999d7f990b34e09260fd67360f2a27d",
+  "bytes": 4755593,
+  "entries": [
+    {
+      "name": "John_Textured_Unrigged.fbx",
+      "bytes": 1596944,
+      "compressed_bytes": 1558305,
+      "crc32": 1751083031,
+      "sha256": "84ffb6e8589bfae8003c86f6c3be3930c4c677282fd46e23ee6012a3a6d80344"
+    },
+    {
+      "name": "John_Textured_Unrigged.fbm/John_Textured_Unrigged_basecolor.jpg",
+      "bytes": 3196961,
+      "compressed_bytes": 3196872,
+      "crc32": 422041412,
+      "sha256": "e53c5fb96f8a0936faee2978547cdd2b172232f7de33427f1627671b2871a1ba"
+    }
+  ],
+  "fbx": [
+    {
+      "path": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\John\\Input\\John_Textured_Unrigged.fbx",
+      "version": 7400,
+      "global_settings": {
+        "UpAxis": [
+          1
+        ],
+        "UpAxisSign": [
+          1
+        ],
+        "FrontAxis": [
+          2
+        ],
+        "FrontAxisSign": [
+          1
+        ],
+        "CoordAxis": [
+          0
+        ],
+        "CoordAxisSign": [
+          1
+        ],
+        "OriginalUpAxis": [
+          -1
+        ],
+        "OriginalUpAxisSign": [
+          1
+        ],
+        "UnitScaleFactor": [
+          100.0
+        ],
+        "OriginalUnitScaleFactor": [
+          100.0
+        ],
+        "AmbientColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "DefaultCamera": [
+          "Producer Perspective"
+        ],
+        "TimeMode": [
+          11
+        ],
+        "TimeProtocol": [
+          2
+        ],
+        "SnapOnFrameMode": [
+          0
+        ],
+        "TimeSpanStart": [
+          0
+        ],
+        "TimeSpanStop": [
+          46186158000
+        ],
+        "CustomFrameRate": [
+          24.0
+        ],
+        "TimeMarker": [],
+        "CurrentTimeMarker": [
+          -1
+        ]
+      },
+      "object_counts": {
+        "Geometry": 1,
+        "Material": 1,
+        "Video": 1,
+        "Texture": 1,
+        "Model": 1
+      },
+      "models": [
+        {
+          "id": 1000005,
+          "name": "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+          "kind": "Mesh",
+          "properties": {
+            "RotationActive": [
+              1
+            ],
+            "DefaultAttributeIndex": [
+              0
+            ],
+            "InheritType": [
+              1
+            ],
+            "UserProperties": [
+              ""
+            ],
+            "IsNull": [
+              0
+            ]
+          }
+        }
+      ],
+      "geometries": [
+        {
+          "id": 1000001,
+          "name": "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+          "kind": "Mesh",
+          "control_points": 26166,
+          "polygon_count": 27876,
+          "polygon_vertices": 106695,
+          "raw_local_bounds": {
+            "min": [
+              -0.270751953125,
+              0.0,
+              -0.1027832180261612
+            ],
+            "max": [
+              0.270751953125,
+              0.99951171875,
+              0.1027832180261612
+            ]
+          },
+          "layers": [
+            "LayerElementNormal",
+            "LayerElementUV",
+            "LayerElementMaterial"
+          ],
+          "uv_layers": [
+            {
+              "name": "LayerElementUV",
+              "uv_pairs": 45363
+            }
+          ]
+        }
+      ],
+      "deformers": [],
+      "materials": [
+        {
+          "id": 1000002,
+          "name": "tripo_0e9267f6_f87b_46a8_b5d1_5b0728f79e1a",
+          "kind": "",
+          "properties": {
+            "AmbientColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "DiffuseColor": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "TransparentColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "TransparencyFactor": [
+              1.0
+            ],
+            "ReflectionColor": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "ReflectionFactor": [
+              0.0
+            ],
+            "SpecularColor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ShininessFactor": [
+              0.25
+            ],
+            "ShininessExponent": [
+              25.0
+            ],
+            "Emissive": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Ambient": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Diffuse": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "Opacity": [
+              1.0
+            ],
+            "Specular": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Shininess": [
+              25.0
+            ],
+            "Reflectivity": [
+              0.0
+            ]
+          },
+          "fields": {}
+        }
+      ],
+      "textures": [
+        {
+          "id": 1000004,
+          "name": "base_color_texture",
+          "kind": "",
+          "properties": {
+            "Translation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scaling": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "CurrentTextureBlendMode": [
+              0
+            ],
+            "UseMaterial": [
+              1
+            ]
+          },
+          "fields": {
+            "FileName": [
+              "John_Textured_Unrigged.fbm/John_Textured_Unrigged_basecolor.jpg"
+            ],
+            "RelativeFilename": [
+              "John_Textured_Unrigged.fbm/John_Textured_Unrigged_basecolor.jpg"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        [
+          "OP",
+          1000004,
+          1000002,
+          "DiffuseColor"
+        ],
+        [
+          "OO",
+          1000003,
+          1000004
+        ],
+        [
+          "OO",
+          1000005,
+          0
+        ],
+        [
+          "OO",
+          1000001,
+          1000005
+        ],
+        [
+          "OO",
+          1000002,
+          1000005
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Begin Object Class=/Script/Engine.Skeleton Name="MidBulge_Skeleton" ExportPath="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton.MidBulge_Skeleton'"
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton.MidBulge_Skeleton:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton.MidBulge_Skeleton:AnimCurveMetaData_0'"
+      CurveMetaData=(("MidBulge", (Type=(bMorphtarget=True))))
+   End Object
+   BoneTree(0)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(1)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(2)=(TranslationRetargetingMode=Skeleton)
+   BoneTree(3)=(TranslationRetargetingMode=Skeleton)
+   PreviewSkeletalMesh="/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

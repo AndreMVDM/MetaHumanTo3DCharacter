@@ -1,0 +1,10 @@
+{
+  "group_vertices": 77,
+  "joint_nearest_group_distances_cm": [
+    1.3197309194437876,
+    0.9182997272787567,
+    0.6536005941595605
+  ],
+  "screen_threshold_cm": 1.2,
+  "interpretation": "The sparse track group omits proximal palm support. A screen failure alone does not prove pivot misplacement; the unchanged reference surface already fails this group at the root."
+}

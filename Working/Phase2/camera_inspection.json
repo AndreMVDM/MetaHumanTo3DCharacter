@@ -1,0 +1,15 @@
+{
+  "controller": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.PlayerController_0' (0x0000027E83FF6400) Class 'PlayerController'>",
+  "view_target": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.CameraActor_0' (0x0000027E831D5400) Class 'CameraActor'>",
+  "pawn": "ERROR: PlayerController: Property 'Pawn' for attribute 'pawn' on 'PlayerController' is protected and cannot be read",
+  "camera_location": "(<Struct 'Vector' (0x0000027E7FF82D10) {x: 650.000000, y: 0.000000, z: 115.000000}>, <Struct 'Rotator' (0x0000027E7FF83F30) {pitch: 0.000000, yaw: 180.000000, roll: 180.000000}>)",
+  "camera_manager": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.PlayerCameraManager_0' (0x0000027E16990000) Class 'PlayerCameraManager'>",
+  "camera_actors": [
+    {
+      "actor": "<Object '/Game/MetaHumanTo3DCharacter/Phase2/Maps/UEDPIE_0_L_Phase2_RetargetTest.L_Phase2_RetargetTest:PersistentLevel.CameraActor_0' (0x0000027E831D5400) Class 'CameraActor'>",
+      "location": "<Struct 'Vector' (0x0000027E7FF82D10) {x: 650.000000, y: 0.000000, z: 115.000000}>",
+      "rotation": "<Struct 'Rotator' (0x0000027E7FF82D10) {pitch: 0.000000, yaw: 180.000000, roll: 180.000000}>",
+      "auto_activate": "<AutoReceiveInput.PLAYER0: 1>"
+    }
+  ]
+}

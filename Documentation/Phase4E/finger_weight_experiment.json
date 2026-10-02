@@ -1,0 +1,224 @@
+{
+  "method": "Accepted-track segment inverse-distance weighting, hand-root fade, bounded 0.8 blend; no bone movement",
+  "results": {
+    "baseline": [
+      {
+        "digit": "thumb_l",
+        "support_cm": 0.6439044123879518,
+        "own_chain_mean": 0.8350506387650967,
+        "vertices": 23,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_l",
+        "support_cm": 0.6561643643348043,
+        "own_chain_mean": 0.8547767452186062,
+        "vertices": 63,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_l",
+        "support_cm": 0.7911827148674003,
+        "own_chain_mean": 0.823511484725168,
+        "vertices": 40,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_l",
+        "support_cm": 0.9551593564243697,
+        "own_chain_mean": 0.754867123052792,
+        "vertices": 83,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "pinky_l",
+        "support_cm": 0.43458565224428314,
+        "own_chain_mean": 0.8037087973861254,
+        "vertices": 89,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "thumb_r",
+        "support_cm": 0.8420492622972917,
+        "own_chain_mean": 0.7724727349976699,
+        "vertices": 15,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_r",
+        "support_cm": 0.6601873995262804,
+        "own_chain_mean": 0.8594479012440462,
+        "vertices": 61,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_r",
+        "support_cm": 1.0814024919872123,
+        "own_chain_mean": 0.8355668249945992,
+        "vertices": 39,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_r",
+        "support_cm": 1.251734847722227,
+        "own_chain_mean": 0.7812268461778082,
+        "vertices": 77,
+        "support_under_1_2": false
+      },
+      {
+        "digit": "pinky_r",
+        "support_cm": 0.25706872008613846,
+        "own_chain_mean": 0.7063641254607002,
+        "vertices": 89,
+        "support_under_1_2": true
+      }
+    ],
+    "body_refined": [
+      {
+        "digit": "thumb_l",
+        "support_cm": 0.643905374375974,
+        "own_chain_mean": 0.835050636843071,
+        "vertices": 23,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_l",
+        "support_cm": 0.6561642892014287,
+        "own_chain_mean": 0.8547767398207141,
+        "vertices": 63,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_l",
+        "support_cm": 0.7911810154399521,
+        "own_chain_mean": 0.8235114829414577,
+        "vertices": 40,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_l",
+        "support_cm": 0.955159955124046,
+        "own_chain_mean": 0.7548671224169667,
+        "vertices": 83,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "pinky_l",
+        "support_cm": 0.43458650270568966,
+        "own_chain_mean": 0.8037087990723286,
+        "vertices": 89,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "thumb_r",
+        "support_cm": 0.8420514865463004,
+        "own_chain_mean": 0.772472725456932,
+        "vertices": 15,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_r",
+        "support_cm": 0.6601854613619077,
+        "own_chain_mean": 0.8594478989043352,
+        "vertices": 61,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_r",
+        "support_cm": 1.0814021262041331,
+        "own_chain_mean": 0.8355668249652058,
+        "vertices": 39,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_r",
+        "support_cm": 1.251735024887895,
+        "own_chain_mean": 0.7812268445443518,
+        "vertices": 77,
+        "support_under_1_2": false
+      },
+      {
+        "digit": "pinky_r",
+        "support_cm": 0.25707206096508806,
+        "own_chain_mean": 0.7063641259258797,
+        "vertices": 89,
+        "support_under_1_2": true
+      }
+    ],
+    "track_segment_refined": [
+      {
+        "digit": "thumb_l",
+        "support_cm": 0.6645687531008071,
+        "own_chain_mean": 0.8637281454794447,
+        "vertices": 23,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_l",
+        "support_cm": 0.6302148612811084,
+        "own_chain_mean": 0.914800495939994,
+        "vertices": 63,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_l",
+        "support_cm": 0.7931558585004972,
+        "own_chain_mean": 0.8552087083418092,
+        "vertices": 40,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_l",
+        "support_cm": 0.947532046001878,
+        "own_chain_mean": 0.814645892443714,
+        "vertices": 83,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "pinky_l",
+        "support_cm": 0.47341764175007817,
+        "own_chain_mean": 0.7338904077870215,
+        "vertices": 89,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "thumb_r",
+        "support_cm": 0.8423708729857229,
+        "own_chain_mean": 0.7206840048074206,
+        "vertices": 15,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "index_r",
+        "support_cm": 0.6546447891968378,
+        "own_chain_mean": 0.9262518353321497,
+        "vertices": 61,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "middle_r",
+        "support_cm": 1.0815634651239343,
+        "own_chain_mean": 0.8760209675891193,
+        "vertices": 39,
+        "support_under_1_2": true
+      },
+      {
+        "digit": "ring_r",
+        "support_cm": 1.2777652524829046,
+        "own_chain_mean": 0.8423538950412338,
+        "vertices": 77,
+        "support_under_1_2": false
+      },
+      {
+        "digit": "pinky_r",
+        "support_cm": 0.5295184860272233,
+        "own_chain_mean": 0.6840692731395286,
+        "vertices": 89,
+        "support_under_1_2": true
+      }
+    ]
+  },
+  "natural_thumb_opposition": "Not established by independent local-Z fixture; a separate two-axis opposition fixture is required",
+  "semantic_identity_unchanged": true,
+  "chain_positions_unchanged": true
+}

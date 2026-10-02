@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "name": "Bill_no_real_user_actions",
+      "passed": true
+    },
+    {
+      "name": "Bill_synthetic_review_not_counted",
+      "passed": true
+    },
+    {
+      "name": "Bill_dependent_move_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Bill_l_five_actual_tracks",
+      "passed": true
+    },
+    {
+      "name": "Bill_l_duplicate_track_rejected",
+      "passed": true
+    },
+    {
+      "name": "Bill_l_finger_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Bill_r_five_actual_tracks",
+      "passed": true
+    },
+    {
+      "name": "Bill_r_duplicate_track_rejected",
+      "passed": true
+    },
+    {
+      "name": "Bill_r_finger_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Bill_original_session_untouched",
+      "passed": true
+    },
+    {
+      "name": "Jill_no_real_user_actions",
+      "passed": true
+    },
+    {
+      "name": "Jill_synthetic_review_not_counted",
+      "passed": true
+    },
+    {
+      "name": "Jill_dependent_move_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jill_l_five_actual_tracks",
+      "passed": true
+    },
+    {
+      "name": "Jill_l_duplicate_track_rejected",
+      "passed": true
+    },
+    {
+      "name": "Jill_l_finger_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jill_r_five_actual_tracks",
+      "passed": true
+    },
+    {
+      "name": "Jill_r_duplicate_track_rejected",
+      "passed": true
+    },
+    {
+      "name": "Jill_r_finger_endpoint_invalidates_review",
+      "passed": true
+    },
+    {
+      "name": "Jill_original_session_untouched",
+      "passed": true
+    },
+    {
+      "name": "new_python_syntax",
+      "passed": true
+    },
+    {
+      "name": "semantic_budget_within_limits",
+      "passed": true
+    },
+    {
+      "name": "no_skin_before_anatomy",
+      "passed": true
+    }
+  ],
+  "limitations": "Synthetic state only; no real human anatomy judgement and no synthetic event exported to real sessions. Native controls/maps verified separately."
+}

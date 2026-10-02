@@ -1,0 +1,449 @@
+{
+  "proposal_sha256": "083ec2ea0c8ec4b7666dfb43a53a066d14d2d008186f6f2f062bb63e132fb49e",
+  "provenance_kind": "human_anatomical_review",
+  "roles": {
+    "pelvis": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00008.json",
+      "evidence_sha256": "855d91b0fa5c5072a5d4c8cf1d20ae99e8b1676e3c7a0ebf7b12163b512d2b52",
+      "event_id": 8,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.5840033292770386,
+        3.9870738983154297,
+        101.38363647460938
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "thigh_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00008.json",
+      "evidence_sha256": "855d91b0fa5c5072a5d4c8cf1d20ae99e8b1676e3c7a0ebf7b12163b512d2b52",
+      "event_id": 8,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        9.579394340515137,
+        3.3339929580688477,
+        98.52506256103516
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "thigh_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00094.json",
+      "evidence_sha256": "1bd0f122aed0e7ebe17decd2f5f54ff7f2965acad084fa8b9c8ef92a84fff40a",
+      "event_id": 94,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -8.440633773803711,
+        3.649487257003784,
+        98.56282043457031
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "spine_01": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00008.json",
+      "evidence_sha256": "855d91b0fa5c5072a5d4c8cf1d20ae99e8b1676e3c7a0ebf7b12163b512d2b52",
+      "event_id": 8,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.5644272565841675,
+        4.776899814605713,
+        109.12647247314453
+      ],
+      "resolved_ambiguity_flags": []
+    },
+    "spine_02": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00008.json",
+      "evidence_sha256": "855d91b0fa5c5072a5d4c8cf1d20ae99e8b1676e3c7a0ebf7b12163b512d2b52",
+      "event_id": 8,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.6436465978622437,
+        5.475666522979736,
+        124.43170166015625
+      ],
+      "resolved_ambiguity_flags": []
+    },
+    "spine_03": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00008.json",
+      "evidence_sha256": "855d91b0fa5c5072a5d4c8cf1d20ae99e8b1676e3c7a0ebf7b12163b512d2b52",
+      "event_id": 8,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.6902815699577332,
+        -1.3419198989868164,
+        137.43939208984375
+      ],
+      "resolved_ambiguity_flags": []
+    },
+    "upperarm_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00082.json",
+      "evidence_sha256": "4f894ac1feb735567b11505482dc6cbd399b5c0b0deed82e442726fd2063fe10",
+      "event_id": 82,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        13.896257400512695,
+        -2.6705265045166016,
+        139.10354614257812
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "clavicle_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00082.json",
+      "evidence_sha256": "4f894ac1feb735567b11505482dc6cbd399b5c0b0deed82e442726fd2063fe10",
+      "event_id": 82,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        1.4538447856903076,
+        -6.639039993286133,
+        144.8472442626953
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ]
+    },
+    "hand_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00022.json",
+      "evidence_sha256": "d445c7b6381af41558a3ff6e9d13f9d14f5720fa61144ce9f170359d8f96c2fb",
+      "event_id": 22,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        33.100791931152344,
+        8.833699226379395,
+        93.41477966308594
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ]
+    },
+    "upperarm_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00090.json",
+      "evidence_sha256": "90f9cb54a5218bd4c614445451444795daaa9d3d8a604a42e043c1b9c23a0315",
+      "event_id": 90,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -12.390768051147461,
+        -2.542405605316162,
+        139.24256896972656
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "clavicle_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00090.json",
+      "evidence_sha256": "90f9cb54a5218bd4c614445451444795daaa9d3d8a604a42e043c1b9c23a0315",
+      "event_id": 90,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.0670352578163147,
+        -6.709756851196289,
+        144.8093719482422
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_clavicle_root_is_not_mid_clavicle_landmark"
+      ]
+    },
+    "lowerarm_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00033.json",
+      "evidence_sha256": "bff6af3194a2acef75444dd0d95226768d7c0da6208776904307c40317af7e44",
+      "event_id": 33,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -24.6092472076416,
+        0.3557889461517334,
+        116.51264953613281
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "hand_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00037.json",
+      "evidence_sha256": "4686a7dbd059e989cc7936a97b6f8fbbbe8703391a32876990860817207833de",
+      "event_id": 37,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -32.69942092895508,
+        8.31151294708252,
+        94.62911224365234
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "donor_wrist_displaced_toward_target_hand_digit_region"
+      ]
+    },
+    "calf_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00041.json",
+      "evidence_sha256": "0e7a17a138b9c228a10eea111e9aa6e6af163e8b142802a1d343932d16fd28a6",
+      "event_id": 41,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        14.78506851196289,
+        3.2449066638946533,
+        53.752235412597656
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "calf_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00045.json",
+      "evidence_sha256": "8a2bf7312d540963a4ef8f434a7d5ed532f3d0dc9ce8bedc77caf819fdf64998",
+      "event_id": 45,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -13.629362106323242,
+        3.3528661727905273,
+        53.68055725097656
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "foot_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00050.json",
+      "evidence_sha256": "3694ae54a504ddc9bfc9062a30b820b2fd2b5ec623a2f7674e2ac0e68ef6a343",
+      "event_id": 50,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        18.0073299407959,
+        -0.5429706573486328,
+        11.492603302001953
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "ball_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00054.json",
+      "evidence_sha256": "1c9c09c5ea3f67c75d042752e4647e7a2c6086c97c499f7e6553ef9230e43c00",
+      "event_id": 54,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        19.7733211517334,
+        12.408879280090332,
+        6.606729507446289
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "foot_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00058.json",
+      "evidence_sha256": "c517ebf36240f4dbf293379f7056cd810af8bd7686b5902726ba188f8601e8a7",
+      "event_id": 58,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -18.15096664428711,
+        -0.5614097118377686,
+        11.49612045288086
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "ball_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00062.json",
+      "evidence_sha256": "4cd35960ef3ddaade3b5c7337d734c688f8e1356e5370e809af5b2ee99255451",
+      "event_id": 62,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        -19.947315216064453,
+        12.48759651184082,
+        6.586861610412598
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "neck_01": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00078.json",
+      "evidence_sha256": "45ed25dc088086c575a13ff20c6bb8ba0588de4c2725b8c7f74049e67400e2af",
+      "event_id": 78,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        0.7336483209043365,
+        -0.7638249224990512,
+        150.02043073097894
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review",
+        "posterior_neck_joint_position_requires_review"
+      ]
+    },
+    "head": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00078.json",
+      "evidence_sha256": "45ed25dc088086c575a13ff20c6bb8ba0588de4c2725b8c7f74049e67400e2af",
+      "event_id": 78,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        1.011353850364685,
+        -2.6623544692993164,
+        159.3494110107422
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    },
+    "lowerarm_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00097.json",
+      "evidence_sha256": "98411a24df6c5891cef74bfe74d9320ddef15005c3d847214470fcee46be9c8a",
+      "event_id": 97,
+      "category": "actual anatomical misplacement",
+      "position_cm": [
+        24.909408569335938,
+        0.33635807037353516,
+        116.10186004638672
+      ],
+      "resolved_ambiguity_flags": [
+        "target_articulation_requires_independent_anatomical_review"
+      ]
+    }
+  },
+  "fingers": {
+    "index_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00132.json",
+      "evidence_sha256": "ee7bd6e00730ea8570c75096f69813efa3695815bdf754c084a7cd89e97292a9",
+      "event_id": 132,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "fdf227d5ae07140db684752b1f13298198b4d0f3ce00654d79dc7d9c1ed3d0db"
+    },
+    "middle_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00133.json",
+      "evidence_sha256": "01457031022474384cdf354cf2bafc303fbc91612dec24503ac64ee87db093d7",
+      "event_id": 133,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "e53df3ae310c42c082f5212878f09c69688789c68de7d1ec5d2badcfa4a33073"
+    },
+    "ring_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00134.json",
+      "evidence_sha256": "d000530345a5bb0c7fb0977f8603c1ab85478079135e799895c65b8234e9e66c",
+      "event_id": 134,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "368b872d981d8717166175a6b2e96a356ffb09b105e767ff92522e1b75103746"
+    },
+    "pinky_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00135.json",
+      "evidence_sha256": "a8eab0623c09a3ae9419b9c2d22b9fa8fd595c66a52bb61818612ccb9d9be86c",
+      "event_id": 135,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "79741ef0f3b45dfa7e4372406cc63416e47ff93203a9f3ba8d4d420a42c43583"
+    },
+    "thumb_l": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00136.json",
+      "evidence_sha256": "8aeafbc3571eb1ac7e1374c407fed3d737383f5b71a5efccd810305c8fef3693",
+      "event_id": 136,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "76bc27bbb0b9219a379e2b5827f92ad7917febe7da39c03b415d9862757090fb"
+    },
+    "middle_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00149.json",
+      "evidence_sha256": "7e26ffcfe409fb0eaecbccb1e47ca0b9cc48997662bd211902923863b0bc6f9d",
+      "event_id": 149,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "d272320ea940150d2d958f35c8b75c515a4bd888ab1471b2e866349188a671b8"
+    },
+    "index_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00151.json",
+      "evidence_sha256": "24e05de2c1abc7c6713ec57ac2788c84c2208e98cd5902db1f41e62f7c294b0b",
+      "event_id": 151,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "a72ed8a7fd41b2fd6f7b40ed2738c2028be18732d77586ba051fd97b8d79f728"
+    },
+    "ring_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00153.json",
+      "evidence_sha256": "b2871fa0a70e51f5beb287bd6886b24de303f78aa7221f9ce4f9afaae58d08b4",
+      "event_id": 153,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "bec1c94814ca4b2e420e4773da78d62b4adc454a22721c6febeaa273f8426d9a"
+    },
+    "pinky_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00155.json",
+      "evidence_sha256": "983d3dd1d058327606c04a1c4684e8a41fa66b88ad6346e81e8a1cf53baffd23",
+      "event_id": 155,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "13d527036f342d59926310df0afaefd4fcd9f5ac3a9d7ba2a00145df21fbe3e4"
+    },
+    "thumb_r": {
+      "anatomical_valid": true,
+      "method": "Explicit correction-panel anatomical acceptance after front/side inspection",
+      "evidence_artifact": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4D\\InteractionEvidence\\event_00157.json",
+      "evidence_sha256": "673205249655436f6aaeb478ff2a3f98eb87f675adac5186e5b1b5e155500357",
+      "event_id": 157,
+      "category": "actual anatomical misplacement",
+      "chain_sha256": "3e0d121239189a3f2f4ea94d2f74ef586f447c83508d250b40c7489779b88f4d"
+    }
+  }
+}

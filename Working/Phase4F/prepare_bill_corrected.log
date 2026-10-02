@@ -1,0 +1,14 @@
+00:01.390  blend            | Read blend: "E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\Bill\source_working.blend"
+E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Working\Phase4F\prepare_sources.py:41: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=scene.world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs['Color'].default_value=(.75,.75,.75,1)
+00:02.578  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_front.png'
+00:03.593  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_side.png'
+00:04.625  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_back.png'
+00:05.687  render           | Saved: 'E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Documentation\Phase4F\bill_source_hand.png'
+
+FBX export starting... 'E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\Bill\\Target180.fbx'
+export finished in 0.0424 sec.
+PREPARED Bill {'rotation_columns_world': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0]], 'origin_body_coordinates_cm': [0.0, 1.3427723199129105, 8.29448232320118e-08], 'source_height_cm': 99.56054679205518, 'target_height_cm': 180, 'factor': 1.8079450726195068, 'ground_plane_points': 176, 'paired_shoe_facing_evidence': [{'side_source_x_sign': 1, 'shank_y_cm': -1.0009758174419403, 'negative_extension_cm': 7.758303016424179, 'positive_extension_cm': 8.691404014825821}, {'side_source_x_sign': -1, 'shank_y_cm': -1.8798839300870895, 'negative_extension_cm': 6.747073665261269, 'positive_extension_cm': 9.521481022238731}], 'facing_source_y_sign': -1, 'up_policy': 'FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.', 'handedness_determinant': -1.0, 'round_trip_max_cm': 1.591302455776226e-14, 'toe_heuristic_facing_source_y_sign': 1, 'facing_validation': 'Bill: initial toe heuristic rejected by textured face/buckle images; -Y verified. Others: source textured front agrees with heuristic. No joint anatomical approval.'}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

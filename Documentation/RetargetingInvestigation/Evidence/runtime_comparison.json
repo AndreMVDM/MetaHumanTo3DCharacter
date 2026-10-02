@@ -1,0 +1,82 @@
+[
+  {
+    "sample_monotonic_time": 156611.421,
+    "bones": {
+      "root": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "pelvis": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "spine_03": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "head": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "hand_l": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "foot_l": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "lowerarm_twist_01_l": {
+        "max_absolute_component_difference": 1.256143,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 43.33033072612114
+      }
+    }
+  },
+  {
+    "sample_monotonic_time": 156612.234,
+    "bones": {
+      "root": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "pelvis": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "spine_03": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "head": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "hand_l": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "foot_l": {
+        "max_absolute_component_difference": 0.0,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 0.0
+      },
+      "lowerarm_twist_01_l": {
+        "max_absolute_component_difference": 1.336376,
+        "translation_distance_cm": 0.0,
+        "rotation_distance_degrees": 51.33848681510819
+      }
+    }
+  }
+]

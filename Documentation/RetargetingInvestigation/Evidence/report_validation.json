@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "twelve_deliverable_sections": true,
+    "local_evidence_links_exist": true,
+    "explicit_asset_paths_verified": true,
+    "bone_mapping_counts": true,
+    "main_graph_copy_pose_to_root": true,
+    "compiled_copy_pose_flags": true,
+    "corrective_curve_morph_mapping_counts": true,
+    "runtime_body_pose_matches": true,
+    "runtime_source_pose_advances": true,
+    "twist_rotations_differ": true,
+    "no_dirty_reference_packages": true,
+    "reference_file_preservation": true,
+    "supplemental_asset_count": true,
+    "bot_mapping_table_unambiguous": true
+  },
+  "unknown_paths": [],
+  "missing_links": [],
+  "driven_curves_without_morph_targets": [
+    "C_BipedHeadNeck_A_NeckMid_Jnt_0_0_4",
+    "L_BipedArm_A_Elbow_Jnt_0_0_0",
+    "L_BipedArm_A_Shoulder_Jnt_0_0_0",
+    "L_BipedArm_A_Wrist_Jnt_0_0_0",
+    "L_BipedLeg_A_Knee_Jnt_0_0_0",
+    "R_BipedArm_A_Elbow_Jnt_0_0_0",
+    "R_BipedArm_A_Shoulder_Jnt_0_0_0",
+    "R_BipedArm_A_Wrist_Jnt_0_0_0",
+    "R_BipedLeg_A_Knee_Jnt_0_0_0"
+  ],
+  "all_passed": true
+}

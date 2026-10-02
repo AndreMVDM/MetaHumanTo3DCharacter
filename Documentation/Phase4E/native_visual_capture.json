@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "captures": [
+    {
+      "label": "Baseline",
+      "name": "native_baseline_front",
+      "camera": [
+        0,
+        200,
+        105
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_baseline_front.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_side",
+      "camera": [
+        200,
+        0,
+        105
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_baseline_side.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_pants_close",
+      "camera": [
+        0,
+        130,
+        96
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_baseline_pants_close.png",
+      "file_verified": true
+    },
+    {
+      "label": "Baseline",
+      "name": "native_baseline_shoulder_close",
+      "camera": [
+        0,
+        130,
+        136
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_baseline_shoulder_close.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_front",
+      "camera": [
+        0,
+        200,
+        105
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_refined_front.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_side",
+      "camera": [
+        200,
+        0,
+        105
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_refined_side.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_pants_close",
+      "camera": [
+        0,
+        130,
+        96
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_refined_pants_close.png",
+      "file_verified": true
+    },
+    {
+      "label": "Refined",
+      "name": "native_refined_shoulder_close",
+      "camera": [
+        0,
+        130,
+        136
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "clip": "JumpingJacks",
+      "fraction": 0.5,
+      "file": "native_refined_shoulder_close.png",
+      "file_verified": true
+    }
+  ]
+}

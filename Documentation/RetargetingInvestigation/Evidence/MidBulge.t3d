@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="MidBulge" ExportPath="/Script/Engine.SkeletalMesh'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge'"
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.MorphTarget Name="MidBulge" ExportPath="/Script/Engine.MorphTarget'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:MidBulge'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="MidBulge" ExportPath="/Script/Engine.MorphTarget'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:MidBulge'"
+      BaseSkelMesh="/Script/Engine.SkeletalMesh'MidBulge'"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:FbxSkeletalMeshImportData_0'"
+      ImportContentType=FBXICT_Geometry
+      bImportMorphTargets=True
+      ThresholdUV=0.000977
+      ImportMaterialOriginalNameData(0)="standardSurface1"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("standardSurface1"))
+      ImportUniformScale=10.000000
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge.MidBulge:AnimCurveMetaData_0'"
+   End Object
+   SourceModels(0)=(TriangleCount=560,VertexCount=282,Bounds=(Origin=(X=-0.000001,Y=-0.000002,Z=30.000000),BoxExtent=(X=10.000001,Y=10.000003,Z=30.000000),SphereRadius=31.622779),CachedSkinWeightProfileNames=,CachedMorphTargetNames=("MidBulge"),CachedHasVertexColors=(True),CachedVertexColorGuid=001585380015853800158538B8158538,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   Skeleton="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_Skeleton.MidBulge_Skeleton'"
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/ExampleContent/AnimationRetargeting/Meshes/MidBulge_PhysicsAsset.MidBulge_PhysicsAsset'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   MorphTargets(0)="/Script/Engine.MorphTarget'MidBulge'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

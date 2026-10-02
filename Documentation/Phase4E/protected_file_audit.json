@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "protected_file_count": 3209,
+  "changed": [],
+  "missing": [],
+  "unexpected_authored_files_outside_Phase4E": [],
+  "coverage": "Characters,Config,Content,Reference,Documentation,Working and uproject, excluding Phase4E and execution/cache directories; includes original ZIP and prior assets/evidence. Engine source and external reference projects were read-only and never authored, but are not covered by this workspace hash inventory.",
+  "excluded_execution_paths": [
+    "Intermediate",
+    "Saved",
+    "DerivedDataCache",
+    "DDC",
+    "__pycache__"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "case": "50 metre pelvis",
+    "detected": "pelvis_displacement"
+  },
+  {
+    "case": "root scale 100",
+    "detected": "suspicious_reference_scale:root"
+  },
+  {
+    "case": "NaN transform",
+    "detected": "non_finite_pose"
+  },
+  {
+    "case": "far IK goal",
+    "detected": "goal_envelope"
+  },
+  {
+    "case": "wrong stature",
+    "detected": "output_height_mismatch"
+  },
+  {
+    "case": "coherent 10m root motion",
+    "detected": "accepted after trajectory subtraction"
+  }
+]

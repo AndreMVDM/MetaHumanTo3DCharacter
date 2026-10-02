@@ -1,0 +1,277 @@
+{
+  "exposed_phalange_joints": 30,
+  "named_chains_exposed": 10,
+  "named_chains_accepted_for_lara": 0,
+  "phalange_roles_requiring_review": 30,
+  "metacarpals_exposed": [
+    "pinky_metacarpal_l",
+    "ring_metacarpal_l",
+    "middle_metacarpal_l",
+    "index_metacarpal_l",
+    "pinky_metacarpal_r",
+    "ring_metacarpal_r",
+    "middle_metacarpal_r",
+    "index_metacarpal_r"
+  ],
+  "palm_centre_missing": true,
+  "collision_screen_passed": false,
+  "checks": [
+    {
+      "side": "l",
+      "four_long_digits_distinct_target_branches": false,
+      "distinct_assigned_branches": 1,
+      "assignments": [
+        {
+          "digit": "index",
+          "donor_distal_joint_cm": [
+            33.456153869628906,
+            10.938990592956543,
+            83.5739974975586
+          ],
+          "nearest_target_branch_index": 0,
+          "nearest_target_branch_id": "digit_branch_1_l",
+          "distance_to_target_track_cm": 0.2359711526145888
+        },
+        {
+          "digit": "middle",
+          "donor_distal_joint_cm": [
+            32.99678421020508,
+            10.946216583251953,
+            82.49380493164062
+          ],
+          "nearest_target_branch_index": 0,
+          "nearest_target_branch_id": "digit_branch_1_l",
+          "distance_to_target_track_cm": 0.08120528547097515
+        },
+        {
+          "digit": "ring",
+          "donor_distal_joint_cm": [
+            32.95214080810547,
+            11.010068893432617,
+            82.67686462402344
+          ],
+          "nearest_target_branch_index": 0,
+          "nearest_target_branch_id": "digit_branch_1_l",
+          "distance_to_target_track_cm": 0.030075748370048686
+        },
+        {
+          "digit": "pinky",
+          "donor_distal_joint_cm": [
+            33.23222351074219,
+            11.074424743652344,
+            84.23735046386719
+          ],
+          "nearest_target_branch_index": 0,
+          "nearest_target_branch_id": "digit_branch_1_l",
+          "distance_to_target_track_cm": 0.13054572726189234
+        }
+      ],
+      "limit": "Nearest point on all five actual 4B target section-centre polylines in XYZ, evaluation only, not mesh correspondence or semantic identification. A collision screen cannot accept digits; it exposes collapsed assignments."
+    },
+    {
+      "side": "r",
+      "four_long_digits_distinct_target_branches": false,
+      "distinct_assigned_branches": 2,
+      "assignments": [
+        {
+          "digit": "index",
+          "donor_distal_joint_cm": [
+            -26.710466384887695,
+            13.960226058959961,
+            85.72569274902344
+          ],
+          "nearest_target_branch_index": 4,
+          "nearest_target_branch_id": "digit_branch_5_r",
+          "distance_to_target_track_cm": 2.3855589309301632
+        },
+        {
+          "digit": "middle",
+          "donor_distal_joint_cm": [
+            -33.3673210144043,
+            11.0423002243042,
+            82.97232818603516
+          ],
+          "nearest_target_branch_index": 1,
+          "nearest_target_branch_id": "digit_branch_2_r",
+          "distance_to_target_track_cm": 0.04629290333651499
+        },
+        {
+          "digit": "ring",
+          "donor_distal_joint_cm": [
+            -33.32952117919922,
+            11.085443496704102,
+            83.12154388427734
+          ],
+          "nearest_target_branch_index": 1,
+          "nearest_target_branch_id": "digit_branch_2_r",
+          "distance_to_target_track_cm": 0.0295627601176578
+        },
+        {
+          "digit": "pinky",
+          "donor_distal_joint_cm": [
+            -33.448673248291016,
+            11.148462295532227,
+            84.77784729003906
+          ],
+          "nearest_target_branch_index": 1,
+          "nearest_target_branch_id": "digit_branch_2_r",
+          "distance_to_target_track_cm": 0.10259315762708973
+        }
+      ],
+      "limit": "Nearest point on all five actual 4B target section-centre polylines in XYZ, evaluation only, not mesh correspondence or semantic identification. A collision screen cannot accept digits; it exposes collapsed assignments."
+    }
+  ],
+  "classification": "unsuitable for automatic Lara fingers in this zero-keypoint solve; assisted correction extent unmeasured",
+  "control_evaluation_only": [
+    {
+      "role": "pinky_01_l",
+      "difference_cm": 13.686168129292914,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "pinky_02_l",
+      "difference_cm": 12.282089932464824,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "pinky_03_l",
+      "difference_cm": 11.265749405313713,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_01_l",
+      "difference_cm": 13.436895238358812,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_02_l",
+      "difference_cm": 12.410930111959553,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_03_l",
+      "difference_cm": 11.558877521296106,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_01_l",
+      "difference_cm": 13.743982667135468,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_02_l",
+      "difference_cm": 14.449409536740488,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_03_l",
+      "difference_cm": 15.035423877275976,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_01_l",
+      "difference_cm": 13.845918063649012,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_02_l",
+      "difference_cm": 12.804712086325416,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_03_l",
+      "difference_cm": 11.590518917871508,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_01_l",
+      "difference_cm": 14.232549130808357,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_02_l",
+      "difference_cm": 13.041058000167812,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_03_l",
+      "difference_cm": 11.53671425433705,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "pinky_01_r",
+      "difference_cm": 13.067422304455071,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "pinky_02_r",
+      "difference_cm": 11.993843810821776,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "pinky_03_r",
+      "difference_cm": 11.151408041693701,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_01_r",
+      "difference_cm": 12.844260516772351,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_02_r",
+      "difference_cm": 12.136367875478893,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "ring_03_r",
+      "difference_cm": 11.42265204203384,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_01_r",
+      "difference_cm": 12.641652525386881,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_02_r",
+      "difference_cm": 14.092385071960573,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "thumb_03_r",
+      "difference_cm": 14.871151348068846,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_01_r",
+      "difference_cm": 13.167728111106625,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_02_r",
+      "difference_cm": 12.479172956824593,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "middle_03_r",
+      "difference_cm": 11.50555356014235,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_01_r",
+      "difference_cm": 13.860734602414267,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_02_r",
+      "difference_cm": 14.437838338858567,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    },
+    {
+      "role": "index_03_r",
+      "difference_cm": 14.21381788414692,
+      "control_limit": "approximate authored finger locations; not ground truth"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "rotation_columns_world": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "origin_body_coordinates_cm": [
+    0.0,
+    1.8798835575580597,
+    2.3408783800249466e-07
+  ],
+  "source_height_cm": 99.95117164091216,
+  "target_height_cm": 180,
+  "factor": 1.8008793398307912,
+  "ground_plane_points": 264,
+  "paired_shoe_facing_evidence": [
+    {
+      "side_source_x_sign": 1,
+      "shank_y_cm": -2.3193342611193657,
+      "negative_extension_cm": 7.763675041496754,
+      "positive_extension_cm": 10.009762428700924
+    },
+    {
+      "side_source_x_sign": -1,
+      "shank_y_cm": -2.3193372413516045,
+      "negative_extension_cm": 7.528323478996754,
+      "positive_extension_cm": 10.009762458503246
+    }
+  ],
+  "facing_source_y_sign": -1,
+  "up_policy": "FBX declared up converted by Blender; DCC +Z checked against paired boot bottom/crown preview. No PCA height-axis assumption for T-pose.",
+  "handedness_determinant": -1.0,
+  "round_trip_max_cm": 1.432144669219779e-14,
+  "toe_heuristic_facing_source_y_sign": 1,
+  "facing_validation": "Source front/side render directly inspected: face and belt/front clothing towards Blender -Y. Verified before donor solve."
+}

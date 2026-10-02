@@ -1,0 +1,66 @@
+{
+  "source": {
+    "rig": "/Game/Characters/Mannequins/Rigs/IK_Mannequin.IK_Mannequin",
+    "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple",
+    "chains": [
+      "<Struct 'BoneChain' (0x00000260D30A3440) {chain_name: \"Root\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A34C0) {chain_name: \"Spine\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3540) {chain_name: \"Neck\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A35C0) {chain_name: \"Head\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3640) {chain_name: \"LeftLeg\", ik_goal_name: \"LeftFootIK\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A36C0) {chain_name: \"LeftClavicle\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3700) {chain_name: \"LeftArm\", ik_goal_name: \"LeftHandIK\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3740) {chain_name: \"LeftIndexMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A37C0) {chain_name: \"LeftMiddleMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3840) {chain_name: \"LeftRingMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A38C0) {chain_name: \"LeftPinkyMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3940) {chain_name: \"LeftThumb\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A39C0) {chain_name: \"LeftIndex\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3A40) {chain_name: \"LeftMiddle\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3AC0) {chain_name: \"LeftRing\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3B40) {chain_name: \"LeftPinky\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3BC0) {chain_name: \"RightLeg\", ik_goal_name: \"RightFootIK\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3C40) {chain_name: \"RightClavicle\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3C80) {chain_name: \"RightArm\", ik_goal_name: \"RightHandIK\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3CC0) {chain_name: \"RightIndexMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3D40) {chain_name: \"RightMiddleMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3E00) {chain_name: \"RightRingMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3E80) {chain_name: \"RightPinkyMetacarpal\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3F00) {chain_name: \"RightThumb\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3F80) {chain_name: \"RightIndex\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3FC0) {chain_name: \"RightMiddle\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3F40) {chain_name: \"RightRing\", ik_goal_name: \"\"}>",
+      "<Struct 'BoneChain' (0x00000260D30A3EC0) {chain_name: \"RightPinky\", ik_goal_name: \"\"}>"
+    ],
+    "retarget_root": "pelvis",
+    "root_motion_bone": "pelvis"
+  },
+  "variants": {
+    "UE5": {
+      "skeletal_mesh": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5",
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton",
+      "ik_rig": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/IK_Lara_UE5.IK_Lara_UE5",
+      "ik_retargeter": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/RTG_Manny_Lara_UE5.RTG_Manny_Lara_UE5",
+      "animation_blueprint": "/Game/MetaHumanTo3DCharacter/Phase2/UE5/ABP_Lara_UE5_Retarget.ABP_Lara_UE5_Retarget",
+      "imported_assets": [
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/tripo_mat_d5fc96b7.tripo_mat_d5fc96b7",
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5_Skeleton.SK_Lara_UE5_Skeleton",
+        "/Game/MetaHumanTo3DCharacter/Phase2/UE5/SK_Lara_UE5.SK_Lara_UE5"
+      ]
+    },
+    "Mixamo": {
+      "skeletal_mesh": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo",
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton",
+      "ik_rig": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/IK_Lara_Mixamo.IK_Lara_Mixamo",
+      "ik_retargeter": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/RTG_Manny_Lara_Mixamo.RTG_Manny_Lara_Mixamo",
+      "animation_blueprint": "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/ABP_Lara_Mixamo_Retarget.ABP_Lara_Mixamo_Retarget",
+      "imported_assets": [
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/tripo_mat_c86468c2.tripo_mat_c86468c2",
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo_Skeleton.SK_Lara_Mixamo_Skeleton",
+        "/Game/MetaHumanTo3DCharacter/Phase2/Mixamo/SK_Lara_Mixamo.SK_Lara_Mixamo"
+      ]
+    }
+  },
+  "actor": "/Game/MetaHumanTo3DCharacter/Phase2/BP_Phase2_RetargetTest.BP_Phase2_RetargetTest",
+  "map": "/Game/MetaHumanTo3DCharacter/Phase2/Maps/L_Phase2_RetargetTest.L_Phase2_RetargetTest"
+}

@@ -1,0 +1,13 @@
+{
+  "errors": [
+    "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4A/final_preservation.py\", line 17, in <module>\n    mesh.set_editor_property('materials',slots);assert unreal.EditorAssetLibrary.save_loaded_asset(mesh,only_if_is_dirty=False)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  ],
+  "uv_import_comparison": {
+    "source_unique_round5": 56329,
+    "ue_unique_round5": 56329,
+    "direct_set_equal": false,
+    "v_flipped_set_equal": false,
+    "difference_count_after_v_flip": 70,
+    "note": "UV coordinate set comparison, not corner attachment proof. Within-UE triangle/corner hashes and unchanged mesh states prove no subsequent rigging UV change; before/after rendering validates attachment visually."
+  }
+}

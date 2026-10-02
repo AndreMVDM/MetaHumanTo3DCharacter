@@ -1,0 +1,19 @@
+{
+  "semantic_passes": {
+    "Bill": 2,
+    "Jill": 1,
+    "Lara": 0
+  },
+  "Bill_pass1": "Frame-rejected aborted donor solve; retained failed import and execution log; no anatomy accepted",
+  "Bill_pass2": "Frame-verified actual solve and two-API extraction",
+  "Jill_pass1": "Actual solve and two-API extraction",
+  "skin_candidates": {
+    "Lara": 0,
+    "Bill": 0,
+    "Jill": 0
+  },
+  "remaining_semantic_passes": {
+    "Bill": 1,
+    "Jill": 2
+  }
+}

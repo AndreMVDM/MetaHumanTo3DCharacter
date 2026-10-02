@@ -1,0 +1,150 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+[2026.10.01-11.31.50:847][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.01-11.31.50:847][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.01-11.31.50:847][  0]LogTrace: Display: Control listening on port 33752
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -EnablePlugins=GeometryScripting,SkeletalMeshModelingTools -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_bake_surface_contact.py -unattended -nosplash -nullrhi -DDC=InstalledNoZenLocalFallback -LocalDataCachePath=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/DDC -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/contact60_bake.log""
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : loginid="01faf9734364f0ad7ad523bf7a6d3cfc"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.01-11.31.50:847][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading IOS ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading Android ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading Mac ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading Unix ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading Linux ini files took 0.05 seconds
+[2026.10.01-11.31.50:847][  0]LogConfig: Display: Loading Windows ini files took 0.05 seconds
+[2026.10.01-11.31.50:847][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.01-11.31.50:847][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=360MiB, MaxMemoryAvailable=102094MiB
+[2026.10.01-11.31.50:847][  0]LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-11.31.50:847][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.01-11.31.50:847][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.01-11.31.50:847][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.01-11.31.50:847][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-11.31.51:275][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.01-11.31.51:356][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.01-11.31.51:363][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.01-11.31.51:363][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.01-11.31.51:363][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.01-11.31.51:363][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.01-11.31.51:363][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.01-11.31.51:363][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.01-11.31.51:363][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.01-11.31.51:364][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.01-11.31.51:364][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.01-11.31.51:382][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.01-11.31.51:393][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.01-11.31.51:404][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.01-11.31.51:415][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.01-11.31.51:416][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.01-11.31.51:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.01-11.31.51:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.01-11.31.51:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.01-11.31.51:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.01-11.31.51:429][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.01-11.31.51:432][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.01-11.31.51:708][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.01-11.31.51:713][  0]LogDerivedDataCache: Display: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/DDC: Performance: Latency=0.01ms. RandomReadSpeed=1185.07MBs, RandomWriteSpeed=223.69MBs. Assigned SpeedClass 'Local'
+[2026.10.01-11.31.51:715][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.01-11.31.51:716][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.01-11.31.51:716][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.01-11.31.51:723][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.01-11.31.51:723][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-11.31.52:049][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.01-11.31.52:263][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.01-11.31.52:263][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.01-11.31.52:301][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.01-11.31.52:304][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.01-11.31.52:316][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.01-11.31.52:316][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.01-11.31.52:316][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.01-11.31.52:330][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.01-11.31.52:330][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.01-11.31.52:330][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.01-11.31.52:330][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.01-11.31.52:439][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.01-11.31.52:439][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.01-11.31.52:439][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.01-11.31.52:439][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.01-11.31.52:506][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.01-11.31.52:507][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.840 ms
+[2026.10.01-11.31.52:708][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.01-11.31.52:710][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.01-11.31.53:191][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-11.31.53:191][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.01-11.31.53:509][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.01-11.31.53:513][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.01-11.31.53:513][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-11.31.53:513][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.01-11.31.53:513][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.01-11.31.53:592][  0]LogAssetRegistry: Display: Asset registry cache read as 119.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_977D8A39492A63E099D9B1919873F6CF.bin (memory-mapped=yes)
+[2026.10.01-11.31.53:593][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.081s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.01-11.31.53:620][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.01-11.31.53:656][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.01-11.31.53:990][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.01-11.31.54:147][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.01-11.31.54:181][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 34.421 ms
+[2026.10.01-11.31.54:181][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.01-11.31.54:182][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 1.464 ms (total: 35.886 ms)
+[2026.10.01-11.31.54:182][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_bake_surface_contact.py
+[2026.10.01-11.31.54:252][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Lara_Refined) ...
+[2026.10.01-11.31.54:510][  0]LogPython: Display: /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle : New play length is same as existing one: 454 frames
+[2026.10.01-11.31.54:518][  0]LogPython: Warning: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_bake_surface_contact.py:19: DeprecationWarning: AnimationDataController: Function 'add_bone_track' on 'AnimationDataController' is deprecated: AddBoneTrack returning index is deprecated use AddBoneCurve returning bool instead.
+  ctl.add_bone_track(n,False);assert ctl.set_bone_track_keys(n,[t.translation for t in ts],[t.rotation for t in ts],[t.scale3d for t in ts],False)
+
+[2026.10.01-11.31.54:838][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle.MM_Idle (Required Memory Estimate: 4.81 MB)
+[2026.10.01-11.31.54:850][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.01-11.31.54:883][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Idle.MM_Idle, at AnimationSequence/43c8c76f638b46073f497fc0fa4b92ded0bce975
+[2026.10.01-11.31.56:066][  0]LogPython: Display: /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd : New play length is same as existing one: 112 frames
+[2026.10.01-11.31.56:154][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 1.35 MB)
+[2026.10.01-11.31.56:170][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/6c74d8325f2c0e77145ce8fd95543bd5c6984fbe
+[2026.10.01-11.31.56:404][  0]LogPython: Display: /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd : New play length is same as existing one: 114 frames
+[2026.10.01-11.31.56:485][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 1.37 MB)
+[2026.10.01-11.31.56:495][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4E/Character/SurfaceContactAnimations/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/3598b88ac44c8ad28d24ff990eb41138ceb6b281
+[2026.10.01-11.31.59:314][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.01-11.31.59:314][  0]LogInit: Display: 
+[2026.10.01-11.31.59:314][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.01-11.31.59:314][  0]LogInit: Display: -----------------------------------
+[2026.10.01-11.31.59:314][  0]LogInit: Display: LogSsl: Warning: Unable to open ROOT certificate store. Platform provided certificates will not be used
+[2026.10.01-11.31.59:314][  0]LogInit: Display: LogPython: Warning: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4E/ue_bake_surface_contact.py:19: DeprecationWarning: AnimationDataController: Function 'add_bone_track' on 'AnimationDataController' is deprecated: AddBoneTrack returning index is deprecated use AddBoneCurve returning bool instead.
+  ctl.add_bone_track(n,False);assert ctl.set_bone_track_keys(n,[t.translation for t in ts],[t.rotation for t in ts],[t.scale3d for t in ts],False)
+
+[2026.10.01-11.31.59:314][  0]LogInit: Display: 
+[2026.10.01-11.31.59:314][  0]LogInit: Display: Success - 0 error(s), 2 warning(s)
+[2026.10.01-11.31.59:314][  0]LogInit: Display: 
+
+Execution of commandlet took:  5.17 seconds, PeakPhysMemoryMB=2202 MB, PeakVirtMemoryMB=2110 MB
+[2026.10.01-11.31.59:429][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.01-11.31.59:432][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.01-11.31.59:432][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.01-11.31.59:637][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

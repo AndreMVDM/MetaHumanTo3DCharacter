@@ -1,0 +1,89 @@
+[
+  {
+    "path": "body.fbx",
+    "bytes": 3120128,
+    "sha256": "655dcb9198e1fc2223211a1ade986fae28d8349f420b5ee1506df659422724f7"
+  },
+  {
+    "path": "head.fbx",
+    "bytes": 3020976,
+    "sha256": "5b380bae6398c7156a01e30c05b0970341150a108bd9177f4e0d15b02ffb7360"
+  },
+  {
+    "path": "T_Gray_Body_D.PNG",
+    "bytes": 11824058,
+    "sha256": "a66587f59d6f92f8bb7c75b637c2ea7cac76bd2c831f018124ef06073db30280",
+    "format": "PNG",
+    "dimensions": [
+      8192,
+      8192
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "T_Gray_Body_D_Guides.PNG",
+    "bytes": 24130502,
+    "sha256": "330905b0e32556facdf252995da9a6e399a2e876f224e952a3c0a3bd3f46964b",
+    "format": "PNG",
+    "dimensions": [
+      8192,
+      8192
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "T_Gray_Eyes_D.PNG",
+    "bytes": 41710,
+    "sha256": "0135fb0cdf4bfe9d837e2573cf7b4c21bbbe4da9e8ac35121916298d9647fe16",
+    "format": "PNG",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "T_Gray_Head_D.PNG",
+    "bytes": 6642241,
+    "sha256": "3cae9277f9e914788eaa40c8b197bb7cfcda1fac02c64f12ea7707f2eaaafa22",
+    "format": "PNG",
+    "dimensions": [
+      8192,
+      8192
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "T_Gray_Head_D_Guides.PNG",
+    "bytes": 18826186,
+    "sha256": "dfb95047d058face8868ef71788ef0d8b2e79b6420038d82c71c51d5bd161dd2",
+    "format": "PNG",
+    "dimensions": [
+      8192,
+      8192
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "T_Gray_Head_D_Guides_Annotated.png",
+    "bytes": 35474601,
+    "sha256": "775a2a8f5babbd557d4c68e8f903f56d391e629415ba021e4caee8876fed67eb",
+    "format": "PNG",
+    "dimensions": [
+      8192,
+      8192
+    ],
+    "mode": "RGB"
+  },
+  {
+    "path": "T_Gray_Teeth_D.PNG",
+    "bytes": 714027,
+    "sha256": "5b22a997958799daab250dd3b296702d050e0c0d7e2f0022871958aa300c1ec9",
+    "format": "PNG",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA"
+  }
+]

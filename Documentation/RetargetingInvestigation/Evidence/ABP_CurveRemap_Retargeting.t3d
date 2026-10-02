@@ -1,0 +1,228 @@
+Begin Object Class=/Script/Engine.AnimBlueprint Name="ABP_CurveRemap_Retargeting" ExportPath="/Script/Engine.AnimBlueprint'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_Event_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_VariableSet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_VariableSet_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_CallFunction_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_DynamicCast Name="K2Node_DynamicCast_0" ExportPath="/Script/BlueprintGraph.K2Node_DynamicCast'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_DynamicCast_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_VariableGet_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimationGraph Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph'"
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_Root Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh Name="AnimGraphNode_RetargetPoseFromMesh_0" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.K2Node_VariableGet_0'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_0" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.EdGraphNode_Comment_0'"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_1" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.EdGraphNode_Comment_1'"
+      End Object
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Base Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Attributes Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BlueprintInitializeAnimation" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph'"
+      Begin Object Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_Event_1'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation")
+         bOverrideFunction=True
+         NodePosX=-176
+         NodePosY=224
+         NodeGuid=C3E30B3941E72F625A71C39662897E99
+         CustomProperties Pin (PinId=A7607963463D6ABB11BE369C92B0316D,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3B2C87D74DE151A849F36692E796BC26,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 2D06C2E84781022D9CA7E69C4BC9B4F9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableSet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_VariableSet_0'"
+         VariableReference=(MemberName="Source Mesh Component",MemberGuid=5330D69D4BF7F9934DFC20AE0591A449,bSelfContext=True)
+         NodePosX=640
+         NodePosY=240
+         NodeGuid=025BC463400195F6CA6905A5944AB71F
+         CustomProperties Pin (PinId=1D26C07843A64391595A82A196A5D89B,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 30F005734EB143DE1E252BB29E3834F6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A064B6C64FD8B6B025FF4BAEEECB45A9,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=221D00A84978B1BAB6AE59A3ADE62D0F,PinName="Source Mesh Component",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_0 C7D7FE0A44957611CE91CDA0A513A0FD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AB522EE04E460890CBC2BDAED27566F8,PinName="Output_Get",PinToolTip="Retrieves the value of the variable, can use instead of a separate Get node",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D855DFCD48DB00C0ED3A51B91F56D41F,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_CallFunction_1'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberName="GetOwningActor",bSelfContext=True)
+         NodePosX=-96
+         NodePosY=400
+         NodeGuid=62150C6342EF82398B904E8FD5D81FAA
+         CustomProperties Pin (PinId=45BF76EB4ADC0B2F4753C0846F48DA13,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F6789D79406FBE55B1A4269531E40761,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Actor'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 19A3E4A640E7FB356EA39E915905AE16,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_DynamicCast_0" ExportPath="/Script/BlueprintGraph.K2Node_DynamicCast'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_DynamicCast_0'"
+         TargetType="/Script/Engine.BlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase_C'"
+         PureState=Impure
+         NodePosX=160
+         NodePosY=224
+         NodeGuid=7EE884D841675FDDC5BA0990B7E1A194
+         CustomProperties Pin (PinId=2D06C2E84781022D9CA7E69C4BC9B4F9,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_1 3B2C87D74DE151A849F36692E796BC26,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=30F005734EB143DE1E252BB29E3834F6,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableSet_0 1D26C07843A64391595A82A196A5D89B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=57B62E8B4D66428949A7848BC03FA43C,PinName="CastFailed",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=19A3E4A640E7FB356EA39E915905AE16,PinName="Object",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/CoreUObject.Object'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 F6789D79406FBE55B1A4269531E40761,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=80B5FFD84B7F8DE26C74A98C933410F8,PinName="AsBP Remap Curve Post Retarget Phase",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.BlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_0 5DC8EA6048C07FB881653FA86E87E0CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4895FAF94230E176849321ACD57DB464,PinName="bSuccess",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph.K2Node_VariableGet_0'"
+         VariableReference=(MemberParent="/Script/Engine.BlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase_C'",MemberName="Source")
+         SelfContextInfo=NotSelfContext
+         NodePosX=560
+         NodePosY=384
+         NodeGuid=3309FA2647B22B20D23AF49157700B59
+         CustomProperties Pin (PinId=C7D7FE0A44957611CE91CDA0A513A0FD,PinName="Source",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableSet_0 221D00A84978B1BAB6AE59A3ADE62D0F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5DC8EA6048C07FB881653FA86E87E0CD,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.BlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/Blueprints/BP_RemapCurve_PostRetargetPhase.BP_RemapCurve_PostRetargetPhase_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 80B5FFD84B7F8DE26C74A98C933410F8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_1'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_VariableSet'K2Node_VariableSet_0'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_1'"
+      Nodes(3)="/Script/BlueprintGraph.K2Node_DynamicCast'K2Node_DynamicCast_0'"
+      Nodes(4)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_0'"
+      bAllowDeletion=False
+      GraphGuid=9661DE8F4A381EAC0D80FDBBC1235B7C
+   End Object
+   Begin Object Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph'"
+      Begin Object Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosY=-23
+         ErrorType=4
+         NodeGuid=DB02764F42CBF901D44C51A4933F69AC
+         CustomProperties Pin (PinId=C8B8C847478E0E451EB81C8A2EDE976D,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_RetargetPoseFromMesh_0 2A82418B42F53E44108B1A8EE0B85A01,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_RetargetPoseFromMesh_0" ExportPath="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.AnimGraphNode_RetargetPoseFromMesh_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         Node=(IKRetargeterAsset="/Script/IKRig.IKRetargeter'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/RTG_CurveRemap.RTG_CurveRemap'")
+         ShowPinForProperties(0)=(PropertyName="Source",PropertyFriendlyName="Source",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:Source", "Input pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode."),CategoryName="Links",bShowPin=True)
+         ShowPinForProperties(1)=(PropertyName="RetargetFrom",PropertyFriendlyName="Retarget From",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:RetargetFrom", "Specify where to get the source pose to retarget from. Can be from the anim graph, or a different skeletal mesh component."),CategoryName="Settings")
+         ShowPinForProperties(2)=(PropertyName="SourceMeshComponent",PropertyFriendlyName="Source Mesh Component",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:SourceMeshComponent", "The Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance."),CategoryName="Settings",bShowPin=True,bCanToggleVisibility=True)
+         ShowPinForProperties(3)=(PropertyName="IKRetargeterAsset",PropertyFriendlyName="IKRetargeter Asset",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:IKRetargeterAsset", "Retarget asset to use. Must define a Source and Target IK Rig compatible with the SourceMeshComponent and current anim instance."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(4)=(PropertyName="CustomRetargetProfile",PropertyFriendlyName="Custom Retarget Profile",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:CustomRetargetProfile", "Connect a custom retarget profile to modify the retargeter\'s settings at runtime."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(5)=(PropertyName="bUseCustomOverrideSets",PropertyFriendlyName="Use Custom Override Sets",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bUseCustomOverrideSets", "If true, will use the custom list of named override sets to apply. These are stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True)
+         ShowPinForProperties(6)=(PropertyName="OverrideSetsToApply",PropertyFriendlyName="Override Sets to Apply",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:OverrideSetsToApply", "Apply one or more override sets stored in the retarget asset."),CategoryName="Settings",bCanToggleVisibility=True,bHasOverridePin=True)
+         ShowPinForProperties(7)=(PropertyName="LODThreshold",PropertyFriendlyName="LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThreshold", "Max LOD that this node is allowed to run.\nFor example if you have LODThreshold at 2, it will run until LOD 2 (based on 0 index) when the component LOD becomes 3, it will stop update/evaluate\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(8)=(PropertyName="LODThresholdForIK",PropertyFriendlyName="IK LOD Threshold",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:LODThresholdForIK", "Max LOD that IK is allowed to run.\nFor example if you have LODThresholdForIK at 2, it will skip the IK pass on LODs 3 and greater.\nThis only disables IK and does not affect the Root or FK passes.\nA value of -1 forces the node to execute at all LOD levels."),CategoryName="Performance")
+         ShowPinForProperties(9)=(PropertyName="bSuppressWarnings",PropertyFriendlyName="Suppress Warnings",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_RetargetPoseFromMesh:bSuppressWarnings", "Toggle whether to print warnings about missing or incorrectly configured retarget configurations."),CategoryName="Debug")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-272
+         NodePosY=41
+         bHasCompilerMessage=True
+         ErrorType=4
+         ErrorMsg="Source  was visible but ignored"
+         NodeGuid=282FE59A4B18642F07DF0CA9CB5D154D
+         CustomProperties Pin (PinId=CF2C93C140512061F8DD46A252F9991F,PinName="Source",PinFriendlyName=INVTEXT("Source"),PinToolTip="Source\nPose Link Structure\n\nInput pose to be modified by the retargeter when using \"Source Pose Pin\" mode as the Input Pose Mode.",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=True,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=9437D81442C6D5D62DF06DBBD834D013,PinName="SourceMeshComponent",PinFriendlyName=INVTEXT("Source Mesh Component"),PinToolTip="Source Mesh Component\nSkeletal Mesh Component Weak object\n\nThe Skeletal Mesh Component to retarget animation from. Assumed to be animated and tick BEFORE this anim instance.",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=True,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,AutogeneratedDefaultValue="None",LinkedTo=(K2Node_VariableGet_0 46CD9DCC479C5CE377B780A4B8B988BF,),PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2A82418B42F53E44108B1A8EE0B85A01,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_Root_0 C8B8C847478E0E451EB81C8A2EDE976D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.K2Node_VariableGet_0'"
+         VariableReference=(MemberName="Source Mesh Component",MemberGuid=5330D69D4BF7F9934DFC20AE0591A449,bSelfContext=True)
+         NodePosX=-480
+         NodePosY=64
+         NodeGuid=5BCCE4A043888059C5C5789DE93B3BCA
+         CustomProperties Pin (PinId=46CD9DCC479C5CE377B780A4B8B988BF,PinName="Source Mesh Component",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_RetargetPoseFromMesh_0 9437D81442C6D5D62DF06DBBD834D013,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A3543A8C4B78D029F1E39994215A45C0,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="EdGraphNode_Comment_0" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.EdGraphNode_Comment_0'"
+         CommentColor=(R=1.000000,G=0.734903,B=0.136673,A=1.000000)
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-928
+         NodePosY=-176
+         NodeHeight=160
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="To see the IK Retargeter asset, Double Click the Retarget Pose From Mesh node or double click on IK Retargeter Asset thumbnail in Details Panel"
+         NodeGuid=06739A2A4943DB51D9CA2B8954EDC00B
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph.EdGraphNode_Comment_1'"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-490
+         NodePosY=-134
+         NodeWidth=736
+         NodeHeight=336
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="Retarget the animation from the source component to this skeletal mesh. Check the Post Retarget Phase and the operations to see the remapped curve"
+         NodeGuid=868C618942863C75CDA8BD919FD8D8E8
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationGraphSchema'"
+      Nodes(0)="/Script/AnimGraph.AnimGraphNode_Root'AnimGraphNode_Root_0'"
+      Nodes(1)="/Script/IKRigDeveloper.AnimGraphNode_RetargetPoseFromMesh'AnimGraphNode_RetargetPoseFromMesh_0'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_0'"
+      Nodes(3)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_0'"
+      Nodes(4)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_1'"
+      bAllowDeletion=False
+      GraphGuid=0DEDDB5F47EA48629C68B9A93EC239E6
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimBlueprintExtension_PropertyAccess_0'"
+      Subsystem=(Library=(PathSegments=((Name="Source Mesh Component",Property=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C:Source Mesh Component,Flags=2),(Name="AnimGraphNode_RetargetPoseFromMesh",Struct="/Script/CoreUObject.ScriptStruct'/Script/IKRig.AnimNode_RetargetPoseFromMesh'",Property=/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting_C:AnimGraphNode_RetargetPoseFromMesh,Flags=1),(Name="SourceMeshComponent",Property=/Script/IKRig.AnimNode_RetargetPoseFromMesh:SourceMeshComponent,Flags=2)),SrcPaths=((PathSegmentStartIndex=0,PathSegmentCount=1)),DestPaths=((PathSegmentStartIndex=1,PathSegmentCount=2)),CopyBatchArray=((Copies=((AccessIndex=0,DestAccessStartIndex=0,DestAccessEndIndex=1,Type=Object))))))
+   End Object
+   Begin Object Name="BlueprintInitializeAnimation" ExportPath="/Script/Engine.EdGraph'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="BlueprintInitializeAnimation"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=3040D4E1E59C39C69F4F274EB9E43EF6
+         CustomProperties Pin (PinId=03086CEC4C19DAB22FF986892B90BDFE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 E6F3FD9F44EFE3E506E689A6D69B271A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:BlueprintInitializeAnimation.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_ABP_CurveRemap_Retargeting",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=C0F8FADE30FC3AB682275AF3EF2D1C49
+         CustomProperties Pin (PinId=E6F3FD9F44EFE3E506E689A6D69B271A,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 03086CEC4C19DAB22FF986892B90BDFE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=501C0E534B56BEDB733058AC462DC9F5,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C7CF757B483B523798283A9D8A5BBDA3,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.SKEL_ABP_CurveRemap_Retargeting_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=555E2B4C4D2FB2930CC195AE7E32AC14,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=BE7376A843C860E508D7F3928C24D6F8
+   End Object
+   TargetSkeleton="/Script/Engine.Skeleton'/Game/ExampleContent/AnimationRetargeting/Meshes/TopBulge_Skeleton.TopBulge_Skeleton'"
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/AnimGraph.AnimationGraph'AnimGraph'"
+   NewVariables(0)=(VarName="Source Mesh Component",VarGuid=5330D69D4BF7F9934DFC20AE0591A449,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SkeletalMeshComponent'",bIsUObjectWrapper=True),FriendlyName="Source Mesh Component",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   CategorySorting(0)="Default Shared Group"
+   CategorySorting(1)="Event Graph"
+   CategorySorting(2)="Default"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:EventGraph",SavedViewOffset=(X=-289.148041,Y=42.483368),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/ExampleContent/AnimationRetargeting/AnimBlueprints/ABP_CurveRemap_Retargeting.ABP_CurveRemap_Retargeting:AnimGraph",SavedViewOffset=(X=-1112.537598,Y=-448.263885),SavedZoomAmount=0.675000)
+   Extensions(0)="/Script/AnimGraph.AnimBlueprintExtension_Base'AnimBlueprintExtension_Base_0'"
+   Extensions(1)="/Script/AnimGraph.AnimBlueprintExtension_Attributes'AnimBlueprintExtension_Attributes_0'"
+   Extensions(2)="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'AnimBlueprintExtension_PropertyAccess_0'"
+   GeneratedClass="/Script/Engine.AnimBlueprintGeneratedClass'ABP_CurveRemap_Retargeting_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=7FB3AFBC464C94CDA27C92A993384170
+End Object

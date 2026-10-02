@@ -1,0 +1,135 @@
+[
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/UE5/OriginalHeight/Lara_UE5_OriginalHeight.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_d5fc96b7) - tripo_node_d5fc96b7"
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/UE5/Height160/Lara_UE5_Height160.fbx",
+    "warnings": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Warning: Recreating bind pose succeeded.",
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - tripo_node_d5fc96b7",
+      "LogFbx: Warning: Recreating bind pose succeeded."
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/UE5/Height175/Lara_UE5_Height175.fbx",
+    "warnings": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Warning: Recreating bind pose succeeded.",
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - tripo_node_d5fc96b7",
+      "LogFbx: Warning: Recreating bind pose succeeded."
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/UE5/Height180/Lara_UE5_Height180.fbx",
+    "warnings": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Warning: Recreating bind pose succeeded.",
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - tripo_node_d5fc96b7",
+      "LogFbx: Warning: Recreating bind pose succeeded."
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/UE5/Height200/Lara_UE5_Height200.fbx",
+    "warnings": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Warning: Recreating bind pose succeeded.",
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - tripo_node_d5fc96b7",
+      "LogFbx: Warning: Recreating bind pose succeeded."
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/Mixamo/OriginalHeight/Lara_Mixamo_OriginalHeight.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_c86468c2) - tripo_node_c86468c2"
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/Mixamo/Height160/Lara_Mixamo_Height160.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_c86468c2) - tripo_node_c86468c2"
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/Mixamo/Height175/Lara_Mixamo_Height175.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_c86468c2) - tripo_node_c86468c2"
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/Mixamo/Height180/Lara_Mixamo_Height180.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_c86468c2) - tripo_node_c86468c2"
+    ]
+  },
+  {
+    "fbx": "E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase3B/Mixamo/Height200/Lara_Mixamo_Height200.fbx",
+    "warnings": [
+      "FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set.",
+      "LogInit: Display: FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.",
+      "LogInit: Display: FBXImport: Warning: Mesh 'tripo_node_d5fc96b7' has no UV set. Creating a default set.",
+      "LogInit: Display: LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogInit: Display: LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogInit: Display: LogFbx: Warning: Recreating bind pose succeeded.",
+      "LogInit: Display: FBXImport: Warning: Mesh 'tripo_node_c86468c2' has no UV set. Creating a default set."
+    ],
+    "bind_pose_messages": [
+      "LogFbx: Valid bind pose for Pose (tripo_mesh_c86468c2) - tripo_node_c86468c2",
+      "LogInit: Display: LogFbx: Warning: Not valid bind pose for Pose (tripo_mesh_d5fc96b7) - Node tripo_node_d5fc96b7 : The relative matrices do not match",
+      "LogInit: Display: LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose",
+      "LogInit: Display: LogFbx: Warning: Recreating bind pose succeeded."
+    ]
+  }
+]

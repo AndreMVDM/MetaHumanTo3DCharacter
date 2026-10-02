@@ -1,0 +1,35 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="Echo_Hair" ExportPath="/Script/Engine.SkeletalMesh'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair'"
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:FbxSkeletalMeshImportData_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshDescriptionBulkData Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Class=/Script/SkeletalMeshDescription.SkeletalMeshDescription Name="MeshDescription" Archetype="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Script/Engine.Default__SkeletalMeshDescriptionBulkData:MeshDescription'" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0" ExportPath="/Script/UnrealEd.FbxSkeletalMeshImportData'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:FbxSkeletalMeshImportData_0'"
+      bUpdateSkeletonReferencePose=True
+      bUseT0AsRefPose=True
+      bImportMorphTargets=True
+      ThresholdUV=0.000977
+      bImportMeshLODs=True
+      ImportMaterialOriginalNameData(0)="M_Hair_Cards"
+      ImportMaterialOriginalNameData(1)="M_Accessories"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("M_Hair_Cards","M_Accessories"))
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="SkeletalMeshDescriptionBulkData_0" ExportPath="/Script/Engine.SkeletalMeshDescriptionBulkData'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SkeletalMeshDescriptionBulkData_0'"
+      Begin Object Name="MeshDescription" ExportPath="/Script/SkeletalMeshDescription.SkeletalMeshDescription'/Game/Characters/Echo/Meshes/Echo_Hair.Echo_Hair:SkeletalMeshDescriptionBulkData_0.MeshDescription'"
+      End Object
+   End Object
+   SourceModels(0)=(TriangleCount=316103,VertexCount=209791,Bounds=(Origin=(X=0.211179,Y=-3.227406,Z=149.844002),BoxExtent=(X=10.012618,Y=14.862194,Z=20.861534),SphereRadius=23.128635),CachedSkinWeightProfileNames=,CachedMorphTargetNames=,CachedHasVertexColors=(True),CachedVertexColorGuid=50CFA8C2A62E8A7011DEB9C9C666A9F2,MeshDescriptionBulkData="/Script/Engine.SkeletalMeshDescriptionBulkData'SkeletalMeshDescriptionBulkData_0'",LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,bUseBackwardsCompatibleF16TruncUVs=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   Skeleton="/Script/Engine.Skeleton'/Game/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   bHasVertexColors=True
+   VertexColorGuid=FB210D034BE13FFC4817F2AD79ADF45F
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/Characters/Echo/Rig/Physics/PA_Echo_Ponytail.PA_Echo_Ponytail'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   PostProcessAnimBlueprint="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Characters/Echo/Rig/Echo_Hair_AnimBP.Echo_Hair_AnimBP_C'"
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object
