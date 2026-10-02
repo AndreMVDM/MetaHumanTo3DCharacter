@@ -21,6 +21,9 @@ __pycache__/
 # Temporary ReviewPanel heartbeat/IPC. Genuine events are stored separately
 # in Working/Phase4F/{John,Jane}/InteractionEvidence and remain included.
 /Working/Phase4F/ReviewPanel/runtime/
+# Unreal appends to this active editor log. Its committed checkpoint snapshot
+# is retained in Documentation/Phase4F/apose_editor_review_checkpoint.log.
+/Working/Phase4F/apose_editor_review.log
 
 # Local environment secrets; distributable examples remain eligible.
 .env
