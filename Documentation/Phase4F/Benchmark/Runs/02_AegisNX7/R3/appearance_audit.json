@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "assets_saved": false,
+  "source": {
+    "uv_sets": 1,
+    "triangle_uv_sha256": [
+      "929680349476595f910f4a6304ed4e4286f232a3be28ef0796412215989788f1"
+    ],
+    "material_slots": [
+      {
+        "name": "tripo_mat_1c5da8ca",
+        "material": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca.tripo_mat_1c5da8ca"
+      }
+    ]
+  },
+  "destination": {
+    "uv_sets": 1,
+    "triangle_uv_sha256": [
+      "929680349476595f910f4a6304ed4e4286f232a3be28ef0796412215989788f1"
+    ],
+    "material_slots": [
+      {
+        "name": "tripo_mat_1c5da8ca",
+        "material": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca.tripo_mat_1c5da8ca"
+      }
+    ]
+  },
+  "appearance_exactly_preserved": true,
+  "final_policy_certificates": {
+    "Corrected": {
+      "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+      "status": "PASS",
+      "explicit_runtime_seeds": [
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Playback/L_DestinationProof"
+      ],
+      "bound_material_roots": [
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca"
+      ],
+      "appearance_packages": [
+        "/Engine/EngineMaterials/BaseFlattenLinearColor",
+        "/Engine/EngineMaterials/DefaultNormal",
+        "/Engine/EngineResources/DefaultTexture",
+        "/Engine/Transient",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+        "/InterchangeAssets/Functions/MF_PhongToMetalRoughness",
+        "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+        "/Script/InterchangeEngine"
+      ],
+      "owned_project_appearance": [
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca"
+      ],
+      "classes": {
+        "/Engine/EngineMaterials/BaseFlattenLinearColor": [
+          "Texture2D"
+        ],
+        "/Engine/EngineMaterials/DefaultNormal": [
+          "Texture2D"
+        ],
+        "/Engine/EngineResources/DefaultTexture": [
+          "Texture2D"
+        ],
+        "/Engine/Transient": [],
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0": [
+          "Texture2D"
+        ],
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca": [
+          "MaterialInstanceConstant"
+        ],
+        "/InterchangeAssets/Functions/MF_PhongToMetalRoughness": [
+          "MaterialFunction"
+        ],
+        "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial": [
+          "Material"
+        ]
+      },
+      "errors": [],
+      "foreign_game_packages": []
+    },
+    "FemaleRegression": {
+      "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+      "status": "PASS",
+      "explicit_runtime_seeds": [
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MF_Walk_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Idle",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Run_Fwd",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/Reference_Native",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SK_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R3_FemaleRegression/Playback/L_DestinationProof"
+      ],
+      "bound_material_roots": [
+        "/Engine/EngineMaterials/WorldGridMaterial"
+      ],
+      "appearance_packages": [
+        "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+        "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+        "/Engine/EngineMaterials/WorldGridMaterial",
+        "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+      ],
+      "owned_project_appearance": [],
+      "classes": {
+        "/Engine/EngineMaterials/T_Default_Material_Grid_M": [
+          "Texture2D"
+        ],
+        "/Engine/EngineMaterials/T_Default_Material_Grid_N": [
+          "Texture2D"
+        ],
+        "/Engine/EngineMaterials/WorldGridMaterial": [
+          "Material"
+        ],
+        "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade": [
+          "MaterialFunction"
+        ]
+      },
+      "errors": [],
+      "foreign_game_packages": []
+    }
+  },
+  "helper_sha256": "00761af0435ecd94a73a5962418571714146c26e32f780fa87b4040fff672b98"
+}

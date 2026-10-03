@@ -1,0 +1,8 @@
+{
+  "path": "Working/HumanReview/AegisMovement/interactive_editor_009.log",
+  "baseline_sha256": "d4e6cb57049628b29b33e755dec36abfd051682b8c66c191bbf9a2db9d185954",
+  "baseline_prefix_bytes": 297783,
+  "current_bytes": 299951,
+  "only_append": true,
+  "append_reason": "Pre-existing running human-review editor continued its own runtime log; no authored asset or evidence was edited"
+}

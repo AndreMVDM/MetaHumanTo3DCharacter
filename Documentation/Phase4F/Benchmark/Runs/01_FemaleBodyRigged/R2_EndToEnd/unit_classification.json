@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "classification": "canonicalisation_required",
+  "detected_factor": 100.0,
+  "detector_version": "phase4f.rigged-unit-canonicalisation/1.0.0",
+  "root": "root"
+}

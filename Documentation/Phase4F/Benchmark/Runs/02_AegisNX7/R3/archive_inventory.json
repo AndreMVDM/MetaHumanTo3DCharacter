@@ -1,0 +1,19 @@
+{
+  "archive": "Characters/Aegis+NX-7.zip",
+  "archive_sha256": "eb4967bb254d96009e34192609e4d32082ec932143db15f2b5c8578572d0f5fd",
+  "archive_size_bytes": 6172882,
+  "entries": [
+    {
+      "entry": "tripo_convert_1c5da8ca-01db-4225-b964-d7a4088efe5e.fbx",
+      "path": "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/Input/tripo_convert_1c5da8ca-01db-4225-b964-d7a4088efe5e.fbx",
+      "size_bytes": 2158364,
+      "sha256": "6121028fae6d23aca6925c2dc28e394a6235035c13ec8b7e6e9ca209216df040"
+    },
+    {
+      "entry": "tripo_convert_1c5da8ca-01db-4225-b964-d7a4088efe5e.fbm/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0.jpg",
+      "path": "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/Input/tripo_convert_1c5da8ca-01db-4225-b964-d7a4088efe5e.fbm/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0.jpg",
+      "size_bytes": 4214461,
+      "sha256": "07c309b681877ea73280c18cbef70251c3b56c937850ae2c62ab047d479959fe"
+    }
+  ]
+}

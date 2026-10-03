@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "workflow": "Level 1 self-review",
+  "checks": [
+    {
+      "name": "independent_observed_neutral",
+      "status": "PASS",
+      "steady_samples": 78
+    },
+    {
+      "name": "independent_observed_idle",
+      "status": "PASS",
+      "steady_samples": 851
+    },
+    {
+      "name": "independent_observed_walk",
+      "status": "PASS",
+      "steady_samples": 390
+    },
+    {
+      "name": "independent_observed_run",
+      "status": "PASS",
+      "steady_samples": 398
+    },
+    {
+      "name": "native_result_lineage_matches_final_assets",
+      "status": "PASS"
+    },
+    {
+      "name": "runtime_seeds_have_no_foreign_or_authoring_dependency",
+      "status": "PASS"
+    },
+    {
+      "name": "protected_file_and_Git_preservation",
+      "status": "PASS"
+    }
+  ],
+  "findings_corrected": [
+    "Use exposed IKRigController chain endpoint methods rather than unavailable BoneChain attributes",
+    "Inspect actual mesh bone indices; exclude Skeleton-only compatibility bones from mesh hierarchy",
+    "Exclude clip-switch settling from representative motion acceptance",
+    "Separate stored authoring inspection from source-free native playback",
+    "Bind aggregated native proof to exact current destination asset list",
+    "Allow explicitly validated original destination mesh/Skeleton runtime seeds on the already_canonical route"
+  ],
+  "limitations": [
+    "Only Female_Body_Rigged exercised end-to-end; no claim of cross-rig-family or full visual-quality acceptance",
+    "Shared Skeleton-only absent-bone filtering was exercised using Manny Simple",
+    "Small contact diagnostics do not authorise deformation or contact correction"
+  ]
+}

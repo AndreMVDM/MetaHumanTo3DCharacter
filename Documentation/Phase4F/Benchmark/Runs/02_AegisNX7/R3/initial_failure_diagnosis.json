@@ -1,0 +1,24 @@
+{
+  "status": "DIAGNOSED",
+  "initial_authoring": "PASS",
+  "initial_native_and_runtime_gate": "FAIL",
+  "initial_native_playback": "NOT_RUN",
+  "failure": "unintended runtime dependency",
+  "exact_foreign_packages": [
+    "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+    "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0"
+  ],
+  "types": {
+    "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca": "MaterialInstanceConstant",
+    "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0": "Texture2D"
+  },
+  "root_cause": "R2 equates derived namespace ownership with runtime ownership. R1 correctly retains original input material slots; their bound material/texture assets remain outside the derived namespace and are falsely labelled foreign.",
+  "generic_defect": true,
+  "geometry_or_skinning_defect": false,
+  "scale_or_stature_defect": false,
+  "minimal_correction": "Certify appearance dependencies from final mesh material slots, traversing actual dependency edges; allow only known appearance asset types and explicit destination runtime seeds. Keep other characters, animation authoring, rigs, donors and bridge dependencies rejected.",
+  "policy_version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+  "algorithm_changes_to_R1_or_R2": false,
+  "regression_required": "Female_Body_Rigged input/classifier/semantics read-only replay and fresh saved destination native playback under corrected dependency certificate; no affected bake/conversion changes",
+  "initial_result_sha256": "0e6dc6b0fcb45b9c41fafe8f1be66a20f4d20d47d2f85b903d368bc02e023406"
+}

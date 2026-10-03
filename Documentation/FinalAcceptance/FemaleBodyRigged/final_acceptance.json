@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "classification": "FINAL_ACCEPTANCE_READY",
+  "subject": "Female_Body_Rigged.zip, explicitly substituted by the user for rigged Jane",
+  "checks": {
+    "confirmed_archive_matches_imported_fbx": true,
+    "unchanged_R2_execution": true,
+    "input_unit_semantics_native_processor": true,
+    "canonicalisation_preserves_source": true,
+    "same_authoritative_89_default_sources": true,
+    "R4_executable_and_generic_core_unchanged": true,
+    "all_89_default_bakes": true,
+    "unique_destination_paths": true,
+    "fresh_library_reload": true,
+    "destination_asset_hashes_stable": true,
+    "source_classification_root_policy_metadata_retained": true,
+    "source_bound_root_certificates": true,
+    "native_representative_playback": true,
+    "native_all_controls": true,
+    "jump_fall_land_ground_return": true,
+    "destination_runtime_independent": true,
+    "original_appearance_bindings_retained": true,
+    "authored_files_human_evidence_Git_preserved": true,
+    "correct_final_mesh_and_height": true,
+    "ready_for_human_review": true,
+    "review_editor_running": true
+  },
+  "totals": {
+    "candidates": 128,
+    "default": 89,
+    "optional": 18,
+    "excluded": 21,
+    "attempted": 89,
+    "succeeded": 89,
+    "failed": 0
+  },
+  "categories": {
+    "Locomotion": 56,
+    "Jump": 13,
+    "Actions": 20
+  },
+  "reference_height_cm": 99.95117324217154,
+  "jump_rise_cm": 85.55556239353021,
+  "assets": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+    "target_rig": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Retarget/IK_Destination.IK_Destination",
+    "source_rig": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Retarget/IK_MannySource.IK_MannySource",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Retarget/RTG_MannyToDestination.RTG_MannyToDestination",
+    "level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/L_FemaleBodyMovementReview",
+    "character": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/BP_FemaleBodyMovementReviewCharacter.BP_FemaleBodyMovementReviewCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/ABP_FemaleBodyMovementReview.ABP_FemaleBodyMovementReview",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/BP_FemaleBodyMovementReviewGameMode.BP_FemaleBodyMovementReviewGameMode"
+  },
+  "animation_library_root": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1",
+  "air_sequences": {
+    "MM_Jump": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+    "MM_Fall_Loop": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+    "MM_Land": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+  },
+  "preservation": {
+    "status": "PASS",
+    "protected_count": 43082,
+    "authored_changes": [],
+    "authored_missing": [],
+    "generated_runtime_changes": {
+      "changed": [
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo.json",
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo.txt",
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/SourceControl/UncontrolledChangelists.json"
+      ],
+      "rotated_missing": [
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.49.55.json",
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.49.55.txt",
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.51.19.json",
+        "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.51.19.txt"
+      ],
+      "reason": "Native UE authoring-host Saved SDK diagnostics and uncontrolled-changelist runtime state; no authored project asset, source or reproducibility evidence"
+    },
+    "runtime_appends": [
+      "Working/R4/AegisNX7/interactive_review_003.log"
+    ],
+    "git_preserved": true,
+    "strict_raw_hash_audit_retained": true
+  },
+  "intervention": {
+    "user_source_correction": 1,
+    "manual_bone_mapping": 0,
+    "subject_specific_repairs": 0,
+    "retarget_tuning": 0,
+    "landmark_or_human_review_changes": 0
+  },
+  "editor_pid": 38556,
+  "human_visual_acceptance": "Pending Andre personal review",
+  "evidence_hashes": {
+    "animation_library_manifest.json": "9f05d19bee9ad47af7721cac6b0acea18e76e3fbdc0ef54f63b581ad7034843a",
+    "source_inventory.json": "75bc24effc48751ba0810bfffba0988d7f06cd6dca7f7b090ca404ccff18ec41",
+    "fresh_validation.json": "29ef681b9f84edbd45062798549465119cde89fd6ca6f4d947ca20a4b344615f",
+    "native_library.json": "215d79f0fa0096f0ac1a1a5b1426f7a7782cef7fdc4fae1aeb48083208b75912",
+    "native_verification.json": "7b06751cf96d6c07b20bce90f9c3f8ab45262e03219c92c20d5000592e5b2171",
+    "review_build.json": "be6c8b4f7c9a2bdbcd85ab1d70c02c9625acbe8d14efa973cc6aa82e62ed2c23",
+    "preservation_audit.json": "dcf34cd95445a37efee3596be0b4ce15ab5bbdf238bc28bcc770d795d2528e14",
+    "input_selection.json": "85eb69f41e3642e6f877ab82e9ae66ba2ca24fc2520c7774a01aae63d2957694",
+    "R2/authoring_result.json": "f6d6a88a4074eaf73ff8270c98292b89ee058d41293768042f987d0686458224",
+    "R2/author_execution_identity.json": "396f7e517a0a23f1ee8a2d49fdc281918cb558834fc8e222d243e3461d6d1a91"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "phase4f.rigged-character-r2/1.0.0",
+  "status": "FAIL",
+  "stages": [
+    {
+      "stage": "input_validation",
+      "status": "PASS"
+    },
+    {
+      "stage": "unit_classification",
+      "status": "PASS"
+    },
+    {
+      "stage": "canonicalisation",
+      "status": "PASS"
+    },
+    {
+      "stage": "semantic_mapping",
+      "status": "PASS"
+    }
+  ],
+  "assets": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination"
+  },
+  "clips": [],
+  "failed_stage": "semantic_mapping",
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 168, in <module>\n    source_description = inspect(source_mesh)\n                         ^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 58, in inspect\n    require(len(roots) == 1, 'invalid_hierarchy: root count')\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 36, in require\n    raise ValueError(reason)\nValueError: invalid_hierarchy: root count\n"
+}

@@ -1,0 +1,402 @@
+{
+  "status": "PASS",
+  "bindings": [
+    {
+      "semantic": "Root",
+      "chain": "Root",
+      "bones": [
+        "root"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "Spine",
+      "chain": "Spine",
+      "bones": [
+        "spine_01",
+        "spine_02",
+        "spine_03"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "Neck",
+      "chain": "Neck",
+      "bones": [
+        "neck_01"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "Head",
+      "chain": "Head",
+      "bones": [
+        "head"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftClavicle",
+      "chain": "LeftClavicle",
+      "bones": [
+        "clavicle_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftArm",
+      "chain": "LeftArm",
+      "bones": [
+        "upperarm_l",
+        "lowerarm_l",
+        "hand_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftLeg",
+      "chain": "LeftLeg",
+      "bones": [
+        "thigh_l",
+        "calf_l",
+        "foot_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftFoot",
+      "chain": "LeftFoot",
+      "bones": [
+        "ball_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftThumb",
+      "chain": "LeftThumb",
+      "bones": [
+        "thumb_01_l",
+        "thumb_02_l",
+        "thumb_03_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftIndex",
+      "chain": "LeftIndex",
+      "bones": [
+        "index_01_l",
+        "index_02_l",
+        "index_03_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftMiddle",
+      "chain": "LeftMiddle",
+      "bones": [
+        "middle_01_l",
+        "middle_02_l",
+        "middle_03_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftRing",
+      "chain": "LeftRing",
+      "bones": [
+        "ring_01_l",
+        "ring_02_l",
+        "ring_03_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "LeftPinky",
+      "chain": "LeftPinky",
+      "bones": [
+        "pinky_01_l",
+        "pinky_02_l",
+        "pinky_03_l"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightClavicle",
+      "chain": "RightClavicle",
+      "bones": [
+        "clavicle_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightArm",
+      "chain": "RightArm",
+      "bones": [
+        "upperarm_r",
+        "lowerarm_r",
+        "hand_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightLeg",
+      "chain": "RightLeg",
+      "bones": [
+        "thigh_r",
+        "calf_r",
+        "foot_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightFoot",
+      "chain": "RightFoot",
+      "bones": [
+        "ball_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightThumb",
+      "chain": "RightThumb",
+      "bones": [
+        "thumb_01_r",
+        "thumb_02_r",
+        "thumb_03_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightIndex",
+      "chain": "RightIndex",
+      "bones": [
+        "index_01_r",
+        "index_02_r",
+        "index_03_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightMiddle",
+      "chain": "RightMiddle",
+      "bones": [
+        "middle_01_r",
+        "middle_02_r",
+        "middle_03_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightRing",
+      "chain": "RightRing",
+      "bones": [
+        "ring_01_r",
+        "ring_02_r",
+        "ring_03_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "RightPinky",
+      "chain": "RightPinky",
+      "bones": [
+        "pinky_01_r",
+        "pinky_02_r",
+        "pinky_03_r"
+      ],
+      "resolved_by": "UE automatic humanoid retarget definition; ancestry validated",
+      "required": true,
+      "confidence": "UE template match, structural validation; template alternatives not exposed",
+      "ambiguous": false,
+      "passed": true
+    },
+    {
+      "semantic": "PelvisRetargetRoot",
+      "bone": "pelvis",
+      "resolved_by": "UE automatic retarget root",
+      "required": true,
+      "confidence": "UE template match; existing reference bone",
+      "ambiguous": false,
+      "passed": true
+    }
+  ],
+  "chain_count": 22,
+  "semantic_binding_count": 23,
+  "pelvis": "pelvis",
+  "root": "root",
+  "chains": {
+    "Spine": {
+      "start": "spine_01",
+      "end": "spine_03"
+    },
+    "Neck": {
+      "start": "neck_01",
+      "end": "neck_01"
+    },
+    "Head": {
+      "start": "Head",
+      "end": "Head"
+    },
+    "LeftLeg": {
+      "start": "thigh_l",
+      "end": "foot_l"
+    },
+    "LeftFoot": {
+      "start": "ball_l",
+      "end": "ball_l"
+    },
+    "LeftClavicle": {
+      "start": "clavicle_l",
+      "end": "clavicle_l"
+    },
+    "LeftArm": {
+      "start": "upperarm_l",
+      "end": "hand_l"
+    },
+    "LeftThumb": {
+      "start": "thumb_01_l",
+      "end": "thumb_03_l"
+    },
+    "LeftIndex": {
+      "start": "index_01_l",
+      "end": "index_03_l"
+    },
+    "LeftMiddle": {
+      "start": "middle_01_l",
+      "end": "middle_03_l"
+    },
+    "LeftRing": {
+      "start": "ring_01_l",
+      "end": "ring_03_l"
+    },
+    "LeftPinky": {
+      "start": "pinky_01_l",
+      "end": "pinky_03_l"
+    },
+    "RightLeg": {
+      "start": "thigh_r",
+      "end": "foot_r"
+    },
+    "RightFoot": {
+      "start": "ball_r",
+      "end": "ball_r"
+    },
+    "RightClavicle": {
+      "start": "clavicle_r",
+      "end": "clavicle_r"
+    },
+    "RightArm": {
+      "start": "upperarm_r",
+      "end": "hand_r"
+    },
+    "RightThumb": {
+      "start": "thumb_01_r",
+      "end": "thumb_03_r"
+    },
+    "RightIndex": {
+      "start": "index_01_r",
+      "end": "index_03_r"
+    },
+    "RightMiddle": {
+      "start": "middle_01_r",
+      "end": "middle_03_r"
+    },
+    "RightRing": {
+      "start": "ring_01_r",
+      "end": "ring_03_r"
+    },
+    "RightPinky": {
+      "start": "pinky_01_r",
+      "end": "pinky_03_r"
+    },
+    "Root": {
+      "start": "root",
+      "end": "root"
+    }
+  }
+}

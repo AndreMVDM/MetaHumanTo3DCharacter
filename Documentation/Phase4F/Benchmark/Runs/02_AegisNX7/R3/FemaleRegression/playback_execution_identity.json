@@ -1,0 +1,19 @@
+{
+  "policy_version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+  "accepted_source_sha256": "522eb5db4ecccd8f09f2ed6bda345fec1abb96d43d023b141300fe330974a55e",
+  "successor_ast_sha256": "93ea6da15a22f931468beaa6e07821393d33a83e3500c42e11b505dc877b5832",
+  "helper_sha256": "8c7fe08833e486963f566a33086de4f9ff2b9b6022a04b4fef5c2cb4dea95e62",
+  "modified_accepted_source": false,
+  "input_assets_reauthored": false,
+  "changes": [
+    {
+      "binding": "evidence_directory",
+      "value": "Documentation/Phase4F/Benchmark/Runs/02_AegisNX7/R3/FemaleRegression"
+    },
+    {
+      "replaced": "foreign = [p for p in seen if p.startswith('/Game/') and not p.startswith(B+'/') and p not in destination_seeds]",
+      "with_statement": "appearance_certificate = _certify_native(mesh, seeds, seen, edges, reg)\nforeign = appearance_certificate['foreign_game_packages']\nresult['appearance_ownership_certificate'] = appearance_certificate"
+    }
+  ],
+  "all_other_R2_statements_unchanged": true
+}

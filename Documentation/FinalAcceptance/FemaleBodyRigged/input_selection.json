@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "user_correction": "Use Female_Body_Rigged.zip instead of rigged Jane",
+  "archive": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Characters\\Female_Body_Rigged.zip",
+  "archive_sha256": "f1a1f55c945496a5a908bf89e404c5118768c15e848a2ea5b180fadeb3369626",
+  "fbx": "E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\BenchmarkRuns\\01_FemaleBodyRigged\\Input\\tripo_convert_cacfc500-a133-4b70-abe0-51d9c097585a.fbx",
+  "archive_fbx": {
+    "member": "tripo_convert_cacfc500-a133-4b70-abe0-51d9c097585a.fbx",
+    "sha256": "804309488d4d8bb5f7689c29923e13d8f6fa02c8f426da5ee466ad6a7b729fc0",
+    "bytes": 1590332
+  },
+  "original_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Character/SK_FemaleBodyRigged",
+  "reuse_existing_import": true,
+  "no_reimport": true,
+  "historical_jane_excluded": true,
+  "source_definition_reused": true
+}

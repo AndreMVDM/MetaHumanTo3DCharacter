@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "R4 copies of existing review assets; controls and ground graph retained",
+  "clips": {
+    "Jump": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+    "Fall": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+    "Land": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+  },
+  "assets": {
+    "level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/L_AegisMovementReview",
+    "character": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewCharacter.BP_AegisMovementReviewCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/ABP_AegisMovementReview.ABP_AegisMovementReview",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewGameMode.BP_AegisMovementReviewGameMode"
+  },
+  "controls": "WASD / mouse / Shift run / Space jump",
+  "jump_velocity_cm_s": 420,
+  "ground_graph": "Existing speed-based idle/walk/run preserved",
+  "air_flow": "IsFalling + rising velocity and sequence-duration guard: jump -> fall; airborne-to-ground edge: land for clip duration -> locomotion",
+  "original_review_assets_modified": false
+}

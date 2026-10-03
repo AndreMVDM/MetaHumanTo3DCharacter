@@ -1,0 +1,14 @@
+{
+  "version": "phase4f.rigged-character-r2/1.0.0",
+  "input_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Character/SK_FemaleBodyRigged",
+  "output_namespace": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd",
+  "manny_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+  "manny_rig": "/Game/Characters/Mannequins/Rigs/IK_Mannequin",
+  "motions": {
+    "idle": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+    "walk": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+    "run": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd"
+  },
+  "canonicalisation_version": "phase4f.rigged-unit-canonicalisation/1.0.0",
+  "bind_position_tolerance_cm": 0.001
+}

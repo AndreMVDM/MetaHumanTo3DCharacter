@@ -1,0 +1,1337 @@
+{
+  "status": "PASS",
+  "version": "phase4f.rigged-playable-locomotion/1.0.0",
+  "default_entry": "Working/PlayableCharacter/generate.py",
+  "implementation": "Working/PlayableCharacter/LocomotionV1/generator.py",
+  "registry": "Working/PlayableCharacter/default_template.json",
+  "source_hashes": {
+    "Working/PlayableCharacter/LocomotionV1/generator.py": "6152c9ee1d38a675ba41fcf653a27fc6d3c235df08e8f5afba42d44f3b20cc92",
+    "Working/PlayableCharacter/LocomotionV1/generate.py": "302b8e278b2e046847c0fa37b06fc6dee45b9e03136f9c479c76dbc27a067f87",
+    "Working/PlayableCharacter/LocomotionV1/native_regression.py": "27adfe553281613a2053d6fc50beb481626ccfbbd228dcb0750b90b8bef1b752",
+    "Working/PlayableCharacter/generate.py": "4f04a17376c798d3e9aa30611c85efb532586773187e801f30fe7ef7a6b92c8e",
+    "Working/PlayableCharacter/default_template.json": "8eee17be517b0328e3afbe0b5168684e9855129154f77c76561eb87dfa83cfc4"
+  },
+  "generation": {
+    "status": "PASS",
+    "version": "phase4f.rigged-playable-locomotion/1.0.0",
+    "source_scaffold": {
+      "character": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewCharacter",
+      "anim_blueprint": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/ABP_AegisMovementReview",
+      "game_mode": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewGameMode",
+      "level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/L_AegisMovementReview"
+    },
+    "source_scaffold_is_read_only": true,
+    "settings": {
+      "IdleSpeedThreshold": 5,
+      "WalkSpeed": 300,
+      "RunSpeed": 600,
+      "LandingBlendDuration": 0.1
+    },
+    "run_selection_threshold": 450.0,
+    "animations": {
+      "Idle": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.MM_Idle__43d674e1",
+      "Walk": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.MF_Walk_Fwd__ce1673d1",
+      "Run": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.MM_Run_Fwd__a4f6d689",
+      "Jump": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+      "Fall": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+      "Land": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+    },
+    "destination_mesh": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+    "assets": {
+      "level": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/L_PlayableReview",
+      "character": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/BP_PlayableCharacter.BP_PlayableCharacter",
+      "anim_blueprint": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/ABP_PlayableLocomotion.ABP_PlayableLocomotion",
+      "game_mode": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/BP_PlayableGameMode.BP_PlayableGameMode"
+    },
+    "stature_cm": 99.95117324217154,
+    "capsule_half_height_cm": 49.97558662108577,
+    "animation_rebakes": 0,
+    "landing_rule_installed_during_generation": true,
+    "post_generation_manual_edits": 0,
+    "generator_sha256": "6152c9ee1d38a675ba41fcf653a27fc6d3c235df08e8f5afba42d44f3b20cc92",
+    "profile_sha256": "824bcf6368fcc1a3bd7799fe124921937b3a2348545bcd6692bf767b72af3aaf"
+  },
+  "regression": {
+    "Fresh": {
+      "status": "PASS",
+      "map": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/L_PlayableReview",
+      "case_count": 14,
+      "measurements": [
+        {
+          "case": "stationary_jump",
+          "touchdown_speed_cm_s": 0.0,
+          "first_grounded_state": "Land",
+          "time_to_locomotion_s": 0.8695750795304775,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "walk_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "run_jump_hold",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "forward_held_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "release_forward_air",
+          "touchdown_speed_cm_s": 532.7258844394262,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        }
+      ],
+      "run_sequence_advance_s": 0.34599706530570984,
+      "run_pose_excursion_cm": 61.969377577663764,
+      "CMC": {
+        "max_walk_speed": "300.0",
+        "braking_deceleration_walking": "1500.0",
+        "ground_friction": "8.0",
+        "braking_friction": "0.0",
+        "braking_friction_factor": "2.0",
+        "use_separate_braking_friction": "False",
+        "air_control": "0.05000000074505806",
+        "falling_lateral_friction": "0.0",
+        "braking_deceleration_falling": "0.0",
+        "jump_z_velocity": "420.0"
+      },
+      "stature_cm": 99.95117324217154,
+      "runtime_root_motion_mode": "<RootMotionMode.ROOT_MOTION_FROM_MONTAGES_ONLY: 3>"
+    },
+    "Female": {
+      "status": "PASS",
+      "map": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/L_FemaleBodyMovementReview",
+      "case_count": 14,
+      "measurements": [
+        {
+          "case": "stationary_jump",
+          "touchdown_speed_cm_s": 0.0,
+          "first_grounded_state": "Land",
+          "time_to_locomotion_s": 0.87203748524189,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "walk_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "run_jump_hold",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "forward_held_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "release_forward_air",
+          "touchdown_speed_cm_s": 544.0809220075544,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        }
+      ],
+      "run_sequence_advance_s": 0.3238734006881714,
+      "run_pose_excursion_cm": 59.267856651617315,
+      "CMC": {
+        "max_walk_speed": "300.0",
+        "braking_deceleration_walking": "1500.0",
+        "ground_friction": "8.0",
+        "braking_friction": "0.0",
+        "braking_friction_factor": "2.0",
+        "use_separate_braking_friction": "False",
+        "air_control": "0.05000000074505806",
+        "falling_lateral_friction": "0.0",
+        "braking_deceleration_falling": "0.0",
+        "jump_z_velocity": "420.0"
+      },
+      "stature_cm": 99.95117324217154,
+      "runtime_root_motion_mode": "<RootMotionMode.ROOT_MOTION_FROM_MONTAGES_ONLY: 3>"
+    },
+    "Aegis": {
+      "status": "PASS",
+      "map": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/L_AegisMovementReview",
+      "case_count": 14,
+      "measurements": [
+        {
+          "case": "stationary_jump",
+          "touchdown_speed_cm_s": 0.0,
+          "first_grounded_state": "Land",
+          "time_to_locomotion_s": 0.8694175146520138,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "walk_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "run_jump_hold",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "repeat_run_jump",
+          "touchdown_speed_cm_s": 600.0,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "forward_held_jump",
+          "touchdown_speed_cm_s": 300.0,
+          "first_grounded_state": "Walk",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        },
+        {
+          "case": "release_forward_air",
+          "touchdown_speed_cm_s": 490.93139134347655,
+          "first_grounded_state": "Run",
+          "time_to_locomotion_s": 0.0,
+          "distance_to_locomotion_cm": 0.0
+        }
+      ],
+      "run_sequence_advance_s": 0.32241615653038025,
+      "run_pose_excursion_cm": 110.52896073934461,
+      "CMC": {
+        "max_walk_speed": "300.0",
+        "braking_deceleration_walking": "1500.0",
+        "ground_friction": "8.0",
+        "braking_friction": "0.0",
+        "braking_friction_factor": "2.0",
+        "use_separate_braking_friction": "False",
+        "air_control": "0.05000000074505806",
+        "falling_lateral_friction": "0.0",
+        "braking_deceleration_falling": "0.0",
+        "jump_z_velocity": "420.0"
+      },
+      "stature_cm": 179.91210982641414,
+      "runtime_root_motion_mode": "<RootMotionMode.ROOT_MOTION_FROM_MONTAGES_ONLY: 3>"
+    }
+  },
+  "libraries": {
+    "Female": [
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__7fdd6882.uasset",
+        "sha256": "4dea04883505610f40acef6e3eaf45241c0e278bf27d90392f307184937e501a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/JumpingJacks__b5e23eaa.uasset",
+        "sha256": "59a1388d54e23d65d4f661ddbdb8dea5d1572396b43280f5b4c5cfb20d422d64",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.uasset",
+        "sha256": "c2c541d8d97934d5ed0314b2d31c5db23d4aff61f234fa25c657b7696e829e74",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.uasset",
+        "sha256": "5241ee1af980d68531213e442e472eb7674eab829fc6f95b0d61d78b070c4010",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.uasset",
+        "sha256": "b5c1e191a090f9b9074b8538bc59fd943a3f55fbeb559e74f266bd3209556dd2",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/Manny_upperarm_r_anim__f7491d93.uasset",
+        "sha256": "bbec3fcf83a5910f289d99fff38d0af881872fa57eb4128d815e96af6831c77c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/JumpingJacks__7956596b.uasset",
+        "sha256": "c7b131ba7a171ee377cb7bf86c879db0eda6bdd580b5facad24936e417981e0c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__86efd60d.uasset",
+        "sha256": "6cfd321955c01a718d0a64fdeaaab325e6690a875dea065a9397f2f2fa106822",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Front_01__91bae9b1.uasset",
+        "sha256": "ba7251e918f35fb4e5d342551cc209871f75436b43481f8dea8172ef34b8dedb",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__d389f60f.uasset",
+        "sha256": "e7411b6d97da8624dd30810d393fb93bf3d2aec354b605d2357266229eaf9d1e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/Manny_upperarm_r_anim__87350014.uasset",
+        "sha256": "50086d73ca123886568f7c2c9461f971b0db488c4d0816eacb744ea446eedbdd",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Back_01.uasset",
+        "sha256": "366f1f52f3de6e270814ca0de27fea82833def5d57c52d199f1f916053fe108f",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Front_01__66e24fe1.uasset",
+        "sha256": "3ffac3d3604b0c6ab33f35cb71cc5ffcfec54e9ba9ab3b4f1ae8dc756e8584de",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Front_02.uasset",
+        "sha256": "fc5908c104b37cfde3607295dbfc6c3e5a811c6dcafc5729eb122fb2bc57fcb2",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Front_03.uasset",
+        "sha256": "40a549a8f56f26fb9b978a6ab53128da34ef6c8260cf3a6f7d4cdeca9db64c24",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Left_01.uasset",
+        "sha256": "a794b8cda9a981eac84d66b258e0e7b8adce3c0b14f6bfb61451d10299070970",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Death_Right_01.uasset",
+        "sha256": "998526a9a8b3d710d4ec9d278d9087818e940b0d3d6beb38d7a6e80edec6a5f8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd.uasset",
+        "sha256": "eac8cd4cfdaad642963fafd90b8b69331d6cbb9ddec9fa94b4ac4d2de75896ef",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd_Left.uasset",
+        "sha256": "b893a6c7b20592335801f768443a2dc86f19b3fd4d743a7126b1087d32d4f8d1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd_Right.uasset",
+        "sha256": "7e8ffc9734ba9d3dd505ce077a6ad681a3a5ced77fe105e0ecc2d397767a9c43",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd.uasset",
+        "sha256": "9355e2eb014697b5a425e2ae8bab9f1ea7a4c9c726f10b775cb55dcb479f549a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd_Left.uasset",
+        "sha256": "14db3d4c3e4371faf2509b88e821f48f1b386a369212c58f8258e7bea4753735",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd_Right.uasset",
+        "sha256": "487cb004071993e2934645c24e8b6b499426d10fe3eb927a7f3259a629afd1bc",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Left.uasset",
+        "sha256": "d322bd1658b1e43e1f0795bd2a13c1577b7d9b853911c03a379861d5620705b7",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Right.uasset",
+        "sha256": "88e04f8e40984d2fc332de97ffb3c76adde3738cdab3b79447116a778c4cb66e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Pistol_Jump_Fall_Loop.uasset",
+        "sha256": "bc5102bde63539832d127ea353bd9edb7ab09593b554d50341eab669c698d4a9",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Pistol_Jump_Start.uasset",
+        "sha256": "acacb975fe3df269f06d26d47f15a3c6ab847c0e4c175571e677109271b3a144",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Idle_ADS.uasset",
+        "sha256": "9c01b33f5516888a1c562f0d06f48d721e3d40c7b2376958770f21ef3912824a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Pistol_DryFire.uasset",
+        "sha256": "de0773782803068f69f2cff111ad1d258818e6c76ed65317b94dfba9c673ebc0",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Pistol_Equip.uasset",
+        "sha256": "6573b7adb4aa7016a24f36946d2285369f25b5b20b51f2d6f7ce570088341e7a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Pistol_Reload.uasset",
+        "sha256": "3ebe04d7f93f2dcfc4feb96bb802c4fffd34dc719b5bf51ac4a2cc656af5d4fa",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd.uasset",
+        "sha256": "55c08abf83470ecb2b95da3a4bca4f9f72ace9acd12a457657761e81e4793217",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd_Left.uasset",
+        "sha256": "f67a9cf1d8906f66d9bad242ee3d76a6d6e0d98ad36c1fc89eee0a838a6bb39e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd_Right.uasset",
+        "sha256": "7574b7aa77714f3c16ea30ebf9ed551aaaaa7d09cf06c5e9bcb01e3ff6110e2a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd.uasset",
+        "sha256": "6a688ab4d569c6d26f3dc4255c3201cf84bb0d500b8526ae3a2a9955e9575a54",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd_Left.uasset",
+        "sha256": "aabf8fd49756df86db1aa9223c95470858f3f4211c28da3714ffe27054eab720",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd_Right.uasset",
+        "sha256": "115bb2567037d46f94b71bf7e4d5657203a783815297ae5791767e44532649c5",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Left.uasset",
+        "sha256": "3fc5d311033a3a78b6f46829d153305713da43eb0ace987c9fe98a2e5490575b",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Right.uasset",
+        "sha256": "7e163dbfa6cc0591b3c2a36dd393d3eb55e7671cddec6f34d75d62e9239fb6e7",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd.uasset",
+        "sha256": "908f2eee7a36b7adf8706cd1cfc5078116f7e9a28056863bdd6814fd79e69eb8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd_Left.uasset",
+        "sha256": "f33a85fd9d6f19ee7518f1be6e8bdae98474647c35b72308857c9ba9f30425fa",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd_Right.uasset",
+        "sha256": "f8803065d798f9a4c476eb7dbd25d674a440f0fe1e85213257bfd79fb53ddbb0",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd.uasset",
+        "sha256": "b97895a18cfaa33ec2c6fc9b5a043c9e1542744f26837b3489f7e69e779bd9c9",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd_Left.uasset",
+        "sha256": "14c854406dc77f8e76f5aec0910a9d0ccf038299ae6c86845fbedd9c1de4beb2",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd_Right.uasset",
+        "sha256": "e2ab9fb7486e6436a75d1e21c779120b294594228d46cd5d23b3dd39523f00cc",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Left.uasset",
+        "sha256": "cd8d95cb8c386362d0222b861ed93106487c4587280b95aa1837f33d1b6ec5bd",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Right.uasset",
+        "sha256": "391af5189cf166b75b1b6263445685b8dda38a8c56f38af4fc9a5b64bb382546",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Rifle_Jump_Apex.uasset",
+        "sha256": "7b3dd9b92908ba29e112a751a413059cbc4d51a6e8c6db2e2fcd0fd6491b7a83",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Rifle_Jump_Fall_Land.uasset",
+        "sha256": "998f52a0f1867a22bfbc8ffe9193687b0f189e04fa1905eaf3f5db9e7908f639",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Rifle_Jump_Fall_Loop.uasset",
+        "sha256": "985191a6e2da361b0ea0383d535486e5e1682005c301151cedd4bfa8ba2edcc9",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Rifle_Jump_Start.uasset",
+        "sha256": "4fc49a1706dc0be68f877604742b02c5c189edfc100e6a9f89f2e835196e0fd1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Rifle_Jump_Start_Loop.uasset",
+        "sha256": "cacee31e084b6d5e3014b18e9ecdcb3410f40db37e0c5b12419802196185eb7c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Idle_ADS.uasset",
+        "sha256": "1bb27a95b6cd1905e4fb5e95172db22e9f9a2bf4938411e3100a9d94b40c74c8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Rifle_DryFire.uasset",
+        "sha256": "3068d1ee79d56fbca0a4f2d5af170e913c3487ced359db599a394cd4025d7dab",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Rifle_Equip.uasset",
+        "sha256": "25921afce92e8d97f458a55071426be4d2076cf1d4d13130bd7658c7a05a223e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Rifle_Reload.uasset",
+        "sha256": "613c168b1fe0f6d2f2bb0c25b8beba4927929e6b992cf4d601a2cf79e99b9783",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd.uasset",
+        "sha256": "797688adc8d8dfc85b1d21bc400050a59050a0fea851519d04ddc9f401d1253d",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd_Left.uasset",
+        "sha256": "8af6e2c432ce9ab8aa75eb421dec378484be361459ccea63ead031fbd9de8cc6",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd_Right.uasset",
+        "sha256": "f3a4e85c946f06949199489b5acc843c39e7484027d2a31e488d55f5f1bc2d1b",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd.uasset",
+        "sha256": "a7db387b9b039155c3e7245843fc84f8f9d9008da016fec612f9bff5b3ecf8d3",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd_Left.uasset",
+        "sha256": "8776fe28e160004063b4365db75d31d53acc9df32eef0c6317d0a339e05f9062",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd_Right.uasset",
+        "sha256": "3f98b4a5320a185ef823b9066be274ac7a2824c15586ae66d1ce94ba69866811",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Left.uasset",
+        "sha256": "feb5133006d09987e68ef2a3b8fdd7a8c7c1be49c35da40a3ebcc79766671337",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Right.uasset",
+        "sha256": "48667515aedf3e4c94b0018b7a237c8271bdae4f88491fcf82ecf04f06088d5c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Attack_01.uasset",
+        "sha256": "c4f217408b3adcd4a6826dd6d9042bc5f71ff94d3659bc5778f58661a588bbb0",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Attack_02.uasset",
+        "sha256": "da87ac21b4f82ca716e81164a46872503f9595bc9e463cd8dfa89e6e82fea540",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Attack_03.uasset",
+        "sha256": "9a5d6b936e0135b15528863d85dc62764ca33f19473a299a044780ad375a4072",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_ChargedAttack.uasset",
+        "sha256": "1cf6820ee17f2caf4ed3b0150c831a7f3925fe5feeea79f0ac2ce1f2244370fa",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd.uasset",
+        "sha256": "94eeabed5ea53ba8ce2f75670d0a1c0cfe58b85d78a24786ff80137304c51c26",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd_Left.uasset",
+        "sha256": "42e633007d5aaeca2946beec9cdad65a1376a5d325ff704c0d49a7d230aeb8d6",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd_Right.uasset",
+        "sha256": "addc3b3d2d6f26e22d90df08ae53d91f21fb50e2b660765085ffcbe7bcbe0282",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd.uasset",
+        "sha256": "86c91278bcde5a5fec468d9fc5d839e84a31079dce7e183fbf33f95bfa23d1ec",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd_Left.uasset",
+        "sha256": "c95821575b95735ecb5de6c74eebd130a83f059345388c7fb8774194f2e14c54",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd_Right.uasset",
+        "sha256": "e285855bacf4cda4ae44e244d360ac9dcbc2f4fe46771fbaed87bcb9bbdd5fc8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Left.uasset",
+        "sha256": "f1cd1596a923e7599721e2709c1d9b616623507bfce396b27fdd9427cc153c84",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Right.uasset",
+        "sha256": "8878c9f9556018d07b395004514b1bdaf92654e2509d1f7e104d09f570811ff1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Actions/MM_Dash.uasset",
+        "sha256": "65018cdeed99884a109d6f82d6e1bf326ec5a2365d806d72fd060051afdd5952",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.uasset",
+        "sha256": "a829ac9d578327c3080221dde3e695bdd09d13bc0d496af19472de7ed4ec7567",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.uasset",
+        "sha256": "e8133be75aa6a1a802b43572d0faa64c2dfbe510279358d74acd252442cb8c3c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.uasset",
+        "sha256": "cb43c71f91ca275f1ccea76536a4097f97fa4b87834871bea7609fb18d2fcc43",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_WallJump.uasset",
+        "sha256": "e18bc62437c4cf2519183dc990bbdb2c5e5fbc59b91328432db80919580a2e94",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd.uasset",
+        "sha256": "69c85d8088e08ed71fc3034147ff273f0427a40de4f330bc916400446bff5c74",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd_Left.uasset",
+        "sha256": "67335e7fdcd962f51977fea4497b7a7552c9576ee252ed8fa6009b3483bc5d2b",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd_Right.uasset",
+        "sha256": "11e8ef3a897c304002605ce6b518c2e729d599b72197efd78c2c2dbfeae07cfc",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd.uasset",
+        "sha256": "0c9d4c90fa39900e9b25ee50831713f2407eca057fccf402e80313e85625c9d0",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd_Left.uasset",
+        "sha256": "cc28569a24a2f1a50e42d8681e8014979960f8b662b235dafa632faefef800f2",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd_Right.uasset",
+        "sha256": "3afa3b0bdb81a1ef6caabaa66421fafa63a7e328039e56ba9ada58d0f79fee09",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Left.uasset",
+        "sha256": "b8bb8373cdcd0d279ce6f5f725d73f94b94d6c3c3eb21e58a911a8a3aae18858",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Right.uasset",
+        "sha256": "1dcf8a01325429b022116c4d78bbe68bb523d5cb0caf027b72d5533266e35cbe",
+        "unchanged": true
+      }
+    ],
+    "Aegis": [
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MM_Run_Fwd__7fdd6882.uasset",
+        "sha256": "1b78585987cbe9105e6e45c9b3b24151c5133e2e82a151ce1622fee4587de619",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/JumpingJacks__b5e23eaa.uasset",
+        "sha256": "89cfa3c737f9d99794671a09eef0f776bb5f29edb5cdbe075a30cea29f5867d5",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.uasset",
+        "sha256": "8ee9653830e49316990e4d43f3819859ec9a293899f16b0d282a246d467c9f8f",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.uasset",
+        "sha256": "270587ce7f8b95e6c559562392b70c1f71b5fd75eaac4a0afdb1ac859e67aa53",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.uasset",
+        "sha256": "ba1db50263bb05ef78a627a0867d2f0464e2d3af8fa8b6df63e4d82587a0ca98",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/Manny_upperarm_r_anim__f7491d93.uasset",
+        "sha256": "f4271ad049923f749cf33ce1460dad3081cf7115dd30e7e19e481c4d609e5738",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/JumpingJacks__7956596b.uasset",
+        "sha256": "ab896f3b24ff0f3f2c0556c43437b471cba3f3a46ae1cb7facfed6b94b819c14",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__86efd60d.uasset",
+        "sha256": "5815dd796d7a1db79bd059fcf9b22dec84865640913bc5840110a4c53c5c90fb",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Front_01__91bae9b1.uasset",
+        "sha256": "41472cb406fcc355d075d7b0b34e488ba45a37ea9ad9bb38549652148e29ade6",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MM_Idle__d389f60f.uasset",
+        "sha256": "d51e472cdefbc322cff45674b13c864058052ea0dd5d31a1c1788a7a8c4de293",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/Manny_upperarm_r_anim__87350014.uasset",
+        "sha256": "ac418d8e13ad3322c9db5de0ab98ef12cf26145abb928c70acb71d3874973cb9",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Back_01.uasset",
+        "sha256": "47101ca01d2ec0888aa61a7eb9e18c21566b56e93a90d3d6b9249edc46f0f15b",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Front_01__66e24fe1.uasset",
+        "sha256": "cfc2df8c2c70ee601dd025a72ff850ab86a20358e37ed8fe59982d7a5faed30c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Front_02.uasset",
+        "sha256": "bc3dc2137ae149195d1ea53cd5257b19422b86a5c388ce5968144acda283669e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Front_03.uasset",
+        "sha256": "0c8ef72b282042c63cc2bcac20137ffd6f9d289ad12ba4d43cc5833dfb419366",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Left_01.uasset",
+        "sha256": "c18a82209f6d0fc52a6ba7ce57e678be9c07686a61023ce0a6c99c303d7e2f3b",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Death_Right_01.uasset",
+        "sha256": "1c1fe1ea1eb717d7a71f8b744897de069651a0a42129e53a75582cb74bb5a2f7",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd.uasset",
+        "sha256": "ba97795b78250c49601b183f2eef74396583dbd37027f2a2f3d6df07caaaf04a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd_Left.uasset",
+        "sha256": "7497b6d5d9ca360a2c192c8a526e6c69c5daeb288924b27f97802f3d24bd3762",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Bwd_Right.uasset",
+        "sha256": "378420d196109e3b1ff57d107844b2e477d8ffbf6dc77de10d70c0947ca002ed",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd.uasset",
+        "sha256": "b3d0f9635fcebbd1eeb6bf3f14e2d57951f461434a5be4287be7253a103be993",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd_Left.uasset",
+        "sha256": "dccc66f4c55ca96deaf1714360a666589b6de7d13b674eee7028798b6682d908",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Fwd_Right.uasset",
+        "sha256": "84e8452f0ae4f52561f9b3f5854d096f6a72f79b91dc2e0e71226aae83870fd8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Left.uasset",
+        "sha256": "387badc8f5c14cb9861f3343ef9bd1770c1341207f06bf2f3734292bf8e9d33a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Jog_Right.uasset",
+        "sha256": "08525151b1b4af27aaaa67a3da5b214a42ebff90b3e9895d5ffdd627beb446bf",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Pistol_Jump_Fall_Loop.uasset",
+        "sha256": "ee641cf7855738c8d90567b1b893a235fab2ee324e3735de4a9cd08289ca33bb",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Pistol_Jump_Start.uasset",
+        "sha256": "d1eecf430e72043656e33cce1d0b25beb00ac0da35fa028d882e578cf1e1b450",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Idle_ADS.uasset",
+        "sha256": "b1b597079fda40a23c544314a6baeb792a10ed823512cdfb33ba3252cbc61cf4",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Pistol_DryFire.uasset",
+        "sha256": "205b0d593c4a86c4c11e419fb045bd23d5c5ddf93de26aa32aa124c9ade8e510",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Pistol_Equip.uasset",
+        "sha256": "dcde7f51f371da5038f460b404311bccac2ce2a330c553facd701bf51d659ee8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Pistol_Reload.uasset",
+        "sha256": "2ccbe11362e8a01a955fd866f98af6f7bb1af0e96e88970d1d05497e5ef720f8",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd.uasset",
+        "sha256": "9ff6a7fea8ee1d3cd08fc9590b0ffd507cbc00330961b4596857d8f0d2c37156",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd_Left.uasset",
+        "sha256": "4b11bfa3b87f09fa0ec5491d80e2015bf676940b98c0e89fea267faffc561b0a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Bwd_Right.uasset",
+        "sha256": "4bfc1a2eeb41addec861f65675fa3ef50310eef996f9303bd3887bef88f0b2d1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd.uasset",
+        "sha256": "607914b3dea7be7b7322531fd7d3a5c03fc5c14d7d68d233aa70e4bdd8bbce14",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd_Left.uasset",
+        "sha256": "dcc393afaa955d0bbc58376783fd2a3837cdcf16cf153556a8b3e47942bba2ee",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Fwd_Right.uasset",
+        "sha256": "7d07051c481c2779fc01a5be97987549a966af4b20c0fdd1982b58c0b99e7ffa",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Left.uasset",
+        "sha256": "99828dd7f5041098ba46b6930c8db7f08404db2bcf805681841683385f2b6350",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Pistol_Walk_Right.uasset",
+        "sha256": "e314254b9b6f88a241c749f5ce316400b3490e14c44a98615d29de87badc38e4",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd.uasset",
+        "sha256": "744a2ebdccc760e61fe2e9dcf7cbc17e78e0f76b269105a8e233f1608d2d2569",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd_Left.uasset",
+        "sha256": "e342f42b554770a0f66f260db53d53e4498a1616bd52fa25fc78177ffc16d07f",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Bwd_Right.uasset",
+        "sha256": "1ce0e45f7921b430038ccb2a65939cf523d1a44c6e9a7c099a378b197ec61499",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd.uasset",
+        "sha256": "bc4bcf14beabdf3bfc59b7616dd7c465511d771c18e5312e397e7db217c11456",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd_Left.uasset",
+        "sha256": "b19fb08b869a96f8cef23ac9d3e190d344874ce8c044a1acb499814076f80de1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Fwd_Right.uasset",
+        "sha256": "799e07ba4361e9409e6cc800ac4d11b61314ab988a8d0d1542de1e8ff88076ea",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Left.uasset",
+        "sha256": "95b13cd6a29895420620b736b9d50732db6d75e8dcbb6ab62cb8609aa3455871",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Jog_Right.uasset",
+        "sha256": "b2a4e4c79804a014d724a50ede28b94229044669585eaeb76412eaf0ed63f4f3",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Rifle_Jump_Apex.uasset",
+        "sha256": "e6f659ab4c2ecd3f3c24f99e6aef8db8227b64c626c2046e4b4375cb662aaa0c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Rifle_Jump_Fall_Land.uasset",
+        "sha256": "7b0a44912018a5f9bf0427a8624cb46eac322a4ad1496ca9addd8ca2a4e6278a",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Rifle_Jump_Fall_Loop.uasset",
+        "sha256": "eb91ed6b05ad89aac3cd83c64439a539e8e65105f469d92b4296877971d9600d",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Rifle_Jump_Start.uasset",
+        "sha256": "ef5f510819d8746a2018443890ec9c810e4657190b8925615b19efa1e7a25e58",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Rifle_Jump_Start_Loop.uasset",
+        "sha256": "2aa3b7b1b2d5c9c1dbd7be552767bace08e5507fb59afbd71e8debebe2d0b9c0",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Idle_ADS.uasset",
+        "sha256": "197c3024231302070b61b09c8b964054953db63f1c36d6479f5b6f602eee0241",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Rifle_DryFire.uasset",
+        "sha256": "952e6a2047c35e3cc2a93ff8b696fc2aec8617a419c3171f7dbc64348c9bb102",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Rifle_Equip.uasset",
+        "sha256": "c54152f3ecd240588ff55e0204fa2847c16bffe9c8000354d0940893c06d283c",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Rifle_Reload.uasset",
+        "sha256": "9cad9f2c44ed0a247ea65131239e98e4dcb5a45dd1d9bfdf0ffb36275ac1bd92",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd.uasset",
+        "sha256": "ab63474915b9feb3e36414699e2ce08b6b039a2b67b5f0e3b12f3d1b43e19d09",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd_Left.uasset",
+        "sha256": "1f4c59ea95812e403099ccf676505f0f0a59fe33f89cf646d0adeac31d91c1f7",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Bwd_Right.uasset",
+        "sha256": "b5c78c710d91efa67b60886d5e55cfaf80b46750519a8f27128db62198f37a26",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd.uasset",
+        "sha256": "170a51dd2b4f2635a0e7207c7bf2f526ab06341fd9129996e65156a9d51eeb20",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd_Left.uasset",
+        "sha256": "6b3d49f287865a9651aaacf2dac657a166177ea2bf1844774e4533327834a633",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Fwd_Right.uasset",
+        "sha256": "f9359c452c44a330c650263ca909420a8bbc942ac10d6b29910d4b68c43c5e6e",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Left.uasset",
+        "sha256": "b26bbf5b702fe6f025d19b75182f769b5469be3ac5f3eae755ac61b806122711",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Rifle_Walk_Right.uasset",
+        "sha256": "9b7e96cd1e8ea4afff00897204d8fe25597f5816e5dcfb58e009ce58030de823",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_01.uasset",
+        "sha256": "9d9e9fdec39f12742df829456686a6b2871d270ed494157c2bed36222ea26634",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_02.uasset",
+        "sha256": "28dcb337d28774e564aec6e336d3fcbc73bfbe1ff5895509973971a617b7a0cc",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_03.uasset",
+        "sha256": "65331d057ca8cfaece2beda6387b5483967be5bb4e40d95f15d48cc2011f6087",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_ChargedAttack.uasset",
+        "sha256": "7883d3d6ed0b18e5789ca9c7e3ccd47e1042d8fa1e2a674d07218fd9e920dddd",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd.uasset",
+        "sha256": "ce6e04e038189fbe11ab20a245cbab66f4ddca107a0cb99a299cd21bd85819f1",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd_Left.uasset",
+        "sha256": "ece6b6d51c99cdcd4d13338f86f72ec372867e0c1a002a8f5f176b965a330a40",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Bwd_Right.uasset",
+        "sha256": "199ae4d6a34a9218e7af63c447ddd0ca7434ba5625049a284d2764e346829878",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd.uasset",
+        "sha256": "638331aeb0206dbce8eeb1eba64a3deca57fe75a021fb03ba5e26dfd0ab6d7cd",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd_Left.uasset",
+        "sha256": "298d16d12c584259d6ebc60c6fb96dc8d4890ae9e6b32b82fca66b59ebd68a67",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Fwd_Right.uasset",
+        "sha256": "e6002a3ca2d6c4915cd5e1d10d94ba536d4390ae018b07b813ca9de2eb0913a7",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Left.uasset",
+        "sha256": "56c745f6ce967f1981a3b5fa38b39eb18848ef2b3543033cc205268e551bcb67",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Jog_Right.uasset",
+        "sha256": "895ef7ce2164132e6c10207fea6e3eb9695383e80d093793d5bfb65a3b6e2ad9",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Dash.uasset",
+        "sha256": "fffe0b4997600c0f9c87472aac273e6bbc980545ccb938762828026ec06147fa",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop.uasset",
+        "sha256": "453e542d7a8d53a49d588c5bf09aa5f281cfcef98b101b654cc0591a1d4f8088",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump.uasset",
+        "sha256": "ce238f56b37f8563f9d29b032357a04f6c4192f5fb8911bcb78624a708f75bad",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land.uasset",
+        "sha256": "c3e53e45b48c3728a73edde709a581ab1fe181cf942ad16b52521338b9012f50",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_WallJump.uasset",
+        "sha256": "3b3d620402ce30294e99bd071ae546c68b16c43c4560d59c55fac56373c22f59",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd.uasset",
+        "sha256": "193ba0633fbfccad24becd1817f9432cb9b2527cc5261ee989b7c4fa47d53882",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd_Left.uasset",
+        "sha256": "8c91bb30695b2ac62fc052a3e311fa250ee62e1a9889f0b739752aabb0c98d9f",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Bwd_Right.uasset",
+        "sha256": "4a0df28180038f2c4d2dc7ff1344b1ece25536e18d5e8b07b0707183b03a8556",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd.uasset",
+        "sha256": "28f9ce6eb538ceacbe1d599f294c84f3865964da0d843a5cb94cce899f4ddb7d",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd_Left.uasset",
+        "sha256": "f46606733ea9c26f646b4fd3ad728afe01ec8d91d0257f780c8f4c37c9ac2609",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Fwd_Right.uasset",
+        "sha256": "0632d441e4e5eebed258f011b6011a47148e64ecc4ec2c08470765ebad962eec",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Left.uasset",
+        "sha256": "2f78c97d276061535274f7ceab3609a4beaae714b749b4f89aa41ff8b93ec35d",
+        "unchanged": true
+      },
+      {
+        "path": "Content/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Locomotion/MF_Unarmed_Walk_Right.uasset",
+        "sha256": "f8258c8071af37624e455b386f52a31d059c10fec1d0bbec9c830fed44dc5044",
+        "unchanged": true
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "fresh generation through generic entry",
+      "status": "PASS"
+    },
+    {
+      "name": "default registry pins executed generic implementation",
+      "status": "PASS"
+    },
+    {
+      "name": "default entry exists",
+      "status": "PASS"
+    },
+    {
+      "name": "default entry invokes generator and rejects overwrites",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh native bindings/closure and three rejection controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh fourteen native regressions",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh main-project source-free runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown walk_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown run_jump_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown forward_held_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh immediate moving touchdown release_forward_air",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh resumed native run is not frozen",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh stationary land retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Female fourteen native regressions",
+      "status": "PASS"
+    },
+    {
+      "name": "Female main-project source-free runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown walk_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown run_jump_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown forward_held_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Female immediate moving touchdown release_forward_air",
+      "status": "PASS"
+    },
+    {
+      "name": "Female resumed native run is not frozen",
+      "status": "PASS"
+    },
+    {
+      "name": "Female stationary land retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis fourteen native regressions",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis main-project source-free runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown walk_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown run_jump_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown repeat_run_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown forward_held_jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis immediate moving touchdown release_forward_air",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis resumed native run is not frozen",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis stationary land retained",
+      "status": "PASS"
+    },
+    {
+      "name": "native fresh run verifies final generated namespace",
+      "status": "PASS"
+    },
+    {
+      "name": "Female 89 library assets unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Aegis 89 library assets unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "all accepted prior files and Git preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "generic generator contains no subject/source asset constants",
+      "status": "PASS"
+    }
+  ],
+  "protected_count": 46132,
+  "preservation": "PASS",
+  "git_preserved": true,
+  "animation_rebakes": 0,
+  "timing_note": "Zero moving delay/distance denotes first observed touchdown branch selection. Existing 0.1 s pose blend is retained; no zero blend-duration claim.",
+  "old_review_note": "Read-only regression uses the accepted corrected review copies. Archived pre-fix originals remain unchanged and retain historical behaviour.",
+  "wizard_contract": "Future playable output uses the default profile-driven generator. Historical per-subject builders are retained for reproduction and are not the future wizard API."
+}

@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "protected_count": 27129,
+  "protected_changed": [],
+  "protected_missing": [],
+  "original_native_invariants": {
+    "hierarchy_bind_sha256": true,
+    "geometry_skin_sha256": true,
+    "mesh": true,
+    "skeleton": true,
+    "bone_count": true,
+    "bounds": true
+  },
+  "original_asset_files": [
+    {
+      "file": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Character/SK_FemaleBodyRigged.uasset",
+      "sha256": "90a057d040eb8d63a20b10ffad51907c32dccdcd45b583a3ff1b1a0c5d46919c",
+      "last_write_utc": 1790956240.2219002
+    },
+    {
+      "file": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Character/SK_FemaleBodyRigged_Skeleton.uasset",
+      "sha256": "6c0adae48edbd2da488dc1c629980e84742b04f679f522aace1814a9b33cc3f6",
+      "last_write_utc": 1790956240.172021
+    }
+  ],
+  "human_evidence": {
+    "John": {
+      "confirmed_roles": [
+        "ball_l",
+        "ball_r",
+        "calf_l",
+        "calf_r",
+        "clavicle_l",
+        "clavicle_r",
+        "foot_l",
+        "foot_r",
+        "hand_l",
+        "hand_r",
+        "head",
+        "index_l",
+        "index_r",
+        "lowerarm_l",
+        "lowerarm_r",
+        "middle_l",
+        "middle_r",
+        "neck_01",
+        "pelvis",
+        "pinky_l",
+        "pinky_r",
+        "ring_l",
+        "ring_r",
+        "thigh_l",
+        "thigh_r",
+        "thumb_l",
+        "thumb_r",
+        "upperarm_l",
+        "upperarm_r"
+      ],
+      "event_count": 218,
+      "proposal_sha256": "57d4c45a3f0ddda765d66e76c7453f99f754affba4fc067c75775095b677fad2",
+      "session_sha256": "28a8b4effff591a63f3a5b4cbd6f2928f5064c1574d6bd923d46d5cf55849cbc",
+      "review_sha256": "8663a043e0cf1c6821a88f2b4ffaed4d7a19348f502a4586531ee00636acf241"
+    },
+    "Jane": {
+      "confirmed_roles": [
+        "ball_l",
+        "ball_r",
+        "calf_l",
+        "calf_r",
+        "clavicle_l",
+        "clavicle_r",
+        "foot_l",
+        "foot_r",
+        "hand_l",
+        "hand_r",
+        "head",
+        "index_l",
+        "index_r",
+        "lowerarm_l",
+        "lowerarm_r",
+        "middle_l",
+        "middle_r",
+        "neck_01",
+        "pelvis",
+        "pinky_l",
+        "pinky_r",
+        "ring_l",
+        "ring_r",
+        "thigh_l",
+        "thigh_r",
+        "thumb_l",
+        "thumb_r",
+        "upperarm_l",
+        "upperarm_r"
+      ],
+      "event_count": 205,
+      "proposal_sha256": "7e3976a53c31d4ea8534873ad10bbfb58e23101968a4fb40f1edb1be9939d5af",
+      "session_sha256": "6f3343fdd89a31f6713e5ee447b7e69295fdd560dcc5ff4a8bb98c93926847b3",
+      "review_sha256": "895c44ff970302d885e0fcbfb40c66c82f51abef391dd0d3962d168f53250682"
+    }
+  },
+  "frozen_validator_verified": true,
+  "git_head": "d139d6dc78fcf7660e0571c8542880703ca8d516",
+  "git_tracked_after": [
+    " M Content/MetaHumanTo3DCharacter/Phase4F/Jane/Maps/L_JaneReview.umap",
+    " M Documentation/Phase4F/Jane/actual_correction_list.json",
+    " M Documentation/Phase4F/Jane/anatomical_validation.json",
+    " M Documentation/Phase4F/Jane/correction_metrics.json",
+    " M Documentation/Phase4F/Jane/current_proposal.json",
+    " M Documentation/Phase4F/Jane/experiment_result.json",
+    " M Documentation/Phase4F/Jane/human_review.json",
+    " M Documentation/Phase4F/Jane/inherited_anatomical_validation_corrected.json",
+    " M Working/Phase4F/Jane/session.json"
+  ],
+  "new_tracked_changes": [],
+  "new_generic_source": "Working/Phase4F/rigged_unit_canonicalisation.py",
+  "additional_changes_scope": "New Benchmark 1 folders and generic root-unit module only; earlier incomplete broad-run evidence retained, no subsequent broad test continued",
+  "benchmark_2_started": false
+}

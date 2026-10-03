@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "assets_saved": false,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/appearance_audit.py\", line 28, in <module>\n    src=uv(unreal.load_asset(source)); dst=uv(unreal.load_asset(A['assets']['mesh']))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/appearance_audit.py\", line 22, in uv\n    a,b,c,ok=unreal.GeometryScript_UVs.get_triangle_u_vs(dm,layer,i)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'GeometryScript_UVs' has no attribute 'get_triangle_u_vs'\n"
+}

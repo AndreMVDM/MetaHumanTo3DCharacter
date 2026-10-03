@@ -1,0 +1,18 @@
+{
+  "version": "phase4f.rigged-playable-locomotion/1.0.0",
+  "source_hashes": {
+    "Working/PlayableCharacter/LocomotionV1/generator.py": "6152c9ee1d38a675ba41fcf653a27fc6d3c235df08e8f5afba42d44f3b20cc92",
+    "Working/PlayableCharacter/LocomotionV1/generate.py": "302b8e278b2e046847c0fa37b06fc6dee45b9e03136f9c479c76dbc27a067f87",
+    "Working/PlayableCharacter/LocomotionV1/native_regression.py": "27adfe553281613a2053d6fc50beb481626ccfbbd228dcb0750b90b8bef1b752",
+    "Working/PlayableCharacter/generate.py": "4f04a17376c798d3e9aa30611c85efb532586773187e801f30fe7ef7a6b92c8e",
+    "Working/PlayableCharacter/default_template.json": "8eee17be517b0328e3afbe0b5168684e9855129154f77c76561eb87dfa83cfc4"
+  },
+  "generator_sha256": "6152c9ee1d38a675ba41fcf653a27fc6d3c235df08e8f5afba42d44f3b20cc92",
+  "profile_sha256": "824bcf6368fcc1a3bd7799fe124921937b3a2348545bcd6692bf767b72af3aaf",
+  "generated_assets": {
+    "level": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/L_PlayableReview",
+    "character": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/BP_PlayableCharacter.BP_PlayableCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/ABP_PlayableLocomotion.ABP_PlayableLocomotion",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated04/BP_PlayableGameMode.BP_PlayableGameMode"
+  }
+}

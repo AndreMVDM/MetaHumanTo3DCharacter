@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "protected_count": 38279,
+  "changed": [
+    "Working/HumanReview/AegisMovement/interactive_editor_009.log"
+  ],
+  "missing": [],
+  "git_preserved": true
+}

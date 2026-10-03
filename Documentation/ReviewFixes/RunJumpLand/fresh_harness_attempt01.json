@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "fresh_process": true,
+  "subjects": {},
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/validate_saved.py\", line 15, in <module>\n    abp=assets[paths[1]];bp=assets[paths[2]];oldabp=unreal.load_asset(old+'/ABP_'+name+'MovementReview');oldbp=unreal.load_asset(old+'/BP_'+name+'MovementReviewCharacter');cdo=unreal.get_default_object(bp.generated_class());oldcdo=unreal.get_default_object(oldbp.generated_class());mesh=cdo.mesh.get_skeletal_mesh_asset();require(mesh==oldcdo.mesh.get_skeletal_mesh_asset(),'mesh changed');require(cdo.mesh.get_anim_class()==abp.generated_class(),'ABP binding');require(abp.get_editor_property('target_skeleton')==mesh.skeleton,'skeleton')\n                                                                                                                                                                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SkeletalMeshComponent' object has no attribute 'get_anim_class'\n"
+}

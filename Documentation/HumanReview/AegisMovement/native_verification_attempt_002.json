@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "pid": 51004,
+  "native_normal_PIE": true,
+  "input_method": "UE Input.+key / Input.-key through native PlayerController InputKey; no direct pawn manipulation",
+  "phases": [],
+  "loaded_level": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/L_AegisMovementReview.L_AegisMovementReview",
+  "possession": "PASS",
+  "character_count": 1,
+  "anim_instance": "ABP_AegisMovementReview_C",
+  "reference_height_cm": 179.91210982641414,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/HumanReview/AegisMovement/verify_and_handoff.py\", line 62, in tick\n    result['asset_player_lengths']={str(i):float(anim.call_method('GetInstanceAssetPlayerLength',i)) for i in range(5)}\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/HumanReview/AegisMovement/verify_and_handoff.py\", line 62, in <dictcomp>\n    result['asset_player_lengths']={str(i):float(anim.call_method('GetInstanceAssetPlayerLength',i)) for i in range(5)}\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: AnimInstance: 'args' (int) must be 'tuple'\n",
+  "ending_PIE": true,
+  "PIE_stopped": true,
+  "editor_left_open": true,
+  "review_level_loaded": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/L_AegisMovementReview.L_AegisMovementReview",
+  "ready_to_press_Play": false
+}

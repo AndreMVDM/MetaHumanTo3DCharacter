@@ -1,0 +1,9 @@
+{
+  "version": "phase4f.rigged-character-r2/1.0.0",
+  "status": "FAIL",
+  "stages": [],
+  "assets": {},
+  "clips": [],
+  "failed_stage": "input_validation",
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 138, in <module>\n    original_analysis = analyse(original_mesh, original['bones'])\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 121, in analyse\n    rows = {str(x.chain_name): dict(start=str(x.start_bone), end=str(x.end_bone)) for x in ctl.get_retarget_chains()}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 121, in <dictcomp>\n    rows = {str(x.chain_name): dict(start=str(x.start_bone), end=str(x.end_bone)) for x in ctl.get_retarget_chains()}\n                                              ^^^^^^^^^^^^\nAttributeError: 'BoneChain' object has no attribute 'start_bone'\n"
+}

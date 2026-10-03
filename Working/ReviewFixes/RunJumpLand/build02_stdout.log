@@ -1,0 +1,191 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\Andre\AppData\Local\UnrealBuildTool\Trace.uba with size 316b
+[2026.10.03-11.57.35:457][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.03-11.57.35:457][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.03-11.57.35:457][  0]LogTrace: Display: Control listening on port 37349
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build.py -unattended -NoSound -NoSourceControl -NoZenLocalFallback -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build02.log""
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : loginid="26433460ffa2432bb05b0d79c2895497"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.03-11.57.35:457][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading IOS ini files took 0.03 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading Mac ini files took 0.03 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading Android ini files took 0.03 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading Windows ini files took 0.04 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading Unix ini files took 0.04 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+[2026.10.03-11.57.35:457][  0]LogConfig: Display: Loading Linux ini files took 0.04 seconds
+[2026.10.03-11.57.35:457][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-11.57.35:457][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=379MiB, MaxMemoryAvailable=102094MiB
+[2026.10.03-11.57.35:457][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.03-11.57.35:457][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.03-11.57.35:457][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.03-11.57.35:457][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-11.57.35:730][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.03-11.57.35:804][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.03-11.57.35:810][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.03-11.57.35:810][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.03-11.57.35:810][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.03-11.57.35:810][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.03-11.57.35:810][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.03-11.57.35:810][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.03-11.57.35:810][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.03-11.57.35:810][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.03-11.57.35:811][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.03-11.57.35:828][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.03-11.57.35:837][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.03-11.57.35:847][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.03-11.57.35:857][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.03-11.57.35:858][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.03-11.57.35:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.03-11.57.35:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.03-11.57.35:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.03-11.57.35:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.03-11.57.35:867][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.03-11.57.35:871][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.03-11.57.36:100][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.03-11.57.36:102][  0]LogZenServiceInstance: Display: Launching zen utility 'D:/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.03-11.57.36:412][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.03-11.57.36:413][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-11.57.36:413][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-11.57.36:413][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.03-11.57.37:122][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.03-11.57.37:124][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.03-11.57.37:130][  0]LogDerivedDataCache: Display: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.03ms. RandomReadSpeed=1016.50MBs, RandomWriteSpeed=227.16MBs. Assigned SpeedClass 'Local'
+[2026.10.03-11.57.37:132][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.03-11.57.37:132][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.03-11.57.37:132][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.03-11.57.37:138][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.03-11.57.37:138][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-11.57.37:438][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.03-11.57.37:621][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.03-11.57.37:621][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.03-11.57.37:655][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.03-11.57.37:657][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-11.57.37:668][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.03-11.57.37:668][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.03-11.57.37:668][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.03-11.57.37:681][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.03-11.57.37:681][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.03-11.57.37:681][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.03-11.57.37:681][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.03-11.57.37:776][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-11.57.37:776][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-11.57.37:777][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.03-11.57.37:777][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.03-11.57.37:828][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.03-11.57.37:829][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.653 ms
+[2026.10.03-11.57.38:005][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.03-11.57.38:007][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.03-11.57.38:410][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-11.57.38:410][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-11.57.38:636][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.03-11.57.38:639][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.03-11.57.38:639][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.03-11.57.38:639][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.03-11.57.38:639][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.03-11.57.38:711][  0]LogAssetRegistry: Display: Asset registry cache read as 121.4 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_A56861524F53932CE9D797A706580041.bin (memory-mapped=yes)
+[2026.10.03-11.57.38:711][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.072s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.03-11.57.38:733][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.03-11.57.38:766][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.03-11.57.39:012][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.03-11.57.39:114][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.03-11.57.39:121][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 6.146 ms
+[2026.10.03-11.57.39:121][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.03-11.57.39:139][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 18.405 ms (total: 24.551 ms)
+[2026.10.03-11.57.39:139][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build.py
+[2026.10.03-11.57.39:475][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.03-11.57.39:485][  0]LogPython: Warning: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build.py:24: DeprecationWarning: EditorLevelLibrary: Function 'load_level' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Level Editor Subsystem
+  require(unreal.EditorLevelLibrary.load_level(old+'/L_'+name+'MovementReview'),'load original review map');E=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);oldbp=unreal.load_asset(old+'/BP_'+name+'MovementReviewCharacter');actors=[a for a in E.get_all_level_actors() if a.get_class()==oldbp.generated_class()];require(len(actors)==1,'unique placed character');actor=actors[0];tr=actor.get_actor_transform();E.destroy_actor(actor);pawn=E.spawn_actor_from_class(bp.generated_class(),tr.translation,tr.rotation.rotator());pawn.set_actor_scale3d(tr.scale3d);pawn.set_editor_property('auto_possess_player',unreal.AutoReceiveInput.PLAYER0);pawn.mesh.set_anim_instance_class(abp.generated_class());pawn.set_actor_label(name+' — Run Jump Land Fix — WASD / Shift / Space')
+
+[2026.10.03-11.57.39:551][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/John/Authoring/MHC_JohnDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-11.57.39:551][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Jill/Authoring/MHC_JillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-11.57.39:551][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-11.57.39:551][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Bill/Authoring/MHC_BillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-11.57.39:551][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Jane/Authoring/MHC_JaneDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-11.57.39:776][  0]LogOutputDevice: Warning: 
+
+Script Stack (1 frames) :
+/Script/BlueprintEditorLibrary.BlueprintGraphEditor.AddCallFunctionNode
+
+[2026.10.03-11.57.39:776][  0]LogWindows: Error: appError called: Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] 
+Cast of nullptr to K2Node_CallFunction failed
+
+
+
+
+
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: === Critical error: ===
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: 
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] 
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: Cast of nullptr to K2Node_CallFunction failed
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: 
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: 
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff8f50e1d8e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff8942c28c0 UnrealEditor-BlueprintEditorLibrary.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff8942dc89d UnrealEditor-BlueprintEditorLibrary.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff8f50f7b2c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff8f54719b2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00000255015d5863 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x000002550162473e UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x000002550162384e UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x0000025501625a95 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x000002550153937e UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff88a251263 python311.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff88a2548df python311.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff88a2560b2 python311.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff88a2b56bf python311.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff88a2b70bf python311.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00000255015bfa48 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00000255015ebe80 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00000255015c0058 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00000255015d8a40 UnrealEditor-PythonScriptPlugin.dll!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff7330371bb UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff73302c289 UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff73302c5ba UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff733031256 UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff733045c74 UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff73304838a UnrealEditor-Cmd.exe!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: [Callstack] 0x00007ff9cf47e957 KERNEL32.DLL!UnknownFunction []
+[2026.10.03-11.57.40:510][  0]LogWindows: Error: 

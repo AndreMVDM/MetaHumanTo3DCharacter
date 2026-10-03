@@ -1,0 +1,40 @@
+{
+  "scope": "New review Blueprint/component/lighting only",
+  "before": {
+    "cdo_mesh": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "cdo_movement": {
+      "pitch": 540.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "placed_mesh": {
+      "pitch": 0.0,
+      "yaw": -90.0,
+      "roll": 0.0
+    }
+  },
+  "after": {
+    "placed_mesh": {
+      "pitch": 0.0,
+      "yaw": -90.0,
+      "roll": 0.0
+    },
+    "placed_movement": {
+      "pitch": 0.0,
+      "yaw": 540.0,
+      "roll": 0.0
+    },
+    "cdo_mesh": {
+      "pitch": 0.0,
+      "yaw": -90.0,
+      "roll": 0.0
+    }
+  },
+  "cause": "UE Python Rotator constructor uses roll,pitch,yaw; prior positional calls tilted the review mesh and used the wrong movement rotation axis",
+  "correction": "Explicit named yaw=-90 mesh / yaw=540 CharacterMovement; camera centred for full-body review",
+  "accepted_assets_modified": false
+}

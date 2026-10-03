@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "scope": [
+    "neutral",
+    "idle",
+    "walk",
+    "run"
+  ],
+  "bakes_created": false,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_live_setup.py\", line 19, in <module>\n    rc.reset_retarget_pose(rc.get_current_retarget_pose_name(unreal.RetargetSourceOrTarget.TARGET),[],unreal.RetargetSourceOrTarget.TARGET);rc.auto_align_all_bones(unreal.RetargetSourceOrTarget.TARGET);mapping={str(x.chain_name):str(rc.get_source_chain(x.chain_name)) for x in ic.get_retarget_chains()};assert len(mapping)==23 and all(k==v for k,v in mapping.items())\n                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

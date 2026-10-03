@@ -1,0 +1,3062 @@
+{
+  "status": "PASS",
+  "fresh_process": true,
+  "subjects": {
+    "Female": {
+      "status": "PASS",
+      "assets": [
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/L_FemaleBodyMovementReview",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/ABP_FemaleBodyMovementReview",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewCharacter",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewGameMode"
+      ],
+      "stature_cm": 99.95117324217154,
+      "anim_graph_unchanged": true,
+      "controller_graph_unchanged": true,
+      "movement_settings_unchanged": true,
+      "new_event_nodes": [
+        {
+          "id": "K2Node_PromotableOperator_5",
+          "title": "integer <= integer",
+          "type": "K2Node_PromotableOperator",
+          "pins": [
+            {
+              "name": "A",
+              "value": "",
+              "links": [
+                "K2Node_VariableGet_9:Speed"
+              ]
+            },
+            {
+              "name": "B",
+              "value": "5",
+              "links": []
+            },
+            {
+              "name": "ReturnValue",
+              "value": "",
+              "links": [
+                "K2Node_CommutativeAssociativeBinaryOperator_5:B"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K2Node_VariableGet_9",
+          "title": "Get Speed",
+          "type": "K2Node_VariableGet",
+          "pins": [
+            {
+              "name": "Speed",
+              "value": "0",
+              "links": [
+                "K2Node_PromotableOperator_5:A"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K2Node_CommutativeAssociativeBinaryOperator_5",
+          "title": "AND Boolean",
+          "type": "K2Node_CommutativeAssociativeBinaryOperator",
+          "pins": [
+            {
+              "name": "A",
+              "value": "false",
+              "links": [
+                "K2Node_CommutativeAssociativeBinaryOperator_2:ReturnValue"
+              ]
+            },
+            {
+              "name": "B",
+              "value": "false",
+              "links": [
+                "K2Node_PromotableOperator_5:ReturnValue"
+              ]
+            },
+            {
+              "name": "ReturnValue",
+              "value": "false",
+              "links": [
+                "K2Node_VariableSet_4:Landing"
+              ]
+            }
+          ]
+        }
+      ],
+      "original_node_diffs": [
+        {
+          "before": {
+            "id": "K2Node_CommutativeAssociativeBinaryOperator_2",
+            "title": "AND Boolean",
+            "type": "K2Node_CommutativeAssociativeBinaryOperator",
+            "pins": [
+              {
+                "name": "A",
+                "value": "false",
+                "links": [
+                  "K2Node_PromotableOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "B",
+                "value": "false",
+                "links": [
+                  "K2Node_CallFunction_8:ReturnValue"
+                ]
+              },
+              {
+                "name": "ReturnValue",
+                "value": "false",
+                "links": [
+                  "K2Node_VariableSet_4:Landing"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "id": "K2Node_CommutativeAssociativeBinaryOperator_2",
+            "title": "AND Boolean",
+            "type": "K2Node_CommutativeAssociativeBinaryOperator",
+            "pins": [
+              {
+                "name": "A",
+                "value": "false",
+                "links": [
+                  "K2Node_PromotableOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "B",
+                "value": "false",
+                "links": [
+                  "K2Node_CallFunction_8:ReturnValue"
+                ]
+              },
+              {
+                "name": "ReturnValue",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_5:A"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "before": {
+            "id": "K2Node_VariableSet_4",
+            "title": "Set Landing",
+            "type": "K2Node_VariableSet",
+            "pins": [
+              {
+                "name": "execute",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_3:then"
+                ]
+              },
+              {
+                "name": "Landing",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "then",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_5:execute"
+                ]
+              },
+              {
+                "name": "Output_Get",
+                "value": "false",
+                "links": []
+              }
+            ]
+          },
+          "after": {
+            "id": "K2Node_VariableSet_4",
+            "title": "Set Landing",
+            "type": "K2Node_VariableSet",
+            "pins": [
+              {
+                "name": "execute",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_3:then"
+                ]
+              },
+              {
+                "name": "Landing",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_5:ReturnValue"
+                ]
+              },
+              {
+                "name": "then",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_5:execute"
+                ]
+              },
+              {
+                "name": "Output_Get",
+                "value": "false",
+                "links": []
+              }
+            ]
+          }
+        }
+      ],
+      "sequences": [
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.MM_Idle__43d674e1",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 13908,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 51.215621605818654,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.8916666507720947,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 3.7833333015441895,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 5.674999952316284,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 7.566666603088379,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 7.566666603088379,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 227,
+            "keys": 228,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.MF_Walk_Fwd__ce1673d1",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 3477,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 50.40767459458385,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.46666666865348816,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.9333333373069763,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.4000000059604645,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 1.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 56,
+            "keys": 57,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [
+              {
+                "name": "R",
+                "time": 0.4725262522697449
+              },
+              {
+                "name": "L",
+                "time": 0.9308523535728455
+              },
+              {
+                "name": "R",
+                "time": 1.4154759645462036
+              },
+              {
+                "name": "L",
+                "time": 1.8568965196609497
+              }
+            ],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.MM_Run_Fwd__a4f6d689",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 3538,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 50.21851268676953,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4749999940395355,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.949999988079071,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.4249999821186066,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.899999976158142,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 1.899999976158142,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 57,
+            "keys": 58,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [
+              {
+                "name": "L",
+                "time": 0.23241353034973145
+              },
+              {
+                "name": "R",
+                "time": 0.5440578460693359
+              },
+              {
+                "name": "L",
+                "time": 0.85187828540802
+              },
+              {
+                "name": "R",
+                "time": 1.182641863822937
+              },
+              {
+                "name": "L",
+                "time": 1.4942861795425415
+              },
+              {
+                "name": "R",
+                "time": 1.828873634338379
+              }
+            ],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 1647,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 62.28323549649582,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.21666666865348816,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4333333373069763,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.6500000059604645,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 0.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 26,
+            "keys": 27,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 5551,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 53.06314744630234,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.75,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.5,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 2.25,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 3.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 3.0,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 90,
+            "keys": 91,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 1647,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 51.080207788726504,
+            "root_translation_start": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "root_translation_end": [
+              0.19522246439009902,
+              0.976086407899657,
+              4.592527026167786e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.21666666865348816,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4333333373069763,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.6500000059604645,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.19522246439009902,
+                  0.976086407899657,
+                  4.592527026167786e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 0.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 26,
+            "keys": 27,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        }
+      ],
+      "runtime_closure": {
+        "packages": [
+          "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+          "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+          "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+          "/Engine/BasicShapes/Cube",
+          "/Engine/EditorResources/LightIcons/S_LightError",
+          "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+          "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+          "/Engine/EngineMaterials/WorldGridMaterial",
+          "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/ABP_FemaleBodyMovementReview",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewCharacter",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewGameMode",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/L_FemaleBodyMovementReview",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination",
+          "/Script/AnimGraph",
+          "/Script/AnimGraphRuntime",
+          "/Script/AnimationData",
+          "/Script/AnimationModifiers",
+          "/Script/ControlRig",
+          "/Script/Engine",
+          "/Script/InputCore",
+          "/Script/InterchangeEngine",
+          "/Script/MovieScene",
+          "/Script/NavigationSystem"
+        ],
+        "edges": {
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewGameMode": [],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewCharacter": [
+            "/Script/InputCore",
+            "/Script/NavigationSystem",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/ABP_FemaleBodyMovementReview",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination": [
+            "/Script/InterchangeEngine",
+            "/Engine/EngineMaterials/WorldGridMaterial",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination": [
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Engine/EngineMaterials/WorldGridMaterial": [
+            "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+            "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+            "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          ],
+          "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade": [],
+          "/Engine/EngineMaterials/T_Default_Material_Grid_N": [],
+          "/Engine/EngineMaterials/T_Default_Material_Grid_M": [],
+          "/Script/InterchangeEngine": [],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/ABP_FemaleBodyMovementReview": [
+            "/Script/AnimGraph",
+            "/Script/AnimGraphRuntime",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689": [
+            "/Script/Engine",
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Engine/Animation/DefaultAnimCurveCompressionSettings": [],
+          "/Engine/Animation/DefaultAnimBoneCompressionSettings": [],
+          "/Engine/Animation/DefaultVariableFrameStrippingSettings": [],
+          "/Script/AnimationData": [],
+          "/Script/ControlRig": [],
+          "/Script/AnimationModifiers": [],
+          "/Script/MovieScene": [],
+          "/Script/Engine": [],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination"
+          ],
+          "/Script/AnimGraphRuntime": [],
+          "/Script/AnimGraph": [],
+          "/Script/NavigationSystem": [],
+          "/Script/InputCore": [],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/L_FemaleBodyMovementReview": [
+            "/Script/NavigationSystem",
+            "/Engine/BasicShapes/Cube",
+            "/Engine/EngineMaterials/WorldGridMaterial",
+            "/Engine/EditorResources/LightIcons/S_LightError",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewCharacter",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Female/BP_FemaleBodyMovementReviewGameMode"
+          ],
+          "/Engine/EditorResources/LightIcons/S_LightError": [],
+          "/Engine/BasicShapes/Cube": [
+            "/Script/NavigationSystem",
+            "/Engine/EngineMaterials/WorldGridMaterial"
+          ]
+        },
+        "unexpected": [],
+        "forbidden": []
+      },
+      "originals_saved": false
+    },
+    "Aegis": {
+      "status": "PASS",
+      "assets": [
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/L_AegisMovementReview",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewCharacter",
+        "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewGameMode"
+      ],
+      "stature_cm": 179.91210982641414,
+      "anim_graph_unchanged": true,
+      "controller_graph_unchanged": true,
+      "movement_settings_unchanged": true,
+      "new_event_nodes": [
+        {
+          "id": "K2Node_PromotableOperator_5",
+          "title": "integer <= integer",
+          "type": "K2Node_PromotableOperator",
+          "pins": [
+            {
+              "name": "A",
+              "value": "",
+              "links": [
+                "K2Node_VariableGet_9:Speed"
+              ]
+            },
+            {
+              "name": "B",
+              "value": "5",
+              "links": []
+            },
+            {
+              "name": "ReturnValue",
+              "value": "",
+              "links": [
+                "K2Node_CommutativeAssociativeBinaryOperator_5:B"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K2Node_VariableGet_9",
+          "title": "Get Speed",
+          "type": "K2Node_VariableGet",
+          "pins": [
+            {
+              "name": "Speed",
+              "value": "0",
+              "links": [
+                "K2Node_PromotableOperator_5:A"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K2Node_CommutativeAssociativeBinaryOperator_5",
+          "title": "AND Boolean",
+          "type": "K2Node_CommutativeAssociativeBinaryOperator",
+          "pins": [
+            {
+              "name": "A",
+              "value": "false",
+              "links": [
+                "K2Node_CommutativeAssociativeBinaryOperator_2:ReturnValue"
+              ]
+            },
+            {
+              "name": "B",
+              "value": "false",
+              "links": [
+                "K2Node_PromotableOperator_5:ReturnValue"
+              ]
+            },
+            {
+              "name": "ReturnValue",
+              "value": "false",
+              "links": [
+                "K2Node_VariableSet_4:Landing"
+              ]
+            }
+          ]
+        }
+      ],
+      "original_node_diffs": [
+        {
+          "before": {
+            "id": "K2Node_CommutativeAssociativeBinaryOperator_2",
+            "title": "AND Boolean",
+            "type": "K2Node_CommutativeAssociativeBinaryOperator",
+            "pins": [
+              {
+                "name": "A",
+                "value": "false",
+                "links": [
+                  "K2Node_PromotableOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "B",
+                "value": "false",
+                "links": [
+                  "K2Node_CallFunction_8:ReturnValue"
+                ]
+              },
+              {
+                "name": "ReturnValue",
+                "value": "false",
+                "links": [
+                  "K2Node_VariableSet_4:Landing"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "id": "K2Node_CommutativeAssociativeBinaryOperator_2",
+            "title": "AND Boolean",
+            "type": "K2Node_CommutativeAssociativeBinaryOperator",
+            "pins": [
+              {
+                "name": "A",
+                "value": "false",
+                "links": [
+                  "K2Node_PromotableOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "B",
+                "value": "false",
+                "links": [
+                  "K2Node_CallFunction_8:ReturnValue"
+                ]
+              },
+              {
+                "name": "ReturnValue",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_5:A"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "before": {
+            "id": "K2Node_VariableSet_4",
+            "title": "Set Landing",
+            "type": "K2Node_VariableSet",
+            "pins": [
+              {
+                "name": "execute",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_3:then"
+                ]
+              },
+              {
+                "name": "Landing",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_2:ReturnValue"
+                ]
+              },
+              {
+                "name": "then",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_5:execute"
+                ]
+              },
+              {
+                "name": "Output_Get",
+                "value": "false",
+                "links": []
+              }
+            ]
+          },
+          "after": {
+            "id": "K2Node_VariableSet_4",
+            "title": "Set Landing",
+            "type": "K2Node_VariableSet",
+            "pins": [
+              {
+                "name": "execute",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_3:then"
+                ]
+              },
+              {
+                "name": "Landing",
+                "value": "false",
+                "links": [
+                  "K2Node_CommutativeAssociativeBinaryOperator_5:ReturnValue"
+                ]
+              },
+              {
+                "name": "then",
+                "value": "",
+                "links": [
+                  "K2Node_VariableSet_5:execute"
+                ]
+              },
+              {
+                "name": "Output_Get",
+                "value": "false",
+                "links": []
+              }
+            ]
+          }
+        }
+      ],
+      "sequences": [
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle.MM_Idle",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 13908,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 97.67576646347672,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.8916666507720947,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 3.7833333015441895,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 5.674999952316284,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 7.566666603088379,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 7.566666603088379,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 227,
+            "keys": 228,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 3477,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 96.29416028413283,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.46666666865348816,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.9333333373069763,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.4000000059604645,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 1.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 56,
+            "keys": 57,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [
+              {
+                "name": "R",
+                "time": 0.4725262522697449
+              },
+              {
+                "name": "L",
+                "time": 0.9308523535728455
+              },
+              {
+                "name": "R",
+                "time": 1.4154759645462036
+              },
+              {
+                "name": "L",
+                "time": 1.8568965196609497
+              }
+            ],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd.MM_Run_Fwd",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 3538,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 95.88002994866908,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4749999940395355,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.949999988079071,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.4249999821186066,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.899999976158142,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 1.899999976158142,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 57,
+            "keys": 58,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [
+              {
+                "name": "L",
+                "time": 0.23241353034973145
+              },
+              {
+                "name": "R",
+                "time": 0.5440578460693359
+              },
+              {
+                "name": "L",
+                "time": 0.85187828540802
+              },
+              {
+                "name": "R",
+                "time": 1.182641863822937
+              },
+              {
+                "name": "L",
+                "time": 1.4942861795425415
+              },
+              {
+                "name": "R",
+                "time": 1.828873634338379
+              }
+            ],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 1647,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 119.37899526348704,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.21666666865348816,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4333333373069763,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.6500000059604645,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 0.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 26,
+            "keys": 27,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 5551,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 101.73171193654733,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.75,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 1.5,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 2.25,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 3.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 3.0,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 90,
+            "keys": 91,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        },
+        {
+          "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land.MM_Land",
+          "validation": {
+            "status": "PASS",
+            "stored_key_values_checked": 1647,
+            "native_raw_key_verification": false,
+            "max_local_translation_cm": 97.42427679665396,
+            "root_translation_start": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "root_translation_end": [
+              0.35139443352818484,
+              1.0541725903749466,
+              6.8637845629382355e-06
+            ],
+            "source_bound_root_deltas": null,
+            "root_trajectory_error_cm": 0,
+            "pose_samples": [
+              {
+                "t": 0.0,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.21666666865348816,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.4333333373069763,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.6500000059604645,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "t": 0.8666666746139526,
+                "bones": 61,
+                "root": [
+                  0.35139443352818484,
+                  1.0541725903749466,
+                  6.8637845629382355e-06
+                ],
+                "root_scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+            "duration_s": 0.8666666746139526,
+            "rate": [
+              30,
+              1
+            ],
+            "frames": 26,
+            "keys": 27,
+            "tracks": [
+              "root",
+              "pelvis",
+              "spine_01",
+              "spine_02",
+              "spine_03",
+              "clavicle_l",
+              "upperarm_l",
+              "lowerarm_l",
+              "hand_l",
+              "index_01_l",
+              "index_02_l",
+              "index_03_l",
+              "middle_01_l",
+              "middle_02_l",
+              "middle_03_l",
+              "pinky_01_l",
+              "pinky_02_l",
+              "pinky_03_l",
+              "ring_01_l",
+              "ring_02_l",
+              "ring_03_l",
+              "thumb_01_l",
+              "thumb_02_l",
+              "thumb_03_l",
+              "lowerarm_twist_01_l",
+              "upperarm_twist_01_l",
+              "clavicle_r",
+              "upperarm_r",
+              "lowerarm_r",
+              "hand_r",
+              "index_01_r",
+              "index_02_r",
+              "index_03_r",
+              "middle_01_r",
+              "middle_02_r",
+              "middle_03_r",
+              "pinky_01_r",
+              "pinky_02_r",
+              "pinky_03_r",
+              "ring_01_r",
+              "ring_02_r",
+              "ring_03_r",
+              "thumb_01_r",
+              "thumb_02_r",
+              "thumb_03_r",
+              "lowerarm_twist_01_r",
+              "upperarm_twist_01_r",
+              "neck_01",
+              "head",
+              "thigh_l",
+              "calf_l",
+              "calf_twist_01_l",
+              "foot_l",
+              "ball_l",
+              "thigh_twist_01_l",
+              "thigh_r",
+              "calf_r",
+              "calf_twist_01_r",
+              "foot_r",
+              "ball_r",
+              "thigh_twist_01_r"
+            ],
+            "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+            "root_flags": {
+              "enable_root_motion": "False",
+              "force_root_lock": "True",
+              "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>",
+              "use_normalized_root_motion_scale": "True"
+            },
+            "retarget_source": "None",
+            "retarget_source_asset": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+            "curves": {
+              "<RawCurveTrackTypes.RCT_FLOAT: 0>": [],
+              "<RawCurveTrackTypes.RCT_TRANSFORM: 2>": []
+            },
+            "notifies": [],
+            "sync_markers": [],
+            "metadata_classes": []
+          }
+        }
+      ],
+      "runtime_closure": {
+        "packages": [
+          "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+          "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+          "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+          "/Engine/BasicShapes/Cube",
+          "/Engine/EditorResources/LightIcons/S_LightError",
+          "/Engine/EngineMaterials/BaseFlattenLinearColor",
+          "/Engine/EngineMaterials/DefaultNormal",
+          "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+          "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+          "/Engine/EngineMaterials/WorldGridMaterial",
+          "/Engine/EngineResources/DefaultTexture",
+          "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+          "/Engine/Transient",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewCharacter",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewGameMode",
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/L_AegisMovementReview",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump",
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land",
+          "/InterchangeAssets/Functions/MF_PhongToMetalRoughness",
+          "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+          "/Script/AnimGraph",
+          "/Script/AnimGraphRuntime",
+          "/Script/AnimationData",
+          "/Script/AnimationModifiers",
+          "/Script/ControlRig",
+          "/Script/Engine",
+          "/Script/InputCore",
+          "/Script/InterchangeEngine",
+          "/Script/MovieScene",
+          "/Script/NavigationSystem"
+        ],
+        "edges": {
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewGameMode": [],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewCharacter": [
+            "/Script/InputCore",
+            "/Script/NavigationSystem",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview"
+          ],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview": [
+            "/Script/AnimGraph",
+            "/Script/AnimGraphRuntime",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump",
+            "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination": [
+            "/Script/InterchangeEngine",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca"
+          ],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca": [
+            "/Script/InterchangeEngine",
+            "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0"
+          ],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0": [
+            "/Script/InterchangeEngine"
+          ],
+          "/Script/InterchangeEngine": [],
+          "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial": [
+            "/Engine/Transient",
+            "/InterchangeAssets/Functions/MF_PhongToMetalRoughness",
+            "/Engine/EngineResources/DefaultTexture",
+            "/Engine/EngineMaterials/BaseFlattenLinearColor",
+            "/Engine/EngineMaterials/DefaultNormal"
+          ],
+          "/Engine/EngineMaterials/DefaultNormal": [],
+          "/Engine/EngineMaterials/BaseFlattenLinearColor": [],
+          "/Engine/EngineResources/DefaultTexture": [],
+          "/InterchangeAssets/Functions/MF_PhongToMetalRoughness": [],
+          "/Engine/Transient": [],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination": [
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Engine/Animation/DefaultAnimCurveCompressionSettings": [],
+          "/Engine/Animation/DefaultAnimBoneCompressionSettings": [],
+          "/Engine/Animation/DefaultVariableFrameStrippingSettings": [],
+          "/Script/AnimationData": [],
+          "/Script/ControlRig": [],
+          "/Script/AnimationModifiers": [],
+          "/Script/MovieScene": [],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd": [
+            "/Script/Engine",
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Script/Engine": [],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd": [
+            "/Script/MovieScene",
+            "/Script/AnimationModifiers",
+            "/Script/ControlRig",
+            "/Script/AnimationData",
+            "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+            "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+            "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+            "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+          ],
+          "/Script/AnimGraphRuntime": [],
+          "/Script/AnimGraph": [],
+          "/Script/NavigationSystem": [],
+          "/Script/InputCore": [],
+          "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/L_AegisMovementReview": [
+            "/Script/NavigationSystem",
+            "/Engine/BasicShapes/Cube",
+            "/Engine/EngineMaterials/WorldGridMaterial",
+            "/Engine/EditorResources/LightIcons/S_LightError",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewCharacter",
+            "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewGameMode"
+          ],
+          "/Engine/EditorResources/LightIcons/S_LightError": [],
+          "/Engine/EngineMaterials/WorldGridMaterial": [
+            "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+            "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+            "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          ],
+          "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade": [],
+          "/Engine/EngineMaterials/T_Default_Material_Grid_N": [],
+          "/Engine/EngineMaterials/T_Default_Material_Grid_M": [],
+          "/Engine/BasicShapes/Cube": [
+            "/Script/NavigationSystem",
+            "/Engine/EngineMaterials/WorldGridMaterial"
+          ]
+        },
+        "unexpected": [],
+        "forbidden": []
+      },
+      "originals_saved": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "phase4f.animation-library/1.0.0",
+  "status": "FAIL",
+  "assets": [],
+  "skeleton_relationships": [],
+  "source_assets_modified": false,
+  "source_skeleton": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+  "compatible_skeletons": [
+    "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin"
+  ],
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/discover.py\", line 22, in <module>\n    row.update(lib.metadata(a));row['motion_fingerprint']=lib.motion_fingerprint(a)\n               ^^^^^^^^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\R4\\animation_library.py\", line 11, in metadata\n    m=anim.get_editor_property('data_model');rate=m.get_frame_rate();L=unreal.AnimationLibrary\n                                                  ^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get_frame_rate'\n"
+}

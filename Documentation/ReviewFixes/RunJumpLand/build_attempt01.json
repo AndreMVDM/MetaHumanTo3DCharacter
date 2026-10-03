@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "subjects": {},
+  "correction": "Landing = original LandTime>0 AND !Airborne AND Speed<=5; grounded speed boundary matches retained idle/walk selector. Existing 0.1 s air/ground and landing blends retained.",
+  "animation_rebakes": 0,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build.py\", line 19, in <module>\n    ag=unreal.BlueprintGraphEditor.get_graph_editor_by_name(abp,'AnimGraph');speed_guards=[n for n in ag.list_all_nodes() if str(n.get_node_title()).startswith('>') and 'B' in pins(n) and p(n,'B').get_pin_value()=='5'];require(len(speed_guards)==1,'existing walk boundary must be 5')\n                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/ReviewFixes/RunJumpLand/build.py\", line 7, in require\n    if not x:raise ValueError(msg)\n             ^^^^^^^^^^^^^^^^^^^^^\nValueError: existing walk boundary must be 5\n"
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_default_baked": true,
+    "unique_destinations": true,
+    "all_saved_reloaded": true,
+    "saved_animation_hashes_stable": true,
+    "installed_sources_and_staged_copies_unchanged": true,
+    "root_policy_and_metadata_retained": true,
+    "source_bound_root_certificates": true,
+    "representative_native_playback": true,
+    "all_controls_and_jump_flow": true,
+    "actual_jump_fall_land_and_return": true,
+    "destination_runtime_closure": true,
+    "protected_authored_files_and_git_unchanged": true,
+    "ready_handoff": true,
+    "review_editor_process_still_running": true
+  },
+  "totals": {
+    "candidates": 128,
+    "default": 89,
+    "optional": 18,
+    "excluded": 21,
+    "attempted": 89,
+    "succeeded": 89,
+    "failed": 0
+  },
+  "categories": {
+    "Locomotion": 56,
+    "Jump": 13,
+    "Actions": 20
+  },
+  "reference_height_cm": 179.91210982641414,
+  "jump_rise_cm": 85.55556239353024,
+  "preservation": {
+    "protected": 38279,
+    "authored_files_changed": 0,
+    "runtime_log_append": "Working/HumanReview/AegisMovement/interactive_editor_009.log",
+    "original_log_prefix_preserved": true,
+    "git_preserved": true
+  },
+  "editor_pid": 48184,
+  "visual_quality": "Technical playback acceptance only; Andre human review remains",
+  "evidence_hashes": {
+    "animation_library_manifest.json": "c2a7c302506a8d1b9f06a58272a2f21213cd3b9e02447a61d004f1af7adf275f",
+    "source_inventory.json": "471017642833dc822a3f1f8759468db1b974fb0ef75fa3a422183ddd5764b551",
+    "fresh_validation.json": "72cda637c5cb48e6f5bf023e6c35ce06c6254783814fd5c0a2fb892a69059cd6",
+    "native_library.json": "f4e95db4bb73e3a559e129111718fcb92f99ef53901c5f8936e868b96da523a7",
+    "native_verification.json": "270ecc6443a07dd89c5e3a6d52aabd9d2c0f71953fae71ed044e0b6c2d595ec6",
+    "review_build.json": "915fe6e013f15e3125c22c8fc8f73d4a4a6904daad4fc6c59b6904eb80b1e3aa",
+    "preservation_audit.json": "17583fdd0014b82968e9472bc4d0d586cf38542ee4b86c57ebc9acd228468b2d",
+    "runtime_log_append_audit.json": "36f9af70a29467980f6c3082b79c45edc33ee5ab2a0e47d755401a1bdabbe474"
+  }
+}

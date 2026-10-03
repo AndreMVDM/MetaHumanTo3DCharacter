@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "original_assets_edited": false,
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_correction.py\", line 8, in <module>\n    original=json.loads((O.parent/'native_reload.json').read_text());source=unreal.load_asset(original['mesh']);mesh,p=derive(unreal,source,B+'/Character','SK_Canonical','SKEL_Canonical',original['bones']);r['conversion']=p\n                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\Phase4F\\rigged_unit_canonicalisation.py\", line 39, in derive\n    mesh=T.duplicate_asset(mesh_name,folder,source_mesh);mesh.set_editor_property('skeleton',isolated)\n                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: SkeletalMesh: Property 'Skeleton' for attribute 'skeleton' on 'SkeletalMesh' is read-only and cannot be set\n"
+}

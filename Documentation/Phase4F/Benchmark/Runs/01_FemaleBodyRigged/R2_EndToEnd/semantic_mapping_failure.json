@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "reason": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 168, in <module>\n    source_description = inspect(source_mesh)\n                         ^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 58, in inspect\n    require(len(roots) == 1, 'invalid_hierarchy: root count')\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py\", line 36, in require\n    raise ValueError(reason)\nValueError: invalid_hierarchy: root count\n"
+}

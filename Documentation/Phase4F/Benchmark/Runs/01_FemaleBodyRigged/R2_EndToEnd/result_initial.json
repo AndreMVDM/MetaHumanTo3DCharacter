@@ -1,0 +1,333 @@
+{
+  "version": "phase4f.rigged-character-r2/1.0.0",
+  "status": "PASS",
+  "criteria": [
+    {
+      "number": 1,
+      "name": "valid_rigged_skinned_humanoid",
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "name": "unit_representation_classified",
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "name": "canonicalisation_automatically_selected",
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "name": "R1_policy_applied",
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "name": "physical_bind_size_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "name": "geometry_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "name": "skin_weights_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "name": "hierarchy_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "name": "humanoid_semantics_resolved",
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "name": "ten_finger_chains_resolved",
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "name": "destination_IK_rig_generated",
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "name": "target_chains_validated",
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "name": "Manny_source_configuration_valid",
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "name": "retargeter_generated",
+      "status": "PASS"
+    },
+    {
+      "number": 15,
+      "name": "stored_mappings_verified",
+      "status": "PASS"
+    },
+    {
+      "number": 16,
+      "name": "idle_bake",
+      "status": "PASS"
+    },
+    {
+      "number": 17,
+      "name": "walk_bake",
+      "status": "PASS"
+    },
+    {
+      "number": 18,
+      "name": "run_bake",
+      "status": "PASS"
+    },
+    {
+      "number": 19,
+      "name": "destination_skeleton_ownership",
+      "status": "PASS"
+    },
+    {
+      "number": 20,
+      "name": "finite_baked_transforms",
+      "status": "PASS"
+    },
+    {
+      "number": 21,
+      "name": "root_scale_one",
+      "status": "PASS"
+    },
+    {
+      "number": 22,
+      "name": "component_scale_one",
+      "status": "PASS"
+    },
+    {
+      "number": 23,
+      "name": "physical_size_correct",
+      "status": "PASS"
+    },
+    {
+      "number": 24,
+      "name": "no_100x_placement_regression",
+      "status": "PASS"
+    },
+    {
+      "number": 25,
+      "name": "no_001x_scale_collapse",
+      "status": "PASS"
+    },
+    {
+      "number": 26,
+      "name": "idle_playback_advances",
+      "status": "PASS"
+    },
+    {
+      "number": 27,
+      "name": "walk_playback_advances",
+      "status": "PASS"
+    },
+    {
+      "number": 28,
+      "name": "run_playback_advances",
+      "status": "PASS"
+    },
+    {
+      "number": 29,
+      "name": "fresh_reload_playback",
+      "status": "PASS"
+    },
+    {
+      "number": 30,
+      "name": "no_Manny_actor_required",
+      "status": "PASS"
+    },
+    {
+      "number": 31,
+      "name": "no_source_component_required",
+      "status": "PASS"
+    },
+    {
+      "number": 32,
+      "name": "no_live_retarget_required",
+      "status": "PASS"
+    },
+    {
+      "number": 33,
+      "name": "no_RetargetPoseFromMesh_required",
+      "status": "PASS"
+    },
+    {
+      "number": 34,
+      "name": "no_authoring_bridge_required",
+      "status": "PASS"
+    },
+    {
+      "number": 35,
+      "name": "no_foreign_runtime_dependencies",
+      "status": "PASS"
+    },
+    {
+      "number": 36,
+      "name": "original_benchmark_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 37,
+      "name": "John_Jane_preserved",
+      "status": "PASS"
+    },
+    {
+      "number": 38,
+      "name": "frozen_protocols_preserved",
+      "status": "PASS"
+    }
+  ],
+  "passed": 38,
+  "total": 38,
+  "neutral_helper_native_status": "PASS",
+  "assets": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SK_Destination.SK_Destination",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.SKEL_Destination",
+    "target_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/IK_Destination.IK_Destination",
+    "source_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/IK_MannySource.IK_MannySource",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/RTG_MannyToDestination.RTG_MannyToDestination"
+  },
+  "clips": [
+    {
+      "role": "neutral",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/Reference_Native.Reference_Native",
+      "source": null,
+      "duration_s": 1.0,
+      "frame_rate": [
+        60,
+        1
+      ],
+      "keys": 61,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.SKEL_Destination"
+    },
+    {
+      "role": "idle",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Idle.MM_Idle",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+      "duration_s": 7.566666603088379,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 228,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "walk",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+      "duration_s": 1.8666666746139526,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 57,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "run",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd",
+      "duration_s": 1.899999976158142,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 58,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage": "input_validation",
+      "status": "PASS"
+    },
+    {
+      "stage": "unit_classification",
+      "status": "PASS"
+    },
+    {
+      "stage": "canonicalisation",
+      "status": "PASS"
+    },
+    {
+      "stage": "semantic_mapping",
+      "status": "PASS"
+    },
+    {
+      "stage": "ik_rig",
+      "status": "PASS"
+    },
+    {
+      "stage": "manny_source",
+      "status": "PASS"
+    },
+    {
+      "stage": "retarget_setup",
+      "status": "PASS"
+    },
+    {
+      "stage": "animation_bake",
+      "status": "PASS"
+    },
+    {
+      "stage": "native_destination_playback_and_fresh_reload",
+      "status": "PASS"
+    },
+    {
+      "stage": "runtime_dependency_closure",
+      "status": "PASS"
+    },
+    {
+      "stage": "preservation",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "authoring_failure": null,
+  "native_failure": null,
+  "protected_count": 38035,
+  "completed_utc": "2026-10-03T08:40:40.022700+00:00",
+  "active_scope": "One already-rigged benchmark, automatic native retarget/bake and independent playback",
+  "full_character_quality_accepted": false,
+  "package_cook_certified": false,
+  "other_subjects_started": false,
+  "commits_or_pushes": false
+}

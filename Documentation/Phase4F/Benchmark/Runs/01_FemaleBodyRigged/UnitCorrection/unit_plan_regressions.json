@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "count": 9,
+  "tests": [
+    {
+      "name": "arbitrary_names_rotated_translated_root_factor_1",
+      "pass_": true,
+      "position_error": 0.0,
+      "scale_removed_basis_error": 0.0
+    },
+    {
+      "name": "arbitrary_names_rotated_translated_root_factor_0.01",
+      "pass_": true,
+      "position_error": 0.0,
+      "scale_removed_basis_error": 1.594436429147036e-16
+    },
+    {
+      "name": "arbitrary_names_rotated_translated_root_factor_100",
+      "pass_": true,
+      "position_error": 7.105427357601002e-15,
+      "scale_removed_basis_error": 1.5700924586837752e-16
+    },
+    {
+      "name": "arbitrary_names_rotated_translated_root_factor_2.54",
+      "pass_": true,
+      "position_error": 8.881784197001252e-16,
+      "scale_removed_basis_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "reject_nonuniform",
+      "pass_": true
+    },
+    {
+      "name": "reject_negative",
+      "pass_": true
+    },
+    {
+      "name": "reject_zero",
+      "pass_": true
+    },
+    {
+      "name": "reject_nonfinite",
+      "pass_": true
+    },
+    {
+      "name": "reject_cycle",
+      "pass_": true
+    }
+  ]
+}

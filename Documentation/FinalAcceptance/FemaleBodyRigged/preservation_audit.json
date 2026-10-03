@@ -1,0 +1,19 @@
+{
+  "status": "FAIL",
+  "protected_count": 43082,
+  "changed": [
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo.json",
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo.txt",
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/SourceControl/UncontrolledChangelists.json"
+  ],
+  "missing": [
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.49.55.json",
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.49.55.txt",
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.51.19.json",
+    "Working/Phase4F/BenchmarkRuns/02_AegisNX7/R3/AuthoringHost/Saved/Logs/AutoSDKInfo-backup-2026.10.03-10.51.19.txt"
+  ],
+  "runtime_appends": [
+    "Working/R4/AegisNX7/interactive_review_003.log"
+  ],
+  "git_preserved": true
+}

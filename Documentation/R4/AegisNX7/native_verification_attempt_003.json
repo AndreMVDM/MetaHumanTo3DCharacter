@@ -1,0 +1,937 @@
+{
+  "status": "FAIL",
+  "pid": 47844,
+  "native_normal_PIE": true,
+  "input_method": "UE Input.+key / Input.-key through native PlayerController InputKey; no direct pawn manipulation",
+  "phases": [
+    {
+      "name": "Idle",
+      "status": "PASS",
+      "keys": {},
+      "translation_cm": 0.0,
+      "peak_speed_cm_s": 0.0,
+      "pose_excursion_cm": {
+        "pelvis": 0.4422779026106529,
+        "hand_l": 6.452002438570384,
+        "hand_r": 2.5566114557371122,
+        "ball_l": 0.10910457460835316,
+        "ball_r": 0.083353515452925
+      },
+      "first": {
+        "t": 0.4000000059604645,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.3694751183372071,
+            -0.9336341212156618,
+            97.50571370869444
+          ],
+          "hand_l": [
+            25.975805070851294,
+            20.837447449877956,
+            93.28732329462997
+          ],
+          "hand_r": [
+            -27.188541747406532,
+            -4.092937836865904,
+            92.4837379350545
+          ],
+          "ball_l": [
+            18.990275307141747,
+            25.333192661559984,
+            3.894580747397656
+          ],
+          "ball_r": [
+            -20.847886731399974,
+            -9.94202981498235,
+            3.5009246895189188
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.7406419515609741
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      "last": {
+        "t": 2.1333336234092712,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.3321648232599523,
+            -1.1336699275228885,
+            97.42632224334918
+          ],
+          "hand_l": [
+            27.113604095316656,
+            15.720937818025499,
+            90.88128434374592
+          ],
+          "hand_r": [
+            -25.398014696219665,
+            -4.103997522332058,
+            91.99183644018902
+          ],
+          "ball_l": [
+            18.965813965501606,
+            25.321583598856687,
+            3.8077074277903105
+          ],
+          "ball_r": [
+            -20.85776940456728,
+            -9.938860343484388,
+            3.492467489914814
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 2.473975658416748
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      "samples": 6,
+      "air_observations": []
+    }
+  ],
+  "loaded_level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Review/L_AegisMovementReview.L_AegisMovementReview",
+  "possession": "PASS",
+  "character_count": 1,
+  "anim_instance": "ABP_AegisMovementReview_C",
+  "reference_height_cm": 179.91210982641414,
+  "asset_player_lengths": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.8666666746139526,
+    "4": 3.0,
+    "5": 0.8666666746139526,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 1.899999976158142,
+    "9": 1.8666666746139526,
+    "10": 7.566666603088379,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0
+  },
+  "last_phase_diagnostic": {
+    "name": "Space_Jump",
+    "translation_cm": 0.1500028546152663,
+    "peak_speed_cm_s": 233.33376847207546,
+    "pose_excursion_cm": {
+      "pelvis": 7.387223842536097,
+      "hand_l": 44.95242054006292,
+      "hand_r": 61.34176489858499,
+      "ball_l": 20.863389878300183,
+      "ball_r": 22.85488126041301
+    },
+    "first": {
+      "t": 0.33333349227905273,
+      "position": [
+        0.0,
+        0.0,
+        92.0
+      ],
+      "speed": 0.0,
+      "anim_speed": 0.0,
+      "max_walk_speed": 300.0,
+      "joints": {
+        "pelvis": [
+          1.0718351785783897,
+          -0.5352151560355343,
+          97.35247731352737
+        ],
+        "hand_l": [
+          26.45933956096119,
+          17.231032977059286,
+          91.12742510263885
+        ],
+        "hand_r": [
+          -25.054255863343876,
+          -4.178654043462654,
+          91.44696705561803
+        ],
+        "ball_l": [
+          18.98820435078323,
+          25.367259390496127,
+          3.765755487548816
+        ],
+        "ball_r": [
+          -20.87586201972026,
+          -9.913719790841245,
+          3.4743752473081138
+        ]
+      },
+      "player_times": {
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 3.1406428813934326
+      },
+      "camera_position": [
+        -400.0,
+        0.0,
+        112.0
+      ],
+      "control_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertical_velocity": 0.0,
+      "airborne": false,
+      "jump_start": false,
+      "landing": false,
+      "can_jump": true,
+      "jump_count": 0,
+      "jump_max": 1,
+      "jump_velocity": 420.0,
+      "air_time": 0.0,
+      "land_time": 0.0,
+      "was_airborne": false
+    },
+    "last": {
+      "t": 3.0000014901161194,
+      "position": [
+        0.0,
+        0.0,
+        92.15000285461527
+      ],
+      "speed": 0.0,
+      "anim_speed": 0.0,
+      "max_walk_speed": 300.0,
+      "joints": {
+        "pelvis": [
+          1.5591824288304474,
+          -1.2914720844721193,
+          97.46198965865719
+        ],
+        "hand_l": [
+          27.39375630042598,
+          17.0404709259135,
+          91.34488916808439
+        ],
+        "hand_r": [
+          -25.908010280887346,
+          -3.5812921317433926,
+          92.41563776888567
+        ],
+        "ball_l": [
+          18.982564359435,
+          25.32062860291155,
+          3.825877388743084
+        ],
+        "ball_r": [
+          -20.864801474003322,
+          -9.946907115962897,
+          3.5022230015800275
+        ]
+      },
+      "player_times": {
+        "3": 0.0,
+        "4": 0.666667103767395,
+        "5": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 2.0000009536743164
+      },
+      "camera_position": [
+        -400.0,
+        0.0,
+        112.15000285461527
+      ],
+      "control_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertical_velocity": 0.0,
+      "airborne": false,
+      "jump_start": false,
+      "landing": false,
+      "can_jump": true,
+      "jump_count": 0,
+      "jump_max": 1,
+      "jump_velocity": 420.0,
+      "air_time": 0.0,
+      "land_time": 0.0,
+      "was_airborne": false
+    },
+    "samples": 9,
+    "observations": [
+      {
+        "t": 0.33333349227905273,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.0718351785783897,
+            -0.5352151560355343,
+            97.35247731352737
+          ],
+          "hand_l": [
+            26.45933956096119,
+            17.231032977059286,
+            91.12742510263885
+          ],
+          "hand_r": [
+            -25.054255863343876,
+            -4.178654043462654,
+            91.44696705561803
+          ],
+          "ball_l": [
+            18.98820435078323,
+            25.367259390496127,
+            3.765755487548816
+          ],
+          "ball_r": [
+            -20.87586201972026,
+            -9.913719790841245,
+            3.4743752473081138
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 3.1406428813934326
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 0.6666669845581055,
+        "position": [
+          0.0,
+          0.0,
+          177.55557073817016
+        ],
+        "speed": 93.33317391574383,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            2.8246191748225575,
+            -8.110003845985847,
+            98.35796319521381
+          ],
+          "hand_l": [
+            37.53025500263016,
+            17.32428569724431,
+            135.13862108997543
+          ],
+          "hand_r": [
+            -33.986253014612544,
+            30.314632600434052,
+            142.28662218035828
+          ],
+          "ball_l": [
+            15.26500155459242,
+            17.53675721626233,
+            22.78917592982239
+          ],
+          "ball_r": [
+            -10.358661841107878,
+            -17.56663595192164,
+            22.290591559555054
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.33333349227905273,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 3.1406428813934326
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          197.55557073817016
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 93.33317391574383,
+        "airborne": true,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": false,
+        "jump_count": 1,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": true
+      },
+      {
+        "t": 1.0000005960464478,
+        "position": [
+          0.0,
+          0.0,
+          154.2221186294599
+        ],
+        "speed": 233.33376847207546,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            2.3225781102141534,
+            -7.088441118289614,
+            98.88990743915028
+          ],
+          "hand_l": [
+            36.9375223362286,
+            15.573006461599672,
+            136.25005398483293
+          ],
+          "hand_r": [
+            -33.610327239493586,
+            30.200408918099257,
+            140.4263770973757
+          ],
+          "ball_l": [
+            16.6231901327507,
+            19.677603734011925,
+            24.2590292291366
+          ],
+          "ball_r": [
+            -13.067898404273846,
+            -12.439997939433473,
+            20.854065874160653
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 3.1406428813934326
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          174.2221186294599
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": -233.33376847207546,
+        "airborne": true,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": false,
+        "jump_count": 1,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": true
+      },
+      {
+        "t": 1.3333340883255005,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.280237601267019,
+            -0.9437088381377812,
+            97.44682241822719
+          ],
+          "hand_l": [
+            25.183190252620758,
+            18.602024961787148,
+            92.14639053656902
+          ],
+          "hand_r": [
+            -26.110549689510147,
+            -3.5997954557244256,
+            91.78318677610191
+          ],
+          "ball_l": [
+            18.994886791348502,
+            25.362885053876806,
+            3.812329078885769
+          ],
+          "ball_r": [
+            -20.85806531369027,
+            -9.944165236203222,
+            3.4755426801203324
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.33333349227905273
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 1.666667491197586,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.3470507794392086,
+            -0.9261612435667677,
+            97.49847341417546
+          ],
+          "hand_l": [
+            25.801585956849355,
+            20.50166675114941,
+            93.09703573160834
+          ],
+          "hand_r": [
+            -26.97758015921516,
+            -3.925485144272738,
+            92.3653037002504
+          ],
+          "ball_l": [
+            18.993927849499702,
+            25.34757372402115,
+            3.886054848399369
+          ],
+          "ball_r": [
+            -20.847805290590173,
+            -9.932396861687629,
+            3.4957943703268297
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.6666668653488159
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 2.0000008940696716,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.461468226224484,
+            -0.892661190446205,
+            97.58335804891358
+          ],
+          "hand_l": [
+            26.49526558672997,
+            21.51059537046975,
+            93.56745768511719
+          ],
+          "hand_r": [
+            -27.698631900054004,
+            -4.563505394622869,
+            92.76757834119181
+          ],
+          "ball_l": [
+            18.997120592574362,
+            25.331088638167934,
+            3.916378651046691
+          ],
+          "ball_r": [
+            -20.87858906093041,
+            -9.948534953662453,
+            3.5573053428400137
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 1.000000238418579
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 2.333334505558014,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.486523033302526,
+            -0.9229708716706717,
+            97.61478352530101
+          ],
+          "hand_l": [
+            26.686846559701635,
+            21.301840345963633,
+            93.38050491593913
+          ],
+          "hand_r": [
+            -27.946898345012883,
+            -4.215845509242381,
+            93.01746530390432
+          ],
+          "ball_l": [
+            18.949543312955697,
+            25.3100499042418,
+            3.904185283871672
+          ],
+          "ball_r": [
+            -20.86706014848015,
+            -9.946030505400156,
+            3.565310527126984
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 1.3333338499069214
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 2.6666679978370667,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.552501029766554,
+            -1.1167935172572503,
+            97.48799825460083
+          ],
+          "hand_l": [
+            26.87184320346442,
+            19.298180556917227,
+            92.24921783105424
+          ],
+          "hand_r": [
+            -27.526983881363712,
+            -3.7142734556877066,
+            92.79408417908635
+          ],
+          "ball_l": [
+            18.961945969015286,
+            25.32068921177667,
+            3.8359174747224767
+          ],
+          "ball_r": [
+            -20.852458217393206,
+            -9.95098961196736,
+            3.4957171919115426
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 1.6666673421859741
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      },
+      {
+        "t": 3.0000014901161194,
+        "position": [
+          0.0,
+          0.0,
+          92.15000285461527
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.5591824288304474,
+            -1.2914720844721193,
+            97.46198965865719
+          ],
+          "hand_l": [
+            27.39375630042598,
+            17.0404709259135,
+            91.34488916808439
+          ],
+          "hand_r": [
+            -25.908010280887346,
+            -3.5812921317433926,
+            92.41563776888567
+          ],
+          "ball_l": [
+            18.982564359435,
+            25.32062860291155,
+            3.825877388743084
+          ],
+          "ball_r": [
+            -20.864801474003322,
+            -9.946907115962897,
+            3.5022230015800275
+          ]
+        },
+        "player_times": {
+          "3": 0.0,
+          "4": 0.666667103767395,
+          "5": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 2.0000009536743164
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.15000285461527
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical_velocity": 0.0,
+        "airborne": false,
+        "jump_start": false,
+        "landing": false,
+        "can_jump": true,
+        "jump_count": 0,
+        "jump_max": 1,
+        "jump_velocity": 420.0,
+        "air_time": 0.0,
+        "land_time": 0.0,
+        "was_airborne": false
+      }
+    ]
+  },
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/verify_jump.py\", line 92, in tick\n    require(any(x['airborne'] and x['jump_start'] for x in rows),'jump-start state missing')\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/verify_jump.py\", line 10, in require\n    if not ok:raise ValueError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^\nValueError: jump-start state missing\n",
+  "ending_PIE": true,
+  "PIE_stopped": true,
+  "editor_left_open": true,
+  "review_level_loaded": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Review/L_AegisMovementReview.L_AegisMovementReview",
+  "ready_to_press_Play": false
+}

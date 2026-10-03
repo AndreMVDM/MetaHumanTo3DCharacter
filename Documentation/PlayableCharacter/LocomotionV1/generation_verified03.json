@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "version": "phase4f.rigged-playable-locomotion/1.0.0",
+  "source_scaffold": {
+    "character": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/ABP_AegisMovementReview",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/BP_AegisMovementReviewGameMode",
+    "level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/ReviewV2/L_AegisMovementReview"
+  },
+  "source_scaffold_is_read_only": true,
+  "settings": {
+    "IdleSpeedThreshold": 5,
+    "WalkSpeed": 300,
+    "RunSpeed": 600,
+    "LandingBlendDuration": 0.1
+  },
+  "run_selection_threshold": 450.0,
+  "animations": {
+    "Idle": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.MM_Idle__43d674e1",
+    "Walk": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.MF_Walk_Fwd__ce1673d1",
+    "Run": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.MM_Run_Fwd__a4f6d689",
+    "Jump": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+    "Fall": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+    "Land": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+  },
+  "destination_mesh": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination.SK_Destination",
+  "assets": {
+    "level": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated03/L_PlayableReview",
+    "character": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated03/BP_PlayableCharacter.BP_PlayableCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated03/ABP_PlayableLocomotion.ABP_PlayableLocomotion",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/PlayableCharacter/LocomotionV1Regression/FreshGenerated03/BP_PlayableGameMode.BP_PlayableGameMode"
+  },
+  "stature_cm": 99.95117324217154,
+  "capsule_half_height_cm": 49.97558662108577,
+  "animation_rebakes": 0,
+  "landing_rule_installed_during_generation": true,
+  "post_generation_manual_edits": 0,
+  "generator_sha256": "8094b6b456b3bee566323acc25b27b0687a7809aab9f2b867b5e2b4d40eb2172",
+  "profile_sha256": "57acacf26a45601c5abb449ecc8881736c9f46f373cf7d222b2a6ececd2bdf07"
+}

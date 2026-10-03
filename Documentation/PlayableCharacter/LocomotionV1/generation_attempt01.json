@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "version": "phase4f.rigged-playable-locomotion/1.0.0",
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/PlayableCharacter/LocomotionV1/generate.py\", line 6, in <module>\n    try:D=generate(C);D['generator_sha256']=hashlib.sha256((Path(__file__).parent/'generator.py').read_bytes()).hexdigest();D['profile_sha256']=hashlib.sha256(P.read_bytes()).hexdigest()\n          ^^^^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\PlayableCharacter\\LocomotionV1\\generator.py\", line 71, in generate\n    require(L.compile_blueprint(abp),'AnimBP compilation');require(L.compile_blueprint(bp),'Character compilation');require(L.compile_blueprint(gm),'GameMode compilation')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\Repo\\UE\\Projects\\MetaHumanTo3DCharacter\\Working\\PlayableCharacter\\LocomotionV1\\generator.py\", line 8, in require\n    if not ok:raise ValueError(message)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: AnimBP compilation\n"
+}

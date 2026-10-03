@@ -1,0 +1,11 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "native_captures_reviewed": true,
+  "visual": "Reference, idle, walk and run captures preserve white/dark/cyan robotic appearance, distinct locomotion poses and plausible limb orientation. No gross inversion/explosion or obvious tearing seen in these frontal samples.",
+  "limitations": "Frontal still samples and native transform/bounds telemetry do not certify all-time rigid armour behaviour, hidden intersections, finger independence, natural thumb opposition or detailed contact quality.",
+  "contact": "Sampled posed mesh minima include about 1.03 cm penetration in idle, 0.72 cm in walk and about 1.02 cm clearance in run. These are single snapshot mesh-bound diagnostics, not stance-certified sole metrics or contact acceptance.",
+  "repairs_performed": false,
+  "full_deformation_quality_accepted": false,
+  "finger_thumb_quality": "NOT_RUN",
+  "source_contact_caveats_preserved": true
+}

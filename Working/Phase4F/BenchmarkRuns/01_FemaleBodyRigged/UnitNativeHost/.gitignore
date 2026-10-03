@@ -1,0 +1,6 @@
+# This host references the primary project's authored Content through a junction.
+# Authoritative assets remain under the primary Content tree, not this link.
+/Content/
+/Binaries/
+/Intermediate/
+/Saved/

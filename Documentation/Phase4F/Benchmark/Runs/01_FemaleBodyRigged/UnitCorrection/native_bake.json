@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "clips": [
+    {
+      "role": "neutral",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/Reference_Native.Reference_Native",
+      "duration_s": 1.0,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": null,
+      "purpose": "Own imported reference only"
+    },
+    {
+      "role": "idle",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Idle.MM_Idle",
+      "duration_s": 7.566666603088379,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "walk",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "duration_s": 1.8666666746139526,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "run",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "duration_s": 1.899999976158142,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    }
+  ],
+  "prerequisite_native_proof_sha256": "a0172edfdee7995e4a351fc115de6b5146266bbbd5eee311e70aa90e2663124e"
+}

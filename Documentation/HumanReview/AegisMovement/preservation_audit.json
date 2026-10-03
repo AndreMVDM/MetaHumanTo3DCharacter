@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "protected_count": 38217,
+  "changed": [],
+  "missing": [],
+  "git_preserved": true,
+  "git_tracked": [
+    " M Content/MetaHumanTo3DCharacter/Phase4F/Jane/Maps/L_JaneReview.umap",
+    " M Documentation/Phase4F/Jane/actual_correction_list.json",
+    " M Documentation/Phase4F/Jane/anatomical_validation.json",
+    " M Documentation/Phase4F/Jane/correction_metrics.json",
+    " M Documentation/Phase4F/Jane/current_proposal.json",
+    " M Documentation/Phase4F/Jane/experiment_result.json",
+    " M Documentation/Phase4F/Jane/human_review.json",
+    " M Documentation/Phase4F/Jane/inherited_anatomical_validation_corrected.json",
+    " M Working/Phase4F/Jane/session.json"
+  ],
+  "new_content_scope": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/",
+  "accepted_assets_modified": false
+}

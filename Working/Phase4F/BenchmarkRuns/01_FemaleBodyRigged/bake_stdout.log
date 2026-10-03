@@ -1,0 +1,280 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\Andre\AppData\Local\UnrealBuildTool\Trace.uba with size 315b
+[2026.10.02-16.03.48:159][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.02-16.03.48:159][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.02-16.03.48:159][  0]LogTrace: Display: Control listening on port 1985
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_bake.py -unattended -nop4 -nosplash -NullRHI -NoZenLocalFallback -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/bake_ue.log""
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : loginid="26433460ffa2432bb05b0d79c2895497"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.02-16.03.48:159][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading Mac ini files took 0.03 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading IOS ini files took 0.03 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading Android ini files took 0.03 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading Unix ini files took 0.03 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading Windows ini files took 0.04 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+[2026.10.02-16.03.48:159][  0]LogConfig: Display: Loading Linux ini files took 0.04 seconds
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.02-16.03.48:159][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.02-16.03.48:159][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.02-16.03.48:159][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=380MiB, MaxMemoryAvailable=102094MiB
+[2026.10.02-16.03.48:159][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.02-16.03.48:159][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.02-16.03.48:159][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.02-16.03.48:159][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.02-16.03.48:419][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.02-16.03.48:490][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.02-16.03.48:496][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.02-16.03.48:496][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.02-16.03.48:496][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.02-16.03.48:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.02-16.03.48:512][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.02-16.03.48:521][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.02-16.03.48:530][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.02-16.03.48:539][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.02-16.03.48:540][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.02-16.03.48:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.02-16.03.48:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.02-16.03.48:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.02-16.03.48:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.02-16.03.48:550][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.02-16.03.48:552][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.02-16.03.48:782][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.02-16.03.48:783][  0]LogZenServiceInstance: Display: Launching zen utility 'D:/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.02-16.03.49:092][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.02-16.03.49:093][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.02-16.03.49:093][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.02-16.03.49:093][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.02-16.03.49:093][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\Andre\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --restrict-content-types --allow-external-oidctoken-exe=false --plugins-config "C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json" --security-config-path "C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/security-config.json" --owner-pid 11644  --child-id Zen_11644_Startup'
+[2026.10.02-16.03.51:535][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.02-16.03.51:536][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.02-16.03.51:541][  0]LogDerivedDataCache: Display: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=1075.90MBs, RandomWriteSpeed=228.37MBs. Assigned SpeedClass 'Local'
+[2026.10.02-16.03.51:544][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.02-16.03.51:544][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.02-16.03.51:544][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.02-16.03.51:550][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.02-16.03.51:550][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.02-16.03.51:847][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.02-16.03.52:026][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.02-16.03.52:026][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.02-16.03.52:059][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.02-16.03.52:061][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.02-16.03.52:072][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.02-16.03.52:072][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.02-16.03.52:072][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.02-16.03.52:086][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.02-16.03.52:086][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.02-16.03.52:086][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.02-16.03.52:086][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.02-16.03.52:172][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.02-16.03.52:172][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.02-16.03.52:172][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.02-16.03.52:172][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.02-16.03.52:224][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.02-16.03.52:226][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.526 ms
+[2026.10.02-16.03.52:563][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.02-16.03.52:566][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.02-16.03.53:044][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.02-16.03.53:044][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.02-16.03.53:187][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.02-16.03.53:190][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.02-16.03.53:190][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.02-16.03.53:190][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.02-16.03.53:190][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.02-16.03.53:259][  0]LogAssetRegistry: Display: Asset registry cache read as 120.4 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_C15ED4684D584A682E8F5B99D695922B.bin (memory-mapped=yes)
+[2026.10.02-16.03.53:259][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.069s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.02-16.03.53:281][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.02-16.03.53:312][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.02-16.03.53:557][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.02-16.03.53:658][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.02-16.03.53:685][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 27.519 ms
+[2026.10.02-16.03.53:685][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.02-16.03.53:686][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 1.148 ms (total: 28.668 ms)
+[2026.10.02-16.03.53:686][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_bake.py
+[2026.10.02-16.03.53:907][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.53:918][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.53:924][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.53:932][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.10.02-16.03.53:943][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity:AssetImportData
+[2026.10.02-16.03.53:945][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity (Required Memory Estimate: 20.53 MB)
+[2026.10.02-16.03.53:952][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45:AssetImportData
+[2026.10.02-16.03.53:952][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45 (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:959][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal:AssetImportData
+[2026.10.02-16.03.53:960][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:966][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach:AssetImportData
+[2026.10.02-16.03.53:967][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:974][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent:AssetImportData
+[2026.10.02-16.03.53:975][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:981][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch:AssetImportData
+[2026.10.02-16.03.53:982][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:985][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45, at AnimationSequence/caea52e25cf17d984f6a2de0311893d88080c1e3
+[2026.10.02-16.03.53:989][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance:AssetImportData
+[2026.10.02-16.03.53:990][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance (Required Memory Estimate: 3.95 MB)
+[2026.10.02-16.03.53:993][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal, at AnimationSequence/978a9bf5e96fd178c66c58c6ecdd91cc8eb98159
+[2026.10.02-16.03.54:000][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex:AssetImportData
+[2026.10.02-16.03.54:000][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach, at AnimationSequence/15467216b490e6bf7d364425433d349ac7492064
+[2026.10.02-16.03.54:001][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex (Required Memory Estimate: 15.00 MB)
+[2026.10.02-16.03.54:007][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent, at AnimationSequence/9d089bd816157aa21adeb94ca2093bc167ddda33
+[2026.10.02-16.03.54:008][  0]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex:AssetImportData
+[2026.10.02-16.03.54:009][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex (Required Memory Estimate: 15.00 MB)
+[2026.10.02-16.03.54:013][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:014][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch, at AnimationSequence/dbccad3946e7a9ff91f2584466ad018a095f7cd1
+[2026.10.02-16.03.54:018][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:021][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance, at AnimationSequence/9e6a634003bffff85c72c0ec027e2b74283d90c4
+[2026.10.02-16.03.54:021][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:024][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:130][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex, at AnimationSequence/f1958c5dfb6d6ef89d40e36c5ec239e27178830d
+[2026.10.02-16.03.54:132][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:133][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:133][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:133][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle (Required Memory Estimate: 0.00 MB)
+[2026.10.02-16.03.54:133][  0]LogAsyncCompilation: Display: AddQueuedWork [AnimationCompression] did not supply a RequiredMemory estimate. This is a bug, all asset types should provide an estimate. When no estimate is provided asset compilation is slowed as the queue has to operate very conservatively.
+[2026.10.02-16.03.54:133][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.10.02-16.03.54:133][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 0.00 MB)
+[2026.10.02-16.03.54:133][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks (Required Memory Estimate: 0.00 MB)
+[2026.10.02-16.03.54:134][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/fe18844714ac9f280981291596498b480c877ba1
+[2026.10.02-16.03.54:134][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/9787a3516605dbfe97464dde54dbd6908c3acbb4
+[2026.10.02-16.03.54:135][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle, at AnimationSequence/efdee54692cb189d27a79c647abc68d9b7637d57
+[2026.10.02-16.03.54:136][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks, at AnimationSequence/cd1e3542ecd564f334628ff204864f0c0a74a9b8
+[2026.10.02-16.03.54:146][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45 (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:147][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:148][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:148][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch (Required Memory Estimate: 0.20 MB)
+[2026.10.02-16.03.54:148][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:148][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:149][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:149][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:149][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:150][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch, at AnimationSequence/a58a0643b366385db968e91cb8455112b385faa5
+[2026.10.02-16.03.54:152][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity, at AnimationSequence/6a284a43d86702eb8783e5c4ebf5455a21ebbc9a
+[2026.10.02-16.03.54:152][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex, at AnimationSequence/5e726d2c9eba6251a10856fdbf120517a7d4601f
+[2026.10.02-16.03.54:154][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex, at AnimationSequence/5e726d2c9eba6251a10856fdbf120517a7d4601f
+[2026.10.02-16.03.54:171][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle (Required Memory Estimate: 41.85 MB)
+[2026.10.02-16.03.54:183][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd (Required Memory Estimate: 10.49 MB)
+[2026.10.02-16.03.54:201][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd (Required Memory Estimate: 10.67 MB)
+[2026.10.02-16.03.54:230][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd, at AnimationSequence/42f3de2e4f6cf1faaf49acd98227e28ed97ccdee
+[2026.10.02-16.03.54:254][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd, at AnimationSequence/bb064f684a5241bdeefee9eb2347f4f826510b41
+[2026.10.02-16.03.54:256][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks (Required Memory Estimate: 52.30 MB)
+[2026.10.02-16.03.54:305][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity (Required Memory Estimate: 7.90 MB)
+[2026.10.02-16.03.54:315][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45 (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:323][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:330][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45, at AnimationSequence/71bed111f6f20aa4b1f1a2cf95fdca5fc64650a5
+[2026.10.02-16.03.54:334][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:339][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal, at AnimationSequence/fc60ec533d752e058ae3529150ca5daf3aec6106
+[2026.10.02-16.03.54:344][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:354][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:356][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach, at AnimationSequence/9ae0dcfd4b8a74fee447d2e6f65fb47ed28bf16b
+[2026.10.02-16.03.54:357][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent, at AnimationSequence/04d567d8d7504c84d1791b955dbd9514db569d1c
+[2026.10.02-16.03.54:363][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle, at AnimationSequence/83ff32e16921e33a696b1620ef4c2e25f9557e3c
+[2026.10.02-16.03.54:364][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance (Required Memory Estimate: 1.62 MB)
+[2026.10.02-16.03.54:375][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch, at AnimationSequence/943c29db21de67789225a80a771308d099edb5bc
+[2026.10.02-16.03.54:382][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance, at AnimationSequence/4cef3680f2f6c3e7d01bd82226ffc5ed5b7c1748
+[2026.10.02-16.03.54:408][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity, at AnimationSequence/a30dc94b1d9341f8a2866cc7ae23a2bb80629b6c
+[2026.10.02-16.03.54:412][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex (Required Memory Estimate: 5.81 MB)
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P11_reference_digit_identity
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P04_arms_45
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P05_arms_horizontal
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P06_arms_overhead_full_reach
+[2026.10.02-16.03.54:442][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P07_elbows_bent
+[2026.10.02-16.03.54:443][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P08_strong_knee_bend_crouch
+[2026.10.02-16.03.54:443][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P09_wide_stance
+[2026.10.02-16.03.54:443][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P12_finger_flex
+[2026.10.02-16.03.54:443][  0]LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P13_thumb_opposition_flex
+[2026.10.02-16.03.54:443][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex (Required Memory Estimate: 5.81 MB)
+[2026.10.02-16.03.54:459][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex, at AnimationSequence/04152c24dd6311b717930d5151b854f6b00cd2d4
+[2026.10.02-16.03.54:472][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks, at AnimationSequence/1ad1917910ca77a5ce2d93c2ecca2bdf0e48a92b
+[2026.10.02-16.03.54:496][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex, at AnimationSequence/8e27dc1263d82d5a5a80f51b89eabc2f4c4afb9d
+[2026.10.02-16.03.54:506][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.02-16.03.54:532][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.02-16.03.54:532][  0]LogInit: Display: 
+[2026.10.02-16.03.54:532][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.02-16.03.54:532][  0]LogInit: Display: -----------------------------------
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Idle.MM_Idle:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MF_Walk_Fwd.MF_Walk_Fwd:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/MM_Run_Fwd.MM_Run_Fwd:FbxAnimSequenceImportData_0
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/JumpingJacks.JumpingJacks:FbxAnimSequenceImportData_17
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P11_reference_digit_identity.P11_reference_digit_identity:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P04_arms_45.P04_arms_45:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P05_arms_horizontal.P05_arms_horizontal:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P06_arms_overhead_full_reach.P06_arms_overhead_full_reach:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P07_elbows_bent.P07_elbows_bent:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P08_strong_knee_bend_crouch.P08_strong_knee_bend_crouch:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P09_wide_stance.P09_wide_stance:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P12_finger_flex.P12_finger_flex:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/Animations/Final/InPlace/P13_thumb_opposition_flex.P13_thumb_opposition_flex:AssetImportData
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Idle
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MF_Walk_Fwd
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: MM_Run_Fwd
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: JumpingJacks
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P11_reference_digit_identity
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P04_arms_45
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P05_arms_horizontal
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P06_arms_overhead_full_reach
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P07_elbows_bent
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P08_strong_knee_bend_crouch
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P09_wide_stance
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P12_finger_flex
+[2026.10.02-16.03.54:532][  0]LogInit: Display: LogTemp: Warning: No animation curves found for retargeting in Anim Sequence: P13_thumb_opposition_flex
+[2026.10.02-16.03.54:532][  0]LogInit: Display: 
+[2026.10.02-16.03.54:532][  0]LogInit: Display: Success - 0 error(s), 26 warning(s)
+[2026.10.02-16.03.54:532][  0]LogInit: Display: 
+Execution of commandlet took:  0.88 seconds, PeakPhysMemoryMB=1893 MB, PeakVirtMemoryMB=1795 MB
+[2026.10.02-16.03.54:624][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.02-16.03.54:628][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.02-16.03.54:628][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.02-16.03.54:755][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.10.02-16.03.54:772][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/SourceControl/UncontrolledChangelists.json

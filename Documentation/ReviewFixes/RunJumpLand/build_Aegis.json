@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "subjects": {
+    "Aegis": {
+      "level": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/L_AegisMovementReview",
+      "character": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewCharacter.BP_AegisMovementReviewCharacter",
+      "anim_blueprint": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview.ABP_AegisMovementReview",
+      "game_mode": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/BP_AegisMovementReviewGameMode.BP_AegisMovementReviewGameMode",
+      "mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+      "stature_cm": 179.91210982641414,
+      "original_predicate_node": "/Game/MetaHumanTo3DCharacter/ReviewFixes/RunJumpLand/Aegis/ABP_AegisMovementReview.ABP_AegisMovementReview:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_2",
+      "speed_guard": 5
+    }
+  },
+  "correction": "Landing = original LandTime>0 AND !Airborne AND Speed<=5; grounded speed boundary matches retained idle/walk selector. Existing 0.1 s air/ground and landing blends retained.",
+  "animation_rebakes": 0
+}

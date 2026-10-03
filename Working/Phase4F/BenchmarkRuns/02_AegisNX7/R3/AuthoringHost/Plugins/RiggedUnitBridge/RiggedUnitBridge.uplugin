@@ -1,0 +1,1 @@
+{"FileVersion":3,"Version":1,"VersionName":"1.0.0","FriendlyName":"Derived rig unit conversion native API bridge","CanContainContent":false,"Modules":[{"Name":"RiggedUnitBridge","Type":"Editor","LoadingPhase":"Default"}],"Plugins":[{"Name":"GeometryScripting","Enabled":true}]}

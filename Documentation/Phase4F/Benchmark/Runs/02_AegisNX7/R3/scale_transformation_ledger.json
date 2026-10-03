@@ -1,0 +1,126 @@
+{
+  "reported_18_classification": "baked_into_geometry_or_reference",
+  "evidence": "Source vertices already span approximately 1.799121 metres in source local Z; no standalone 1.8 model/import/scene factor exists. Historical multiplication by exactly 1.8 cannot be established without an unscaled predecessor.",
+  "stature_classification": "intrinsic_size_already_correct",
+  "additional_stature_normalisation": false,
+  "source_units": {
+    "UpAxis": [
+      1
+    ],
+    "UpAxisSign": [
+      1
+    ],
+    "FrontAxis": [
+      2
+    ],
+    "FrontAxisSign": [
+      1
+    ],
+    "CoordAxis": [
+      0
+    ],
+    "CoordAxisSign": [
+      1
+    ],
+    "OriginalUpAxis": [
+      -1
+    ],
+    "OriginalUpAxisSign": [
+      1
+    ],
+    "UnitScaleFactor": [
+      100.0
+    ],
+    "OriginalUnitScaleFactor": [
+      100.0
+    ],
+    "AmbientColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "DefaultCamera": [
+      "Producer Perspective"
+    ],
+    "TimeMode": [
+      11
+    ],
+    "TimeSpanStart": [
+      0
+    ],
+    "TimeSpanStop": [
+      46186158000
+    ],
+    "CustomFrameRate": [
+      24.0
+    ]
+  },
+  "import_settings": {
+    "import_uniform_scale": "1.0",
+    "import_translation": "<Struct 'Vector' (0x000001801BBBA920) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+    "import_rotation": "<Struct 'Rotator' (0x000001801BBBA938) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "convert_scene": "True",
+    "convert_scene_unit": "False",
+    "force_front_x_axis": "False"
+  },
+  "original_root_reference": {
+    "translation": [
+      0.35139443352818484,
+      1.0541725903749466,
+      6.8637845629382355e-06
+    ],
+    "rotation_xyzw": [
+      0.5000000346961812,
+      0.4999999215208787,
+      -0.4999999653038172,
+      -0.5000000784791082
+    ],
+    "scale": [
+      100.00000000000253,
+      100.00000000000036,
+      100.00000000000296
+    ]
+  },
+  "original_scene": {
+    "actor_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "component_relative_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "component_world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "parent_actor": null,
+    "parent_contribution": [
+      1,
+      1,
+      1
+    ],
+    "effective_world_height_cm": 179.91210982641414,
+    "intrinsic_height_cm": 179.91210982641414
+  },
+  "final_intrinsic_height_cm": 179.91210982641414,
+  "final_root_reference_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "final_actor_scale": [
+    1,
+    1,
+    1
+  ],
+  "final_component_scale": [
+    1,
+    1,
+    1
+  ],
+  "effective_final_reference_height_cm": 179.91210982641414
+}

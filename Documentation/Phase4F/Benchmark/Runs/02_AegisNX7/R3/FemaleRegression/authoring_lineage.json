@@ -1,0 +1,6 @@
+{
+  "source": "Documentation\\Phase4F\\Benchmark\\Runs\\01_FemaleBodyRigged\\R2_EndToEnd\\authoring_result.json",
+  "source_sha256": "189ac8ca5abb5c1c67b34c85216c51fb8b7f59e066dc40e23d2b8b235d0b6ca4",
+  "reused_saved_mesh_skeleton_and_bakes": true,
+  "only_metadata_binding_change": "new proof map namespace"
+}

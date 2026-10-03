@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "clips": [
+    {
+      "role": "neutral",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native.Reference_Native",
+      "source": null,
+      "duration_s": 1.0,
+      "frame_rate": [
+        60,
+        1
+      ],
+      "keys": 61,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination"
+    },
+    {
+      "role": "idle",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle.MM_Idle",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+      "duration_s": 7.566666603088379,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 228,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "walk",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+      "duration_s": 1.8666666746139526,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 57,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "run",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd",
+      "duration_s": 1.899999976158142,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 58,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    }
+  ],
+  "validation": "Saved asset type, skeleton, duration and key data; native finite/scale verification follows in fresh process"
+}

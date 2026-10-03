@@ -1,0 +1,13 @@
+{
+  "profile_only_changes": [
+    "input_mesh",
+    "output_namespace",
+    "working/evidence paths"
+  ],
+  "algorithm_changes": [],
+  "accepted_sources": {
+    "Working\\Phase4F\\BenchmarkRuns\\01_FemaleBodyRigged\\R2\\author.py": "7cd6282fa5dfc624ca7a791676ead5b1a0d8cd6a16bf37a868f8b8969d07f84d",
+    "Working\\Phase4F\\BenchmarkRuns\\01_FemaleBodyRigged\\R2\\playback.py": "522eb5db4ecccd8f09f2ed6bda345fec1abb96d43d023b141300fe330974a55e",
+    "Working\\Phase4F\\rigged_unit_canonicalisation.py": "3456a0cd37d9357916dd29d7f3637c540a7e1def4db6a4dcd82ffab918f33ed2"
+  }
+}

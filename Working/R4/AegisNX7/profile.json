@@ -1,0 +1,16 @@
+{
+  "version": "phase4f.animation-library/1.0.0",
+  "evidence_directory": "Documentation/R4/AegisNX7",
+  "output_namespace": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4",
+  "animation_subdirectory": "Animations/LibraryV1",
+  "destination_mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+  "destination_skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+  "source_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+  "accepted_retargeter": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/RTG_MannyToDestination",
+  "discovery_roots": ["/Game/Characters/Mannequins", "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins"],
+  "existing_review_namespace": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement",
+  "root_bone": "root",
+  "pelvis_bone": "pelvis",
+  "review_walk_speed": 300,
+  "review_run_speed": 600
+}

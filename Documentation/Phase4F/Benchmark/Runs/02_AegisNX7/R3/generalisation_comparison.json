@@ -1,0 +1,20 @@
+{
+  "Female_Body_Rigged": {
+    "height_cm": 99.95117324217154,
+    "bones": 61,
+    "vertices": 27699,
+    "triangles": 52540,
+    "unit_factor": 100.0,
+    "bindings": 23,
+    "native_regression": "PASS"
+  },
+  "Aegis_NX7": {
+    "height_cm": 179.91210982641414,
+    "bones": 61,
+    "vertices": 26230,
+    "triangles": 51785,
+    "unit_factor": 100.00000000000193,
+    "bindings": 23,
+    "native": "PASS"
+  }
+}

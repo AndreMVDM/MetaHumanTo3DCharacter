@@ -1,0 +1,195 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject" -log="E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: E:\Repo\UE\Projects\MetaHumanTo3DCharacter\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\Andre\AppData\Local\UnrealBuildTool\Trace.uba with size 315b
+[2026.10.03-10.35.42:147][  0]LogInit: Display: Running engine for game: MHTo3DCharacter
+[2026.10.03-10.35.42:147][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.03-10.35.42:147][  0]LogTrace: Display: Control listening on port 39378
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.8653] "
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : commandline="" E:/Repo/UE/Projects/MetaHumanTo3DCharacter/MHTo3DCharacter.uproject -run=pythonscript -script=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/discover.py -unattended -NoSound -NoSourceControl -NoZenLocalFallback -abslog=E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/discovery_full.log""
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : loginid="26433460ffa2432bb05b0d79c2895497"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.03-10.35.42:147][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading Android ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading Mac ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading IOS ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading Windows ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading Unix ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogConfig: Display: Loading Linux ini files took 0.04 seconds
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-10.35.42:147][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=379MiB, MaxMemoryAvailable=102094MiB
+[2026.10.03-10.35.42:147][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.03-10.35.42:147][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.03-10.35.42:147][  0]LogHAL: Display: Platform has ~ 64 GB [68399423488 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.03-10.35.42:147][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.03-10.35.42:147][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-10.35.42:420][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.03-10.35.42:494][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.03-10.35.42:499][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.03-10.35.42:499][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.03-10.35.42:499][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.03-10.35.42:499][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.03-10.35.42:499][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.03-10.35.42:499][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.03-10.35.42:499][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.03-10.35.42:500][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.03-10.35.42:500][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.03-10.35.42:517][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.03-10.35.42:526][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.03-10.35.42:534][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.03-10.35.42:543][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.03-10.35.42:544][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.03-10.35.42:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.03-10.35.42:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.03-10.35.42:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.03-10.35.42:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.03-10.35.42:553][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.03-10.35.42:557][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.03-10.35.42:789][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.03-10.35.42:790][  0]LogZenServiceInstance: Display: Launching zen utility 'D:/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.03-10.35.43:200][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.03-10.35.43:201][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-10.35.43:201][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-10.35.43:201][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Andre/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.03-10.35.44:010][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.03-10.35.44:011][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.03-10.35.44:018][  0]LogDerivedDataCache: Display: C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=896.69MBs, RandomWriteSpeed=182.56MBs. Assigned SpeedClass 'Local'
+[2026.10.03-10.35.44:020][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.03-10.35.44:020][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.03-10.35.44:020][  0]LogShaderCompilers: Display: Using 29 local workers for shader compilation
+[2026.10.03-10.35.44:026][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.03-10.35.44:026][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-10.35.44:324][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.03-10.35.44:504][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.03-10.35.44:504][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.03-10.35.44:538][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.03-10.35.44:540][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-10.35.44:550][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.03-10.35.44:550][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.03-10.35.44:550][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.03-10.35.44:564][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.03-10.35.44:564][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.03-10.35.44:564][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.03-10.35.44:564][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.03-10.35.44:653][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-10.35.44:653][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-10.35.44:653][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.03-10.35.44:653][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.03-10.35.44:709][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.03-10.35.44:711][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.571 ms
+[2026.10.03-10.35.44:943][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.03-10.35.44:945][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.03-10.35.45:301][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-10.35.45:301][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-10.35.45:479][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/Repo/UE/Projects/MetaHumanTo3DCharacter/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2026.10.03-10.35.45:483][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.03-10.35.45:483][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.03-10.35.45:483][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.03-10.35.45:483][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.03-10.35.45:551][  0]LogAssetRegistry: Display: Asset registry cache read as 120.6 MiB from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_B2E9B32A4E98C4E5324E52B17C938393.bin (memory-mapped=yes)
+[2026.10.03-10.35.45:551][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.069s loading caches from E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Intermediate/CachedAssetRegistry.
+[2026.10.03-10.35.45:581][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.03-10.35.45:613][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.03-10.35.45:845][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.03-10.35.45:946][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.03-10.35.45:952][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 6.467 ms
+[2026.10.03-10.35.45:952][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.03-10.35.45:975][  0]LogPython: Display: Running start-up script D:/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 23.275 ms (total: 29.742 ms)
+[2026.10.03-10.35.45:976][  0]LogPythonScriptCommandlet: Display: Running Python script: E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/R4/AegisNX7/discover.py
+[2026.10.03-10.35.45:987][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/John/Authoring/MHC_JohnDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-10.35.45:987][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Jill/Authoring/MHC_JillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-10.35.45:987][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4C/Donor/MHC_LaraDonor_combined.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-10.35.45:988][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Jane/Authoring/MHC_JaneDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-10.35.45:988][  0]LogAssetRegistry: Display: Package E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Content/MetaHumanTo3DCharacter/Phase4F/Bill/Authoring/MHC_BillDonor.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2026.10.03-10.35.46:117][  0]LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+[2026.10.03-10.35.46:118][  0]LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.002s
+[2026.10.03-10.35.46:181][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2026.10.03-10.35.46:431][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Back_01.MM_Death_Back_01 (Required Memory Estimate: 9.15 MB)
+[2026.10.03-10.35.46:438][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_01.MM_Death_Front_01 (Required Memory Estimate: 9.15 MB)
+[2026.10.03-10.35.46:446][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_02.MM_Death_Front_02 (Required Memory Estimate: 9.42 MB)
+[2026.10.03-10.35.46:453][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_03.MM_Death_Front_03 (Required Memory Estimate: 7.82 MB)
+[2026.10.03-10.35.46:459][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Left_01.MM_Death_Left_01 (Required Memory Estimate: 8.08 MB)
+[2026.10.03-10.35.46:467][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Right_01.MM_Death_Right_01 (Required Memory Estimate: 9.15 MB)
+[2026.10.03-10.35.46:483][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple'
+[2026.10.03-10.35.46:487][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS1.MF_Pistol_Idle_ADS1 (Required Memory Estimate: 130.10 MB)
+[2026.10.03-10.35.46:488][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Back_01.MM_Death_Back_01, at AnimationSequence/18e2f2fd7db72bcd1aee0b79b1b3b39636d0a2f3
+[2026.10.03-10.35.46:493][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Heroes/Mannequin/Meshes/SKM_Quinn.SKM_Quinn'
+[2026.10.03-10.35.46:493][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD.MF_Pistol_Idle_ADS_AO_CD (Required Memory Estimate: 1.54 MB)
+[2026.10.03-10.35.46:501][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_03.MM_Death_Front_03, at AnimationSequence/363332959bd234e06e5d3c4f21ab44182c8682a2
+[2026.10.03-10.35.46:503][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_01.MM_Death_Front_01, at AnimationSequence/4aa4bb2f9de3b85d89388a1f4fb017f8498c5441
+[2026.10.03-10.35.46:504][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD.MF_Pistol_Idle_ADS_AO_CD, at AnimationSequence/6874257bce3db0a6608fde415e08e4b78c4ba993
+[2026.10.03-10.35.46:506][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU.MF_Pistol_Idle_ADS_AO_CU (Required Memory Estimate: 1.54 MB)
+[2026.10.03-10.35.46:514][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Front_02.MM_Death_Front_02, at AnimationSequence/6189507ed16eb61526d1b41770f20240885a9702
+[2026.10.03-10.35.46:516][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU.MF_Pistol_Idle_ADS_AO_CU, at AnimationSequence/ed3193fd433cb467e7fe3e8104c9208d84fc8459
+[2026.10.03-10.35.46:517][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Left_01.MM_Death_Left_01, at AnimationSequence/6cea62764293e93a770aec7db3d916a4dc12d823
+[2026.10.03-10.35.46:519][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd.MF_Pistol_Jog_Bwd (Required Memory Estimate: 15.40 MB)
+[2026.10.03-10.35.46:527][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Left.MF_Pistol_Jog_Bwd_Left (Required Memory Estimate: 0.42 MB)
+[2026.10.03-10.35.46:532][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Left.MF_Pistol_Jog_Bwd_Left, at AnimationSequence/6aed15f153b9cb12eda9f5f1fbc2fdcce68caeed
+[2026.10.03-10.35.46:537][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Right.MF_Pistol_Jog_Bwd_Right (Required Memory Estimate: 0.42 MB)
+[2026.10.03-10.35.46:537][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Death/MM_Death_Right_01.MM_Death_Right_01, at AnimationSequence/637af8a4202af4dd5a59ce74983861ecc21d46d0
+[2026.10.03-10.35.46:540][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Right.MF_Pistol_Jog_Bwd_Right, at AnimationSequence/da5763d9905ea996c29e4b1b5dc79ba23ed9eff2
+[2026.10.03-10.35.46:549][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd.MF_Pistol_Jog_Fwd (Required Memory Estimate: 15.87 MB)
+[2026.10.03-10.35.46:556][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Left.MF_Pistol_Jog_Fwd_Left (Required Memory Estimate: 0.43 MB)
+[2026.10.03-10.35.46:559][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Left.MF_Pistol_Jog_Fwd_Left, at AnimationSequence/ab6438c1bdc2cfc801ab09a7fa03a480dc75f0ae
+[2026.10.03-10.35.46:564][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Right.MF_Pistol_Jog_Fwd_Right (Required Memory Estimate: 0.43 MB)
+[2026.10.03-10.35.46:568][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Right.MF_Pistol_Jog_Fwd_Right, at AnimationSequence/e9717385fc7065697faf3fa40dda6401190cfbd0
+[2026.10.03-10.35.46:578][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Left.MF_Pistol_Jog_Left (Required Memory Estimate: 15.40 MB)
+[2026.10.03-10.35.46:591][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Right.MF_Pistol_Jog_Right (Required Memory Estimate: 14.92 MB)
+[2026.10.03-10.35.46:599][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd.MF_Pistol_Jog_Bwd, at AnimationSequence/db731b5af869bb7020e63d8609cb0f41aa0cdc82
+[2026.10.03-10.35.46:600][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jump/MM_Pistol_Jump_Fall_Loop.MM_Pistol_Jump_Fall_Loop (Required Memory Estimate: 16.38 MB)
+[2026.10.03-10.35.46:612][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jump/MM_Pistol_Jump_RecoveryAdditive.MM_Pistol_Jump_RecoveryAdditive (Required Memory Estimate: 6.02 MB)
+[2026.10.03-10.35.46:633][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.03-10.35.46:633][  0]LogInit: Display: 
+[2026.10.03-10.35.46:633][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.03-10.35.46:633][  0]LogInit: Display: -----------------------------------
+[2026.10.03-10.35.46:633][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple'
+[2026.10.03-10.35.46:633][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Heroes/Mannequin/Meshes/SKM_Quinn.SKM_Quinn'
+[2026.10.03-10.35.46:633][  0]LogInit: Display: 
+[2026.10.03-10.35.46:633][  0]LogInit: Display: Success - 0 error(s), 2 warning(s)
+[2026.10.03-10.35.46:633][  0]LogInit: Display: 
+
+Execution of commandlet took:  0.69 seconds, PeakPhysMemoryMB=2156 MB, PeakVirtMemoryMB=1985 MB
+[2026.10.03-10.35.46:651][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Left.MF_Pistol_Jog_Left, at AnimationSequence/fbcb0fd4a1528fad3ba64a0ba0cbc25e182845e2
+[2026.10.03-10.35.46:741][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.03-10.35.46:743][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.03-10.35.46:743][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.03-10.35.46:888][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

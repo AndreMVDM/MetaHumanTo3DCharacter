@@ -1,0 +1,876 @@
+{
+  "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+  "status": "PASS",
+  "passed": 20,
+  "total": 20,
+  "cases": [
+    {
+      "name": "bound_material_and_texture_through_engine_parent",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "PASS",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ]
+        },
+        "errors": [],
+        "foreign_game_packages": []
+      }
+    },
+    {
+      "name": "unbound_material_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [],
+        "appearance_packages": [],
+        "owned_project_appearance": [],
+        "classes": {},
+        "errors": [],
+        "foreign_game_packages": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ]
+      }
+    },
+    {
+      "name": "missing_asset_type_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": []
+        },
+        "errors": [
+          {
+            "package": "/Game/Input/Tex",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": []
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Input/Tex"
+        ]
+      }
+    },
+    {
+      "name": "unclassified_material_root_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Unknown"
+        ],
+        "appearance_packages": [
+          "/Game/Unknown"
+        ],
+        "owned_project_appearance": [],
+        "classes": {
+          "/Game/Unknown": []
+        },
+        "errors": [
+          {
+            "package": "/Game/Unknown",
+            "reason": "invalid_or_unclassified_material_slot"
+          },
+          {
+            "package": "/Game/Unknown",
+            "reason": "missing_dependency_graph_node"
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Unknown"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_SkeletalMesh",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "SkeletalMesh"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "SkeletalMesh"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_Skeleton",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "Skeleton"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "Skeleton"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_AnimSequence",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "AnimSequence"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "AnimSequence"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_IKRigDefinition",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "IKRigDefinition"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "IKRigDefinition"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_IKRetargeter",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "IKRetargeter"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "IKRetargeter"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_Blueprint",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "Blueprint"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "Blueprint"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "appearance_must_not_hide_Unknown",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Game/Other/Asset"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Game/Other/Asset": [
+            "Unknown"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Other/Asset",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "Unknown"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Other/Asset"
+        ]
+      }
+    },
+    {
+      "name": "same_namespace_unbound_texture_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ]
+        },
+        "errors": [],
+        "foreign_game_packages": [
+          "/Game/Destination/Unbound"
+        ]
+      }
+    },
+    {
+      "name": "mixed_package_ownership_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D",
+            "AnimSequence"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Input/Tex",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "AnimSequence",
+              "Texture2D"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Input/Tex"
+        ]
+      }
+    },
+    {
+      "name": "missing_graph_node_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Game/Input/Mat",
+          "/Game/Input/Missing"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat"
+        ],
+        "classes": {
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Missing": []
+        },
+        "errors": [
+          {
+            "package": "/Game/Input/Missing",
+            "reason": "missing_dependency_graph_node"
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Input/Missing"
+        ]
+      }
+    },
+    {
+      "name": "engine_only_body_material",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "PASS",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Engine/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Mat"
+        ],
+        "owned_project_appearance": [],
+        "classes": {
+          "/Engine/Mat": [
+            "Material"
+          ]
+        },
+        "errors": [],
+        "foreign_game_packages": []
+      }
+    },
+    {
+      "name": "no_material_destination",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "PASS",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [],
+        "appearance_packages": [],
+        "owned_project_appearance": [],
+        "classes": {},
+        "errors": [],
+        "foreign_game_packages": []
+      }
+    },
+    {
+      "name": "plugin_foreign_mesh_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex",
+          "/Plugin/Donor"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ],
+          "/Plugin/Donor": [
+            "SkeletalMesh"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Plugin/Donor",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "SkeletalMesh"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Plugin/Donor"
+        ]
+      }
+    },
+    {
+      "name": "unclassified_plugin_material_parent_rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Engine/Parent",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": []
+          }
+        ],
+        "foreign_game_packages": [
+          "/Engine/Parent"
+        ]
+      }
+    },
+    {
+      "name": "ue_transient_container_is_not_persisted_content",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "PASS",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Engine/Transient",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Engine/Transient": [],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ]
+        },
+        "errors": [],
+        "foreign_game_packages": []
+      }
+    },
+    {
+      "name": "transient_must_not_hide_foreign_mesh",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "passed": true,
+      "certificate": {
+        "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+        "status": "FAIL",
+        "explicit_runtime_seeds": [
+          "/Game/Destination/Mesh"
+        ],
+        "bound_material_roots": [
+          "/Game/Input/Mat"
+        ],
+        "appearance_packages": [
+          "/Engine/Parent",
+          "/Engine/Transient",
+          "/Game/Donor",
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "owned_project_appearance": [
+          "/Game/Input/Mat",
+          "/Game/Input/Tex"
+        ],
+        "classes": {
+          "/Engine/Parent": [
+            "Material"
+          ],
+          "/Engine/Transient": [],
+          "/Game/Donor": [
+            "SkeletalMesh"
+          ],
+          "/Game/Input/Mat": [
+            "MaterialInstanceConstant"
+          ],
+          "/Game/Input/Tex": [
+            "Texture2D"
+          ]
+        },
+        "errors": [
+          {
+            "package": "/Game/Donor",
+            "reason": "unsupported_or_unclassified_appearance_dependency",
+            "types": [
+              "SkeletalMesh"
+            ]
+          }
+        ],
+        "foreign_game_packages": [
+          "/Game/Donor"
+        ]
+      }
+    }
+  ]
+}

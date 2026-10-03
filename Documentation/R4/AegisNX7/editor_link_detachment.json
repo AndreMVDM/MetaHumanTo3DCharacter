@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "removed": [
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_01.MM_Attack_01",
+      "links": [
+        {
+          "property": "asset_user_data",
+          "type": "/Script/LevelSequence.AnimSequenceLevelSequenceLink",
+          "source_sequence": "<Struct 'SoftObjectPath' (0x000001939788A8B0) {}>"
+        }
+      ]
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_02.MM_Attack_02",
+      "links": [
+        {
+          "property": "asset_user_data",
+          "type": "/Script/LevelSequence.AnimSequenceLevelSequenceLink",
+          "source_sequence": "<Struct 'SoftObjectPath' (0x000001939788A290) {}>"
+        }
+      ]
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_Attack_03.MM_Attack_03",
+      "links": [
+        {
+          "property": "asset_user_data",
+          "type": "/Script/LevelSequence.AnimSequenceLevelSequenceLink",
+          "source_sequence": "<Struct 'SoftObjectPath' (0x000001939788DC50) {}>"
+        }
+      ]
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Actions/MM_ChargedAttack.MM_ChargedAttack",
+      "links": [
+        {
+          "property": "asset_user_data",
+          "type": "/Script/LevelSequence.AnimSequenceLevelSequenceLink",
+          "source_sequence": "<Struct 'SoftObjectPath' (0x000001939757BAC0) {}>"
+        }
+      ]
+    },
+    {
+      "path": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_WallJump.MM_WallJump",
+      "links": [
+        {
+          "property": "asset_user_data",
+          "type": "/Script/LevelSequence.AnimSequenceLevelSequenceLink",
+          "source_sequence": "<Struct 'SoftObjectPath' (0x0000019399D95C90) {}>"
+        }
+      ]
+    }
+  ]
+}

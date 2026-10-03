@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "method": "Duplicate accepted R4 review design; replace every destination binding before saving; source untouched",
+  "assets": {
+    "level": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/L_FemaleBodyMovementReview",
+    "character": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/BP_FemaleBodyMovementReviewCharacter.BP_FemaleBodyMovementReviewCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/ABP_FemaleBodyMovementReview.ABP_FemaleBodyMovementReview",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/ReviewV1/BP_FemaleBodyMovementReviewGameMode.BP_FemaleBodyMovementReviewGameMode"
+  },
+  "sequence_players": [
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle.MM_Idle",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.MM_Idle__43d674e1"
+    },
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.MF_Walk_Fwd__ce1673d1"
+    },
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.MM_Run_Fwd__a4f6d689"
+    },
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump"
+    },
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop"
+    },
+    {
+      "old": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Animations/LibraryV1/Jump/MM_Land.MM_Land",
+      "new": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+    }
+  ],
+  "clips": {
+    "MM_Idle": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Idle__43d674e1.MM_Idle__43d674e1",
+    "MF_Walk_Fwd": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MF_Walk_Fwd__ce1673d1.MF_Walk_Fwd__ce1673d1",
+    "MM_Run_Fwd": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Locomotion/MM_Run_Fwd__a4f6d689.MM_Run_Fwd__a4f6d689",
+    "MM_Jump": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Jump.MM_Jump",
+    "MM_Fall_Loop": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Fall_Loop.MM_Fall_Loop",
+    "MM_Land": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/Animations/LibraryV1/Jump/MM_Land.MM_Land"
+  },
+  "reference_height_cm": 99.95117324217154,
+  "capsule_half_height_cm": 49.97558662108577,
+  "capsule_radius_cm": 18.990722916012594,
+  "spawn_z_cm": 51.97558662108577,
+  "walk_cm_s": 300,
+  "run_cm_s": 600,
+  "jump_velocity_cm_s": 420,
+  "floor_z_cm": 0,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "original_review_assets_modified": false,
+  "geometry_or_stature_modified": false
+}

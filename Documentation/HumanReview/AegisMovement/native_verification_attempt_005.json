@@ -1,0 +1,394 @@
+{
+  "status": "FAIL",
+  "pid": 29728,
+  "native_normal_PIE": true,
+  "input_method": "UE Input.+key / Input.-key through native PlayerController InputKey; no direct pawn manipulation",
+  "phases": [
+    {
+      "name": "Idle",
+      "status": "PASS",
+      "keys": {},
+      "translation_cm": 0.0,
+      "peak_speed_cm_s": 0.0,
+      "pose_excursion_cm": {
+        "pelvis": 0.43013266623988045,
+        "hand_l": 5.184906094922899,
+        "hand_r": 1.6438125181436605,
+        "ball_l": 0.0745138960852152,
+        "ball_r": 0.05748082566666138
+      },
+      "first": {
+        "t": 0.4000000059604645,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.4172044488114262,
+            -1.0793045543396298,
+            97.37529684441498
+          ],
+          "hand_l": [
+            25.727756524608882,
+            17.350890859085208,
+            91.48036335128359
+          ],
+          "hand_r": [
+            -25.387554319491002,
+            -4.293001223300816,
+            91.58701489332825
+          ],
+          "ball_l": [
+            19.0245999873191,
+            25.340161477264022,
+            3.7734302965890913
+          ],
+          "ball_r": [
+            -20.91678795595054,
+            -9.975175520476032,
+            3.4670410285156086
+          ]
+        },
+        "player_times": {
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.4000000059604645
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "last": {
+        "t": 2.1333338022232056,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.5742150734358527,
+            -1.3106147156430703,
+            97.46415640694906
+          ],
+          "hand_l": [
+            27.404948367181603,
+            16.313984333834135,
+            91.12452601612675
+          ],
+          "hand_r": [
+            -25.594590868289036,
+            -3.653594014283751,
+            92.28933801452669
+          ],
+          "ball_l": [
+            18.968867834576457,
+            25.318100152464805,
+            3.823091868076572
+          ],
+          "ball_r": [
+            -20.856831846681295,
+            -9.9481997095601,
+            3.51028506522774
+          ]
+        },
+        "player_times": {
+          "2": 0.0,
+          "3": 0.0,
+          "4": 2.133333683013916
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "samples": 6
+    },
+    {
+      "name": "W_Walk",
+      "status": "PASS",
+      "keys": {
+        "W": 1
+      },
+      "translation_cm": 377.5003292351961,
+      "peak_speed_cm_s": 300.0,
+      "pose_excursion_cm": {
+        "pelvis": 8.869145140630495,
+        "hand_l": 39.96526441257744,
+        "hand_r": 35.67522188617872,
+        "ball_l": 87.19143162819124,
+        "ball_r": 57.56094449799602
+      },
+      "first": {
+        "t": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          92.0
+        ],
+        "speed": 0.0,
+        "anim_speed": 0.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            1.3361932606107276,
+            -1.1431134499024869,
+            97.42767264650396
+          ],
+          "hand_l": [
+            27.1296421151047,
+            15.719443544274343,
+            90.88315548695067
+          ],
+          "hand_r": [
+            -25.397564727937937,
+            -4.102206047310538,
+            91.99623415954218
+          ],
+          "ball_l": [
+            18.96048238683296,
+            25.319025338030226,
+            3.8069681067440335
+          ],
+          "ball_r": [
+            -20.845380892701655,
+            -9.935755148822178,
+            3.49098328601411
+          ]
+        },
+        "player_times": {
+          "2": 0.0,
+          "3": 0.0,
+          "4": 2.4666671752929688
+        },
+        "camera_position": [
+          -400.0,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "last": {
+        "t": 2.000256210565567,
+        "position": [
+          377.5003292351961,
+          0.0,
+          92.0
+        ],
+        "speed": 300.0,
+        "anim_speed": 300.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            -1.40058538519071,
+            -0.4741574212924323,
+            92.26705112668941
+          ],
+          "hand_l": [
+            26.714972978299866,
+            25.25690535178445,
+            98.38274495424093
+          ],
+          "hand_r": [
+            -30.683967001421408,
+            -15.840872348230347,
+            89.90633469714378
+          ],
+          "ball_l": [
+            3.5726234634474636,
+            -50.17743703245011,
+            14.050206631639302
+          ],
+          "ball_r": [
+            -5.61776124512949,
+            31.849605634903533,
+            3.058901721185097
+          ]
+        },
+        "player_times": {
+          "2": 0.0,
+          "3": 1.3333344459533691,
+          "4": 3.133589029312134
+        },
+        "camera_position": [
+          -22.49967076480391,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "samples": 9
+    },
+    {
+      "name": "Shift_W_Run",
+      "status": "PASS",
+      "keys": {
+        "W": 1,
+        "LeftShift": 1
+      },
+      "translation_cm": 796.463066750695,
+      "peak_speed_cm_s": 600.0,
+      "pose_excursion_cm": {
+        "pelvis": 17.2665374293011,
+        "hand_l": 35.63414177005406,
+        "hand_r": 36.54255956832844,
+        "ball_l": 91.16559162657009,
+        "ball_r": 59.416771065160134
+      },
+      "first": {
+        "t": 0.0,
+        "position": [
+          477.50041379928587,
+          0.0,
+          92.0
+        ],
+        "speed": 300.0,
+        "anim_speed": 300.0,
+        "max_walk_speed": 300.0,
+        "joints": {
+          "pelvis": [
+            -0.17536701466681892,
+            -3.6150600649621665,
+            89.08010818667384
+          ],
+          "hand_l": [
+            30.996648612043252,
+            -28.400080163834225,
+            91.4545080311219
+          ],
+          "hand_r": [
+            -28.21262390458933,
+            30.058520849367373,
+            96.40652550277848
+          ],
+          "ball_l": [
+            5.284490751069747,
+            57.86465617404021,
+            10.348244897972704
+          ],
+          "ball_r": [
+            -5.451603333676907,
+            -45.870203990478686,
+            3.4738937538525914
+          ]
+        },
+        "player_times": {
+          "2": 0.0,
+          "3": 1.6666680574417114,
+          "4": 3.133589029312134
+        },
+        "camera_position": [
+          77.50041379928587,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "last": {
+        "t": 2.0000011324882507,
+        "position": [
+          1273.9634805499809,
+          0.0,
+          92.0
+        ],
+        "speed": 600.0,
+        "anim_speed": 600.0,
+        "max_walk_speed": 600.0,
+        "joints": {
+          "pelvis": [
+            0.17884075339702754,
+            -15.526931977183045,
+            90.46128105573999
+          ],
+          "hand_l": [
+            28.9776584496175,
+            -8.775940269029885,
+            102.51603480518351
+          ],
+          "hand_r": [
+            -17.96243716724468,
+            21.562415389922542,
+            115.20756319055391
+          ],
+          "ball_l": [
+            6.197230572253046,
+            2.9836325324286026,
+            22.636198666811943
+          ],
+          "ball_r": [
+            -5.9153057065551025,
+            -67.32512393057917,
+            6.661796664514251
+          ]
+        },
+        "player_times": {
+          "2": 1.3333340883255005,
+          "3": 0.13333499431610107,
+          "4": 3.4669225215911865
+        },
+        "camera_position": [
+          873.9634805499809,
+          0.0,
+          112.0
+        ],
+        "control_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "samples": 9
+    }
+  ],
+  "loaded_level": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/L_AegisMovementReview.L_AegisMovementReview",
+  "possession": "PASS",
+  "character_count": 1,
+  "anim_instance": "ABP_AegisMovementReview_C",
+  "reference_height_cm": 179.91210982641414,
+  "asset_player_lengths": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 1.899999976158142,
+    "3": 1.8666666746139526,
+    "4": 7.566666603088379
+  },
+  "error": "Traceback (most recent call last):\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/HumanReview/AegisMovement/verify_and_handoff.py\", line 87, in tick\n    elif label in ['W_Walk','S_Backward','A_Left','D_Right']:require(250<peak<350 and translation>100 and max(excursion.values())>1 and max(x['anim_speed'] for x in steady)>5,'walk/direction input failed')\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:/Repo/UE/Projects/MetaHumanTo3DCharacter/Working/HumanReview/AegisMovement/verify_and_handoff.py\", line 10, in require\n    if not ok:raise ValueError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^\nValueError: walk/direction input failed\n",
+  "ending_PIE": true,
+  "PIE_stopped": true,
+  "editor_left_open": true,
+  "review_level_loaded": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/L_AegisMovementReview.L_AegisMovementReview",
+  "ready_to_press_Play": false
+}

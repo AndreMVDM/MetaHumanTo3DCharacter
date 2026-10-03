@@ -1,0 +1,508 @@
+{
+  "status": "PASS",
+  "mapping": {
+    "Root": "Root",
+    "Spine": "Spine",
+    "Neck": "Neck",
+    "Head": "Head",
+    "LeftClavicle": "LeftClavicle",
+    "LeftArm": "LeftArm",
+    "LeftLeg": "LeftLeg",
+    "LeftFoot": "LeftFoot",
+    "LeftThumb": "LeftThumb",
+    "LeftIndex": "LeftIndex",
+    "LeftMiddle": "LeftMiddle",
+    "LeftRing": "LeftRing",
+    "LeftPinky": "LeftPinky",
+    "RightClavicle": "RightClavicle",
+    "RightArm": "RightArm",
+    "RightLeg": "RightLeg",
+    "RightFoot": "RightFoot",
+    "RightThumb": "RightThumb",
+    "RightIndex": "RightIndex",
+    "RightMiddle": "RightMiddle",
+    "RightRing": "RightRing",
+    "RightPinky": "RightPinky"
+  },
+  "semantic_binding_count": 23,
+  "source_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_MannySource.IK_MannySource",
+  "target_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination",
+  "processor_initialised": true,
+  "configuration": {
+    "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/RTG_MannyToDestination.RTG_MannyToDestination",
+    "ops": [
+      {
+        "index": 0,
+        "name": "Pelvis Motion",
+        "enabled": true,
+        "settings": {
+          "type": "IKRetargetPelvisMotionOpSettings",
+          "text": "<Struct 'IKRetargetPelvisMotionOpSettings' (0x000002FCFFD0C780) {enabled: True, lod_threshold: -1, blend_to_absolute_offset: {x: 0.000000, y: 0.000000, z: 0.000000}, floor_constraint_weight: 0.000000, source_crotch_offset: 0.000000, target_crotch_offset: 0.000000, use_ground_falloff: False, ground_falloff_height_percent: 0.900000, rotation_alpha: 1.000000, rotation_offset_local: {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}, rotation_offset_global: {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}, translation_alpha: 1.000000, translation_offset_local: {x: 0.000000, y: 0.000000, z: 0.000000}, translation_offset_global: {x: 0.000000, y: 0.000000, z: 0.000000}, blend_to_source_translation: 0.000000, blend_to_source_translation_weights: {x: 1.000000, y: 1.000000, z: 1.000000}, scale_horizontal: 1.000000, scale_vertical: 1.000000, affect_ik_horizontal: 1.000000, affect_ik_vertical: 0.000000, debug_draw_size: 5.000000, debug_draw_thickness: 5.000000}>",
+          "affect_ik_horizontal": "1.0",
+          "affect_ik_vertical": "0.0",
+          "blend_to_absolute_offset": "<Struct 'Vector' (0x000002FCFFD0C7F0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "blend_to_source_translation": "0.0",
+          "blend_to_source_translation_weights": "<Struct 'Vector' (0x000002FCFFD0C8A8) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+          "debug_draw_size": "5.0",
+          "debug_draw_thickness": "5.0",
+          "enabled": "True",
+          "floor_constraint_weight": "0.0",
+          "ground_falloff_height_percent": "0.8999999761581421",
+          "lod_threshold": "-1",
+          "rotation_alpha": "1.0",
+          "rotation_offset_global": "<Struct 'Rotator' (0x000002FCFFD0C850) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+          "rotation_offset_local": "<Struct 'Rotator' (0x000002FCFFD0C838) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+          "scale_horizontal": "1.0",
+          "scale_vertical": "1.0",
+          "source_crotch_offset": "0.0",
+          "source_pelvis_bone": "<Struct 'BoneReference' (0x000002FCFFD0C7C8) {}>",
+          "target_crotch_offset": "0.0",
+          "target_pelvis_bone": "<Struct 'BoneReference' (0x000002FCFFD0C7DC) {}>",
+          "translation_alpha": "1.0",
+          "translation_offset_global": "<Struct 'Vector' (0x000002FCFFD0C888) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "translation_offset_local": "<Struct 'Vector' (0x000002FCFFD0C870) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+          "use_ground_falloff": "False"
+        }
+      },
+      {
+        "index": 1,
+        "name": "FK Chains",
+        "enabled": true,
+        "settings": {
+          "type": "IKRetargetFKChainsOpSettings",
+          "text": "<Struct 'IKRetargetFKChainsOpSettings' (0x000002FD878376C0) {enabled: True, lod_threshold: -1, ik_rig_asset: \"/Script/IKRig.IKRigDefinition'/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination'\", chains_to_retarget: ((TargetChainName=\"Spine\"),(TargetChainName=\"Neck\"),(TargetChainName=\"Head\"),(TargetChainName=\"LeftLeg\"),(TargetChainName=\"LeftFoot\"),(TargetChainName=\"LeftClavicle\"),(TargetChainName=\"LeftArm\"),(TargetChainName=\"LeftThumb\"),(TargetChainName=\"LeftIndex\"),(TargetChainName=\"LeftMiddle\"),(TargetChainName=\"LeftRing\"),(TargetChainName=\"LeftPinky\"),(TargetChainName=\"RightLeg\"),(TargetChainName=\"RightFoot\"),(TargetChainName=\"RightClavicle\"),(TargetChainName=\"RightArm\"),(TargetChainName=\"RightThumb\"),(TargetChainName=\"RightIndex\"),(TargetChainName=\"RightMiddle\"),(TargetChainName=\"RightRing\"),(TargetChainName=\"RightPinky\"),(TargetChainName=\"Root\"))}>",
+          "chain_draw_size": "1.0",
+          "chain_draw_thickness": "1.0",
+          "chains_to_retarget": "[{target_chain_name: \"Spine\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"Neck\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"Head\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftLeg\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftFoot\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftClavicle\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftArm\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftThumb\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftIndex\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftMiddle\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftRing\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"LeftPinky\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightLeg\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightFoot\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightClavicle\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightArm\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightThumb\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightIndex\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightMiddle\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightRing\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"RightPinky\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}, {target_chain_name: \"Root\", enable_fk: True, rotation_mode: Interpolated, rotation_alpha: 1.000000, translation_mode: None, translation_alpha: 1.000000}]",
+          "draw_chain_lines": "True",
+          "draw_single_bone_chains": "True",
+          "enabled": "True",
+          "ik_rig_asset": "<Object '/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination' (0x000002FD7DF35700) Class 'IKRigDefinition'>",
+          "lod_threshold": "-1"
+        }
+      },
+      {
+        "index": 2,
+        "name": "Run IK Rig",
+        "enabled": true,
+        "settings": {
+          "type": "IKRetargetRunIKRigOpSettings",
+          "text": "<Struct 'IKRetargetRunIKRigOpSettings' (0x000002FD878374E0) {enabled: True, lod_threshold: -1, chains: ((TargetChainName=\"LeftLeg\"),(TargetChainName=\"LeftArm\"),(TargetChainName=\"RightLeg\"),(TargetChainName=\"RightArm\")), ik_rig_asset: \"/Script/IKRig.IKRigDefinition'/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination'\"}>",
+          "chains": "[{target_chain_name: \"LeftLeg\", enable_ik: True, chain_position_alpha: 1.000000, chain_rotation_alpha: 1.000000, override_goal_alpha: False, final_position_alpha: 1.000000, final_rotation_alpha: 1.000000}, {target_chain_name: \"LeftArm\", enable_ik: True, chain_position_alpha: 1.000000, chain_rotation_alpha: 1.000000, override_goal_alpha: False, final_position_alpha: 1.000000, final_rotation_alpha: 1.000000}, {target_chain_name: \"RightLeg\", enable_ik: True, chain_position_alpha: 1.000000, chain_rotation_alpha: 1.000000, override_goal_alpha: False, final_position_alpha: 1.000000, final_rotation_alpha: 1.000000}, {target_chain_name: \"RightArm\", enable_ik: True, chain_position_alpha: 1.000000, chain_rotation_alpha: 1.000000, override_goal_alpha: False, final_position_alpha: 1.000000, final_rotation_alpha: 1.000000}]",
+          "draw_goal_bone_locations": "True",
+          "draw_goals": "True",
+          "enabled": "True",
+          "goal_draw_size": "5.0",
+          "goal_draw_thickness": "1.0",
+          "ik_rig_asset": "<Object '/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination' (0x000002FD7DF35700) Class 'IKRigDefinition'>",
+          "lod_threshold": "-1"
+        }
+      },
+      {
+        "index": 3,
+        "name": "Root Motion",
+        "enabled": false,
+        "settings": {
+          "type": "IKRetargetRootMotionOpSettings",
+          "text": "<Struct 'IKRetargetRootMotionOpSettings' (0x000002FD18AF3340) {enabled: False, lod_threshold: -1, root_motion_source: CopyFromSourceRoot, rotate_with_pelvis: False, root_height_source: CopyHeightFromSource, global_offset: {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}, maintain_offset_from_pelvis: True, propagate_to_non_retargeted_children: True}>",
+          "enabled": "False",
+          "global_offset": "<Struct 'Transform' (0x000002FD18AF33D0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+          "lod_threshold": "-1",
+          "maintain_offset_from_pelvis": "True",
+          "propagate_to_non_retargeted_children": "True",
+          "root_height_source": "<RootMotionHeightSource.COPY_HEIGHT_FROM_SOURCE: 0>",
+          "root_motion_source": "<RootMotionSource.COPY_FROM_SOURCE_ROOT: 0>",
+          "rotate_with_pelvis": "False",
+          "source_root": "<Struct 'BoneReference' (0x000002FD18AF3388) {}>",
+          "target_pelvis": "<Struct 'BoneReference' (0x000002FD18AF33B4) {}>",
+          "target_root": "<Struct 'BoneReference' (0x000002FD18AF339C) {}>"
+        }
+      },
+      {
+        "index": 4,
+        "name": "Remap Curves",
+        "enabled": true,
+        "settings": {
+          "type": "IKRetargetCurveRemapOpSettings",
+          "text": "<Struct 'IKRetargetCurveRemapOpSettings' (0x000002FD0549BCA0) {enabled: True, lod_threshold: -1, copy_all_source_curves: True, remap_curves: True, curves_to_remap: }>",
+          "copy_all_source_curves": "True",
+          "curves_to_remap": "[]",
+          "enabled": "True",
+          "lod_threshold": "-1",
+          "remap_curves": "True"
+        }
+      }
+    ],
+    "pose_offsets": {
+      "root": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pelvis": [
+        -3.551349020079884e-08,
+        3.864277021756127e-10,
+        -0.018321570918190443,
+        0.9998321459320502
+      ],
+      "spine_01": [
+        0.006102147660918193,
+        7.480735289333072e-10,
+        0.06712373500143004,
+        0.997725998676095
+      ],
+      "spine_02": [
+        0.004066255585665351,
+        2.1288982827180296e-09,
+        -0.052861548398191155,
+        0.9985935722240227
+      ],
+      "spine_03": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "clavicle_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "upperarm_l": [
+        -0.045437972311455126,
+        -2.2336842196687484e-09,
+        0.022295210597974537,
+        0.9987183355297999
+      ],
+      "lowerarm_l": [
+        -0.08337840744949854,
+        -2.616650017378059e-08,
+        0.18947894866921494,
+        0.9783382713952161
+      ],
+      "hand_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "index_01_l": [
+        0.0993080019009994,
+        1.2594292806844168e-08,
+        -0.017661967510593558,
+        0.9948999819409066
+      ],
+      "index_02_l": [
+        -0.22337240429721486,
+        -2.0359450909664528e-07,
+        0.033335920070310394,
+        0.9741629632886676
+      ],
+      "index_03_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "middle_01_l": [
+        0.08311975085700885,
+        3.5236232456327936e-08,
+        -0.014199420889200268,
+        0.9964383991506772
+      ],
+      "middle_02_l": [
+        -0.20021578103395776,
+        3.0404846874180205e-07,
+        0.06838729181765796,
+        0.9773621822468774
+      ],
+      "middle_03_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pinky_01_l": [
+        -0.004244653583262753,
+        1.1452985174752848e-07,
+        0.03633625506069819,
+        0.999330605540862
+      ],
+      "pinky_02_l": [
+        -0.239604563052015,
+        1.2550523088323767e-07,
+        0.06903855913943832,
+        0.9684127938361411
+      ],
+      "pinky_03_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ring_01_l": [
+        0.033199275070751946,
+        -5.197373769517139e-09,
+        0.027256838542524545,
+        0.9990770101888461
+      ],
+      "ring_02_l": [
+        -0.24178635159328285,
+        -2.3356523697525396e-07,
+        0.03743017261967264,
+        0.9696073179442822
+      ],
+      "ring_03_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thumb_01_l": [
+        0.012106541411235036,
+        -3.5677489478303225e-09,
+        -0.012095220504456623,
+        0.999853557893152
+      ],
+      "thumb_02_l": [
+        -0.016769964352769704,
+        -1.5656171914781385e-07,
+        0.08732897595654178,
+        0.9960383628559111
+      ],
+      "thumb_03_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lowerarm_twist_01_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "upperarm_twist_01_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "clavicle_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "upperarm_r": [
+        0.046704415671174705,
+        -5.13273409864414e-08,
+        0.01950316429044292,
+        0.9987183406184623
+      ],
+      "lowerarm_r": [
+        -0.041317423060711934,
+        -3.1961398832949316e-08,
+        0.20205169984177238,
+        0.9785029424854095
+      ],
+      "hand_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "index_01_r": [
+        -0.07667328796897446,
+        1.3959188786463957e-07,
+        -0.07535732912279687,
+        0.9942044459986092
+      ],
+      "index_02_r": [
+        0.18547767156458647,
+        2.3868638630034125e-07,
+        0.08557095861650894,
+        0.9789155458116985
+      ],
+      "index_03_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "middle_01_r": [
+        -0.0666641185219827,
+        2.3703311155890922e-08,
+        -0.008791069207580228,
+        0.9977367451282695
+      ],
+      "middle_02_r": [
+        0.2070149489970377,
+        6.942957640361638e-08,
+        0.029063037294596878,
+        0.9779060049984554
+      ],
+      "middle_03_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pinky_01_r": [
+        0.04043210547747658,
+        -1.8897057165088805e-08,
+        -0.005868612073594567,
+        0.9991650537158212
+      ],
+      "pinky_02_r": [
+        0.2442133089685095,
+        2.996587046166144e-07,
+        -0.006480078604967012,
+        0.969699877106003
+      ],
+      "pinky_03_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ring_01_r": [
+        -0.01376783259825407,
+        1.818840619472228e-07,
+        0.030728309136372096,
+        0.9994329481411964
+      ],
+      "ring_02_r": [
+        0.2504862509168965,
+        4.2980627923980843e-07,
+        -0.016584576221701213,
+        0.9679780884371726
+      ],
+      "ring_03_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thumb_01_r": [
+        0.030376418290392487,
+        5.6101871163283855e-08,
+        0.014709860686949077,
+        0.9994302843725957
+      ],
+      "thumb_02_r": [
+        -0.04725334158336382,
+        6.555744038689034e-09,
+        0.00019736630071054856,
+        0.9988829175901747
+      ],
+      "thumb_03_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lowerarm_twist_01_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "upperarm_twist_01_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "neck_01": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "head": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thigh_l": [
+        0.038955209955143094,
+        -3.345649265914614e-09,
+        -0.017671850882381702,
+        0.9990846783587156
+      ],
+      "calf_l": [
+        -0.01042495502519187,
+        -2.112108527833377e-09,
+        0.014711365003329287,
+        0.9998374347852295
+      ],
+      "calf_twist_01_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "foot_l": [
+        -0.041089184710986035,
+        -5.405541229019619e-08,
+        0.07366725214760952,
+        0.9964360568473595
+      ],
+      "ball_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thigh_twist_01_l": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thigh_r": [
+        -0.038955077036197334,
+        -1.6182135213550688e-09,
+        -0.017671828549382984,
+        0.9990846834839037
+      ],
+      "calf_r": [
+        0.013442350311419127,
+        -5.099085885619047e-10,
+        0.0120164131218134,
+        0.9998374413121933
+      ],
+      "calf_twist_01_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "foot_r": [
+        -0.08222674579987789,
+        3.528009176533319e-08,
+        0.018818066004472795,
+        0.9964359682313584
+      ],
+      "ball_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "thigh_twist_01_r": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "alignment": "UE automatic chain alignment; no actor offset, stature multiplier or unit compensation",
+  "source_root": "pelvis",
+  "target_root": "pelvis"
+}

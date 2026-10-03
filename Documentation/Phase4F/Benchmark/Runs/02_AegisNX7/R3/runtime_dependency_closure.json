@@ -1,0 +1,219 @@
+{
+  "closure": {
+    "seeds": [
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Playback/L_DestinationProof",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd"
+    ],
+    "packages": [
+      "/ACLPlugin/ACLAnimBoneCompressionSettings",
+      "/ACLPlugin/ACLAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+      "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+      "/Engine/BasicShapes/Cube",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Engine/EngineMaterials/BaseFlattenLinearColor",
+      "/Engine/EngineMaterials/DefaultNormal",
+      "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+      "/Engine/EngineMaterials/T_Default_Material_Grid_N",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/EngineResources/DefaultTexture",
+      "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+      "/Engine/Transient",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Playback/L_DestinationProof",
+      "/InterchangeAssets/Functions/MF_PhongToMetalRoughness",
+      "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+      "/Script/ACLPlugin",
+      "/Script/AnimationData",
+      "/Script/AnimationModifiers",
+      "/Script/ControlRig",
+      "/Script/Engine",
+      "/Script/InterchangeEngine",
+      "/Script/MovieScene",
+      "/Script/NavigationSystem"
+    ],
+    "edges": {
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd": [
+        "/Script/Engine",
+        "/Script/MovieScene",
+        "/Script/AnimationModifiers",
+        "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+        "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/ControlRig",
+        "/Script/AnimationData",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination": [
+        "/Script/InterchangeEngine",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination": [
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca": [
+        "/Script/InterchangeEngine",
+        "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Script/InterchangeEngine": [],
+      "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial": [
+        "/Engine/Transient",
+        "/Engine/EngineResources/DefaultTexture",
+        "/Engine/EngineMaterials/DefaultNormal",
+        "/Engine/EngineMaterials/BaseFlattenLinearColor",
+        "/InterchangeAssets/Functions/MF_PhongToMetalRoughness"
+      ],
+      "/InterchangeAssets/Functions/MF_PhongToMetalRoughness": [],
+      "/Engine/EngineMaterials/BaseFlattenLinearColor": [],
+      "/Engine/EngineMaterials/DefaultNormal": [],
+      "/Engine/EngineResources/DefaultTexture": [],
+      "/Engine/Transient": [],
+      "/Script/AnimationData": [],
+      "/Script/ControlRig": [],
+      "/Engine/Animation/DefaultVariableFrameStrippingSettings": [],
+      "/Engine/Animation/DefaultAnimCurveCompressionSettings": [],
+      "/Engine/Animation/DefaultAnimBoneCompressionSettings": [],
+      "/Script/AnimationModifiers": [],
+      "/Script/MovieScene": [],
+      "/Script/Engine": [],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd": [
+        "/Script/MovieScene",
+        "/Script/AnimationModifiers",
+        "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+        "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/ControlRig",
+        "/Script/AnimationData",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle": [
+        "/Script/MovieScene",
+        "/Script/AnimationModifiers",
+        "/Engine/Animation/DefaultAnimBoneCompressionSettings",
+        "/Engine/Animation/DefaultAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/ControlRig",
+        "/Script/AnimationData",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native": [
+        "/Script/MovieScene",
+        "/Script/AnimationModifiers",
+        "/ACLPlugin/ACLAnimBoneCompressionSettings",
+        "/ACLPlugin/ACLAnimCurveCompressionSettings",
+        "/Engine/Animation/DefaultVariableFrameStrippingSettings",
+        "/Script/ControlRig",
+        "/Script/AnimationData",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/ACLPlugin/ACLAnimCurveCompressionSettings": [
+        "/Script/ACLPlugin"
+      ],
+      "/Script/ACLPlugin": [],
+      "/ACLPlugin/ACLAnimBoneCompressionSettings": [
+        "/Script/ACLPlugin"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Playback/L_DestinationProof": [
+        "/Script/NavigationSystem",
+        "/Engine/BasicShapes/Cube",
+        "/Engine/EditorResources/LightIcons/S_LightError",
+        "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination"
+      ],
+      "/Engine/EditorResources/LightIcons/S_LightError": [],
+      "/Engine/BasicShapes/Cube": [
+        "/Script/NavigationSystem",
+        "/Engine/EngineMaterials/WorldGridMaterial"
+      ],
+      "/Engine/EngineMaterials/WorldGridMaterial": [
+        "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "/Engine/EngineMaterials/T_Default_Material_Grid_M",
+        "/Engine/EngineMaterials/T_Default_Material_Grid_N"
+      ],
+      "/Engine/EngineMaterials/T_Default_Material_Grid_N": [],
+      "/Engine/EngineMaterials/T_Default_Material_Grid_M": [],
+      "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade": [],
+      "/Script/NavigationSystem": []
+    },
+    "foreign_game_packages": [],
+    "authoring_packages": []
+  },
+  "certificate": {
+    "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+    "status": "PASS",
+    "explicit_runtime_seeds": [
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Playback/L_DestinationProof"
+    ],
+    "bound_material_roots": [
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca"
+    ],
+    "appearance_packages": [
+      "/Engine/EngineMaterials/BaseFlattenLinearColor",
+      "/Engine/EngineMaterials/DefaultNormal",
+      "/Engine/EngineResources/DefaultTexture",
+      "/Engine/Transient",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca",
+      "/InterchangeAssets/Functions/MF_PhongToMetalRoughness",
+      "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial",
+      "/Script/InterchangeEngine"
+    ],
+    "owned_project_appearance": [
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0",
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca"
+    ],
+    "classes": {
+      "/Engine/EngineMaterials/BaseFlattenLinearColor": [
+        "Texture2D"
+      ],
+      "/Engine/EngineMaterials/DefaultNormal": [
+        "Texture2D"
+      ],
+      "/Engine/EngineResources/DefaultTexture": [
+        "Texture2D"
+      ],
+      "/Engine/Transient": [],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_image_1c5da8ca-01db-4225-b964-d7a4088efe5e_0_0": [
+        "Texture2D"
+      ],
+      "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/Original/Character/tripo_mat_1c5da8ca": [
+        "MaterialInstanceConstant"
+      ],
+      "/InterchangeAssets/Functions/MF_PhongToMetalRoughness": [
+        "MaterialFunction"
+      ],
+      "/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial": [
+        "Material"
+      ]
+    },
+    "errors": [],
+    "foreign_game_packages": []
+  }
+}

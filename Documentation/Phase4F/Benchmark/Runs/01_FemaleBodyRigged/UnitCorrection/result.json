@@ -1,0 +1,519 @@
+{
+  "version": "phase4f.rigged-unit-canonicalisation/1.0.0",
+  "status": "FOCUSED_NATIVE_PASS",
+  "engine": "UE 5.8.3",
+  "character": "Female_Body_Rigged.zip",
+  "full_benchmark_accepted": false,
+  "root_cause": "Scale-free IK retarget/bake local keys were evaluated with REF_POSE root locking that restored the original root scale 100",
+  "generic_method": "Derived isolated reference: root scale one, every non-root local translation multiplied by detected positive isotropic root factor; root translation, rotations, geometry and weights preserved; inverse binds rebuilt and skeleton reference synchronised",
+  "factor": 100.0,
+  "height_cm": 99.95117324217154,
+  "bind_position_max_error_cm": 4.511139116026517e-06,
+  "geometry_skin_identical": true,
+  "live_phases": [
+    {
+      "task": "neutral",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 33,
+      "pelvis_z_range_cm": [
+        52.232040513835436,
+        52.232040513835436
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.3359579066628555e-06,
+      "motion_excursion_cm": {
+        "hand_l": 0.0,
+        "hand_r": 0.0,
+        "foot_l": 0.0,
+        "foot_r": 0.0
+      }
+    },
+    {
+      "task": "idle",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 348,
+      "pelvis_z_range_cm": [
+        51.00189100927486,
+        51.19952279615163
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 1.805561407941525e-06,
+      "motion_excursion_cm": {
+        "hand_l": 2.416525909928502,
+        "hand_r": 1.541433328413947,
+        "foot_l": 0.06038661840835075,
+        "foot_r": 0.06749645104439887
+      }
+    },
+    {
+      "task": "walk",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 164,
+      "pelvis_z_range_cm": [
+        45.55700034510442,
+        50.32485574866528
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.4098552224849357e-06,
+      "motion_excursion_cm": {
+        "hand_l": 29.881103985257397,
+        "hand_r": 27.174288415920405,
+        "foot_l": 46.59639658256164,
+        "foot_r": 47.502281627114094
+      }
+    },
+    {
+      "task": "run",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 169,
+      "pelvis_z_range_cm": [
+        44.559361115438925,
+        49.25998190113518
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.480666928761366e-06,
+      "motion_excursion_cm": {
+        "hand_l": 21.19153592719891,
+        "hand_r": 21.242054784188515,
+        "foot_l": 59.39403503499178,
+        "foot_r": 62.06529642804622
+      }
+    },
+    {
+      "task": "neutral",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 179,
+      "pelvis_z_range_cm": [
+        52.232040513835436,
+        52.232040513835436
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.3359579066628555e-06,
+      "motion_excursion_cm": {
+        "hand_l": 0.0,
+        "hand_r": 0.0,
+        "foot_l": 0.0,
+        "foot_r": 0.0
+      }
+    },
+    {
+      "task": "idle",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 1404,
+      "pelvis_z_range_cm": [
+        51.00177280885725,
+        51.19957208442495
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 1.8056657506981821e-06,
+      "motion_excursion_cm": {
+        "hand_l": 2.4096296511167776,
+        "hand_r": 1.5369803744147161,
+        "foot_l": 0.06011131975143347,
+        "foot_r": 0.06723118530597265
+      }
+    },
+    {
+      "task": "walk",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 692,
+      "pelvis_z_range_cm": [
+        45.54568502411423,
+        50.344265709567445
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.4130622113816003e-06,
+      "motion_excursion_cm": {
+        "hand_l": 30.41701137502504,
+        "hand_r": 27.64601267153801,
+        "foot_l": 47.21641179890007,
+        "foot_r": 48.32520760411274
+      }
+    },
+    {
+      "task": "run",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 700,
+      "pelvis_z_range_cm": [
+        44.55924784813976,
+        49.32268422975792
+      ],
+      "max_root_scale_error": 0.0,
+      "max_segment_length_error_cm": 2.4812378991434514e-06,
+      "motion_excursion_cm": {
+        "hand_l": 20.90404387851839,
+        "hand_r": 20.938461391159496,
+        "foot_l": 59.59476171863011,
+        "foot_r": 62.08968069355356
+      }
+    }
+  ],
+  "baked_phases": [
+    {
+      "role": "neutral",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 11,
+      "pelvis_z_range_cm": [
+        52.12297898827886,
+        52.12297898827886
+      ],
+      "max_limb_length_error_cm": 7.748605881374715e-07,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 0.0,
+        "hand_r": 0.0,
+        "foot_l": 0.0,
+        "foot_r": 0.0
+      }
+    },
+    {
+      "role": "idle",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 332,
+      "pelvis_z_range_cm": [
+        51.00199962104764,
+        52.12297898827886
+      ],
+      "max_limb_length_error_cm": 1.1877499375145817e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 13.974303076793154,
+        "hand_r": 11.282118018150538,
+        "foot_l": 8.5309110454031,
+        "foot_r": 9.415267782858246
+      }
+    },
+    {
+      "role": "walk",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 154,
+      "pelvis_z_range_cm": [
+        45.56393506953072,
+        51.146301967926966
+      ],
+      "max_limb_length_error_cm": 1.1877499375145817e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 26.63024187163184,
+        "hand_r": 18.96706423290236,
+        "foot_l": 39.7544881462134,
+        "foot_r": 36.66359680230208
+      }
+    },
+    {
+      "role": "run",
+      "speed": 1,
+      "status": "PASS",
+      "sample_count": 153,
+      "pelvis_z_range_cm": [
+        44.563564749243476,
+        49.308785060500604
+      ],
+      "max_limb_length_error_cm": 1.1877499375145817e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 23.555315102206194,
+        "hand_r": 29.851890638745623,
+        "foot_l": 33.486834239166974,
+        "foot_r": 65.12125513254256
+      }
+    },
+    {
+      "role": "neutral",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 158,
+      "pelvis_z_range_cm": [
+        47.999008712295144,
+        52.12297898827886
+      ],
+      "max_limb_length_error_cm": 1.1877499364487676e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 11.098144268039954,
+        "hand_r": 18.82545592126102,
+        "foot_l": 13.119012988283448,
+        "foot_r": 44.26619587829877
+      }
+    },
+    {
+      "role": "idle",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 1397,
+      "pelvis_z_range_cm": [
+        51.02837825066942,
+        52.12297898827886
+      ],
+      "max_limb_length_error_cm": 1.1877499375145817e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 13.974598527665023,
+        "hand_r": 11.25101857239933,
+        "foot_l": 8.515812061536694,
+        "foot_r": 9.415685501074147
+      }
+    },
+    {
+      "role": "walk",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 677,
+      "pelvis_z_range_cm": [
+        45.549889351532826,
+        51.12421487010885
+      ],
+      "max_limb_length_error_cm": 1.1877499371593103e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 9.7019951531804,
+        "hand_r": 13.797771532429113,
+        "foot_l": 38.89909712307972,
+        "foot_r": 37.04058077931736
+      }
+    },
+    {
+      "role": "run",
+      "speed": 0.25,
+      "status": "PASS",
+      "sample_count": 681,
+      "pelvis_z_range_cm": [
+        45.58121565142484,
+        48.77212956794386
+      ],
+      "max_limb_length_error_cm": 1.1877499375145817e-05,
+      "max_root_scale_error": 0.0,
+      "motion_excursion_cm": {
+        "hand_l": 26.379284448865363,
+        "hand_r": 32.0648065050045,
+        "foot_l": 41.79289485993478,
+        "foot_r": 68.9160400391632
+      }
+    }
+  ],
+  "destination_clips": [
+    {
+      "role": "neutral",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/Reference_Native.Reference_Native",
+      "duration_s": 1.0,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": null,
+      "purpose": "Own imported reference only"
+    },
+    {
+      "role": "idle",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Idle.MM_Idle",
+      "duration_s": 7.566666603088379,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "walk",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "duration_s": 1.8666666746139526,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "run",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "duration_s": 1.899999976158142,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.SKEL_Canonical",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd",
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    }
+  ],
+  "regressions": {
+    "passed": 9,
+    "total": 9
+  },
+  "protected_files_unchanged": 27129,
+  "original_assets_edited": false,
+  "source_free_native_playback": true,
+  "dependency_closure_foreign_game_packages": [],
+  "remaining_unit_blockers": [],
+  "remaining_quality_scope": "Detailed deformation/contact/fingers/root-motion and package/cook acceptance not established by these four unit-correction tests",
+  "stopped": true,
+  "provenance": [
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MF_Walk_Fwd.uasset",
+      "size_bytes": 369796,
+      "sha256": "ffb58f799983b0595711e94273350c8dda780726a5c5b1d2057b8c6687a824f6"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Idle.uasset",
+      "size_bytes": 1238970,
+      "sha256": "7589f76595c20020337f0d30471fe6f48b691ede61356eb1bb780b567589ac75"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/MM_Run_Fwd.uasset",
+      "size_bytes": 377200,
+      "sha256": "a4be4a2d9fd86bf40b4cecd429a1d96509a04469a822d0fc0d75a947df8fcb2e"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Animations/Reference_Native.uasset",
+      "size_bytes": 62977,
+      "sha256": "71fc530e5cdb66e9cbf7332aa5ee47c33d28d68097bfd6088ee9796e9c3db11c"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SK_Canonical.uasset",
+      "size_bytes": 6362742,
+      "sha256": "e058b4b48b2cb92a97b920873a09144d6da89be4818c5392ae3b4ed66c056c6c"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Character/SKEL_Canonical.uasset",
+      "size_bytes": 14784,
+      "sha256": "d502ccb222b46c31f0ccca6980a788048e383dc65b2a4a09c229f3fb19478fb7"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Live/BP_LiveProof.uasset",
+      "size_bytes": 27379,
+      "sha256": "0f9a3c5ef0dabe8f7b70999898f221739a281eec7d82d077d06d37ee6f004b78"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Live/L_CanonicalProof.umap",
+      "size_bytes": 16788,
+      "sha256": "83e8580954362544611e88cdce159a5697be2cdc62e239af4ac166c036ea94d2"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Playback/L_BakedProof.umap",
+      "size_bytes": 17530,
+      "sha256": "c2a3f93bcd851ac58f0624a450cfe1dbb53ad5cbe27ce599e5448fc38b60f9b6"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Retarget/ABP_CanonicalLive.uasset",
+      "size_bytes": 60197,
+      "sha256": "337e3a42e315b74ed2a536b25d43731005aad088099c5f18f26b1c121a7aef17"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Retarget/IK_Source.uasset",
+      "size_bytes": 140684,
+      "sha256": "43ea18e5fbbca7ef5fd1f056ba065d0c6e30ed0a415fcefde5aafcabf7260c62"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Retarget/IK_Target.uasset",
+      "size_bytes": 64441,
+      "sha256": "2cacf277a42c6c9a62c5c9357a09611d8dd9ff9f1b65ad8636580e8c5e9156d5"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitCorrection/Retarget/RTG_Canonical.uasset",
+      "size_bytes": 20975,
+      "sha256": "75b35cbc9550e3077d7357111c8d44526f11e8e632cccb8be88b37fbc8e08208"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/canonicalisation.json",
+      "size_bytes": 88113,
+      "sha256": "fcd568cf6f558eaeab0d1ec0ee308c73b5bd5bd8f935c6a749931560f8c6384b"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/native_bake.json",
+      "size_bytes": 2480,
+      "sha256": "e5705a880b0e55592a310d86f6910e438eb1281a2668fe18071c04cad18f09a2"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/native_baked_proof.json",
+      "size_bytes": 24126502,
+      "sha256": "47f26f22b4c3d6f2cc3a9ed5a7cf325404a39db7c2f5cf732123abf43b881457"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/native_live_proof.json",
+      "size_bytes": 25804756,
+      "sha256": "a0172edfdee7995e4a351fc115de6b5146266bbbd5eee311e70aa90e2663124e"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/preservation_audit.json",
+      "size_bytes": 3847,
+      "sha256": "403c6612a90f5bd4ad6e46a8bf411fd3ef0059cbd622129e5b66182917ab54c1"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/README.md",
+      "size_bytes": 10230,
+      "sha256": "02acf92bc75a0cd9ba1e808825cb85d793ac33693f8df62623a88644422276c0"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/UnitCorrection/unit_plan_regressions.json",
+      "size_bytes": 1202,
+      "sha256": "11413da45ee30bc796ed4feab8b2957a858ba6d4608fafc8842f3ddf49e39da3"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/audit_unit_preservation.py",
+      "size_bytes": 2537,
+      "sha256": "368a62788621612e198ca2ceaea686e4957101dfb3aa19ba22ba379c4c09374c"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_bake.py",
+      "size_bytes": 3482,
+      "sha256": "3db36d3df2dcba55a419326b3fac1fe941e205bfc3f1dd639f0f73715d66b72b"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_baked_verify.py",
+      "size_bytes": 7631,
+      "sha256": "0f2abed92da886b48a8e2f00563059bf6f67e0040bfaf008214c5af0e4141c68"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_correction.py",
+      "size_bytes": 3177,
+      "sha256": "19a601cb51342205434e21a339f18b6c1a4e05000c0da90b04c277b114caa235"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_live_setup.py",
+      "size_bytes": 6180,
+      "sha256": "aeee3b3b649ed6e654447aff52983d951bba8307a2c3a719f3f55abb21d39b93"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/native_unit_live_verify.py",
+      "size_bytes": 6419,
+      "sha256": "6b18bfd412bb85f3ecca3348dc7f106786652825fedd3e61529465f03d239a82"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/test_unit_plan.py",
+      "size_bytes": 2346,
+      "sha256": "abe90959d0abb404d27419d745402a0fa8b695fb89d08f2e9ffe9fd459a37d14"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitNativeHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/Private/RiggedUnitBridgeLibrary.cpp",
+      "size_bytes": 1613,
+      "sha256": "7ed43634d1e81c656aa1c6263bd2180b609456544fbd278674e76ef73c96c4a4"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitNativeHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/Public/RiggedUnitBridgeLibrary.h",
+      "size_bytes": 632,
+      "sha256": "6011f180a8c6eea64c40ebf116b52b184526b44121f1ed0cb9bc731baa004f22"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/UnitNativeHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/RiggedUnitBridge.Build.cs",
+      "size_bytes": 279,
+      "sha256": "6ac88ee61d5b2d89bb8a97ef71a94b058a894d5ad565d2fc67406a52126a1b47"
+    },
+    {
+      "path": "Working/Phase4F/rigged_unit_canonicalisation.py",
+      "size_bytes": 4241,
+      "sha256": "3456a0cd37d9357916dd29d7f3637c540a7e1def4db6a4dcd82ffab918f33ed2"
+    }
+  ]
+}

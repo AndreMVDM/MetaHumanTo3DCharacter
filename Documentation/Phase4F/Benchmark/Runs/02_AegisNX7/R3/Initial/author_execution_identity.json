@@ -1,0 +1,12 @@
+{
+  "stage": "author",
+  "accepted_source": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py",
+  "accepted_source_sha256": "7cd6282fa5dfc624ca7a791676ead5b1a0d8cd6a16bf37a868f8b8969d07f84d",
+  "profile_sha256": "fca3fd6e5cc4542f27d699e6779f15d6ba0b7182ab794a73b3a3fd6d09eda401",
+  "algorithm_ast_sha256": "bcc0042307136d5772178533203422c4c28c89aa9e4dec14eaf929a2bc94a4f6",
+  "algorithm_unchanged": true,
+  "only_executable_binding_change": {
+    "evidence_directory": "Documentation/Phase4F/Benchmark/Runs/02_AegisNX7/R3/Initial"
+  },
+  "input_output_paths": "Separate R3 config.json; __file__ points to this run profile directory"
+}

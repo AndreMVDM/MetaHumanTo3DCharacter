@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "assets": {
+    "level": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/L_AegisMovementReview",
+    "character": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/BP_AegisMovementReviewCharacter.BP_AegisMovementReviewCharacter",
+    "anim_blueprint": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/ABP_AegisMovementReview.ABP_AegisMovementReview",
+    "game_mode": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement/BP_AegisMovementReviewGameMode.BP_AegisMovementReviewGameMode"
+  },
+  "graph_nodes": [
+    {
+      "role": "Idle",
+      "pins": [
+        "Pose"
+      ],
+      "type": "AnimGraphNode_SequencePlayer"
+    },
+    {
+      "role": "Walk",
+      "pins": [
+        "Pose"
+      ],
+      "type": "AnimGraphNode_SequencePlayer"
+    },
+    {
+      "role": "Run",
+      "pins": [
+        "Pose"
+      ],
+      "type": "AnimGraphNode_SequencePlayer"
+    },
+    {
+      "blend_pins": [
+        "BlendPose_0",
+        "BlendPose_1",
+        "BlendTime_0",
+        "BlendTime_1",
+        "bActiveValue",
+        "Pose"
+      ]
+    }
+  ],
+  "sequence_catalogue": [
+    "Animation|Sequences|Evaluate'MF_Walk_Fwd'",
+    "Animation|Sequences|Play'MF_Walk_Fwd'",
+    "Animation|Sequences|Evaluate'MM_Idle'",
+    "Animation|Sequences|Play'MM_Idle'",
+    "Animation|Sequences|Evaluate'MM_Run_Fwd'",
+    "Animation|Sequences|Play'MM_Run_Fwd'"
+  ],
+  "walk_speed_cm_s": 300,
+  "run_speed_cm_s": 600,
+  "accepted_assets_modified": false
+}

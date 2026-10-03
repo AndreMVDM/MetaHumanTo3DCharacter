@@ -1,0 +1,19 @@
+{
+  "version": "phase4f.animation-library/1.0.0",
+  "evidence_directory": "Documentation/FinalAcceptance/FemaleBodyRigged",
+  "output_namespace": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance",
+  "animation_subdirectory": "Animations/LibraryV1",
+  "destination_mesh": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SK_Destination",
+  "destination_skeleton": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Character/SKEL_Destination",
+  "source_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+  "accepted_retargeter": "/Game/MetaHumanTo3DCharacter/RiggedCharacters/FemaleBodyRigged/FinalAcceptance/R2_EndToEnd/Retarget/RTG_MannyToDestination",
+  "discovery_roots": [
+    "/Game/Characters/Mannequins",
+    "/Game/MetaHumanTo3DCharacter/RiggedCharacters/AegisNX7/R4/Sources/InstalledMannequins"
+  ],
+  "existing_review_namespace": "/Game/MetaHumanTo3DCharacter/HumanReview/AegisMovement",
+  "root_bone": "root",
+  "pelvis_bone": "pelvis",
+  "review_walk_speed": 300,
+  "review_run_speed": 600
+}

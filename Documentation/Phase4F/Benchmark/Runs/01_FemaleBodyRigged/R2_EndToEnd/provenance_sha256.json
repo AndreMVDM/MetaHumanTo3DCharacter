@@ -1,0 +1,252 @@
+{
+  "version": "phase4f.rigged-character-r2/1.0.0",
+  "status": "PASS",
+  "purpose": "R2 output/source evidence manifest; does not amend or replace any frozen protocol",
+  "files": [
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MF_Walk_Fwd.uasset",
+      "size_bytes": 369837,
+      "sha256": "f65885fa63b385f5bf783428c12484b3303c434537a7890f0d070a64f586b672"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Idle.uasset",
+      "size_bytes": 1239011,
+      "sha256": "bb41139aa76e0a99c3d37f5d324ef11b310dc038b7ed1f2dc1492fe20a7b4a30"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/MM_Run_Fwd.uasset",
+      "size_bytes": 377241,
+      "sha256": "0759b4fe188e6bd661717d0b512f3e4cccfc3a97fb192802e8d95af3bda4e7ad"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Animations/Reference_Native.uasset",
+      "size_bytes": 63011,
+      "sha256": "80f64c2b3c7bf9dcb154e1b28fb4c155f6616fb85344b93049dcb001f22204f9"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SK_Destination.uasset",
+      "size_bytes": 6362770,
+      "sha256": "552b80215776b1f1297bb3e4cb9e5be8ee6666977ccb3a8d3c42f52f938b524b"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Character/SKEL_Destination.uasset",
+      "size_bytes": 14812,
+      "sha256": "eed7a8b3248b783da45d4dab0e39e26cf012693f241b3efd3efbdcf455f49258"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Playback/L_DestinationProof.umap",
+      "size_bytes": 17892,
+      "sha256": "761733ad86d15a6620de686a3d2255da0ee50c2301842e53916b046103b0f3a0"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/IK_Destination.uasset",
+      "size_bytes": 64481,
+      "sha256": "2388ff56c6a49a2976cb7ed4689ba017aebd8f593bfc07c467c8fbdd16647b73"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/IK_MannySource.uasset",
+      "size_bytes": 140710,
+      "sha256": "7ff78de2c58f65bafd1497abc1ff37a4065fbca4b12c52001b93cae19a32553d"
+    },
+    {
+      "path": "Content/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2_EndToEnd/Final/Retarget/RTG_MannyToDestination.uasset",
+      "size_bytes": 21050,
+      "sha256": "3858ac526838efc5d082d66af0e35a3135ee0d13cec74c560bf9b974beed90e4"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/animation_bake.json",
+      "size_bytes": 3020,
+      "sha256": "9acec683e6c4ff7c81830ab4f56312951bf76b5a9a495606bf4dab4a3bb9dea1"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/authoring_attempt_001.json",
+      "size_bytes": 1259,
+      "sha256": "83450dd453b346e86736eee520ef111467fce586ea6d1b57340fb1d7afc23e84"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/authoring_attempt_002.json",
+      "size_bytes": 1462,
+      "sha256": "e4cfb6a979588966a920097bcf846ed2039c5bb05b4fb7d4d04c83ea8032d7e8"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/authoring_result.json",
+      "size_bytes": 80649,
+      "sha256": "189ac8ca5abb5c1c67b34c85216c51fb8b7f59e066dc40e23d2b8b235d0b6ca4"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/baseline.json",
+      "size_bytes": 6328774,
+      "sha256": "0c7b21f2c901252a434afc205f860c1ea3bcfb05ba7c81c04b6320dccfe5a2f7"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/canonicalisation.json",
+      "size_bytes": 93260,
+      "sha256": "170fba301326af7d8b4dcf52e85d3cd4df661f6553b21bc782a0079f7554e7d8"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/ik_rig.json",
+      "size_bytes": 75994,
+      "sha256": "e109f4b137b93332686eff5af43673ba18135518b9c03610a582a89598044010"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/input_validation.json",
+      "size_bytes": 76263,
+      "sha256": "d230aaa713476075b2a1ec5a6a27e3d3da24c832012e6f1408e9295a75495787"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/input_validation_failure.json",
+      "size_bytes": 1120,
+      "sha256": "35c1e6c937d7b8828e573045fec8f9d096e3d1849b5750427edb2ce2f7a74b8d"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/manny_source.json",
+      "size_bytes": 184309,
+      "sha256": "0b98bfbe15e9b1d4d059857ac55ca5085749e8626d5380f3d9f96ea3f57e7215"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/native_playback.json",
+      "size_bytes": 3179346,
+      "sha256": "63dd14d1aa50e49f4e42091b44788e822d5df81317141ab680f228920679d2f5"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/native_playback_initial.json",
+      "size_bytes": 2938423,
+      "sha256": "a42c7910345f204fc23b497c83968dbcaca7cd4081995bdb08a3cf1fe8280ffb"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/idle_0.25.png",
+      "size_bytes": 873761,
+      "sha256": "dddc6ab564e3b94c288bea7ad09c4b26afe095684abac53351842e6917e6c11c"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/idle_0.65.png",
+      "size_bytes": 873694,
+      "sha256": "55fda77edef4004eecb5965491c8815f76827d4654bc53de6f643ef9f25d12e9"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/neutral_0.25.png",
+      "size_bytes": 877426,
+      "sha256": "021f09c46c8dfeb3d19dc47f824b2c9f604039b50b9670f74f8fac1c07ac89ad"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/neutral_0.65.png",
+      "size_bytes": 877426,
+      "sha256": "021f09c46c8dfeb3d19dc47f824b2c9f604039b50b9670f74f8fac1c07ac89ad"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/run_0.25.png",
+      "size_bytes": 876185,
+      "sha256": "e078ee99d70c1f727e077ebdf209809d595757e38ad0b7a0eef90353a9a034d2"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/run_0.65.png",
+      "size_bytes": 875229,
+      "sha256": "55d1e28e8a91f209518a426ca2d39cd10b3fbfe3648ed4530fe8da2d541a7403"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/walk_0.25.png",
+      "size_bytes": 874806,
+      "sha256": "2a51f4fe41d812cf0ca44fc50316e5481c9824ef9899bd018a1f704164c47356"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/NativePlayback/walk_0.65.png",
+      "size_bytes": 873566,
+      "sha256": "0ef5f303dcc56a8dcb33becda756e91a8ff627b2ad08fb2c097ce7c47eef31d2"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/preservation_audit.json",
+      "size_bytes": 2848,
+      "sha256": "18059fed9b83741e18d8b84b2dd87d340e3b65490f88e41cf50f7212438fadb2"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/README.md",
+      "size_bytes": 17274,
+      "sha256": "5b6760d470ba7015bf0938d2594051170c8c1bb9e45963f7e80249fcab6e28cd"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/result.json",
+      "size_bytes": 8989,
+      "sha256": "ac846bebddf8c9375497e1d7cff831ec00269cb6f5791a4e854cd0c4abd979bb"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/result_initial.json",
+      "size_bytes": 8989,
+      "sha256": "0f298c9c7da9abd6bc4a49429182c8cb5db116947d595b682655bc226ad22947"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/retarget_setup.json",
+      "size_bytes": 21009,
+      "sha256": "1f4e77a73c54d3970bbc5fc54dc3f9480098358b6abb731b118806e79e65344f"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/self_review.json",
+      "size_bytes": 1737,
+      "sha256": "bf27039f074e7aded547728d9575311e949183f68bff17a9c91613656d016514"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/semantic_mapping.json",
+      "size_bytes": 11340,
+      "sha256": "e5bd1565ed4e728c8635116a639c857d7a6dcf2db6c6bb1bc668d5fc892f70a2"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/semantic_mapping_failure.json",
+      "size_bytes": 728,
+      "sha256": "06df64eddfd839584c97563b03ef2364fefa6d6e2dc5cf65a6579cd661eb9554"
+    },
+    {
+      "path": "Documentation/Phase4F/Benchmark/Runs/01_FemaleBodyRigged/R2_EndToEnd/unit_classification.json",
+      "size_bytes": 193,
+      "sha256": "09f098e77c00987a02a250ad01ca5af1a3239a5e49a59f698a86d727d42d7571"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/author.py",
+      "size_bytes": 19436,
+      "sha256": "7cd6282fa5dfc624ca7a791676ead5b1a0d8cd6a16bf37a868f8b8969d07f84d"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/AuthoringHost/AuthoringHost.uproject",
+      "size_bytes": 100,
+      "sha256": "932c175b22eaa1c191f03ed963d299de6bf5ea13a6916a203a7fbb747ae1694c"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/AuthoringHost/Plugins/RiggedUnitBridge/RiggedUnitBridge.uplugin",
+      "size_bytes": 278,
+      "sha256": "54c6e561e662f2ac60d413ea8b0662475f35042d37a1dc3db956324373a7ad25"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/AuthoringHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/Private/RiggedUnitBridgeLibrary.cpp",
+      "size_bytes": 3041,
+      "sha256": "239f51d9abfbb743d18a42f42fa30132e75014381ba464ad27c8537bfc3eadfd"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/AuthoringHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/Public/RiggedUnitBridgeLibrary.h",
+      "size_bytes": 1048,
+      "sha256": "0b934c3794b01588386dbe3d6b95cd726a0467897dfed4d0bd255e38cec7d465"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/AuthoringHost/Plugins/RiggedUnitBridge/Source/RiggedUnitBridge/RiggedUnitBridge.Build.cs",
+      "size_bytes": 287,
+      "sha256": "ca5d2ddf510993a65dc19dd15097009a67797559bf02ef08991834956e220997"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/config.json",
+      "size_bytes": 831,
+      "sha256": "70be5bde450cf75c8c1ccc4e80c987e0e69c274ffabaec3ad57bda0a790f73f3"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/finalise.py",
+      "size_bytes": 7176,
+      "sha256": "07bd368281a6de5f92aa22a6b4e6dce2e4d8a75571adf45364b917be1b9ce5ed"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/playback.py",
+      "size_bytes": 13459,
+      "sha256": "522eb5db4ecccd8f09f2ed6bda345fec1abb96d43d023b141300fe330974a55e"
+    },
+    {
+      "path": "Working/Phase4F/BenchmarkRuns/01_FemaleBodyRigged/R2/run.ps1",
+      "size_bytes": 2890,
+      "sha256": "f6005e1ace021f42e56c24028a8d9609a669f8bd83d086fe69ae4327ba691b39"
+    }
+  ]
+}

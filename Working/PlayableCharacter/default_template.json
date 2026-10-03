@@ -1,0 +1,8 @@
+{
+  "schema": "phase4f.playable-generator-registry/1.0.0",
+  "default_version": "phase4f.rigged-playable-locomotion/1.0.0",
+  "entry_point": "LocomotionV1/generate.py",
+  "implementation": "LocomotionV1/generator.py",
+  "implementation_sha256": "6152c9ee1d38a675ba41fcf653a27fc6d3c235df08e8f5afba42d44f3b20cc92",
+  "historical_review_builders": "Preserved for historical reproduction; future wizard output uses this default front door."
+}

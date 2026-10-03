@@ -1,0 +1,353 @@
+{
+  "version": "phase4f.rigged-character-r3/1.0.0",
+  "classification": "GENERALISATION_PASS_WITH_GENERIC_FIX",
+  "status": "PASS",
+  "first_unchanged_R2_run": {
+    "authoring": "PASS",
+    "dependency_gate": "FAIL",
+    "native_playback": "NOT_RUN",
+    "evidence": "Initial/native_playback.json",
+    "diagnosis": "initial_failure_diagnosis.json"
+  },
+  "generic_fix": {
+    "version": "phase4f.rigged-runtime-appearance-closure/1.0.0",
+    "helper_sha256": "00761af0435ecd94a73a5962418571714146c26e32f780fa87b4040fff672b98",
+    "accepted_R2_files_modified": false,
+    "scope": "Runtime ownership only: explicitly bound typed appearance dependency closure; no transform, semantic, retarget or bake edits"
+  },
+  "stage_matrix": [
+    {
+      "stage": "source_and_input_contract",
+      "status": "PASS"
+    },
+    {
+      "stage": "input_validation",
+      "status": "PASS"
+    },
+    {
+      "stage": "unit_classification",
+      "status": "PASS"
+    },
+    {
+      "stage": "canonicalisation",
+      "status": "PASS"
+    },
+    {
+      "stage": "semantic_mapping",
+      "status": "PASS"
+    },
+    {
+      "stage": "ik_rig",
+      "status": "PASS"
+    },
+    {
+      "stage": "manny_source",
+      "status": "PASS"
+    },
+    {
+      "stage": "retarget_setup",
+      "status": "PASS"
+    },
+    {
+      "stage": "animation_bake",
+      "status": "PASS"
+    },
+    {
+      "stage": "authored_stature_preservation",
+      "status": "PASS"
+    },
+    {
+      "stage": "appearance_UV_material_preservation",
+      "status": "PASS"
+    },
+    {
+      "stage": "native_four_clip_playback_and_fresh_reload",
+      "status": "PASS"
+    },
+    {
+      "stage": "typed_destination_runtime_closure",
+      "status": "PASS"
+    },
+    {
+      "stage": "generic_ownership_regression_controls",
+      "status": "PASS"
+    },
+    {
+      "stage": "Female_input_unit_semantics_replay",
+      "status": "PASS"
+    },
+    {
+      "stage": "Female_fresh_native_regression",
+      "status": "PASS"
+    },
+    {
+      "stage": "preservation",
+      "status": "PASS"
+    }
+  ],
+  "assets": {
+    "mesh": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SK_Destination.SK_Destination",
+    "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+    "target_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_Destination.IK_Destination",
+    "source_rig": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/IK_MannySource.IK_MannySource",
+    "retargeter": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Retarget/RTG_MannyToDestination.RTG_MannyToDestination"
+  },
+  "clips": [
+    {
+      "role": "neutral",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/Reference_Native.Reference_Native",
+      "source": null,
+      "duration_s": 1.0,
+      "frame_rate": [
+        60,
+        1
+      ],
+      "keys": 61,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination"
+    },
+    {
+      "role": "idle",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Idle.MM_Idle",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Idle",
+      "duration_s": 7.566666603088379,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 228,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "walk",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MF_Walk_Fwd.MF_Walk_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MF_Walk_Fwd",
+      "duration_s": 1.8666666746139526,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 57,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    },
+    {
+      "role": "run",
+      "path": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Animations/MM_Run_Fwd.MM_Run_Fwd",
+      "source": "/Game/MetaHumanTo3DCharacter/Phase3B/SourceAnimations/InPlace/MM_Run_Fwd",
+      "duration_s": 1.899999976158142,
+      "frame_rate": [
+        30,
+        1
+      ],
+      "keys": 58,
+      "skeleton": "/Game/MetaHumanTo3DCharacter/Phase4F/BenchmarkRuns/02_AegisNX7/R2_EndToEnd/Initial/Character/SKEL_Destination.SKEL_Destination",
+      "all_bone_keys_finite": true,
+      "root_keys_unit_scale": true,
+      "root_flags": {
+        "enable_root_motion": "False",
+        "force_root_lock": "True",
+        "root_motion_root_lock": "<RootMotionRootLock.REF_POSE: 0>"
+      }
+    }
+  ],
+  "scale": {
+    "reported_18_classification": "baked_into_geometry_or_reference",
+    "evidence": "Source vertices already span approximately 1.799121 metres in source local Z; no standalone 1.8 model/import/scene factor exists. Historical multiplication by exactly 1.8 cannot be established without an unscaled predecessor.",
+    "stature_classification": "intrinsic_size_already_correct",
+    "additional_stature_normalisation": false,
+    "source_units": {
+      "UpAxis": [
+        1
+      ],
+      "UpAxisSign": [
+        1
+      ],
+      "FrontAxis": [
+        2
+      ],
+      "FrontAxisSign": [
+        1
+      ],
+      "CoordAxis": [
+        0
+      ],
+      "CoordAxisSign": [
+        1
+      ],
+      "OriginalUpAxis": [
+        -1
+      ],
+      "OriginalUpAxisSign": [
+        1
+      ],
+      "UnitScaleFactor": [
+        100.0
+      ],
+      "OriginalUnitScaleFactor": [
+        100.0
+      ],
+      "AmbientColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DefaultCamera": [
+        "Producer Perspective"
+      ],
+      "TimeMode": [
+        11
+      ],
+      "TimeSpanStart": [
+        0
+      ],
+      "TimeSpanStop": [
+        46186158000
+      ],
+      "CustomFrameRate": [
+        24.0
+      ]
+    },
+    "import_settings": {
+      "import_uniform_scale": "1.0",
+      "import_translation": "<Struct 'Vector' (0x000001801BBBA920) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "import_rotation": "<Struct 'Rotator' (0x000001801BBBA938) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "convert_scene": "True",
+      "convert_scene_unit": "False",
+      "force_front_x_axis": "False"
+    },
+    "original_root_reference": {
+      "translation": [
+        0.35139443352818484,
+        1.0541725903749466,
+        6.8637845629382355e-06
+      ],
+      "rotation_xyzw": [
+        0.5000000346961812,
+        0.4999999215208787,
+        -0.4999999653038172,
+        -0.5000000784791082
+      ],
+      "scale": [
+        100.00000000000253,
+        100.00000000000036,
+        100.00000000000296
+      ]
+    },
+    "original_scene": {
+      "actor_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "component_relative_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "component_world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_actor": null,
+      "parent_contribution": [
+        1,
+        1,
+        1
+      ],
+      "effective_world_height_cm": 179.91210982641414,
+      "intrinsic_height_cm": 179.91210982641414
+    },
+    "final_intrinsic_height_cm": 179.91210982641414,
+    "final_root_reference_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "final_actor_scale": [
+      1,
+      1,
+      1
+    ],
+    "final_component_scale": [
+      1,
+      1,
+      1
+    ],
+    "effective_final_reference_height_cm": 179.91210982641414
+  },
+  "comparison": {
+    "Female_Body_Rigged": {
+      "height_cm": 99.95117324217154,
+      "bones": 61,
+      "vertices": 27699,
+      "triangles": 52540,
+      "unit_factor": 100.0,
+      "bindings": 23,
+      "native_regression": "PASS"
+    },
+    "Aegis_NX7": {
+      "height_cm": 179.91210982641414,
+      "bones": 61,
+      "vertices": 26230,
+      "triangles": 51785,
+      "unit_factor": 100.00000000000193,
+      "bindings": 23,
+      "native": "PASS"
+    }
+  },
+  "observations": {
+    "status": "DIAGNOSTIC_ONLY",
+    "native_captures_reviewed": true,
+    "visual": "Reference, idle, walk and run captures preserve white/dark/cyan robotic appearance, distinct locomotion poses and plausible limb orientation. No gross inversion/explosion or obvious tearing seen in these frontal samples.",
+    "limitations": "Frontal still samples and native transform/bounds telemetry do not certify all-time rigid armour behaviour, hidden intersections, finger independence, natural thumb opposition or detailed contact quality.",
+    "contact": "Sampled posed mesh minima include about 1.03 cm penetration in idle, 0.72 cm in walk and about 1.02 cm clearance in run. These are single snapshot mesh-bound diagnostics, not stance-certified sole metrics or contact acceptance.",
+    "repairs_performed": false,
+    "full_deformation_quality_accepted": false,
+    "finger_thumb_quality": "NOT_RUN",
+    "source_contact_caveats_preserved": true
+  },
+  "regression": {
+    "synthetic": 20,
+    "synthetic_total": 20,
+    "Female_read_only_checks": 10,
+    "Female_read_only_status": "PASS",
+    "Female_native_status": "PASS"
+  },
+  "preservation": {
+    "status": "PASS",
+    "protected_count": 38111,
+    "changed": [],
+    "missing": [],
+    "git_preserved": true
+  },
+  "manual_character_intervention": {
+    "bone_renames": 0,
+    "reparenting": 0,
+    "semantic_assignments": 0,
+    "retarget_tuning": 0,
+    "scale_multipliers": 0,
+    "skin_repairs": 0,
+    "material_edits": 0
+  },
+  "elapsed_wall_seconds": 1294.369657,
+  "active_time": "NOT_MEASURED",
+  "completed_utc": "2026-10-03T09:38:18.523088+00:00",
+  "other_subjects_started": false,
+  "full_quality_accepted": false,
+  "cook_package_tested": false,
+  "stopped_at_R3_boundary": true
+}
